@@ -1,0 +1,1849 @@
+{
+  "metadata": {
+    "method_name": "Paul westwood 2-5",
+    "total_songs": 86,
+    "has_mp3": false,
+    "mp3_count": 0,
+    "generated_at": "2025-11-10T15:06:37.120Z",
+    "version": "4.0.0",
+    "ocr_method": "zoned",
+    "zones": {
+      "title": {
+        "enabled": true,
+        "range": "0-20%",
+        "stats": {
+          "processed": 86,
+          "success": 0
+        }
+      },
+      "music": {
+        "enabled": false,
+        "range": "20-90%",
+        "stats": {
+          "processed": 0,
+          "success": 0
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "range": "90-100%",
+        "stats": {
+          "processed": 0,
+          "success": 0
+        }
+      }
+    },
+    "ocr_config": {
+      "language": "fra",
+      "confidence_threshold": 60
+    }
+  },
+  "songs": [
+    {
+      "title": "Page 1",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 1,
+      "page_url": "assets/pages/page_001.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 2",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 2,
+      "page_url": "assets/pages/page_002.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 3",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 3,
+      "page_url": "assets/pages/page_003.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 4",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 4,
+      "page_url": "assets/pages/page_004.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 5",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 5,
+      "page_url": "assets/pages/page_005.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 6",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 6,
+      "page_url": "assets/pages/page_006.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 7",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 7,
+      "page_url": "assets/pages/page_007.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 8",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 8,
+      "page_url": "assets/pages/page_008.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 9",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 9,
+      "page_url": "assets/pages/page_009.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 10",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 10,
+      "page_url": "assets/pages/page_010.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 11",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 11,
+      "page_url": "assets/pages/page_011.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 12",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 12,
+      "page_url": "assets/pages/page_012.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 13",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 13,
+      "page_url": "assets/pages/page_013.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 14",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 14,
+      "page_url": "assets/pages/page_014.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 15",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 15,
+      "page_url": "assets/pages/page_015.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 16",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 16,
+      "page_url": "assets/pages/page_016.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 17",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 17,
+      "page_url": "assets/pages/page_017.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 18",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 18,
+      "page_url": "assets/pages/page_018.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 19",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 19,
+      "page_url": "assets/pages/page_019.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 20",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 20,
+      "page_url": "assets/pages/page_020.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 21",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 21,
+      "page_url": "assets/pages/page_021.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 22",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 22,
+      "page_url": "assets/pages/page_022.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 23",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 23,
+      "page_url": "assets/pages/page_023.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 24",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 24,
+      "page_url": "assets/pages/page_024.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 25",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 25,
+      "page_url": "assets/pages/page_025.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 26",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 26,
+      "page_url": "assets/pages/page_026.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 27",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 27,
+      "page_url": "assets/pages/page_027.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 28",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 28,
+      "page_url": "assets/pages/page_028.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 29",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 29,
+      "page_url": "assets/pages/page_029.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 30",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 30,
+      "page_url": "assets/pages/page_030.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 31",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 31,
+      "page_url": "assets/pages/page_031.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 32",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 32,
+      "page_url": "assets/pages/page_032.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 33",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 33,
+      "page_url": "assets/pages/page_033.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 34",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 34,
+      "page_url": "assets/pages/page_034.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 35",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 35,
+      "page_url": "assets/pages/page_035.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 36",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 36,
+      "page_url": "assets/pages/page_036.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 37",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 37,
+      "page_url": "assets/pages/page_037.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 38",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 38,
+      "page_url": "assets/pages/page_038.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 39",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 39,
+      "page_url": "assets/pages/page_039.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 40",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 40,
+      "page_url": "assets/pages/page_040.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 41",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 41,
+      "page_url": "assets/pages/page_041.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 42",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 42,
+      "page_url": "assets/pages/page_042.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 43",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 43,
+      "page_url": "assets/pages/page_043.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 44",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 44,
+      "page_url": "assets/pages/page_044.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 45",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 45,
+      "page_url": "assets/pages/page_045.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 46",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 46,
+      "page_url": "assets/pages/page_046.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 47",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 47,
+      "page_url": "assets/pages/page_047.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 48",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 48,
+      "page_url": "assets/pages/page_048.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 49",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 49,
+      "page_url": "assets/pages/page_049.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 50",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 50,
+      "page_url": "assets/pages/page_050.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 51",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 51,
+      "page_url": "assets/pages/page_051.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 52",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 52,
+      "page_url": "assets/pages/page_052.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 53",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 53,
+      "page_url": "assets/pages/page_053.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 54",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 54,
+      "page_url": "assets/pages/page_054.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 55",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 55,
+      "page_url": "assets/pages/page_055.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 56",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 56,
+      "page_url": "assets/pages/page_056.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 57",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 57,
+      "page_url": "assets/pages/page_057.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 58",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 58,
+      "page_url": "assets/pages/page_058.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 59",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 59,
+      "page_url": "assets/pages/page_059.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 60",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 60,
+      "page_url": "assets/pages/page_060.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 61",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 61,
+      "page_url": "assets/pages/page_061.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 62",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 62,
+      "page_url": "assets/pages/page_062.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 63",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 63,
+      "page_url": "assets/pages/page_063.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 64",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 64,
+      "page_url": "assets/pages/page_064.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 65",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 65,
+      "page_url": "assets/pages/page_065.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 66",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 66,
+      "page_url": "assets/pages/page_066.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 67",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 67,
+      "page_url": "assets/pages/page_067.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 68",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 68,
+      "page_url": "assets/pages/page_068.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 69",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 69,
+      "page_url": "assets/pages/page_069.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 70",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 70,
+      "page_url": "assets/pages/page_070.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 71",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 71,
+      "page_url": "assets/pages/page_071.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 72",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 72,
+      "page_url": "assets/pages/page_072.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 73",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 73,
+      "page_url": "assets/pages/page_073.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 74",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 74,
+      "page_url": "assets/pages/page_074.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 75",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 75,
+      "page_url": "assets/pages/page_075.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 76",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 76,
+      "page_url": "assets/pages/page_076.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 77",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 77,
+      "page_url": "assets/pages/page_077.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 78",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 78,
+      "page_url": "assets/pages/page_078.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 79",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 79,
+      "page_url": "assets/pages/page_079.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 80",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 80,
+      "page_url": "assets/pages/page_080.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 81",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 81,
+      "page_url": "assets/pages/page_081.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 82",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 82,
+      "page_url": "assets/pages/page_082.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 83",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 83,
+      "page_url": "assets/pages/page_083.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 84",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 84,
+      "page_url": "assets/pages/page_084.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 85",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 85,
+      "page_url": "assets/pages/page_085.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 86",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 86,
+      "page_url": "assets/pages/page_086.jpg",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "jpg",
+      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    }
+  ]
+}

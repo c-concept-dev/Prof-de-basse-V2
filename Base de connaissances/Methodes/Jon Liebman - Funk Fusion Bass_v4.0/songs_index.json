@@ -1,0 +1,2059 @@
+{
+  "metadata": {
+    "method_name": "Jon Liebman - Funk Fusion Bass",
+    "total_songs": 96,
+    "has_mp3": false,
+    "mp3_count": 0,
+    "generated_at": "2025-11-10T09:31:56.624Z",
+    "version": "4.0.0",
+    "ocr_method": "zoned",
+    "zones": {
+      "title": {
+        "enabled": true,
+        "range": "0-20%",
+        "stats": {
+          "processed": 96,
+          "success": 0
+        }
+      },
+      "music": {
+        "enabled": false,
+        "range": "20-90%",
+        "stats": {
+          "processed": 0,
+          "success": 0
+        }
+      },
+      "footer": {
+        "enabled": true,
+        "range": "90-100%",
+        "stats": {
+          "processed": 0,
+          "success": 0
+        }
+      }
+    },
+    "ocr_config": {
+      "language": "eng+fra",
+      "confidence_threshold": 60
+    }
+  },
+  "songs": [
+    {
+      "title": "Page 1",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 1,
+      "page_url": "assets/pages/page_001.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 2",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 2,
+      "page_url": "assets/pages/page_002.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 3",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 3,
+      "page_url": "assets/pages/page_003.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 4",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 4,
+      "page_url": "assets/pages/page_004.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 5",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 5,
+      "page_url": "assets/pages/page_005.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 6",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 6,
+      "page_url": "assets/pages/page_006.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 7",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 7,
+      "page_url": "assets/pages/page_007.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 8",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 8,
+      "page_url": "assets/pages/page_008.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 9",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 9,
+      "page_url": "assets/pages/page_009.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 10",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 10,
+      "page_url": "assets/pages/page_010.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 11",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 11,
+      "page_url": "assets/pages/page_011.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 12",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 12,
+      "page_url": "assets/pages/page_012.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 13",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 13,
+      "page_url": "assets/pages/page_013.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 14",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 14,
+      "page_url": "assets/pages/page_014.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 15",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 15,
+      "page_url": "assets/pages/page_015.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 16",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 16,
+      "page_url": "assets/pages/page_016.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 17",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 17,
+      "page_url": "assets/pages/page_017.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 18",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 18,
+      "page_url": "assets/pages/page_018.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 19",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 19,
+      "page_url": "assets/pages/page_019.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 20",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 20,
+      "page_url": "assets/pages/page_020.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 21",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 21,
+      "page_url": "assets/pages/page_021.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 22",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 22,
+      "page_url": "assets/pages/page_022.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 23",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 23,
+      "page_url": "assets/pages/page_023.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 24",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 24,
+      "page_url": "assets/pages/page_024.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 25",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 25,
+      "page_url": "assets/pages/page_025.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 26",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 26,
+      "page_url": "assets/pages/page_026.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 27",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 27,
+      "page_url": "assets/pages/page_027.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 28",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 28,
+      "page_url": "assets/pages/page_028.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 29",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 29,
+      "page_url": "assets/pages/page_029.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 30",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 30,
+      "page_url": "assets/pages/page_030.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 31",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 31,
+      "page_url": "assets/pages/page_031.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 32",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 32,
+      "page_url": "assets/pages/page_032.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 33",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 33,
+      "page_url": "assets/pages/page_033.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 34",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 34,
+      "page_url": "assets/pages/page_034.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 35",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 35,
+      "page_url": "assets/pages/page_035.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 36",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 36,
+      "page_url": "assets/pages/page_036.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 37",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 37,
+      "page_url": "assets/pages/page_037.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 38",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 38,
+      "page_url": "assets/pages/page_038.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 39",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 39,
+      "page_url": "assets/pages/page_039.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 40",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 40,
+      "page_url": "assets/pages/page_040.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 41",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 41,
+      "page_url": "assets/pages/page_041.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 42",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 42,
+      "page_url": "assets/pages/page_042.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 43",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 43,
+      "page_url": "assets/pages/page_043.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 44",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 44,
+      "page_url": "assets/pages/page_044.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 45",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 45,
+      "page_url": "assets/pages/page_045.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 46",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 46,
+      "page_url": "assets/pages/page_046.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 47",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 47,
+      "page_url": "assets/pages/page_047.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 48",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 48,
+      "page_url": "assets/pages/page_048.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 49",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 49,
+      "page_url": "assets/pages/page_049.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 50",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 50,
+      "page_url": "assets/pages/page_050.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 51",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 51,
+      "page_url": "assets/pages/page_051.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 52",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 52,
+      "page_url": "assets/pages/page_052.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 53",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 53,
+      "page_url": "assets/pages/page_053.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 54",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 54,
+      "page_url": "assets/pages/page_054.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 55",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 55,
+      "page_url": "assets/pages/page_055.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 56",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 56,
+      "page_url": "assets/pages/page_056.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 57",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 57,
+      "page_url": "assets/pages/page_057.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 58",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 58,
+      "page_url": "assets/pages/page_058.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 59",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 59,
+      "page_url": "assets/pages/page_059.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 60",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 60,
+      "page_url": "assets/pages/page_060.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 61",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 61,
+      "page_url": "assets/pages/page_061.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 62",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 62,
+      "page_url": "assets/pages/page_062.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 63",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 63,
+      "page_url": "assets/pages/page_063.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 64",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 64,
+      "page_url": "assets/pages/page_064.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 65",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 65,
+      "page_url": "assets/pages/page_065.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 66",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 66,
+      "page_url": "assets/pages/page_066.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 67",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 67,
+      "page_url": "assets/pages/page_067.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 68",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 68,
+      "page_url": "assets/pages/page_068.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 69",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 69,
+      "page_url": "assets/pages/page_069.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 70",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 70,
+      "page_url": "assets/pages/page_070.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 71",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 71,
+      "page_url": "assets/pages/page_071.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 72",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 72,
+      "page_url": "assets/pages/page_072.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 73",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 73,
+      "page_url": "assets/pages/page_073.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 74",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 74,
+      "page_url": "assets/pages/page_074.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 75",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 75,
+      "page_url": "assets/pages/page_075.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 76",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 76,
+      "page_url": "assets/pages/page_076.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 77",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 77,
+      "page_url": "assets/pages/page_077.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 78",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 78,
+      "page_url": "assets/pages/page_078.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 79",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 79,
+      "page_url": "assets/pages/page_079.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 80",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 80,
+      "page_url": "assets/pages/page_080.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 81",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 81,
+      "page_url": "assets/pages/page_081.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 82",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 82,
+      "page_url": "assets/pages/page_082.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 83",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 83,
+      "page_url": "assets/pages/page_083.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 84",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 84,
+      "page_url": "assets/pages/page_084.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 85",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 85,
+      "page_url": "assets/pages/page_085.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 86",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 86,
+      "page_url": "assets/pages/page_086.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 87",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 87,
+      "page_url": "assets/pages/page_087.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 88",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 88,
+      "page_url": "assets/pages/page_088.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 89",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 89,
+      "page_url": "assets/pages/page_089.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 90",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 90,
+      "page_url": "assets/pages/page_090.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 91",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 91,
+      "page_url": "assets/pages/page_091.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 92",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 92,
+      "page_url": "assets/pages/page_092.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 93",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 93,
+      "page_url": "assets/pages/page_093.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 94",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 94,
+      "page_url": "assets/pages/page_094.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 95",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 95,
+      "page_url": "assets/pages/page_095.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    },
+    {
+      "title": "Page 96",
+      "tonalite": null,
+      "track_number": null,
+      "page_number": 96,
+      "page_url": "assets/pages/page_096.png",
+      "mp3_url": null,
+      "techniques": [],
+      "composer": null,
+      "confidence": 0,
+      "ocr_raw": "",
+      "format": "png",
+      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
+      "zones": {
+        "title": null,
+        "music": {
+          "skipped": true
+        },
+        "footer": null
+      }
+    }
+  ]
+}
