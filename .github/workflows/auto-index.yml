@@ -1,0 +1,90 @@
+name: 🔍 Auto-Index & OCR Scan
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'Methodes/**'
+      - 'Theorie/**'
+      - 'Pratique/**'
+      - 'Arpeges/**'
+      - 'Harmonie/**'
+      - '**/*.json'
+  workflow_dispatch:
+
+jobs:
+  mega-scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Install dependencies
+        run: |
+          pip install Pillow pytesseract beautifulsoup4 lxml
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-fra tesseract-ocr-eng
+      
+      - name: 📊 ÉTAPE 1 - Scan structure
+        run: python3 .github/scripts/mega-scanner.py
+        continue-on-error: true
+      
+      - name: 🔍 ÉTAPE 2 - OCR sur images
+        run: |
+          cd Prof-de-basse-OCR
+          python3 ocr_scanner_v2.py
+        continue-on-error: true
+      
+      - name: 🔗 ÉTAPE 3 - Fusion index
+        run: python3 fusion-all-indexes.py
+      
+      - name: 🎨 ÉTAPE 4 - Génération index.html
+        run: python3 .github/scripts/auto-index-generator.py
+        continue-on-error: true
+      
+      - name: 📈 Afficher statistiques
+        run: |
+          echo "=== STATISTIQUES FINALES ==="
+          if [ -f mega-search-index.json ]; then
+            echo "✅ mega-search-index.json généré"
+            python3 << 'PYEOF'
+          import json
+          data = json.load(open('mega-search-index.json'))
+          total = data.get('total_resources', len(data.get('all_resources', [])))
+          print(f'📊 Total ressources: {total}')
+          PYEOF
+          fi
+          if [ -f scan-report.json ]; then
+            echo "✅ scan-report.json généré"
+          fi
+          if [ -f Prof-de-basse-OCR/search_index_ocr.json ]; then
+            echo "✅ search_index_ocr.json généré"
+          fi
+      
+      - name: 💾 Commit results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add mega-search-index.json 2>/dev/null || true
+          git add scan-report.json 2>/dev/null || true
+          git add Prof-de-basse-OCR/search_index_ocr.json 2>/dev/null || true
+          git add Methodes/*/index.html 2>/dev/null || true
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Auto-update: index complet [skip ci]"
+          else
+            echo "Aucun changement à commiter"
+          fi
+      
+      - name: 🚀 Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
