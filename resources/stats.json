@@ -1,0 +1,38 @@
+{
+  "total_mp3": 363,
+  "total_pdf": 0,
+  "total_realbooks": 4,
+  "total_songs": 517,
+  "by_method": {
+    "70 Funk & Disco bass MP3": 99,
+    "Paul westwood MP3": 165,
+    "John Liebman Funk Fusion Mp3": 99
+  },
+  "by_level": {
+    "intermediate": 50,
+    "beginner": 30,
+    "advanced": 118,
+    "unknown": 165
+  },
+  "by_style": {
+    "unknown": 289,
+    "jazz": 10,
+    "blues": 8,
+    "funk": 4,
+    "reggae": 16,
+    "soul": 4,
+    "latin": 12,
+    "rock": 16,
+    "motown": 4
+  },
+  "realbooks": {
+    "Unknown": {
+      "total_songs": 49,
+      "path": "Methodes/aebersold-FRENCH_converted/songs_index.json"
+    },
+    "Realbook Bass F_with_index": {
+      "total_songs": 354,
+      "path": "Methodes/Reabook/Realbook Bass F_with_index/songs_index.json"
+    }
+  }
+}

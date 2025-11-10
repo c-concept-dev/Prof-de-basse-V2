@@ -1,0 +1,9 @@
+# Fichiers temporaires OCR
+leptonica-*.txt
+*.pyc
+__pycache__/
+.DS_Store
+
+# Fichiers de backup
+*.bak
+*.backup
