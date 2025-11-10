@@ -1,0 +1,133 @@
+name: 🔍 Auto OCR Assets Scanner
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  ocr-scan:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install Tesseract OCR
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-eng tesseract-ocr-fra
+          tesseract --version
+      
+      - name: 📚 Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install Pillow pytesseract beautifulsoup4 lxml
+      
+      - name: 🔍 Count images in assets folders
+        run: |
+          echo "📊 Counting images in assets folders..."
+          find . -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" \) -path "*/assets/*" ! -path "./.git/*" | wc -l
+      
+      - name: 🎯 Run OCR Assets Scanner
+        run: |
+          echo "🔍 Starting OCR scan on assets folders..."
+          echo "⚠️  Only scanning images in **/assets/** folders"
+          python3 ocr-assets-scanner.py --repo . --output assets_ocr_index.json
+          echo "✅ OCR scan completed"
+      
+      - name: 📊 Display OCR results
+        run: |
+          if [ -f assets_ocr_index.json ]; then
+            echo "✅ OCR Index created successfully"
+            echo ""
+            echo "📈 Quick stats:"
+            grep -o '"total_scanned":[0-9]*' assets_ocr_index.json || true
+            grep -o '"new_scans":[0-9]*' assets_ocr_index.json || true
+          else
+            echo "❌ OCR index not created"
+          fi
+      
+      - name: 🔄 Merge all indexes
+        run: |
+          echo "🔄 Merging all JSON indexes..."
+          if [ -f fusion-all-indexes.py ]; then
+            python3 fusion-all-indexes.py --repo . --output mega-search-index.json
+            echo "✅ mega-search-index.json updated"
+          else
+            echo "⚠️  fusion-all-indexes.py not found, skipping merge"
+          fi
+      
+      - name: 📊 Display mega-index stats
+        run: |
+          if [ -f mega-search-index.json ]; then
+            echo "✅ Mega Index created successfully"
+            echo ""
+            echo "📈 Quick stats:"
+            grep -o '"total_resources":[0-9]*' mega-search-index.json || true
+            grep -o '"with_ocr":[0-9]*' mega-search-index.json || true
+          else
+            echo "❌ Mega index not created"
+          fi
+      
+      - name: 💾 Commit and Push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add assets_ocr_index.json mega-search-index.json || true
+          
+          if git diff --staged --quiet; then
+            echo "📝 No changes to commit"
+          else
+            echo "💾 Committing changes..."
+            git commit -m "🔍 Auto-update: OCR assets scan + indexes [skip ci]"
+            
+            echo "📥 Pulling latest changes..."
+            git pull --rebase origin main || true
+            
+            echo "📤 Pushing changes..."
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ Changes pushed successfully"
+                break
+              else
+                echo "⚠️  Push failed (attempt $i/3), retrying..."
+                sleep 5
+                git pull --rebase origin main || true
+              fi
+            done
+          fi
+      
+      - name: 📈 Final Summary
+        if: always()
+        run: |
+          echo ""
+          echo "=================================================="
+          echo "🎸 Prof de Basse - OCR Assets Scan Complete"
+          echo "=================================================="
+          echo ""
+          if [ -f assets_ocr_index.json ]; then
+            echo "✅ OCR Index: assets_ocr_index.json"
+          else
+            echo "❌ OCR Index: NOT CREATED"
+          fi
+          if [ -f mega-search-index.json ]; then
+            echo "✅ Mega Index: mega-search-index.json"
+          else
+            echo "❌ Mega Index: NOT CREATED"
+          fi
+          echo ""
+          echo "🔗 View workflow: https://github.com/${{ github.repository }}/actions"
+          echo "=================================================="
