@@ -72,13 +72,13 @@ Prof-de-basse-V2/
 ### 70s Funk & Disco Bass
 - **Tracks** : 99 fichiers (Track 01 à Track 99)
 - **Format** : "Track XX.mp3" (espace + 2 chiffres)
-- **URL base** : `https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/70%20Funk%20&%20Disco%20bass%20MP3/`
+- **URL base** : `https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/70%20Funk%20&%20Disco%20bass%20MP3/`
 - **Encodage** : Espaces = `%20`, & = non encodé
 
 **Exemple d'URLs** :
 ```
-https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/70%20Funk%20&%20Disco%20bass%20MP3/Track%2001.mp3
-https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/70%20Funk%20&%20Disco%20bass%20MP3/Track%2045.mp3
+https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/70%20Funk%20&%20Disco%20bass%20MP3/Track%2001.mp3
+https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/70%20Funk%20&%20Disco%20bass%20MP3/Track%2045.mp3
 ```
 
 ### Organisation par niveau
@@ -149,7 +149,7 @@ https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/70%20Funk%20&%20Disco%20
 
 ```bash
 # 1. Ajouter fichiers dans Base de connaissances/
-cp nouvelles_ressources/* Base\ de\ connaissances/Methodes/
+cp nouvelles_ressources/* Base\ de\ connaissances/Base de connaissances/Base de connaissances/Methodes/
 
 # 2. Commit et push
 git add .
@@ -197,7 +197,7 @@ git push origin main
 ```
 https://11drumboy11.github.io/Prof-de-basse-V2/mega-search-index.json
 https://11drumboy11.github.io/Prof-de-basse-V2/resources/complete-resource-map.json
-https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/[méthode]/[fichier]
+https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/[méthode]/[fichier]
 ```
 
 ---

@@ -269,7 +269,7 @@ Fais-moi un cours 5 parties sur le lien entre So What et le funk
 **3. Je te retourne :**
 ```
 ## PARTIE 1 : ÉCHAUFFEMENT
-🎵 [Track 05 - Funk Groove](https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2005.mp3)
+🎵 [Track 05 - Funk Groove](https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2005.mp3)
 
 ## PARTIE 2 : THÉORIE
 📄 [Gamme Dorien](https://11drumboy11.github.io/.../gammes_modales.pdf)
