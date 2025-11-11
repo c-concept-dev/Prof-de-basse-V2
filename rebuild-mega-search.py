@@ -31,15 +31,15 @@ mega_index = {
 }
 
 # Trouver tous les songs_index.json
-base_path = Path("Base de connaissances")
-songs_indexes = list(base_path.glob("**/songs_index.json"))
+base_path = Path(".")
+songs_indexes = list(base_path.glob("Base de connaissances/**/songs_index.json"))
 
 print(f"\n📂 Trouvé {len(songs_indexes)} fichiers songs_index.json\n")
 
 for songs_file in sorted(songs_indexes):
     try:
         # Chemin relatif depuis la racine du repo
-        relative_path = songs_file.parent.relative_to(Path.cwd())
+        relative_path = songs_file.parent
         
         print(f"   📄 {relative_path}/")
         
