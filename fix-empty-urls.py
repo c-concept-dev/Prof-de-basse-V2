@@ -73,7 +73,7 @@ def fix_urls(input_file='search-index-compatible.json', output_file='megasearch.
         resource['url'] = new_url
         fixed += 1
         
-        if fixed <= 3:  # Montrer les 3 premières
+        if fixed <= 3:
             print(f"   ✅ [{fixed}] {resource.get('title', 'Sans titre')[:40]}")
             print(f"       Path: {path}")
             print(f"       URL:  {new_url[:80]}...")
@@ -86,7 +86,6 @@ def fix_urls(input_file='search-index-compatible.json', output_file='megasearch.
     # Sauvegarder
     print(f"\n💾 Sauvegarde dans {output_file}...")
     
-    # S'assurer qu'on a les bonnes stats
     if 'metadata' not in data:
         data['metadata'] = {}
     
@@ -103,14 +102,12 @@ def fix_urls(input_file='search-index-compatible.json', output_file='megasearch.
     file_size = Path(output_file).stat().st_size / 1024
     print(f"✅ Fichier sauvegardé: {file_size:.1f} KB")
     
-    # Vérifier quelques URLs
     print(f"\n🔍 Vérification échantillon:")
     for i in range(min(3, len(resources))):
         resource = resources[i]
         url = resource.get('url', '')
         title = resource.get('title', 'Sans titre')[:40]
         
-        # Vérifier que l'URL commence bien par https
         if url.startswith('https://'):
             print(f"   ✅ [{i+1}] URL valide - {title}")
         else:
@@ -122,7 +119,6 @@ def fix_urls(input_file='search-index-compatible.json', output_file='megasearch.
 if __name__ == '__main__':
     import sys
     
-    # Paramètres
     input_file = sys.argv[1] if len(sys.argv) > 1 else 'search-index-compatible.json'
     output_file = sys.argv[2] if len(sys.argv) > 2 else 'megasearch.json'
     
