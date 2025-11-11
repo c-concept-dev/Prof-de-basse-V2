@@ -180,7 +180,7 @@ class MegaIndexFusionV3:
     
     def build_url(self, resource: Dict, source_path: Path = None) -> str:
         """Construit l'URL complète GitHub Pages"""
-        base_url = "https://11drumboy11.github.io/Prof-de-basse/"
+        base_url = "https://11drumboy11.github.io/Prof-de-basse-V2/"
         
         # Chercher le chemin - essayer plusieurs clés
         path = resource.get("url", "")
@@ -598,7 +598,7 @@ class MegaIndexFusionV3:
     
     def build_url(self, resource: Dict, source_path: Path = None) -> str:
         """Construit l'URL complète GitHub Pages"""
-        base_url = "https://11drumboy11.github.io/Prof-de-basse/"
+        base_url = "https://11drumboy11.github.io/Prof-de-basse-V2/"
         
         # Chercher le chemin - essayer plusieurs clés
         path = resource.get("url", "")

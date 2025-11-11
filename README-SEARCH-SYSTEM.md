@@ -15,7 +15,7 @@ Système de recherche ultra-rapide qui permet de trouver **INSTANTANÉMENT** n'i
 ## 📦 FICHIERS CRÉÉS
 
 ```
-Prof-de-basse/
+Prof-de-basse-V2/
 ├── mega-search-index.json           # ← INDEX FUSIONNÉ DE TOUT
 ├── fusion-all-indexes.py            # ← Script de fusion
 ├── search-engine-pro.js             # ← Moteur de recherche JavaScript
@@ -72,7 +72,7 @@ cp advanced-search.html Prof-de-basse-OCR/
 **Structure finale :**
 
 ```
-Prof-de-basse/
+Prof-de-basse-V2/
 ├── index.html                      # ← Nouvelle page d'accueil avec recherche
 ├── advanced-search.html            # ← Page recherche avancée
 ├── search-engine-pro.js            # ← Moteur JavaScript

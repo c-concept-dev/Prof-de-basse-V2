@@ -91,7 +91,7 @@ class URLFixer:
         """Corrige les URLs GitHub Pages"""
         print("🔧 Correction des URLs GitHub Pages...")
         
-        old_base = "https://11drumboy11.github.io/Prof-de-basse/"
+        old_base = "https://11drumboy11.github.io/Prof-de-basse-V2/"
         new_base = "https://11drumboy11.github.io/Prof-de-basse-V2/"
         
         files = self.find_files(['.html', '.js', '.json', '.md'])
@@ -186,7 +186,7 @@ class URLFixer:
             for key, value in obj.items():
                 if isinstance(value, str) and ('http://' in value or 'https://' in value):
                     # Corriger l'URL
-                    new_value = value.replace('Prof-de-basse/', 'Prof-de-basse-V2/')
+                    new_value = value.replace('Prof-de-basse-V2/', 'Prof-de-basse-V2/')
                     new_value = re.sub(r' ', '%20', new_value)
                     if new_value != value:
                         obj[key] = new_value
@@ -197,7 +197,7 @@ class URLFixer:
         elif isinstance(obj, list):
             for i, item in enumerate(obj):
                 if isinstance(item, str) and ('http://' in item or 'https://' in item):
-                    new_item = item.replace('Prof-de-basse/', 'Prof-de-basse-V2/')
+                    new_item = item.replace('Prof-de-basse-V2/', 'Prof-de-basse-V2/')
                     new_item = re.sub(r' ', '%20', new_item)
                     if new_item != item:
                         obj[i] = new_item
