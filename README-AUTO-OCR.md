@@ -187,7 +187,7 @@ Pour chaque image, l'OCR détecte :
   "id": "Realbook_Bass_F/assets/page_0374.jpg",
   "title": "So What - Miles Davis",
   "type": "image",
-  "url": "https://11drumboy11.github.io/Prof-de-basse/Methodes/Reabook/Realbook%20Bass%20F_with_index/assets/page_0374.jpg",
+  "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Methodes/Reabook/Realbook%20Bass%20F_with_index/assets/page_0374.jpg",
   "metadata": {
     "composer": "Miles Davis",
     "key": "Dm",
