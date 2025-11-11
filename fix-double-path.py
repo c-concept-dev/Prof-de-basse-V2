@@ -13,8 +13,7 @@ fixed = 0
 for resource in data['resources']:
     path = resource.get('path', '')
     
-    # Enlever "Base de connaissances/Base de connaissances/" 
-    # et remplacer par juste "Base de connaissances/"
+    # Enlever le doublon
     if 'Base de connaissances/Base de connaissances/' in path:
         new_path = path.replace('Base de connaissances/Base de connaissances/', 'Base de connaissances/')
         resource['path'] = new_path
@@ -27,8 +26,6 @@ for resource in data['resources']:
         fixed += 1
         if fixed <= 3:
             print(f"   ✅ [{fixed}] {resource['title'][:40]}")
-            print(f"       Ancien: ...Base de connaissances/Base de connaissances/...")
-            print(f"       Nouveau: ...Base de connaissances/...")
 
 print(f"\n📊 {fixed} URLs corrigées")
 
@@ -36,8 +33,5 @@ with open('megasearch.json', 'w') as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 print("✅ megasearch.json mis à jour")
-
-# Afficher exemple d'URL corrigée
-if data['resources']:
-    print("\n🔍 Exemple d'URL corrigée:")
-    print(data['resources'][0]['url'])
+print("\n🔍 Exemple d'URL corrigée:")
+print(data['resources'][0]['url'][:100] + "...")

@@ -399,7 +399,7 @@
             
             try {
                 // Charger les ressources
-                const response = await fetch('search-index-compatible.json');
+                const response = await fetch('megasearch.json');
                 
                 if (!response.ok) {
                     throw new Error(`Erreur HTTP: ${response.status}`);
@@ -422,7 +422,7 @@
                 
             } catch (error) {
                 console.error('❌ Erreur chargement:', error);
-                showError('Erreur lors du chargement des ressources. Vérifiez que search-index-compatible.json existe.');
+                showError('Erreur lors du chargement des ressources. Vérifiez que megasearch.json existe.');
             }
         }
         

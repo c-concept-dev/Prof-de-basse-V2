@@ -1,186 +1,94 @@
 #!/usr/bin/env python3
-"""
-Correction COMPLÈTE de tous les chemins du repo
-Ancienne structure → Nouvelle structure (Base de connaissances/)
-"""
 import json
-import os
-import re
-from pathlib import Path
+import urllib.parse
 
-# Mappings complets de correction
-PATH_MAPPINGS = {
-    # MP3
-    'Methodes/70%20Funk%20%26%20Disco%20bass%20MP3': 'Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3',
-    'Methodes/John%20Liebman%20Funk%20Fusion%20Mp3': 'Base%20de%20connaissances/MP3/John%20Liebman%20Funk%20Fusion%20Mp3',
-    'Methodes/Paul%20westwood%20MP3': 'Base%20de%20connaissances/MP3/Paul%20westwood%20MP3',
+BASE_URL = 'https://11drumboy11.github.io/Prof-de-basse-V2/'
+
+print("🔧 Correction complète des chemins...")
+
+# 1. Corriger assets_ocr_index.json
+print("\n1️⃣ Correction de assets_ocr_index.json...")
+with open('assets_ocr_index.json', 'r') as f:
+    assets_data = json.load(f)
+
+resources_dict = assets_data.get('resources', {})
+new_resources = {}
+
+for old_key, resource_data in resources_dict.items():
+    old_file = resource_data.get('file', '')
     
-    # Versions non-encodées (pour fichiers texte)
-    'Methodes/70 Funk & Disco bass MP3': 'Base de connaissances/MP3/70 Funk & Disco bass MP3',
-    'Methodes/John Liebman Funk Fusion Mp3': 'Base de connaissances/MP3/John Liebman Funk Fusion Mp3',
-    'Methodes/Paul westwood MP3': 'Base de connaissances/MP3/Paul westwood MP3',
+    # Enlever le doublon
+    new_file = old_file.replace('Base%20de%20connaissances/Base%20de%20connaissances/', 'Base%20de%20connaissances/')
+    new_key = new_file
     
-    # Méthodes PDF (si elles existent)
-    'Methodes/': 'Base%20de%20connaissances/Methodes/',
+    resource_data['file'] = new_file
+    new_resources[new_key] = resource_data
+
+assets_data['resources'] = new_resources
+
+with open('assets_ocr_index.json', 'w') as f:
+    json.dump(assets_data, f, ensure_ascii=False, indent=2)
+
+print(f"   ✅ {len(new_resources)} clés corrigées")
+
+# 2. Régénérer megasearch.json
+print("\n2️⃣ Régénération de megasearch.json...")
+resources_array = []
+
+for resource_id, resource_data in new_resources.items():
+    file_path = resource_data.get('file', '')
+    decoded_path = urllib.parse.unquote(file_path)
     
-    # Partitions
-    'Partitions/': 'Base%20de%20connaissances/Partitions/',
+    parts = decoded_path.split('/')
+    encoded_parts = [urllib.parse.quote(part, safe='') for part in parts]
+    url = BASE_URL + '/'.join(encoded_parts)
     
-    # Théorie
-    'Theorie/': 'Base%20de%20connaissances/Theorie/',
+    metadata = resource_data.get('metadata', {})
+    search_parts = [
+        resource_data.get('title', ''),
+        metadata.get('ocr_text', ''),
+        metadata.get('composer', ''),
+        metadata.get('key', '')
+    ]
+    search_text = ' '.join(filter(None, search_parts)).lower()
+    
+    resource = {
+        'id': resource_id,
+        'type': resource_data.get('type', 'image'),
+        'title': resource_data.get('title', 'Sans titre'),
+        'path': decoded_path,
+        'url': url,
+        'filename': decoded_path.split('/')[-1],
+        'metadata': metadata,
+        'searchText': search_text
+    }
+    
+    resources_array.append(resource)
+
+megasearch = {
+    'metadata': {
+        'version': '3.0.3',
+        'stats': {
+            'total_resources': len(resources_array)
+        }
+    },
+    'resources': resources_array
 }
 
-def fix_json_file(filepath):
-    """Corrige les chemins dans un fichier JSON"""
-    print(f"\n🔧 {filepath}")
-    
-    if not os.path.exists(filepath):
-        print(f"   ⚠️  Fichier non trouvé")
-        return False
-    
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        original_content = content
-        changes = 0
-        
-        # Appliquer tous les mappings
-        for old_path, new_path in PATH_MAPPINGS.items():
-            if old_path in content:
-                occurrences = content.count(old_path)
-                content = content.replace(old_path, new_path)
-                changes += occurrences
-                if occurrences > 0:
-                    print(f"   ✅ {occurrences}× {old_path[:50]}...")
-        
-        if content != original_content:
-            # Valider le JSON
-            try:
-                json.loads(content)
-            except json.JSONDecodeError as e:
-                print(f"   ❌ JSON invalide après modification : {e}")
-                return False
-            
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(content)
-            print(f"   💾 Sauvegardé ({changes} modifications)")
-            return True
-        else:
-            print(f"   ℹ️  Aucune modification")
-            return False
-            
-    except Exception as e:
-        print(f"   ❌ Erreur : {e}")
-        return False
+with open('megasearch.json', 'w') as f:
+    json.dump(megasearch, f, ensure_ascii=False, indent=2)
 
-def fix_text_file(filepath):
-    """Corrige les chemins dans un fichier texte/markdown/HTML"""
-    print(f"\n🔧 {filepath}")
-    
-    if not os.path.exists(filepath):
-        print(f"   ⚠️  Fichier non trouvé")
-        return False
-    
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        original_content = content
-        changes = 0
-        
-        # Appliquer tous les mappings (versions décodées pour texte)
-        text_mappings = {
-            'Methodes/70 Funk & Disco bass MP3': 'Base de connaissances/MP3/70 Funk & Disco bass MP3',
-            'Methodes/John Liebman Funk Fusion Mp3': 'Base de connaissances/MP3/John Liebman Funk Fusion Mp3',
-            'Methodes/Paul westwood MP3': 'Base de connaissances/MP3/Paul westwood MP3',
-            '/Methodes/': '/Base de connaissances/Methodes/',
-            '/Partitions/': '/Base de connaissances/Partitions/',
-            '/Theorie/': '/Base de connaissances/Theorie/',
-        }
-        
-        for old_path, new_path in text_mappings.items():
-            if old_path in content:
-                occurrences = content.count(old_path)
-                content = content.replace(old_path, new_path)
-                changes += occurrences
-                if occurrences > 0:
-                    print(f"   ✅ {occurrences}× {old_path[:50]}...")
-        
-        if content != original_content:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(content)
-            print(f"   💾 Sauvegardé ({changes} modifications)")
-            return True
-        else:
-            print(f"   ℹ️  Aucune modification")
-            return False
-            
-    except Exception as e:
-        print(f"   ❌ Erreur : {e}")
-        return False
+print(f"   ✅ {len(resources_array)} ressources générées")
 
-def main():
-    print("="*70)
-    print("🔧 CORRECTION COMPLÈTE DES CHEMINS")
-    print("   Ancienne structure → Base de connaissances/")
-    print("="*70)
-    
-    # Fichiers à corriger
-    files_to_fix = [
-        # JSON
-        ('mega-search-index.json', 'json'),
-        ('resources/complete-resource-map.json', 'json'),
-        ('assets_ocr_index.json', 'json'),
-        
-        # Documentation
-        ('README.md', 'text'),
-        ('README-SYSTEM.md', 'text'),
-        ('README-SEARCH-SYSTEM.md', 'text'),
-        ('README-AUTO-OCR.md', 'text'),
-        
-        # HTML d'instructions
-        ('prof-de-basse-core-system-v3-FINAL.html', 'text'),
-        ('github-resources-complete-map-v3-CORRECTED.html', 'text'),
-        ('mp3-inline-integration.html', 'text'),
-        ('structure-pedagogique-5-parties-v2.html', 'text'),
-        
-        # Scripts Python
-        ('fix-urls.py', 'text'),
-        ('fix-repo-paths.py', 'text'),
-        ('fusion-all-indexes.py', 'text'),
-    ]
-    
-    fixed_count = 0
-    for filepath, file_type in files_to_fix:
-        if file_type == 'json':
-            if fix_json_file(filepath):
-                fixed_count += 1
-        else:
-            if fix_text_file(filepath):
-                fixed_count += 1
-    
-    print("\n" + "="*70)
-    print(f"✅ CORRECTION TERMINÉE : {fixed_count} fichiers modifiés")
-    print("="*70)
-    
-    if fixed_count > 0:
-        print("\n📝 PROCHAINES ÉTAPES :")
-        print("\n1. Vérifier les modifications :")
-        print("   git diff mega-search-index.json | head -50")
-        
-        print("\n2. Tester un MP3 :")
-        print('   curl -I "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2001.mp3"')
-        
-        print("\n3. Commiter et pusher :")
-        print("   git add .")
-        print('   git commit -m "Fix: Correction COMPLÈTE des chemins vers Base de connaissances/"')
-        print("   git push origin main")
-        
-        print("\n4. Re-vérifier le système :")
-        print("   python3 verify-prof-basse.py")
-    
-    print()
+# 3. Vérification
+print("\n3️⃣ Vérification...")
+for r in resources_array:
+    if 'aebersold' in r['path']:
+        print(f"   Titre: {r['title'][:50]}")
+        print(f"   Path: {r['path']}")
+        print(f"   URL: {r['url']}")
+        has_double = 'Base%20de%20connaissances/Base%20de%20connaissances' in r['url']
+        print(f"   ✅ Pas de doublon" if not has_double else "   ❌ Doublon présent")
+        break
 
-if __name__ == '__main__':
-    main()
+print("\n✅ CORRECTION TERMINÉE")
