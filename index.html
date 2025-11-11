@@ -560,7 +560,7 @@
                 console.log('✅ Index loaded:', data);
                 
                 allResources = data.resources || [];
-                treeData = data.tree || {};
+                treeData = data.resources || {};
                 filteredResources = allResources;
                 
                 updateStats(data.metadata.stats);
