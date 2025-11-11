@@ -17,7 +17,7 @@ Système **100% automatique** qui scanne les images de partitions, extrait les m
 ## 📦 FICHIERS CRÉÉS
 
 ```
-Prof-de-basse/
+Prof-de-basse-V2/
 ├── ocr-assets-scanner.py              # ← Script OCR principal
 ├── fusion-all-indexes-v3.py           # ← Fusion améliorée (intègre OCR)
 ├── assets_ocr_index.json              # ← Index OCR généré
@@ -71,7 +71,7 @@ cp auto-ocr-assets.yml .github/workflows/
 **1. Sur GitHub.com :**
 
 ```
-https://github.com/11drumboy11/Prof-de-basse/actions
+https://github.com/11drumboy11/Prof-de-basse-V2/actions
 ```
 
 Tu devrais voir le workflow "🔍 Auto OCR Assets Scanner" qui se lance automatiquement !

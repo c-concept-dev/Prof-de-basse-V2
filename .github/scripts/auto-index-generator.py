@@ -178,7 +178,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             <div class="header-info"><p>{description}</p></div>
         </header>
         <nav>
-            <a href="https://11drumboy11.github.io/Prof-de-basse/">🏠 Accueil</a>
+            <a href="https://11drumboy11.github.io/Prof-de-basse-V2/">🏠 Accueil</a>
             <a href="#stats">📊 Stats</a>
             <a href="#exercises">🎵 Exercices</a>
             <a href="https://github.com/11drumboy11/Prof-de-basse">📚 GitHub</a>
