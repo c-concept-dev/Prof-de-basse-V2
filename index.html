@@ -436,7 +436,7 @@
             return resources.map(resource => {
                 // Construire l'URL complète
                 const path = resource.path || resource.filename || '';
-                const url = path ? BASE_URL + 'Base de connaissances/Base de connaissances/' + path : '';
+                const url = resource.url || '';
                 
                 // Créer le texte de recherche
                 const searchText = [
