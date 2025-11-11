@@ -743,10 +743,10 @@
                     </div>
                     
                     <div class="result-actions">
-                        <button class="action-btn primary" onclick="event.stopPropagation(); openResourceDirect('${resource.url || resource.page_url}')">
+                        <button class="action-btn primary" onclick="event.stopPropagation(); openResourceDirect('${resource.url || resource.page_url || resource.file_path || ""}')">
                             🔗 Ouvrir
                         </button>
-                        <button class="action-btn" onclick="event.stopPropagation(); copyUrl('${resource.url || resource.page_url}')">
+                        <button class="action-btn" onclick="event.stopPropagation(); copyUrl('${resource.url || resource.page_url || resource.file_path || ""}')">
                             📋 Copier
                         </button>
                     </div>
@@ -788,7 +788,12 @@
             const modal = document.getElementById('resourceModal');
             const modalBody = document.getElementById('modalBody');
             
-            const url = resource.url || resource.page_url;
+            const url = resource.url || resource.page_url || resource.file_path || '';
+            
+            if (!url || url === 'undefined' || url.trim() === '') {
+                alert('⚠️ URL non disponible pour cette ressource');
+                return;
+            }
             
             let content = `
                 <h2>${resource.title}</h2>
@@ -832,8 +837,10 @@
         }
         
         function openResourceDirect(url) {
-            if (url) {
+            if (url && url !== 'undefined' && url.trim() !== '') {
                 window.open(url, '_blank');
+            } else {
+                alert('⚠️ URL non disponible pour cette ressource');
             }
         }
         
@@ -842,10 +849,12 @@
         }
         
         function copyUrl(url) {
-            if (url) {
+            if (url && url !== 'undefined' && url.trim() !== '') {
                 navigator.clipboard.writeText(url).then(() => {
                     alert('✅ URL copiée !');
                 });
+            } else {
+                alert('⚠️ URL non disponible pour cette ressource');
             }
         }
         
