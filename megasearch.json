@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "version": "3.0.0",
+    "generated_at": "2025-11-11T12:00:00",
+    "description": "Prof de Basse - Index de recherche universel",
+    "base_url": "https://11drumboy11.github.io/Prof-de-basse-V2/",
+    "stats": {
+      "total_resources": 786,
+      "image_count": 786,
+      "mp3_count": 0,
+      "pdf_count": 0,
+      "html_count": 0,
+      "unique_methods": 15
+    }
+  },
+  "resources": [
+    {
+      "id": "arpeges_page_056",
+      "type": "image",
+      "title": "Les arpèges à 3 notes sur 2 cordes",
+      "path": "Base de connaissances/Base de connaissances/Theorie/Arpeges/assets/page_056.png",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Theorie/Arpeges/assets/page_056.png",
+      "filename": "page_056.png",
+      "metadata": {
+        "ocr_confidence": 65,
+        "ocr_date": "2025-11-09T20:39:05.399984",
+        "ocr_text": "Les arpèges à 3 notes que l'on peut jouer sur 2 cordes: L'arpège majeur (indispensable): Pour l'accord majeur seul le nom de l'accord est inscrit sur une partition par exemple pour un Do majeur vous verrez Do ou C (notation américaine) L'arpège majeur est composé de la fondamentale, la tierce majeure et la quinte juste",
+        "key": "C",
+        "page": 2,
+        "track": "056",
+        "techniques": ["arpèges", "majeur", "théorie"]
+      },
+      "searchText": "arpèges majeur c fondamentale tierce quinte théorie"
+    },
+    {
+      "id": "aebersold_page_037",
+      "type": "image",
+      "title": "Concepts - Jim Pierce's Encyclopedia",
+      "path": "Base de connaissances/Base de connaissances/Methodes/aebersold-FRENCH_converted/assets/page_037.png",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/aebersold-FRENCH_converted/assets/page_037.png",
+      "filename": "page_037.png",
+      "metadata": {
+        "ocr_confidence": 90,
+        "ocr_date": "2025-11-09T20:39:06.300994",
+        "ocr_text": "CONCEPTS Repris de JIM PIERCE'S dans Big Golden Trumpet Encyclopedia",
+        "composer": "Bill Evans",
+        "key": "A",
+        "techniques": ["jazz"],
+        "track": "037"
+      },
+      "searchText": "concepts jim pierce bill evans jazz a"
+    },
+    {
+      "id": "realbook_f_0448",
+      "type": "image",
+      "title": "Real Book Bass F - Page 448",
+      "path": "Base de connaissances/Base de connaissances/Methodes/Reabook/Realbook Bass F_with_index/assets/page_0448.jpg",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/Reabook/Realbook Bass F_with_index/assets/page_0448.jpg",
+      "filename": "page_0448.jpg",
+      "metadata": {
+        "ocr_confidence": 55,
+        "ocr_date": "2025-11-09T20:39:06.739831",
+        "ocr_text": "Am A7 Dm G",
+        "key": "Am",
+        "track": "0448",
+        "techniques": ["jazz", "real book"]
+      },
+      "searchText": "real book bass f am a7 dm g jazz 0448"
+    },
+    {
+      "id": "liebman_page_055",
+      "type": "image",
+      "title": "Jon Liebman - Funk Fusion Exercise",
+      "path": "Base de connaissances/Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_converted/assets/page_055.png",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_converted/assets/page_055.png",
+      "filename": "page_055.png",
+      "metadata": {
+        "ocr_confidence": 65,
+        "ocr_date": "2025-11-09T20:39:07.650310",
+        "ocr_text": "SS f-p # tee tp",
+        "key": "F-",
+        "page": 10,
+        "track": "055",
+        "techniques": ["funk", "fusion"]
+      },
+      "searchText": "jon liebman funk fusion f- 055"
+    },
+    {
+      "id": "realbook_f_0012",
+      "type": "image",
+      "title": "Real Book Bass F - Page 12",
+      "path": "Base de connaissances/Base de connaissances/Methodes/Reabook/Realbook Bass F_with_index/assets/page_0012.jpg",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/Reabook/Realbook Bass F_with_index/assets/page_0012.jpg",
+      "filename": "page_0012.jpg",
+      "metadata": {
+        "ocr_confidence": 15,
+        "ocr_date": "2025-11-09T20:39:08.053617",
+        "ocr_text": "Wine",
+        "key": "A",
+        "track": "0012",
+        "techniques": ["jazz", "real book"]
+      },
+      "searchText": "real book bass f a jazz 0012"
+    },
+    {
+      "id": "arpeges_page_096",
+      "type": "image",
+      "title": "Arpège 7b5b13",
+      "path": "Base de connaissances/Base de connaissances/Theorie/Arpeges/assets/page_096.png",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Theorie/Arpeges/assets/page_096.png",
+      "filename": "page_096.png",
+      "metadata": {
+        "ocr_confidence": 55,
+        "ocr_date": "2025-11-09T20:39:56.898089",
+        "ocr_text": "L'arpège 7 b 5 b 13 est composé de la fondamentale, la tierce majeure, la quinte diminuée, la septième mineure et la treizième mineure",
+        "key": "B",
+        "track": "096",
+        "techniques": ["arpège", "7b5b13", "théorie", "avancé"]
+      },
+      "searchText": "arpège 7b5b13 fondamentale tierce quinte septième treizième b théorie avancé"
+    },
+    {
+      "id": "liebman_page_068",
+      "type": "image",
+      "title": "Jon Liebman - Bad News (Funk Pattern)",
+      "path": "Base de connaissances/Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_converted/assets/page_068.png",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_converted/assets/page_068.png",
+      "filename": "page_068.png",
+      "metadata": {
+        "ocr_confidence": 65,
+        "ocr_date": "2025-11-09T20:39:57.638615",
+        "ocr_text": "N.C. D7 Fm BAD NEWS",
+        "key": "Fm",
+        "page": 7,
+        "track": "068",
+        "techniques": ["funk", "bad news"]
+      },
+      "searchText": "jon liebman bad news funk fm d7 068"
+    },
+    {
+      "id": "realbook_f_0073",
+      "type": "image",
+      "title": "Real Book Bass F - Page 73",
+      "path": "Base de connaissances/Base de connaissances/Methodes/Reabook/Realbook Bass F_with_index/assets/page_0073.jpg",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base de connaissances/Base de connaissances/Methodes/Reabook/Realbook Bass F_with_index/assets/page_0073.jpg",
+      "filename": "page_0073.jpg",
+      "metadata": {
+        "ocr_confidence": 55,
+        "ocr_date": "2025-11-09T20:39:59.506079",
+        "ocr_text": "Gm",
+        "key": "A",
+        "track": "0073",
+        "techniques": ["jazz", "real book"]
+      },
+      "searchText": "real book bass f a gm jazz 0073"
+    }
+  ]
+}
