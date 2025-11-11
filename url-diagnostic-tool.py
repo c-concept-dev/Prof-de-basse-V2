@@ -1,322 +1,318 @@
 #!/usr/bin/env python3
 """
-URL Fixer & Diagnostic Tool - Prof de Basse
-Scanne le repo, vérifie les URLs, corrige les liens morts
+Programme de modification d'URLs pour Prof de Basse
+Modifie les URLs dans les fichiers HTML, JSON, MD, etc.
 """
 
-import json
 import os
-from pathlib import Path
-from typing import Dict, List, Tuple
-from datetime import datetime
+import json
 import re
+from pathlib import Path
+from typing import List, Dict, Tuple
 
-class URLDiagnosticTool:
-    def __init__(self, repo_path: str = "."):
+class URLFixer:
+    def __init__(self, repo_path: str):
         self.repo_path = Path(repo_path)
-        self.base_url = "https://11drumboy11.github.io/Prof-de-basse/"
-        self.issues = []
-        self.stats = {
-            "total_images": 0,
-            "images_in_index": 0,
-            "broken_urls": 0,
-            "fixed_urls": 0,
-            "missing_from_index": 0
-        }
+        self.changes_made = []
         
-    def log(self, message: str, level: str = "INFO"):
-        """Log avec couleurs"""
-        colors = {
-            "INFO": "\033[94m",
-            "SUCCESS": "\033[92m",
-            "WARNING": "\033[93m",
-            "ERROR": "\033[91m",
-            "RESET": "\033[0m"
-        }
-        color = colors.get(level, colors["RESET"])
-        reset = colors["RESET"]
-        print(f"{color}{message}{reset}")
+    def find_files(self, extensions: List[str]) -> List[Path]:
+        """Trouve tous les fichiers avec les extensions données"""
+        files = []
+        for ext in extensions:
+            files.extend(self.repo_path.rglob(f"*{ext}"))
+        return files
     
-    def find_all_images(self) -> Dict[str, Path]:
-        """Trouve toutes les images dans le repo"""
-        self.log("\n🔍 SCAN DU REPO...", "INFO")
-        
-        images = {}
-        patterns = ["**/*.jpg", "**/*.jpeg", "**/*.png"]
-        
-        for pattern in patterns:
-            for img_path in self.repo_path.glob(pattern):
-                # Exclure certains dossiers
-                if any(ex in str(img_path) for ex in [".git", "node_modules", "__pycache__"]):
-                    continue
-                
-                # Calculer le chemin relatif
-                rel_path = img_path.relative_to(self.repo_path)
-                images[str(rel_path)] = img_path
-        
-        self.stats["total_images"] = len(images)
-        self.log(f"   ✅ {len(images)} images trouvées", "SUCCESS")
-        return images
-    
-    def build_correct_url(self, file_path: str) -> str:
-        """Construit l'URL correcte pour un fichier"""
-        # Nettoyer le chemin
-        path = str(file_path).lstrip("./")
-        
-        # Encoder les caractères spéciaux
-        parts = path.split("/")
-        encoded_parts = []
-        for part in parts:
-            # Encoder les espaces et & mais PAS les apostrophes
-            encoded = part.replace(" ", "%20").replace("&", "%26")
-            encoded_parts.append(encoded)
-        
-        encoded_path = "/".join(encoded_parts)
-        
-        return self.base_url + encoded_path
-    
-    def load_mega_index(self) -> Dict:
-        """Charge le mega-search-index.json"""
-        index_path = self.repo_path / "mega-search-index.json"
-        
-        if not index_path.exists():
-            self.log("\n⚠️  mega-search-index.json n'existe pas encore", "WARNING")
-            return {"resources": []}
-        
+    def replace_in_file(self, filepath: Path, old_pattern: str, new_pattern: str) -> int:
+        """Remplace un pattern dans un fichier"""
         try:
-            with open(index_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                self.log(f"\n✅ mega-search-index.json chargé ({len(data.get('resources', []))} ressources)", "SUCCESS")
-                return data
-        except Exception as e:
-            self.log(f"\n❌ Erreur chargement mega-index: {e}", "ERROR")
-            return {"resources": []}
-    
-    def verify_urls(self, mega_index: Dict, all_images: Dict[str, Path]) -> List[Dict]:
-        """Vérifie toutes les URLs du mega-index"""
-        self.log("\n🔍 VÉRIFICATION DES URLs...", "INFO")
-        
-        broken_urls = []
-        resources = mega_index.get("resources", [])
-        
-        for resource in resources:
-            if resource.get("type") != "image":
-                continue
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
             
-            self.stats["images_in_index"] += 1
+            # Compter les occurrences
+            count = content.count(old_pattern)
             
-            current_url = resource.get("url", "")
-            resource_id = resource.get("id", "")
-            
-            # Extraire le chemin depuis l'URL
-            if current_url.startswith(self.base_url):
-                url_path = current_url[len(self.base_url):]
-                # Décoder les caractères
-                url_path = url_path.replace("%20", " ").replace("%26", "&").replace("%27", "'")
-            else:
-                url_path = resource_id
-            
-            # Chercher si le fichier existe
-            file_exists = False
-            correct_path = None
-            
-            # Chercher dans toutes les images
-            for img_path, img_full_path in all_images.items():
-                # Comparer les noms de fichiers
-                if img_path.endswith(url_path) or url_path.endswith(img_path.split('/')[-1]):
-                    file_exists = True
-                    correct_path = img_path
-                    break
-            
-            if not file_exists:
-                # Fichier introuvable
-                self.stats["broken_urls"] += 1
-                broken_urls.append({
-                    "resource_id": resource_id,
-                    "title": resource.get("title", ""),
-                    "current_url": current_url,
-                    "issue": "FILE_NOT_FOUND",
-                    "suggested_fix": None
-                })
-            elif correct_path:
-                # Vérifier si l'URL est correcte
-                correct_url = self.build_correct_url(correct_path)
+            if count > 0:
+                # Faire le remplacement
+                new_content = content.replace(old_pattern, new_pattern)
                 
-                if current_url != correct_url:
-                    # URL incorrecte
-                    self.stats["broken_urls"] += 1
-                    broken_urls.append({
-                        "resource_id": resource_id,
-                        "title": resource.get("title", ""),
-                        "current_url": current_url,
-                        "correct_url": correct_url,
-                        "correct_path": correct_path,
-                        "issue": "WRONG_URL"
-                    })
-        
-        self.log(f"   ⚠️  {len(broken_urls)} URLs problématiques trouvées", "WARNING")
-        return broken_urls
-    
-    def find_missing_images(self, mega_index: Dict, all_images: Dict[str, Path]) -> List[Dict]:
-        """Trouve les images qui ne sont pas dans l'index"""
-        self.log("\n🔍 RECHERCHE DES IMAGES MANQUANTES...", "INFO")
-        
-        indexed_files = set()
-        for resource in mega_index.get("resources", []):
-            if resource.get("type") == "image":
-                resource_id = resource.get("id", "")
-                indexed_files.add(resource_id.split("/")[-1])  # Juste le nom de fichier
-        
-        missing = []
-        for img_path in all_images.keys():
-            filename = img_path.split("/")[-1]
-            if filename not in indexed_files:
-                missing.append({
-                    "path": img_path,
-                    "url": self.build_correct_url(img_path)
+                # Écrire le fichier
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                
+                self.changes_made.append({
+                    'file': str(filepath.relative_to(self.repo_path)),
+                    'old': old_pattern,
+                    'new': new_pattern,
+                    'count': count
                 })
+                
+                return count
+            
+            return 0
         
-        self.stats["missing_from_index"] = len(missing)
-        self.log(f"   📋 {len(missing)} images non indexées", "INFO")
-        return missing
+        except Exception as e:
+            print(f"❌ Erreur sur {filepath}: {e}")
+            return 0
     
-    def fix_mega_index(self, mega_index: Dict, broken_urls: List[Dict]) -> Dict:
-        """Corrige le mega-index"""
-        self.log("\n🔧 CORRECTION DU MEGA-INDEX...", "INFO")
-        
-        fixed_count = 0
-        resources = mega_index.get("resources", [])
-        
-        # Créer un mapping pour les corrections
-        corrections = {}
-        for broken in broken_urls:
-            if broken["issue"] == "WRONG_URL" and broken.get("correct_url"):
-                corrections[broken["resource_id"]] = broken["correct_url"]
-        
-        # Appliquer les corrections
-        for resource in resources:
-            resource_id = resource.get("id", "")
-            if resource_id in corrections:
-                resource["url"] = corrections[resource_id]
-                fixed_count += 1
-        
-        self.stats["fixed_urls"] = fixed_count
-        self.log(f"   ✅ {fixed_count} URLs corrigées", "SUCCESS")
-        
-        return mega_index
-    
-    def save_corrected_index(self, mega_index: Dict, output_path: str = "mega-search-index-fixed.json"):
-        """Sauvegarde le mega-index corrigé"""
-        output = self.repo_path / output_path
-        
+    def replace_regex_in_file(self, filepath: Path, pattern: str, replacement: str) -> int:
+        """Remplace avec regex dans un fichier"""
         try:
-            with open(output, 'w', encoding='utf-8') as f:
-                json.dump(mega_index, f, ensure_ascii=False, indent=2)
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
             
-            self.log(f"\n✅ Index corrigé sauvegardé: {output}", "SUCCESS")
-            return True
+            # Compter les matches
+            matches = re.findall(pattern, content)
+            count = len(matches)
+            
+            if count > 0:
+                # Faire le remplacement
+                new_content = re.sub(pattern, replacement, content)
+                
+                # Écrire le fichier
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                
+                self.changes_made.append({
+                    'file': str(filepath.relative_to(self.repo_path)),
+                    'pattern': pattern,
+                    'replacement': replacement,
+                    'count': count
+                })
+                
+                return count
+            
+            return 0
+        
         except Exception as e:
-            self.log(f"\n❌ Erreur sauvegarde: {e}", "ERROR")
-            return False
+            print(f"❌ Erreur sur {filepath}: {e}")
+            return 0
     
-    def generate_report(self, broken_urls: List[Dict], missing_images: List[Dict]) -> str:
-        """Génère un rapport détaillé"""
-        report = []
-        report.append("\n" + "="*80)
-        report.append("📊 RAPPORT DE DIAGNOSTIC - Prof de Basse")
-        report.append("="*80)
-        report.append(f"\nDate: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    def fix_github_pages_urls(self):
+        """Corrige les URLs GitHub Pages"""
+        print("🔧 Correction des URLs GitHub Pages...")
         
-        # Stats
-        report.append("\n📈 STATISTIQUES:")
-        report.append(f"   Total images dans le repo: {self.stats['total_images']}")
-        report.append(f"   Images dans le mega-index: {self.stats['images_in_index']}")
-        report.append(f"   URLs cassées/incorrectes: {self.stats['broken_urls']}")
-        report.append(f"   URLs corrigées: {self.stats['fixed_urls']}")
-        report.append(f"   Images non indexées: {self.stats['missing_from_index']}")
+        old_base = "https://11drumboy11.github.io/Prof-de-basse/"
+        new_base = "https://11drumboy11.github.io/Prof-de-basse-V2/"
         
-        # URLs cassées
-        if broken_urls:
-            report.append("\n❌ URLs PROBLÉMATIQUES:")
-            for i, broken in enumerate(broken_urls[:20], 1):  # Max 20
-                report.append(f"\n   {i}. {broken['title']}")
-                report.append(f"      Problème: {broken['issue']}")
-                report.append(f"      URL actuelle: {broken['current_url']}")
-                if broken.get('correct_url'):
-                    report.append(f"      URL correcte: {broken['correct_url']}")
-            
-            if len(broken_urls) > 20:
-                report.append(f"\n   ... et {len(broken_urls) - 20} autres")
+        files = self.find_files(['.html', '.js', '.json', '.md'])
         
-        # Images manquantes
-        if missing_images:
-            report.append(f"\n📋 IMAGES NON INDEXÉES: (premiers 10)")
-            for i, missing in enumerate(missing_images[:10], 1):
-                report.append(f"   {i}. {missing['path']}")
+        total = 0
+        for file in files:
+            count = self.replace_in_file(file, old_base, new_base)
+            total += count
         
-        report.append("\n" + "="*80)
-        
-        return "\n".join(report)
+        print(f"✅ {total} URLs GitHub Pages corrigées")
+        return total
     
-    def run_full_diagnostic(self):
-        """Lance le diagnostic complet"""
-        self.log("\n🚀 DIAGNOSTIC COMPLET DU REPO", "INFO")
+    def fix_mp3_urls(self):
+        """Corrige les URLs MP3 avec encodage correct"""
+        print("🔧 Correction des URLs MP3...")
         
-        # 1. Scanner les images
-        all_images = self.find_all_images()
+        # Pattern : Track XX.mp3 → Track%20XX.mp3
+        pattern = r'(/MP3/[^"\']*Track )(\d+)(\.mp3)'
+        replacement = r'\1%20\2\3'
         
-        # 2. Charger le mega-index
-        mega_index = self.load_mega_index()
+        files = self.find_files(['.html', '.js', '.json'])
         
-        # 3. Vérifier les URLs
-        broken_urls = self.verify_urls(mega_index, all_images)
+        total = 0
+        for file in files:
+            count = self.replace_regex_in_file(file, pattern, replacement)
+            total += count
         
-        # 4. Trouver les images manquantes
-        missing_images = self.find_missing_images(mega_index, all_images)
+        print(f"✅ {total} URLs MP3 corrigées")
+        return total
+    
+    def fix_spaces_in_urls(self):
+        """Remplace les espaces par %20 dans les URLs"""
+        print("🔧 Correction des espaces dans les URLs...")
         
-        # 5. Générer le rapport
-        report = self.generate_report(broken_urls, missing_images)
-        print(report)
+        # Pattern : URLs avec espaces
+        pattern = r'(https://[^"\'\s]+) ([^"\'\s]+)'
         
-        # 6. Proposer la correction
-        if broken_urls:
-            print("\n🔧 CORRECTION DISPONIBLE")
-            response = input("\nVoulez-vous corriger automatiquement les URLs ? (o/n): ")
+        files = self.find_files(['.html', '.js', '.json'])
+        
+        total = 0
+        for file in files:
+            try:
+                with open(file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # Remplacer les espaces dans les URLs
+                new_content = content
+                while re.search(pattern, new_content):
+                    new_content = re.sub(pattern, r'\1%20\2', new_content)
+                
+                if new_content != content:
+                    with open(file, 'w', encoding='utf-8') as f:
+                        f.write(new_content)
+                    total += 1
             
-            if response.lower() == 'o':
-                # Corriger
-                corrected_index = self.fix_mega_index(mega_index, broken_urls)
-                
-                # Sauvegarder
-                self.save_corrected_index(corrected_index, "mega-search-index.json")
-                
-                self.log("\n✅ CORRECTION TERMINÉE !", "SUCCESS")
-                self.log("   Vous pouvez maintenant commit et push les changements", "INFO")
+            except Exception as e:
+                print(f"❌ Erreur sur {file}: {e}")
         
-        return {
-            "all_images": all_images,
-            "broken_urls": broken_urls,
-            "missing_images": missing_images,
-            "stats": self.stats
-        }
+        print(f"✅ {total} fichiers corrigés")
+        return total
+    
+    def fix_json_index_urls(self):
+        """Corrige les URLs dans les index JSON"""
+        print("🔧 Correction des URLs dans les index JSON...")
+        
+        json_files = self.find_files(['.json'])
+        
+        total = 0
+        for json_file in json_files:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Parcourir récursivement et corriger les URLs
+                modified = self._fix_urls_recursive(data)
+                
+                if modified:
+                    with open(json_file, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, indent=2, ensure_ascii=False)
+                    total += 1
+                    print(f"  ✅ {json_file.name}")
+            
+            except Exception as e:
+                print(f"  ⚠️  {json_file.name}: {e}")
+        
+        print(f"✅ {total} fichiers JSON corrigés")
+        return total
+    
+    def _fix_urls_recursive(self, obj, modified=False):
+        """Corrige les URLs récursivement dans un objet JSON"""
+        if isinstance(obj, dict):
+            for key, value in obj.items():
+                if isinstance(value, str) and ('http://' in value or 'https://' in value):
+                    # Corriger l'URL
+                    new_value = value.replace('Prof-de-basse/', 'Prof-de-basse-V2/')
+                    new_value = re.sub(r' ', '%20', new_value)
+                    if new_value != value:
+                        obj[key] = new_value
+                        modified = True
+                elif isinstance(value, (dict, list)):
+                    modified = self._fix_urls_recursive(value, modified) or modified
+        
+        elif isinstance(obj, list):
+            for i, item in enumerate(obj):
+                if isinstance(item, str) and ('http://' in item or 'https://' in item):
+                    new_item = item.replace('Prof-de-basse/', 'Prof-de-basse-V2/')
+                    new_item = re.sub(r' ', '%20', new_item)
+                    if new_item != item:
+                        obj[i] = new_item
+                        modified = True
+                elif isinstance(item, (dict, list)):
+                    modified = self._fix_urls_recursive(item, modified) or modified
+        
+        return modified
+    
+    def show_report(self):
+        """Affiche le rapport des modifications"""
+        print("\n" + "="*60)
+        print("📊 RAPPORT DES MODIFICATIONS")
+        print("="*60 + "\n")
+        
+        if not self.changes_made:
+            print("ℹ️  Aucune modification effectuée")
+            return
+        
+        # Grouper par fichier
+        by_file = {}
+        for change in self.changes_made:
+            file = change['file']
+            if file not in by_file:
+                by_file[file] = []
+            by_file[file].append(change)
+        
+        # Afficher
+        for file, changes in by_file.items():
+            print(f"📄 {file}")
+            for change in changes:
+                if 'old' in change:
+                    print(f"   {change['old']}")
+                    print(f"   → {change['new']}")
+                    print(f"   ({change['count']} occurrence(s))")
+                else:
+                    print(f"   Pattern: {change['pattern']}")
+                    print(f"   ({change['count']} occurrence(s))")
+            print()
+        
+        print(f"✅ Total: {len(self.changes_made)} modifications dans {len(by_file)} fichiers")
 
 
 def main():
-    import argparse
+    """Menu principal"""
+    print("""
+╔═══════════════════════════════════════════════════════════╗
+║           🔧 FIXEUR D'URLS - PROF DE BASSE 🎸            ║
+╚═══════════════════════════════════════════════════════════╝
+    """)
     
-    parser = argparse.ArgumentParser(description='URL Diagnostic & Fix Tool')
-    parser.add_argument('--repo', default='.', help='Chemin du repo')
-    parser.add_argument('--fix', action='store_true', help='Corriger automatiquement sans demander')
-    args = parser.parse_args()
+    # Chemin du repo
+    repo_path = input("📂 Chemin du repo (ou Enter pour chemin actuel): ").strip()
+    if not repo_path:
+        repo_path = "."
     
-    tool = URLDiagnosticTool(args.repo)
-    results = tool.run_full_diagnostic()
+    fixer = URLFixer(repo_path)
     
-    # Auto-fix si demandé
-    if args.fix and results['broken_urls']:
-        mega_index = tool.load_mega_index()
-        corrected = tool.fix_mega_index(mega_index, results['broken_urls'])
-        tool.save_corrected_index(corrected, "mega-search-index.json")
+    while True:
+        print("\n" + "="*60)
+        print("OPTIONS:")
+        print("="*60)
+        print("1. Corriger URLs GitHub Pages (Prof-de-basse → Prof-de-basse-V2)")
+        print("2. Corriger URLs MP3 (espaces → %20)")
+        print("3. Corriger tous les espaces dans les URLs")
+        print("4. Corriger URLs dans les JSON")
+        print("5. TOUT CORRIGER (recommandé)")
+        print("6. Afficher le rapport")
+        print("0. Quitter")
+        print("="*60)
+        
+        choice = input("\n👉 Choix: ").strip()
+        
+        if choice == "1":
+            fixer.fix_github_pages_urls()
+        
+        elif choice == "2":
+            fixer.fix_mp3_urls()
+        
+        elif choice == "3":
+            fixer.fix_spaces_in_urls()
+        
+        elif choice == "4":
+            fixer.fix_json_index_urls()
+        
+        elif choice == "5":
+            print("\n🚀 CORRECTION COMPLÈTE EN COURS...\n")
+            fixer.fix_github_pages_urls()
+            fixer.fix_mp3_urls()
+            fixer.fix_spaces_in_urls()
+            fixer.fix_json_index_urls()
+            print("\n✅ TOUTES LES CORRECTIONS TERMINÉES!")
+        
+        elif choice == "6":
+            fixer.show_report()
+        
+        elif choice == "0":
+            print("\n👋 Au revoir!")
+            break
+        
+        else:
+            print("❌ Choix invalide")
+    
+    # Rapport final
+    if fixer.changes_made:
+        print("\n📋 RÉSUMÉ FINAL:")
+        fixer.show_report()
+        
+        # Demander si on commit
+        commit = input("\n💾 Commit et push les changements? (y/N): ").strip().lower()
+        if commit == 'y':
+            print("\n📦 Git commands à exécuter:")
+            print("  git add .")
+            print("  git commit -m 'Fix URLs'")
+            print("  git push origin main")
 
 
 if __name__ == "__main__":
