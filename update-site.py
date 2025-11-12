@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 🎸 Prof de Basse - Site Update Automation
-Version 1.1.0
+Version 1.2.0
 Mise à jour automatique du site GitHub Pages
 - Support des formats JSON v1.0 et v4.0
 - Dédoublonnage automatique des morceaux
+- Encodage URL correct avec urllib.parse.quote
 """
 
 import os
@@ -244,8 +245,10 @@ class SiteUpdater:
         rel_path = root_path.relative_to(REPO_ROOT)
         img_path = rel_path / 'assets' / 'pages' / f'page_{page_num:03d}.png'
         
-        # URL complète
-        url = GITHUB_BASE_URL + str(img_path).replace('\\', '/')
+        # URL complète avec encodage correct
+        from urllib.parse import quote
+        path_str = str(img_path).replace('\\', '/')
+        url = GITHUB_BASE_URL + quote(path_str, safe='/:.-_')
         
         return {
             'id': str(img_path).replace('\\', '/'),
@@ -274,7 +277,10 @@ class SiteUpdater:
         rel_path = root_path.relative_to(REPO_ROOT)
         img_path = rel_path / 'assets' / 'pages' / f'page_{page_num:03d}.png'
         
-        url = GITHUB_BASE_URL + str(img_path).replace('\\', '/')
+        # URL complète avec encodage correct
+        from urllib.parse import quote
+        path_str = str(img_path).replace('\\', '/')
+        url = GITHUB_BASE_URL + quote(path_str, safe='/:.-_')
         
         return {
             'id': str(img_path).replace('\\', '/'),
@@ -296,7 +302,11 @@ class SiteUpdater:
     def create_resource_from_image(self, img_file: Path, method_name: str, root_path: Path) -> Dict:
         """Créer une ressource à partir d'une image de page"""
         rel_path = img_file.relative_to(REPO_ROOT)
-        url = GITHUB_BASE_URL + str(rel_path).replace('\\', '/')
+        
+        # URL complète avec encodage correct
+        from urllib.parse import quote
+        path_str = str(rel_path).replace('\\', '/')
+        url = GITHUB_BASE_URL + quote(path_str, safe='/:.-_')
         
         # Extraire le numéro de page
         page_match = re.search(r'page_(\d+)', img_file.name)
