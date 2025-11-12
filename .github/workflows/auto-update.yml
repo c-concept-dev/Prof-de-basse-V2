@@ -1,0 +1,86 @@
+name: 🎸 Auto-Update Site
+
+on:
+  push:
+    paths:
+      - 'Base de connaissances/**'
+      - '!Base de connaissances/**/assets/**'
+    branches:
+      - main
+  workflow_dispatch:  # Permet de lancer manuellement depuis GitHub
+
+jobs:
+  update-site:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Récupère tout l'historique
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📊 Vérifier les fichiers modifiés
+        id: check_files
+        run: |
+          echo "Fichiers modifiés :"
+          git diff --name-only HEAD~1 HEAD | grep "songs_index.json" || echo "Aucun songs_index.json modifié"
+          
+          if git diff --name-only HEAD~1 HEAD | grep -q "songs_index.json"; then
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          else
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: 🎸 Lancer update-site.py
+        if: steps.check_files.outputs.needs_update == 'true'
+        run: |
+          echo "🎸 Mise à jour du site..."
+          python3 update-site.py
+      
+      - name: 📊 Afficher les statistiques
+        if: steps.check_files.outputs.needs_update == 'true'
+        run: |
+          if [ -f megasearch.json ]; then
+            echo "📈 Statistiques du megasearch.json :"
+            echo "Taille : $(du -h megasearch.json | cut -f1)"
+            echo "Ressources : $(grep -o '"total":' megasearch.json | wc -l)"
+          fi
+      
+      - name: 🔄 Commit et push les changements
+        if: steps.check_files.outputs.needs_update == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          
+          # Ajouter les fichiers modifiés
+          git add megasearch.json
+          git add index.html
+          
+          # Vérifier s'il y a des changements
+          if git diff --staged --quiet; then
+            echo "✅ Aucun changement à commit"
+          else
+            # Compter les nouvelles ressources
+            TOTAL=$(python3 -c "import json; data=json.load(open('megasearch.json')); print(data['total'])")
+            METHODS=$(python3 -c "import json; data=json.load(open('megasearch.json')); print(data['stats']['total_methods'])")
+            
+            git commit -m "🤖 Auto-update: $TOTAL ressources, $METHODS méthodes [skip ci]"
+            git push
+            
+            echo "✅ Changements poussés sur GitHub"
+          fi
+      
+      - name: 📢 Notification de succès
+        if: steps.check_files.outputs.needs_update == 'true'
+        run: |
+          echo "::notice::✅ Site mis à jour automatiquement !"
+      
+      - name: ⚠️ Aucune mise à jour nécessaire
+        if: steps.check_files.outputs.needs_update == 'false'
+        run: |
+          echo "::notice::ℹ️ Aucun songs_index.json modifié, pas de mise à jour nécessaire"
