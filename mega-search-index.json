@@ -1,81 +1,973 @@
 {
   "version": "3.0.0-MEGA-V3-OCR",
-  "generated_at": "2025-11-12T03:59:49.525358",
+  "generated_at": "2025-11-12T07:27:28.894216",
   "total_resources": 1531,
   "sources": [
-    "resources/complete-resource-map.json",
-    "Base de connaissances/Theorie/Arpeges_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/Paul westwood 2-5_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Harmonie_v4.0/songs_index.json",
     "Base de connaissances/Partitions/Stevie-Wonder-Songs-in-the-Key-of-Life_v4.0/songs_index.json",
     "Base de connaissances/Partitions/realbook Volume-3-C_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Volume-2-contrebasse_v4.0/songs_index.json",
-    "Base de connaissances/Theorie/Harmonie_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Sade-DiamondLife-BassTranscriptions_v4.0/songs_index.json",
-    "assets_ocr_index.json",
     "Base de connaissances/Methodes/70s Funk & Disco Bass_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/aebersold-FRENCH_v4.0/songs_index.json",
+    "assets_ocr_index.json",
     "Base de connaissances/Theorie/Pratique_v4.0/songs_index.json",
-    "Base de connaissances/Theorie/Theorie_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Aebersold - The Jazz Fake Book_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Paul westwood 1-2_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/aebersold-FRENCH_v4.0/songs_index.json",
     "Base de connaissances/Partitions/Realbook Bass F_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Paul westwood 2-5_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/The_Real_Rock_Book_v4.0/songs_index.json"
+    "Base de connaissances/Theorie/Arpeges_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Theorie_v4.0/songs_index.json",
+    "resources/complete-resource-map.json",
+    "Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Volume-2-contrebasse_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Aebersold - The Jazz Fake Book_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/The_Real_Rock_Book_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/Paul westwood 1-2_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Sade-DiamondLife-BassTranscriptions_v4.0/songs_index.json"
   ],
   "resources": [
     {
-      "id": "metadata",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/metadata",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
+      "id": "page_001.jpg",
+      "title": "Page 1",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_001.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 1
+      },
+      "search_text": "page 1"
     },
     {
-      "id": "mp3_index",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/mp3_index",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
+      "id": "page_002.jpg",
+      "title": "Page 2",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_002.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 2
+      },
+      "search_text": "page 2"
     },
     {
-      "id": "pdf_index",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/pdf_index",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
+      "id": "page_003.jpg",
+      "title": "Page 3",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_003.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 3
+      },
+      "search_text": "page 3"
     },
     {
-      "id": "realbook_index",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/realbook_index",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
+      "id": "page_004.jpg",
+      "title": "Page 4",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_004.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 4
+      },
+      "search_text": "page 4"
     },
     {
-      "id": "stats",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/stats",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
+      "id": "page_005.jpg",
+      "title": "Page 5",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_005.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 5
+      },
+      "search_text": "page 5"
     },
     {
-      "id": "quick_reference",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/quick_reference",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
+      "id": "page_006.jpg",
+      "title": "Page 6",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_006.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 6
+      },
+      "search_text": "page 6"
+    },
+    {
+      "id": "page_007.jpg",
+      "title": "Page 7",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_007.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 7
+      },
+      "search_text": "page 7"
+    },
+    {
+      "id": "page_008.jpg",
+      "title": "Page 8",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_008.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 8
+      },
+      "search_text": "page 8"
+    },
+    {
+      "id": "page_009.jpg",
+      "title": "Page 9",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_009.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 9
+      },
+      "search_text": "page 9"
+    },
+    {
+      "id": "page_010.jpg",
+      "title": "Page 10",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_010.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 10
+      },
+      "search_text": "page 10"
+    },
+    {
+      "id": "page_011.jpg",
+      "title": "Page 11",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_011.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 11
+      },
+      "search_text": "page 11"
+    },
+    {
+      "id": "page_012.jpg",
+      "title": "Page 12",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_012.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 12
+      },
+      "search_text": "page 12"
+    },
+    {
+      "id": "page_013.jpg",
+      "title": "Page 13",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_013.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 13
+      },
+      "search_text": "page 13"
+    },
+    {
+      "id": "page_014.jpg",
+      "title": "Page 14",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_014.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 14
+      },
+      "search_text": "page 14"
+    },
+    {
+      "id": "page_015.jpg",
+      "title": "Page 15",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_015.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 15
+      },
+      "search_text": "page 15"
+    },
+    {
+      "id": "page_016.jpg",
+      "title": "Page 16",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_016.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 16
+      },
+      "search_text": "page 16"
+    },
+    {
+      "id": "page_017.jpg",
+      "title": "Page 17",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_017.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 17
+      },
+      "search_text": "page 17"
+    },
+    {
+      "id": "page_018.jpg",
+      "title": "Page 18",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_018.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 18
+      },
+      "search_text": "page 18"
+    },
+    {
+      "id": "page_019.jpg",
+      "title": "Page 19",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_019.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 19
+      },
+      "search_text": "page 19"
+    },
+    {
+      "id": "page_020.jpg",
+      "title": "Page 20",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_020.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 20
+      },
+      "search_text": "page 20"
+    },
+    {
+      "id": "page_021.jpg",
+      "title": "Page 21",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_021.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 21
+      },
+      "search_text": "page 21"
+    },
+    {
+      "id": "page_022.jpg",
+      "title": "Page 22",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_022.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 22
+      },
+      "search_text": "page 22"
+    },
+    {
+      "id": "page_023.jpg",
+      "title": "Page 23",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_023.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 23
+      },
+      "search_text": "page 23"
+    },
+    {
+      "id": "page_024.jpg",
+      "title": "Page 24",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_024.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 24
+      },
+      "search_text": "page 24"
+    },
+    {
+      "id": "page_025.jpg",
+      "title": "Page 25",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_025.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 25
+      },
+      "search_text": "page 25"
+    },
+    {
+      "id": "page_026.jpg",
+      "title": "Page 26",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_026.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 26
+      },
+      "search_text": "page 26"
+    },
+    {
+      "id": "page_027.jpg",
+      "title": "Page 27",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_027.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 27
+      },
+      "search_text": "page 27"
+    },
+    {
+      "id": "page_028.jpg",
+      "title": "Page 28",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_028.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 28
+      },
+      "search_text": "page 28"
+    },
+    {
+      "id": "page_029.jpg",
+      "title": "Page 29",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_029.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 29
+      },
+      "search_text": "page 29"
+    },
+    {
+      "id": "page_030.jpg",
+      "title": "Page 30",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_030.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 30
+      },
+      "search_text": "page 30"
+    },
+    {
+      "id": "page_031.jpg",
+      "title": "Page 31",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_031.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 31
+      },
+      "search_text": "page 31"
+    },
+    {
+      "id": "page_032.jpg",
+      "title": "Page 32",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_032.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 32
+      },
+      "search_text": "page 32"
+    },
+    {
+      "id": "page_033.jpg",
+      "title": "Page 33",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_033.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 33
+      },
+      "search_text": "page 33"
+    },
+    {
+      "id": "page_034.jpg",
+      "title": "Page 34",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_034.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 34
+      },
+      "search_text": "page 34"
+    },
+    {
+      "id": "page_035.jpg",
+      "title": "Page 35",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_035.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 35
+      },
+      "search_text": "page 35"
+    },
+    {
+      "id": "page_036.jpg",
+      "title": "Page 36",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_036.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 36
+      },
+      "search_text": "page 36"
+    },
+    {
+      "id": "page_037.jpg",
+      "title": "Page 37",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_037.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 37
+      },
+      "search_text": "page 37"
+    },
+    {
+      "id": "page_038.jpg",
+      "title": "Page 38",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_038.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 38
+      },
+      "search_text": "page 38"
+    },
+    {
+      "id": "page_039.jpg",
+      "title": "Page 39",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_039.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 39
+      },
+      "search_text": "page 39"
+    },
+    {
+      "id": "page_040.jpg",
+      "title": "Page 40",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_040.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 40
+      },
+      "search_text": "page 40"
+    },
+    {
+      "id": "page_041.jpg",
+      "title": "Page 41",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_041.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 41
+      },
+      "search_text": "page 41"
+    },
+    {
+      "id": "page_042.jpg",
+      "title": "Page 42",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_042.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 42
+      },
+      "search_text": "page 42"
+    },
+    {
+      "id": "page_043.jpg",
+      "title": "Page 43",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_043.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 43
+      },
+      "search_text": "page 43"
+    },
+    {
+      "id": "page_044.jpg",
+      "title": "Page 44",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_044.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 44
+      },
+      "search_text": "page 44"
+    },
+    {
+      "id": "page_045.jpg",
+      "title": "Page 45",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_045.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 45
+      },
+      "search_text": "page 45"
+    },
+    {
+      "id": "page_046.jpg",
+      "title": "Page 46",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_046.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 46
+      },
+      "search_text": "page 46"
+    },
+    {
+      "id": "page_047.jpg",
+      "title": "Page 47",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_047.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 47
+      },
+      "search_text": "page 47"
+    },
+    {
+      "id": "page_048.jpg",
+      "title": "Page 48",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_048.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 48
+      },
+      "search_text": "page 48"
+    },
+    {
+      "id": "page_049.jpg",
+      "title": "Page 49",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_049.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 49
+      },
+      "search_text": "page 49"
+    },
+    {
+      "id": "page_050.jpg",
+      "title": "Page 50",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_050.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 50
+      },
+      "search_text": "page 50"
+    },
+    {
+      "id": "page_051.jpg",
+      "title": "Page 51",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_051.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 51
+      },
+      "search_text": "page 51"
+    },
+    {
+      "id": "page_052.jpg",
+      "title": "Page 52",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_052.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 52
+      },
+      "search_text": "page 52"
+    },
+    {
+      "id": "page_053.jpg",
+      "title": "Page 53",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_053.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 53
+      },
+      "search_text": "page 53"
+    },
+    {
+      "id": "page_054.jpg",
+      "title": "Page 54",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_054.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 54
+      },
+      "search_text": "page 54"
+    },
+    {
+      "id": "page_055.jpg",
+      "title": "Page 55",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_055.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 55
+      },
+      "search_text": "page 55"
+    },
+    {
+      "id": "page_056.jpg",
+      "title": "Page 56",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_056.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 56
+      },
+      "search_text": "page 56"
+    },
+    {
+      "id": "page_057.jpg",
+      "title": "Page 57",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_057.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 57
+      },
+      "search_text": "page 57"
+    },
+    {
+      "id": "page_058.jpg",
+      "title": "Page 58",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_058.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 58
+      },
+      "search_text": "page 58"
+    },
+    {
+      "id": "page_059.jpg",
+      "title": "Page 59",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_059.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 59
+      },
+      "search_text": "page 59"
+    },
+    {
+      "id": "page_060.jpg",
+      "title": "Page 60",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_060.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 60
+      },
+      "search_text": "page 60"
+    },
+    {
+      "id": "page_061.jpg",
+      "title": "Page 61",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_061.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 61
+      },
+      "search_text": "page 61"
+    },
+    {
+      "id": "page_062.jpg",
+      "title": "Page 62",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_062.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 62
+      },
+      "search_text": "page 62"
+    },
+    {
+      "id": "page_063.jpg",
+      "title": "Page 63",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_063.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 63
+      },
+      "search_text": "page 63"
+    },
+    {
+      "id": "page_064.jpg",
+      "title": "Page 64",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_064.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 64
+      },
+      "search_text": "page 64"
+    },
+    {
+      "id": "page_065.jpg",
+      "title": "Page 65",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_065.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 65
+      },
+      "search_text": "page 65"
+    },
+    {
+      "id": "page_066.jpg",
+      "title": "Page 66",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_066.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 66
+      },
+      "search_text": "page 66"
+    },
+    {
+      "id": "page_067.jpg",
+      "title": "Page 67",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_067.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 67
+      },
+      "search_text": "page 67"
+    },
+    {
+      "id": "page_068.jpg",
+      "title": "Page 68",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_068.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 68
+      },
+      "search_text": "page 68"
+    },
+    {
+      "id": "page_069.jpg",
+      "title": "Page 69",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_069.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 69
+      },
+      "search_text": "page 69"
+    },
+    {
+      "id": "page_070.jpg",
+      "title": "Page 70",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_070.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 70
+      },
+      "search_text": "page 70"
+    },
+    {
+      "id": "page_071.jpg",
+      "title": "Page 71",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_071.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 71
+      },
+      "search_text": "page 71"
+    },
+    {
+      "id": "page_072.jpg",
+      "title": "Page 72",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_072.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 72
+      },
+      "search_text": "page 72"
+    },
+    {
+      "id": "page_073.jpg",
+      "title": "Page 73",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_073.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 73
+      },
+      "search_text": "page 73"
+    },
+    {
+      "id": "page_074.jpg",
+      "title": "Page 74",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_074.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 74
+      },
+      "search_text": "page 74"
+    },
+    {
+      "id": "page_075.jpg",
+      "title": "Page 75",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_075.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 75
+      },
+      "search_text": "page 75"
+    },
+    {
+      "id": "page_076.jpg",
+      "title": "Page 76",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_076.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 76
+      },
+      "search_text": "page 76"
+    },
+    {
+      "id": "page_077.jpg",
+      "title": "Page 77",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_077.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 77
+      },
+      "search_text": "page 77"
+    },
+    {
+      "id": "page_078.jpg",
+      "title": "Page 78",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_078.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 78
+      },
+      "search_text": "page 78"
+    },
+    {
+      "id": "page_079.jpg",
+      "title": "Page 79",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_079.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 79
+      },
+      "search_text": "page 79"
+    },
+    {
+      "id": "page_080.jpg",
+      "title": "Page 80",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_080.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 80
+      },
+      "search_text": "page 80"
+    },
+    {
+      "id": "page_081.jpg",
+      "title": "Page 81",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_081.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 81
+      },
+      "search_text": "page 81"
+    },
+    {
+      "id": "page_082.jpg",
+      "title": "Page 82",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_082.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 82
+      },
+      "search_text": "page 82"
+    },
+    {
+      "id": "page_083.jpg",
+      "title": "Page 83",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_083.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 83
+      },
+      "search_text": "page 83"
+    },
+    {
+      "id": "page_084.jpg",
+      "title": "Page 84",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_084.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 84
+      },
+      "search_text": "page 84"
+    },
+    {
+      "id": "page_085.jpg",
+      "title": "Page 85",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_085.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 85
+      },
+      "search_text": "page 85"
+    },
+    {
+      "id": "page_086.jpg",
+      "title": "Page 86",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_086.jpg",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 86
+      },
+      "search_text": "page 86"
     },
     {
       "id": "page_001.png",
@@ -4102,402 +4994,6 @@
         "page": 366
       },
       "search_text": "page 366"
-    },
-    {
-      "id": "page_367.png",
-      "title": "Page 367",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_367.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 367
-      },
-      "search_text": "page 367"
-    },
-    {
-      "id": "page_368.png",
-      "title": "Page 368",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_368.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 368
-      },
-      "search_text": "page 368"
-    },
-    {
-      "id": "page_369.png",
-      "title": "Page 369",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_369.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 369
-      },
-      "search_text": "page 369"
-    },
-    {
-      "id": "page_370.png",
-      "title": "Page 370",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_370.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 370
-      },
-      "search_text": "page 370"
-    },
-    {
-      "id": "page_371.png",
-      "title": "Page 371",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_371.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 371
-      },
-      "search_text": "page 371"
-    },
-    {
-      "id": "page_372.png",
-      "title": "Page 372",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_372.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 372
-      },
-      "search_text": "page 372"
-    },
-    {
-      "id": "page_373.png",
-      "title": "Page 373",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_373.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 373
-      },
-      "search_text": "page 373"
-    },
-    {
-      "id": "page_374.png",
-      "title": "Page 374",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_374.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 374
-      },
-      "search_text": "page 374"
-    },
-    {
-      "id": "page_375.png",
-      "title": "Page 375",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_375.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 375
-      },
-      "search_text": "page 375"
-    },
-    {
-      "id": "page_376.png",
-      "title": "Page 376",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_376.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 376
-      },
-      "search_text": "page 376"
-    },
-    {
-      "id": "page_377.png",
-      "title": "Page 377",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_377.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 377
-      },
-      "search_text": "page 377"
-    },
-    {
-      "id": "page_378.png",
-      "title": "Page 378",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_378.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 378
-      },
-      "search_text": "page 378"
-    },
-    {
-      "id": "page_379.png",
-      "title": "Page 379",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_379.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 379
-      },
-      "search_text": "page 379"
-    },
-    {
-      "id": "page_380.png",
-      "title": "Page 380",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_380.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 380
-      },
-      "search_text": "page 380"
-    },
-    {
-      "id": "page_381.png",
-      "title": "Page 381",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_381.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 381
-      },
-      "search_text": "page 381"
-    },
-    {
-      "id": "page_382.png",
-      "title": "Page 382",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_382.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 382
-      },
-      "search_text": "page 382"
-    },
-    {
-      "id": "page_383.png",
-      "title": "Page 383",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_383.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 383
-      },
-      "search_text": "page 383"
-    },
-    {
-      "id": "page_384.png",
-      "title": "Page 384",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_384.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 384
-      },
-      "search_text": "page 384"
-    },
-    {
-      "id": "page_385.png",
-      "title": "Page 385",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_385.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 385
-      },
-      "search_text": "page 385"
-    },
-    {
-      "id": "page_386.png",
-      "title": "Page 386",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_386.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 386
-      },
-      "search_text": "page 386"
-    },
-    {
-      "id": "page_387.png",
-      "title": "Page 387",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_387.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 387
-      },
-      "search_text": "page 387"
-    },
-    {
-      "id": "page_388.png",
-      "title": "Page 388",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_388.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 388
-      },
-      "search_text": "page 388"
-    },
-    {
-      "id": "page_389.png",
-      "title": "Page 389",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_389.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 389
-      },
-      "search_text": "page 389"
-    },
-    {
-      "id": "page_390.png",
-      "title": "Page 390",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_390.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 390
-      },
-      "search_text": "page 390"
-    },
-    {
-      "id": "page_391.png",
-      "title": "Page 391",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_391.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 391
-      },
-      "search_text": "page 391"
-    },
-    {
-      "id": "page_392.png",
-      "title": "Page 392",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_392.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 392
-      },
-      "search_text": "page 392"
-    },
-    {
-      "id": "page_393.png",
-      "title": "Page 393",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_393.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 393
-      },
-      "search_text": "page 393"
-    },
-    {
-      "id": "page_394.png",
-      "title": "Page 394",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_394.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 394
-      },
-      "search_text": "page 394"
-    },
-    {
-      "id": "page_395.png",
-      "title": "Page 395",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_395.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 395
-      },
-      "search_text": "page 395"
-    },
-    {
-      "id": "page_396.png",
-      "title": "Page 396",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_396.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 396
-      },
-      "search_text": "page 396"
-    },
-    {
-      "id": "page_397.png",
-      "title": "Page 397",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_397.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 397
-      },
-      "search_text": "page 397"
-    },
-    {
-      "id": "page_398.png",
-      "title": "Page 398",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_398.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 398
-      },
-      "search_text": "page 398"
-    },
-    {
-      "id": "page_399.png",
-      "title": "Page 399",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_399.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 399
-      },
-      "search_text": "page 399"
-    },
-    {
-      "id": "page_400.png",
-      "title": "Page 400",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_400.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 400
-      },
-      "search_text": "page 400"
-    },
-    {
-      "id": "page_401.png",
-      "title": "Page 401",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_401.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 401
-      },
-      "search_text": "page 401"
-    },
-    {
-      "id": "page_402.png",
-      "title": "Page 402",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_402.png",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 402
-      },
-      "search_text": "page 402"
     },
     {
       "id": "Base%20de%20connaissances/Theorie/Arpeges/assets/page_056.png",
@@ -17522,6 +18018,402 @@
       "search_text": "page_031 vous devez arriver au point ot! vous pouvez instantanément trouvez i’accent (appuyé, moyen, léger, staccato,\nlegato, etc.) de toute note ou groupe de notes a tout moment que vous choisissez, sans perturber le flux et la\nsensation de vos lignes mélodiques.\n\ntrés important: ne pas se contenter de la pratique de la gamme g majeur ou la gamme chromatique utilisez ces\nexercices d'articulation pour toutes les gammes et les accords et dans tous les tonalités rappelez-vous, vous\nimprovisez dans tous les hammer-on jazz modal"
     },
     {
+      "id": "page_367.png",
+      "title": "Page 367",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_367.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 367
+      },
+      "search_text": "page 367"
+    },
+    {
+      "id": "page_368.png",
+      "title": "Page 368",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_368.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 368
+      },
+      "search_text": "page 368"
+    },
+    {
+      "id": "page_369.png",
+      "title": "Page 369",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_369.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 369
+      },
+      "search_text": "page 369"
+    },
+    {
+      "id": "page_370.png",
+      "title": "Page 370",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_370.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 370
+      },
+      "search_text": "page 370"
+    },
+    {
+      "id": "page_371.png",
+      "title": "Page 371",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_371.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 371
+      },
+      "search_text": "page 371"
+    },
+    {
+      "id": "page_372.png",
+      "title": "Page 372",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_372.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 372
+      },
+      "search_text": "page 372"
+    },
+    {
+      "id": "page_373.png",
+      "title": "Page 373",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_373.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 373
+      },
+      "search_text": "page 373"
+    },
+    {
+      "id": "page_374.png",
+      "title": "Page 374",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_374.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 374
+      },
+      "search_text": "page 374"
+    },
+    {
+      "id": "page_375.png",
+      "title": "Page 375",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_375.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 375
+      },
+      "search_text": "page 375"
+    },
+    {
+      "id": "page_376.png",
+      "title": "Page 376",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_376.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 376
+      },
+      "search_text": "page 376"
+    },
+    {
+      "id": "page_377.png",
+      "title": "Page 377",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_377.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 377
+      },
+      "search_text": "page 377"
+    },
+    {
+      "id": "page_378.png",
+      "title": "Page 378",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_378.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 378
+      },
+      "search_text": "page 378"
+    },
+    {
+      "id": "page_379.png",
+      "title": "Page 379",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_379.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 379
+      },
+      "search_text": "page 379"
+    },
+    {
+      "id": "page_380.png",
+      "title": "Page 380",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_380.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 380
+      },
+      "search_text": "page 380"
+    },
+    {
+      "id": "page_381.png",
+      "title": "Page 381",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_381.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 381
+      },
+      "search_text": "page 381"
+    },
+    {
+      "id": "page_382.png",
+      "title": "Page 382",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_382.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 382
+      },
+      "search_text": "page 382"
+    },
+    {
+      "id": "page_383.png",
+      "title": "Page 383",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_383.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 383
+      },
+      "search_text": "page 383"
+    },
+    {
+      "id": "page_384.png",
+      "title": "Page 384",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_384.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 384
+      },
+      "search_text": "page 384"
+    },
+    {
+      "id": "page_385.png",
+      "title": "Page 385",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_385.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 385
+      },
+      "search_text": "page 385"
+    },
+    {
+      "id": "page_386.png",
+      "title": "Page 386",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_386.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 386
+      },
+      "search_text": "page 386"
+    },
+    {
+      "id": "page_387.png",
+      "title": "Page 387",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_387.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 387
+      },
+      "search_text": "page 387"
+    },
+    {
+      "id": "page_388.png",
+      "title": "Page 388",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_388.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 388
+      },
+      "search_text": "page 388"
+    },
+    {
+      "id": "page_389.png",
+      "title": "Page 389",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_389.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 389
+      },
+      "search_text": "page 389"
+    },
+    {
+      "id": "page_390.png",
+      "title": "Page 390",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_390.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 390
+      },
+      "search_text": "page 390"
+    },
+    {
+      "id": "page_391.png",
+      "title": "Page 391",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_391.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 391
+      },
+      "search_text": "page 391"
+    },
+    {
+      "id": "page_392.png",
+      "title": "Page 392",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_392.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 392
+      },
+      "search_text": "page 392"
+    },
+    {
+      "id": "page_393.png",
+      "title": "Page 393",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_393.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 393
+      },
+      "search_text": "page 393"
+    },
+    {
+      "id": "page_394.png",
+      "title": "Page 394",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_394.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 394
+      },
+      "search_text": "page 394"
+    },
+    {
+      "id": "page_395.png",
+      "title": "Page 395",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_395.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 395
+      },
+      "search_text": "page 395"
+    },
+    {
+      "id": "page_396.png",
+      "title": "Page 396",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_396.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 396
+      },
+      "search_text": "page 396"
+    },
+    {
+      "id": "page_397.png",
+      "title": "Page 397",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_397.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 397
+      },
+      "search_text": "page 397"
+    },
+    {
+      "id": "page_398.png",
+      "title": "Page 398",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_398.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 398
+      },
+      "search_text": "page 398"
+    },
+    {
+      "id": "page_399.png",
+      "title": "Page 399",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_399.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 399
+      },
+      "search_text": "page 399"
+    },
+    {
+      "id": "page_400.png",
+      "title": "Page 400",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_400.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 400
+      },
+      "search_text": "page 400"
+    },
+    {
+      "id": "page_401.png",
+      "title": "Page 401",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_401.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 401
+      },
+      "search_text": "page 401"
+    },
+    {
+      "id": "page_402.png",
+      "title": "Page 402",
+      "type": "image",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_402.png",
+      "source": "songs_index.json",
+      "metadata": {
+        "page": 402
+      },
+      "search_text": "page 402"
+    },
+    {
       "id": "page_403.png",
       "title": "Page 403",
       "type": "image",
@@ -18688,950 +19580,58 @@
       "search_text": "page 508"
     },
     {
-      "id": "page_001.jpg",
-      "title": "Page 1",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_001.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 1
-      },
-      "search_text": "page 1"
-    },
-    {
-      "id": "page_002.jpg",
-      "title": "Page 2",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_002.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 2
-      },
-      "search_text": "page 2"
-    },
-    {
-      "id": "page_003.jpg",
-      "title": "Page 3",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_003.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 3
-      },
-      "search_text": "page 3"
-    },
-    {
-      "id": "page_004.jpg",
-      "title": "Page 4",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_004.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 4
-      },
-      "search_text": "page 4"
-    },
-    {
-      "id": "page_005.jpg",
-      "title": "Page 5",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_005.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 5
-      },
-      "search_text": "page 5"
-    },
-    {
-      "id": "page_006.jpg",
-      "title": "Page 6",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_006.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 6
-      },
-      "search_text": "page 6"
-    },
-    {
-      "id": "page_007.jpg",
-      "title": "Page 7",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_007.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 7
-      },
-      "search_text": "page 7"
-    },
-    {
-      "id": "page_008.jpg",
-      "title": "Page 8",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_008.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 8
-      },
-      "search_text": "page 8"
-    },
-    {
-      "id": "page_009.jpg",
-      "title": "Page 9",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_009.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 9
-      },
-      "search_text": "page 9"
-    },
-    {
-      "id": "page_010.jpg",
-      "title": "Page 10",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_010.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 10
-      },
-      "search_text": "page 10"
-    },
-    {
-      "id": "page_011.jpg",
-      "title": "Page 11",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_011.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 11
-      },
-      "search_text": "page 11"
-    },
-    {
-      "id": "page_012.jpg",
-      "title": "Page 12",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_012.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 12
-      },
-      "search_text": "page 12"
-    },
-    {
-      "id": "page_013.jpg",
-      "title": "Page 13",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_013.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 13
-      },
-      "search_text": "page 13"
-    },
-    {
-      "id": "page_014.jpg",
-      "title": "Page 14",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_014.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 14
-      },
-      "search_text": "page 14"
-    },
-    {
-      "id": "page_015.jpg",
-      "title": "Page 15",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_015.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 15
-      },
-      "search_text": "page 15"
-    },
-    {
-      "id": "page_016.jpg",
-      "title": "Page 16",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_016.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 16
-      },
-      "search_text": "page 16"
-    },
-    {
-      "id": "page_017.jpg",
-      "title": "Page 17",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_017.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 17
-      },
-      "search_text": "page 17"
-    },
-    {
-      "id": "page_018.jpg",
-      "title": "Page 18",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_018.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 18
-      },
-      "search_text": "page 18"
-    },
-    {
-      "id": "page_019.jpg",
-      "title": "Page 19",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_019.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 19
-      },
-      "search_text": "page 19"
-    },
-    {
-      "id": "page_020.jpg",
-      "title": "Page 20",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_020.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 20
-      },
-      "search_text": "page 20"
-    },
-    {
-      "id": "page_021.jpg",
-      "title": "Page 21",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_021.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 21
-      },
-      "search_text": "page 21"
-    },
-    {
-      "id": "page_022.jpg",
-      "title": "Page 22",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_022.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 22
-      },
-      "search_text": "page 22"
-    },
-    {
-      "id": "page_023.jpg",
-      "title": "Page 23",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_023.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 23
-      },
-      "search_text": "page 23"
-    },
-    {
-      "id": "page_024.jpg",
-      "title": "Page 24",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_024.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 24
-      },
-      "search_text": "page 24"
-    },
-    {
-      "id": "page_025.jpg",
-      "title": "Page 25",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_025.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 25
-      },
-      "search_text": "page 25"
-    },
-    {
-      "id": "page_026.jpg",
-      "title": "Page 26",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_026.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 26
-      },
-      "search_text": "page 26"
-    },
-    {
-      "id": "page_027.jpg",
-      "title": "Page 27",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_027.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 27
-      },
-      "search_text": "page 27"
-    },
-    {
-      "id": "page_028.jpg",
-      "title": "Page 28",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_028.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 28
-      },
-      "search_text": "page 28"
-    },
-    {
-      "id": "page_029.jpg",
-      "title": "Page 29",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_029.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 29
-      },
-      "search_text": "page 29"
-    },
-    {
-      "id": "page_030.jpg",
-      "title": "Page 30",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_030.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 30
-      },
-      "search_text": "page 30"
-    },
-    {
-      "id": "page_031.jpg",
-      "title": "Page 31",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_031.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 31
-      },
-      "search_text": "page 31"
-    },
-    {
-      "id": "page_032.jpg",
-      "title": "Page 32",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_032.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 32
-      },
-      "search_text": "page 32"
-    },
-    {
-      "id": "page_033.jpg",
-      "title": "Page 33",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_033.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 33
-      },
-      "search_text": "page 33"
-    },
-    {
-      "id": "page_034.jpg",
-      "title": "Page 34",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_034.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 34
-      },
-      "search_text": "page 34"
-    },
-    {
-      "id": "page_035.jpg",
-      "title": "Page 35",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_035.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 35
-      },
-      "search_text": "page 35"
-    },
-    {
-      "id": "page_036.jpg",
-      "title": "Page 36",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_036.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 36
-      },
-      "search_text": "page 36"
-    },
-    {
-      "id": "page_037.jpg",
-      "title": "Page 37",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_037.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 37
-      },
-      "search_text": "page 37"
-    },
-    {
-      "id": "page_038.jpg",
-      "title": "Page 38",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_038.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 38
-      },
-      "search_text": "page 38"
-    },
-    {
-      "id": "page_039.jpg",
-      "title": "Page 39",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_039.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 39
-      },
-      "search_text": "page 39"
-    },
-    {
-      "id": "page_040.jpg",
-      "title": "Page 40",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_040.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 40
-      },
-      "search_text": "page 40"
-    },
-    {
-      "id": "page_041.jpg",
-      "title": "Page 41",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_041.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 41
-      },
-      "search_text": "page 41"
-    },
-    {
-      "id": "page_042.jpg",
-      "title": "Page 42",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_042.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 42
-      },
-      "search_text": "page 42"
-    },
-    {
-      "id": "page_043.jpg",
-      "title": "Page 43",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_043.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 43
-      },
-      "search_text": "page 43"
-    },
-    {
-      "id": "page_044.jpg",
-      "title": "Page 44",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_044.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 44
-      },
-      "search_text": "page 44"
-    },
-    {
-      "id": "page_045.jpg",
-      "title": "Page 45",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_045.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 45
-      },
-      "search_text": "page 45"
-    },
-    {
-      "id": "page_046.jpg",
-      "title": "Page 46",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_046.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 46
-      },
-      "search_text": "page 46"
-    },
-    {
-      "id": "page_047.jpg",
-      "title": "Page 47",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_047.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 47
-      },
-      "search_text": "page 47"
-    },
-    {
-      "id": "page_048.jpg",
-      "title": "Page 48",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_048.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 48
-      },
-      "search_text": "page 48"
-    },
-    {
-      "id": "page_049.jpg",
-      "title": "Page 49",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_049.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 49
-      },
-      "search_text": "page 49"
-    },
-    {
-      "id": "page_050.jpg",
-      "title": "Page 50",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_050.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 50
-      },
-      "search_text": "page 50"
-    },
-    {
-      "id": "page_051.jpg",
-      "title": "Page 51",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_051.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 51
-      },
-      "search_text": "page 51"
-    },
-    {
-      "id": "page_052.jpg",
-      "title": "Page 52",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_052.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 52
-      },
-      "search_text": "page 52"
-    },
-    {
-      "id": "page_053.jpg",
-      "title": "Page 53",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_053.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 53
-      },
-      "search_text": "page 53"
-    },
-    {
-      "id": "page_054.jpg",
-      "title": "Page 54",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_054.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 54
-      },
-      "search_text": "page 54"
-    },
-    {
-      "id": "page_055.jpg",
-      "title": "Page 55",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_055.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 55
-      },
-      "search_text": "page 55"
-    },
-    {
-      "id": "page_056.jpg",
-      "title": "Page 56",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_056.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 56
-      },
-      "search_text": "page 56"
-    },
-    {
-      "id": "page_057.jpg",
-      "title": "Page 57",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_057.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 57
-      },
-      "search_text": "page 57"
-    },
-    {
-      "id": "page_058.jpg",
-      "title": "Page 58",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_058.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 58
-      },
-      "search_text": "page 58"
-    },
-    {
-      "id": "page_059.jpg",
-      "title": "Page 59",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_059.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 59
-      },
-      "search_text": "page 59"
-    },
-    {
-      "id": "page_060.jpg",
-      "title": "Page 60",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_060.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 60
-      },
-      "search_text": "page 60"
-    },
-    {
-      "id": "page_061.jpg",
-      "title": "Page 61",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_061.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 61
-      },
-      "search_text": "page 61"
-    },
-    {
-      "id": "page_062.jpg",
-      "title": "Page 62",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_062.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 62
-      },
-      "search_text": "page 62"
-    },
-    {
-      "id": "page_063.jpg",
-      "title": "Page 63",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_063.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 63
-      },
-      "search_text": "page 63"
-    },
-    {
-      "id": "page_064.jpg",
-      "title": "Page 64",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_064.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 64
-      },
-      "search_text": "page 64"
-    },
-    {
-      "id": "page_065.jpg",
-      "title": "Page 65",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_065.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 65
-      },
-      "search_text": "page 65"
-    },
-    {
-      "id": "page_066.jpg",
-      "title": "Page 66",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_066.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 66
-      },
-      "search_text": "page 66"
-    },
-    {
-      "id": "page_067.jpg",
-      "title": "Page 67",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_067.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 67
-      },
-      "search_text": "page 67"
-    },
-    {
-      "id": "page_068.jpg",
-      "title": "Page 68",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_068.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 68
-      },
-      "search_text": "page 68"
-    },
-    {
-      "id": "page_069.jpg",
-      "title": "Page 69",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_069.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 69
-      },
-      "search_text": "page 69"
-    },
-    {
-      "id": "page_070.jpg",
-      "title": "Page 70",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_070.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 70
-      },
-      "search_text": "page 70"
-    },
-    {
-      "id": "page_071.jpg",
-      "title": "Page 71",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_071.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 71
-      },
-      "search_text": "page 71"
-    },
-    {
-      "id": "page_072.jpg",
-      "title": "Page 72",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_072.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 72
-      },
-      "search_text": "page 72"
-    },
-    {
-      "id": "page_073.jpg",
-      "title": "Page 73",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_073.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 73
-      },
-      "search_text": "page 73"
-    },
-    {
-      "id": "page_074.jpg",
-      "title": "Page 74",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_074.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 74
-      },
-      "search_text": "page 74"
-    },
-    {
-      "id": "page_075.jpg",
-      "title": "Page 75",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_075.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 75
-      },
-      "search_text": "page 75"
-    },
-    {
-      "id": "page_076.jpg",
-      "title": "Page 76",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_076.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 76
-      },
-      "search_text": "page 76"
-    },
-    {
-      "id": "page_077.jpg",
-      "title": "Page 77",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_077.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 77
-      },
-      "search_text": "page 77"
-    },
-    {
-      "id": "page_078.jpg",
-      "title": "Page 78",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_078.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 78
-      },
-      "search_text": "page 78"
-    },
-    {
-      "id": "page_079.jpg",
-      "title": "Page 79",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_079.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 79
-      },
-      "search_text": "page 79"
-    },
-    {
-      "id": "page_080.jpg",
-      "title": "Page 80",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_080.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 80
-      },
-      "search_text": "page 80"
-    },
-    {
-      "id": "page_081.jpg",
-      "title": "Page 81",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_081.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 81
-      },
-      "search_text": "page 81"
-    },
-    {
-      "id": "page_082.jpg",
-      "title": "Page 82",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_082.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 82
-      },
-      "search_text": "page 82"
-    },
-    {
-      "id": "page_083.jpg",
-      "title": "Page 83",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_083.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 83
-      },
-      "search_text": "page 83"
-    },
-    {
-      "id": "page_084.jpg",
-      "title": "Page 84",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_084.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 84
-      },
-      "search_text": "page 84"
-    },
-    {
-      "id": "page_085.jpg",
-      "title": "Page 85",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_085.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 85
-      },
-      "search_text": "page 85"
-    },
-    {
-      "id": "page_086.jpg",
-      "title": "Page 86",
-      "type": "image",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/assets/pages/page_086.jpg",
-      "source": "songs_index.json",
-      "metadata": {
-        "page": 86
-      },
-      "search_text": "page 86"
+      "id": "metadata",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/metadata",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "mp3_index",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/mp3_index",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "pdf_index",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/pdf_index",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "realbook_index",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/realbook_index",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "stats",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/stats",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "quick_reference",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/quick_reference",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
     },
     {
       "id": "page_087.jpg",
@@ -21231,8 +21231,8 @@
   ],
   "statistics": {
     "by_type": {
-      "other": 6,
-      "image": 1525
+      "image": 1525,
+      "other": 6
     },
     "sources_merged": 18,
     "with_ocr": 768
