@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
 🎸 Prof de Basse - Site Update Automation
-Version 1.0.0
+Version 1.1.0
 Mise à jour automatique du site GitHub Pages
+- Support des formats JSON v1.0 et v4.0
+- Dédoublonnage automatique des morceaux
 """
 
 import os
@@ -124,20 +126,23 @@ class SiteUpdater:
                     with open(json_path, 'r', encoding='utf-8') as f:
                         data = json.load(f)
                     
-                    # Extraire les métadonnées
-                    metadata = data.get('metadata', {})
-                    method_name = metadata.get('method_name', root_path.name)
+                    # NORMALISATION : Supporter les 2 formats
+                    normalized_data = self.normalize_json_format(data, root_path)
                     
-                    # Traiter les songs
-                    songs = data.get('songs', [])
-                    self.stats['total_songs'] += len(songs)
+                    metadata = normalized_data['metadata']
+                    method_name = metadata['method_name']
                     
-                    for song in songs:
+                    # Traiter les songs (avec dédoublonnage)
+                    songs = normalized_data['songs']
+                    songs_dedup = self.deduplicate_songs(songs)
+                    self.stats['total_songs'] += len(songs_dedup)
+                    
+                    for song in songs_dedup:
                         resource = self.create_resource_from_song(song, method_name, root_path)
                         self.all_resources.append(resource)
                     
                     # Traiter les exercises
-                    exercises = data.get('exercises', [])
+                    exercises = normalized_data['exercises']
                     self.stats['total_exercises'] += len(exercises)
                     
                     for exercise in exercises:
@@ -152,10 +157,81 @@ class SiteUpdater:
                             self.all_resources.append(resource)
                             self.stats['total_pages'] += 1
                     
-                    print(f"   ✓ {method_name} : {len(songs)} songs, {len(exercises)} exercises")
+                    # Afficher warning si doublons détectés
+                    if len(songs) != len(songs_dedup):
+                        print(f"   ✓ {method_name} : {len(songs_dedup)} songs ({len(songs) - len(songs_dedup)} doublons supprimés), {len(exercises)} exercises")
+                    else:
+                        print(f"   ✓ {method_name} : {len(songs_dedup)} songs, {len(exercises)} exercises")
                     
                 except Exception as e:
                     print(f"   ⚠️  Erreur lecture {json_path} : {e}")
+        
+        self.stats['total_resources'] = len(self.all_resources)
+    
+    def normalize_json_format(self, data: Dict, root_path: Path) -> Dict:
+        """Normaliser les différents formats JSON en un format unifié"""
+        
+        # FORMAT 1 : OCR Batch Converter v1.0 (nouveau)
+        # Structure : { "metadata": {...}, "content": { "songs": [], "exercises": [] } }
+        if 'content' in data:
+            content = data['content']
+            metadata = data.get('metadata', {})
+            
+            return {
+                'metadata': {
+                    'method_name': metadata.get('bookTitle', root_path.name),
+                    'category': metadata.get('category', ''),
+                    'style': metadata.get('style', ''),
+                    'total_pages': metadata.get('totalPages', 0),
+                    'version': '1.0.0'
+                },
+                'songs': content.get('songs', []),
+                'exercises': content.get('exercises', []),
+                'concepts': content.get('concepts', [])
+            }
+        
+        # FORMAT 2 : V4.0 (ancien)
+        # Structure : { "metadata": {...}, "songs": [], "exercises": [] }
+        elif 'metadata' in data and 'songs' in data:
+            metadata = data['metadata']
+            
+            return {
+                'metadata': {
+                    'method_name': metadata.get('method_name', root_path.name),
+                    'category': metadata.get('category', ''),
+                    'style': metadata.get('style', ''),
+                    'total_pages': metadata.get('total_pages', 0),
+                    'version': metadata.get('version', '4.0.0')
+                },
+                'songs': data.get('songs', []),
+                'exercises': data.get('exercises', []),
+                'concepts': data.get('concepts', [])
+            }
+        
+        # FORMAT INCONNU : Retourner structure vide
+        else:
+            print(f"   ⚠️  Format JSON inconnu dans {root_path.name}")
+            return {
+                'metadata': {'method_name': root_path.name},
+                'songs': [],
+                'exercises': [],
+                'concepts': []
+            }
+    
+    def deduplicate_songs(self, songs: List[Dict]) -> List[Dict]:
+        """Supprimer les doublons de morceaux (même titre + même page)"""
+        seen = set()
+        unique_songs = []
+        
+        for song in songs:
+            # Clé unique : titre + page
+            key = (song.get('title', ''), song.get('page', 0))
+            
+            if key not in seen:
+                seen.add(key)
+                unique_songs.append(song)
+        
+        return unique_songs
         
         self.stats['total_resources'] = len(self.all_resources)
     
