@@ -1,23 +1,23 @@
 {
   "version": "3.0.0-MEGA-V3-OCR",
-  "generated_at": "2025-11-13T07:17:38.180515",
+  "generated_at": "2025-11-13T16:44:47.577720",
   "total_resources": 746,
   "sources": [
-    "Base de connaissances/Theorie/Arpeges_v4.0/songs_index.json",
     "Base de connaissances/Partitions/Realbook Bass F_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/realbook Volume-3-C_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Aebersold - The Jazz Fake Book_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Paul westwood 2-5_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Paul westwood 1-2_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/aebersold-FRENCH_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Sade-DiamondLife-BassTranscriptions_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/The_Real_Rock_Book_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Theorie_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/70s Funk & Disco Bass_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Arpeges_v4.0/songs_index.json",
     "resources/complete-resource-map.json",
+    "Base de connaissances/Partitions/Sade-DiamondLife-BassTranscriptions_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Stevie-Wonder-Songs-in-the-Key-of-Life_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Aebersold - The Jazz Fake Book_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/aebersold-FRENCH_v4.0/songs_index.json",
     "Base de connaissances/Theorie/Pratique_v4.0/songs_index.json",
     "Base de connaissances/Partitions/Volume-2-contrebasse_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Stevie-Wonder-Songs-in-the-Key-of-Life_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/70s Funk & Disco Bass_v4.0/songs_index.json",
-    "Base de connaissances/Theorie/Theorie_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/The_Real_Rock_Book_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/Paul westwood 1-2_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/Paul westwood 2-5_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/realbook Volume-3-C_v4.0/songs_index.json",
     "Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_v4.0/songs_index.json",
     "Base de connaissances/Theorie/Harmonie_v4.0/songs_index.json"
   ],
@@ -5611,24 +5611,6 @@
       "search_text": "page 508"
     },
     {
-      "id": "metadata",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Partitions/realbook%20Volume-3-C_v4.0/assets/metadata",
-      "source": "songs_index.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
-      "id": "content",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Partitions/realbook%20Volume-3-C_v4.0/assets/content",
-      "source": "songs_index.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
       "id": "page_001.jpg",
       "title": "Page 1",
       "type": "image",
@@ -6573,51 +6555,6 @@
         "page": 86
       },
       "search_text": "page 86"
-    },
-    {
-      "id": "mp3_index",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/mp3_index",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
-      "id": "pdf_index",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/pdf_index",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
-      "id": "realbook_index",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/realbook_index",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
-      "id": "stats",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/stats",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
-      "id": "quick_reference",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/quick_reference",
-      "source": "complete-resource-map.json",
-      "metadata": {},
-      "search_text": "sans titre"
     },
     {
       "id": "page_087.jpg",
@@ -8213,6 +8150,69 @@
         "page": 231
       },
       "search_text": "page 231"
+    },
+    {
+      "id": "metadata",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/metadata",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "mp3_index",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/mp3_index",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "pdf_index",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/pdf_index",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "realbook_index",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/realbook_index",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "stats",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/stats",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "quick_reference",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/resources/quick_reference",
+      "source": "complete-resource-map.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "content",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Partitions/Sade-DiamondLife-BassTranscriptions_v4.0/assets/content",
+      "source": "songs_index.json",
+      "metadata": {},
+      "search_text": "sans titre"
     }
   ],
   "statistics": {
