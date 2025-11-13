@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 🎸 Prof de Basse - Site Update Automation
-Version 1.3.0 - CRITICAL FIX
+Version 1.6.0 - CRITICAL NORMALIZATION FIX
 Mise à jour automatique du site GitHub Pages
 - Support des formats JSON v1.0 et v4.0
+- FIX CRITIQUE : Normalisation page_number → page (copie profonde)
 - Dédoublonnage automatique des morceaux
 - Encodage URL correct avec urllib.parse.quote
-- FIX : Plus de doublons d'images (référence uniquement via songs/exercises)
+- Dédoublonnage global par URL
 """
 
 import os
@@ -168,6 +169,9 @@ class SiteUpdater:
                 except Exception as e:
                     print(f"   ⚠️  Erreur lecture {json_path} : {e}")
         
+        # DÉDOUBLONNAGE GLOBAL : Supprimer les ressources avec URL identique
+        self.all_resources = self.deduplicate_resources_by_url(self.all_resources)
+        
         self.stats['total_resources'] = len(self.all_resources)
     
     def normalize_json_format(self, data: Dict, root_path: Path) -> Dict:
@@ -179,6 +183,19 @@ class SiteUpdater:
             content = data['content']
             metadata = data.get('metadata', {})
             
+            # Normaliser les songs
+            songs = content.get('songs', [])
+            normalized_songs = []
+            for song in songs:
+                # Créer une COPIE normalisée
+                normalized_song = dict(song)
+                # Normaliser page_number → page
+                if 'page_number' in normalized_song:
+                    normalized_song['page'] = normalized_song.get('page_number', 0)
+                elif 'page' not in normalized_song:
+                    normalized_song['page'] = 0
+                normalized_songs.append(normalized_song)
+            
             return {
                 'metadata': {
                     'method_name': metadata.get('bookTitle', root_path.name),
@@ -187,7 +204,7 @@ class SiteUpdater:
                     'total_pages': metadata.get('totalPages', 0),
                     'version': '1.0.0'
                 },
-                'songs': content.get('songs', []),
+                'songs': normalized_songs,
                 'exercises': content.get('exercises', []),
                 'concepts': content.get('concepts', [])
             }
@@ -197,6 +214,19 @@ class SiteUpdater:
         elif 'metadata' in data and 'songs' in data:
             metadata = data['metadata']
             
+            # Normaliser les songs
+            songs = data.get('songs', [])
+            normalized_songs = []
+            for song in songs:
+                # Créer une COPIE normalisée
+                normalized_song = dict(song)
+                # Normaliser page_number → page
+                if 'page_number' in normalized_song:
+                    normalized_song['page'] = normalized_song.get('page_number', 0)
+                elif 'page' not in normalized_song:
+                    normalized_song['page'] = 0
+                normalized_songs.append(normalized_song)
+            
             return {
                 'metadata': {
                     'method_name': metadata.get('method_name', root_path.name),
@@ -205,7 +235,7 @@ class SiteUpdater:
                     'total_pages': metadata.get('total_pages', 0),
                     'version': metadata.get('version', '4.0.0')
                 },
-                'songs': data.get('songs', []),
+                'songs': normalized_songs,
                 'exercises': data.get('exercises', []),
                 'concepts': data.get('concepts', [])
             }
@@ -234,6 +264,26 @@ class SiteUpdater:
                 unique_songs.append(song)
         
         return unique_songs
+    
+    def deduplicate_resources_by_url(self, resources: List[Dict]) -> List[Dict]:
+        """Supprimer les ressources avec URL identique (dédoublonnage global)"""
+        seen_urls = set()
+        unique_resources = []
+        duplicates_count = 0
+        
+        for resource in resources:
+            url = resource.get('url', '')
+            
+            if url not in seen_urls:
+                seen_urls.add(url)
+                unique_resources.append(resource)
+            else:
+                duplicates_count += 1
+        
+        if duplicates_count > 0:
+            print(f"\n   🧹 Dédoublonnage global : {duplicates_count} doublons d'URL supprimés")
+        
+        return unique_resources
         
         self.stats['total_resources'] = len(self.all_resources)
     
