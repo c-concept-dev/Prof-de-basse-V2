@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
 🎸 Prof de Basse - Site Update Automation
-Version 1.2.0
+Version 1.3.0 - CRITICAL FIX
 Mise à jour automatique du site GitHub Pages
 - Support des formats JSON v1.0 et v4.0
 - Dédoublonnage automatique des morceaux
 - Encodage URL correct avec urllib.parse.quote
+- FIX : Plus de doublons d'images (référence uniquement via songs/exercises)
 """
 
 import os
@@ -150,13 +151,13 @@ class SiteUpdater:
                         resource = self.create_resource_from_exercise(exercise, method_name, root_path)
                         self.all_resources.append(resource)
                     
-                    # Ajouter les images de pages
+                    # NE PAS ajouter toutes les images (crée des doublons)
+                    # Les images sont déjà référencées via songs et exercises
+                    # On compte juste le nombre de pages pour les stats
                     assets_dir = root_path / 'assets' / 'pages'
                     if assets_dir.exists():
-                        for img_file in assets_dir.glob('*.png'):
-                            resource = self.create_resource_from_image(img_file, method_name, root_path)
-                            self.all_resources.append(resource)
-                            self.stats['total_pages'] += 1
+                        page_count = len(list(assets_dir.glob('*.png')))
+                        self.stats['total_pages'] += page_count
                     
                     # Afficher warning si doublons détectés
                     if len(songs) != len(songs_dedup):
