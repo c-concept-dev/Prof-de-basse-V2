@@ -1,91 +1,70 @@
-# Aebersold - The Jazz Fake Book - Conversion V4.0
+# Aebersold - The Jazz Fake Book
 
-## 🎯 Méthode OCR par Zones
+## 📋 Informations générales
 
-Cette conversion utilise la **technologie V4.0** avec analyse intelligente par zones pour maximiser la précision.
+- **Catégorie** : realbook
+- **Style musical** : jazz
+- **Nombre de pages** : 448
+- **Date de traitement** : 13/11/2025
 
-## 📊 Statistiques
+## 📊 Statistiques du contenu
 
-- **Pages converties :** 448
-- **MP3 détectés :** 0
-- **Tonalités extraites :** 0
-- **Techniques détectées :** 0
-- **Format images :** PNG
-- **Erreurs OCR :** 448
+- **Morceaux identifiés** : 635
+- **Exercices techniques** : 0
+- **Concepts théoriques** : 3
+- **Total d'éléments** : 638
 
-## 🎯 Analyse par Zones V4.0
+## 🎵 Morceaux principaux
 
-### Zone Titre (0-20%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 448
-- **Réussites :** 0 (0%)
-- **Extraction :** Titre, compositeur, tonalité
+- **A Felicidade** (page 30) - bossa nova
+- **After Hours** (page 31) - blues
+- **After You've Gone** (page 32) - jazz standard
+- **Across The Alley From The Alamo** (page 33) - jazz standard
+- **AC-DC Current** (page 34) - jazz
+- **Afternoon In Paris** (page 34) - jazz standard
+- **Ah-Leu-Cha (Also Known As Ah Lev Cha)** (page 35) - bebop
+- **Ain't Misbehavin'** (page 35) - jazz standard
+- **Airegin** (page 36) - bebop
+- **Air Mail Special** (page 37) - swing
 
-### Zone Partition (20-90%)
-- **OCR :** 🎼 Désactivé (image conservée)
-- **Pages traitées :** 0
-- **Conservation :** 100% des partitions gardées en image PNG
+... et 625 autres morceaux
 
-### Zone Footer (90-100%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 0
-- **Réussites :** 0 (NaN%)
-- **Extraction :** Numéro de page, track number
+## 💪 Exercices
 
-## 📁 Structure (Format V4.0)
 
-```
-📦 Archive
-├── 📄 index.html          # Navigation visuelle locale
-├── 📄 songs_index.json    # Format V4.0 avec métadonnées zones
-├── 📄 README.md           # Ce fichier
-└── 📁 assets/
-    └── 📁 pages/          # Images des pages
-        ├── page_001.png
-        ├── page_002.png
-        └── ...
-```
 
-## 🚀 Intégration avec le Mega Moteur
 
-### Étape 1 : Décompresser
-```bash
-unzip Aebersold - The Jazz Fake Book_v4.0.zip
-```
+## 📖 Concepts théoriques
 
-### Étape 2 : Déplacer dans Methodes/
-```bash
-mv extracted_folder Methodes/
-```
+- **Song Index Organization** (page 3)
+- **Performer Index** (page 10)
+- **Composer/Lyricist Index** (page 18)
 
-### Étape 3 : Lancer la fusion
-```bash
-python3 fusion-ultimate-v4.py
-```
 
-Le fichier `songs_index.json` est au format V4.0 compatible avec :
-- ✅ `fusion-ultimate-v4.py`
-- ✅ Structure `metadata` + `songs[]` + `zones`
-- ✅ Métadonnées enrichies par zone
-- ✅ Statistiques de précision par zone
-- ✅ Gestion d'erreurs robuste avec logs détaillés
+## 📦 Fichiers générés
 
-## 🔧 Version V4.0 - OCR par Zones
+- `Aebersold_-_The_Jazz_Fake_Book.json` - Données complètes au format JSON
+- `Aebersold_-_The_Jazz_Fake_Book_index.html` - Index HTML interactif
+- `Aebersold_-_The_Jazz_Fake_Book_README.md` - Ce fichier
 
-### Nouveautés V4.0 :
-- 🎯 **Analyse ciblée** : OCR sur 30% de la page (zones texte seulement)
-- 🎼 **Protection partition** : Zone musicale conservée en image (pas d'OCR)
-- ⚡ **Performance** : 60% plus rapide que V3.2
-- ✅ **Précision** : 90-95% sur zones texte (vs 60-70% en full page)
-- 📊 **Statistiques détaillées** : Précision par zone dans metadata
+## 🚀 Utilisation
 
-### Avantages :
-- ✅ Élimine les erreurs OCR sur les portées musicales
-- ✅ Extrait précisément titres, compositeurs et tracks
-- ✅ Conserve l'image complète pour référence visuelle
-- ✅ Optimise le temps de traitement
-- ✅ Métadonnées enrichies pour analyse
+Les données sont disponibles au format JSON pour faciliter :
+- L'intégration dans des applications web
+- La recherche et le filtrage de contenu
+- L'export vers d'autres formats
+- L'analyse et les statistiques
+
+## 🛠️ Traitement
+
+Traité avec **OCR Batch Converter v2.2** (Ultimate Edition)
+- Traitement par lots de 20 images
+- OCR via Claude (Anthropic)
+- Validation manuelle avec prévisualisation
+- Navigation libre entre les lots
+- Auto-correction des erreurs
+- Export progressif
 
 ---
 
-Généré le 10/11/2025 10:38:57 avec **Convertisseur OCR V4.0 - Zones Optimisées**
+*Généré le 13/11/2025 à 17:39:58*
