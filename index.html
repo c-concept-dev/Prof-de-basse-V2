@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prof de Basse V2 - Recherche ULTRA</title>
+    <title>Prof de Basse V2 - Safe JSON</title>
     <style>
         * {
             margin: 0;
@@ -26,7 +26,7 @@
             flex-direction: column;
         }
         
-        /* HEADER AMÉLIORÉ */
+        /* HEADER */
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -58,38 +58,26 @@
             font-size: 14px;
         }
         
-        /* TABS NAVIGATION */
-        .tabs-nav {
-            background: #f8f9fa;
-            display: flex;
-            border-bottom: 2px solid #e9ecef;
-            overflow-x: auto;
+        /* DIAGNOSTIC PANEL */
+        .diagnostic {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
         }
         
-        .tab-btn {
-            background: none;
-            border: none;
-            padding: 15px 25px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: 600;
-            color: #666;
-            border-bottom: 3px solid transparent;
-            transition: all 0.3s;
+        .diagnostic.success {
+            background: #e8f5e9;
+            border-left-color: #4caf50;
         }
         
-        .tab-btn:hover {
-            background: #e9ecef;
-            color: #667eea;
+        .diagnostic.error {
+            background: #ffebee;
+            border-left-color: #f44336;
         }
         
-        .tab-btn.active {
-            color: #667eea;
-            border-bottom-color: #667eea;
-            background: white;
-        }
-        
-        /* SEARCH SUPER AMÉLIORÉ */
+        /* SEARCH */
         .search-container {
             padding: 30px;
             background: white;
@@ -118,72 +106,10 @@
             color: #667eea;
         }
         
-        .quick-searches {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-        }
-        
-        .quick-search-btn {
-            background: #f8f9fa;
-            border: 1px solid #667eea;
-            color: #667eea;
-            padding: 8px 15px;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.3s;
-        }
-        
-        .quick-search-btn:hover {
-            background: #667eea;
-            color: white;
-        }
-        
-        /* FILTRES VISUELS */
-        .filters {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .filter-group {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-        }
-        
-        .filter-group label {
-            display: block;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #333;
-        }
-        
-        .filter-group select {
-            width: 100%;
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 14px;
-        }
-        
-        /* RÉSULTATS GRID */
+        /* RESULTS */
         .results-container {
             flex: 1;
             padding: 0 30px 30px;
-        }
-        
-        .results-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 10px;
         }
         
         .results-grid {
@@ -192,7 +118,6 @@
             gap: 20px;
         }
         
-        /* CARDS AMÉLIORÉES */
         .resource-card {
             background: white;
             border: 1px solid #e9ecef;
@@ -234,26 +159,9 @@
             height: 200px;
             object-fit: cover;
             cursor: pointer;
-            transition: transform 0.3s;
         }
         
-        .card-image:hover {
-            transform: scale(1.05);
-        }
-        
-        /* PLAYER INTÉGRÉ */
-        .audio-player {
-            margin-top: 10px;
-            padding: 10px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        
-        .audio-player audio {
-            width: 100%;
-        }
-        
-        /* LIGHTBOX AMÉLIORÉ */
+        /* LIGHTBOX */
         .lightbox {
             display: none;
             position: fixed;
@@ -289,7 +197,6 @@
             font-size: 16px;
         }
         
-        /* LOADING */
         .loading {
             text-align: center;
             padding: 50px;
@@ -297,119 +204,50 @@
             color: #666;
         }
         
-        /* NO RESULTS */
         .no-results {
             text-align: center;
             padding: 50px;
             color: #666;
         }
         
-        /* MOBILE RESPONSIVE */
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 28px;
-            }
-            
-            .stats-bar {
-                gap: 10px;
-            }
-            
-            .results-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .tabs-nav {
-                overflow-x: auto;
-            }
+        .debug-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
         }
     </style>
 </head>
 <body>
     <div class="app-container">
         <header class="header">
-            <h1>🎸 Prof de Basse V2 ULTRA</h1>
+            <h1>🎸 Prof de Basse V2 - Safe Mode</h1>
             <div class="stats-bar">
                 <div class="stat">📚 <span id="totalResources">...</span> ressources</div>
-                <div class="stat">🎵 <span id="totalMethods">...</span> méthodes</div>
-                <div class="stat">📖 <span id="realBookF">...</span> Real Book F</div>
+                <div class="stat">🔧 <span id="loadStatus">Chargement...</span></div>
+                <div class="stat">📖 Real Book F : <span id="realBookF">...</span></div>
             </div>
         </header>
         
-        <nav class="tabs-nav">
-            <button class="tab-btn active" onclick="setActiveTab('all')">🔍 Tout</button>
-            <button class="tab-btn" onclick="setActiveTab('realbook-f')">📖 Real Book F</button>
-            <button class="tab-btn" onclick="setActiveTab('funk')">🕺 Funk</button>
-            <button class="tab-btn" onclick="setActiveTab('jazz')">🎺 Jazz</button>
-            <button class="tab-btn" onclick="setActiveTab('rock')">🤘 Rock</button>
-            <button class="tab-btn" onclick="setActiveTab('technique')">⚡ Technique</button>
-        </nav>
+        <div id="diagnosticPanel" class="diagnostic">
+            <h3>🔍 Diagnostic de chargement JSON...</h3>
+            <div id="diagnosticContent">Analyse en cours...</div>
+        </div>
         
         <div class="search-container">
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="🔍 Rechercher dans Real Books, méthodes..." onkeyup="performSearch()">
+                <input type="text" id="searchInput" placeholder="🔍 Rechercher..." onkeyup="performSearch()">
                 <div class="search-icon">🔍</div>
-            </div>
-            
-            <div class="quick-searches">
-                <button class="quick-search-btn" onclick="quickSearch('Realbook Bass F')">📖 Real Book F</button>
-                <button class="quick-search-btn" onclick="quickSearch('70s Funk')">🕺 70s Funk</button>
-                <button class="quick-search-btn" onclick="quickSearch('Jon Liebman')">🎺 Jon Liebman</button>
-                <button class="quick-search-btn" onclick="quickSearch('Paul Westwood')">⚡ Paul Westwood</button>
-                <button class="quick-search-btn" onclick="quickSearch('Volume-3')">📚 Volume 3</button>
-            </div>
-            
-            <div class="filters">
-                <div class="filter-group">
-                    <label>Type</label>
-                    <select id="typeFilter" onchange="performSearch()">
-                        <option value="">Tous types</option>
-                        <option value="image">Images/Partitions</option>
-                        <option value="mp3">MP3</option>
-                        <option value="other">Autres</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>Méthode</label>
-                    <select id="methodFilter" onchange="performSearch()">
-                        <option value="">Toutes méthodes</option>
-                        <option value="Realbook Bass F">📖 Real Book F</option>
-                        <option value="realbook Volume-3-C">📚 Real Book Vol. 3</option>
-                        <option value="70s Funk">🕺 70s Funk & Disco</option>
-                        <option value="Jon Liebman">🎺 Jon Liebman</option>
-                        <option value="Paul westwood">⚡ Paul Westwood</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>Tri</label>
-                    <select id="sortFilter" onchange="performSearch()">
-                        <option value="relevance">Pertinence</option>
-                        <option value="title">Titre A-Z</option>
-                        <option value="page">Page</option>
-                        <option value="method">Méthode</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>Limite</label>
-                    <select id="limitFilter" onchange="performSearch()">
-                        <option value="50">50 résultats</option>
-                        <option value="100">100 résultats</option>
-                        <option value="200">200 résultats</option>
-                        <option value="500">500 résultats</option>
-                    </select>
-                </div>
             </div>
         </div>
         
         <div class="results-container">
-            <div class="results-header">
-                <div id="resultsCount">Chargement...</div>
-                <div id="searchTime"></div>
-            </div>
             <div id="resultsGrid" class="results-grid">
-                <div class="loading">🎸 Chargement des ressources...</div>
+                <div class="loading">🎸 Chargement et diagnostic...</div>
             </div>
         </div>
     </div>
@@ -420,228 +258,236 @@
     </div>
     
     <script>
-        // MOTEUR DE RECHERCHE AMÉLIORÉ POUR REAL BOOK F
-        class EnhancedSearch {
+        class SafeJSONLoader {
             constructor() {
                 this.allResources = [];
                 this.initialized = false;
+                this.diagnosticInfo = [];
+            }
+            
+            log(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString();
+                this.diagnosticInfo.push(`[${timestamp}] ${type.toUpperCase()}: ${message}`);
+                console.log(`${type.toUpperCase()}: ${message}`);
+                this.updateDiagnostic();
+            }
+            
+            updateDiagnostic() {
+                const panel = document.getElementById('diagnosticPanel');
+                const content = document.getElementById('diagnosticContent');
+                
+                const lastEntries = this.diagnosticInfo.slice(-10).join('\n');
+                content.innerHTML = `<div class="debug-info">${lastEntries}</div>`;
+                
+                // Déterminer le style du panel
+                const hasError = this.diagnosticInfo.some(entry => entry.includes('ERROR'));
+                const hasSuccess = this.diagnosticInfo.some(entry => entry.includes('Données chargées'));
+                
+                if (hasError) {
+                    panel.className = 'diagnostic error';
+                } else if (hasSuccess) {
+                    panel.className = 'diagnostic success';
+                } else {
+                    panel.className = 'diagnostic';
+                }
+            }
+            
+            async tryLoadJSON(url) {
+                try {
+                    this.log(`Tentative de chargement: ${url}`);
+                    
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    
+                    // Lire comme texte d'abord pour diagnostiquer
+                    const text = await response.text();
+                    this.log(`Fichier chargé: ${text.length} caractères`);
+                    
+                    // Vérifications de base
+                    if (!text.trim().startsWith('{')) {
+                        throw new Error('Le fichier ne commence pas par {');
+                    }
+                    
+                    if (!text.trim().endsWith('}')) {
+                        throw new Error('Le fichier ne finit pas par }');
+                    }
+                    
+                    // Essayer de parser le JSON
+                    let data;
+                    try {
+                        data = JSON.parse(text);
+                        this.log(`JSON parsé avec succès`);
+                    } catch (parseError) {
+                        this.log(`Erreur de parsing JSON: ${parseError.message}`, 'error');
+                        
+                        // Tentative de nettoyage
+                        this.log('Tentative de nettoyage du JSON...', 'warning');
+                        const cleanedText = this.cleanJSON(text);
+                        data = JSON.parse(cleanedText);
+                        this.log(`JSON nettoyé et parsé avec succès`);
+                    }
+                    
+                    // Extraire les ressources
+                    let resources = [];
+                    if (data.resources && Array.isArray(data.resources)) {
+                        resources = data.resources;
+                    } else if (data.all_resources && Array.isArray(data.all_resources)) {
+                        resources = data.all_resources;
+                    } else if (Array.isArray(data)) {
+                        resources = data;
+                    } else {
+                        this.log(`Structure JSON inconnue. Clés trouvées: ${Object.keys(data).join(', ')}`, 'warning');
+                        return null;
+                    }
+                    
+                    this.log(`Ressources extraites: ${resources.length}`);
+                    return resources;
+                    
+                } catch (error) {
+                    this.log(`Erreur lors du chargement ${url}: ${error.message}`, 'error');
+                    return null;
+                }
+            }
+            
+            cleanJSON(text) {
+                // Supprimer les caractères non-printables
+                let cleaned = text.replace(/[\x00-\x1F\x7F-\x9F]/g, '');
+                
+                // Supprimer les virgules avant } ou ]
+                cleaned = cleaned.replace(/,(\s*[}\]])/g, '$1');
+                
+                // Supprimer les doubles virgules
+                cleaned = cleaned.replace(/,,+/g, ',');
+                
+                return cleaned;
             }
             
             async init() {
-                try {
-                    console.log('🔍 Chargement resources...');
-                    
-                    // Essayer megasearch.json en premier
-                    let response = await fetch('megasearch.json');
-                    if (response.ok) {
-                        const data = await response.json();
-                        this.allResources = data.resources || [];
-                        console.log(`✅ megasearch.json: ${this.allResources.length} ressources`);
-                    } else {
-                        // Fallback sur mega-search-index.json
-                        response = await fetch('mega-search-index.json');
-                        const data = await response.json();
-                        this.allResources = data.resources || [];
-                        console.log(`✅ mega-search-index.json: ${this.allResources.length} ressources`);
+                this.log('🚀 Initialisation Safe JSON Loader');
+                
+                // Essayer plusieurs sources dans l'ordre
+                const sources = [
+                    'megasearch.json',
+                    'mega-search-index.json'
+                ];
+                
+                for (const source of sources) {
+                    const resources = await this.tryLoadJSON(source);
+                    if (resources && resources.length > 0) {
+                        this.allResources = resources;
+                        this.initialized = true;
+                        this.log(`✅ Données chargées depuis ${source}: ${resources.length} ressources`);
+                        break;
                     }
-                    
-                    this.initialized = true;
-                    console.log('📊 Analyse des méthodes...');
-                    this.analyzeData();
-                    return true;
-                } catch (error) {
-                    console.error('❌ Erreur chargement:', error);
+                }
+                
+                if (!this.initialized) {
+                    this.log('❌ Aucune source JSON valide trouvée', 'error');
                     return false;
                 }
+                
+                // Analyser les données
+                this.analyzeData();
+                return true;
             }
             
             analyzeData() {
-                const methodsCount = {};
+                this.log('📊 Analyse des données...');
                 
-                this.allResources.forEach(resource => {
-                    // Compter par méthode depuis metadata
-                    const method = resource.metadata?.method || 'Inconnue';
-                    methodsCount[method] = (methodsCount[method] || 0) + 1;
+                // Analyser Real Book F
+                const realBookF = this.allResources.filter(r => {
+                    const searchIn = [
+                        r.metadata?.method || '',
+                        r.path || '',
+                        r.url || ''
+                    ].join(' ').toLowerCase();
+                    
+                    return searchIn.includes('realbook bass f') || 
+                           searchIn.includes('realbook%20bass%20f');
                 });
                 
-                console.log('📊 Statistiques par méthode:', methodsCount);
+                this.log(`📖 Real Book F trouvé: ${realBookF.length} entrées`);
                 
-                // Real Book F spécifiquement
-                const realBookF = this.allResources.filter(r => 
-                    (r.metadata?.method && r.metadata.method.includes('Realbook Bass F')) ||
-                    (r.path && r.path.includes('Realbook Bass F')) ||
-                    (r.url && r.url.includes('Realbook%20Bass%20F'))
-                );
+                // Analyser les types
+                const types = {};
+                this.allResources.forEach(r => {
+                    types[r.type] = (types[r.type] || 0) + 1;
+                });
                 
-                console.log(`📖 Real Book F trouvé: ${realBookF.length} ressources`);
-                return { methodsCount, realBookF: realBookF.length };
-            }
-            
-            search(query, filters = {}) {
-                if (!this.initialized) return [];
+                this.log(`📋 Types: ${Object.entries(types).map(([k,v]) => `${k}:${v}`).join(', ')}`);
                 
-                const startTime = performance.now();
-                let results = [...this.allResources];
-                
-                // Filtre par type
-                if (filters.type) {
-                    results = results.filter(r => r.type === filters.type);
-                }
-                
-                // Filtre par méthode (AMÉLIORÉ pour Real Book F)
-                if (filters.method) {
-                    results = results.filter(r => {
-                        const searchIn = [
-                            r.metadata?.method || '',
-                            r.path || '',
-                            r.url || '',
-                            r.source || ''
-                        ].join(' ').toLowerCase();
-                        
-                        const filterLower = filters.method.toLowerCase();
-                        return searchIn.includes(filterLower);
-                    });
-                }
-                
-                // Tab spécial Real Book F
-                if (filters.tab === 'realbook-f') {
-                    results = results.filter(r => {
-                        const searchIn = [
-                            r.metadata?.method || '',
-                            r.path || '',
-                            r.url || ''
-                        ].join(' ').toLowerCase();
-                        
-                        return searchIn.includes('realbook bass f') || 
-                               searchIn.includes('realbook%20bass%20f');
-                    });
-                }
-                
-                // Recherche textuelle AMÉLIORÉE
-                if (query && query.trim()) {
-                    const searchTerms = query.toLowerCase().trim().split(/\s+/);
-                    results = results.filter(resource => {
-                        const searchText = [
-                            resource.title || '',
-                            resource.search_text || '',
-                            resource.metadata?.method || '',
-                            resource.metadata?.composer || '',
-                            resource.metadata?.key || '',
-                            resource.path || '',
-                            resource.filename || ''
-                        ].join(' ').toLowerCase();
-                        
-                        return searchTerms.every(term => searchText.includes(term));
-                    });
-                    
-                    // Scoring AMÉLIORÉ
-                    results = results.map(r => {
-                        let score = 0;
-                        const title = (r.title || '').toLowerCase();
-                        const method = (r.metadata?.method || '').toLowerCase();
-                        
-                        searchTerms.forEach(term => {
-                            if (title.includes(term)) score += 10;
-                            if (method.includes(term)) score += 15; // Méthode = plus important
-                            if (title.startsWith(term)) score += 20;
-                            if (title === term) score += 50;
-                            if (method === term) score += 30;
-                        });
-                        
-                        return { ...r, _score: score };
-                    });
-                    
-                    results.sort((a, b) => (b._score || 0) - (a._score || 0));
-                }
-                
-                // Tri
-                if (filters.sort === 'title') {
-                    results.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
-                } else if (filters.sort === 'page') {
-                    results.sort((a, b) => (a.metadata?.page || 0) - (b.metadata?.page || 0));
-                } else if (filters.sort === 'method') {
-                    results.sort((a, b) => (a.metadata?.method || '').localeCompare(b.metadata?.method || ''));
-                }
-                
-                // Limite
-                const limit = parseInt(filters.limit) || 50;
-                const limitedResults = results.slice(0, limit);
-                
-                const endTime = performance.now();
-                console.log(`⚡ Recherche: ${(endTime - startTime).toFixed(2)}ms - ${limitedResults.length}/${results.length} résultats`);
-                
-                return limitedResults;
-            }
-            
-            getStats() {
-                const stats = this.analyzeData();
                 return {
                     total: this.allResources.length,
-                    methods: Object.keys(stats.methodsCount).length,
-                    realBookF: stats.realBookF
+                    realBookF: realBookF.length,
+                    types
                 };
+            }
+            
+            search(query) {
+                if (!this.initialized) return [];
+                
+                if (!query || !query.trim()) {
+                    return this.allResources.slice(0, 50); // Limite par défaut
+                }
+                
+                const searchTerms = query.toLowerCase().trim().split(/\s+/);
+                
+                const results = this.allResources.filter(resource => {
+                    const searchText = [
+                        resource.title || '',
+                        resource.search_text || '',
+                        resource.metadata?.method || '',
+                        resource.path || '',
+                        resource.filename || ''
+                    ].join(' ').toLowerCase();
+                    
+                    return searchTerms.every(term => searchText.includes(term));
+                });
+                
+                return results.slice(0, 100); // Limite résultats
             }
         }
         
         // Variables globales
         let searchEngine = null;
-        let currentTab = 'all';
         
         // Initialisation
         document.addEventListener('DOMContentLoaded', async () => {
-            console.log('🚀 Initialisation Prof de Basse V2 Enhanced...');
+            console.log('🚀 Safe Mode - Prof de Basse V2');
             
-            searchEngine = new EnhancedSearch();
+            searchEngine = new SafeJSONLoader();
             const loaded = await searchEngine.init();
             
             if (loaded) {
-                // Mettre à jour les stats
-                const stats = searchEngine.getStats();
+                const stats = searchEngine.analyzeData();
                 document.getElementById('totalResources').textContent = stats.total;
-                document.getElementById('totalMethods').textContent = stats.methods;
+                document.getElementById('loadStatus').textContent = 'OK';
                 document.getElementById('realBookF').textContent = stats.realBookF;
                 
-                // Afficher résultats par défaut
+                // Afficher quelques résultats par défaut
                 performSearch();
-                console.log('✅ Initialisation réussie');
-                console.log(`📖 Real Book F: ${stats.realBookF} ressources disponibles`);
+                
             } else {
+                document.getElementById('loadStatus').textContent = 'ERREUR';
                 document.getElementById('resultsGrid').innerHTML = `
                     <div class="no-results">
-                        <h3>❌ Erreur de chargement</h3>
-                        <p>Impossible de charger les données. Vérifiez que megasearch.json existe.</p>
+                        <h3>❌ Impossible de charger les données</h3>
+                        <p>Consultez le diagnostic ci-dessus pour plus d'informations.</p>
                     </div>
                 `;
             }
         });
         
-        // Recherche principale
         function performSearch() {
             if (!searchEngine || !searchEngine.initialized) return;
             
             const query = document.getElementById('searchInput').value;
-            const filters = {
-                type: document.getElementById('typeFilter').value,
-                method: document.getElementById('methodFilter').value,
-                sort: document.getElementById('sortFilter').value,
-                limit: document.getElementById('limitFilter').value,
-                tab: currentTab
-            };
-            
-            const results = searchEngine.search(query, filters);
+            const results = searchEngine.search(query);
             displayResults(results);
-            
-            // Mettre à jour l'en-tête
-            document.getElementById('resultsCount').textContent = `${results.length} résultats`;
         }
         
-        // Recherche rapide
-        function quickSearch(term) {
-            document.getElementById('searchInput').value = term;
-            performSearch();
-        }
-        
-        // Affichage des résultats
         function displayResults(results) {
             const grid = document.getElementById('resultsGrid');
             
@@ -649,7 +495,7 @@
                 grid.innerHTML = `
                     <div class="no-results">
                         <h3>🔍 Aucun résultat</h3>
-                        <p>Essayez d'autres mots-clés ou modifiez les filtres</p>
+                        <p>Essayez d'autres mots-clés</p>
                     </div>
                 `;
                 return;
@@ -658,24 +504,16 @@
             grid.innerHTML = results.map(resource => createResourceCard(resource)).join('');
         }
         
-        // Création d'une carte ressource AMÉLIORÉE
         function createResourceCard(resource) {
             const title = resource.title || 'Sans titre';
             const method = resource.metadata?.method || 'Méthode inconnue';
             const page = resource.metadata?.page || '';
             const imageUrl = resource.type === 'image' ? resource.url : null;
-            const mp3Url = resource.metadata?.mp3_url || null;
-            
-            // Titre amélioré pour Real Book F
-            let displayTitle = title;
-            if (method.includes('Realbook Bass F') && page) {
-                displayTitle = `Real Book F - Page ${page}`;
-            }
             
             return `
                 <div class="resource-card">
                     <div class="card-header">
-                        <div class="card-title">${displayTitle}</div>
+                        <div class="card-title">${title}</div>
                         <div class="card-meta">
                             ${method} ${page ? `• Page ${page}` : ''}
                         </div>
@@ -683,46 +521,17 @@
                     <div class="card-body">
                         ${imageUrl ? `
                             <img src="${imageUrl}" 
-                                 alt="${displayTitle}" 
+                                 alt="${title}" 
                                  class="card-image" 
                                  onclick="openLightbox('${imageUrl}')"
                                  loading="lazy"
                                  onerror="this.style.display='none'">
-                        ` : '<div style="height:200px;background:#f8f9fa;display:flex;align-items:center;justify-content:center;">📄 Pas d\'image</div>'}
-                        
-                        ${mp3Url ? `
-                            <div class="audio-player">
-                                <audio controls preload="none">
-                                    <source src="${mp3Url}" type="audio/mpeg">
-                                    Votre navigateur ne supporte pas l'audio.
-                                </audio>
-                            </div>
-                        ` : ''}
+                        ` : '<div style="height:200px;background:#f8f9fa;display:flex;align-items:center;justify-content:center;">📄 Ressource</div>'}
                     </div>
                 </div>
             `;
         }
         
-        // Gestion des tabs
-        function setActiveTab(tab) {
-            currentTab = tab;
-            
-            // Mettre à jour l'UI
-            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            // Auto-filtre pour Real Book F
-            if (tab === 'realbook-f') {
-                document.getElementById('methodFilter').value = 'Realbook Bass F';
-            } else if (tab === 'all') {
-                document.getElementById('methodFilter').value = '';
-            }
-            
-            // Relancer la recherche
-            performSearch();
-        }
-        
-        // Lightbox
         function openLightbox(src) {
             document.getElementById('lightboxImg').src = src;
             document.getElementById('lightbox').classList.add('active');
@@ -732,13 +541,8 @@
             document.getElementById('lightbox').classList.remove('active');
         }
         
-        // Raccourcis clavier
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeLightbox();
-            if (e.key === '/' && e.target.tagName !== 'INPUT') {
-                e.preventDefault();
-                document.getElementById('searchInput').focus();
-            }
         });
     </script>
 </body>
