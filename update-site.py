@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 🎸 Prof de Basse - Site Update Automation
-Version 1.5.0 - ULTIMATE FIX
+Version 1.6.0 - CRITICAL NORMALIZATION FIX
 Mise à jour automatique du site GitHub Pages
 - Support des formats JSON v1.0 et v4.0
-- Normalisation page_number → page
+- FIX CRITIQUE : Normalisation page_number → page (copie profonde)
 - Dédoublonnage automatique des morceaux
 - Encodage URL correct avec urllib.parse.quote
-- Dédoublonnage global par URL (supprime TOUS les doublons)
+- Dédoublonnage global par URL
 """
 
 import os
@@ -187,10 +187,14 @@ class SiteUpdater:
             songs = content.get('songs', [])
             normalized_songs = []
             for song in songs:
+                # Créer une COPIE normalisée
+                normalized_song = dict(song)
                 # Normaliser page_number → page
-                if 'page_number' in song and 'page' not in song:
-                    song['page'] = song['page_number']
-                normalized_songs.append(song)
+                if 'page_number' in normalized_song:
+                    normalized_song['page'] = normalized_song.get('page_number', 0)
+                elif 'page' not in normalized_song:
+                    normalized_song['page'] = 0
+                normalized_songs.append(normalized_song)
             
             return {
                 'metadata': {
@@ -214,10 +218,14 @@ class SiteUpdater:
             songs = data.get('songs', [])
             normalized_songs = []
             for song in songs:
+                # Créer une COPIE normalisée
+                normalized_song = dict(song)
                 # Normaliser page_number → page
-                if 'page_number' in song and 'page' not in song:
-                    song['page'] = song['page_number']
-                normalized_songs.append(song)
+                if 'page_number' in normalized_song:
+                    normalized_song['page'] = normalized_song.get('page_number', 0)
+                elif 'page' not in normalized_song:
+                    normalized_song['page'] = 0
+                normalized_songs.append(normalized_song)
             
             return {
                 'metadata': {
