@@ -118,6 +118,29 @@
             color: #667eea;
         }
         
+        .quick-searches {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .quick-search-btn {
+            background: #f8f9fa;
+            border: 1px solid #667eea;
+            color: #667eea;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .quick-search-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        
         /* FILTRES VISUELS */
         .filters {
             display: grid;
@@ -151,6 +174,16 @@
         .results-container {
             flex: 1;
             padding: 0 30px 30px;
+        }
+        
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
         }
         
         .results-grid {
@@ -298,23 +331,31 @@
             <div class="stats-bar">
                 <div class="stat">📚 <span id="totalResources">...</span> ressources</div>
                 <div class="stat">🎵 <span id="totalMethods">...</span> méthodes</div>
-                <div class="stat">🎯 <span id="totalSongs">...</span> morceaux</div>
+                <div class="stat">📖 <span id="realBookF">...</span> Real Book F</div>
             </div>
         </header>
         
         <nav class="tabs-nav">
             <button class="tab-btn active" onclick="setActiveTab('all')">🔍 Tout</button>
+            <button class="tab-btn" onclick="setActiveTab('realbook-f')">📖 Real Book F</button>
             <button class="tab-btn" onclick="setActiveTab('funk')">🕺 Funk</button>
             <button class="tab-btn" onclick="setActiveTab('jazz')">🎺 Jazz</button>
             <button class="tab-btn" onclick="setActiveTab('rock')">🤘 Rock</button>
             <button class="tab-btn" onclick="setActiveTab('technique')">⚡ Technique</button>
-            <button class="tab-btn" onclick="setActiveTab('realbook')">📖 Real Books</button>
         </nav>
         
         <div class="search-container">
             <div class="search-box">
-                <input type="text" id="searchInput" placeholder="🔍 Rechercher..." onkeyup="performSearch()">
+                <input type="text" id="searchInput" placeholder="🔍 Rechercher dans Real Books, méthodes..." onkeyup="performSearch()">
                 <div class="search-icon">🔍</div>
+            </div>
+            
+            <div class="quick-searches">
+                <button class="quick-search-btn" onclick="quickSearch('Realbook Bass F')">📖 Real Book F</button>
+                <button class="quick-search-btn" onclick="quickSearch('70s Funk')">🕺 70s Funk</button>
+                <button class="quick-search-btn" onclick="quickSearch('Jon Liebman')">🎺 Jon Liebman</button>
+                <button class="quick-search-btn" onclick="quickSearch('Paul Westwood')">⚡ Paul Westwood</button>
+                <button class="quick-search-btn" onclick="quickSearch('Volume-3')">📚 Volume 3</button>
             </div>
             
             <div class="filters">
@@ -332,10 +373,11 @@
                     <label>Méthode</label>
                     <select id="methodFilter" onchange="performSearch()">
                         <option value="">Toutes méthodes</option>
-                        <option value="realbook">Real Books</option>
-                        <option value="funk">70s Funk & Disco</option>
-                        <option value="jon-liebman">Jon Liebman</option>
-                        <option value="paul-westwood">Paul Westwood</option>
+                        <option value="Realbook Bass F">📖 Real Book F</option>
+                        <option value="realbook Volume-3-C">📚 Real Book Vol. 3</option>
+                        <option value="70s Funk">🕺 70s Funk & Disco</option>
+                        <option value="Jon Liebman">🎺 Jon Liebman</option>
+                        <option value="Paul westwood">⚡ Paul Westwood</option>
                     </select>
                 </div>
                 
@@ -345,6 +387,7 @@
                         <option value="relevance">Pertinence</option>
                         <option value="title">Titre A-Z</option>
                         <option value="page">Page</option>
+                        <option value="method">Méthode</option>
                     </select>
                 </div>
                 
@@ -354,12 +397,17 @@
                         <option value="50">50 résultats</option>
                         <option value="100">100 résultats</option>
                         <option value="200">200 résultats</option>
+                        <option value="500">500 résultats</option>
                     </select>
                 </div>
             </div>
         </div>
         
         <div class="results-container">
+            <div class="results-header">
+                <div id="resultsCount">Chargement...</div>
+                <div id="searchTime"></div>
+            </div>
             <div id="resultsGrid" class="results-grid">
                 <div class="loading">🎸 Chargement des ressources...</div>
             </div>
@@ -372,8 +420,8 @@
     </div>
     
     <script>
-        // MOTEUR DE RECHERCHE INTÉGRÉ (version simplifiée)
-        class SimpleSearch {
+        // MOTEUR DE RECHERCHE AMÉLIORÉ POUR REAL BOOK F
+        class EnhancedSearch {
             constructor() {
                 this.allResources = [];
                 this.initialized = false;
@@ -398,6 +446,8 @@
                     }
                     
                     this.initialized = true;
+                    console.log('📊 Analyse des méthodes...');
+                    this.analyzeData();
                     return true;
                 } catch (error) {
                     console.error('❌ Erreur chargement:', error);
@@ -405,9 +455,32 @@
                 }
             }
             
+            analyzeData() {
+                const methodsCount = {};
+                
+                this.allResources.forEach(resource => {
+                    // Compter par méthode depuis metadata
+                    const method = resource.metadata?.method || 'Inconnue';
+                    methodsCount[method] = (methodsCount[method] || 0) + 1;
+                });
+                
+                console.log('📊 Statistiques par méthode:', methodsCount);
+                
+                // Real Book F spécifiquement
+                const realBookF = this.allResources.filter(r => 
+                    (r.metadata?.method && r.metadata.method.includes('Realbook Bass F')) ||
+                    (r.path && r.path.includes('Realbook Bass F')) ||
+                    (r.url && r.url.includes('Realbook%20Bass%20F'))
+                );
+                
+                console.log(`📖 Real Book F trouvé: ${realBookF.length} ressources`);
+                return { methodsCount, realBookF: realBookF.length };
+            }
+            
             search(query, filters = {}) {
                 if (!this.initialized) return [];
                 
+                const startTime = performance.now();
                 let results = [...this.allResources];
                 
                 // Filtre par type
@@ -415,44 +488,66 @@
                     results = results.filter(r => r.type === filters.type);
                 }
                 
-                // Filtre par méthode (recherche dans l'URL/path)
+                // Filtre par méthode (AMÉLIORÉ pour Real Book F)
                 if (filters.method) {
-                    const methodMap = {
-                        'realbook': ['realbook', 'Real'],
-                        'funk': ['Funk', 'Disco'],
-                        'jon-liebman': ['Liebman'],
-                        'paul-westwood': ['westwood']
-                    };
-                    const keywords = methodMap[filters.method] || [filters.method];
                     results = results.filter(r => {
-                        const searchIn = (r.url || '') + (r.path || '') + (r.source || '');
-                        return keywords.some(k => searchIn.includes(k));
+                        const searchIn = [
+                            r.metadata?.method || '',
+                            r.path || '',
+                            r.url || '',
+                            r.source || ''
+                        ].join(' ').toLowerCase();
+                        
+                        const filterLower = filters.method.toLowerCase();
+                        return searchIn.includes(filterLower);
                     });
                 }
                 
-                // Recherche textuelle
+                // Tab spécial Real Book F
+                if (filters.tab === 'realbook-f') {
+                    results = results.filter(r => {
+                        const searchIn = [
+                            r.metadata?.method || '',
+                            r.path || '',
+                            r.url || ''
+                        ].join(' ').toLowerCase();
+                        
+                        return searchIn.includes('realbook bass f') || 
+                               searchIn.includes('realbook%20bass%20f');
+                    });
+                }
+                
+                // Recherche textuelle AMÉLIORÉE
                 if (query && query.trim()) {
                     const searchTerms = query.toLowerCase().trim().split(/\s+/);
                     results = results.filter(resource => {
                         const searchText = [
                             resource.title || '',
                             resource.search_text || '',
+                            resource.metadata?.method || '',
                             resource.metadata?.composer || '',
-                            resource.metadata?.key || ''
+                            resource.metadata?.key || '',
+                            resource.path || '',
+                            resource.filename || ''
                         ].join(' ').toLowerCase();
                         
                         return searchTerms.every(term => searchText.includes(term));
                     });
                     
-                    // Scoring simple
+                    // Scoring AMÉLIORÉ
                     results = results.map(r => {
                         let score = 0;
                         const title = (r.title || '').toLowerCase();
+                        const method = (r.metadata?.method || '').toLowerCase();
+                        
                         searchTerms.forEach(term => {
                             if (title.includes(term)) score += 10;
+                            if (method.includes(term)) score += 15; // Méthode = plus important
                             if (title.startsWith(term)) score += 20;
                             if (title === term) score += 50;
+                            if (method === term) score += 30;
                         });
+                        
                         return { ...r, _score: score };
                     });
                     
@@ -464,11 +559,27 @@
                     results.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
                 } else if (filters.sort === 'page') {
                     results.sort((a, b) => (a.metadata?.page || 0) - (b.metadata?.page || 0));
+                } else if (filters.sort === 'method') {
+                    results.sort((a, b) => (a.metadata?.method || '').localeCompare(b.metadata?.method || ''));
                 }
                 
                 // Limite
                 const limit = parseInt(filters.limit) || 50;
-                return results.slice(0, limit);
+                const limitedResults = results.slice(0, limit);
+                
+                const endTime = performance.now();
+                console.log(`⚡ Recherche: ${(endTime - startTime).toFixed(2)}ms - ${limitedResults.length}/${results.length} résultats`);
+                
+                return limitedResults;
+            }
+            
+            getStats() {
+                const stats = this.analyzeData();
+                return {
+                    total: this.allResources.length,
+                    methods: Object.keys(stats.methodsCount).length,
+                    realBookF: stats.realBookF
+                };
             }
         }
         
@@ -478,35 +589,22 @@
         
         // Initialisation
         document.addEventListener('DOMContentLoaded', async () => {
-            console.log('🚀 Initialisation Prof de Basse V2...');
+            console.log('🚀 Initialisation Prof de Basse V2 Enhanced...');
             
-            searchEngine = new SimpleSearch();
+            searchEngine = new EnhancedSearch();
             const loaded = await searchEngine.init();
             
             if (loaded) {
                 // Mettre à jour les stats
-                document.getElementById('totalResources').textContent = searchEngine.allResources.length;
-                
-                // Stats par type
-                const stats = searchEngine.allResources.reduce((acc, r) => {
-                    acc[r.type] = (acc[r.type] || 0) + 1;
-                    return acc;
-                }, {});
-                
-                // Estimer méthodes et morceaux
-                const methods = new Set();
-                searchEngine.allResources.forEach(r => {
-                    const url = r.url || r.path || '';
-                    const match = url.match(/\/([^\/]+)_v\d+\.\d+\//);
-                    if (match) methods.add(match[1]);
-                });
-                
-                document.getElementById('totalMethods').textContent = methods.size;
-                document.getElementById('totalSongs').textContent = stats.image || 0;
+                const stats = searchEngine.getStats();
+                document.getElementById('totalResources').textContent = stats.total;
+                document.getElementById('totalMethods').textContent = stats.methods;
+                document.getElementById('realBookF').textContent = stats.realBookF;
                 
                 // Afficher résultats par défaut
                 performSearch();
                 console.log('✅ Initialisation réussie');
+                console.log(`📖 Real Book F: ${stats.realBookF} ressources disponibles`);
             } else {
                 document.getElementById('resultsGrid').innerHTML = `
                     <div class="no-results">
@@ -526,19 +624,21 @@
                 type: document.getElementById('typeFilter').value,
                 method: document.getElementById('methodFilter').value,
                 sort: document.getElementById('sortFilter').value,
-                limit: document.getElementById('limitFilter').value
+                limit: document.getElementById('limitFilter').value,
+                tab: currentTab
             };
-            
-            // Filtrer par tab si pas "all"
-            if (currentTab !== 'all') {
-                filters.method = currentTab === 'realbook' ? 'realbook' : 
-                                currentTab === 'funk' ? 'funk' : 
-                                currentTab === 'jazz' ? 'realbook' : 
-                                currentTab;
-            }
             
             const results = searchEngine.search(query, filters);
             displayResults(results);
+            
+            // Mettre à jour l'en-tête
+            document.getElementById('resultsCount').textContent = `${results.length} résultats`;
+        }
+        
+        // Recherche rapide
+        function quickSearch(term) {
+            document.getElementById('searchInput').value = term;
+            performSearch();
         }
         
         // Affichage des résultats
@@ -558,27 +658,32 @@
             grid.innerHTML = results.map(resource => createResourceCard(resource)).join('');
         }
         
-        // Création d'une carte ressource
+        // Création d'une carte ressource AMÉLIORÉE
         function createResourceCard(resource) {
             const title = resource.title || 'Sans titre';
+            const method = resource.metadata?.method || 'Méthode inconnue';
+            const page = resource.metadata?.page || '';
             const imageUrl = resource.type === 'image' ? resource.url : null;
             const mp3Url = resource.metadata?.mp3_url || null;
-            const method = resource.source || 'Méthode inconnue';
-            const page = resource.metadata?.page || '';
+            
+            // Titre amélioré pour Real Book F
+            let displayTitle = title;
+            if (method.includes('Realbook Bass F') && page) {
+                displayTitle = `Real Book F - Page ${page}`;
+            }
             
             return `
                 <div class="resource-card">
                     <div class="card-header">
-                        <div class="card-title">${title}</div>
+                        <div class="card-title">${displayTitle}</div>
                         <div class="card-meta">
-                            ${method.replace('songs_index.json', '')} 
-                            ${page ? `• Page ${page}` : ''}
+                            ${method} ${page ? `• Page ${page}` : ''}
                         </div>
                     </div>
                     <div class="card-body">
                         ${imageUrl ? `
                             <img src="${imageUrl}" 
-                                 alt="${title}" 
+                                 alt="${displayTitle}" 
                                  class="card-image" 
                                  onclick="openLightbox('${imageUrl}')"
                                  loading="lazy"
@@ -605,6 +710,13 @@
             // Mettre à jour l'UI
             document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
             event.target.classList.add('active');
+            
+            // Auto-filtre pour Real Book F
+            if (tab === 'realbook-f') {
+                document.getElementById('methodFilter').value = 'Realbook Bass F';
+            } else if (tab === 'all') {
+                document.getElementById('methodFilter').value = '';
+            }
             
             // Relancer la recherche
             performSearch();
