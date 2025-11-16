@@ -1,2103 +1,5422 @@
 {
   "metadata": {
-    "bookTitle": "songs_index.json",
-    "category": "Partitions",
-    "style": "Jazz",
-    "totalPages": 400,
-    "processedDate": "2025-11-13T06:04:23.767Z"
+    "bookTitle": "Realbook volume 3 C",
+    "category": "realbook",
+    "style": "jazz",
+    "totalImages": 366,
+    "totalBatches": 19,
+    "processedDate": "2025-11-16T13:37:22.586Z"
   },
   "content": {
     "songs": [
       {
+        "title": "A Call For All Demons",
+        "page": 11,
+        "style": "jazz",
+        "composer": "Sun Ra",
+        "key": "Bb"
+      },
+      {
+        "title": "A Child Is Born",
+        "page": 12,
+        "style": "jazz",
+        "composer": "Thad Jones",
+        "key": "Bb"
+      },
+      {
+        "title": "A Fine Romance",
+        "page": 13,
+        "style": "jazz",
+        "composer": "Kern/Fields",
+        "key": "C"
+      },
+      {
+        "title": "A Family Joy",
+        "page": 14,
+        "style": "jazz",
+        "composer": "Michael Gibbs",
+        "key": "Bb"
+      },
+      {
+        "title": "A Foggy Day",
+        "page": 16,
+        "style": "jazz",
+        "composer": "Gershwin",
+        "key": "F"
+      },
+      {
+        "title": "A Night In Tunisia",
+        "page": 17,
+        "style": "jazz",
+        "composer": "Dizzy Gillespie",
+        "key": "Eb"
+      },
+      {
+        "title": "African Flower",
+        "page": 18,
+        "style": "jazz",
+        "composer": "D. Ellington",
+        "key": "Eb"
+      },
+      {
+        "title": "Afro Blue",
+        "page": 19,
+        "style": "jazz",
+        "composer": "M. Santamaria",
+        "key": "F"
+      },
+      {
+        "title": "Afternoon In Paris",
+        "page": 20,
+        "style": "jazz",
+        "composer": "John Lewis",
+        "key": "C"
+      },
+      {
+        "title": "Airegin",
+        "page": 21,
+        "style": "jazz",
+        "composer": "Sonny Rollins",
+        "key": "F"
+      },
+      {
+        "title": "Alice In Wonderland",
+        "page": 22,
+        "style": "jazz",
+        "composer": "Fain/Hilliard",
+        "key": "D"
+      },
+      {
+        "title": "All Blues",
+        "page": 23,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "G"
+      },
+      {
+        "title": "All In Love Is Fair",
+        "page": 24,
+        "style": "jazz",
+        "composer": "Stevie Wonder",
+        "key": "D"
+      },
+      {
+        "title": "All My Tomorrows",
+        "page": 25,
+        "style": "jazz",
+        "composer": "Cahn/Van Heusen",
+        "key": "A"
+      },
+      {
+        "title": "All Of Me",
+        "page": 26,
+        "style": "jazz",
+        "composer": "Simons & Marks",
+        "key": "C"
+      },
+      {
+        "title": "All Of You",
+        "page": 27,
+        "style": "jazz",
+        "composer": "Cole Porter",
+        "key": "Ab"
+      },
+      {
+        "title": "All The Things You Are",
+        "page": 28,
+        "style": "jazz",
+        "composer": "Hammerstein/Kern",
+        "key": "F"
+      },
+      {
+        "title": "Alone Together",
+        "page": 29,
+        "style": "jazz",
+        "composer": "Dietz & Schwartz",
+        "key": "D"
+      },
+      {
+        "title": "Ana Maria",
+        "page": 30,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "G"
+      },
+      {
+        "title": "And Now The Queen",
+        "page": 32,
+        "style": "jazz",
+        "composer": "Carla Bley",
+        "key": "Bb"
+      },
+      {
+        "title": "Around Again",
+        "page": 32,
+        "style": "jazz",
+        "composer": "Carla Bley",
+        "key": "Ab"
+      },
+      {
+        "title": "And On The Third Day",
+        "page": 33,
+        "style": "jazz",
+        "composer": "Michael Gibbs",
+        "key": "D"
+      },
+      {
+        "title": "Angel Eyes",
+        "page": 34,
+        "style": "jazz",
+        "composer": "Dennis/Brent",
+        "key": "C"
+      },
+      {
+        "title": "Anthropology",
+        "page": 35,
+        "style": "jazz",
+        "composer": "Charlie Parker",
+        "key": "Bb"
+      },
+      {
+        "title": "April In Paris",
+        "page": 36,
+        "style": "jazz",
+        "composer": "Vernon Duke",
+        "key": "G"
+      },
+      {
+        "title": "April Joy",
+        "page": 37,
+        "style": "jazz",
+        "composer": "Pat Metheny",
+        "key": "Bb"
+      },
+      {
+        "title": "Arise, Her Eyes",
+        "page": 38,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "C"
+      },
+      {
+        "title": "Armageddon",
+        "page": 40,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "E"
+      },
+      {
+        "title": "As Time Goes By",
+        "page": 41,
+        "style": "jazz",
+        "composer": "Herman Hupfeld",
+        "key": "F"
+      },
+      {
+        "title": "Au Privave",
+        "page": 42,
+        "style": "jazz",
+        "composer": "Charlie Parker",
+        "key": "Bb"
+      },
+      {
+        "title": "Autumn In New York",
+        "page": 43,
+        "style": "jazz",
+        "composer": "Vernon Duke",
+        "key": "G"
+      },
+      {
+        "title": "Ay, Arriba!",
+        "page": 44,
+        "style": "jazz",
+        "composer": "Sal Carcione",
+        "key": "Bb"
+      },
+      {
+        "title": "Autumn Leaves",
+        "page": 46,
+        "style": "jazz",
+        "composer": "Johnny Mercer",
+        "key": "A"
+      },
+      {
+        "title": "Ballet",
+        "page": 47,
+        "style": "jazz",
+        "composer": "Michel & Tass",
+        "key": "Bb"
+      },
+      {
+        "title": "Batterie",
+        "page": 48,
+        "style": "jazz",
+        "composer": "Carla Bley",
+        "key": "Bb"
+      },
+      {
+        "title": "Ictus",
+        "page": 48,
+        "style": "jazz",
+        "composer": "Carla Bley",
+        "key": "Bb"
+      },
+      {
+        "title": "Beautiful Love",
+        "page": 49,
+        "style": "jazz",
+        "composer": "Victor Young",
+        "key": "Bb"
+      },
+      {
+        "title": "Beauty And The Beast",
+        "page": 50,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "F"
+      },
+      {
+        "title": "Beneath It All",
+        "page": 51,
+        "style": "jazz",
+        "composer": "Gary Anderson",
+        "key": "Ab"
+      },
+      {
+        "title": "Bessie's Blues",
+        "page": 52,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "Ab"
+      },
+      {
+        "title": "Bewitched",
+        "page": 53,
+        "style": "jazz",
+        "composer": "Rogers & Hart",
+        "key": "C"
+      },
+      {
+        "title": "Big Nick",
+        "page": 54,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "Bb"
+      },
+      {
+        "title": "Bitter Suite In The Ozone",
+        "page": 55,
+        "style": "jazz",
+        "composer": "Bob Moses",
+        "key": "Eb"
+      },
+      {
+        "title": "Black Diamond",
+        "page": 56,
+        "style": "jazz",
+        "composer": "Roland Kirk",
+        "key": "Bb"
+      },
+      {
+        "title": "Black Narcissus",
+        "page": 57,
+        "style": "jazz",
+        "composer": "Joe Henderson",
+        "key": "Bb"
+      },
+      {
+        "title": "Black Nile",
+        "page": 58,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "C"
+      },
+      {
+        "title": "Black Orpheus",
+        "page": 59,
+        "style": "jazz",
+        "composer": "Luis Bonfa",
+        "key": "Bb"
+      },
+      {
+        "title": "Blessed Relief",
+        "page": 60,
+        "style": "jazz",
+        "composer": "Frank Zappa",
+        "key": "Bb"
+      },
+      {
+        "title": "Blue Bossa",
+        "page": 61,
+        "style": "jazz",
+        "composer": "Kenny Dorham",
+        "key": "C"
+      },
+      {
+        "title": "Blue Comedy",
+        "page": 62,
+        "style": "jazz",
+        "composer": "Michael Gibbs",
+        "key": "Eb"
+      },
+      {
+        "title": "Blue In Green",
+        "page": 63,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "Bb"
+      },
+      {
+        "title": "Blue Monk",
+        "page": 64,
+        "style": "jazz",
+        "composer": "Thelonious Monk",
+        "key": "Bb"
+      },
+      {
+        "title": "Blue Room",
+        "page": 65,
+        "style": "jazz",
+        "composer": "Rogers & Hart",
+        "key": "F"
+      },
+      {
+        "title": "Bluesette",
+        "page": 66,
+        "style": "jazz",
+        "composer": "Toots Thielemans",
+        "key": "Bb"
+      },
+      {
+        "title": "Blues For Alice",
+        "page": 67,
+        "style": "jazz",
+        "composer": "Charlie Parker",
+        "key": "F"
+      },
+      {
+        "title": "Blue Train",
+        "page": 68,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "Bb"
+      },
+      {
+        "title": "Body And Soul",
+        "page": 69,
+        "style": "jazz",
+        "composer": "Green",
+        "key": "Eb"
+      },
+      {
+        "title": "Boplicity",
+        "page": 70,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "G"
+      },
+      {
+        "title": "Boston Marathon",
+        "page": 71,
+        "style": "jazz",
+        "composer": "Gary Burton",
+        "key": "G"
+      },
+      {
+        "title": "Brainville",
+        "page": 72,
+        "style": "jazz",
+        "composer": "Sun Ra",
+        "key": "Bb"
+      },
+      {
+        "title": "Bright Size Life",
+        "page": 74,
+        "style": "jazz",
+        "composer": "Pat Metheny",
+        "key": "G"
+      },
+      {
+        "title": "Broadway Blues",
+        "page": 75,
+        "style": "jazz",
+        "composer": "Ornette Coleman",
+        "key": "Ab"
+      },
+      {
+        "title": "Brownout",
+        "page": 76,
+        "style": "jazz",
+        "composer": "Gary Burton",
+        "key": "G"
+      },
+      {
+        "title": "But Beautiful",
+        "page": 77,
+        "style": "jazz",
+        "composer": "Van Heusen/Burke",
+        "key": "G"
+      },
+      {
+        "title": "Butterfly",
+        "page": 78,
+        "style": "jazz",
+        "composer": "H. Hancock",
+        "key": "F"
+      },
+      {
+        "title": "Captain Marvel",
+        "page": 80,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "Bb"
+      },
+      {
+        "title": "Light as a Feather",
+        "page": 81,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "Gmi"
+      },
+      {
+        "title": "Canyon Song",
+        "page": 82,
+        "style": "jazz",
+        "composer": "Randy Brecker",
+        "key": "Gmi"
+      },
+      {
+        "title": "Ceora",
+        "page": 83,
+        "style": "jazz",
+        "composer": "Lee Morgan",
+        "key": "Ab"
+      },
+      {
+        "title": "Chega de Saudade (No More Blues)",
+        "page": 84,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "Dmi"
+      },
+      {
+        "title": "Chelsea Belle",
+        "page": 86,
+        "style": "jazz",
+        "composer": "Gary Burton - Steve Swallow",
+        "key": "Db/Ab"
+      },
+      {
+        "title": "Chelsea Bridge",
+        "page": 87,
+        "style": "jazz",
+        "composer": "Billy Strayhorn",
+        "key": "Bb"
+      },
+      {
+        "title": "Cherokee",
+        "page": 88,
+        "style": "jazz",
+        "composer": "Ray Noble",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Chicken Feathers",
+        "page": 89,
+        "style": "jazz",
+        "composer": "Steve Kuhn",
+        "key": "Gmi"
+      },
+      {
+        "title": "Children's Song",
+        "page": 90,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "C"
+      },
+      {
+        "title": "Colors of Chloe",
+        "page": 92,
+        "style": "jazz",
+        "composer": "Eberhard Weber",
+        "key": "C"
+      },
+      {
+        "title": "Chopstix",
+        "page": 95,
+        "style": "jazz",
+        "composer": "Ornette Coleman",
+        "key": "F"
+      },
+      {
+        "title": "Como en Vietnam",
+        "page": 96,
+        "style": "latin",
+        "composer": "Steve Swallow",
+        "key": "Bb"
+      },
+      {
+        "title": "Come Sunday",
+        "page": 98,
+        "style": "jazz",
+        "composer": "Duke Ellington",
+        "key": "F"
+      },
+      {
+        "title": "Con Alma",
+        "page": 99,
+        "style": "latin jazz",
+        "composer": "Dizzy Gillespie",
+        "key": "Ab"
+      },
+      {
+        "title": "Conception",
+        "page": 100,
+        "style": "jazz",
+        "composer": "George Shearing",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Conference of the Birds",
+        "page": 101,
+        "style": "jazz",
+        "composer": "Dave Holland",
+        "key": "Dmi"
+      },
+      {
+        "title": "Confirmation",
+        "page": 102,
+        "style": "bebop",
+        "composer": "Charlie Parker",
+        "key": "F"
+      },
+      {
+        "title": "Corn",
+        "page": 103,
+        "style": "jazz",
+        "composer": "Keith Jarrett",
+        "key": "Gmi"
+      },
+      {
+        "title": "Moon Child",
+        "page": 103,
+        "style": "jazz",
+        "composer": "Keith Jarrett",
+        "key": "C#mi"
+      },
+      {
+        "title": "Corcovado (Quiet Nights)",
+        "page": 104,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "Ami"
+      },
+      {
+        "title": "Cottontail",
+        "page": 105,
+        "style": "swing",
+        "composer": "Duke Ellington",
+        "key": "AbMaj7"
+      },
+      {
+        "title": "Could It Be You",
+        "page": 106,
+        "style": "jazz",
+        "composer": "Cole Porter",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Countdown",
+        "page": 107,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "Emi"
+      },
+      {
+        "title": "Country Roads",
+        "page": 108,
+        "style": "jazz funk",
+        "composer": "Gary Burton - Steve Swallow",
+        "key": "G7"
+      },
+      {
+        "title": "Crescent",
+        "page": 109,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "Rubato"
+      },
+      {
+        "title": "Crystal Silence",
+        "page": 110,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "Ami"
+      },
+      {
+        "title": "Daahoud",
+        "page": 111,
+        "style": "jazz",
+        "composer": "Clifford Brown",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Dancing on the Ceiling",
+        "page": 112,
+        "style": "jazz standard",
+        "composer": "Rodgers & Hart",
+        "key": "FMaj7"
+      },
+      {
+        "title": "Dark That Dream",
+        "page": 113,
+        "style": "jazz ballad",
+        "composer": "Johnny Mercer",
+        "key": "G"
+      },
+      {
+        "title": "Days and Nights Waiting",
+        "page": 114,
+        "style": "jazz",
+        "composer": "Keith Jarrett",
+        "key": "A"
+      },
+      {
+        "title": "The Days of Wine & Roses",
+        "page": 115,
+        "style": "jazz standard",
+        "composer": "Henry Mancini",
+        "key": "FMaj7"
+      },
+      {
+        "title": "Dat Dere",
+        "page": 116,
+        "style": "jazz",
+        "composer": "Bobby Timmons",
+        "key": "F"
+      },
+      {
+        "title": "Dearly Beloved",
+        "page": 117,
+        "style": "jazz standard",
+        "composer": "Jerome Kern / Johnny Mercer",
+        "key": "Dmi"
+      },
+      {
+        "title": "Dear Old Stockholm",
+        "page": 118,
+        "style": "jazz",
+        "composer": "Traditional",
+        "key": "Dmi"
+      },
+      {
+        "title": "Delores",
+        "page": 119,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "Dmi"
+      },
+      {
+        "title": "De Rois do Infar o Vazio",
+        "page": 120,
+        "style": "latin",
+        "composer": "Wayne Shorter",
+        "key": "Ami"
+      },
+      {
+        "title": "Desafinado",
+        "page": 122,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "FMaj7"
+      },
+      {
+        "title": "Desert Air",
+        "page": 124,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "GbMaj7"
+      },
+      {
+        "title": "Deluge",
+        "page": 126,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "Bb7"
+      },
+      {
+        "title": "Dexterity",
+        "page": 127,
+        "style": "bebop",
+        "composer": "Charlie Parker",
+        "key": "Bb"
+      },
+      {
+        "title": "Doin' the Pig",
+        "page": 128,
+        "style": "jazz rock",
+        "composer": "Steve Swallow",
+        "key": "A"
+      },
+      {
+        "title": "Django",
+        "page": 130,
+        "style": "jazz ballad",
+        "composer": "John Lewis",
+        "key": "FMaj6"
+      },
+      {
+        "title": "The Dolphin",
+        "page": 131,
+        "style": "bossa nova",
+        "composer": "Luis Eca",
+        "key": "E7"
+      },
+      {
+        "title": "Dolphin Dance",
+        "page": 132,
+        "style": "jazz",
+        "composer": "Herbie Hancock",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Domino Biscuit",
+        "page": 133,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "Mixed"
+      },
+      {
+        "title": "Donna Lee",
+        "page": 134,
+        "style": "bebop",
+        "composer": "Charlie Parker",
+        "key": "Ab"
+      },
+      {
+        "title": "Don't Blame Me",
+        "page": 135,
+        "style": "jazz standard",
+        "composer": "Fields / McHugh",
+        "key": "C"
+      },
+      {
+        "title": "Don't Get Around Much Anymore",
+        "page": 136,
+        "style": "jazz swing",
+        "composer": "Duke Ellington",
+        "key": "C"
+      },
+      {
+        "title": "The Duke",
+        "page": 137,
+        "style": "jazz",
+        "composer": "Dave Brubeck",
+        "key": "CMaj7"
+      },
+      {
+        "title": "Duplicities",
+        "page": 138,
+        "style": "jazz fusion",
+        "composer": "Jack Stock",
+        "key": "Mixed"
+      },
+      {
+        "title": "Easy Living",
+        "page": 139,
+        "style": "jazz ballad",
+        "composer": "Robin / Rainger",
+        "key": "FMaj7"
+      },
+      {
+        "title": "Easy to Love",
+        "page": 140,
+        "style": "jazz standard",
+        "composer": "Cole Porter",
+        "key": "Dmi7"
+      },
+      {
+        "title": "Ecclesiastics",
+        "page": 141,
+        "style": "jazz",
+        "composer": "Charlie McPherson",
+        "key": "F7"
+      },
+      {
+        "title": "Elderdown",
+        "page": 142,
+        "style": "jazz ballad",
+        "composer": "Steve Swallow",
+        "key": "AMaj6"
+      },
+      {
+        "title": "Eighty-One",
+        "page": 144,
+        "style": "jazz",
+        "composer": "Miles Davis / Ron Carter",
+        "key": "F sus4"
+      },
+      {
+        "title": "El Gaucho",
+        "page": 145,
+        "style": "latin jazz",
+        "composer": "Wayne Shorter",
+        "key": "Cmi9"
+      },
+      {
+        "title": "Elizete",
+        "page": 146,
+        "style": "bossa nova",
+        "composer": "Clare Fischer",
+        "key": "Ami"
+      },
+      {
+        "title": "Eurydice",
+        "page": 147,
+        "style": "jazz fusion",
+        "composer": "Recorded Works",
+        "key": "Mixed"
+      },
+      {
+        "title": "Epistrophy",
+        "page": 148,
+        "style": "bebop",
+        "composer": "Thelonious Monk",
+        "key": "C#m7"
+      },
+      {
+        "title": "Equinox",
+        "page": 149,
+        "style": "jazz ballad",
+        "composer": "John Coltrane",
+        "key": "Cmi7"
+      },
+      {
+        "title": "Equipoise",
+        "page": 150,
+        "style": "jazz",
+        "composer": "Stanley Clarke",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "E.S.P.",
+        "page": 151,
+        "style": "jazz fusion",
+        "composer": "Miles Davis",
+        "key": "E7alt"
+      },
+      {
+        "title": "Exercise #3",
+        "page": 152,
+        "style": "jazz",
+        "composer": "Pat Metheny",
+        "key": "A"
+      },
+      {
+        "title": "Exercise #6",
+        "page": 153,
+        "style": "jazz",
+        "composer": "Pat Metheny",
+        "key": "Ami"
+      },
+      {
+        "title": "Fables of Faubus",
+        "page": 154,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Fall",
+        "page": 156,
+        "style": "jazz ballad",
+        "composer": "Wayne Shorter",
+        "key": "C#mi6"
+      },
+      {
+        "title": "Falling Grace",
+        "page": 157,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "AbMaj7"
+      },
+      {
+        "title": "Falling in Love with Love",
+        "page": 158,
+        "style": "jazz standard",
+        "composer": "Rodgers & Hart",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Fee-Fi-Fo-Fum",
+        "page": 159,
+        "style": "swing",
+        "composer": "Wayne Shorter",
+        "key": "Eb7"
+      },
+      {
+        "title": "Feelings & Things",
+        "page": 160,
+        "style": "jazz fusion",
+        "composer": "Herbie Hancock",
+        "key": "Mixed"
+      },
+      {
+        "title": "The Fields We Know",
+        "page": 161,
+        "style": "swing",
+        "composer": "Keith Jarrett",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "500 Miles High",
+        "page": 162,
+        "style": "latin jazz",
+        "composer": "Chick Corea",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "502 Blues",
+        "page": 163,
+        "style": "blues",
+        "composer": "Wayne Shorter",
+        "key": "Ami7"
+      },
+      {
+        "title": "Follow Your Heart",
+        "page": 164,
+        "style": "jazz ballad",
+        "composer": "J. McLaughlin",
+        "key": "Mixed"
+      },
+      {
+        "title": "Flags",
+        "page": 166,
+        "style": "jazz",
+        "composer": "Arlo Bender",
+        "key": "Mixed"
+      },
+      {
+        "title": "Footprints",
+        "page": 167,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "Cmi7"
+      },
+      {
+        "title": "Forest Flower",
+        "page": 168,
+        "style": "latin jazz",
+        "composer": "Charles Lloyd",
+        "key": "AMaj7"
+      },
+      {
+        "title": "For Heaven's Sake",
+        "page": 169,
+        "style": "jazz ballad",
+        "composer": "Sherman Edwards",
+        "key": "GbMaj7"
+      },
+      {
+        "title": "Fortune Smiles",
+        "page": 170,
+        "style": "jazz fusion",
+        "composer": "Keith Jarrett",
+        "key": "F sus4"
+      },
+      {
+        "title": "Four",
+        "page": 171,
+        "style": "bebop",
+        "composer": "Miles Davis",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Four on Six",
+        "page": 172,
+        "style": "jazz",
+        "composer": "Wes Montgomery",
+        "key": "BaseLine"
+      },
+      {
+        "title": "Four Winds",
+        "page": 173,
+        "style": "jazz fusion",
+        "composer": "Dave Holland",
+        "key": "Mixed"
+      },
+      {
+        "title": "Freddie the Freeloader",
+        "page": 174,
+        "style": "blues",
+        "composer": "Miles Davis",
+        "key": "Bb"
+      },
+      {
+        "title": "Freedom Jazz Dance",
+        "page": 175,
+        "style": "jazz fusion",
+        "composer": "Eddie Harris",
+        "key": "Bb7"
+      },
+      {
+        "title": "Gary's Waltz",
+        "page": 176,
+        "style": "jazz waltz",
+        "composer": "Gary McFarland",
+        "key": "Ami7"
+      },
+      {
+        "title": "Gemini",
+        "page": 177,
+        "style": "jazz fusion",
+        "composer": "Jimmy Heath",
+        "key": "Eb"
+      },
+      {
+        "title": "General Mojo's Well Laid Plan",
+        "page": 178,
+        "style": "jazz fusion",
+        "composer": "Steve Swallow",
+        "key": "C"
+      },
+      {
+        "title": "Gentle Rain",
+        "page": 179,
+        "style": "bossa nova",
+        "composer": "Luiz Bonfá",
+        "key": "Ami6"
+      },
+      {
+        "title": "Giant Steps",
+        "page": 180,
+        "style": "bebop",
+        "composer": "John Coltrane",
+        "key": "Mixed"
+      },
+      {
+        "title": "The Girl From Ipanema",
+        "page": 181,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "F"
+      },
+      {
+        "title": "Gloria's Step",
+        "page": 182,
+        "style": "jazz",
+        "composer": "Scott LaFaro",
+        "key": "C"
+      },
+      {
+        "title": "God Bless The Child",
+        "page": 183,
+        "style": "jazz",
+        "composer": "Billie Holiday",
+        "key": "Eb"
+      },
+      {
+        "title": "Golden Lady",
+        "page": 184,
+        "style": "soul/jazz",
+        "composer": "Stevie Wonder",
+        "key": "Eb"
+      },
+      {
+        "title": "Goodbye Pork Pie Hat",
+        "page": 185,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "A"
+      },
+      {
+        "title": "Good Evening Mr. Blues, America And All The Ships At Sea",
+        "page": 186,
+        "style": "blues",
+        "composer": "John Scofield",
+        "key": "F"
+      },
+      {
+        "title": "Grand Central",
+        "page": 188,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "F"
+      },
+      {
+        "title": "Green Dolphin St.",
+        "page": 189,
+        "style": "jazz standard",
+        "composer": "Kaper/Washington",
+        "key": "C"
+      },
+      {
+        "title": "Green Mountains",
+        "page": 190,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "C"
+      },
+      {
+        "title": "Groovin' High (Whispering)",
+        "page": 191,
+        "style": "bebop",
+        "composer": "Dizzy Gillespie",
+        "key": "Eb"
+      },
+      {
+        "title": "Grow Your Own",
+        "page": 192,
+        "style": "rock/jazz",
+        "composer": "Keith Jarrett",
+        "key": "F"
+      },
+      {
+        "title": "Hals Nelson",
+        "page": 194,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "G"
+      },
+      {
+        "title": "Hassan's Dream",
+        "page": 195,
+        "style": "jazz",
+        "composer": "Benny Golson",
+        "key": "A"
+      },
+      {
+        "title": "Have You Met Miss Jones",
+        "page": 196,
+        "style": "jazz standard",
+        "composer": "Rodgers/Hart",
+        "key": "F"
+      },
+      {
+        "title": "Heaven",
+        "page": 197,
+        "style": "jazz",
+        "composer": "Duke Ellington",
+        "key": "Bb"
+      },
+      {
+        "title": "Hello Young Lovers",
+        "page": 198,
+        "style": "jazz standard",
+        "composer": "Rodgers/Hammerstein",
+        "key": "F"
+      },
+      {
+        "title": "Henrique Flats",
+        "page": 200,
+        "style": "jazz",
+        "composer": "David Berkman",
+        "key": "Bb"
+      },
+      {
+        "title": "Here's That Rainy Day",
+        "page": 201,
+        "style": "jazz standard",
+        "composer": "Jimmy Van Heusen",
+        "key": "G"
+      },
+      {
+        "title": "Herbie",
+        "page": 202,
+        "style": "jazz",
+        "composer": "Bobby Hutcherson",
+        "key": "F"
+      },
+      {
+        "title": "Hey There",
+        "page": 204,
+        "style": "jazz",
+        "composer": "Adler & Ross",
+        "key": "Eb"
+      },
+      {
+        "title": "Hold Out Your Hand",
+        "page": 205,
+        "style": "jazz",
+        "composer": "Steve Kuhn",
+        "key": "G"
+      },
+      {
+        "title": "Hotel Overture",
+        "page": 206,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "Db"
+      },
+      {
+        "title": "Hotel Hello",
+        "page": 208,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "Db"
+      },
+      {
+        "title": "Sweeping Up",
+        "page": 210,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "Db"
+      },
+      {
+        "title": "House of Jade",
+        "page": 211,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "Db"
+      },
+      {
+        "title": "How High The Moon",
+        "page": 212,
+        "style": "jazz standard",
+        "composer": "Morgan Lewis",
+        "key": "G"
+      },
+      {
+        "title": "How Insensitive",
+        "page": 213,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "Dm"
+      },
+      {
+        "title": "How My Heart Sings",
+        "page": 214,
+        "style": "jazz",
+        "composer": "Earl Zindars",
+        "key": "Eb"
+      },
+      {
+        "title": "Hullo, Bolinas",
+        "page": 215,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "G"
+      },
+      {
+        "title": "I Carus",
+        "page": 216,
+        "style": "jazz",
+        "composer": "Ralph Towner",
+        "key": "G"
+      },
+      {
+        "title": "I Can't Get Started",
+        "page": 218,
+        "style": "jazz standard",
+        "composer": "Vernon Duke",
+        "key": "C"
+      },
+      {
+        "title": "I Could Write A Book",
+        "page": 219,
+        "style": "jazz standard",
+        "composer": "Rodgers & Hart",
+        "key": "C"
+      },
+      {
+        "title": "Ida Lupino",
+        "page": 220,
+        "style": "jazz",
+        "composer": "Carla Bley",
+        "key": "F"
+      },
+      {
+        "title": "If You Never Come To Me",
+        "page": 222,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "F"
+      },
+      {
+        "title": "I Feel So Bad",
+        "page": 223,
+        "style": "blues",
+        "composer": "Chuck Willis",
+        "key": "G"
+      },
+      {
+        "title": "I'll Never Be The Same",
+        "page": 224,
+        "style": "jazz standard",
+        "composer": "Gus Kahn",
+        "key": "Eb"
+      },
+      {
+        "title": "I Love You",
+        "page": 225,
+        "style": "jazz standard",
+        "composer": "Cole Porter",
+        "key": "G"
+      },
+      {
+        "title": "I'm All Smiles",
+        "page": 226,
+        "style": "jazz",
+        "composer": "Leonard Bernstein",
+        "key": "Db"
+      },
+      {
+        "title": "I'll Remember April",
+        "page": 228,
+        "style": "jazz standard",
+        "composer": "Raye, DePaul, Johnston",
+        "key": "G"
+      },
+      {
+        "title": "I Mean You",
+        "page": 229,
+        "style": "bebop",
+        "composer": "Thelonious Monk",
+        "key": "F"
+      },
+      {
+        "title": "Impressions",
+        "page": 230,
+        "style": "modal jazz",
+        "composer": "John Coltrane",
+        "key": "Dm"
+      },
+      {
+        "title": "I'm Your Pal",
+        "page": 231,
+        "style": "jazz",
+        "composer": "Steve Swallow",
+        "key": "C"
+      },
+      {
+        "title": "I'm A Melody Done",
+        "page": 232,
+        "style": "jazz",
+        "composer": "Duke Ellington",
+        "key": "Bb"
+      },
+      {
+        "title": "In A Sentimental Mood",
+        "page": 233,
+        "style": "jazz standard",
+        "composer": "Duke Ellington",
+        "key": "Dm"
+      },
+      {
+        "title": "Incantations",
+        "page": 234,
+        "style": "jazz",
+        "composer": "Frank Loesser",
+        "key": "F"
+      },
+      {
+        "title": "Indian Lady",
+        "page": 235,
+        "style": "jazz",
+        "composer": "Don Ellis",
+        "key": "A"
+      },
+      {
+        "title": "Inside In",
+        "page": 236,
+        "style": "jazz",
+        "composer": "Michael Gibbs",
+        "key": "Bb"
+      },
+      {
+        "title": "Inner Urge",
+        "page": 239,
+        "style": "hard bop",
+        "composer": "Joe Henderson",
+        "key": "F#"
+      },
+      {
+        "title": "Interplay",
+        "page": 240,
+        "style": "bebop",
+        "composer": "Bill Evans",
+        "key": "F"
+      },
+      {
+        "title": "Intrepid Fox",
+        "page": 241,
+        "style": "jazz",
+        "composer": "Theodore Hubbard",
+        "key": "Bb"
+      },
+      {
+        "title": "In Your Own Sweet Way",
+        "page": 242,
+        "style": "jazz standard",
+        "composer": "Dave Brubeck",
+        "key": "F"
+      },
+      {
+        "title": "In Your Quiet Place",
+        "page": 243,
+        "style": "jazz",
+        "composer": "Kerry Thornette",
+        "key": "F"
+      },
+      {
+        "title": "Invitation",
+        "page": 244,
+        "style": "bossa nova",
+        "composer": "Bronislau Kaper",
+        "key": "Cm"
+      },
+      {
+        "title": "I Remember Clifford",
+        "page": 245,
+        "style": "jazz",
+        "composer": "Benny Golson",
+        "key": "Ab"
+      },
+      {
+        "title": "Iris",
+        "page": 246,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "F"
+      },
+      {
+        "title": "I Should Care",
+        "page": 247,
+        "style": "jazz standard",
+        "composer": "Cahn, Stordahl, Weston",
+        "key": "Dm"
+      },
+      {
+        "title": "Isn't It Romantic",
+        "page": 248,
+        "style": "jazz standard",
+        "composer": "Rodgers/Hart",
+        "key": "Bb"
+      },
+      {
+        "title": "Isotope",
+        "page": 249,
+        "style": "fusion",
+        "composer": "Joe Henderson",
+        "key": "E"
+      },
+      {
+        "title": "Israel",
+        "page": 250,
+        "style": "bebop",
+        "composer": "John Carisi",
+        "key": "F"
+      },
+      {
+        "title": "It Don't Mean A Thing (If It Ain't Got That Swing)",
+        "page": 251,
+        "style": "swing",
+        "composer": "Duke Ellington",
+        "key": "Gm"
+      },
+      {
+        "title": "It's A Raggy Waltz",
+        "page": 252,
+        "style": "jazz waltz",
+        "composer": "Dave Brubeck",
+        "key": "G"
+      },
+      {
+        "title": "Jelly Roll",
+        "page": 253,
+        "style": "blues",
+        "composer": "Charles Mingus",
+        "key": "Eb"
+      },
+      {
+        "title": "Senrirete Sua",
+        "page": 254,
+        "style": "jazz",
+        "composer": "Joe Henderson",
+        "key": "Bb"
+      },
+      {
+        "title": "Jordu",
+        "page": 255,
+        "style": "bebop",
+        "composer": "Duke Jordan",
+        "key": "F"
+      },
+      {
+        "title": "Journey To Recife",
+        "page": 256,
+        "style": "bossa nova",
+        "composer": "Billy Janis",
+        "key": "F"
+      },
+      {
+        "title": "Joy Spring",
+        "page": 257,
+        "style": "hard bop",
+        "composer": "Clifford Brown",
+        "key": "F"
+      },
+      {
+        "title": "Ju-Ju",
+        "page": 258,
+        "style": "modal jazz",
+        "composer": "Wayne Shorter",
+        "key": "Bb"
+      },
+      {
+        "title": "Just Friends",
+        "page": 259,
+        "style": "jazz standard",
+        "composer": "Klenner/Lewis",
+        "key": "G"
+      },
+      {
+        "title": "Jump Monk",
+        "page": 260,
+        "style": "bebop",
+        "composer": "Charles Mingus",
+        "key": "F"
+      },
+      {
+        "title": "June 15, 1967",
+        "page": 262,
+        "style": "jazz",
+        "composer": "Michael Gibbs",
+        "key": "F"
+      },
+      {
+        "title": "La Fiesta",
+        "page": 264,
+        "style": "latin jazz",
+        "composer": "Chick Corea",
+        "key": "E"
+      },
+      {
+        "title": "Lady Bird",
+        "page": 266,
+        "style": "bebop",
+        "composer": "Tadd Dameron",
+        "key": "C"
+      },
+      {
+        "title": "Lament",
+        "page": 267,
+        "style": "ballad",
+        "composer": "J.J. Johnson",
+        "key": "F"
+      },
+      {
+        "title": "Las Vegas Tango",
+        "page": 268,
+        "style": "tango",
+        "composer": "Gil Evans",
+        "key": "F"
+      },
+      {
+        "title": "Lazy Bird",
+        "page": 269,
+        "style": "bebop",
+        "composer": "John Coltrane",
+        "key": "F"
+      },
+      {
+        "title": "Leron-The-Magician",
+        "page": 270,
+        "style": "fusion",
+        "composer": "Gary Burton",
+        "key": "F"
+      },
+      {
+        "title": "Lie Awake",
+        "page": 271,
+        "style": "jazz ballad",
+        "composer": "Michael Goodrick",
+        "key": "D"
+      },
+      {
+        "title": "Like Someone In Love",
+        "page": 272,
+        "style": "jazz standard",
+        "composer": "Van Heusen & Burke",
+        "key": "Eb"
+      },
+      {
+        "title": "Limehouse Blues",
+        "page": 273,
+        "style": "blues",
+        "composer": "Philip Braham",
+        "key": "Db"
+      },
+      {
+        "title": "Liria",
+        "page": 274,
+        "style": "modal jazz",
+        "composer": "Chick Corea",
+        "key": "D"
+      },
+      {
+        "title": "Little B's Poem",
+        "page": 276,
+        "style": "jazz",
+        "composer": "Bobby Hutcherson",
+        "key": "G"
+      },
+      {
+        "title": "Little Niles",
+        "page": 277,
+        "style": "bebop",
+        "composer": "Randy Weston",
+        "key": "Bb"
+      },
+      {
+        "title": "Liturgy",
+        "page": 278,
+        "style": "modal jazz",
+        "composer": "Michael Gibbs",
+        "key": "F"
+      },
+      {
+        "title": "Little Waltz",
+        "page": 280,
+        "style": "jazz waltz",
+        "composer": "Ron Carter",
+        "key": "F"
+      },
+      {
+        "title": "Long As You Know You're Living Yours",
+        "page": 281,
+        "style": "jazz",
+        "composer": "K. Jarrett",
+        "key": "C"
+      },
+      {
+        "title": "Long Ago And Far Away",
+        "page": 282,
+        "style": "jazz",
+        "composer": "Kern-Gershwin",
+        "key": "Fb"
+      },
+      {
+        "title": "Lonnie's Lament",
+        "page": 283,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "Bb"
+      },
+      {
+        "title": "Look To The Sky",
+        "page": 284,
+        "style": "jazz",
+        "composer": "A.L.A. Brell",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Looking Back",
+        "page": 285,
+        "style": "jazz",
+        "composer": "Mulligan-Webster",
+        "key": "Bb"
+      },
+      {
+        "title": "Lucky Southern",
+        "page": 286,
+        "style": "jazz",
+        "composer": "Victor Silvester",
+        "key": "DMaj7"
+      },
+      {
+        "title": "Lullaby Of Birdland",
+        "page": 287,
+        "style": "jazz",
+        "composer": "George Shearing",
+        "key": "FMaj7"
+      },
+      {
+        "title": "Lush Life",
+        "page": 288,
+        "style": "ballad",
+        "composer": "Billy Strayhorn",
+        "key": "Db"
+      },
+      {
+        "title": "The Magic Can In You",
+        "page": 290,
+        "style": "jazz",
+        "composer": "Keith Sherrette",
+        "key": "C"
+      },
+      {
+        "title": "Maiden Voyage",
+        "page": 291,
+        "style": "jazz",
+        "composer": "Herbie Hancock",
+        "key": "Am"
+      },
+      {
+        "title": "Mallet Man",
+        "page": 292,
+        "style": "jazz",
+        "composer": "Gordon Beck",
+        "key": "Bb"
+      },
+      {
+        "title": "Man In The Green Shirt",
+        "page": 294,
+        "style": "jazz",
+        "composer": "Joe Zawinul",
+        "key": "Bb"
+      },
+      {
+        "title": "Wayne Shorter",
+        "page": 296,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "FMaj7"
+      },
+      {
+        "title": "May Dance",
+        "page": 297,
+        "style": "jazz",
+        "composer": "Dave Holland",
+        "key": "Bb"
+      },
+      {
+        "title": "Meditation",
+        "page": 298,
+        "style": "bossa nova",
+        "composer": "A. C. Jobim",
+        "key": "C"
+      },
+      {
+        "title": "Memories Of Tomorrow",
+        "page": 299,
+        "style": "jazz",
+        "composer": "K. Jarrett",
+        "key": "AMaj7"
+      },
+      {
+        "title": "Nica's Dream",
+        "page": 300,
+        "style": "jazz",
+        "composer": "Horace Silver",
+        "key": "EMaj7"
+      },
+      {
+        "title": "Michelle",
+        "page": 302,
+        "style": "jazz",
+        "composer": "Lennon/McCartney",
+        "key": "D"
+      },
+      {
+        "title": "Midnight Mood",
+        "page": 303,
+        "style": "jazz",
+        "composer": "Joe Zawinul",
+        "key": "DbMaj7"
+      },
+      {
+        "title": "Milano",
+        "page": 304,
+        "style": "slow jazz",
+        "composer": "John Lewis",
+        "key": "DMaj7"
+      },
+      {
+        "title": "Minority",
+        "page": 305,
+        "style": "jazz",
+        "composer": "Gigi Gryce",
+        "key": "Am"
+      },
+      {
+        "title": "Misty",
+        "page": 306,
+        "style": "ballad",
+        "composer": "Erroll Garner",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Miyako",
+        "page": 307,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "Bb7"
+      },
+      {
+        "title": "Molten Glass",
+        "page": 308,
+        "style": "jazz",
+        "composer": "Joe Farrell",
+        "key": "Bb"
+      },
+      {
+        "title": "Moment's Notice",
+        "page": 309,
+        "style": "up tempo",
+        "composer": "John Coltrane",
+        "key": "EMaj7"
+      },
+      {
+        "title": "Montage",
+        "page": 310,
+        "style": "jazz",
+        "composer": "Gary Burton",
+        "key": "AMaj7"
+      },
+      {
+        "title": "Mood Indigo",
+        "page": 311,
+        "style": "jazz",
+        "composer": "Duke Ellington",
+        "key": "AbMaj7"
+      },
+      {
+        "title": "Moon & Stars",
+        "page": 312,
+        "style": "jazz",
+        "composer": "Joe Farrell",
+        "key": "Bb"
+      },
+      {
+        "title": "The More I See You",
+        "page": 313,
+        "style": "ballad",
+        "composer": "Warren & Gordon",
+        "key": "Eb"
+      },
+      {
+        "title": "Mother Of The Dead Man",
+        "page": 314,
+        "style": "jazz",
+        "composer": "Michael Gibbs",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Mr. P.C.",
+        "page": 315,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "C"
+      },
+      {
+        "title": "My Favorite Things",
+        "page": 316,
+        "style": "jazz",
+        "composer": "R. Rodgers",
+        "key": "EMaj7"
+      },
+      {
+        "title": "My Funny Valentine",
+        "page": 318,
+        "style": "jazz",
+        "composer": "Rodgers & Hart",
+        "key": "CMin"
+      },
+      {
+        "title": "My Little Boat",
+        "page": 319,
+        "style": "jazz",
+        "composer": "Roberto Menescal",
+        "key": "Bb"
+      },
+      {
+        "title": "My One And Only Love",
+        "page": 320,
+        "style": "ballad",
+        "composer": "Wood/Mellin",
+        "key": "CMaj7"
+      },
+      {
+        "title": "My Romance",
+        "page": 321,
+        "style": "jazz",
+        "composer": "Rodgers/Hart",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "My Ship",
+        "page": 324,
+        "style": "ballad",
+        "composer": "Weill & Gershwin",
+        "key": "Fb"
+      },
+      {
+        "title": "Naima",
+        "page": 325,
+        "style": "jazz",
+        "composer": "John Coltrane",
+        "key": "EbMaj7"
+      },
+      {
+        "title": "Nardis",
+        "page": 326,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "EMaj7"
+      },
+      {
+        "title": "Nefertiti",
+        "page": 327,
+        "style": "swing",
+        "composer": "Miles Davis",
+        "key": "Bb"
+      },
+      {
+        "title": "Never Will I Marry",
+        "page": 328,
+        "style": "jazz",
+        "composer": "Frank Loesser",
+        "key": "AbMaj7"
+      },
+      {
+        "title": "Nican's Dream",
+        "page": 329,
+        "style": "jazz",
+        "composer": "Horace Silver",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Night & Day",
+        "page": 330,
+        "style": "jazz",
+        "composer": "Cole Porter",
+        "key": "DbT"
+      },
+      {
+        "title": "Night Dreamer",
+        "page": 331,
+        "style": "swing",
+        "composer": "Wayne Shorter",
+        "key": "GMaj7"
+      },
+      {
+        "title": "The Night Has A Thousand Eyes",
+        "page": 332,
+        "style": "jazz",
+        "composer": "Weisman, Garrett, Wayne",
+        "key": "GMaj7"
+      },
+      {
+        "title": "Nimbus",
+        "page": 333,
+        "style": "jazz",
+        "composer": "Ron McClure",
+        "key": "AMaj7"
+      },
+      {
+        "title": "Nonsequence",
+        "page": 334,
+        "style": "rock",
+        "composer": "Michael Gibbs",
+        "key": "C"
+      },
+      {
+        "title": "Nostalgia In Times Square",
+        "page": 336,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "Bb"
+      },
+      {
+        "title": "Oleo",
+        "page": 337,
+        "style": "jazz",
+        "composer": "Sonny Rollins",
+        "key": "BbMaj7"
+      },
+      {
+        "title": "Orbits De Gato",
+        "page": 338,
+        "style": "jazz",
+        "composer": "Airto Purim",
+        "key": "AMaj7"
+      },
+      {
+        "title": "Once I Loved",
+        "page": 339,
+        "style": "bossa",
+        "composer": "A.C. Jobim",
+        "key": "GMaj7"
+      },
+      {
+        "title": "One Finger Snap",
+        "page": 340,
+        "style": "jazz",
+        "composer": "Herbie Hancock",
+        "key": "Bb"
+      },
+      {
+        "title": "One Note Samba",
+        "page": 341,
+        "style": "samba",
+        "composer": "A.C. Jobim",
+        "key": "DMaj7"
+      },
+      {
+        "title": "Open Your Eyes You Can Fly",
+        "page": 342,
+        "style": "even 8ths",
+        "composer": "Chick Corea",
+        "key": "GMaj7"
+      },
+      {
+        "title": "Orbits",
+        "page": 344,
+        "style": "free swing",
+        "composer": "Wayne Shorter",
+        "key": "CMaj7"
+      },
+      {
+        "title": "Ornithology",
+        "page": 345,
+        "style": "up tempo",
+        "composer": "Charlie Parker",
+        "key": "GMaj7"
+      },
+      {
+        "title": "Out of Nowhere",
+        "page": 346,
+        "style": "jazz",
+        "composer": "Green/Heyman",
+        "key": "GMaj7"
+      },
+      {
+        "title": "Passion Dance",
+        "page": 347,
+        "style": "medium",
+        "composer": "McCoy Tyner",
+        "key": "F7sus4"
+      },
+      {
+        "title": "Peaches En Regalia",
+        "page": 348,
+        "style": "rock",
+        "composer": "Frank Zappa",
+        "key": "BMaj7"
+      },
+      {
+        "title": "Peace",
+        "page": 350,
+        "style": "ballad",
+        "composer": "Horace Silver",
+        "key": "CMaj7"
+      },
+      {
+        "title": "Pearlie's Swing",
+        "page": 351,
+        "style": "jazz",
+        "composer": "Steve Kuhn",
+        "key": "BMaj7"
+      },
+      {
+        "title": "Pee Wee",
+        "page": 352,
+        "style": "medium waltz tempo",
+        "composer": "Tony Williams",
+        "key": "DbMaj7"
+      },
+      {
+        "title": "Peggy's Blue Skylight",
+        "page": 353,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "GMaj7"
+      },
+      {
+        "title": "Pensativa",
+        "page": 354,
+        "style": "bossa",
+        "composer": "Claire Fischer",
+        "key": "GbMaj7"
+      },
+      {
+        "title": "Penthouse Serenade",
+        "page": 356,
+        "style": "jazz",
+        "composer": "Sonny Rollins",
+        "key": "GMaj7"
+      },
+      {
+        "title": "Peri's Scope",
+        "page": 357,
+        "style": "jazz",
+        "composer": "Bill Evans",
+        "key": "DMaj7"
+      },
+      {
+        "title": "Pefrancing (No Blues)",
+        "page": 358,
+        "style": "medium blues",
+        "composer": "Miles Davis",
+        "key": "F7"
+      },
+      {
+        "title": "Pendccato",
+        "page": 359,
+        "style": "free-metric",
+        "composer": "Wayne Shorter",
+        "key": "Ab"
+      },
+      {
+        "title": "Prelude Anthracious Preclus",
+        "page": 360,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "AMaj7"
+      },
+      {
+        "title": "PLAYED TWICE",
+        "page": 361,
+        "style": "jazz",
+        "composer": "Thelonious Monk",
+        "key": "Bb"
+      },
+      {
+        "title": "PORTSMOUTH FIGURATIONS",
+        "page": 362,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "E"
+      },
+      {
+        "title": "PRELUDE TO A KISS",
+        "page": 363,
+        "style": "jazz",
+        "composer": "Duke Ellington",
+        "key": "D"
+      },
+      {
+        "title": "PRINCE OF DARKNESS",
+        "page": 364,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "Bb"
+      },
+      {
+        "title": "PUSSY CAT DUES",
+        "page": 365,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "Bb"
+      },
+      {
+        "title": "QUIET NOW",
+        "page": 366,
+        "style": "jazz",
+        "composer": "Denny Zeitlin",
+        "key": "A"
+      },
+      {
+        "title": "THE RAVEN",
+        "page": 367,
+        "style": "jazz",
+        "composer": "Keith Jarrett",
+        "key": "D"
+      },
+      {
+        "title": "THE REAL GUITARIST",
+        "page": 368,
+        "style": "samba",
+        "composer": "Steve Kuhn",
+        "key": "G"
+      },
+      {
+        "title": "RECORDAME",
+        "page": 369,
+        "style": "jazz",
+        "composer": "Joe Henderson",
+        "key": "A"
+      },
+      {
+        "title": "REINCARNATION OF A LOVE BIRD",
+        "page": 370,
+        "style": "jazz",
+        "composer": "Chas. Mingus",
+        "key": "G"
+      },
+      {
+        "title": "RED CLAY",
+        "page": 372,
+        "style": "funk",
+        "composer": "Freddie Hubbard",
+        "key": "C"
+      },
+      {
+        "title": "RESOLUTION",
+        "page": 373,
+        "style": "jazz",
+        "composer": "John Hicks",
+        "key": "Ab"
+      },
+      {
+        "title": "ROUND MIDNIGHT",
+        "page": 374,
+        "style": "jazz",
+        "composer": "T. Monk",
+        "key": "Eb"
+      },
+      {
+        "title": "SAGA OF HARRISON CRABFEATHERS",
+        "page": 375,
+        "style": "jazz",
+        "composer": "S. Kuhn",
+        "key": "E"
+      },
+      {
+        "title": "SAME SHAME",
+        "page": 376,
+        "style": "jazz",
+        "composer": "Bobby Hutcherson",
+        "key": "Ab"
+      },
+      {
+        "title": "SATIN DOLL",
+        "page": 377,
+        "style": "jazz",
+        "composer": "Duke Ellington",
+        "key": "D"
+      },
+      {
+        "title": "SCOTCH 'N' SODA",
+        "page": 378,
+        "style": "jazz",
+        "composer": "Guard",
+        "key": "Db"
+      },
+      {
+        "title": "SCRAPPLE FROM THE APPLE",
+        "page": 379,
+        "style": "bebop",
+        "composer": "Charlie Parker",
+        "key": "G"
+      },
+      {
+        "title": "SEA JOURNEY",
+        "page": 380,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "A"
+      },
+      {
+        "title": "SEA JOURNEY",
+        "page": 381,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "A"
+      },
+      {
+        "title": "SELF PORTRAIT IN 3 COLORS",
+        "page": 382,
+        "style": "jazz",
+        "composer": "Charles Mingus",
+        "key": "Eb"
+      },
+      {
+        "title": "SEMBLANCE",
+        "page": 383,
+        "style": "jazz",
+        "composer": "Keith Jarrett",
+        "key": "F#"
+      },
+      {
+        "title": "SENIOR MOUSE",
+        "page": 384,
+        "style": "latin",
+        "composer": "Chick Corea",
+        "key": "A"
+      },
+      {
+        "title": "SERENADE TO A CUCKOO",
+        "page": 387,
+        "style": "jazz",
+        "composer": "Roland Kirk",
+        "key": "Bb"
+      },
+      {
+        "title": "SEVEN COME ELEVEN",
+        "page": 388,
+        "style": "swing",
+        "composer": "Benny Goodson/Charlie Christian",
+        "key": "A"
+      },
+      {
+        "title": "SEVEN STEPS TO HEAVEN",
+        "page": 389,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "F"
+      },
+      {
+        "title": "SHADES OF LIGHT",
+        "page": 390,
+        "style": "ballad",
+        "composer": "Hubert Laws",
+        "key": "A"
+      },
+      {
+        "title": "THE SHADOW OF YOUR SMILE",
+        "page": 391,
+        "style": "ballad",
+        "composer": "J. Mandel",
+        "key": "F"
+      },
+      {
+        "title": "SIDEWINDER",
+        "page": 392,
+        "style": "soul jazz",
+        "composer": "Lee Morgan",
+        "key": "D"
+      },
+      {
+        "title": "SING ME SOFTLY OF THE BLUES",
+        "page": 393,
+        "style": "slow blues",
+        "composer": "Carla Bley",
+        "key": "A"
+      },
+      {
+        "title": "SKATING IN CENTRAL PARK",
+        "page": 394,
+        "style": "jazz",
+        "composer": "Bill Evans",
+        "key": "C"
+      },
+      {
+        "title": "SLOWLY GONE, BYGONE",
+        "page": 395,
+        "style": "samba",
+        "composer": "Dave Samuels",
+        "key": "E"
+      },
+      {
+        "title": "SOLAR",
+        "page": 396,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "C"
+      },
+      {
+        "title": "SOLITUDE",
+        "page": 397,
+        "style": "ballad",
+        "composer": "Duke Ellington",
+        "key": "Db"
+      },
+      {
+        "title": "SOMEDAY MY PRINCE WILL COME",
+        "page": 398,
+        "style": "ballad",
+        "composer": "Churchill",
+        "key": "Bb"
+      },
+      {
+        "title": "SOME OTHER TIME",
+        "page": 399,
+        "style": "ballad",
+        "composer": "Bernstein/Comden/Green",
+        "key": "C"
+      },
+      {
+        "title": "SOME SKUNK FUNK",
+        "page": 400,
+        "style": "funk",
+        "composer": "Randy Brecker",
+        "key": "G"
+      },
+      {
+        "title": "SOME SKUNK FUNK",
+        "page": 401,
+        "style": "funk",
+        "composer": "Randy Brecker",
+        "key": "G"
+      },
+      {
+        "title": "SOMETIME AGO",
+        "page": 402,
+        "style": "jazz",
+        "composer": "Sergio Mihanovich",
+        "key": "C"
+      },
+      {
+        "title": "SONG",
+        "page": 403,
+        "style": "latin",
+        "composer": "Syd Gallimee",
+        "key": "F"
+      },
+      {
+        "title": "SONG FOR MY FATHER",
+        "page": 404,
+        "style": "hard bop",
+        "composer": "H. Silver",
+        "key": "Bb"
+      },
+      {
+        "title": "THE SONG IS YOU",
+        "page": 405,
+        "style": "jazz",
+        "composer": "Kern & Hammerstein",
+        "key": "C"
+      },
+      {
+        "title": "SON OF MR. GREEN GENES",
+        "page": 406,
+        "style": "rock",
+        "composer": "Frank Zappa",
+        "key": "D"
+      },
+      {
+        "title": "SOPHISTICATED LADY",
+        "page": 407,
+        "style": "ballad",
+        "composer": "Duke Ellington",
+        "key": "Bb"
+      },
+      {
+        "title": "THE SORCERER",
+        "page": 408,
+        "style": "jazz",
+        "composer": "Herbie Hancock",
+        "key": "Bb"
+      },
+      {
+        "title": "SO WHAT",
+        "page": 409,
+        "style": "modal jazz",
+        "composer": "Miles Davis",
+        "key": "D"
+      },
+      {
+        "title": "SPACE CIRCUS",
+        "page": 410,
+        "style": "fusion",
+        "composer": "Chick Corea",
+        "key": "Eb"
+      },
+      {
+        "title": "SPACE CIRCUS - PART II",
+        "page": 412,
+        "style": "fusion",
+        "composer": "Chick Corea",
+        "key": "Eb"
+      },
+      {
+        "title": "SPEAK NO EVIL",
+        "page": 414,
+        "style": "hard bop",
+        "composer": "Wayne Shorter",
+        "key": "C"
+      },
+      {
+        "title": "SPIRAL DANCE",
+        "page": 415,
+        "style": "fusion",
+        "composer": "Keith Jarrett",
+        "key": "Eb"
+      },
+      {
+        "title": "SPRING IS HERE",
+        "page": 416,
+        "style": "ballad",
+        "composer": "Rodgers & Hart",
+        "key": "Ab"
+      },
+      {
+        "title": "STAR-CROSSED LOVERS",
+        "page": 417,
+        "style": "ballad",
+        "composer": "Duke Ellington",
+        "key": "G"
+      },
+      {
+        "title": "STELLA BY STARLIGHT",
+        "page": 418,
+        "style": "ballad",
+        "composer": "Victor Young",
+        "key": "Eb"
+      },
+      {
+        "title": "STEPS",
+        "page": 419,
+        "style": "fusion",
+        "composer": "Chick Corea",
+        "key": "C"
+      },
+      {
+        "title": "STOLEN MOMENTS",
+        "page": 420,
+        "style": "blues",
+        "composer": "Oliver Nelson",
+        "key": "Bb"
+      },
+      {
+        "title": "STOMPIN' AT THE SAVOY",
+        "page": 421,
+        "style": "swing",
+        "composer": "Edgar Sampson/Chick Webb",
+        "key": "Ab"
+      },
+      {
+        "title": "STRAIGHT, NO CHASER",
+        "page": 422,
+        "style": "bebop",
+        "composer": "Thelonious Monk",
+        "key": "F"
+      },
+      {
+        "title": "STUFF",
+        "page": 423,
+        "style": "fusion",
+        "composer": "Miles Davis",
+        "key": "D"
+      },
+      {
+        "title": "SUGAR",
+        "page": 424,
+        "style": "latin",
+        "composer": "Stanley Turrentine",
+        "key": "Bb"
+      },
+      {
+        "title": "SUMMER SAMBA",
+        "page": 425,
+        "style": "samba",
+        "composer": "Marcos Valle",
+        "key": "Bb"
+      },
+      {
+        "title": "SWEDISH PASTRY",
+        "page": 426,
+        "style": "jazz",
+        "composer": "Barney Kessel",
+        "key": "Bb"
+      },
+      {
+        "title": "SWEET GEORGIA BRIGHT",
+        "page": 427,
+        "style": "swing",
+        "composer": "Lars Lloyd",
+        "key": "A"
+      },
+      {
+        "title": "SWEET HENRY",
+        "page": 428,
+        "style": "funk",
+        "composer": "Steve Swallow/Gary Gregg",
+        "key": "D"
+      },
+      {
+        "title": "SWEET RAIN",
+        "page": 429,
+        "style": "ballad",
+        "composer": "Mike Gibbs",
+        "key": "F"
+      },
+      {
+        "title": "TAKE FIVE",
+        "page": 430,
+        "style": "cool jazz",
+        "composer": "Paul Desmond",
+        "key": "Eb"
+      },
+      {
+        "title": "TAKE THE 'A' TRAIN",
+        "page": 431,
+        "style": "swing",
+        "composer": "Billy Strayhorn",
+        "key": "C"
+      },
+      {
+        "title": "TAME THY PEN",
+        "page": 432,
+        "style": "fusion",
+        "composer": "Richard Niles",
+        "key": "Bb"
+      },
+      {
+        "title": "THERE IS NO GREATER LOVE",
+        "page": 433,
+        "style": "ballad",
+        "composer": "Isham Jones",
+        "key": "Bb"
+      },
+      {
+        "title": "TELL ME A BEDTIME STORY",
+        "page": 434,
+        "style": "jazz",
+        "composer": "Herbie Hancock",
+        "key": "G"
+      },
+      {
+        "title": "THERE WILL NEVER BE ANOTHER YOU",
+        "page": 436,
+        "style": "ballad",
+        "composer": "Warren/Gordon",
+        "key": "Eb"
+      },
+      {
+        "title": "THEY CAN'T TAKE THAT AWAY FROM ME",
+        "page": 437,
+        "style": "ballad",
+        "composer": "Gershwin",
+        "key": "Gb"
+      },
+      {
+        "title": "THINK ON ME",
+        "page": 438,
+        "style": "jazz rock",
+        "composer": "George Cables",
+        "key": "Bb"
+      },
+      {
+        "title": "THREE FLOWERS",
+        "page": 439,
+        "style": "jazz waltz",
+        "composer": "Herbie Hancock",
+        "key": "Eb"
+      },
+      {
+        "title": "TONES FOR JOAN'S BONES",
+        "page": 440,
+        "style": "modal jazz",
+        "composer": "Chick Corea",
+        "key": "D"
+      },
+      {
+        "title": "Time Remembered",
+        "page": 442,
+        "style": "jazz",
+        "composer": "Bill Evans",
+        "key": "Bb"
+      },
+      {
+        "title": "Tough Talk",
+        "page": 443,
+        "style": "jazz",
+        "composer": "Jazz Crusaders",
+        "key": "Eb"
+      },
+      {
+        "title": "Trane in Samba",
+        "page": 444,
+        "style": "latin jazz",
+        "composer": "Gary McFarland",
+        "key": "Gm"
+      },
+      {
+        "title": "Trance",
+        "page": 445,
+        "style": "jazz",
+        "composer": "Steve Kuhn",
+        "key": "Bb"
+      },
+      {
+        "title": "Triste",
+        "page": 446,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "Bb"
+      },
+      {
+        "title": "Tune Up",
+        "page": 447,
+        "style": "jazz",
+        "composer": "Miles Davis",
+        "key": "Dm"
+      },
+      {
+        "title": "Turn Out the Stars",
+        "page": 448,
+        "style": "jazz",
+        "composer": "Bill Evans",
+        "key": "Bb"
+      },
+      {
+        "title": "Unlucky in Love",
+        "page": 449,
+        "style": "jazz",
+        "composer": "Bob Haggart",
+        "key": "F"
+      },
+      {
+        "title": "Unstrung Spring",
+        "page": 450,
+        "style": "jazz",
+        "composer": "Freddie Hubbard",
+        "key": "Bb"
+      },
+      {
+        "title": "Upper Manhattan Medical Group",
+        "page": 451,
+        "style": "jazz",
+        "composer": "Billy Strayhorn",
+        "key": "F"
+      },
+      {
+        "title": "Vashkar",
+        "page": 452,
+        "style": "jazz",
+        "composer": "Carla Bley",
+        "key": "Bb"
+      },
+      {
+        "title": "Very Early",
+        "page": 453,
+        "style": "jazz",
+        "composer": "Bill Evans",
+        "key": "Cm"
+      },
+      {
+        "title": "Virgo",
+        "page": 454,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "F"
+      },
+      {
+        "title": "Wait 'Til You See Her",
+        "page": 455,
+        "style": "jazz ballad",
+        "composer": "Rodgers & Hart",
+        "key": "F"
+      },
+      {
+        "title": "Walkin'",
+        "page": 456,
+        "style": "blues",
+        "composer": "Richard Carpenter",
+        "key": "F"
+      },
+      {
+        "title": "Waltz I",
+        "page": 457,
+        "style": "jazz waltz",
+        "composer": "Gary Burton",
+        "key": "Bb"
+      },
+      {
+        "title": "Waltz",
+        "page": 458,
+        "style": "jazz waltz",
+        "composer": "Pat Metheny",
+        "key": "Bb"
+      },
+      {
+        "title": "Waltz for a Lovely Wife",
+        "page": 459,
+        "style": "jazz waltz",
+        "composer": "Bill Woods",
+        "key": "Bb"
+      },
+      {
+        "title": "Waltz for Debby",
+        "page": 460,
+        "style": "jazz waltz",
+        "composer": "Bill Evans",
+        "key": "F"
+      },
+      {
+        "title": "Waltzin'",
+        "page": 461,
+        "style": "jazz waltz",
+        "composer": "Victor Sproles",
+        "key": "Cm"
+      },
+      {
+        "title": "Wave",
+        "page": 462,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "Dm"
+      },
+      {
+        "title": "We'll Be Together Again",
+        "page": 463,
+        "style": "jazz ballad",
+        "composer": "Fischer/Laine",
+        "key": "G"
+      },
+      {
+        "title": "Well You Needn't",
+        "page": 464,
+        "style": "bebop",
+        "composer": "Thelonious Monk",
+        "key": "F"
+      },
+      {
+        "title": "West Coast Blues",
+        "page": 465,
+        "style": "blues",
+        "composer": "Wes Montgomery",
+        "key": "Bb"
+      },
+      {
+        "title": "What Am I Here For",
+        "page": 466,
+        "style": "jazz ballad",
+        "composer": "Duke Ellington",
+        "key": "C"
+      },
+      {
+        "title": "What Are You Doing the Rest of Your Life",
+        "page": 467,
+        "style": "jazz ballad",
+        "composer": "Michel Legrand",
+        "key": "A"
+      },
+      {
+        "title": "What Was",
+        "page": 468,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "Gb"
+      },
+      {
+        "title": "What Is This Thing Called Love",
+        "page": 470,
+        "style": "jazz standard",
+        "composer": "Cole Porter",
+        "key": "G"
+      },
+      {
+        "title": "When I Fall in Love",
+        "page": 471,
+        "style": "jazz ballad",
+        "composer": "Heyman/Young",
+        "key": "Eb"
+      },
+      {
+        "title": "When Sunny Gets Blue",
+        "page": 472,
+        "style": "jazz ballad",
+        "composer": "Fisher/Segal",
+        "key": "G"
+      },
+      {
+        "title": "Where Are You",
+        "page": 473,
+        "style": "jazz ballad",
+        "composer": "Jimmy McHugh",
+        "key": "Ab"
+      },
+      {
+        "title": "Wild Flower",
+        "page": 474,
+        "style": "jazz ballad",
+        "composer": "Wayne Shorter",
+        "key": "Bb"
+      },
+      {
+        "title": "Windows",
+        "page": 476,
+        "style": "jazz",
+        "composer": "Chick Corea",
+        "key": "Bb"
+      },
+      {
+        "title": "Wings of Karma",
+        "page": 478,
+        "style": "jazz rock",
+        "composer": "Mahavishnu",
+        "key": "Bb"
+      },
+      {
+        "title": "Witch Hunt",
+        "page": 479,
+        "style": "jazz fusion",
+        "composer": "Wayne Shorter",
+        "key": "Eb"
+      },
+      {
+        "title": "Woody 'n You",
+        "page": 480,
+        "style": "bebop",
+        "composer": "Dizzy Gillespie",
+        "key": "Gb"
+      },
+      {
+        "title": "Yes or No",
+        "page": 481,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "D"
+      },
+      {
+        "title": "Yesterday",
+        "page": 482,
+        "style": "ballad",
+        "composer": "Lennon/McCartney",
+        "key": "F"
+      },
+      {
+        "title": "Yesterdays",
+        "page": 483,
+        "style": "jazz standard",
+        "composer": "Jerome Kern",
+        "key": "D"
+      },
+      {
+        "title": "You Are the Sunshine of My Life",
+        "page": 484,
+        "style": "soul/jazz",
+        "composer": "Stevie Wonder",
+        "key": "C"
+      },
+      {
+        "title": "You Are Too Beautiful",
+        "page": 485,
+        "style": "jazz ballad",
+        "composer": "Rodgers/Hart",
+        "key": "D"
+      },
+      {
+        "title": "You Don't Know What Love Is",
+        "page": 486,
+        "style": "jazz ballad",
+        "composer": "Raye/DePaul",
+        "key": "F"
+      },
+      {
+        "title": "You Took Advantage of Me",
+        "page": 487,
+        "style": "jazz standard",
+        "composer": "Rodgers/Hart",
+        "key": "Eb"
+      },
+      {
+        "title": "Midsummer Night's Dream",
+        "page": 491,
+        "style": "jazz",
+        "composer": "Pat Metheny",
+        "key": "Bb"
+      },
+      {
+        "title": "Spain",
+        "page": 492,
+        "style": "latin jazz",
+        "composer": "Chick Corea",
+        "key": "G"
+      },
+      {
+        "title": "Black Monday",
+        "page": 496,
+        "style": "jazz",
+        "composer": "Andrew Hill",
+        "key": "A"
+      },
+      {
+        "title": "I'm Afraid",
+        "page": 500,
+        "style": "jazz ballad",
+        "composer": "Duke Ellington",
+        "key": "C"
+      },
+      {
+        "title": "Mr. Yen",
+        "page": 501,
+        "style": "jazz",
+        "composer": "Wayne Shorter",
+        "key": "D"
+      },
+      {
+        "title": "Dindaque Valley",
+        "page": 502,
+        "style": "jazz",
+        "composer": "Herbie Hancock",
+        "key": "F"
+      },
+      {
+        "title": "Pent a Nine",
+        "page": 503,
+        "style": "jazz",
+        "composer": "Sonny Rollins",
+        "key": "G"
+      },
+      {
+        "title": "Perfect Love",
+        "page": 504,
+        "style": "jazz ballad",
+        "composer": "Kirk Lightsey",
+        "key": "E"
+      },
+      {
+        "title": "Sahara",
+        "page": 504,
+        "style": "jazz",
+        "composer": "Dave Holland",
+        "key": "G"
+      },
+      {
+        "title": "Reflections",
+        "page": 505,
+        "style": "jazz",
+        "composer": "Thelonious Monk",
+        "key": "Ab"
+      },
+      {
+        "title": "Road Song",
+        "page": 506,
+        "style": "jazz",
+        "composer": "Wes Montgomery",
+        "key": "G"
+      },
+      {
+        "title": "Valse Hot",
+        "page": 507,
+        "style": "jazz waltz",
+        "composer": "Sonny Rollins",
+        "key": "Ab"
+      },
+      {
         "title": "After You",
-        "page": 1,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 6,
+        "style": "jazz",
+        "composer": "Mike Stern",
+        "key": "G"
       },
       {
         "title": "After You've Gone",
-        "page": 2,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 7,
+        "style": "swing",
+        "composer": "Henry Creamer, Turner Layton",
+        "key": "F"
       },
       {
         "title": "Ain't Misbehavin'",
-        "page": 3,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 8,
+        "style": "swing",
+        "composer": "Fats Waller, Harry Brooks, Andy Razaf",
+        "key": "Eb"
       },
       {
-        "title": "All Or Nothing At All",
-        "page": 4,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "All or Nothing at All",
+        "page": 9,
+        "style": "swing",
+        "composer": "Jack Lawrence, Arthur Altman",
+        "key": "Am"
       },
       {
         "title": "Alanjuneally",
-        "page": 6,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 11,
+        "style": "jazz",
+        "composer": "Kenny Werner",
+        "key": "Em"
       },
       {
         "title": "Along Came Betty",
-        "page": 7,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 12,
+        "style": "swing",
+        "composer": "Benny Golson",
+        "key": "Bb"
       },
       {
-        "title": "Always And Forever",
-        "page": 8,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "Always and Forever",
+        "page": 13,
+        "style": "ballad",
+        "composer": "Pat Metheny",
+        "key": "Am"
       },
       {
         "title": "Angela",
-        "page": 9,
-        "style": "Bossa Nova",
-        "category": "Partitions"
+        "page": 14,
+        "style": "bossa nova",
+        "composer": "Antonio Carlos Jobim",
+        "key": "Bb"
       },
       {
         "title": "Armando's Rhumba",
-        "page": 10,
-        "style": "Latin",
-        "category": "Partitions"
+        "page": 15,
+        "style": "latin",
+        "composer": "Chick Corea",
+        "key": "Bb"
       },
       {
-        "title": "Autumn In 3",
-        "page": 12,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "Autumn in 3",
+        "page": 17,
+        "style": "waltz",
+        "composer": "Kenny Werner",
+        "key": "G"
       },
       {
         "title": "Autumn Nocturne",
-        "page": 13,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 18,
+        "style": "ballad",
+        "composer": "Kim Gannon, Josef Myrow",
+        "key": "C"
       },
       {
         "title": "Avalon Place",
-        "page": 14,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 19,
+        "style": "swing",
+        "composer": "Jack Zucker",
+        "key": "D"
       },
       {
-        "title": "Ballad For Anita",
-        "page": 15,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "Ballad for Anita",
+        "page": 20,
+        "style": "ballad",
+        "composer": "Bob Fraser",
+        "key": "Bb"
       },
       {
-        "title": "Ballad For Trane",
-        "page": 16,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "Ballad for Trane",
+        "page": 21,
+        "style": "ballad",
+        "composer": "Kenny Werner",
+        "key": "Eb"
       },
       {
         "title": "Beautiful Friendship",
-        "page": 17,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 22,
+        "style": "swing",
+        "composer": "Stanley Styne, Donald Kahn",
+        "key": "Eb"
       },
       {
         "title": "Be My Love",
-        "page": 18,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 23,
+        "style": "ballad",
+        "composer": "Sammy Cahn, Nicholas Brodszky",
+        "key": "C"
       },
       {
         "title": "Beside Myself",
-        "page": 20,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 25,
+        "style": "swing",
+        "composer": "Chip Stephens",
+        "key": "Ab"
       },
       {
         "title": "Bess, You Is My Woman Now",
-        "page": 22,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 27,
+        "style": "ballad",
+        "composer": "DuBose Heyward, Ira Gershwin, George Gershwin",
+        "key": "Bb"
       },
       {
         "title": "Bernie's Tune",
-        "page": 24,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 29,
+        "style": "swing",
+        "composer": "Bernie Miller",
+        "key": "Bb"
       },
       {
-        "title": "The Best Thing For You Is Me",
-        "page": 25,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "The Best Thing for You Is Me",
+        "page": 30,
+        "style": "swing",
+        "composer": "Irving Berlin",
+        "key": "C"
       },
       {
-        "title": "Better Git It In Your Soul",
-        "page": 26,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "Better Git It in Your Soul",
+        "page": 31,
+        "style": "gospel",
+        "composer": "Charles Mingus",
+        "key": "F"
       },
       {
-        "title": "Beyond The Bluebird",
-        "page": 27,
-        "style": "Jazz",
-        "category": "Partitions"
+        "title": "Beyond the Bluebird",
+        "page": 32,
+        "style": "swing",
+        "composer": "Tommy Flanagan",
+        "key": "G"
       },
       {
         "title": "Blue Daniel",
-        "page": 28,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 33,
+        "style": "swing",
+        "composer": "Frank Rosolino",
+        "key": "D"
       },
       {
         "title": "Bluebird",
-        "page": 29,
-        "style": "Jazz",
-        "category": "Partitions"
+        "page": 34,
+        "style": "swing",
+        "composer": "Charlie Parker",
+        "key": "Eb"
       },
       {
         "title": "Blues Backstage",
-        "page": 30,
-        "style": "Blues",
-        "category": "Partitions"
+        "page": 35,
+        "style": "blues",
+        "composer": "Frank Foster",
+        "key": "Bb"
       },
       {
         "title": "Bolivia",
-        "page": 31,
-        "style": "Latin",
-        "category": "Partitions"
+        "page": 36,
+        "style": "latin",
+        "composer": "Cedar Walton",
+        "key": "Eb"
       },
       {
         "title": "Bop Shop",
-        "page": 32,
-        "style": "Bebop",
-        "category": "Partitions"
+        "page": 37,
+        "style": "bebop",
+        "composer": "Paul Ferguson",
+        "key": "Dm"
       },
       {
         "title": "Bop Boy",
-        "page": 34,
-        "style": "Bebop",
-        "category": "Partitions"
-      },
-      {
-        "title": "Born To Be Blue",
-        "page": 35,
-        "composers": "Bob Wells, Mel Torme",
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "The Boy Next Door",
-        "page": 37,
-        "composers": "Hugh Martin, Ralph Blane",
-        "style": "Easy 3",
-        "category": "Partitions"
-      },
-      {
-        "title": "Bud Powell (Page 2)",
         "page": 39,
-        "composers": "Bud Powell",
-        "style": "Latin/Swing",
-        "category": "Partitions"
+        "style": "blues",
+        "composer": "Bob Mintzer",
+        "key": "F"
       },
       {
-        "title": "Bud's Blues",
+        "title": "Born to Be Blue",
         "page": 40,
-        "composers": "Bud Powell",
-        "style": "Medium Up Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Busch-Wacked",
-        "page": 41,
-        "composers": "Jack Zucker",
-        "style": "Bright Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "Buzzy",
-        "page": 42,
-        "composers": "Charlie Parker",
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "By Myself",
-        "page": 43,
-        "composers": "Hugh Martin, Ralph Blane",
-        "style": "Medium 2",
-        "category": "Partitions"
-      },
-      {
-        "title": "Bye Bye Baby",
-        "page": 44,
-        "composers": "Leo Robin, Jule Styne",
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Careful",
-        "page": 45,
-        "composers": "Jim Hall",
-        "style": "Medium Rock",
-        "category": "Partitions"
-      },
-      {
-        "title": "Celia",
-        "page": 46,
-        "composers": "Bud Powell",
-        "style": "Med. Up Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "A Certain Smile",
-        "page": 48,
-        "composers": "Paul Webster, Sammy Fain",
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Chariots",
-        "page": 49,
-        "composers": "John Scofield",
-        "style": "Medium Rock",
-        "category": "Partitions"
-      },
-      {
-        "title": "Cheek To Cheek",
-        "page": 50,
-        "composers": "Irving Berlin",
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Cheryl",
-        "page": 53,
-        "composers": "Charlie Parker",
-        "style": "Blues",
-        "category": "Partitions"
-      },
-      {
-        "title": "Close Enough For Love",
-        "page": 54,
-        "composers": "Paul Williams, Johnny Mandel",
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "Bob Wells, Mel Torme",
+        "key": "Bb"
       },
       {
         "title": "Bossa Rokka",
-        "page": 38,
-        "composers": "George Benson",
-        "style": "Bossa Nova",
-        "category": "Partitions"
+        "page": 41,
+        "style": "bossa nova",
+        "composer": "George Benson",
+        "key": "G"
+      },
+      {
+        "title": "The Boy Next Door",
+        "page": 42,
+        "style": "ballad",
+        "composer": "Hugh Martin, Ralph Blane",
+        "key": "Bb"
       },
       {
         "title": "Bud Powell",
-        "page": 38,
-        "composers": "Chick Corea",
-        "style": "Med. Up Swing",
-        "category": "Partitions"
+        "page": 43,
+        "style": "swing",
+        "composer": "Chick Corea",
+        "key": "F"
+      },
+      {
+        "title": "Bud's Blues",
+        "page": 45,
+        "style": "blues",
+        "composer": "Bud Powell",
+        "key": "Bb"
+      },
+      {
+        "title": "Busch-Wacked",
+        "page": 46,
+        "style": "bebop",
+        "composer": "Jack Zucker",
+        "key": "Bb"
+      },
+      {
+        "title": "Buzzy",
+        "page": 47,
+        "style": "swing",
+        "composer": "Charlie Parker",
+        "key": "Bb"
+      },
+      {
+        "title": "By Myself",
+        "page": 48,
+        "style": "ballad",
+        "composer": "Hugh Martin, Ralph Blane",
+        "key": "Em"
+      },
+      {
+        "title": "Bye Bye Baby",
+        "page": 49,
+        "style": "swing",
+        "composer": "Leo Robin, Jule Styne",
+        "key": "Bb"
+      },
+      {
+        "title": "Careful",
+        "page": 50,
+        "style": "rock",
+        "composer": "Jim Hall",
+        "key": "A"
+      },
+      {
+        "title": "Celia",
+        "page": 51,
+        "style": "swing",
+        "composer": "Bud Powell",
+        "key": "Bb"
+      },
+      {
+        "title": "A Certain Smile",
+        "page": 53,
+        "style": "ballad",
+        "composer": "Paul Webster, Sammy Fain",
+        "key": "Gm"
+      },
+      {
+        "title": "Chariots",
+        "page": 54,
+        "style": "rock",
+        "composer": "John Scofield",
+        "key": "E"
+      },
+      {
+        "title": "Cheek to Cheek",
+        "page": 55,
+        "style": "swing",
+        "composer": "Irving Berlin",
+        "key": "C"
+      },
+      {
+        "title": "Cheryl",
+        "page": 58,
+        "style": "blues",
+        "composer": "Charlie Parker",
+        "key": "C"
+      },
+      {
+        "title": "Close Enough for Love",
+        "page": 59,
+        "style": "ballad",
+        "composer": "Paul Williams, Johnny Mandel",
+        "key": "Gm"
       },
       {
         "title": "Compensation",
-        "page": 55,
-        "composers": "Kenny Werner",
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 60,
+        "style": "swing",
+        "composer": "Kenny Werner",
+        "key": "Gm"
       },
       {
         "title": "Cool Eyes",
-        "page": 56,
-        "composers": "Horace Silver",
-        "style": "Med. Up Bop",
-        "category": "Partitions"
+        "page": 61,
+        "style": "bebop",
+        "composer": "Horace Silver",
+        "key": "Bb"
       },
       {
-        "title": "Cry Me A River",
-        "page": 58,
-        "composers": "Arthur Hamilton",
-        "style": "Ballad",
-        "category": "Partitions"
+        "title": "Cry Me a River",
+        "page": 63,
+        "style": "ballad",
+        "composer": "Arthur Hamilton",
+        "key": "Cm"
       },
       {
         "title": "Day Dream",
-        "page": 59,
-        "composers": "Duke Ellington, Billy Strayhorn",
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 64,
+        "style": "swing",
+        "composer": "Duke Ellington, Billy Strayhorn",
+        "key": "F"
       },
       {
         "title": "Dacapolypso",
-        "page": 60,
-        "composers": "Chuck Israels",
-        "style": "Latin-Calypso",
-        "category": "Partitions"
+        "page": 65,
+        "style": "calypso",
+        "composer": "Chuck Israels",
+        "key": "Am"
       },
       {
         "title": "Day In, Day Out",
-        "page": 62,
-        "composers": "Johnny Mercer, Ruben Bloom",
-        "style": "Medium to Up Swing",
-        "category": "Partitions"
+        "page": 67,
+        "style": "swing",
+        "composer": "Johnny Mercer, Rube Bloom",
+        "key": "G"
       },
       {
         "title": "Dig",
-        "page": 64,
-        "composers": "Miles Davis",
-        "style": "Up Tempo Swing",
-        "category": "Partitions"
+        "page": 69,
+        "style": "swing",
+        "composer": "Miles Davis",
+        "key": "F"
       },
       {
         "title": "Don't Ask Why",
-        "page": 66,
-        "composers": "Alan Broadbent",
-        "style": "Jazz Ballad",
-        "category": "Partitions"
+        "page": 71,
+        "style": "ballad",
+        "composer": "Alan Broadbent",
+        "key": "Fm"
       },
       {
         "title": "Don't Ever Go Away",
-        "page": 67,
-        "composers": "A. C. Jobim",
-        "style": "Bossa",
-        "category": "Partitions"
+        "page": 72,
+        "style": "bossa nova",
+        "composer": "A.C. Jobim",
+        "key": "Bb"
       },
       {
         "title": "Don't Look Back",
-        "page": 68,
-        "composers": "Johnny Mandel",
-        "style": "Easy 3",
-        "category": "Partitions"
+        "page": 73,
+        "style": "waltz",
+        "composer": "Johnny Mandel",
+        "key": "Eb"
       },
       {
         "title": "Double Clutching",
-        "page": 70,
-        "composers": "Chuck Israels",
-        "style": "Blues",
-        "category": "Partitions"
+        "page": 75,
+        "style": "blues",
+        "composer": "Chuck Israels",
+        "key": "F"
       },
       {
         "title": "Dream Dancing",
-        "page": 71,
-        "composers": "Cole Porter",
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "page": 76,
+        "style": "swing",
+        "composer": "Cole Porter",
+        "key": "Bb"
       },
       {
-        "title": "East Of The Sun (And West Of The Moon)",
-        "page": 72,
-        "composers": "Brooks Bowman",
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "title": "East of the Sun (And West of the Moon)",
+        "page": 77,
+        "style": "swing",
+        "composer": "Brooks Bowman",
+        "key": "G"
       },
       {
         "title": "Emanon",
-        "page": 73,
-        "composers": "Dizzy Gillespie",
-        "style": "Medium Bop",
-        "category": "Partitions"
+        "page": 78,
+        "style": "bebop",
+        "composer": "Dizzy Gillespie",
+        "key": "Bb"
       },
       {
         "title": "Emily",
-        "page": 74,
-        "composers": "Johnny Mercer, Johnny Mandel",
-        "style": "Easy 3",
-        "category": "Partitions"
-      },
-      {
-        "title": "The End Of A Love Affair",
-        "page": 75,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Endlessly",
-        "page": 76,
-        "style": "Bossa Nova",
-        "category": "Partitions"
-      },
-      {
-        "title": "Estate",
-        "page": 78,
-        "style": "Bossa Nova",
-        "category": "Partitions"
-      },
-      {
-        "title": "Ev'ry Time We Say Goodbye",
-        "page": 80,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Everything I Love",
-        "page": 83,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Father",
-        "page": 84,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Favela",
-        "page": 85,
-        "style": "Med. Bossa Nova",
-        "category": "Partitions"
-      },
-      {
-        "title": "Feel Like Makin' Love",
-        "page": 86,
-        "style": "Soft Rock",
-        "category": "Partitions"
-      },
-      {
-        "title": "For Heavens' Sake",
-        "page": 87,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Freight Trane",
-        "page": 88,
-        "style": "Bright Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "French Waltz (Waltz For Suzy)",
-        "page": 89,
-        "style": "Easy 3",
-        "category": "Partitions"
-      },
-      {
-        "title": "Friday The 13th",
-        "page": 90,
-        "style": "Ned Bright",
-        "category": "Partitions"
-      },
-      {
-        "title": "From Now On",
-        "page": 91,
-        "style": "Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "From The Heart",
-        "page": 92,
-        "style": "Bossa Nova",
-        "category": "Partitions"
-      },
-      {
-        "title": "From This Moment On",
-        "page": 94,
-        "style": "Medium Bright 2",
-        "category": "Partitions"
-      },
-      {
-        "title": "Everything Happens To Me",
-        "page": 82,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Eternal Triangle",
         "page": 79,
-        "style": "Medium Up",
-        "category": "Partitions"
+        "style": "waltz",
+        "composer": "Johnny Mercer, Johnny Mandel",
+        "key": "C"
       },
       {
-        "title": "Full Moon and Empty Arms",
+        "title": "The End of a Love Affair",
+        "page": 80,
+        "style": "ballad",
+        "composer": "Edward Redding",
+        "key": "Gm"
+      },
+      {
+        "title": "ENDLESSLY",
+        "page": 81,
+        "style": "bossa nova",
+        "composer": "MICHAEL ASHER",
+        "key": "Db"
+      },
+      {
+        "title": "ESTATE",
+        "page": 83,
+        "style": "bossa nova",
+        "composer": "BRUNO MARTINO / JOEL E. SIEGEL",
+        "key": "B"
+      },
+      {
+        "title": "ETERNAL TRIANGLE",
+        "page": 84,
+        "style": "medium up",
+        "composer": "SONNY STITT",
+        "key": "Bb"
+      },
+      {
+        "title": "EV'RY TIME WE SAY GOODBYE",
+        "page": 85,
+        "style": "ballad",
+        "composer": "COLE PORTER",
+        "key": "Eb"
+      },
+      {
+        "title": "EVERYTHING HAPPENS TO ME",
+        "page": 87,
+        "style": "ballad",
+        "composer": "TOM ADAIR / MATT DENNIS",
+        "key": "C"
+      },
+      {
+        "title": "EVERYTHING I LOVE",
+        "page": 88,
+        "style": "medium swing",
+        "composer": "COLE PORTER",
+        "key": "F"
+      },
+      {
+        "title": "FATHER",
+        "page": 89,
+        "style": "medium swing",
+        "composer": "GEORGE COLEMAN",
+        "key": "C"
+      },
+      {
+        "title": "FAVELA",
+        "page": 90,
+        "style": "med. bossa nova",
+        "composer": "ANTONIO CARLOS JOBIM",
+        "key": "G"
+      },
+      {
+        "title": "FEEL LIKE MAKIN' LOVE",
+        "page": 91,
+        "style": "soft rock",
+        "composer": "EUGENE McDANIELS",
+        "key": "Fm"
+      },
+      {
+        "title": "FOR HEAVENS' SAKE",
+        "page": 92,
+        "style": "ballad",
+        "composer": "MEYER-BURTON-EDWARD",
+        "key": "Gm"
+      },
+      {
+        "title": "FREIGHT TRANE",
+        "page": 93,
+        "style": "bright bop",
+        "composer": "TOMMY FLANAGAN",
+        "key": "Ab"
+      },
+      {
+        "title": "FRENCH WALTZ",
+        "page": 94,
+        "style": "easy 3",
+        "composer": "DUDLEY MOORE",
+        "key": "Em"
+      },
+      {
+        "title": "FRIDAY THE 13th",
         "page": 95,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "med bright",
+        "composer": "THELONIUS MONK",
+        "key": "G"
       },
       {
-        "title": "Funkallero",
+        "title": "FROM NOW ON",
         "page": 96,
-        "style": "Medium-Up Swing",
-        "category": "Partitions"
+        "style": "swing",
+        "composer": "TOM HARRELL",
+        "key": "C"
+      },
+      {
+        "title": "FROM THE HEART",
+        "page": 97,
+        "style": "bossa nova",
+        "composer": "GARY APRILE",
+        "key": "G"
+      },
+      {
+        "title": "FROM THIS MOMENT ON",
+        "page": 99,
+        "style": "medium bright 2",
+        "composer": "COLE PORTER",
+        "key": "Fm"
+      },
+      {
+        "title": "FULL MOON AND EMPTY ARMS",
+        "page": 100,
+        "style": "ballad",
+        "composer": "BUDDY KAYE / TED MOSSMAN (RACHMANINOFF)",
+        "key": "Bb"
+      },
+      {
+        "title": "FUNKALLERO",
+        "page": 101,
+        "style": "medium-up swing",
+        "composer": "BILL EVANS",
+        "key": "D"
       },
       {
         "title": "GNU BLU",
-        "page": 97,
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Gaviota",
-        "page": 98,
-        "style": "Medium Latin (Bolero-Guajira)",
-        "category": "Partitions"
-      },
-      {
-        "title": "Godchild",
-        "page": 100,
-        "style": "Medium Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "Gone with the Wind",
-        "page": 101,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Goodbye",
         "page": 102,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "bright swing",
+        "composer": "RON BUSCH",
+        "key": "C"
       },
       {
-        "title": "Got a Match?",
+        "title": "GAVIOTA",
         "page": 103,
-        "style": "Bright Swing",
-        "category": "Partitions"
+        "style": "medium latin (bolero - guajira)",
+        "composer": "CLARE FISCHER",
+        "key": "Cm"
       },
       {
-        "title": "Harlem Nocturne",
-        "page": 104,
-        "style": "Ballad",
-        "category": "Partitions"
+        "title": "GODCHILD",
+        "page": 105,
+        "style": "medium bop",
+        "composer": "GEORGE WALLINGTON",
+        "key": "Ab"
       },
       {
-        "title": "Heartsong",
+        "title": "GONE WITH THE WIND",
         "page": 106,
-        "style": "Med. 2 Even 8ths",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "HERB MAGIDSON / ALLIE WRUBEL",
+        "key": "Fm"
       },
       {
-        "title": "High Hopes",
+        "title": "GOODBYE",
+        "page": 107,
+        "style": "ballad",
+        "composer": "GORDON JENKINS",
+        "key": "Ab"
+      },
+      {
+        "title": "GOT A MATCH?",
         "page": 108,
-        "style": "Medium Latin",
-        "category": "Partitions"
+        "style": "bright swing",
+        "composer": "CHICK COREA",
+        "key": "Dm"
       },
       {
-        "title": "Rightwire The Aerialist",
-        "page": 110,
-        "style": "Medium Up",
-        "category": "Partitions"
+        "title": "HARLEM NOCTURNE",
+        "page": 109,
+        "style": "ballad",
+        "composer": "DICK ROGERS / EARLE HAGEN",
+        "key": "Gm"
+      },
+      {
+        "title": "HEARTSONG",
+        "page": 111,
+        "style": "med. 2 even 8ths",
+        "composer": "FRED HERSCH",
+        "key": "D"
+      },
+      {
+        "title": "HIGH HOPES",
+        "page": 113,
+        "style": "medium latin",
+        "composer": "BOB FRASER",
+        "key": "Dm"
+      },
+      {
+        "title": "RIGHWIRE THE AERIALIST",
+        "page": 115,
+        "style": "medium up",
+        "composer": "CHICK COREA",
+        "key": "F"
       },
       {
         "title": "H & H",
-        "page": 112,
-        "style": "Free Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Hot House",
-        "page": 113,
-        "style": "Med. Up Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "How About You",
-        "page": 114,
-        "style": "Easy Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "How Deep Is the Ocean",
-        "page": 115,
-        "style": "Easy Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "How Long Has This Been Going On",
-        "page": 116,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "I Didn't Know What Time It Was",
         "page": 117,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "free swing",
+        "composer": "PAT METHENY",
+        "key": "Bb"
       },
       {
-        "title": "I Concentrate on You",
+        "title": "HOT HOUSE",
         "page": 118,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "med. up bop",
+        "composer": "TADD DAMERON",
+        "key": "Gm"
       },
       {
-        "title": "I Fall in Love Too Easily",
+        "title": "HOW ABOUT YOU",
+        "page": 119,
+        "style": "easy swing",
+        "composer": "RALPH FREED / BURTON LANE",
+        "key": "C"
+      },
+      {
+        "title": "HOW DEEP IS THE OCEAN",
         "page": 120,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "easy swing",
+        "composer": "IRVING BERLIN",
+        "key": "Cm"
       },
       {
-        "title": "I Left My Heart in San Francisco",
+        "title": "HOW LONG HAS THIS BEEN GOING ON",
         "page": 121,
-        "style": "Swing Ballad",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "IRA GERSHWIN / GEORGE GERSHWIN",
+        "key": "A"
       },
       {
-        "title": "I Need You Here",
+        "title": "I DIDN'T KNOW WHAT TIME IT WAS",
         "page": 122,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "LORENZ HART / RICHARD RODGERS",
+        "key": "F#"
       },
       {
-        "title": "I Wish You Love",
-        "page": 124,
-        "style": "Ballad",
-        "category": "Partitions"
+        "title": "I CONCENTRATE ON YOU",
+        "page": 123,
+        "style": "medium swing",
+        "composer": "COLE PORTER",
+        "key": "Eb"
       },
       {
-        "title": "I'll Be Around",
+        "title": "I FALL IN LOVE TOO EASILY",
+        "page": 125,
+        "style": "ballad",
+        "composer": "SAMMY CAHN / JULE STYNE",
+        "key": "Fm"
+      },
+      {
+        "title": "I LEFT MY HEART IN SAN FRANCISCO",
         "page": 126,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "swing ballad",
+        "composer": "DOUGLAS CROSS / GEORGE CORY",
+        "key": "Bb"
       },
       {
-        "title": "I Loves You Porgy",
-        "page": 128,
-        "style": "Ballad",
-        "category": "Partitions"
+        "title": "I NEED YOU HERE",
+        "page": 127,
+        "style": "ballad",
+        "composer": "MAKOTO OZONE",
+        "key": "Db"
       },
       {
-        "title": "I'll Be Seeing You",
+        "title": "I WISH YOU LOVE",
         "page": 129,
-        "style": "Ballad or Easy Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "CHARLES TRENET",
+        "key": "Eb"
       },
       {
-        "title": "I'll Close My Eyes",
-        "page": 130,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "I'll Take Romance",
+        "title": "I'LL BE AROUND",
         "page": 131,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "ALEC WILDER",
+        "key": "C"
       },
       {
-        "title": "I'm Glad There Is You",
-        "page": 132,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "I'm Old Fashioned",
+        "title": "I LOVES YOU PORGY",
         "page": 133,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "DuBOSE HEYWARD / IRA GERSHWIN / GEORGE GERSHWIN",
+        "key": "C"
       },
       {
-        "title": "I'm Through with Love",
+        "title": "I'LL BE SEEING YOU",
         "page": 134,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad or easy swing",
+        "composer": "IRVING KAHAL / SAMMY FAJN",
+        "key": "Eb"
       },
       {
-        "title": "I've Got a Crush on You",
+        "title": "I'LL CLOSE MY EYES",
         "page": 135,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "BUDDY KAYE / BILLY REID",
+        "key": "F"
       },
       {
-        "title": "I've Got the World on a String",
+        "title": "I'LL TAKE ROMANCE",
         "page": 136,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "OSCAR HAMMERSTEIN II / BEN OAKLAND",
+        "key": "F"
       },
       {
-        "title": "I've Got You Under My Skin",
+        "title": "I'M GLAD THERE IS YOU",
+        "page": 137,
+        "style": "ballad",
+        "composer": "PAUL MADEIRA / JIMMY DORSEY",
+        "key": "F"
+      },
+      {
+        "title": "I'M OLD FASHIONED",
         "page": 138,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "JOHNNY MERCER / JEROME KERN",
+        "key": "F"
       },
       {
-        "title": "I've Grown Accustomed to Your Face",
+        "title": "I'M THROUGH WITH LOVE",
+        "page": 139,
+        "style": "ballad",
+        "composer": "GUS KAHN / MATT MALNECK / FUD LIVINGSTON",
+        "key": "Eb"
+      },
+      {
+        "title": "I'VE GOT A CRUSH ON YOU",
         "page": 140,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "IRA GERSHWIN / GEORGE GERSHWIN",
+        "key": "Dm"
       },
       {
-        "title": "I've Never Been in Love Before",
+        "title": "I'VE GOT THE WORLD ON A STRING",
         "page": 141,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "TED KOEHLER / HAROLD ARLEN",
+        "key": "F"
       },
       {
-        "title": "Ill Wind",
-        "page": 142,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "In a Capricornian Way",
+        "title": "I'VE GOT YOU UNDER MY SKIN",
         "page": 143,
-        "style": "Bright 3",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "COLE PORTER",
+        "key": "Fm"
       },
       {
-        "title": "In Her Family",
-        "page": 144,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "In Love in Vain",
+        "title": "I'VE GROWN ACCUSTOMED TO YOUR FACE",
         "page": 145,
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "ALAN J. LERNER / FREDERICK LOEWE",
+        "key": "Eb"
       },
       {
-        "title": "In the Days of Our Love",
+        "title": "I'VE NEVER BEEN IN LOVE BEFORE",
         "page": 146,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "FRANK LOESSER",
+        "key": "Bb"
       },
       {
-        "title": "Indian Summer",
+        "title": "ILL WIND",
+        "page": 147,
+        "style": "ballad",
+        "composer": "TED KOEHLER / HAROLD ARLEN",
+        "key": "Bb"
+      },
+      {
+        "title": "IN A CAPRICORNIAN WAY",
         "page": 148,
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "style": "bright 3",
+        "composer": "WOODY SHAW",
+        "key": "Em"
       },
       {
-        "title": "Irv's at Midnight",
+        "title": "IN HER FAMILY",
         "page": 149,
-        "style": "Med. Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "PAT METHENY / LYLE MAYS",
+        "key": "Am"
       },
       {
-        "title": "Isfahan",
+        "title": "IN LOVE IN VAIN",
         "page": 150,
-        "style": "Ballad or Medium Swing",
-        "category": "Partitions"
+        "style": "easy swing",
+        "composer": "LEO ROBIN / JEROME KERN",
+        "key": "Bb"
       },
       {
-        "title": "It Never Entered My Mind",
+        "title": "IN THE DAYS OF OUR LOVE",
         "page": 151,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "MARIAN McPARTLAND",
+        "key": "Am"
       },
       {
-        "title": "It's All Right with Me",
-        "page": 152,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "title": "INDIAN SUMMER",
+        "page": 153,
+        "style": "easy swing",
+        "composer": "AL DUBIN / VICTOR HERBERT",
+        "key": "G"
       },
       {
-        "title": "It's You or No One",
+        "title": "IRV'S AT MIDNIGHT",
         "page": 154,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "med. swing",
+        "composer": "ERNIE KRIVDA",
+        "key": "Cm"
       },
       {
-        "title": "A Japanese Waltz",
+        "title": "ISFAHAN",
         "page": 155,
-        "style": "Medium",
-        "category": "Partitions"
+        "style": "ballad or medium swing",
+        "composer": "BILLY STRAYHORN",
+        "key": "Db"
       },
       {
-        "title": "Jersey Bounce",
+        "title": "IT NEVER ENTERED MY MIND",
         "page": 156,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "LORENZ HART / RICHARD RODGERS",
+        "key": "F"
       },
       {
-        "title": "Jitterbug Waltz",
-        "page": 158,
-        "style": "Swing 3",
-        "category": "Partitions"
-      },
-      {
-        "title": "Jive Samba",
+        "title": "IT'S ALL RIGHT WITH ME",
         "page": 157,
-        "style": "Med. Rock",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "COLE PORTER",
+        "key": "Cm"
       },
       {
-        "title": "Julian",
+        "title": "IT'S YOU OR NO ONE",
+        "page": 159,
+        "style": "medium swing",
+        "composer": "SAMMY CAHN / JULE STYNE",
+        "key": "Gm"
+      },
+      {
+        "title": "A JAPANESE WALTZ",
+        "page": 160,
+        "style": "medium",
+        "composer": "CHICK COREA",
+        "key": "F#m"
+      },
+      {
+        "title": "JERSEY BOUNCE",
+        "page": 161,
+        "style": "medium swing",
+        "composer": "BOBBY PLATER / TINY BRADSHAW / EDWARD JOHNSON",
+        "key": "F"
+      },
+      {
+        "title": "JIVE SAMBA",
         "page": 162,
-        "style": "Ballad (Not Too Slow)",
-        "category": "Partitions"
+        "style": "med. rock",
+        "composer": "NAT ADDERLEY",
+        "key": "F#"
       },
       {
-        "title": "Just One of Those Things",
-        "page": 160,
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Just Squeeze Me",
+        "title": "JITTERBUG WALTZ",
         "page": 163,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "swing 3",
+        "composer": "\"FATS\" WALLER",
+        "key": "Eb"
       },
       {
-        "title": "Ladies in Mercedes",
-        "page": 164,
-        "style": "Salsa",
-        "category": "Partitions"
+        "title": "JUST ONE OF THOSE THINGS",
+        "page": 165,
+        "style": "bright swing",
+        "composer": "COLE PORTER",
+        "key": "Dm"
       },
       {
-        "title": "Lazy Afternoon",
+        "title": "JULIAN",
         "page": 167,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad (not too slow)",
+        "composer": "PEPPER ADAMS / GEORGE MRAZ",
+        "key": "Eb"
       },
       {
-        "title": "Leap of Faith",
+        "title": "JUST SQUEEZE ME",
         "page": 168,
-        "style": "Bright Swing",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "LES GAINES / DUKE ELLINGTON",
+        "key": "F"
       },
       {
-        "title": "Line for Lyons",
-        "page": 170,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Li'l Darlin'",
+        "title": "LADIES IN MERCEDES",
         "page": 169,
-        "style": "Swing Ballad",
-        "category": "Partitions"
+        "style": "salsa",
+        "composer": "STEVE SWALLOW",
+        "key": "G"
       },
       {
-        "title": "Little Face",
-        "page": 172,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Little Girl Blue",
-        "page": 174,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Little Willie Leaps",
+        "title": "THE LADY IS A TRAMP",
         "page": 171,
-        "style": "Bright Bop",
-        "category": "Partitions"
+        "style": "medium to fast swing",
+        "composer": "LORENZ HART / RICHARD RODGERS",
+        "key": "C"
       },
       {
-        "title": "The Lady Is a Tramp",
-        "page": 160,
-        "style": "Medium to Fast Swing",
-        "category": "Partitions"
+        "title": "LAZY AFTERNOON",
+        "page": 172,
+        "style": "ballad",
+        "composer": "JOHN LATOUCHE / JEROME MOROSS",
+        "key": "Am"
       },
       {
-        "title": "A Lotus on Irish Streams",
+        "title": "LEAP OF FAITH",
+        "page": 173,
+        "style": "bright swing",
+        "composer": "CHUCK ISRAELS",
+        "key": "Eb"
+      },
+      {
+        "title": "LI'L DARLIN'",
+        "page": 174,
+        "style": "swing ballad",
+        "composer": "NEAL HEFTI",
+        "key": "G"
+      },
+      {
+        "title": "LINE FOR LYONS",
+        "page": 175,
+        "style": "medium swing",
+        "composer": "GERRY MULLIGAN",
+        "key": "G"
+      },
+      {
+        "title": "LITTLE WILLIE LEAPS",
+        "page": 176,
+        "style": "bright jump",
+        "composer": "CHARLIE PARKER",
+        "key": "F"
+      },
+      {
+        "title": "LITTLE FACE",
+        "page": 177,
+        "style": "ballad",
+        "composer": "ERNIE KRIVDA",
+        "key": "Eb"
+      },
+      {
+        "title": "LITTLE GIRL BLUE",
         "page": 179,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Loud-zee",
-        "page": 180,
-        "style": "Even 8ths",
-        "category": "Partitions"
-      },
-      {
-        "title": "Love Walked In",
-        "page": 182,
-        "style": "Medium Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Lovers Rain Dance",
-        "page": 181,
-        "style": "Med. Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Lullaby of the Leaves",
-        "page": 184,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Lulu's Back in Town",
-        "page": 185,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Makin' Whoopee",
-        "page": 186,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Mandala",
-        "page": 188,
-        "style": "Bossa Nova",
-        "category": "Partitions"
-      },
-      {
-        "title": "Manhattan",
-        "page": 189,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "Matrix",
-        "page": 190,
-        "style": "Bright Blues",
-        "category": "Partitions"
-      },
-      {
-        "title": "Mayreh",
-        "page": 191,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "The Meaning of the Blues",
-        "page": 192,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "Mi Boj a Samba",
-        "page": 194,
-        "style": "Samba",
-        "category": "Partitions"
-      },
-      {
-        "title": "Milestones",
-        "page": 193,
-        "style": "Medium to Bright Bop",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "LORENZ HART / RICHARD RODGERS",
+        "key": "Gm"
       },
       {
         "title": "The Long View",
-        "page": 176,
-        "style": "Slow Latin Sempre Legato",
-        "category": "Partitions"
+        "page": 181,
+        "style": "slow latin",
+        "composer": "Paul Ferguson",
+        "key": "C"
       },
       {
         "title": "The Loop",
-        "page": 178,
-        "style": "Medium",
-        "category": "Partitions"
+        "page": 183,
+        "style": "medium",
+        "composer": "Chick Corea",
+        "key": "F"
       },
       {
-        "title": "MI BOJA SAMBA",
+        "title": "A Lotus on Irish Streams",
+        "page": 184,
+        "style": "ballad",
+        "composer": "John McLaughlin",
+        "key": "F"
+      },
+      {
+        "title": "Loud-Zee",
+        "page": 185,
+        "style": "even 8ths",
+        "composer": "Jerry Bergonzi",
+        "key": "G minor"
+      },
+      {
+        "title": "Lovers Rain Dance",
+        "page": 186,
+        "style": "med. swing",
+        "composer": "Chip Stephens",
+        "key": "Bb"
+      },
+      {
+        "title": "Love Walked In",
+        "page": 187,
+        "style": "medium bright swing",
+        "composer": "Ira Gershwin, George Gershwin",
+        "key": "Eb"
+      },
+      {
+        "title": "Lullaby of the Leaves",
+        "page": 189,
+        "style": "medium swing",
+        "composer": "Joe Young, Bernice Petkere",
+        "key": "C minor"
+      },
+      {
+        "title": "Lulu's Back in Town",
+        "page": 190,
+        "style": "medium swing",
+        "composer": "Al Dubin, Harry Warren",
+        "key": "C"
+      },
+      {
+        "title": "Makin' Whoopee",
+        "page": 191,
+        "style": "medium swing",
+        "composer": "Gus Kahn, Walter Donaldson",
+        "key": "G"
+      },
+      {
+        "title": "Mandala",
+        "page": 193,
+        "style": "bossa nova",
+        "composer": "Bill Dobbins",
+        "key": "E"
+      },
+      {
+        "title": "Manhattan",
+        "page": 194,
+        "style": "medium swing",
+        "composer": "Lorenz Hart, Richard Rodgers",
+        "key": "F"
+      },
+      {
+        "title": "Matrix",
         "page": 195,
-        "style": "Latin",
-        "category": "Partitions"
+        "style": "bright blues",
+        "composer": "Chick Corea",
+        "key": "F"
       },
       {
-        "title": "MIDNIGHT SUN",
+        "title": "Mayreh",
         "page": 196,
-        "style": "Jazz Ballad",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "Horace Silver",
+        "key": "Am"
       },
       {
-        "title": "MOONLIGHT IN VERMONT",
-        "page": 199,
-        "style": "Jazz Ballad",
-        "category": "Partitions"
+        "title": "The Meaning of the Blues",
+        "page": 197,
+        "style": "ballad",
+        "composer": "Bobby Worth, Bobby Troup",
+        "key": "Dm"
       },
       {
-        "title": "MUEZZIN'",
-        "page": 205,
-        "style": "Latin",
-        "category": "Partitions"
-      },
-      {
-        "title": "MOMENT TO MOMENT",
+        "title": "Milestones",
         "page": 198,
-        "style": "Rock Ballad",
-        "category": "Partitions"
+        "style": "medium to bright bop",
+        "composer": "Miles Davis",
+        "key": "Gm"
       },
       {
-        "title": "MOUNTAIN GREENERY",
+        "title": "Mi Boj A Samba",
+        "page": 199,
+        "style": "samba",
+        "composer": "Gary Aprile",
+        "key": "Eb"
+      },
+      {
+        "title": "Midnight Sun",
+        "page": 201,
+        "style": "ballad",
+        "composer": "Lionel Hampton, Sonny Burke, Johnny Mercer",
+        "key": "C"
+      },
+      {
+        "title": "Moment to Moment",
+        "page": 203,
+        "style": "rock ballad",
+        "composer": "Johnny Mercer, Henry Mancini",
+        "key": "Am"
+      },
+      {
+        "title": "Moonlight in Vermont",
         "page": 204,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "John Blackburn, Karl Suessdorf",
+        "key": "Eb"
       },
       {
-        "title": "NOBODY ELSE BUT ME",
-        "page": 214,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "title": "The Monster and the Flower",
+        "page": 205,
+        "style": "samba",
+        "composer": "Claudio Roditi",
+        "key": "Eb"
       },
       {
-        "title": "THE NIGHT WE CALLED IT A DAY",
-        "page": 212,
-        "style": "Jazz Ballad",
-        "category": "Partitions"
+        "title": "Moon and Sand",
+        "page": 207,
+        "style": "latin",
+        "composer": "Alec Wilder",
+        "key": "Dm"
       },
       {
-        "title": "NICE 'N EASY",
-        "page": 211,
-        "style": "Easy Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "MOON AND SAND",
-        "page": 202,
-        "style": "Latin",
-        "category": "Partitions"
-      },
-      {
-        "title": "NEAL'S BLUES",
+        "title": "Mountain Greenery",
         "page": 209,
-        "style": "Swing",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "Lorenz Hart, Richard Rodgers",
+        "key": "C"
       },
       {
-        "title": "MY MAN'S GONE NOW",
-        "page": 206,
-        "style": "Jazz Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "A NIGHTINGALE SANG IN BERKELEY SQUARE",
-        "page": 213,
-        "style": "Jazz Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "THE MONSTER AND THE FLOWER",
-        "page": 200,
-        "style": "Samba",
-        "category": "Partitions"
-      },
-      {
-        "title": "NEVER LET ME GO",
+        "title": "Muezzin'",
         "page": 210,
-        "style": "Jazz Ballad",
-        "category": "Partitions"
+        "style": "medium latin",
+        "composer": "Pepper Adams",
+        "key": "F#m"
       },
       {
-        "title": "MY HEART STOOD STILL",
-        "page": 208,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "title": "My Man's Gone Now",
+        "page": 211,
+        "style": "ballad",
+        "composer": "DuBose Heyward, Ira Gershwin, George Gershwin",
+        "key": "Dm"
       },
       {
-        "title": "NOW HE BEATS THE DRUM - NOW HE STOPS",
+        "title": "My Heart Stood Still",
+        "page": 213,
+        "style": "medium swing",
+        "composer": "Lorenz Hart, Richard Rodgers",
+        "key": "F"
+      },
+      {
+        "title": "Neal's Blues",
+        "page": 214,
+        "style": "swing",
+        "composer": "Neal Creque, Bob Fraser",
+        "key": "C"
+      },
+      {
+        "title": "Never Let Me Go",
         "page": 215,
-        "style": "Med. Up Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "Jay Livingston, Ray Evans",
+        "key": "Gm"
       },
       {
-        "title": "NUMBER 6",
-        "page": 217,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "ON A CLEAR DAY",
-        "page": 219,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "OLD FOLKS",
-        "page": 218,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "ON THE SLY",
-        "page": 220,
-        "style": "Med. Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "ON THE STREET WHERE YOU LIVE",
-        "page": 222,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "ONLY YOU KNOW",
-        "page": 224,
-        "style": "ECM Latin",
-        "category": "Partitions"
-      },
-      {
-        "title": "OUT OF THIS WORLD",
-        "page": 226,
-        "style": "Latin or Med. Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "OW!",
-        "page": 230,
-        "style": "Bright Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "OVER THE RAINBOW",
-        "page": 229,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "OUR DELIGHT",
-        "page": 228,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "PASSPORT",
-        "page": 234,
-        "style": "Med. Up Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "PANHANDLE HOOK",
-        "page": 232,
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "THE PARTY'S OVER",
-        "page": 231,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "NOW HE SINGS; NOW HE SOBS",
+        "title": "Nice 'N Easy",
         "page": 216,
-        "style": "In One",
-        "category": "Partitions"
+        "style": "easy swing",
+        "composer": "Lew Spence, Alan Bergman, Marilyn Keith",
+        "key": "C"
       },
       {
-        "title": "NOW HE BEATS THE DRUM - NOW HE STOPS",
-        "page": 215,
-        "style": "Med. Up Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "NUMBER 6",
+        "title": "The Night We Called It a Day",
         "page": 217,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "Thomas Adair, Matt Dennis",
+        "key": "Am7b5/D"
       },
       {
-        "title": "ON A CLEAR DAY",
-        "page": 219,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "OLD FOLKS",
+        "title": "A Nightingale Sang in Berkeley Square",
         "page": 218,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "Eric Maschwitz, Manning Sherwin",
+        "key": "Eb"
       },
       {
-        "title": "ON THE SLY",
+        "title": "Nobody Else But Me",
+        "page": 219,
+        "style": "medium swing",
+        "composer": "Oscar Hammerstein, Jerome Kern",
+        "key": "Eb"
+      },
+      {
+        "title": "Now He Beats the Drum - Now He Stops",
         "page": 220,
-        "style": "Med. Swing",
-        "category": "Partitions"
+        "style": "med. up swing",
+        "composer": "Chick Corea",
+        "key": "Ebm"
       },
       {
-        "title": "ON THE STREET WHERE YOU LIVE",
+        "title": "Now He Sings; Now He Sobs",
+        "page": 221,
+        "style": "in one",
+        "composer": "Chick Corea",
+        "key": "undefined"
+      },
+      {
+        "title": "Number 6",
         "page": 222,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "Lawrence Williams",
+        "key": "C"
       },
       {
-        "title": "ONLY YOU KNOW",
+        "title": "Old Folks",
+        "page": 223,
+        "style": "ballad",
+        "composer": "Eric Blau, Mort Shuman, Jacque Brel",
+        "key": "F"
+      },
+      {
+        "title": "On a Clear Day",
         "page": 224,
-        "style": "ECM Latin",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "Alan J. Lerner, Burton Lane",
+        "key": "G"
       },
       {
-        "title": "OUT OF THIS WORLD",
-        "page": 226,
-        "style": "Latin or Med. Swing",
-        "category": "Partitions"
+        "title": "On the Sly",
+        "page": 225,
+        "style": "med. swing",
+        "composer": "Chuck Israels",
+        "key": "C"
       },
       {
-        "title": "OW!",
-        "page": 230,
-        "style": "Bright Bop",
-        "category": "Partitions"
+        "title": "On the Street Where You Live",
+        "page": 227,
+        "style": "medium swing",
+        "composer": "Alan Lerner, Frederick Loewe",
+        "key": "Bb"
       },
       {
-        "title": "OVER THE RAINBOW",
+        "title": "Only You Know",
         "page": 229,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "ECM latin",
+        "composer": "Chip Stephens",
+        "key": "C"
       },
       {
-        "title": "OUR DELIGHT",
-        "page": 228,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "PASSPORT",
-        "page": 234,
-        "style": "Med. Up Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "PANHANDLE HOOK",
-        "page": 232,
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "THE PARTY'S OVER",
+        "title": "Out of This World",
         "page": 231,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "latin or med. swing",
+        "composer": "Johnny Mercer, Harold Arlen",
+        "key": "Bbm"
       },
       {
-        "title": "NOW HE SINGS; NOW HE SOBS",
-        "page": 216,
-        "style": "In One",
-        "category": "Partitions"
+        "title": "Our Delight",
+        "page": 233,
+        "style": "medium swing",
+        "composer": "Tadd Dameron",
+        "key": "Bb"
       },
       {
-        "title": "PATZ BLUES (CRAZY BLUES)",
+        "title": "Over the Rainbow",
+        "page": 234,
+        "style": "ballad",
+        "composer": "E. Y. Harburg, Harold Arlen",
+        "key": "Eb"
+      },
+      {
+        "title": "Ow!",
         "page": 235,
-        "style": "Funk",
-        "category": "Partitions"
+        "style": "bright bop",
+        "composer": "Dizzy Gillespie",
+        "key": "F"
       },
       {
-        "title": "PICADILLY LILLY",
-        "page": 239,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "RE: PERSON I KNEW",
-        "page": 248,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "PERHAPS",
-        "page": 238,
-        "style": "Medium Bop Blues",
-        "category": "Partitions"
-      },
-      {
-        "title": "SAMBA DE ORFEU",
-        "page": 254,
-        "style": "Bright Samba",
-        "category": "Partitions"
-      },
-      {
-        "title": "PURE IMAGINATION",
-        "page": 245,
-        "style": "Easy Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "ST. THOMAS",
-        "page": 253,
-        "style": "Medium Swing Latin",
-        "category": "Partitions"
-      },
-      {
-        "title": "A PRETTY GIRL IS LIKE A MELODY",
-        "page": 243,
-        "style": "Easy Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "POOR BUTTERFLY",
-        "page": 242,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "ROOM 608",
-        "page": 252,
-        "style": "Medium Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "PEOPLE",
+        "title": "The Party's Over",
         "page": 236,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "Betty Comden, Adolph Green, Julie Styne",
+        "key": "Eb"
       },
       {
-        "title": "RE-RE",
-        "page": 247,
-        "style": "Med. Up Swing",
-        "category": "Partitions"
+        "title": "Panhandle Hook",
+        "page": 237,
+        "style": "bright swing",
+        "composer": "Ernie Krivda",
+        "key": "Dm"
       },
       {
-        "title": "ROSEWOOD",
-        "page": 250,
-        "style": "Latin-Rock",
-        "category": "Partitions"
+        "title": "Passport",
+        "page": 239,
+        "style": "med. up bop",
+        "composer": "Charlie Parker",
+        "key": "Bb"
       },
       {
-        "title": "RAHSAAN'S RUN",
-        "page": 246,
-        "style": "Bright",
-        "category": "Partitions"
-      },
-      {
-        "title": "POINT OF RETURN",
-        "page": 241,
-        "style": "Latin",
-        "category": "Partitions"
-      },
-      {
-        "title": "RELAXIN' AT CAMARILLO",
-        "page": 249,
-        "style": "Bop Blues",
-        "category": "Partitions"
-      },
-      {
-        "title": "POINCIANA",
+        "title": "Patz Blues (Crazy Blues)",
         "page": 240,
-        "style": "Latin",
-        "category": "Partitions"
+        "style": "funk",
+        "composer": "Pat Metheny",
+        "key": "F"
       },
       {
-        "title": "PRISM",
+        "title": "People",
+        "page": 241,
+        "style": "ballad",
+        "composer": "Bob Merrill, Julie Styne",
+        "key": "Bb"
+      },
+      {
+        "title": "Perhaps",
+        "page": 243,
+        "style": "medium bop blues",
+        "composer": "Charlie Parker",
+        "key": "C"
+      },
+      {
+        "title": "Picadilly Lilly",
         "page": 244,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "medium swing",
+        "composer": "Dave Liebman",
+        "key": "E"
       },
       {
-        "title": "SANTURCE",
-        "page": 256,
-        "style": "Latin",
-        "category": "Partitions"
+        "title": "Poinciana",
+        "page": 245,
+        "style": "latin",
+        "composer": "Buddy Bernier, Nat Simon",
+        "key": "D"
       },
       {
-        "title": "SEABROOK REVISITED",
-        "page": 259,
-        "style": "Samba",
-        "category": "Partitions"
+        "title": "Point of Return",
+        "page": 246,
+        "style": "latin",
+        "composer": "Paul Ferguson",
+        "key": "C"
       },
       {
-        "title": "SAMBACIDE",
+        "title": "Poor Butterfly",
+        "page": 247,
+        "style": "ballad",
+        "composer": "John Golden, Raymond Hubble",
+        "key": "Bbm"
+      },
+      {
+        "title": "A Pretty Girl Is Like a Melody",
+        "page": 248,
+        "style": "easy swing",
+        "composer": "Irving Berlin",
+        "key": "A"
+      },
+      {
+        "title": "Prism",
+        "page": 249,
+        "style": "ballad",
+        "composer": "Keith Jarrett",
+        "key": "Gm"
+      },
+      {
+        "title": "Pure Imagination",
+        "page": 250,
+        "style": "easy swing",
+        "composer": "Leslie Bricusse, Anthony Newley",
+        "key": "Fm"
+      },
+      {
+        "title": "Rahsaan's Run",
+        "page": 251,
+        "style": "bright",
+        "composer": "Woody Shaw",
+        "key": "Am"
+      },
+      {
+        "title": "Re-Re",
+        "page": 252,
+        "style": "med. up swing",
+        "composer": "Bob Mintzer",
+        "key": "Ab"
+      },
+      {
+        "title": "Re: Person I Knew",
+        "page": 253,
+        "style": "medium swing",
+        "composer": "Bill Evans",
+        "key": "C"
+      },
+      {
+        "title": "Relaxin' at Camarillo",
+        "page": 254,
+        "style": "bop blues",
+        "composer": "Charlie Parker",
+        "key": "C"
+      },
+      {
+        "title": "Rosewood",
+        "page": 255,
+        "style": "latin-rock",
+        "composer": "Woody Shaw",
+        "key": "Am"
+      },
+      {
+        "title": "Room 608",
+        "page": 257,
+        "style": "medium bop",
+        "composer": "Horace Silver",
+        "key": "Cm"
+      },
+      {
+        "title": "St. Thomas",
         "page": 258,
-        "style": "Afro-Latin",
-        "category": "Partitions"
+        "style": "medium swing latin",
+        "composer": "Sonny Rollins",
+        "key": "C"
       },
       {
-        "title": "SONG FOR SISYPHUS",
-        "page": 274,
-        "style": "Med. Up Swing",
-        "category": "Partitions"
+        "title": "Samba de Orfeu",
+        "page": 259,
+        "style": "bright samba",
+        "composer": "Antonio Maria, Luiz Bonfa",
+        "key": "C"
       },
       {
-        "title": "SOME NERVE",
-        "page": 272,
-        "style": "Latin",
-        "category": "Partitions"
+        "title": "Santurce",
+        "page": 261,
+        "style": "latin",
+        "composer": "Eddie Gomez",
+        "key": "Bb"
       },
       {
-        "title": "SKYLARK",
-        "page": 267,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "SISTER SADIE",
-        "page": 266,
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SO IN LOVE",
-        "page": 270,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SECRET LOVE",
-        "page": 260,
-        "style": "Bright Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SOMETHING FROM EVERYONE",
-        "page": 273,
-        "style": "Intro",
-        "category": "Partitions"
-      },
-      {
-        "title": "A SLEEPIN' BEE",
-        "page": 268,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SERPENT'S TOOTH",
+        "title": "Sambacide",
         "page": 263,
-        "style": "Medium Up Tempo",
-        "category": "Partitions"
+        "style": "afro-latin",
+        "composer": "Bill Dobbins",
+        "key": "D"
       },
       {
-        "title": "SHAW NUFF",
+        "title": "Seabrook Revisited",
         "page": 264,
-        "style": "Bright Swing",
-        "category": "Partitions"
+        "style": "samba",
+        "composer": "Jack Zucker",
+        "key": "A"
       },
       {
-        "title": "SEEMS TO ME",
-        "page": 262,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "title": "Secret Love",
+        "page": 265,
+        "style": "bright swing",
+        "composer": "Mitchell Parish, Bobby Sherwood",
+        "key": "Eb"
       },
       {
-        "title": "SOON",
+        "title": "Seems to Me",
+        "page": 267,
+        "style": "medium swing",
+        "composer": "Pat Scott, Pat Pace",
+        "key": "Bb"
+      },
+      {
+        "title": "Serpent's Tooth",
+        "page": 268,
+        "style": "medium up tempo",
+        "composer": "Miles Davis",
+        "key": "Bb"
+      },
+      {
+        "title": "Shaw Nuff",
+        "page": 269,
+        "style": "bright swing",
+        "composer": "Dizzy Gillespie",
+        "key": "F"
+      },
+      {
+        "title": "Sister Sadie",
+        "page": 271,
+        "style": "bright swing",
+        "composer": "Horace Silver",
+        "key": "G"
+      },
+      {
+        "title": "Skylark",
+        "page": 272,
+        "style": "ballad",
+        "composer": "Hoagy Carmichael, Johnny Mercer",
+        "key": "F"
+      },
+      {
+        "title": "A Sleepin' Bee",
+        "page": 273,
+        "style": "medium swing",
+        "composer": "Truman Capote, Harold Arlen",
+        "key": "Ab"
+      },
+      {
+        "title": "So in Love",
+        "page": 275,
+        "style": "medium swing",
+        "composer": "Cole Porter",
+        "key": "Fm"
+      },
+      {
+        "title": "Some Nerve",
         "page": 277,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "style": "tin",
+        "composer": "John Scofield",
+        "key": "F"
       },
       {
-        "title": "SPRING CAN REALLY HANG YOU UP THE MOST",
-        "page": 280,
-        "style": "Ballad",
-        "category": "Partitions"
+        "title": "Something from Everyone",
+        "page": 278,
+        "style": "undefined",
+        "composer": "Paul Ferguson",
+        "key": "G"
       },
       {
-        "title": "SQUIRREL",
-        "page": 282,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "title": "Song for Sisyphus",
+        "page": 279,
+        "style": "med. up swing",
+        "composer": "Phil Woods",
+        "key": "A"
       },
       {
         "title": "SONNYMOON FOR TWO",
-        "page": 276,
-        "style": "Medium Bop",
-        "category": "Partitions"
+        "page": 281,
+        "style": "jazz",
+        "composer": "SONNY ROLLINS",
+        "key": "Bb"
       },
       {
-        "title": "STABLEMATES",
-        "page": 283,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "STAR EYES",
-        "page": 284,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SWING SHIFT",
-        "page": 294,
-        "style": "Med. Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SWEET LORRAINE",
-        "page": 291,
-        "style": "Ballad or Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "SWING DENTZ SWING",
-        "page": 292,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "title": "SOON",
+        "page": 282,
+        "style": "jazz",
+        "composer": "IRA GERSHWIN / GEORGE GERSHWIN",
+        "key": "Eb"
       },
       {
         "title": "SPIRIT SAMBA",
-        "page": 278,
-        "style": "Samba",
-        "category": "Partitions"
+        "page": 283,
+        "style": "samba",
+        "composer": "RON ESCHETE",
+        "key": "C"
       },
       {
-        "title": "SUNNY",
-        "page": 289,
-        "style": "Light Rock",
-        "category": "Partitions"
+        "title": "SPRING CAN REALLY HANG YOU UP THE MOST",
+        "page": 285,
+        "style": "ballad",
+        "composer": "FRAN LANDESMAN / TOMMY WOLF",
+        "key": "C"
       },
       {
-        "title": "STEEPLE CHASE",
-        "page": 286,
-        "style": "Med Up Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "STORMY WEATHER",
+        "title": "SQUIRREL",
         "page": 287,
-        "style": "Ballad",
-        "category": "Partitions"
+        "style": "jazz",
+        "composer": "TADD DAMERON",
+        "key": "F"
+      },
+      {
+        "title": "STABLEMATES",
+        "page": 288,
+        "style": "jazz",
+        "composer": "BENNY GOLSON",
+        "key": "C"
+      },
+      {
+        "title": "STAR EYES",
+        "page": 289,
+        "style": "jazz",
+        "composer": "DON RAYE / GENE DePAUL",
+        "key": "Eb"
       },
       {
         "title": "STARS FELL ON ALABAMA",
-        "page": 285,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 290,
+        "style": "ballad",
+        "composer": "MITCHELL PARISH / FRANK PERKINS",
+        "key": "C"
+      },
+      {
+        "title": "STEEPLE CHASE",
+        "page": 291,
+        "style": "jazz",
+        "composer": "CHARLIE PARKER",
+        "key": "Bb"
+      },
+      {
+        "title": "STORMY WEATHER",
+        "page": 292,
+        "style": "ballad",
+        "composer": "TED KOEHLER / HAROLD ARLEN",
+        "key": "Eb"
       },
       {
         "title": "STREET OF DREAMS",
-        "page": 288,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 293,
+        "style": "ballad",
+        "composer": "SAM LEWIS / VICTOR YOUNG",
+        "key": "F"
+      },
+      {
+        "title": "SUNNY",
+        "page": 294,
+        "style": "light rock",
+        "composer": "BOBBY HEBB",
+        "key": "A"
       },
       {
         "title": "SUNNY SIDE OF THE STREET",
-        "page": 290,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 295,
+        "style": "jazz",
+        "composer": "DOROTHY FIELDS / JIMMY McHUGH",
+        "key": "C"
+      },
+      {
+        "title": "SWEET LORRAINE",
+        "page": 296,
+        "style": "ballad or medium swing",
+        "composer": "MITCHELL PARISH / CLIFF BURWELL",
+        "key": "C"
+      },
+      {
+        "title": "SWING DENTZ SWING",
+        "page": 297,
+        "style": "medium swing",
+        "composer": "CHICK COREA",
+        "key": "D"
+      },
+      {
+        "title": "SWING SHIFT",
+        "page": 299,
+        "style": "jazz",
+        "composer": "CHUCK ISRAELS",
+        "key": "Bb"
       },
       {
         "title": "SY CLONE",
-        "page": 295,
-        "style": "Fast Swing",
-        "category": "Partitions"
+        "page": 300,
+        "style": "fast swing",
+        "composer": "JACK ZUCKER",
+        "key": "F"
       },
       {
-        "title": "T.J.R.C. (THAD JONES RHYTHM CHANGES)",
-        "page": 296,
-        "style": "Medium Up Swing",
-        "category": "Partitions"
+        "title": "T.J.R.C.",
+        "page": 301,
+        "style": "jazz",
+        "composer": "BILL DOBBINS",
+        "key": "Ab"
       },
       {
         "title": "TEACH ME TONIGHT",
-        "page": 297,
-        "style": "Swing Ballad",
-        "category": "Partitions"
+        "page": 302,
+        "style": "swing ballad",
+        "composer": "SAMMY CAHN / GENE DePAUL",
+        "key": "F"
       },
       {
         "title": "TEA FOR TWO",
-        "page": 298,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 303,
+        "style": "medium swing",
+        "composer": "IRVING CAESAR / VINCENT YOUMANS",
+        "key": "Bb"
       },
       {
         "title": "THAT OLD FEELING",
-        "page": 300,
-        "style": "Ballad or Easy Swing",
-        "category": "Partitions"
+        "page": 305,
+        "style": "ballad or easy swing",
+        "composer": "LEW BROWN / SAMMY FAIN",
+        "key": "Eb"
       },
       {
         "title": "THAT'S ALL",
-        "page": 301,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 306,
+        "style": "ballad",
+        "composer": "ALAN BRANDT / BOB HAYMES",
+        "key": "Bb"
       },
       {
         "title": "THEME FOR MAXINE",
-        "page": 302,
-        "style": "Medium 3",
-        "category": "Partitions"
+        "page": 307,
+        "style": "medium",
+        "composer": "WOODY SHAW",
+        "key": "E"
       },
       {
         "title": "THEN I'LL BE TIRED OF YOU",
-        "page": 303,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 308,
+        "style": "ballad",
+        "composer": "E. Y. HAEBURG / ARTHUR SCHWARTZ",
+        "key": "C"
       },
       {
         "title": "THERE GOES MY HEART",
-        "page": 304,
-        "style": "Ballad or Swing",
-        "category": "Partitions"
+        "page": 309,
+        "style": "ballad or swing",
+        "composer": "BENNY DAVIS / ABNER SILVER",
+        "key": "Bb"
       },
       {
         "title": "THEY SAY IT'S WONDERFUL",
-        "page": 306,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 311,
+        "style": "medium swing",
+        "composer": "IRVING BERLIN",
+        "key": "G"
       },
       {
         "title": "THIER'S TEARS",
-        "page": 307,
-        "style": "Bossa",
-        "category": "Partitions"
+        "page": 312,
+        "style": "bossa",
+        "composer": "CLARE FISCHER",
+        "key": "F"
       },
       {
         "title": "THINGS AIN'T WHAT THEY USED TO BE",
-        "page": 308,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 313,
+        "style": "medium swing",
+        "composer": "DUKE ELLINGTON",
+        "key": "F"
       },
       {
         "title": "THIS CAN'T BE LOVE",
-        "page": 309,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 314,
+        "style": "medium swing",
+        "composer": "LORENZ HART / RICHARD RODGERS",
+        "key": "F"
       },
       {
         "title": "THREE AND ONE",
-        "page": 310,
-        "style": "Med. Swing",
-        "category": "Partitions"
+        "page": 315,
+        "style": "medium swing",
+        "composer": "THAD JONES",
+        "key": "Eb"
       },
       {
         "title": "THE THRILL IS GONE",
-        "page": 311,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 316,
+        "style": "ballad",
+        "composer": "B. DeSILVA / LEW BROWN / RAY HENDERSON",
+        "key": "C"
       },
       {
         "title": "THYME'S TIME",
-        "page": 312,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 317,
+        "style": "medium swing",
+        "composer": "DEAN NEWTON",
+        "key": "Bb"
       },
       {
         "title": "TIDAL BREEZE",
-        "page": 314,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 319,
+        "style": "medium swing",
+        "composer": "HAROLD DANKO",
+        "key": "Bb"
       },
       {
         "title": "A TIME FOR LOVE",
-        "page": 315,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 320,
+        "style": "ballad",
+        "composer": "PAUL FRANCIS WEBSTER / JOHNNY MANDEL",
+        "key": "Bb"
       },
       {
         "title": "TIMES LIE",
-        "page": 316,
-        "style": "Easy 3",
-        "category": "Partitions"
-      },
-      {
-        "title": "TINY CAPERS",
-        "page": 319,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "TIS'",
-        "page": 320,
-        "style": "Swing Blues",
-        "category": "Partitions"
-      },
-      {
-        "title": "TO KILL A BRICK",
         "page": 321,
-        "style": "Fast Blues",
-        "category": "Partitions"
-      },
-      {
-        "title": "TOO CLOSE FOR COMFORT",
-        "page": 322,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "TOO MARVELOUS FOR WORDS",
-        "page": 323,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "THE TOUCH OF YOUR LIPS",
-        "page": 324,
-        "style": "Easy Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "TRICROTISM",
-        "page": 325,
-        "style": "Med. Swing Bass Solo",
-        "category": "Partitions"
-      },
-      {
-        "title": "TUNE 88",
-        "page": 326,
-        "style": "Medium Rock",
-        "category": "Partitions"
-      },
-      {
-        "title": "UN POCO LOCO",
-        "page": 327,
-        "style": "Bright Latin",
-        "category": "Partitions"
-      },
-      {
-        "title": "UNFORGETTABLE",
-        "page": 328,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "THE VERY THOUGHT OF YOU",
-        "page": 329,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "VIOLETS FOR YOUR FURS",
-        "page": 330,
-        "style": "Ballad",
-        "category": "Partitions"
-      },
-      {
-        "title": "WAIL",
-        "page": 331,
-        "style": "Med. Up Bop",
-        "category": "Partitions"
-      },
-      {
-        "title": "WALL-EYE BLUES",
-        "page": 332,
-        "style": "Medium Swing",
-        "category": "Partitions"
-      },
-      {
-        "title": "WATCH WHAT HAPPENS",
-        "page": 333,
-        "style": "Med. Bossa",
-        "category": "Partitions"
-      },
-      {
-        "title": "WATERMELON MAN",
-        "page": 334,
-        "style": "Medium Rock",
-        "category": "Partitions"
+        "style": "jazz",
+        "composer": "CHICK COREA",
+        "key": "Bb"
       },
       {
         "title": "TIME WAS (DREAMING)",
-        "page": 318,
-        "style": "Easy 3",
-        "category": "Partitions"
+        "page": 323,
+        "style": "jazz",
+        "composer": "SIDNEY KEITH / MIGUEL PRADO",
+        "key": "B"
+      },
+      {
+        "title": "TINY CAPERS",
+        "page": 324,
+        "style": "medium swing",
+        "composer": "CLIFFORD BROWN",
+        "key": "Bb"
+      },
+      {
+        "title": "TIS'",
+        "page": 325,
+        "style": "swing blues",
+        "composer": "THAD JONES",
+        "key": "Eb"
+      },
+      {
+        "title": "TO KILL A BRICK",
+        "page": 326,
+        "style": "fast blues",
+        "composer": "WOODY SHAW",
+        "key": "C"
+      },
+      {
+        "title": "TOO CLOSE FOR COMFORT",
+        "page": 327,
+        "style": "medium swing",
+        "composer": "JERRY BOCK / LARRY HOLOFCENER / GEORGE WEISS",
+        "key": "C"
+      },
+      {
+        "title": "TOO MARVELOUS FOR WORDS",
+        "page": 328,
+        "style": "medium swing",
+        "composer": "JOHNNY MERCER / RICHARD WHITING",
+        "key": "A"
+      },
+      {
+        "title": "THE TOUCH OF YOUR LIPS",
+        "page": 329,
+        "style": "easy swing",
+        "composer": "RAY NOBLE",
+        "key": "C"
+      },
+      {
+        "title": "TRICROTISM",
+        "page": 330,
+        "style": "medium swing bass solo",
+        "composer": "OSCAR PETTIFORD",
+        "key": "Eb"
+      },
+      {
+        "title": "TUNE 88",
+        "page": 331,
+        "style": "medium rock",
+        "composer": "JEFF LORBER",
+        "key": "G"
+      },
+      {
+        "title": "UN POCO LOCO",
+        "page": 332,
+        "style": "bright latin",
+        "composer": "BUD POWELL",
+        "key": "D"
+      },
+      {
+        "title": "UNFORGETTABLE",
+        "page": 333,
+        "style": "ballad",
+        "composer": "IRVING GORDON",
+        "key": "G"
+      },
+      {
+        "title": "THE VERY THOUGHT OF YOU",
+        "page": 334,
+        "style": "ballad",
+        "composer": "RAY NOBLE",
+        "key": "Eb"
+      },
+      {
+        "title": "VIOLETS FOR YOUR FURS",
+        "page": 335,
+        "style": "ballad",
+        "composer": "TOM ADAIR / MATT DENNIS",
+        "key": "G"
+      },
+      {
+        "title": "WAIL",
+        "page": 336,
+        "style": "medium up bop",
+        "composer": "BUD POWELL",
+        "key": "Eb"
+      },
+      {
+        "title": "WALL-EYE BLUES",
+        "page": 337,
+        "style": "medium swing",
+        "composer": "ARNOLD LOUPACCI",
+        "key": "Bb"
+      },
+      {
+        "title": "WATCH WHAT HAPPENS",
+        "page": 338,
+        "style": "medium bossa",
+        "composer": "MICHEL LEGRAND",
+        "key": "Eb"
+      },
+      {
+        "title": "WATERMELON MAN",
+        "page": 339,
+        "style": "medium rock",
+        "composer": "HERBIE HANCOCK",
+        "key": "F"
       },
       {
         "title": "WHAT A DIFFERENCE A DAY MADE",
-        "page": 335,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 340,
+        "style": "medium swing",
+        "composer": "STANLEY ADAMS / MARIA GREVER",
+        "key": "F"
       },
       {
         "title": "WES SIDE STROLL",
-        "page": 336,
-        "style": "Montuno",
-        "category": "Partitions"
+        "page": 341,
+        "style": "montuno",
+        "composer": "GARY APRILE",
+        "key": "D"
       },
       {
         "title": "WHAT KIND OF FOOL AM I",
-        "page": 338,
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "page": 343,
+        "style": "easy swing",
+        "composer": "LESLIE BRICUSSE / ANTHONY NEWLEY",
+        "key": "Eb"
       },
       {
         "title": "WHEN THE SUN COMES OUT",
-        "page": 339,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 344,
+        "style": "ballad",
+        "composer": "TED KOEHLER / HAROLD ARLEN",
+        "key": "C"
       },
       {
         "title": "WHEN YOUR LOVER HAS GONE",
-        "page": 340,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 345,
+        "style": "ballad",
+        "composer": "E. A. SWAN",
+        "key": "Ab"
       },
       {
         "title": "WHERE OR WHEN",
-        "page": 341,
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "page": 346,
+        "style": "easy swing",
+        "composer": "LORENZ HART / RICHARD RODGERS",
+        "key": "Eb"
       },
       {
         "title": "WHILE WE'RE YOUNG",
-        "page": 342,
-        "style": "Medium 3",
-        "category": "Partitions"
+        "page": 347,
+        "style": "medium",
+        "composer": "ALEC WILDER",
+        "key": "Eb"
       },
       {
         "title": "WHO CAN I TURN TO",
-        "page": 343,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 348,
+        "style": "medium swing",
+        "composer": "LESLIE BRICUSSE / ANTHONY NEWLEY",
+        "key": "Eb"
       },
       {
         "title": "WHY DID I CHOOSE YOU",
-        "page": 344,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 349,
+        "style": "ballad",
+        "composer": "HERBERT MARTIN / MICHAEL LEONARD",
+        "key": "Bb"
       },
       {
         "title": "WILL YOU STILL BE MINE",
-        "page": 345,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 350,
+        "style": "medium swing",
+        "composer": "TOM ADAIR / MATT DENNIS",
+        "key": "Bb"
       },
       {
         "title": "WITCHCRAFT",
-        "page": 346,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 351,
+        "style": "medium swing",
+        "composer": "CAROLYN LEIGH / CY COLEMAN",
+        "key": "F"
       },
       {
         "title": "WITH EVERY BREATH I TAKE",
-        "page": 347,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 352,
+        "style": "ballad",
+        "composer": "CY COLEMAN",
+        "key": "G"
       },
       {
         "title": "WRAP YOUR TROUBLES IN DREAMS",
-        "page": 348,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 353,
+        "style": "medium swing",
+        "composer": "TED KOEHLER / HARRY BARRIS / BILLY MOLL",
+        "key": "C"
       },
       {
         "title": "YOU AND THE NIGHT AND THE MUSIC",
-        "page": 349,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 354,
+        "style": "medium swing",
+        "composer": "HOWARD DIETZ / ARTHUR SCHWARTZ",
+        "key": "C"
       },
       {
         "title": "YOU DO SOMETHING TO ME",
-        "page": 350,
-        "style": "Medium-Up Swing",
-        "category": "Partitions"
+        "page": 355,
+        "style": "medium-up swing",
+        "composer": "COLE PORTER",
+        "key": "Eb"
       },
       {
         "title": "YOU MAKE ME FEEL SO YOUNG",
-        "page": 351,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 356,
+        "style": "medium swing",
+        "composer": "MACK GORDON / JOSEF MYRON",
+        "key": "Bb"
       },
       {
         "title": "YOU GO TO MY HEAD",
-        "page": 352,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 357,
+        "style": "medium swing",
+        "composer": "HAVEN GILLESPIE / J. FRED COOTS",
+        "key": "Eb"
       },
       {
         "title": "YOU MUST BELIEVE IN SPRING",
-        "page": 354,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 359,
+        "style": "ballad",
+        "composer": "MICHEL LEGRAND",
+        "key": "E"
       },
       {
         "title": "YOU'VE CHANGED",
-        "page": 355,
-        "style": "Ballad",
-        "category": "Partitions"
+        "page": 360,
+        "style": "ballad",
+        "composer": "CARL FISCHER / BILL CAREY",
+        "key": "Eb"
       },
       {
         "title": "YOU'RE EVERYTHING",
-        "page": 356,
-        "style": "Medium 2 Swing",
-        "category": "Partitions"
+        "page": 361,
+        "style": "medium 2 swing",
+        "composer": "CHICK COREA",
+        "key": "A"
       },
       {
         "title": "YOUNGER THAN SPRINGTIME",
-        "page": 358,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 363,
+        "style": "medium swing",
+        "composer": "OSCAR HAMMERSTEIN II / RICHARD RODGERS",
+        "key": "C"
       },
       {
         "title": "YOURS IS MY HEART ALONE",
-        "page": 359,
-        "style": "Easy Swing",
-        "category": "Partitions"
+        "page": 364,
+        "style": "easy swing",
+        "composer": "HARRY SMITH / FRANZ LEHAR",
+        "key": "B"
       },
       {
         "title": "LET'S FALL IN LOVE",
-        "page": 360,
-        "style": "Medium Swing",
-        "category": "Partitions"
+        "page": 365,
+        "style": "medium swing",
+        "composer": "TED KOEHLER / HAROLD ARLEN",
+        "key": "C"
       }
     ],
     "exercises": [
       {
-        "title": "Blowing Changes",
-        "page": 127,
-        "difficulty": "intermediate",
-        "category": "Partitions"
+        "title": "Exercise #3 (Reptile: Missouri Uncompromised)",
+        "page": 152,
+        "difficulty": "avancé",
+        "technique": "jazz composition"
+      },
+      {
+        "title": "Exercise #6",
+        "page": 153,
+        "difficulty": "avancé",
+        "technique": "jazz composition"
+      },
+      {
+        "title": "Mysterious Traveler",
+        "page": 322,
+        "difficulty": "avancé",
+        "technique": "fusion patterns"
+      },
+      {
+        "title": "Contemplation",
+        "page": 497,
+        "difficulty": "intermédiaire",
+        "technique": "walking bass"
+      },
+      {
+        "title": "The Distance",
+        "page": 498,
+        "difficulty": "avancé",
+        "technique": "polyrhythms"
+      },
+      {
+        "title": "The Sphinx",
+        "page": 498,
+        "difficulty": "avancé",
+        "technique": "complex rhythms"
+      },
+      {
+        "title": "Velo",
+        "page": 499,
+        "difficulty": "avancé",
+        "technique": "modern jazz"
       },
       {
         "title": "Blowing Changes",
-        "page": 137,
-        "difficulty": "intermediate",
-        "category": "Partitions"
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "improvisation"
+      },
+      {
+        "title": "Latin and Swing sections",
+        "page": 44,
+        "difficulty": "intermédiaire",
+        "technique": "style changes"
       },
       {
         "title": "Blowing Changes",
-        "page": 183,
-        "difficulty": "intermediate",
-        "category": "Exercises",
-        "description": "Chord progression exercise for 'Love Walked In'"
+        "page": 57,
+        "difficulty": "avancé",
+        "technique": "improvisation"
       },
       {
-        "title": "Optional Changes",
-        "page": 187,
-        "difficulty": "advanced",
-        "category": "Exercises",
-        "description": "Slow Even 8th Ballad alternative chord progressions for 'Makin' Whoopee'"
+        "title": "Half Time",
+        "page": 62,
+        "difficulty": "intermédiaire",
+        "technique": "tempo changes"
       },
       {
-        "title": "SAMBA DE ORFEU (P.2) - OPTIONAL SOLO CHANGES",
-        "page": 255,
-        "category": "Exercices"
+        "title": "Solo break",
+        "page": 70,
+        "difficulty": "avancé",
+        "technique": "improvisation"
       },
       {
-        "title": "SECRET LOVE (P.2) - OPTIONAL SOLO CHANGES",
-        "page": 261,
-        "category": "Exercices"
+        "title": "Blowing Changes",
+        "page": 188,
+        "difficulty": "intermédiaire",
+        "technique": "chord changes practice"
       },
       {
-        "title": "SANTURCE (P.2)",
-        "page": 257,
-        "category": "Exercices"
+        "title": "Optional Changes - Slow Even 8th Ballad",
+        "page": 192,
+        "difficulty": "avancé",
+        "technique": "chord substitutions"
       },
       {
-        "title": "SO IN LOVE (P.2)",
-        "page": 271,
-        "category": "Exercices"
+        "title": "Blowing Changes",
+        "page": 274,
+        "difficulty": "intermédiaire",
+        "technique": "chord changes"
       },
       {
-        "title": "A SLEEPIN' BEE (P.2) - BLOWING CHANGES",
-        "page": 269,
-        "category": "Exercices"
+        "title": "Optional Solo Changes",
+        "page": 266,
+        "difficulty": "avancé",
+        "technique": "solo improvisation"
       },
       {
-        "title": "SHAW NUFF (P.2)",
-        "page": 265,
-        "category": "Exercices"
-      },
-      {
-        "title": "SONG FOR SISYPHUS (P.2) - BLOWING CHANGES",
-        "page": 275,
-        "category": "Exercices"
-      },
-      {
-        "title": "SWING DENTZ SWING (P.2)",
-        "page": 293,
-        "category": "Exercices"
-      },
-      {
-        "title": "SPRING CAN REALLY HANG YOU UP THE MOST (P.2)",
-        "page": 281,
-        "category": "Exercices"
-      },
-      {
-        "title": "SPIRIT SAMBA (P.2)",
-        "page": 279,
-        "category": "Exercices"
+        "title": "Blowing Changes",
+        "page": 280,
+        "difficulty": "intermédiaire",
+        "technique": "chord changes"
       }
     ],
     "concepts": [
       {
-        "title": "Celia (Page 2) - Blowing Changes",
-        "page": 47,
-        "description": "Chord progression exercise continuation",
-        "category": "Partitions"
+        "concept": "Real Book Introduction",
+        "page": 3,
+        "description": "Présentation du Real Book, explication du format professionnel, sélection des morceaux et références sources pour les standards de jazz"
       },
       {
-        "title": "Cheek To Cheek (Page 2) - Blowing Changes",
-        "page": 51,
-        "description": "Chord progression variations",
-        "category": "Partitions"
+        "concept": "Song Index",
+        "page": 4,
+        "description": "Index alphabétique complet des morceaux du Real Book avec numéros de pages de référence"
       },
       {
-        "title": "Cheek To Cheek (Page 3) - Blowing Changes",
-        "page": 52,
-        "description": "Advanced chord substitutions",
-        "category": "Partitions"
+        "concept": "Inside In Pg 3) Solid Changes",
+        "page": 238,
+        "description": "Progression d'accords avec notation rythmique et harmonique pour accompagnement jazz"
       },
       {
-        "title": "Cool Eyes (Page 2)",
-        "page": 57,
-        "description": "Continuation with Half Time section",
-        "category": "Partitions"
+        "concept": "Spanish Phryg Scale",
+        "page": 265,
+        "description": "Échelle phrygienne espagnole avec solos utilisant cette gamme modale sur des accords de A et D/C# pour créer des sonorités typiquement flamenco"
       },
       {
-        "title": "Dacapolypso (Page 2)",
-        "page": 61,
-        "description": "Solo sections on B, C, and D sections",
-        "category": "Partitions"
+        "concept": "Solo on Rhythm Changes",
+        "page": 46,
+        "description": "Technique de solo sur changements rythmiques pour Busch-Wacked"
       },
       {
-        "title": "Day In, Day Out (Page 2)",
-        "page": 63,
-        "description": "Continuation of chord progression",
-        "category": "Partitions"
+        "concept": "Solo Changes",
+        "page": 54,
+        "description": "Grilles d'accords pour l'improvisation sur Chariots"
       },
       {
-        "title": "Dig (Page 2)",
-        "page": 65,
-        "description": "Sweet Georgia Brown changes variation",
-        "category": "Partitions"
+        "concept": "Solo on Blues",
+        "page": 58,
+        "description": "Section d'improvisation sur structure blues pour Cheryl"
       },
       {
-        "title": "Don't Look Back (Page 2)",
-        "page": 69,
-        "description": "Alternate endings and modulations",
-        "category": "Partitions"
+        "concept": "Sweet Georgia Brown changes",
+        "page": 70,
+        "description": "Progression d'accords basée sur Sweet Georgia Brown pour Dig"
       },
       {
-        "title": "Piano Pattern",
-        "page": 165,
-        "description": "Rhythmic pattern demonstration for 'Ladies in Mercedes'",
-        "category": "Concepts"
+        "concept": "Solo on B, C and D sections",
+        "page": 66,
+        "description": "Improvisation sur les sections B, C et D de Dacapolypso"
       },
       {
-        "title": "Bass Pattern",
-        "page": 165,
-        "description": "Bass line pattern demonstration for 'Ladies in Mercedes'",
-        "category": "Concepts"
+        "concept": "ALTERNATE CHANGES",
+        "page": 86,
+        "description": "Alternative chord progressions for 'Ev'ry Time We Say Goodbye' showing different harmonic possibilities"
       },
       {
-        "title": "Little Girl Blue (P. 2)",
-        "page": 175,
-        "description": "Continuation of the song from previous page",
-        "category": "Concepts"
+        "concept": "LATIN INTERLUDE",
+        "page": 96,
+        "description": "Simple Bb/C chord pattern for Latin feel interlude section"
       },
       {
-        "title": "The Long View (P. 2)",
-        "page": 177,
-        "description": "Continuation of the song from previous page",
-        "category": "Concepts"
+        "concept": "NO CHORD sections",
+        "page": 90,
+        "description": "Sections marked 'NO CHORD' indicating bass solo or unaccompanied passages"
       },
       {
-        "title": "Makin' Whoopee (P. 2)",
-        "page": 187,
-        "description": "Continuation of the song from previous page",
-        "category": "Concepts"
+        "concept": "D.S. al Coda",
+        "page": 90,
+        "description": "Musical navigation instruction for returning to sign and proceeding to coda"
       },
       {
-        "title": "Love Walked In (P. 2)",
-        "page": 183,
-        "description": "Continuation of the song from previous page",
-        "category": "Concepts"
+        "concept": "ON CUE",
+        "page": 98,
+        "description": "Performance direction indicating when to enter or play specific sections"
       },
       {
-        "title": "Form Structure",
-        "page": 193,
-        "description": "Shows form structure for Milestones: Gm7 (16 BARS), Am7 (16 BARS), Gm7 (8 BARS)",
-        "category": "Concepts"
+        "concept": "CHORDS IN PARENTHESIS FOR SOLOS ONLY",
+        "page": 101,
+        "description": "Notation indicating chord symbols that are only to be used during solo sections, not during the melody"
       },
       {
-        "title": "TEA FOR TWO (P. 2) - OPTIONAL CHORDS",
-        "page": 299,
-        "category": "Partitions"
+        "concept": "SIMILAR",
+        "page": 103,
+        "description": "Musical notation indicating sections with similar harmonic or rhythmic patterns"
       },
       {
-        "title": "THERE GOES MY HEART (P. 2) - BLOWING CHANGES",
-        "page": 305,
-        "category": "Partitions"
+        "concept": "Solo on A and B, Play C as Interlude and tag",
+        "page": 104,
+        "description": "Performance instruction for form navigation - improvise on A and B sections, play C section as written for interludes and endings"
       },
       {
-        "title": "THYME'S TIME (P. 2) - SOLO CHANGES",
-        "page": 313,
-        "category": "Partitions"
+        "concept": "NO CHORD sections",
+        "page": 109,
+        "description": "Sections marked 'NO CHORD' indicating unaccompanied bass passages or solo sections"
       },
       {
-        "title": "TIMES LIE (P. 2)",
-        "page": 317,
-        "category": "Partitions"
+        "concept": "VAMP",
+        "page": 112,
+        "description": "Repeated musical section, typically used for improvisation or as an outro"
       },
       {
-        "title": "WES SIDE STROLL (P. 2) - SOLO CHANGES",
-        "page": 337,
-        "category": "Partitions"
+        "concept": "CHICK'S CODA",
+        "page": 116,
+        "description": "Specific coda section written by Chick Corea, showing chord progression for ending"
       },
       {
-        "title": "YOU GO TO MY HEAD (P. 2)",
-        "page": 353,
-        "category": "Partitions"
+        "concept": "SOLO OVER Bb BLUES",
+        "page": 117,
+        "description": "Instruction to improvise over a 12-bar blues progression in the key of Bb"
       },
       {
-        "title": "YOU'RE EVERYTHING (P. 2)",
-        "page": 357,
-        "category": "Partitions"
+        "concept": "BLOWING CHANGES",
+        "page": 132,
+        "description": "Chord progression practice patterns for improvisation, showing various common jazz progressions using slash notation for rhythm practice"
+      },
+      {
+        "concept": "BLOWING CHANGES",
+        "page": 142,
+        "description": "Chord progression practice patterns for improvisation on 'I've Got the World on a String', showing various common jazz progressions using slash notation for rhythm practice"
+      },
+      {
+        "concept": "Fine",
+        "page": 149,
+        "description": "Musical notation indicating the final ending of a piece, used in 'In Her Family' to mark the conclusion"
+      },
+      {
+        "concept": "D.C. al Fine",
+        "page": 149,
+        "description": "Performance instruction meaning 'Da Capo al Fine' - return to the beginning and play until the Fine marking"
+      },
+      {
+        "concept": "ENDING",
+        "page": 149,
+        "description": "Special ending section for 'In Her Family' marked separately from the main form"
+      },
+      {
+        "concept": "Piano Pattern",
+        "page": 170,
+        "description": "Example showing the rhythmic pattern typically played by piano in salsa music, complementing the bass pattern for 'Ladies in Mercedes'"
+      },
+      {
+        "concept": "Bass Pattern",
+        "page": 170,
+        "description": "Basic bass pattern for salsa rhythm showing the foundational bass line structure used in Latin jazz arrangements"
+      },
+      {
+        "concept": "LAST",
+        "page": 173,
+        "description": "Performance instruction indicating the final time through a section or the last chorus in 'Leap of Faith'"
+      },
+      {
+        "concept": "Solo Fill",
+        "page": 269,
+        "description": "Remplissage pour solos"
+      },
+      {
+        "concept": "Solo Break",
+        "page": 270,
+        "description": "Rupture pour solo avec symbole de répétition"
+      },
+      {
+        "concept": "Interlude",
+        "page": 270,
+        "description": "Section instrumentale à jouer 3 fois entre chaque solo"
+      },
+      {
+        "concept": "OPTIONAL CHORDS",
+        "page": 304,
+        "description": "Accords optionnels pour Tea For Two avec différentes progressions harmoniques alternatives"
+      },
+      {
+        "concept": "BLOWING CHANGES",
+        "page": 310,
+        "description": "Grilles d'accords pour l'improvisation sur There Goes My Heart"
+      },
+      {
+        "concept": "SOLO CHANGES",
+        "page": 318,
+        "description": "Grilles d'accords pour l'improvisation sur Thyme's Time"
+      },
+      {
+        "concept": "TO SOLOS",
+        "page": 322,
+        "description": "Section de transition vers les solos pour Times Lie"
+      },
+      {
+        "concept": "TO ENDING",
+        "page": 322,
+        "description": "Section de transition vers la fin pour Times Lie"
+      },
+      {
+        "concept": "ALTERNATE CHANGES",
+        "page": 339,
+        "description": "Grilles d'accords alternatives pour Watermelon Man"
+      },
+      {
+        "concept": "SOLO CHANGES",
+        "page": 342,
+        "description": "Grilles d'accords pour l'improvisation sur Wes Side Stroll avec différentes progressions harmoniques"
+      },
+      {
+        "concept": "D.S. al Coda",
+        "page": 362,
+        "description": "Indication de reprise depuis le signe vers la coda pour You're Everything"
       }
     ]
   }
