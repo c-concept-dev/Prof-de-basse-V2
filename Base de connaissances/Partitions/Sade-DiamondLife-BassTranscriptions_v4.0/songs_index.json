@@ -1,102 +1,76 @@
 {
   "metadata": {
-    "bookTitle": "sade diamond life",
-    "category": "Partitions",
-    "style": "Soul",
-    "totalPages": 50,
-    "processedDate": "2025-11-12T20:59:48.532Z"
+    "bookTitle": "Sade diamond Life",
+    "category": "songbook",
+    "style": "various",
+    "totalImages": 41,
+    "totalBatches": 3,
+    "processedDate": "2025-11-16T13:44:12.904Z"
   },
   "content": {
     "songs": [
       {
         "title": "Cherry Pie",
         "page": 3,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Bb"
       },
       {
         "title": "Frankie's First Affair",
         "page": 8,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Em"
       },
       {
         "title": "Hang On To Your Love",
         "page": 12,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Am7/D"
       },
       {
         "title": "I Will Be Your Friend",
         "page": 14,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "F#m"
       },
       {
         "title": "Sally",
         "page": 20,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Am"
       },
       {
         "title": "Smooth Operator",
         "page": 24,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Dm"
       },
       {
         "title": "When Am I Going To Make A Living",
         "page": 30,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Em"
       },
       {
         "title": "Why Can't We Live Together",
         "page": 32,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Cm"
       },
       {
         "title": "Your Love Is King",
         "page": 38,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Sally",
-        "page": 20,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Smooth Operator",
-        "page": 24,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "When Am I Going To Make A Living",
-        "page": 30,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Why Can't We Live Together",
-        "page": 32,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Your Love Is King",
-        "page": 38,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Your Love Is King",
-        "page": 40,
-        "style": "Soul",
-        "category": "Partitions"
+        "style": "various",
+        "composer": "Sade",
+        "key": "Amaj7"
       }
     ],
     "exercises": [],
