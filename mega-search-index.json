@@ -1,27 +1,45 @@
 {
   "version": "3.0.0-MEGA-V3-OCR",
-  "generated_at": "2025-11-16T18:51:18.305114",
+  "generated_at": "2025-11-16T22:26:37.403911",
   "total_resources": 425,
   "sources": [
-    "Base de connaissances/Theorie/Theorie_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/The_Real_Rock_Book_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Volume-2-contrebasse_v4.0/songs_index.json",
-    "Base de connaissances/Theorie/Harmonie_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Stevie-Wonder-Songs-in-the-Key-of-Life_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_v4.0/songs_index.json",
-    "Base de connaissances/Theorie/Pratique_v4.0/songs_index.json",
-    "Base de connaissances/Partitions/Aebersold - The Jazz Fake Book_v4.0/songs_index.json",
     "Base de connaissances/Theorie/Arpeges_v4.0/songs_index.json",
     "Base de connaissances/Partitions/Sade-DiamondLife-BassTranscriptions_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/realbook Volume-3-C_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Aebersold - The Jazz Fake Book_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Theorie_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Pratique_v4.0/songs_index.json",
     "Base de connaissances/Methodes/aebersold-FRENCH_v4.0/songs_index.json",
     "resources/complete-resource-map.json",
-    "Base de connaissances/Partitions/realbook Volume-3-C_v4.0/songs_index.json",
+    "Base de connaissances/Theorie/Harmonie_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/Stevie-Wonder-Songs-in-the-Key-of-Life_v4.0/songs_index.json",
     "Base de connaissances/Partitions/Realbook Bass F_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/Paul westwood 2-5_v4.0/songs_index.json",
+    "Base de connaissances/Partitions/The_Real_Rock_Book_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/Jon Liebman - Funk Fusion Bass_v4.0/songs_index.json",
     "Base de connaissances/Methodes/Paul westwood 1-2_v4.0/songs_index.json",
-    "Base de connaissances/Methodes/70s Funk & Disco Bass_v4.0/songs_index.json"
+    "Base de connaissances/Partitions/Volume-2-contrebasse_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/70s Funk & Disco Bass_v4.0/songs_index.json",
+    "Base de connaissances/Methodes/Paul westwood 2-5_v4.0/songs_index.json"
   ],
   "resources": [
+    {
+      "id": "metadata",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Theorie/Arpeges_v4.0/assets/metadata",
+      "source": "songs_index.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
+    {
+      "id": "content",
+      "title": "Sans titre",
+      "type": "other",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Theorie/Arpeges_v4.0/assets/content",
+      "source": "songs_index.json",
+      "metadata": {},
+      "search_text": "sans titre"
+    },
     {
       "id": "page_001.png",
       "title": "Page 1",
@@ -4621,24 +4639,6 @@
       "search_text": "page 418"
     },
     {
-      "id": "metadata",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Partitions/The_Real_Rock_Book_v4.0/assets/metadata",
-      "source": "songs_index.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
-      "id": "content",
-      "title": "Sans titre",
-      "type": "other",
-      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/Partitions/The_Real_Rock_Book_v4.0/assets/content",
-      "source": "songs_index.json",
-      "metadata": {},
-      "search_text": "sans titre"
-    },
-    {
       "id": "mp3_index",
       "title": "Sans titre",
       "type": "other",
@@ -4686,8 +4686,8 @@
   ],
   "statistics": {
     "by_type": {
-      "image": 418,
-      "other": 7
+      "other": 7,
+      "image": 418
     },
     "sources_merged": 17,
     "with_ocr": 0
