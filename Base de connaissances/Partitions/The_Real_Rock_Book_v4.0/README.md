@@ -1,91 +1,85 @@
-# The_Real_Rock_Book - Conversion V4.0
+# The_Real_Rock_Book
 
-## 🎯 Méthode OCR par Zones
+## 📋 Informations générales
 
-Cette conversion utilise la **technologie V4.0** avec analyse intelligente par zones pour maximiser la précision.
+- **Catégorie** : realbook
+- **Style musical** : rock
+- **Nombre de pages** : 231
+- **Date de traitement** : 16/11/2025
 
-## 📊 Statistiques
+## 📊 Statistiques du contenu
 
-- **Pages converties :** 231
-- **MP3 détectés :** 0
-- **Tonalités extraites :** 0
-- **Techniques détectées :** 0
-- **Format images :** JPG
-- **Erreurs OCR :** 231
+- **Morceaux identifiés** : 157
+- **Exercices techniques** : 92
+- **Concepts théoriques** : 8
+- **Total d'éléments** : 257
 
-## 🎯 Analyse par Zones V4.0
+## 🎵 Morceaux principaux
 
-### Zone Titre (0-20%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 231
-- **Réussites :** 0 (0%)
-- **Extraction :** Titre, compositeur, tonalité
+- **Abracadabra** (page 6) - rock
+- **All Day And All Of the Night** (page 8) - rock
+- **All Right Now** (page 9) - rock
+- **Another Brick In the Wall** (page 10) - rock
+- **The Apartment Song** (page 11) - rock
+- **Another One Bites the Dust** (page 12) - rock
+- **Are You Gonna Go My Way?** (page 14) - rock
+- **Back In the High Life Again** (page 16) - rock
+- **Bad** (page 18) - rock
+- **Bad Moon Rising** (page 19) - rock
 
-### Zone Partition (20-90%)
-- **OCR :** 🎼 Désactivé (image conservée)
-- **Pages traitées :** 0
-- **Conservation :** 100% des partitions gardées en image PNG
+... et 147 autres morceaux
 
-### Zone Footer (90-100%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 0
-- **Réussites :** 0 (NaN%)
-- **Extraction :** Numéro de page, track number
+## 💪 Exercices
 
-## 📁 Structure (Format V4.0)
+- **Abracadabra - rhythm** (page 7) - intermédiaire
+- **All Day And All Of the Night - rhythm example** (page 8) - débutant
+- **The Apartment Song - rhythm example** (page 11) - débutant
+- **Another Brick In the Wall - rhythm example** (page 10) - débutant
+- **Back In the High Life - rhythm examples** (page 17) - intermédiaire
+- **Bad Moon Rising - guitar/bass/drums pattern** (page 19) - débutant
+- **Ballroom Blitz - rhythm example** (page 21) - intermédiaire
+- **Be-Bop-A-Lula - rhythm example** (page 23) - débutant
+- **Black Magic Woman - rhythm example** (page 24) - débutant
+- **Born In the U.S.A. - rhythm** (page 27) - intermédiaire
 
-```
-📦 Archive
-├── 📄 index.html          # Navigation visuelle locale
-├── 📄 songs_index.json    # Format V4.0 avec métadonnées zones
-├── 📄 README.md           # Ce fichier
-└── 📁 assets/
-    └── 📁 pages/          # Images des pages
-        ├── page_001.jpg
-        ├── page_002.jpg
-        └── ...
-```
+... et 82 autres exercices
 
-## 🚀 Intégration avec le Mega Moteur
+## 📖 Concepts théoriques
 
-### Étape 1 : Décompresser
-```bash
-unzip The_Real_Rock_Book_v4.0.zip
-```
+- **Introduction to The Real Rock Book** (page 2)
+- **Table des matières / Recordings** (page 3)
+- **Table des matières / Recordings (suite)** (page 4)
+- **Table des matières / Recordings (suite)** (page 5)
+- **Photo of Bruce Springsteen** (page 27)
+- **Photo of Chuck Berry** (page 29)
+- **Photo of ZZ Top** (page 51)
+- **Photo of Stevie Wonder** (page 83)
 
-### Étape 2 : Déplacer dans Methodes/
-```bash
-mv extracted_folder Methodes/
-```
 
-### Étape 3 : Lancer la fusion
-```bash
-python3 fusion-ultimate-v4.py
-```
+## 📦 Fichiers générés
 
-Le fichier `songs_index.json` est au format V4.0 compatible avec :
-- ✅ `fusion-ultimate-v4.py`
-- ✅ Structure `metadata` + `songs[]` + `zones`
-- ✅ Métadonnées enrichies par zone
-- ✅ Statistiques de précision par zone
-- ✅ Gestion d'erreurs robuste avec logs détaillés
+- `The_Real_Rock_Book.json` - Données complètes au format JSON
+- `The_Real_Rock_Book_index.html` - Index HTML interactif
+- `The_Real_Rock_Book_README.md` - Ce fichier
 
-## 🔧 Version V4.0 - OCR par Zones
+## 🚀 Utilisation
 
-### Nouveautés V4.0 :
-- 🎯 **Analyse ciblée** : OCR sur 30% de la page (zones texte seulement)
-- 🎼 **Protection partition** : Zone musicale conservée en image (pas d'OCR)
-- ⚡ **Performance** : 60% plus rapide que V3.2
-- ✅ **Précision** : 90-95% sur zones texte (vs 60-70% en full page)
-- 📊 **Statistiques détaillées** : Précision par zone dans metadata
+Les données sont disponibles au format JSON pour faciliter :
+- L'intégration dans des applications web
+- La recherche et le filtrage de contenu
+- L'export vers d'autres formats
+- L'analyse et les statistiques
 
-### Avantages :
-- ✅ Élimine les erreurs OCR sur les portées musicales
-- ✅ Extrait précisément titres, compositeurs et tracks
-- ✅ Conserve l'image complète pour référence visuelle
-- ✅ Optimise le temps de traitement
-- ✅ Métadonnées enrichies pour analyse
+## 🛠️ Traitement
+
+Traité avec **OCR Batch Converter v2.2** (Ultimate Edition)
+- Traitement par lots de 20 images
+- OCR via Claude (Anthropic)
+- Validation manuelle avec prévisualisation
+- Navigation libre entre les lots
+- Auto-correction des erreurs
+- Export progressif
 
 ---
 
-Généré le 10/11/2025 16:11:04 avec **Convertisseur OCR V4.0 - Zones Optimisées**
+*Généré le 16/11/2025 à 15:24:16*

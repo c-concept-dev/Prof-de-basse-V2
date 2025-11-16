@@ -1,171 +1,246 @@
 {
   "metadata": {
-    "bookTitle": "songs_index.json",
-    "category": "Partitions",
-    "style": "Funk",
-    "totalPages": 120,
-    "processedDate": "2025-11-12T21:31:15.208Z"
+    "bookTitle": "Stevie-Wonder-Songs-in-the-Key-of-Life",
+    "category": "songbook",
+    "style": "funk",
+    "totalImages": 116,
+    "totalBatches": 6,
+    "processedDate": "2025-11-16T13:54:22.635Z"
   },
   "content": {
     "songs": [
       {
-        "title": "Love's In Need Of Love Today",
-        "page": 10,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "LOVE'S IN NEED OF LOVE TODAY",
+        "page": 11,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "Eb"
       },
       {
-        "title": "Have A Talk With God",
-        "page": 15,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "HAVE A TALK WITH GOD",
+        "page": 16,
+        "style": "funk",
+        "composer": "STEVIE WONDER and CALVIN HARDAWAY",
+        "key": "Bb"
       },
       {
-        "title": "Village Ghetto Land",
-        "page": 19,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "VILLAGE GHETTO LAND",
+        "page": 20,
+        "style": "funk",
+        "composer": "STEVIE WONDER and BYRD",
+        "key": "Bb"
       },
       {
-        "title": "Village Ghetto Land",
-        "page": 19,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "CONTUSION",
+        "page": 23,
+        "style": "jazz rock",
+        "composer": "STEVIE WONDER",
+        "key": "E"
       },
       {
-        "title": "Confusion",
-        "page": 22,
-        "style": "Jazz Rock",
-        "category": "Partitions"
+        "title": "SIR DUKE",
+        "page": 26,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "B"
       },
       {
-        "title": "Sir Duke",
-        "page": 25,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "I WISH",
+        "page": 29,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "Eb"
       },
       {
-        "title": "I Wish",
-        "page": 28,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "KNOCKS ME OFF MY FEET",
+        "page": 37,
+        "style": "ballad",
+        "composer": "STEVIE WONDER",
+        "key": "C"
       },
       {
-        "title": "Knocks Me Off My Feet",
-        "page": 36,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "PASTIME PARADISE",
+        "page": 43,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "Ab"
       },
       {
-        "title": "Pastime Paradise",
-        "page": 42,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "SUMMER SOFT",
+        "page": 47,
+        "style": "ballad",
+        "composer": "STEVIE WONDER",
+        "key": "Gb"
       },
       {
-        "title": "Summer Soft",
-        "page": 46,
-        "style": "Soul",
-        "category": "Partitions"
+        "title": "ORDINARY PAIN",
+        "page": 53,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "F"
       },
       {
-        "title": "Ordinary Pain",
-        "page": 52,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Isn't She Lovely",
-        "page": 58,
-        "style": "Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Isn't She Lovely",
+        "title": "ISN'T SHE LOVELY",
         "page": 59,
-        "style": "Soul/R&B",
-        "category": "Partitions"
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "C#"
       },
       {
-        "title": "Joy Inside My Tears",
-        "page": 61,
-        "style": "Soul/Ballad",
-        "category": "Partitions"
+        "title": "JOY INSIDE MY TEARS",
+        "page": 62,
+        "style": "ballad",
+        "composer": "STEVIE WONDER",
+        "key": "B"
       },
       {
-        "title": "Black Man",
-        "page": 66,
-        "style": "Funk/Soul",
-        "category": "Partitions"
+        "title": "BLACK MAN",
+        "page": 67,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "Bbm"
       },
       {
-        "title": "Ngiculela - Es Una Historia - I Am Singing",
-        "page": 74,
-        "style": "World/Soul",
-        "category": "Partitions"
+        "title": "NGICULELA - ES UNA HISTORIA - I AM SINGING",
+        "page": 75,
+        "style": "world",
+        "composer": "STEVIE WONDER",
+        "key": "A"
       },
       {
-        "title": "Ngiculela (continuation)",
-        "page": 79,
-        "style": "World/Soul",
-        "category": "Partitions"
+        "title": "IF IT'S MAGIC",
+        "page": 83,
+        "style": "ballad",
+        "composer": "STEVIE WONDER",
+        "key": "E"
       },
       {
-        "title": "Ngiculela (continuation)",
-        "page": 80,
-        "style": "World/Soul",
-        "category": "Partitions"
+        "title": "AS",
+        "page": 89,
+        "style": "funk",
+        "composer": "STEVIE WONDER",
+        "key": "Bmaj7"
       },
       {
-        "title": "If It's Magic",
-        "page": 82,
-        "style": "Ballad/Soul",
-        "category": "Partitions"
+        "title": "ANOTHER STAR",
+        "page": 97,
+        "style": "calypso",
+        "composer": "STEVIE WONDER",
+        "key": "Fm9"
       },
       {
-        "title": "As",
-        "page": 88,
-        "style": "Funk/Rock",
-        "category": "Partitions"
-      },
-      {
-        "title": "Another Star",
-        "page": 96,
-        "style": "Calypso/Funk",
-        "category": "Partitions"
+        "title": "SATURN",
+        "page": 99,
+        "style": "ballad",
+        "composer": "STEVIE WONDER and MICHAEL SEMBELLO",
+        "key": "Em"
       },
       {
         "title": "Saturn",
-        "page": 100,
-        "style": "Ballad/Soul",
-        "category": "Partitions"
-      },
-      {
-        "title": "Saturn (continuation)",
         "page": 101,
-        "style": "Ballad/Soul",
-        "category": "Partitions"
+        "style": "funk",
+        "composer": "S. Wonder / Mike Sembello",
+        "key": "C"
       },
       {
         "title": "Ebony Eyes",
-        "page": 106,
-        "style": "Soul/Ballad",
-        "category": "Partitions"
+        "page": 105,
+        "style": "funk",
+        "composer": "S. Wonder",
+        "key": "Bb"
       },
       {
         "title": "All Day Sucker",
-        "page": 110,
-        "style": "Funk/Soul",
-        "category": "Partitions"
+        "page": 109,
+        "style": "funk",
+        "composer": "S. Wonder",
+        "key": "Ab"
       },
       {
-        "title": "Easy Goin' Evening (Mo Mama's Call)",
+        "title": "Easy Goin' Evening (My Mama's Call)",
         "page": 114,
-        "style": "Jazz/Swing",
-        "category": "Partitions"
+        "style": "ballad",
+        "composer": "Stevie Wonder",
+        "key": "C"
       }
     ],
     "exercises": [],
-    "concepts": []
+    "concepts": [
+      {
+        "concept": "Songs In The Key Of Life Album Overview",
+        "page": 2,
+        "description": "Introduction to Stevie Wonder's masterpiece album discussing its themes, musical diversity, and cultural impact"
+      },
+      {
+        "concept": "Table of Contents",
+        "page": 5,
+        "description": "Complete listing of all songs in the songbook with page numbers"
+      },
+      {
+        "concept": "Sir Duke Lyrics",
+        "page": 25,
+        "description": "Complete lyrics to Sir Duke discussing music as a universal language and paying tribute to jazz legends"
+      },
+      {
+        "concept": "I Wish Lyrics",
+        "page": 35,
+        "description": "Complete lyrics to I Wish reflecting on childhood memories and nostalgia"
+      },
+      {
+        "concept": "Knocks Me Off My Feet Lyrics",
+        "page": 36,
+        "description": "Complete lyrics to Knocks Me Off My Feet about romantic love and emotional vulnerability"
+      },
+      {
+        "concept": "Pastime Paradise Lyrics",
+        "page": 42,
+        "description": "Complete lyrics to Pastime Paradise discussing themes of living in the past vs future, social issues, and spiritual awakening"
+      },
+      {
+        "concept": "Summer Soft Lyrics",
+        "page": 51,
+        "description": "Complete lyrics to Summer Soft about seasonal romance and the fleeting nature of love"
+      },
+      {
+        "concept": "Ordinary Pain Lyrics",
+        "page": 52,
+        "description": "Complete lyrics to Ordinary Pain exploring themes of heartbreak and emotional manipulation in relationships"
+      },
+      {
+        "concept": "Isn't She Lovely Lyrics",
+        "page": 58,
+        "description": "Complete lyrics to Isn't She Lovely celebrating the birth of a daughter and the joy of new life"
+      },
+      {
+        "concept": "Joy Inside My Tears Lyrics",
+        "page": 61,
+        "description": "Complete lyrics to Joy Inside My Tears about finding happiness and new love bringing joy to overcome past sorrows"
+      },
+      {
+        "concept": "Black Man Lyrics",
+        "page": 65,
+        "description": "Complete lyrics and historical information about Black Man celebrating African American contributions to American history"
+      },
+      {
+        "concept": "Ngiculela Lyrics",
+        "page": 74,
+        "description": "Complete lyrics in Zulu, Spanish, and English for Ngiculela (Es Una Historia - I Am Singing) about love, history, and the power of song"
+      },
+      {
+        "concept": "If It's Magic Lyrics",
+        "page": 82,
+        "description": "Complete lyrics to If It's Magic exploring themes of everlasting love, universal connection, and the magical nature of true love"
+      },
+      {
+        "concept": "As Lyrics",
+        "page": 87,
+        "description": "Complete lyrics to As expressing eternal love through natural metaphors and comparing love's permanence to the universe's cycles"
+      },
+      {
+        "concept": "Another Star Lyrics",
+        "page": 96,
+        "description": "Complete lyrics to Another Star about finding new love while honoring past relationships and the hope for lasting connection"
+      }
+    ]
   }
 }

@@ -2,29 +2,431 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>songs_index.json - Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevie-Wonder-Songs-in-the-Key-of-Life - Index</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
-        h1 { color: #667eea; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-        th { background: #667eea; color: white; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <h1>songs_index.json</h1>
-    <p><strong>Catégorie :</strong> Partitions | <strong>Style :</strong> Funk</p>
+    <header>
+        <h1>📚 Stevie-Wonder-Songs-in-the-Key-of-Life</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> songbook | 
+            <strong>Style :</strong> funk | 
+            <strong>Images :</strong> 116
+        </div>
+    </header>
     
-    <h2>Morceaux (26)</h2>
-    <table>
-        <tr><th>Titre</th><th>Page</th><th>Style</th></tr>
-        <tr><td>Love's In Need Of Love Today</td><td>10</td><td>Soul</td></tr><tr><td>Have A Talk With God</td><td>15</td><td>Soul</td></tr><tr><td>Village Ghetto Land</td><td>19</td><td>Soul</td></tr><tr><td>Village Ghetto Land</td><td>19</td><td>Soul</td></tr><tr><td>Confusion</td><td>22</td><td>Jazz Rock</td></tr><tr><td>Sir Duke</td><td>25</td><td>Soul</td></tr><tr><td>I Wish</td><td>28</td><td>Soul</td></tr><tr><td>Knocks Me Off My Feet</td><td>36</td><td>Soul</td></tr><tr><td>Pastime Paradise</td><td>42</td><td>Soul</td></tr><tr><td>Summer Soft</td><td>46</td><td>Soul</td></tr><tr><td>Ordinary Pain</td><td>52</td><td>Soul</td></tr><tr><td>Isn't She Lovely</td><td>58</td><td>Soul</td></tr><tr><td>Isn't She Lovely</td><td>59</td><td>Soul/R&B</td></tr><tr><td>Joy Inside My Tears</td><td>61</td><td>Soul/Ballad</td></tr><tr><td>Black Man</td><td>66</td><td>Funk/Soul</td></tr><tr><td>Ngiculela - Es Una Historia - I Am Singing</td><td>74</td><td>World/Soul</td></tr><tr><td>Ngiculela (continuation)</td><td>79</td><td>World/Soul</td></tr><tr><td>Ngiculela (continuation)</td><td>80</td><td>World/Soul</td></tr><tr><td>If It's Magic</td><td>82</td><td>Ballad/Soul</td></tr><tr><td>As</td><td>88</td><td>Funk/Rock</td></tr><tr><td>Another Star</td><td>96</td><td>Calypso/Funk</td></tr><tr><td>Saturn</td><td>100</td><td>Ballad/Soul</td></tr><tr><td>Saturn (continuation)</td><td>101</td><td>Ballad/Soul</td></tr><tr><td>Ebony Eyes</td><td>106</td><td>Soul/Ballad</td></tr><tr><td>All Day Sucker</td><td>110</td><td>Funk/Soul</td></tr><tr><td>Easy Goin' Evening (Mo Mama's Call)</td><td>114</td><td>Jazz/Swing</td></tr>
-    </table>
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">22</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">15</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">116</div>
+            </div>
+        </div>
+    </section>
     
-    <h2>Exercices (0)</h2>
-    <table>
-        <tr><th>Titre</th><th>Page</th><th>Difficulté</th></tr>
-        
-    </table>
+    <section>
+        <h2>🎵 Morceaux (22)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>LOVE'S IN NEED OF LOVE TODAY</strong></td>
+                        <td>11</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Eb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>HAVE A TALK WITH GOD</strong></td>
+                        <td>16</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER and CALVIN HARDAWAY</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>VILLAGE GHETTO LAND</strong></td>
+                        <td>20</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER and BYRD</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CONTUSION</strong></td>
+                        <td>23</td>
+                        <td>jazz rock</td>
+                        <td>STEVIE WONDER</td>
+                        <td>E</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>SIR DUKE</strong></td>
+                        <td>26</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>B</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>I WISH</strong></td>
+                        <td>29</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Eb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>KNOCKS ME OFF MY FEET</strong></td>
+                        <td>37</td>
+                        <td>ballad</td>
+                        <td>STEVIE WONDER</td>
+                        <td>C</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>PASTIME PARADISE</strong></td>
+                        <td>43</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Ab</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>SUMMER SOFT</strong></td>
+                        <td>47</td>
+                        <td>ballad</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Gb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>ORDINARY PAIN</strong></td>
+                        <td>53</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>F</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>ISN'T SHE LOVELY</strong></td>
+                        <td>59</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>C#</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JOY INSIDE MY TEARS</strong></td>
+                        <td>62</td>
+                        <td>ballad</td>
+                        <td>STEVIE WONDER</td>
+                        <td>B</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>BLACK MAN</strong></td>
+                        <td>67</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Bbm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>NGICULELA - ES UNA HISTORIA - I AM SINGING</strong></td>
+                        <td>75</td>
+                        <td>world</td>
+                        <td>STEVIE WONDER</td>
+                        <td>A</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>IF IT'S MAGIC</strong></td>
+                        <td>83</td>
+                        <td>ballad</td>
+                        <td>STEVIE WONDER</td>
+                        <td>E</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>AS</strong></td>
+                        <td>89</td>
+                        <td>funk</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Bmaj7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>ANOTHER STAR</strong></td>
+                        <td>97</td>
+                        <td>calypso</td>
+                        <td>STEVIE WONDER</td>
+                        <td>Fm9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>SATURN</strong></td>
+                        <td>99</td>
+                        <td>ballad</td>
+                        <td>STEVIE WONDER and MICHAEL SEMBELLO</td>
+                        <td>Em</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Saturn</strong></td>
+                        <td>101</td>
+                        <td>funk</td>
+                        <td>S. Wonder / Mike Sembello</td>
+                        <td>C</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Ebony Eyes</strong></td>
+                        <td>105</td>
+                        <td>funk</td>
+                        <td>S. Wonder</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>All Day Sucker</strong></td>
+                        <td>109</td>
+                        <td>funk</td>
+                        <td>S. Wonder</td>
+                        <td>Ab</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Easy Goin' Evening (My Mama's Call)</strong></td>
+                        <td>114</td>
+                        <td>ballad</td>
+                        <td>Stevie Wonder</td>
+                        <td>C</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (0)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (15)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Songs In The Key Of Life Album Overview</strong></td>
+                        <td>2</td>
+                        <td>Introduction to Stevie Wonder's masterpiece album discussing its themes, musical diversity, and cultural impact</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Table of Contents</strong></td>
+                        <td>5</td>
+                        <td>Complete listing of all songs in the songbook with page numbers</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sir Duke Lyrics</strong></td>
+                        <td>25</td>
+                        <td>Complete lyrics to Sir Duke discussing music as a universal language and paying tribute to jazz legends</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>I Wish Lyrics</strong></td>
+                        <td>35</td>
+                        <td>Complete lyrics to I Wish reflecting on childhood memories and nostalgia</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Knocks Me Off My Feet Lyrics</strong></td>
+                        <td>36</td>
+                        <td>Complete lyrics to Knocks Me Off My Feet about romantic love and emotional vulnerability</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pastime Paradise Lyrics</strong></td>
+                        <td>42</td>
+                        <td>Complete lyrics to Pastime Paradise discussing themes of living in the past vs future, social issues, and spiritual awakening</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Summer Soft Lyrics</strong></td>
+                        <td>51</td>
+                        <td>Complete lyrics to Summer Soft about seasonal romance and the fleeting nature of love</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Ordinary Pain Lyrics</strong></td>
+                        <td>52</td>
+                        <td>Complete lyrics to Ordinary Pain exploring themes of heartbreak and emotional manipulation in relationships</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Isn't She Lovely Lyrics</strong></td>
+                        <td>58</td>
+                        <td>Complete lyrics to Isn't She Lovely celebrating the birth of a daughter and the joy of new life</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Joy Inside My Tears Lyrics</strong></td>
+                        <td>61</td>
+                        <td>Complete lyrics to Joy Inside My Tears about finding happiness and new love bringing joy to overcome past sorrows</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Black Man Lyrics</strong></td>
+                        <td>65</td>
+                        <td>Complete lyrics and historical information about Black Man celebrating African American contributions to American history</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Ngiculela Lyrics</strong></td>
+                        <td>74</td>
+                        <td>Complete lyrics in Zulu, Spanish, and English for Ngiculela (Es Una Historia - I Am Singing) about love, history, and the power of song</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>If It's Magic Lyrics</strong></td>
+                        <td>82</td>
+                        <td>Complete lyrics to If It's Magic exploring themes of everlasting love, universal connection, and the magical nature of true love</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>As Lyrics</strong></td>
+                        <td>87</td>
+                        <td>Complete lyrics to As expressing eternal love through natural metaphors and comparing love's permanence to the universe's cycles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Another Star Lyrics</strong></td>
+                        <td>96</td>
+                        <td>Complete lyrics to Another Star about finding new love while honoring past relationships and the hope for lasting connection</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>
