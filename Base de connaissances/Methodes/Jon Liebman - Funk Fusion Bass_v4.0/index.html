@@ -3,1744 +3,2258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon Liebman - Funk Fusion Bass - Index V4.0</title>
+    <title>Jon Liebman - Index</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
             background: #f5f5f5;
-            padding: 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .v4-badge {
-            display: inline-block;
-            background: #9c27b0;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 30px;
+            border-radius: 12px;
             margin-bottom: 30px;
         }
-        .page {
-            margin-bottom: 40px;
-            padding: 20px;
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
             background: #f8f9fa;
+            padding: 20px;
             border-radius: 8px;
+            text-align: center;
             border-left: 4px solid #667eea;
         }
-        .page-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
         }
-        .page-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        .page-meta {
-            display: flex;
-            gap: 10px;
+        .stat-label {
+            color: #666;
             font-size: 14px;
-            color: #666;
-            flex-wrap: wrap;
-        }
-        .page-composer {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .page img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .technique-badge {
-            background: #e0e0e0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        .error-badge {
-            background: #ffebee;
-            color: #c62828;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .zone-info {
-            background: #f3e5f5;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            color: #7b1fa2;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎸 Jon Liebman - Funk Fusion Bass</h1>
-        <p class="subtitle">
-            96 pages | 0 MP3 disponibles
-        </p>
-        <div class="v4-badge">🎯 Converti avec V4.0 - OCR par zones</div>
-        
-        <div class="page" id="page-1">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 1</div>
-                <div class="page-meta">
-                    <span>📄 Page 1</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_001.png" alt="Page 1">
-        </div>
-
-        <div class="page" id="page-2">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 2</div>
-                <div class="page-meta">
-                    <span>📄 Page 2</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_002.png" alt="Page 2">
-        </div>
-
-        <div class="page" id="page-3">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 3</div>
-                <div class="page-meta">
-                    <span>📄 Page 3</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_003.png" alt="Page 3">
-        </div>
-
-        <div class="page" id="page-4">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 4</div>
-                <div class="page-meta">
-                    <span>📄 Page 4</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_004.png" alt="Page 4">
-        </div>
-
-        <div class="page" id="page-5">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 5</div>
-                <div class="page-meta">
-                    <span>📄 Page 5</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_005.png" alt="Page 5">
-        </div>
-
-        <div class="page" id="page-6">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 6</div>
-                <div class="page-meta">
-                    <span>📄 Page 6</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_006.png" alt="Page 6">
-        </div>
-
-        <div class="page" id="page-7">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 7</div>
-                <div class="page-meta">
-                    <span>📄 Page 7</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_007.png" alt="Page 7">
-        </div>
-
-        <div class="page" id="page-8">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 8</div>
-                <div class="page-meta">
-                    <span>📄 Page 8</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_008.png" alt="Page 8">
-        </div>
-
-        <div class="page" id="page-9">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 9</div>
-                <div class="page-meta">
-                    <span>📄 Page 9</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_009.png" alt="Page 9">
-        </div>
-
-        <div class="page" id="page-10">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 10</div>
-                <div class="page-meta">
-                    <span>📄 Page 10</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_010.png" alt="Page 10">
-        </div>
-
-        <div class="page" id="page-11">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 11</div>
-                <div class="page-meta">
-                    <span>📄 Page 11</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_011.png" alt="Page 11">
-        </div>
-
-        <div class="page" id="page-12">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 12</div>
-                <div class="page-meta">
-                    <span>📄 Page 12</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_012.png" alt="Page 12">
-        </div>
-
-        <div class="page" id="page-13">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 13</div>
-                <div class="page-meta">
-                    <span>📄 Page 13</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_013.png" alt="Page 13">
-        </div>
-
-        <div class="page" id="page-14">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 14</div>
-                <div class="page-meta">
-                    <span>📄 Page 14</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_014.png" alt="Page 14">
-        </div>
-
-        <div class="page" id="page-15">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 15</div>
-                <div class="page-meta">
-                    <span>📄 Page 15</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_015.png" alt="Page 15">
-        </div>
-
-        <div class="page" id="page-16">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 16</div>
-                <div class="page-meta">
-                    <span>📄 Page 16</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_016.png" alt="Page 16">
-        </div>
-
-        <div class="page" id="page-17">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 17</div>
-                <div class="page-meta">
-                    <span>📄 Page 17</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_017.png" alt="Page 17">
-        </div>
-
-        <div class="page" id="page-18">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 18</div>
-                <div class="page-meta">
-                    <span>📄 Page 18</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_018.png" alt="Page 18">
-        </div>
-
-        <div class="page" id="page-19">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 19</div>
-                <div class="page-meta">
-                    <span>📄 Page 19</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_019.png" alt="Page 19">
-        </div>
-
-        <div class="page" id="page-20">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 20</div>
-                <div class="page-meta">
-                    <span>📄 Page 20</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_020.png" alt="Page 20">
-        </div>
-
-        <div class="page" id="page-21">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 21</div>
-                <div class="page-meta">
-                    <span>📄 Page 21</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_021.png" alt="Page 21">
-        </div>
-
-        <div class="page" id="page-22">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 22</div>
-                <div class="page-meta">
-                    <span>📄 Page 22</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_022.png" alt="Page 22">
-        </div>
-
-        <div class="page" id="page-23">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 23</div>
-                <div class="page-meta">
-                    <span>📄 Page 23</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_023.png" alt="Page 23">
-        </div>
-
-        <div class="page" id="page-24">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 24</div>
-                <div class="page-meta">
-                    <span>📄 Page 24</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_024.png" alt="Page 24">
-        </div>
-
-        <div class="page" id="page-25">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 25</div>
-                <div class="page-meta">
-                    <span>📄 Page 25</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_025.png" alt="Page 25">
-        </div>
-
-        <div class="page" id="page-26">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 26</div>
-                <div class="page-meta">
-                    <span>📄 Page 26</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_026.png" alt="Page 26">
-        </div>
-
-        <div class="page" id="page-27">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 27</div>
-                <div class="page-meta">
-                    <span>📄 Page 27</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_027.png" alt="Page 27">
-        </div>
-
-        <div class="page" id="page-28">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 28</div>
-                <div class="page-meta">
-                    <span>📄 Page 28</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_028.png" alt="Page 28">
-        </div>
-
-        <div class="page" id="page-29">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 29</div>
-                <div class="page-meta">
-                    <span>📄 Page 29</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_029.png" alt="Page 29">
-        </div>
-
-        <div class="page" id="page-30">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 30</div>
-                <div class="page-meta">
-                    <span>📄 Page 30</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_030.png" alt="Page 30">
-        </div>
-
-        <div class="page" id="page-31">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 31</div>
-                <div class="page-meta">
-                    <span>📄 Page 31</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_031.png" alt="Page 31">
-        </div>
-
-        <div class="page" id="page-32">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 32</div>
-                <div class="page-meta">
-                    <span>📄 Page 32</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_032.png" alt="Page 32">
-        </div>
-
-        <div class="page" id="page-33">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 33</div>
-                <div class="page-meta">
-                    <span>📄 Page 33</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_033.png" alt="Page 33">
-        </div>
-
-        <div class="page" id="page-34">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 34</div>
-                <div class="page-meta">
-                    <span>📄 Page 34</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_034.png" alt="Page 34">
-        </div>
-
-        <div class="page" id="page-35">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 35</div>
-                <div class="page-meta">
-                    <span>📄 Page 35</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_035.png" alt="Page 35">
-        </div>
-
-        <div class="page" id="page-36">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 36</div>
-                <div class="page-meta">
-                    <span>📄 Page 36</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_036.png" alt="Page 36">
-        </div>
-
-        <div class="page" id="page-37">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 37</div>
-                <div class="page-meta">
-                    <span>📄 Page 37</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_037.png" alt="Page 37">
-        </div>
-
-        <div class="page" id="page-38">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 38</div>
-                <div class="page-meta">
-                    <span>📄 Page 38</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_038.png" alt="Page 38">
-        </div>
-
-        <div class="page" id="page-39">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 39</div>
-                <div class="page-meta">
-                    <span>📄 Page 39</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_039.png" alt="Page 39">
-        </div>
-
-        <div class="page" id="page-40">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 40</div>
-                <div class="page-meta">
-                    <span>📄 Page 40</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_040.png" alt="Page 40">
-        </div>
-
-        <div class="page" id="page-41">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 41</div>
-                <div class="page-meta">
-                    <span>📄 Page 41</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_041.png" alt="Page 41">
-        </div>
-
-        <div class="page" id="page-42">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 42</div>
-                <div class="page-meta">
-                    <span>📄 Page 42</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_042.png" alt="Page 42">
-        </div>
-
-        <div class="page" id="page-43">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 43</div>
-                <div class="page-meta">
-                    <span>📄 Page 43</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_043.png" alt="Page 43">
-        </div>
-
-        <div class="page" id="page-44">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 44</div>
-                <div class="page-meta">
-                    <span>📄 Page 44</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_044.png" alt="Page 44">
-        </div>
-
-        <div class="page" id="page-45">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 45</div>
-                <div class="page-meta">
-                    <span>📄 Page 45</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_045.png" alt="Page 45">
-        </div>
-
-        <div class="page" id="page-46">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 46</div>
-                <div class="page-meta">
-                    <span>📄 Page 46</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_046.png" alt="Page 46">
-        </div>
-
-        <div class="page" id="page-47">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 47</div>
-                <div class="page-meta">
-                    <span>📄 Page 47</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_047.png" alt="Page 47">
-        </div>
-
-        <div class="page" id="page-48">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 48</div>
-                <div class="page-meta">
-                    <span>📄 Page 48</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_048.png" alt="Page 48">
-        </div>
-
-        <div class="page" id="page-49">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 49</div>
-                <div class="page-meta">
-                    <span>📄 Page 49</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_049.png" alt="Page 49">
-        </div>
-
-        <div class="page" id="page-50">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 50</div>
-                <div class="page-meta">
-                    <span>📄 Page 50</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_050.png" alt="Page 50">
-        </div>
-
-        <div class="page" id="page-51">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 51</div>
-                <div class="page-meta">
-                    <span>📄 Page 51</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_051.png" alt="Page 51">
-        </div>
-
-        <div class="page" id="page-52">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 52</div>
-                <div class="page-meta">
-                    <span>📄 Page 52</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_052.png" alt="Page 52">
-        </div>
-
-        <div class="page" id="page-53">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 53</div>
-                <div class="page-meta">
-                    <span>📄 Page 53</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_053.png" alt="Page 53">
-        </div>
-
-        <div class="page" id="page-54">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 54</div>
-                <div class="page-meta">
-                    <span>📄 Page 54</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_054.png" alt="Page 54">
-        </div>
-
-        <div class="page" id="page-55">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 55</div>
-                <div class="page-meta">
-                    <span>📄 Page 55</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_055.png" alt="Page 55">
-        </div>
-
-        <div class="page" id="page-56">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 56</div>
-                <div class="page-meta">
-                    <span>📄 Page 56</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_056.png" alt="Page 56">
-        </div>
-
-        <div class="page" id="page-57">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 57</div>
-                <div class="page-meta">
-                    <span>📄 Page 57</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_057.png" alt="Page 57">
-        </div>
-
-        <div class="page" id="page-58">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 58</div>
-                <div class="page-meta">
-                    <span>📄 Page 58</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_058.png" alt="Page 58">
-        </div>
-
-        <div class="page" id="page-59">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 59</div>
-                <div class="page-meta">
-                    <span>📄 Page 59</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_059.png" alt="Page 59">
-        </div>
-
-        <div class="page" id="page-60">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 60</div>
-                <div class="page-meta">
-                    <span>📄 Page 60</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_060.png" alt="Page 60">
-        </div>
-
-        <div class="page" id="page-61">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 61</div>
-                <div class="page-meta">
-                    <span>📄 Page 61</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_061.png" alt="Page 61">
-        </div>
-
-        <div class="page" id="page-62">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 62</div>
-                <div class="page-meta">
-                    <span>📄 Page 62</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_062.png" alt="Page 62">
-        </div>
-
-        <div class="page" id="page-63">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 63</div>
-                <div class="page-meta">
-                    <span>📄 Page 63</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_063.png" alt="Page 63">
-        </div>
-
-        <div class="page" id="page-64">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 64</div>
-                <div class="page-meta">
-                    <span>📄 Page 64</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_064.png" alt="Page 64">
-        </div>
-
-        <div class="page" id="page-65">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 65</div>
-                <div class="page-meta">
-                    <span>📄 Page 65</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_065.png" alt="Page 65">
-        </div>
-
-        <div class="page" id="page-66">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 66</div>
-                <div class="page-meta">
-                    <span>📄 Page 66</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_066.png" alt="Page 66">
-        </div>
-
-        <div class="page" id="page-67">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 67</div>
-                <div class="page-meta">
-                    <span>📄 Page 67</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_067.png" alt="Page 67">
-        </div>
-
-        <div class="page" id="page-68">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 68</div>
-                <div class="page-meta">
-                    <span>📄 Page 68</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_068.png" alt="Page 68">
-        </div>
-
-        <div class="page" id="page-69">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 69</div>
-                <div class="page-meta">
-                    <span>📄 Page 69</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_069.png" alt="Page 69">
-        </div>
-
-        <div class="page" id="page-70">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 70</div>
-                <div class="page-meta">
-                    <span>📄 Page 70</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_070.png" alt="Page 70">
-        </div>
-
-        <div class="page" id="page-71">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 71</div>
-                <div class="page-meta">
-                    <span>📄 Page 71</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_071.png" alt="Page 71">
-        </div>
-
-        <div class="page" id="page-72">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 72</div>
-                <div class="page-meta">
-                    <span>📄 Page 72</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_072.png" alt="Page 72">
-        </div>
-
-        <div class="page" id="page-73">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 73</div>
-                <div class="page-meta">
-                    <span>📄 Page 73</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_073.png" alt="Page 73">
-        </div>
-
-        <div class="page" id="page-74">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 74</div>
-                <div class="page-meta">
-                    <span>📄 Page 74</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_074.png" alt="Page 74">
-        </div>
-
-        <div class="page" id="page-75">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 75</div>
-                <div class="page-meta">
-                    <span>📄 Page 75</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_075.png" alt="Page 75">
-        </div>
-
-        <div class="page" id="page-76">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 76</div>
-                <div class="page-meta">
-                    <span>📄 Page 76</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_076.png" alt="Page 76">
-        </div>
-
-        <div class="page" id="page-77">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 77</div>
-                <div class="page-meta">
-                    <span>📄 Page 77</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_077.png" alt="Page 77">
-        </div>
-
-        <div class="page" id="page-78">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 78</div>
-                <div class="page-meta">
-                    <span>📄 Page 78</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_078.png" alt="Page 78">
-        </div>
-
-        <div class="page" id="page-79">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 79</div>
-                <div class="page-meta">
-                    <span>📄 Page 79</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_079.png" alt="Page 79">
-        </div>
-
-        <div class="page" id="page-80">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 80</div>
-                <div class="page-meta">
-                    <span>📄 Page 80</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_080.png" alt="Page 80">
-        </div>
-
-        <div class="page" id="page-81">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 81</div>
-                <div class="page-meta">
-                    <span>📄 Page 81</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_081.png" alt="Page 81">
-        </div>
-
-        <div class="page" id="page-82">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 82</div>
-                <div class="page-meta">
-                    <span>📄 Page 82</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_082.png" alt="Page 82">
-        </div>
-
-        <div class="page" id="page-83">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 83</div>
-                <div class="page-meta">
-                    <span>📄 Page 83</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_083.png" alt="Page 83">
-        </div>
-
-        <div class="page" id="page-84">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 84</div>
-                <div class="page-meta">
-                    <span>📄 Page 84</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_084.png" alt="Page 84">
-        </div>
-
-        <div class="page" id="page-85">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 85</div>
-                <div class="page-meta">
-                    <span>📄 Page 85</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_085.png" alt="Page 85">
-        </div>
-
-        <div class="page" id="page-86">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 86</div>
-                <div class="page-meta">
-                    <span>📄 Page 86</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_086.png" alt="Page 86">
-        </div>
-
-        <div class="page" id="page-87">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 87</div>
-                <div class="page-meta">
-                    <span>📄 Page 87</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_087.png" alt="Page 87">
-        </div>
-
-        <div class="page" id="page-88">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 88</div>
-                <div class="page-meta">
-                    <span>📄 Page 88</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_088.png" alt="Page 88">
-        </div>
-
-        <div class="page" id="page-89">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 89</div>
-                <div class="page-meta">
-                    <span>📄 Page 89</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_089.png" alt="Page 89">
-        </div>
-
-        <div class="page" id="page-90">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 90</div>
-                <div class="page-meta">
-                    <span>📄 Page 90</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_090.png" alt="Page 90">
-        </div>
-
-        <div class="page" id="page-91">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 91</div>
-                <div class="page-meta">
-                    <span>📄 Page 91</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_091.png" alt="Page 91">
-        </div>
-
-        <div class="page" id="page-92">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 92</div>
-                <div class="page-meta">
-                    <span>📄 Page 92</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_092.png" alt="Page 92">
-        </div>
-
-        <div class="page" id="page-93">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 93</div>
-                <div class="page-meta">
-                    <span>📄 Page 93</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_093.png" alt="Page 93">
-        </div>
-
-        <div class="page" id="page-94">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 94</div>
-                <div class="page-meta">
-                    <span>📄 Page 94</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_094.png" alt="Page 94">
-        </div>
-
-        <div class="page" id="page-95">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 95</div>
-                <div class="page-meta">
-                    <span>📄 Page 95</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_095.png" alt="Page 95">
-        </div>
-
-        <div class="page" id="page-96">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 96</div>
-                <div class="page-meta">
-                    <span>📄 Page 96</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_096.png" alt="Page 96">
-        </div>
-    </div>
+    <header>
+        <h1>📚 Jon Liebman</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> method | 
+            <strong>Style :</strong> funk | 
+            <strong>Images :</strong> 96
+        </div>
+    </header>
+    
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">105</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">144</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">41</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">96</div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>🎵 Morceaux (105)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>5.1</strong></td>
+                        <td>63</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.2</strong></td>
+                        <td>63</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Fm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.3</strong></td>
+                        <td>64</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.4</strong></td>
+                        <td>64</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.5</strong></td>
+                        <td>64</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Dm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.6</strong></td>
+                        <td>64</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>A</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.7</strong></td>
+                        <td>65</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bbm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.8</strong></td>
+                        <td>65</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Am</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.9</strong></td>
+                        <td>65</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.10</strong></td>
+                        <td>66</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.11</strong></td>
+                        <td>66</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.12</strong></td>
+                        <td>66</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Db7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.13</strong></td>
+                        <td>66</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Dm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.14</strong></td>
+                        <td>66</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bbm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.15</strong></td>
+                        <td>67</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.16</strong></td>
+                        <td>67</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.17</strong></td>
+                        <td>67</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>A7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.18</strong></td>
+                        <td>67</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.19</strong></td>
+                        <td>68</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>D7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.20</strong></td>
+                        <td>68</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Fm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.21</strong></td>
+                        <td>68</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.22</strong></td>
+                        <td>68</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Db7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.23</strong></td>
+                        <td>68</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.24</strong></td>
+                        <td>69</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Ab7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.25</strong></td>
+                        <td>69</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Cb7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.26</strong></td>
+                        <td>69</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>A</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.27</strong></td>
+                        <td>70</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.28</strong></td>
+                        <td>70</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.29</strong></td>
+                        <td>70</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Eb7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.30</strong></td>
+                        <td>71</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.31</strong></td>
+                        <td>71</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.32</strong></td>
+                        <td>71</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.33</strong></td>
+                        <td>71</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Db7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.34</strong></td>
+                        <td>72</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>B7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.35</strong></td>
+                        <td>72</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>A7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.36</strong></td>
+                        <td>72</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.37</strong></td>
+                        <td>73</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.38</strong></td>
+                        <td>73</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.39</strong></td>
+                        <td>73</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.40</strong></td>
+                        <td>73</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>A7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.41</strong></td>
+                        <td>73</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>D7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.42</strong></td>
+                        <td>73</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.43</strong></td>
+                        <td>74</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Eb7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.44</strong></td>
+                        <td>74</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Ab</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.45</strong></td>
+                        <td>74</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gb5</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.46</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.47</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Em</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.48</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb5</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.49</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F5</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.50</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Ab7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.51</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Dm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.52</strong></td>
+                        <td>75</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.53</strong></td>
+                        <td>76</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>D7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.54</strong></td>
+                        <td>76</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Cb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.55</strong></td>
+                        <td>76</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.56</strong></td>
+                        <td>76</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>A7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.57</strong></td>
+                        <td>76</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.58</strong></td>
+                        <td>77</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.59</strong></td>
+                        <td>77</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Eb7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.60</strong></td>
+                        <td>77</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gb7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.61</strong></td>
+                        <td>77</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.62</strong></td>
+                        <td>77</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.63</strong></td>
+                        <td>78</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.64</strong></td>
+                        <td>78</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Am</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.65</strong></td>
+                        <td>78</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.66</strong></td>
+                        <td>78</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bbm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.67</strong></td>
+                        <td>78</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Cm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.68</strong></td>
+                        <td>79</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.69</strong></td>
+                        <td>79</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Dm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.70</strong></td>
+                        <td>79</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.71</strong></td>
+                        <td>79</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.72</strong></td>
+                        <td>79</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G#</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.73</strong></td>
+                        <td>80</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.74</strong></td>
+                        <td>80</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Ab7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>5.75</strong></td>
+                        <td>80</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.1</strong></td>
+                        <td>81</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>E7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.2</strong></td>
+                        <td>81</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C/G7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.3</strong></td>
+                        <td>82</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.4</strong></td>
+                        <td>82</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Fm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.5</strong></td>
+                        <td>82</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.6</strong></td>
+                        <td>82</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Fm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.7</strong></td>
+                        <td>83</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>G7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.8</strong></td>
+                        <td>83</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Eb7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.9</strong></td>
+                        <td>83</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bbm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.10</strong></td>
+                        <td>83</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.11</strong></td>
+                        <td>84</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.12</strong></td>
+                        <td>84</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.13</strong></td>
+                        <td>84</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.14</strong></td>
+                        <td>84</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.15</strong></td>
+                        <td>85</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.16</strong></td>
+                        <td>85</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Dm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.17</strong></td>
+                        <td>85</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.18</strong></td>
+                        <td>85</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>F#m</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.19</strong></td>
+                        <td>85</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Em</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.20</strong></td>
+                        <td>86</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Gb7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.21</strong></td>
+                        <td>86</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>D7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.22</strong></td>
+                        <td>86</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Db7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.23</strong></td>
+                        <td>86</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C#5</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.24</strong></td>
+                        <td>86</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>C9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.25</strong></td>
+                        <td>86</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bb7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.26</strong></td>
+                        <td>87</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.27</strong></td>
+                        <td>87</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Cm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.28</strong></td>
+                        <td>87</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Bbm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.29</strong></td>
+                        <td>87</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Cb</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>6.30</strong></td>
+                        <td>87</td>
+                        <td>funk</td>
+                        <td>Jon Liebman</td>
+                        <td>Eb5</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (144)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Exercise 2.1 - Chromatic alternating fingers</strong></td>
+                        <td>15</td>
+                        <td>débutant</td>
+                        <td>two-finger technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.2 - Chromatic with string crossings</strong></td>
+                        <td>17</td>
+                        <td>débutant</td>
+                        <td>two-finger technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.3 - Chromatic ascending</strong></td>
+                        <td>18</td>
+                        <td>débutant</td>
+                        <td>two-finger technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.4 - Chromatic patterns</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>two-finger technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.5 - Chromatic endurance building</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>two-finger technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.6</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>chromatic patterns</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.7</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>chromatic patterns</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.8</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>chromatic patterns</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.9</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>chromatic patterns</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.10</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>left hand strength</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.11</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>left hand strength</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.12</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>left hand strength</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.13</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>left hand strength</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.14</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>left hand strength</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.15 - E major scale</strong></td>
+                        <td>26</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>26</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.16 - F major scale</strong></td>
+                        <td>26</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>F major arpeggio</strong></td>
+                        <td>26</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.17 - F# major scale</strong></td>
+                        <td>27</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>F# major arpeggio</strong></td>
+                        <td>27</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.18 - Gb major scale</strong></td>
+                        <td>27</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gb major arpeggio</strong></td>
+                        <td>27</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.19 - G major scale</strong></td>
+                        <td>27</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>G major arpeggio</strong></td>
+                        <td>28</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.20 - Ab major scale</strong></td>
+                        <td>28</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Ab major arpeggio</strong></td>
+                        <td>28</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.21 - A major scale</strong></td>
+                        <td>28</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>A major arpeggio</strong></td>
+                        <td>29</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.22 - Bb major scale</strong></td>
+                        <td>29</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Bb major arpeggio</strong></td>
+                        <td>29</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.23 - B major scale</strong></td>
+                        <td>29</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>B major arpeggio</strong></td>
+                        <td>29</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.24 - Cb major scale</strong></td>
+                        <td>30</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Cb major arpeggio</strong></td>
+                        <td>30</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.25 - C major scale</strong></td>
+                        <td>30</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>C major arpeggio</strong></td>
+                        <td>30</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.26 - C# major scale</strong></td>
+                        <td>30</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>C# major arpeggio</strong></td>
+                        <td>31</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.27 - Db major scale</strong></td>
+                        <td>31</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Db major arpeggio</strong></td>
+                        <td>31</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.28 - D major scale</strong></td>
+                        <td>31</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>D major arpeggio</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.29 - Eb major scale</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>scales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Eb major arpeggio</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.30 - E major scale in thirds</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.31 - F major scale in thirds</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>F major arpeggio</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.32 - F# major scale in thirds</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>F# major arpeggio</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.33 - Gb major scale in thirds</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gb major arpeggio</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.34 - G major scale in thirds</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>G major arpeggio</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.35 - Ab major scale in thirds</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Ab major arpeggio</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.36 - A major scale in thirds</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>A major arpeggio</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.37 - Bb major scale in thirds</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Bb major arpeggio</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.38 - B major scale in thirds</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>B major arpeggio</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.39 - Cb major scale in thirds</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Cb major arpeggio</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.40 - C major scale in thirds</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>C major arpeggio</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.41 - C# major scale in thirds</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>C# major arpeggio</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.42 - Db major scale in thirds</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Db major arpeggio</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.43 - D major scale in thirds</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>D major arpeggio</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.44 - Eb major scale in thirds</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>scales in intervals</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Eb major arpeggio</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.45 - E major variations</strong></td>
+                        <td>39</td>
+                        <td>avancé</td>
+                        <td>scale variations</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>40</td>
+                        <td>avancé</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.46 - E major variations</strong></td>
+                        <td>40</td>
+                        <td>avancé</td>
+                        <td>scale variations</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.47 - E major</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.48 - F major</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>F major arpeggio</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.49 - F# major</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>F# major arpeggio</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.50 - Gb major</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gb major arpeggio</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.51 - G major</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>G major arpeggio</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.52 - Ab major</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Ab major arpeggio</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.53 - A major</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>A major arpeggio</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.54 - Bb major</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Bb major arpeggio</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.55 - B major</strong></td>
+                        <td>43</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>B major arpeggio</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.56 - Cb major</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Cb major arpeggio</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.57 - C major scale</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>C major arpeggio</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.58 - C# major</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>C# major arpeggio</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.59 - Db major</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Db major arpeggio</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.60 - D major</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>D major arpeggio</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.61 - Eb major</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Eb major arpeggio</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.62 - E major variations</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>triplets in thirds</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>arpeggios</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 2.63 - E major variations</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>E major arpeggio</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>arpeggios in triplets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.1</strong></td>
+                        <td>48</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing octaves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.2</strong></td>
+                        <td>49</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing octaves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.3</strong></td>
+                        <td>50</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.4</strong></td>
+                        <td>51</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.5</strong></td>
+                        <td>52</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.6</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.7</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.8</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 3.9</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>string crossing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.1</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>hammer-on</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.2</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>hammer-on</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.3</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>hammer-on</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.4</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>hammer-on</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.5</strong></td>
+                        <td>58</td>
+                        <td>intermédiaire</td>
+                        <td>hammer-on</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.6</strong></td>
+                        <td>58</td>
+                        <td>intermédiaire</td>
+                        <td>pull-off</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.7</strong></td>
+                        <td>58</td>
+                        <td>intermédiaire</td>
+                        <td>pull-off</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.8</strong></td>
+                        <td>58</td>
+                        <td>intermédiaire</td>
+                        <td>pull-off</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.9</strong></td>
+                        <td>59</td>
+                        <td>intermédiaire</td>
+                        <td>pull-off</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.10</strong></td>
+                        <td>59</td>
+                        <td>intermédiaire</td>
+                        <td>pull-off</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.11</strong></td>
+                        <td>59</td>
+                        <td>intermédiaire</td>
+                        <td>slide</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.12</strong></td>
+                        <td>59</td>
+                        <td>intermédiaire</td>
+                        <td>slide</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.13</strong></td>
+                        <td>59</td>
+                        <td>intermédiaire</td>
+                        <td>slide</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.14</strong></td>
+                        <td>60</td>
+                        <td>intermédiaire</td>
+                        <td>trill</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.15</strong></td>
+                        <td>60</td>
+                        <td>intermédiaire</td>
+                        <td>trill</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.16</strong></td>
+                        <td>60</td>
+                        <td>intermédiaire</td>
+                        <td>trill</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.17</strong></td>
+                        <td>60</td>
+                        <td>intermédiaire</td>
+                        <td>trill</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.18</strong></td>
+                        <td>60</td>
+                        <td>intermédiaire</td>
+                        <td>trill</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.19</strong></td>
+                        <td>61</td>
+                        <td>intermédiaire</td>
+                        <td>shake</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.20</strong></td>
+                        <td>61</td>
+                        <td>intermédiaire</td>
+                        <td>shake</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.21</strong></td>
+                        <td>61</td>
+                        <td>intermédiaire</td>
+                        <td>shake</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.22</strong></td>
+                        <td>62</td>
+                        <td>intermédiaire</td>
+                        <td>bend</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercise 4.23</strong></td>
+                        <td>62</td>
+                        <td>intermédiaire</td>
+                        <td>bend</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (41)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Foreword by Verdine White</strong></td>
+                        <td>4</td>
+                        <td>Verdine White of Earth, Wind & Fire recommends this book as a comprehensive source of instruction for beginners and experienced bass players, with a full range of exercises and a complete discography of dozens of bass players</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction - Purpose and approach</strong></td>
+                        <td>5</td>
+                        <td>The book introduces the funk/fusion style of playing bass. Focuses on the role of the bass player, grooving, technique, reading, equipment, and what's expected on gigs and in recording studios. Emphasizes that no matter what equipment you have, your popularity as a bassist comes down to how well you groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chapter 1: A Word On Practicing</strong></td>
+                        <td>7</td>
+                        <td>Practice doesn't make perfect. Perfect practice makes perfect (Vince Lombardi). Discussion of good vs bad practicing habits, including using metronomes, drum machines, tape recorders, maintaining a practice log, budgeting time, working with drummers, and keeping a music notebook. The most important job as a bass player is to groove with a great time feel</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chapter 2: Evolution of the Bass</strong></td>
+                        <td>9</td>
+                        <td>Historical overview starting from the bass being invented to double the cello line an octave lower. Covers early versions including violone, double bass viol, viola da gamba. Discusses the bass's role in supporting the orchestra through classical and Romantic periods (Beethoven to Wagner, through Brahms and Tchaikovsky)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Solo repertoire for bass</strong></td>
+                        <td>9</td>
+                        <td>Traditionally limited solo repertoire for bass compared to violin and piano. Mentions bass virtuosos including Domenico Dragonetti, Giovanni Botessini, Giovanni Cimador, Franz Keyper, Karl Ditters von Dittersdorf, Johann Baptiste Vanhal. By early 20th century, increasing composers wrote specifically for double bass including Serge Koussevitsky, Paul Hindemith, Reinhold Glière, Frank Proto, John Deak, François Rabbath, Gary Karr, Edgar Meyer, Barry Green, Thomas Martin, Klaus Trümpf</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz bass evolution</strong></td>
+                        <td>10</td>
+                        <td>Around 1940, Jimmy Blanton with Duke Ellington orchestra revolutionized bass playing with sophisticated eighth and sixteenth-note horn-like runs and passages, making the bass sing as a melodic instrument. Other jazz giants included Ray Brown, Milt Hinton, Oscar Pettiford, Paul Chambers, Charles Mingus, Percy Heath. Scott La Faro (with pianist Bill Evans) catapulted bass to new heights with virtuoso pizzicato (fingers) technique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Edison Influence, Part I - Electric bass</strong></td>
+                        <td>10</td>
+                        <td>Leo Fender created the first electric bass guitar, the Fender Precision Bass in 1951. Though mixed reaction initially, the music world took to the electric bass quickly. By 1960s, electric bass became unstoppable with James Jamerson, Jack Bruce, Tim Bogert, Larry Graham and others. Music James Brown was recording was phenomenally influential, thanks to Bernard Odum, Charles 'Sweet Charles' Sherrell, Bootsy Collins and other JB bass men. The decade of funk was definitely the 1970s</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Funk Thang - 1970s funk groups</strong></td>
+                        <td>10</td>
+                        <td>Notable funk groups and artists during the '70s: The Average White Band, The Brothers Johnson, Graham Central Station, George Clinton's Parliament Funkadelic, Kool & the Gang, Cameo, Con Funk Shun, Bohannon, Earth, Wind & Fire, Quincy Jones, Herbie Hancock, Tower of Power, The Gap Band, The Ohio Players, The O'Jays. A type of music combining rock and roll with complex harmonies and jazz/funk influences, referred to as jazz/rock fusion or simply fusion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fusion bass players</strong></td>
+                        <td>11</td>
+                        <td>Early fusion groups and bassists: Weather Report, Return to Forever, The Brecker Brothers, Billy Cobham, Jean-Luc Ponty, The Crusaders, Mahavishnu, Tom Scott, Dave Grusin. Bass heroes of the decade: Jerry Jemmott, Anthony Jackson, Chuck Rainey, Verdine White, Alphonso Johnson, Francis 'Rocco' Prestia, Jaco Pastorius, Will Lee, Neil Jason, Stanley Clarke, Louis Johnson, Randy Jackson</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Edison Influence, Part II - 1980s technology</strong></td>
+                        <td>11</td>
+                        <td>During the 1980s, fusion movement continued to grow. With MIDI (Musical Instrument Digital Interface), technology became more accessible. Electronic music taken to new heights with computers and software-based applications. Guitars can sound like drums or pianos, keyboards like brass instruments, saxophones like violins. Popular funk/fusion groups: David Sanborn, Miles Davis, Spyro Gyra, The Yellowjackets, Lee Ritenour, Tribal Tech, The Rippingtons, The Chick Corea Elektric Band, Vital Information. This generation of great bass players included: Jeff Berlin, Marcus Miller, Abraham Laboriel, Bunny Brunel, Victor Bailey, Lincoln Goines, Jamaaladeen Tacuma, Vail Johnson, Gary King, Mark King, Jonas Hellborg, Nathan East, Darryl Jones, Jimmy 'Flim' Johnson, Tim Landers, John Patitucci, Gary Willis, Jeff Andrews, Gerald Veasley, Stuart Hamm, Brian Bromberg, Victor Wooten, Gary Grainger, Jimmy Haslip, Steve Bailey</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>What Next? - 1990s and beyond</strong></td>
+                        <td>11</td>
+                        <td>In the '90s, nearly every player mentioned remains active. Same can be said for most of the groups and artists. Other funk and funk/fusion acts established in the '80s still going strong include Gerald Albright, Béla Fleck & the Flecktones, Brandon Fields. Many people incorporating rap and hip-hop. Some going for more acoustic sound. Others pushing limits of computers and electronics to new heights. With technology (not to mention tomorrow morning!), practice of collaborating via computers and modems thousands of miles apart is seemingly no big deal</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Thumb position and six-string bass</strong></td>
+                        <td>12</td>
+                        <td>Answer to why Bailey and Bromberg use left thumb as a 'fifth finger' in upper register on electric bass: This technique, known as 'thumb position,' is the proper way to play in the upper register on an upright bass. When four strings weren't enough, Anthony and John Patitucci expanded the bass to six strings. In listening to Anthony Jackson, he takes care of business on the bass like nobody else, wanting to have a bass with the lowest string tuned all the way down to an 'A' (a full octave lower than the 'A' string). For John Patitucci, his love and respect for saxophone players (Cannonball Adderley, John Coltrane, Michael Brecker) is the inspiration for him to 'blow' on the six string</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Larry Graham and slapping technique origin</strong></td>
+                        <td>12</td>
+                        <td>Larry Graham, founder of the slapping technique, developed the thumb slap/finger pop technique out of necessity because he was on a gig (in church with his mother) and they didn't have a drummer. Larry made himself into a bassist and drummer combined, laying down the kick drum sound by slapping the bass with his right thumb, and supplying the back beat of the snare by popping the upper strings with his index finger. Story probably became embellished over the years, but it's a pretty good story. For more information on the slapping technique, refer to Funk Bass book published by Hal Leonard Corporation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mastering the Two-Finger Technique</strong></td>
+                        <td>13</td>
+                        <td>Focus exclusively on the 'fingers' technique (as opposed to the 'thumb' technique). The thumb technique involves 'slapping' the bass with the thumb and 'popping' the strings with the index (or sometimes middle) finger, creating a percussive sound and feel. The fingers technique involves plucking the strings with the index and middle fingers, creating a sound that is generally more fluid and flowing. Once you get solid with this technique and concept, there is an unlimited number of variations waiting for you. Proper positioning: correct left hand position, correct sitting position, correct standing position. Wear bass strap as high as you can while remaining comfortable. Bass should hang at the same height on body regardless of sitting or standing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Approaching the Two-Finger Technique</strong></td>
+                        <td>14</td>
+                        <td>Exercise starts with the second finger on the right hand and alternates 2-1-2-1. Each note must ring clearly. Notes should sound flowing and connected, rather than 'choked.' Fingers should not be totally straight nor too curled up, but rather, slightly rounded. Position left hand so that each finger 'hovers' over a different fret, always ready to press down on the string. Practice very slowly and deliberately, concentrating on precision</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>String Crossings</strong></td>
+                        <td>14</td>
+                        <td>The challenge of maintaining the 2-1-2-1 alternating of the fingers when moving from one string to another. Especially challenging when moving from higher strings to lower, where there is often a tendency to 'drag' one finger across the strings. For building rock-solid technique, discipline yourself to adhere to the two-finger alternating technique firmly and rigorously. 'Raking' one finger across three or four strings can be very effective, but for solid two-finger technique, learn it right. Correct and incorrect right hand position fingering sequence shown in photos</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chromatic Exercises</strong></td>
+                        <td>14</td>
+                        <td>The word 'chromatic' refers to playing all the notes, one fret at a time, without skipping any in between. Start slowly, playing each note four times. Set metronome at 60 beats per minute, or even slower if that's what it takes to get it perfect</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Left hand strength development</strong></td>
+                        <td>24</td>
+                        <td>Exercises to develop considerable strength in your left hand and improve string-crossing chops in your right hand. Always alternate right-hand fingers 2-1-2-1.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Major scales and arpeggios</strong></td>
+                        <td>25</td>
+                        <td>Comprehensive guide to developing technique and musicality through major scales and arpeggios in all keys. Includes key signatures and various fingering patterns.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reading notation</strong></td>
+                        <td>26</td>
+                        <td>When notes are in extreme upper register, use 8va symbol and sometimes write notes out. Playing open strings is easy but may lack expression at slow tempos.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Major scales in thirds</strong></td>
+                        <td>32</td>
+                        <td>Playing scales in thirds improves chops dramatically and gives better understanding of music in mind and fingers. Requires strict adherence to 2-1-2-1 right-hand fingering.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Variations of major scales</strong></td>
+                        <td>39</td>
+                        <td>Practice variations to build tremendous facility in both hands and build technique, strength and endurance. Create logical fingerings that facilitate smooth shifts on the fingerboard.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Additional variations of major scales</strong></td>
+                        <td>40</td>
+                        <td>Practice variations in all twelve keys slowly at first, then gradually increase tempo. Play at different metronome speeds (60, 64, 68, 72) to learn to play fast while maintaining musicality. Focus on 2-1-2-1 technique and careful string crossing.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Studies in Triplets</strong></td>
+                        <td>41</td>
+                        <td>Variations of triplets with different string crossings. Triplets require extra concentration and effort but are fun once mastered. Different configurations of eighth and sixteenth notes, as well as different time signatures. Improves reading and technique.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Major scales in triplets in thirds</strong></td>
+                        <td>46</td>
+                        <td>Practicing major scales in triplets in thirds improves technique (both hands) and rhythmic sense. Forces you to feel the music differently. Very challenging to coordinate fingers adhering to 2-1-2-1 rule, particularly while crossing strings. Practice patterns in all keys slowly.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chapter 3 - Studies in String Crossings</strong></td>
+                        <td>48</td>
+                        <td>Isolates musical passages requiring hands to jump from one string to another. Right hand usually requires most effort. Concentrate on keeping music flowing cleanly, efficiently and evenly. Avoid extraneous noise or string ring. Find comfortable hand position that enables dampening unwanted vibrating strings. Exercises involve variations of studies in octaves - building blocks of funk/fusion bass. Play music with good time feel (groove). Bass players provide supportive role to the rest of the band. 2-1-2-1 right-hand fingering applies for all exercises except 3.1 and 3.2 (use 1-2-1-2).</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Scale variations and creativity</strong></td>
+                        <td>47</td>
+                        <td>Exercises are invaluable for developing technique. Commit studies to memory and make up your own variations. Build solid foundation for technique rather than just memorizing notes. Major scale is not the only scale - also minors, modes, diminished, augmented, altered scales, whole tone scales, exotic scales. Try applying concepts to other scales. Play scales in thirds, fourths, fifths, other intervals. Try diminished whole-tone scale in sevenths or harmonic minor in octaves. Play arpeggio first, then scale on the way up and different one coming down. Be creative.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chapter 4 - Style Elements</strong></td>
+                        <td>57</td>
+                        <td>Review of basic elements of style that make music sound more interesting and add personality to playing. Techniques include hammer-on, pull-off, slide, and trill.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Hammer-on</strong></td>
+                        <td>57</td>
+                        <td>Produces a note by slamming a finger onto the fingerboard, as opposed to actually plucking the string. Previous note has been struck and is still ringing on the same string, adding extra momentum to the hammer-on. Also possible for note to be produced by hammer-on technique alone, requiring extra effort in left-hand finger. Provides variety in articulation and allows faster playing by relieving right hand of some work.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Pull-off</strong></td>
+                        <td>58</td>
+                        <td>Close relative (cousin) of the hammer-on. Another variation in articulation that makes playing more interesting. More difficult than hammer-on. Executed by 'flicking' a left-hand finger off the string, in a downward motion. Before pulling, must make sure you have a note pressed down on another fret ready to 'take over'. Most common pair of left-hand fingers used in pull-off is the 'ring-to-index' combination, but any other pattern is possible.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Slide</strong></td>
+                        <td>59</td>
+                        <td>Another way to get around from one note to another on the fingerboard is to slide your finger from one fret to another without lifting it up. You'll have to push down a little harder to get a smooth transition, but you ought to get the feel of it pretty quickly. Going for variety, style and personality.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Trill</strong></td>
+                        <td>60</td>
+                        <td>Simply a hammer-on/pull-off combination that keeps repeating itself, usually fast. Might find yourself using first two fingers most often, but often third finger or even pinky might be more appropriate. Don't limit options. Practice exercises with as many variations as you can. Fingers will get stronger and you'll add one more element to your awesome arsenal of tricks.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Shake</strong></td>
+                        <td>61</td>
+                        <td>Alternating of two notes on one string, usually fast. The shake produces both notes with the same finger, sliding back and forth, rather than two fingers hammering on and pulling off. The result is a completely different sound. Shakes are harder to play smoothly at first, requiring extra effort, but once mastered, the effort is worth it. This technique distinguishes someone who just plays the notes from someone who adds personality and makes the music more interesting to listen to, while keeping right on with taking care of business and grooving with that great time feel.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>The Bend</strong></td>
+                        <td>62</td>
+                        <td>A way to alter the pitch of a note, without moving to another fret. Not the kind of bends you get when you go swimming too soon after lunch. Bending the string up or down will raise the pitch of the note. The amount the pitch is raised depends on how much you bend the string. Be careful with this technique - if you use it too much, it might sound corny. If you use it sparingly and tastefully, it can add a little 'spice' to your playing. Think of these techniques as garlic - a little bit goes a long way, but too much is like... well, you know.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chapter 5 - Establishing a Groove</strong></td>
+                        <td>63</td>
+                        <td>The chapter focuses on establishing a groove - playing music over and over again with drum machine or real live drummer. Examples (not referred to as 'exercises') are intended to be played repeatedly. Concentrate on locking in and laying down a solid foundation for the rest of the band. When you chose to be a bass player, you committed your willingness to play repetitive figures over and over (and over) again, often with no paint or no variation. It's just part of the gig. But what a wonderful gig it is! Everyone else relies upon us, along with the drummer, to lay it down and establish the groove. Let the music breathe, keep it simple and groove. Tempos have been deliberately omitted. Use the recorded supplement as a guide, but feel free to experiment with different tempos. Bass is recorded on the right side and drums on the left for isolation and experimentation with different methods of practicing. Playing in all twelve keys.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Chapter 6 - Building a Vocabulary for Funk/Fusion Soloing</strong></td>
+                        <td>81</td>
+                        <td>This chapter focuses on building a vocabulary for funk/fusion soloing. The goal is to observe the style of music being performed and understand the musical concepts. The examples are bite-size chunks of musical ideas that can be developed into solos or inserted within solos. A good solo tells a story through motivic development, phrase linking, and thematic approach. Rather than giving a dissertation on funk/fusion bass improvisation, the chapter presents musical licks that will enhance playing and help highlight creativity and overall musical abilities in between laying down grooves. These licks get pretty intricate, so start slowly and practice diligently. The goal is to understand concepts and feels, rather than just memorizing notes. Once mastered, you'll be able to make up your own licks and make them fit into your own music. Solos should sound spontaneous, not memorized and rehearsed. The chapter places these bite-size chunks in the context of grooves. The examples are meant to whet your appetite and get you used to some things to think about. Naturally, the best way to understand the musical concepts is to observe this style of music being performed (go to concerts and clubs) and to hear it being played properly (listen to the recordings in the Discography). These bite-size chunks are placed in the context of GROOVES. Check out as much live music as you can, and keep working on your technique and play, play, play!</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Discography</strong></td>
+                        <td>88</td>
+                        <td>A comprehensive discography of funk/fusion bass recordings. The best way to get a grasp of a musical concept is to immerse yourself in it - listen to it as much as possible and try to imitate what you hear. Compare different bass players and their styles and start asking questions about what makes each unique. The selections were chosen because of the way they showcase the groove, as well as some awesome soloing. The suggested recordings cover quite a wide array of fingerstyle funk/fusion bass, from Bernard Odum/Bootsy Collins/Charles Sherrell idiom that helped polarize James Brown's soul style of funk, to the fretless-oriented inimitable style of Jaco Pastorius, to the rapid-fire machine-gun funk of Tower of Power, to the pop-oriented Earth, Wind & Fire. Other players like Gary Willis, Jimmy Haslip and Stuart Hamm have been included, primarily to highlight their soloing abilities. Naturally, this list couldn't include every great bass player on every great recording of funk/fusion music. All of the players listed below are important and worthwhile. Listen closely and enjoy.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Acknowledgments</strong></td>
+                        <td>92</td>
+                        <td>Thanks to everyone who helped get this project off the ground, including bass players who reviewed the manuscript: Verdine White, Steve Bailey, Nathan East, Abraham Laboriel, Francis 'Rocco' Prestia, and Victor Wooten. Thanks also to recording sessions, groove sessions, photo sessions contributors, proofreaders, vinyl junkies, computer geeks, friends, family and the first-rate publishing outfit.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Notation Legend</strong></td>
+                        <td>94</td>
+                        <td>Comprehensive guide to reading bass tablature notation including rhythm slashes, musical staff, tablature symbols, and various playing techniques such as half-step bend, whole-step bend, grace note bend, slight (microtone) bend, bend and release, pre-bend, vibrato, wide vibrato, hammer-on, pull-off, legato slide, shift slide, trill, tapping, natural harmonic, pinch harmonic, pick scrape, muffled strings, palm mute, rake, tremolo picking, and vibrato bar techniques.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>About the Author</strong></td>
+                        <td>95</td>
+                        <td>Jon Liebman holds a Bachelor of Music degree in Jazz Studies and Contemporary Media from Wayne State University in Detroit and a Master of Music degree in Studio Music and Jazz from the University of Miami in Coral Gables, Florida. He has performed extensively throughout the world, playing electric and acoustic bass for everything from jazz gigs and club dates to national television shows and full-scale concerts at Madison Square Garden. He has played in pit orchestras of many Broadway shows. Jon has toured with jazz greats Cleo Laine and Buddy De Franco, and has played bass for The Fifth Dimension, The Coasters, The Drifters, The Platters, The Chiffons, Billy Eckstine, Eartha Kitt, José Feliciano, Julio Iglesias and many others. He has also recorded numerous commercial jingles, soundtracks, films, and industrial shows, including several projects for Ford, General Motors and the NBA. As a writer, Jon has been commissioned countless times to write arrangements for musical ensembles of all types and sizes. He has also worked as a music proofreader and copyist. In addition to Funk/Fusion Bass, Jon is the author of Funk Bass and Stuart Hamm: The Bass Book, both published by Hal Leonard Corporation. Currently, Jon is the Director of the Specs Howard School of Broadcast Arts, Inc., in Southfield, Michigan.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Endorsements</strong></td>
+                        <td>96</td>
+                        <td>Professional endorsements from renowned bassists including Verdine White (Earth, Wind & Fire), Steve Bailey (The Rippingtons, David Benoit, Larry Carlton), Francis 'Rocco' Prestia (Tower of Power), Nathan East (Fourplay, Phil Collins, Eric Clapton), Victor Wooten (Béla Fleck & the Flecktones), and Abraham Laboriel (L.A. studio legend). All endorsers praised the book for its comprehensive approach, emphasis on groove and foundation, and practical information for modern-day bassists.</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>

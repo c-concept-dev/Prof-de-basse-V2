@@ -1,1849 +1,1769 @@
 {
   "metadata": {
-    "method_name": "Paul westwood 2-5",
-    "total_songs": 86,
-    "has_mp3": false,
-    "mp3_count": 0,
-    "generated_at": "2025-11-10T15:06:37.120Z",
-    "version": "4.0.0",
-    "ocr_method": "zoned",
-    "zones": {
-      "title": {
-        "enabled": true,
-        "range": "0-20%",
-        "stats": {
-          "processed": 86,
-          "success": 0
-        }
-      },
-      "music": {
-        "enabled": false,
-        "range": "20-90%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      },
-      "footer": {
-        "enabled": true,
-        "range": "90-100%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      }
-    },
-    "ocr_config": {
-      "language": "fra",
-      "confidence_threshold": 60
-    }
+    "bookTitle": "Paul Westwood",
+    "category": "method",
+    "style": "various",
+    "totalImages": 86,
+    "totalBatches": 5,
+    "processedDate": "2025-11-16T16:36:09.543Z"
   },
-  "songs": [
-    {
-      "title": "Page 1",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 1,
-      "page_url": "assets/pages/page_001.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 2",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 2,
-      "page_url": "assets/pages/page_002.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 3",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 3,
-      "page_url": "assets/pages/page_003.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 4",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 4,
-      "page_url": "assets/pages/page_004.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 5",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 5,
-      "page_url": "assets/pages/page_005.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 6",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 6,
-      "page_url": "assets/pages/page_006.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 7",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 7,
-      "page_url": "assets/pages/page_007.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 8",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 8,
-      "page_url": "assets/pages/page_008.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 9",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 9,
-      "page_url": "assets/pages/page_009.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 10",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 10,
-      "page_url": "assets/pages/page_010.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 11",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 11,
-      "page_url": "assets/pages/page_011.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 12",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 12,
-      "page_url": "assets/pages/page_012.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 13",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 13,
-      "page_url": "assets/pages/page_013.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 14",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 14,
-      "page_url": "assets/pages/page_014.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 15",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 15,
-      "page_url": "assets/pages/page_015.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 16",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 16,
-      "page_url": "assets/pages/page_016.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 17",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 17,
-      "page_url": "assets/pages/page_017.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 18",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 18,
-      "page_url": "assets/pages/page_018.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 19",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 19,
-      "page_url": "assets/pages/page_019.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 20",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 20,
-      "page_url": "assets/pages/page_020.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 21",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 21,
-      "page_url": "assets/pages/page_021.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 22",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 22,
-      "page_url": "assets/pages/page_022.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 23",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 23,
-      "page_url": "assets/pages/page_023.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 24",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 24,
-      "page_url": "assets/pages/page_024.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 25",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 25,
-      "page_url": "assets/pages/page_025.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 26",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 26,
-      "page_url": "assets/pages/page_026.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 27",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 27,
-      "page_url": "assets/pages/page_027.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 28",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 28,
-      "page_url": "assets/pages/page_028.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 29",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 29,
-      "page_url": "assets/pages/page_029.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 30",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 30,
-      "page_url": "assets/pages/page_030.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 31",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 31,
-      "page_url": "assets/pages/page_031.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 32",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 32,
-      "page_url": "assets/pages/page_032.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 33",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 33,
-      "page_url": "assets/pages/page_033.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 34",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 34,
-      "page_url": "assets/pages/page_034.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 35",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 35,
-      "page_url": "assets/pages/page_035.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 36",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 36,
-      "page_url": "assets/pages/page_036.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 37",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 37,
-      "page_url": "assets/pages/page_037.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 38",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 38,
-      "page_url": "assets/pages/page_038.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 39",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 39,
-      "page_url": "assets/pages/page_039.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 40",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 40,
-      "page_url": "assets/pages/page_040.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 41",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 41,
-      "page_url": "assets/pages/page_041.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 42",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 42,
-      "page_url": "assets/pages/page_042.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 43",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 43,
-      "page_url": "assets/pages/page_043.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 44",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 44,
-      "page_url": "assets/pages/page_044.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 45",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 45,
-      "page_url": "assets/pages/page_045.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 46",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 46,
-      "page_url": "assets/pages/page_046.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 47",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 47,
-      "page_url": "assets/pages/page_047.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 48",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 48,
-      "page_url": "assets/pages/page_048.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 49",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 49,
-      "page_url": "assets/pages/page_049.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 50",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 50,
-      "page_url": "assets/pages/page_050.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 51",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 51,
-      "page_url": "assets/pages/page_051.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 52",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 52,
-      "page_url": "assets/pages/page_052.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 53",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 53,
-      "page_url": "assets/pages/page_053.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 54",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 54,
-      "page_url": "assets/pages/page_054.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 55",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 55,
-      "page_url": "assets/pages/page_055.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 56",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 56,
-      "page_url": "assets/pages/page_056.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 57",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 57,
-      "page_url": "assets/pages/page_057.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 58",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 58,
-      "page_url": "assets/pages/page_058.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 59",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 59,
-      "page_url": "assets/pages/page_059.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 60",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 60,
-      "page_url": "assets/pages/page_060.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 61",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 61,
-      "page_url": "assets/pages/page_061.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 62",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 62,
-      "page_url": "assets/pages/page_062.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 63",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 63,
-      "page_url": "assets/pages/page_063.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 64",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 64,
-      "page_url": "assets/pages/page_064.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 65",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 65,
-      "page_url": "assets/pages/page_065.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 66",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 66,
-      "page_url": "assets/pages/page_066.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 67",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 67,
-      "page_url": "assets/pages/page_067.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 68",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 68,
-      "page_url": "assets/pages/page_068.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 69",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 69,
-      "page_url": "assets/pages/page_069.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 70",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 70,
-      "page_url": "assets/pages/page_070.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 71",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 71,
-      "page_url": "assets/pages/page_071.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 72",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 72,
-      "page_url": "assets/pages/page_072.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 73",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 73,
-      "page_url": "assets/pages/page_073.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 74",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 74,
-      "page_url": "assets/pages/page_074.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 75",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 75,
-      "page_url": "assets/pages/page_075.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 76",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 76,
-      "page_url": "assets/pages/page_076.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 77",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 77,
-      "page_url": "assets/pages/page_077.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 78",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 78,
-      "page_url": "assets/pages/page_078.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 79",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 79,
-      "page_url": "assets/pages/page_079.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 80",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 80,
-      "page_url": "assets/pages/page_080.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 81",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 81,
-      "page_url": "assets/pages/page_081.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 82",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 82,
-      "page_url": "assets/pages/page_082.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 83",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 83,
-      "page_url": "assets/pages/page_083.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 84",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 84,
-      "page_url": "assets/pages/page_084.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 85",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 85,
-      "page_url": "assets/pages/page_085.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 86",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 86,
-      "page_url": "assets/pages/page_086.jpg",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "jpg",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    }
-  ]
+  "content": {
+    "songs": [],
+    "exercises": [
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 343",
+        "page": 1,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 344",
+        "page": 1,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 345",
+        "page": 1,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 346",
+        "page": 1,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 347",
+        "page": 1,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 348",
+        "page": 1,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Styles latins - Cha Cha 1 - Exercice 349",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Cha Cha 2 - Exercice 350",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Cha Cha 3 - Exercice 351",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Cha Cha 4 - Exercice 352",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Cha Cha 5 - Exercice 353",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Cha Cha 6 - Exercice 354",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Tango 1 - Exercice 355",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Tango 2 - Exercice 356",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Tango 3 - Exercice 357",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Tango 4 - Exercice 358",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Tango 5 - Exercice 359",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Montuno 1 - Exercice 360",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Montuno 2 - Exercice 361",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Montuno 3 - Exercice 362",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Merengue 1 - Exercice 363",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Merengue 2 - Exercice 364",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Merengue 3 - Exercice 365",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Rumba 1 - Exercice 366",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Rumba 2 - Exercice 367",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Rumba 3 - Exercice 368",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Calypso 1 - Exercice 369",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Calypso 2 - Exercice 370",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Calypso 3 - Exercice 371",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Calypso 4 - Exercice 372",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Calypso 5 - Exercice 373",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Bajon 1 - Exercice 374",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Bajon 2 - Exercice 375",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Mambo 1 - Exercice 376",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Mambo 2 - Exercice 377",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Mambo 3 - Exercice 378",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Mambo 4 - Exercice 379",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Samba 1 - Exercice 380",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Samba 2 - Exercice 381",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Samba 3 - Exercice 382",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Bossa Nova 1 - Exercice 383",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Bossa Nova 2 - Exercice 384",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Guajira 1 - Exercice 385",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Guajira 2 - Exercice 386",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Guajira 3 - Exercice 387",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Guaracha - Exercice 388",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Valse Creole - Exercice 389",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Bolero - Exercice 390",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - La Balumpa - Exercice 391",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Pachanga - Exercice 392",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Biguine - Exercice 393",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - La Cumbia - Exercice 394",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - La Carioca - Exercice 395",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Afro Pop - Exercice 396",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Lambada - Exercice 397",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Salsa - Exercice 398",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Styles latins - Nanigo - Exercice 399",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 400",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 401",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 402",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 403",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 404",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 405",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 406",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 407",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 408",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 409",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 410",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 411",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 412",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 413",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 414",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Exercice 415",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 416",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 417",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 418",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 419",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 420",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 421",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 422",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 423",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 424",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 425",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 426",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins sur tempo redoublé - Exercice 427",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 428",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 429",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 430",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 431",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 432",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 433",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 434",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 435",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 436",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 437",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 438",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 439",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 440",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 441",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 442",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 443",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 444",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 445",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 446",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 447",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Riffs latins - Salsa - Exercice 448",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "latin"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 449",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 450",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 451",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 452",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 453",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 454",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 455",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 456",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 457",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 458",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 459",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Flamenco espagnol - Exercice 460",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "flamenco"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 461",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 462",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 463",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 464",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 465",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 466",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 467",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 468",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 469",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 470",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 471",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 472",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 473",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 474",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 475",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mariachi mexicain - Exercice 476",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "mariachi"
+      },
+      {
+        "title": "Mambo cubain - Exercice 477",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 478",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 479",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 480",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 481",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 482",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 483",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 484",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 485",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 486",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 487",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 488",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 489",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 490",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 491",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 492",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 493",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 494",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 495",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 496",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 497",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 498",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 499",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 500",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 501",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 502",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 503",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 504",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 505",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 506",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Mambo cubain - Exercice 507",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "mambo"
+      },
+      {
+        "title": "Rock cubain - Exercice 508",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 509",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 510",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 511",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 512",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 513",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 514",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 515",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 516",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 517",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 518",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 519",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 520",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 521",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 522",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 523",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 524",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 525",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 526",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 527",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 528",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 529",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 530",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 531",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 532",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 533",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 534",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 535",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Rock cubain - Exercice 536",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "rock cubain"
+      },
+      {
+        "title": "Reggae jamaïcain - Exercice 537",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Reggae jamaïcain - Exercices 538-541",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Reggae jamaïcain - Exercices 542-550",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Reggae jamaïcain - Exercices 551-560",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Reggae jamaïcain - Exercices 561-568",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Reggae jamaïcain - Exercices 569-576",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Rythme régulier sans temps fort - Exercices 573-576",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "even rhythm"
+      },
+      {
+        "title": "Reggae - Exercices 577-585",
+        "page": 26,
+        "difficulty": "intermédiaire",
+        "technique": "reggae rhythm"
+      },
+      {
+        "title": "Rythme de shuffle - Exercices 586-595",
+        "page": 27,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle rhythm"
+      },
+      {
+        "title": "Rythme de shuffle sans temps fort - Exercices 596-604",
+        "page": 28,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle rhythm"
+      },
+      {
+        "title": "Colombie - Exercices 605-613",
+        "page": 29,
+        "difficulty": "intermédiaire",
+        "technique": "colombian rhythm"
+      },
+      {
+        "title": "Samba brésilienne - Exercices 614-622",
+        "page": 30,
+        "difficulty": "intermédiaire",
+        "technique": "samba rhythm"
+      },
+      {
+        "title": "Samba brésilienne - Exercices 623-633",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "samba rhythm"
+      },
+      {
+        "title": "Pérou, Équateur, Chili, Bolivie - Exercices 634-643",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "south american rhythm"
+      },
+      {
+        "title": "Pérou, Équateur, Chili, Bolivie - Exercices 644-646",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "south american rhythm"
+      },
+      {
+        "title": "Riffs africains - Exercices 647-651",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "african riffs"
+      },
+      {
+        "title": "Riffs africains - Exercices 652-660",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "african riffs"
+      },
+      {
+        "title": "Riffs africains - Exercices 661-669",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "african riffs"
+      },
+      {
+        "title": "Riffs africains - Exercices 670-680",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "african riffs"
+      },
+      {
+        "title": "Riffs africains - Exercices 681-689",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "african riffs"
+      },
+      {
+        "title": "Riffs africains - Exercices 690-698",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "african riffs"
+      },
+      {
+        "title": "Afrique du Nord et Moyen-Orient - Exercices 699-704",
+        "page": 40,
+        "difficulty": "intermédiaire",
+        "technique": "north african rhythm"
+      },
+      {
+        "title": "Somalie - Exercices 705-713",
+        "page": 41,
+        "difficulty": "intermédiaire",
+        "technique": "somalian rhythm"
+      },
+      {
+        "title": "Somalie - Exercices 714-717",
+        "page": 42,
+        "difficulty": "intermédiaire",
+        "technique": "somalian rhythm"
+      },
+      {
+        "title": "Mali - Exercices 718-721",
+        "page": 42,
+        "difficulty": "intermédiaire",
+        "technique": "malian rhythm"
+      },
+      {
+        "title": "Mali - Exercices 722-727",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "malian rhythm"
+      },
+      {
+        "title": "Mali - Exercices 728-732",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "malian rhythm"
+      },
+      {
+        "title": "Mali - Exercices 733-741",
+        "page": 44,
+        "difficulty": "intermédiaire",
+        "technique": "malian rhythm"
+      },
+      {
+        "title": "Guinée - Exercices 742-745",
+        "page": 45,
+        "difficulty": "intermédiaire",
+        "technique": "guinean rhythm"
+      },
+      {
+        "title": "Guinée - Exercices 746-751",
+        "page": 45,
+        "difficulty": "intermédiaire",
+        "technique": "guinean rhythm"
+      },
+      {
+        "title": "Guinée - Exercices 752-760",
+        "page": 46,
+        "difficulty": "intermédiaire",
+        "technique": "guinean rhythm"
+      },
+      {
+        "title": "Guinée - Exercices 761-762",
+        "page": 47,
+        "difficulty": "intermédiaire",
+        "technique": "guinean rhythm"
+      },
+      {
+        "title": "Cameroun - Exercices 763-767",
+        "page": 47,
+        "difficulty": "intermédiaire",
+        "technique": "cameroonian rhythm"
+      },
+      {
+        "title": "Cameroun - Exercices 768-775",
+        "page": 48,
+        "difficulty": "intermédiaire",
+        "technique": "cameroonian rhythm"
+      },
+      {
+        "title": "Zaïre - Exercices 776-784",
+        "page": 49,
+        "difficulty": "intermédiaire",
+        "technique": "congolese rhythm"
+      },
+      {
+        "title": "Zaïre - Exercices 785-794",
+        "page": 50,
+        "difficulty": "intermédiaire",
+        "technique": "congolese rhythm"
+      },
+      {
+        "title": "Zimbabwe - Exercices 795-799",
+        "page": 51,
+        "difficulty": "intermédiaire",
+        "technique": "zimbabwean rhythm"
+      },
+      {
+        "title": "Zimbabwe - Exercices 800-807",
+        "page": 52,
+        "difficulty": "intermédiaire",
+        "technique": "zimbabwean rhythm"
+      },
+      {
+        "title": "Afrique du Sud et Soweto - Exercices 808-815",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "south african rhythm"
+      },
+      {
+        "title": "Afrique du Sud et Soweto - Exercices 816-826",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "south african rhythm"
+      },
+      {
+        "title": "Afrique du Sud et Soweto - Exercices 827-837",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "south african rhythm"
+      },
+      {
+        "title": "Lignes de boogie - Exercices 838-846",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "boogie lines"
+      },
+      {
+        "title": "Lignes de boogie - Exercices 847-850",
+        "page": 58,
+        "difficulty": "intermédiaire",
+        "technique": "boogie lines"
+      },
+      {
+        "title": "Slap (obstinato) - Exercices 851-862",
+        "page": 59,
+        "difficulty": "intermédiaire",
+        "technique": "slap"
+      },
+      {
+        "title": "Slap (boogie) Larry Graham - Exercices 863-872",
+        "page": 60,
+        "difficulty": "avancé",
+        "technique": "slap"
+      },
+      {
+        "title": "Slap (boogie) Larry Graham - Exercices 873-884",
+        "page": 61,
+        "difficulty": "avancé",
+        "technique": "slap"
+      },
+      {
+        "title": "Slap (boogie) Larry Graham - Exercices 885-886",
+        "page": 62,
+        "difficulty": "avancé",
+        "technique": "slap"
+      },
+      {
+        "title": "Slap (popping) Mark King - Exercices 887-891",
+        "page": 62,
+        "difficulty": "avancé",
+        "technique": "slap"
+      },
+      {
+        "title": "Slap (popping) Mark King - Exercices 892-901",
+        "page": 63,
+        "difficulty": "avancé",
+        "technique": "slap"
+      },
+      {
+        "title": "Riffs - Exercices 902-906",
+        "page": 64,
+        "difficulty": "avancé",
+        "technique": "riffs"
+      },
+      {
+        "title": "Riffs - Exercices 907-916",
+        "page": 65,
+        "difficulty": "avancé",
+        "technique": "riffs"
+      },
+      {
+        "title": "Riffs - Exercices 917-922",
+        "page": 66,
+        "difficulty": "avancé",
+        "technique": "riffs"
+      },
+      {
+        "title": "Solos de fretless - Exercice 922",
+        "page": 66,
+        "difficulty": "avancé",
+        "technique": "fretless"
+      },
+      {
+        "title": "Solos de fretless - Exercice 923",
+        "page": 67,
+        "difficulty": "avancé",
+        "technique": "fretless"
+      },
+      {
+        "title": "Solos de fretless - Exercices 924-925",
+        "page": 68,
+        "difficulty": "avancé",
+        "technique": "fretless"
+      },
+      {
+        "title": "Progressions d'accords en arpèges avec harmoniques - Exercices 926-930",
+        "page": 70,
+        "difficulty": "avancé",
+        "technique": "harmonics"
+      },
+      {
+        "title": "Basse synthé - Exercices 931-939",
+        "page": 71,
+        "difficulty": "intermédiaire",
+        "technique": "synth bass"
+      },
+      {
+        "title": "Basse synthé - Exercices 940-951",
+        "page": 72,
+        "difficulty": "intermédiaire",
+        "technique": "synth bass"
+      },
+      {
+        "title": "Basse synthé - Exercices 952-954",
+        "page": 73,
+        "difficulty": "intermédiaire",
+        "technique": "synth bass"
+      },
+      {
+        "title": "Riffs modernes - Exercices 955-962",
+        "page": 74,
+        "difficulty": "avancé",
+        "technique": "modern riffs"
+      },
+      {
+        "title": "Riffs modernes - Exercices 963-971",
+        "page": 75,
+        "difficulty": "avancé",
+        "technique": "modern riffs"
+      },
+      {
+        "title": "Riffs modernes - Exercices 972-982",
+        "page": 76,
+        "difficulty": "avancé",
+        "technique": "modern riffs"
+      },
+      {
+        "title": "Riffs modernes - Exercices 983-993",
+        "page": 77,
+        "difficulty": "avancé",
+        "technique": "modern riffs"
+      },
+      {
+        "title": "Riffs modernes - Exercices 994-995",
+        "page": 78,
+        "difficulty": "avancé",
+        "technique": "modern riffs"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 996",
+        "page": 78,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 997",
+        "page": 79,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 998",
+        "page": 80,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 999",
+        "page": 81,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 1000",
+        "page": 82,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 1001",
+        "page": 83,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 1002",
+        "page": 84,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercices 1003-1004",
+        "page": 85,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      },
+      {
+        "title": "Jazz et lignes progressives - Exercice 1005",
+        "page": 86,
+        "difficulty": "avancé",
+        "technique": "jazz"
+      }
+    ],
+    "concepts": [
+      {
+        "concept": "LIVRE TROIS - Musique latine",
+        "page": 1,
+        "description": "Introduction au Livre Trois qui couvre les musiques latines, styles latins, riffs latins, flamenco espagnol, mariachi mexicain, mambo cubain, rock cubain, reggae jamaïcain, colombie, samba brésilienne, et musiques du Pérou, Equateur, Chili et Bolivie"
+      },
+      {
+        "concept": "Musique latine",
+        "page": 2,
+        "description": "Histoire et géographie de la musique latine, incluant les influences africaines, européennes et indigènes. Carte géographique de l'Amérique Latine montrant les différents pays et leurs traditions musicales"
+      },
+      {
+        "concept": "Styles latins",
+        "page": 3,
+        "description": "Présentation des différents styles latins avec leurs caractéristiques rythmiques: Cha Cha, Tango, Montuno, Merengue, Rumba, Calypso"
+      },
+      {
+        "concept": "Riffs latins",
+        "page": 7,
+        "description": "Introduction aux riffs latins et leurs applications dans différents contextes musicaux latins"
+      },
+      {
+        "concept": "Riffs latins sur tempo redoublé",
+        "page": 9,
+        "description": "Techniques pour jouer des riffs latins avec un tempo doublé, augmentant la complexité rythmique"
+      },
+      {
+        "concept": "Flamenco espagnol",
+        "page": 12,
+        "description": "Caractéristiques du flamenco espagnol et son influence sur la musique latine, avec les grands artistes comme Manitas de Plata et Paco de Lucía"
+      },
+      {
+        "concept": "Mariachi mexicain",
+        "page": 13,
+        "description": "Histoire et caractéristiques du mariachi mexicain, instrument essentiel de la musique mexicaine avec ses guitares, violons et trompettes"
+      },
+      {
+        "concept": "Mambo cubain",
+        "page": 15,
+        "description": "Le mambo comme genre musical afro-cubain populaire à Cuba, caractérisé par ses rythmes syncopés et son influence du jazz"
+      },
+      {
+        "concept": "Rock cubain",
+        "page": 18,
+        "description": "Fusion du rock avec les rythmes cubains, créant un style unique qui combine éléments occidentaux et traditions cubaines"
+      },
+      {
+        "concept": "Reggae jamaïcain",
+        "page": 21,
+        "description": "Le reggae combine une abondance de rythmes et styles musicaux, inspiré par les grands artistes comme Bob Marley, Lee Perry et bien d'autres. Les lignes de basse sont variées et souvent élaborées, utilisant des modes mineurs et des techniques hypnotiques avec des riffs en ostinato."
+      },
+      {
+        "concept": "Rythme régulier sans temps fort",
+        "page": 25,
+        "description": "Introduction aux rythmes réguliers sans accentuation marquée, caractéristiques de certains styles musicaux."
+      },
+      {
+        "concept": "Rythme de shuffle",
+        "page": 27,
+        "description": "Technique de jeu avec rythme ternaire swing caractéristique du blues et du jazz."
+      },
+      {
+        "concept": "Colombie",
+        "page": 29,
+        "description": "La Colombie combine une abondance de rythmes et styles musicaux, incluant le cumbia, le vallenato, la salsa et autres styles avec des rythmes asymétriques caractéristiques."
+      },
+      {
+        "concept": "Samba brésilienne",
+        "page": 30,
+        "description": "La samba est une danse rapide en 2/4. La basse joue des rythmes syncopés souvent structurés autour de la basse sur les 1er et 3e temps. Le rythme se divise en 16 temps avec une forte tendance vers les percussions harmonieusement complexes."
+      },
+      {
+        "concept": "Pérou, Équateur, Chili, Bolivie",
+        "page": 32,
+        "description": "La musique de ces pays découle des traditions folkloriques. Les rythmes sont construits autour de la guitare, la harpe et autres instruments qui créent des fondations très spécifiques."
+      },
+      {
+        "concept": "Musique africaine",
+        "page": 34,
+        "description": "L'Afrique a contribué à une multitude de genres musicaux. Les riffs sont fondés sur des rythmes répétitifs et des motifs modaux. La musique africaine se caractérise par l'utilisation de divers styles: gnawa, zouk, highlife, juju, mbalax, soukous et bien d'autres."
+      },
+      {
+        "concept": "Afrique du Nord et Moyen-Orient",
+        "page": 39,
+        "description": "Cette partie n'est pas aussi particulière que la musique de l'Afrique noire, qui est dominée par des rythmes puissants. Elle se caractérise par des percussions complexes et des figures qui font les interprétations riches et variées."
+      },
+      {
+        "concept": "Somalie",
+        "page": 41,
+        "description": "Cette nation d'Afrique orientale fait largement partie de la culture de ses voisins, l'Éthiopie et le Kenya, avec des percussions comme le dhol et des instruments luth. L'expression musicale va de la récitation coranique ou classique, aux chansons populaires et aux chants de pêcheurs. Les paroles des chansons sont émouvantes et allusives, beaucoup sont évocatrices et aident les musiciens à jouer avec expressivité."
+      },
+      {
+        "concept": "Mali",
+        "page": 42,
+        "description": "Le Mali compte parmi les chanteurs maliens les plus célèbres au monde de la musique africaine, avec des artistes comme Ali Farka Touré et Salif Keïta. Les instruments traditionnels (guitare et cordes) contribuent grandement à créer la sonorité traditionnelle. La musique a subi l'influence des griots et leur rôle est d'être chanteur et de gérer l'histoire orale du Mali. La chanson Kuly Magni est un grand symbole du patrimoine malien, représentant l'art des griots de sociétés sociales, humoristes et politiques contemporaines."
+      },
+      {
+        "concept": "Guinée",
+        "page": 45,
+        "description": "Depuis les années 70, grâce à la révolution politique et au soutien précédent, la musique guinéenne est désormais mondialement reconnue. Les musiciens tels les Bembeya Jazz, le groupe populaire et le folkloore afro à travers l'Afrique occidentale, participent activement à cet évolution émotionnel dans leur quête de musiques nouvelles. Les séquencers d'accords rythment un jazz profond à l'abondance orchestrale, les narrations sont composées de programmes d'accents pleins où se mêle souvent une forme rythmique et une progression d'accords."
+      },
+      {
+        "concept": "Cameroun",
+        "page": 47,
+        "description": "Le Cameroun est l'un des groupes camerounais les plus connus. Ils jouent une musique qui mélange le rythme primitif local des terres de l'Afrique occidentale et sont une référence à la culture africaine. Créez et tapez en cerceau avec des rythmes libres, comme les rythmes variés portés de manière."
+      },
+      {
+        "concept": "Zaïre",
+        "page": 49,
+        "description": "Le Zaïre combine une multitude de musiques variées. Koffi Olomide, par exemple, est très contemporain dans son approche du N'doli et sa variété de style ballade. Mbilia Bel incarne une fusion entre le N'doli, Sam Mangwana, Empire Bakuba, à Louba et Franco Luambo. Le rythme se multiplie et se repose de manière unique. Les lignes mélodiques exécutées par des cuivres, et l'expression générale qui les produit, forment un ensemble."
+      },
+      {
+        "concept": "Zimbabwe",
+        "page": 51,
+        "description": "Le Zimbabwe a produit un style unique reconnaissable et la personne de John Chibadura. La musique se base traditionnellement dans la liberté infinie en musique, de l'intensité, d'amour, de fierté avec de fortes lignes de basse. Le genre est très populaire pour une rythmique et technique de demande et des jeunes musicaux qui répandent le jus d'une guitare, leurs qualités et systèmes suivent et accentuent les intervalles claires qui reflètent la vibrance et l'intensité du Zimbabwe. Lors d'être extrêmement, se style qui reflète le profond. C'est un cocktail étonnant relatif vers la musique de danse longtemps à un chant visuel."
+      },
+      {
+        "concept": "Afrique du Sud et Soweto",
+        "page": 53,
+        "description": "Mbaqanga est un des musiques ethniques les plus célèbres de Soweto, une banlieue de Johannesburg. Son style vocal s'appelle musique township. Ces styles évoluent influencés par d'autres groupes et des prêts d'autres musiques, lorsque certains instruments utilisés en Inde influencent les niveaux townships. Les paroles sont généralement en anglais, mais également en anglais pour jouets et le public rend le tempo immédiate accompagnent efficacement les chansons souvent sudafritas. Il est recommandable de marquer le temps-d'artistes comme Mbaqanda Black Mambazo, la Malagazi Tushie Band, Amaswarzi Emvelo, Isayoni Mbhuku, Dhkha, Jjivi, Mábirora, et Abafana."
+      },
+      {
+        "concept": "Lignes de boogie",
+        "page": 57,
+        "description": "Les lignes de boogie évoluèrent jusqu'à nos jours où ont reçu comment cette sorte de basse de la main gauche. Le boogie est fondé sur une ligne de basse walking en 4/4, mais joué de marotte double rapide chaque temps de la mesure. Lorsque le boogie était arrangé à la guitare, les notes ou l'échelle étaient permis, entre eux et les périodes de boogie apparaît plus étirement bien souvent harmoniquement et jouant nécessaire les notes-lui étant plus régulier et contrastant en jouant about des lots le même nom. Les possières de boogie doublait et contribuent à un swing en 4/4 et constituent à un swing et les lignes subtiles."
+      },
+      {
+        "concept": "Larry Graham et Mark King - Le slap",
+        "page": 58,
+        "description": "La technique consistant à frapper claquer les cordes d'une contrebasse fut d'abord popularisé par des artistes comme Chubby Jackson. Le plus gros popularise étant de la basse précoce s'est de l'enseignement à cause de techniques davant figurant d'une basse et plus tard de la vélocité infini et le savoir taper révélé à la boucle, en donnant non seulement utilise et mieux utilisée, pour commencer à explorer ce style. Les bassistes recommencent à explorer ce style. Il ne pourrait pas encore comment faire sa basse à la musique moderne. Le style de basse, bien sûr importante et réellement qui est le suivant à lorsque Larry Graham la popularise ainsi, d'après Sly and the Family Stone."
+      },
+      {
+        "concept": "Jaco Pastorius - La basse fretless",
+        "page": 64,
+        "description": "Depuis la venue de Jaco Pastorius, la basse à toucher lisse était sous-développée, et pratiquement inconnue. La popularité de Weather Report la fit connaître instantanément à un vaste public. Un album solo salutaire Pastorius au firmament des bassistes, plaçant les précisions de bien des musiciens et de jazz et favorisant. Par rapport au son plat de jazz influencent et stimulent que pouvait offrir une folk basse, les lignes qu'il développait se seraient élévées et chorals. L'exemple le meilleur est Bon Come, la possibilité de portée offre un grand d'espace. Pendant de cette technique, c'est grossi assurément."
+      },
+      {
+        "concept": "Harmoniques naturelles",
+        "page": 69,
+        "description": "Toutes les cordes sont capables de produire des harmoniques naturelles. Par exemple, si l'on baise la corde à la 12e frette, puis on touche doucement un doigt de la main gauche dessus, et en pinçant ainsi une note octave au-dessus de la corde en pleine longueur. Il en produit d'autres harmoniques à d'autres intervalles, par exemple aux 5e, 7e et 9e cases. Il est plutôt de pratique qu'il existe environ 4 positions de pratiques differentes, et qui peuvent se combiner de plusieurs façons et une harmonique. Naturellement, la combinaison de plusieurs accords fournit un son multiple et est multiples possibles."
+      },
+      {
+        "concept": "Basse synthé",
+        "page": 71,
+        "description": "Les progrès en électronique ont révolutionné la ligne de basse. Grâce au synthétiseur, il est possible de programmer une figure rythmique et de la répéter chaque fois que la technique. Tandis que le bassiste, pour éviter la monotonie, changeant délicatement l'intensité des notes qu'il joue mais produisant quand même des phares rythmiques identiques. Ces figures étalent pour plus rapidement et précisément que ne pourraient le faire la plupart des musiciens physiquement, quand même cette forme générale de deviennent très populaires."
+      },
+      {
+        "concept": "Riffs modernes - Jazz et lignes progressives",
+        "page": 73,
+        "description": "Depuis son apparition, il y a plus de quarante-cinq années, la grande basse a connu de nombreux développements stylistiques qui continuent à s'accélérer. Nutrition, la bassiste oblige marginalement jouer dans un style défini en particulier, souvent en swing, déjà 60. KX axial une la rythmie de la norme, ce la fonda timing. Une formation de blues, par exemple, suivit ainsi de franchir une sa bassiste de jazz ou un joueur de style. Mais un bassiste de jazz peut, aujourd'hui, se permet un style assez variés porter à une acheter lutrin."
+      }
+    ]
+  }
 }

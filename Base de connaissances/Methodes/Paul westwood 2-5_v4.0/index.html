@@ -3,1574 +3,2213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul westwood 2-5 - Index V4.0</title>
+    <title>Paul Westwood - Index</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
             background: #f5f5f5;
-            padding: 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .v4-badge {
-            display: inline-block;
-            background: #9c27b0;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 30px;
+            border-radius: 12px;
             margin-bottom: 30px;
         }
-        .page {
-            margin-bottom: 40px;
-            padding: 20px;
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
             background: #f8f9fa;
+            padding: 20px;
             border-radius: 8px;
+            text-align: center;
             border-left: 4px solid #667eea;
         }
-        .page-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
         }
-        .page-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        .page-meta {
-            display: flex;
-            gap: 10px;
+        .stat-label {
+            color: #666;
             font-size: 14px;
-            color: #666;
-            flex-wrap: wrap;
-        }
-        .page-composer {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .page img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .technique-badge {
-            background: #e0e0e0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        .error-badge {
-            background: #ffebee;
-            color: #c62828;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .zone-info {
-            background: #f3e5f5;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            color: #7b1fa2;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎸 Paul westwood 2-5</h1>
-        <p class="subtitle">
-            86 pages | 0 MP3 disponibles
-        </p>
-        <div class="v4-badge">🎯 Converti avec V4.0 - OCR par zones</div>
-        
-        <div class="page" id="page-1">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 1</div>
-                <div class="page-meta">
-                    <span>📄 Page 1</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_001.jpg" alt="Page 1">
-        </div>
-
-        <div class="page" id="page-2">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 2</div>
-                <div class="page-meta">
-                    <span>📄 Page 2</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_002.jpg" alt="Page 2">
-        </div>
-
-        <div class="page" id="page-3">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 3</div>
-                <div class="page-meta">
-                    <span>📄 Page 3</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_003.jpg" alt="Page 3">
-        </div>
-
-        <div class="page" id="page-4">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 4</div>
-                <div class="page-meta">
-                    <span>📄 Page 4</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_004.jpg" alt="Page 4">
-        </div>
-
-        <div class="page" id="page-5">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 5</div>
-                <div class="page-meta">
-                    <span>📄 Page 5</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_005.jpg" alt="Page 5">
-        </div>
-
-        <div class="page" id="page-6">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 6</div>
-                <div class="page-meta">
-                    <span>📄 Page 6</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_006.jpg" alt="Page 6">
-        </div>
-
-        <div class="page" id="page-7">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 7</div>
-                <div class="page-meta">
-                    <span>📄 Page 7</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_007.jpg" alt="Page 7">
-        </div>
-
-        <div class="page" id="page-8">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 8</div>
-                <div class="page-meta">
-                    <span>📄 Page 8</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_008.jpg" alt="Page 8">
-        </div>
-
-        <div class="page" id="page-9">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 9</div>
-                <div class="page-meta">
-                    <span>📄 Page 9</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_009.jpg" alt="Page 9">
-        </div>
-
-        <div class="page" id="page-10">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 10</div>
-                <div class="page-meta">
-                    <span>📄 Page 10</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_010.jpg" alt="Page 10">
-        </div>
-
-        <div class="page" id="page-11">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 11</div>
-                <div class="page-meta">
-                    <span>📄 Page 11</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_011.jpg" alt="Page 11">
-        </div>
-
-        <div class="page" id="page-12">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 12</div>
-                <div class="page-meta">
-                    <span>📄 Page 12</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_012.jpg" alt="Page 12">
-        </div>
-
-        <div class="page" id="page-13">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 13</div>
-                <div class="page-meta">
-                    <span>📄 Page 13</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_013.jpg" alt="Page 13">
-        </div>
-
-        <div class="page" id="page-14">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 14</div>
-                <div class="page-meta">
-                    <span>📄 Page 14</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_014.jpg" alt="Page 14">
-        </div>
-
-        <div class="page" id="page-15">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 15</div>
-                <div class="page-meta">
-                    <span>📄 Page 15</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_015.jpg" alt="Page 15">
-        </div>
-
-        <div class="page" id="page-16">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 16</div>
-                <div class="page-meta">
-                    <span>📄 Page 16</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_016.jpg" alt="Page 16">
-        </div>
-
-        <div class="page" id="page-17">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 17</div>
-                <div class="page-meta">
-                    <span>📄 Page 17</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_017.jpg" alt="Page 17">
-        </div>
-
-        <div class="page" id="page-18">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 18</div>
-                <div class="page-meta">
-                    <span>📄 Page 18</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_018.jpg" alt="Page 18">
-        </div>
-
-        <div class="page" id="page-19">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 19</div>
-                <div class="page-meta">
-                    <span>📄 Page 19</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_019.jpg" alt="Page 19">
-        </div>
-
-        <div class="page" id="page-20">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 20</div>
-                <div class="page-meta">
-                    <span>📄 Page 20</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_020.jpg" alt="Page 20">
-        </div>
-
-        <div class="page" id="page-21">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 21</div>
-                <div class="page-meta">
-                    <span>📄 Page 21</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_021.jpg" alt="Page 21">
-        </div>
-
-        <div class="page" id="page-22">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 22</div>
-                <div class="page-meta">
-                    <span>📄 Page 22</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_022.jpg" alt="Page 22">
-        </div>
-
-        <div class="page" id="page-23">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 23</div>
-                <div class="page-meta">
-                    <span>📄 Page 23</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_023.jpg" alt="Page 23">
-        </div>
-
-        <div class="page" id="page-24">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 24</div>
-                <div class="page-meta">
-                    <span>📄 Page 24</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_024.jpg" alt="Page 24">
-        </div>
-
-        <div class="page" id="page-25">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 25</div>
-                <div class="page-meta">
-                    <span>📄 Page 25</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_025.jpg" alt="Page 25">
-        </div>
-
-        <div class="page" id="page-26">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 26</div>
-                <div class="page-meta">
-                    <span>📄 Page 26</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_026.jpg" alt="Page 26">
-        </div>
-
-        <div class="page" id="page-27">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 27</div>
-                <div class="page-meta">
-                    <span>📄 Page 27</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_027.jpg" alt="Page 27">
-        </div>
-
-        <div class="page" id="page-28">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 28</div>
-                <div class="page-meta">
-                    <span>📄 Page 28</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_028.jpg" alt="Page 28">
-        </div>
-
-        <div class="page" id="page-29">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 29</div>
-                <div class="page-meta">
-                    <span>📄 Page 29</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_029.jpg" alt="Page 29">
-        </div>
-
-        <div class="page" id="page-30">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 30</div>
-                <div class="page-meta">
-                    <span>📄 Page 30</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_030.jpg" alt="Page 30">
-        </div>
-
-        <div class="page" id="page-31">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 31</div>
-                <div class="page-meta">
-                    <span>📄 Page 31</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_031.jpg" alt="Page 31">
-        </div>
-
-        <div class="page" id="page-32">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 32</div>
-                <div class="page-meta">
-                    <span>📄 Page 32</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_032.jpg" alt="Page 32">
-        </div>
-
-        <div class="page" id="page-33">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 33</div>
-                <div class="page-meta">
-                    <span>📄 Page 33</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_033.jpg" alt="Page 33">
-        </div>
-
-        <div class="page" id="page-34">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 34</div>
-                <div class="page-meta">
-                    <span>📄 Page 34</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_034.jpg" alt="Page 34">
-        </div>
-
-        <div class="page" id="page-35">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 35</div>
-                <div class="page-meta">
-                    <span>📄 Page 35</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_035.jpg" alt="Page 35">
-        </div>
-
-        <div class="page" id="page-36">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 36</div>
-                <div class="page-meta">
-                    <span>📄 Page 36</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_036.jpg" alt="Page 36">
-        </div>
-
-        <div class="page" id="page-37">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 37</div>
-                <div class="page-meta">
-                    <span>📄 Page 37</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_037.jpg" alt="Page 37">
-        </div>
-
-        <div class="page" id="page-38">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 38</div>
-                <div class="page-meta">
-                    <span>📄 Page 38</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_038.jpg" alt="Page 38">
-        </div>
-
-        <div class="page" id="page-39">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 39</div>
-                <div class="page-meta">
-                    <span>📄 Page 39</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_039.jpg" alt="Page 39">
-        </div>
-
-        <div class="page" id="page-40">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 40</div>
-                <div class="page-meta">
-                    <span>📄 Page 40</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_040.jpg" alt="Page 40">
-        </div>
-
-        <div class="page" id="page-41">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 41</div>
-                <div class="page-meta">
-                    <span>📄 Page 41</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_041.jpg" alt="Page 41">
-        </div>
-
-        <div class="page" id="page-42">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 42</div>
-                <div class="page-meta">
-                    <span>📄 Page 42</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_042.jpg" alt="Page 42">
-        </div>
-
-        <div class="page" id="page-43">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 43</div>
-                <div class="page-meta">
-                    <span>📄 Page 43</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_043.jpg" alt="Page 43">
-        </div>
-
-        <div class="page" id="page-44">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 44</div>
-                <div class="page-meta">
-                    <span>📄 Page 44</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_044.jpg" alt="Page 44">
-        </div>
-
-        <div class="page" id="page-45">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 45</div>
-                <div class="page-meta">
-                    <span>📄 Page 45</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_045.jpg" alt="Page 45">
-        </div>
-
-        <div class="page" id="page-46">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 46</div>
-                <div class="page-meta">
-                    <span>📄 Page 46</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_046.jpg" alt="Page 46">
-        </div>
-
-        <div class="page" id="page-47">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 47</div>
-                <div class="page-meta">
-                    <span>📄 Page 47</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_047.jpg" alt="Page 47">
-        </div>
-
-        <div class="page" id="page-48">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 48</div>
-                <div class="page-meta">
-                    <span>📄 Page 48</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_048.jpg" alt="Page 48">
-        </div>
-
-        <div class="page" id="page-49">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 49</div>
-                <div class="page-meta">
-                    <span>📄 Page 49</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_049.jpg" alt="Page 49">
-        </div>
-
-        <div class="page" id="page-50">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 50</div>
-                <div class="page-meta">
-                    <span>📄 Page 50</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_050.jpg" alt="Page 50">
-        </div>
-
-        <div class="page" id="page-51">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 51</div>
-                <div class="page-meta">
-                    <span>📄 Page 51</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_051.jpg" alt="Page 51">
-        </div>
-
-        <div class="page" id="page-52">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 52</div>
-                <div class="page-meta">
-                    <span>📄 Page 52</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_052.jpg" alt="Page 52">
-        </div>
-
-        <div class="page" id="page-53">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 53</div>
-                <div class="page-meta">
-                    <span>📄 Page 53</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_053.jpg" alt="Page 53">
-        </div>
-
-        <div class="page" id="page-54">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 54</div>
-                <div class="page-meta">
-                    <span>📄 Page 54</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_054.jpg" alt="Page 54">
-        </div>
-
-        <div class="page" id="page-55">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 55</div>
-                <div class="page-meta">
-                    <span>📄 Page 55</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_055.jpg" alt="Page 55">
-        </div>
-
-        <div class="page" id="page-56">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 56</div>
-                <div class="page-meta">
-                    <span>📄 Page 56</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_056.jpg" alt="Page 56">
-        </div>
-
-        <div class="page" id="page-57">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 57</div>
-                <div class="page-meta">
-                    <span>📄 Page 57</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_057.jpg" alt="Page 57">
-        </div>
-
-        <div class="page" id="page-58">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 58</div>
-                <div class="page-meta">
-                    <span>📄 Page 58</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_058.jpg" alt="Page 58">
-        </div>
-
-        <div class="page" id="page-59">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 59</div>
-                <div class="page-meta">
-                    <span>📄 Page 59</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_059.jpg" alt="Page 59">
-        </div>
-
-        <div class="page" id="page-60">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 60</div>
-                <div class="page-meta">
-                    <span>📄 Page 60</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_060.jpg" alt="Page 60">
-        </div>
-
-        <div class="page" id="page-61">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 61</div>
-                <div class="page-meta">
-                    <span>📄 Page 61</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_061.jpg" alt="Page 61">
-        </div>
-
-        <div class="page" id="page-62">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 62</div>
-                <div class="page-meta">
-                    <span>📄 Page 62</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_062.jpg" alt="Page 62">
-        </div>
-
-        <div class="page" id="page-63">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 63</div>
-                <div class="page-meta">
-                    <span>📄 Page 63</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_063.jpg" alt="Page 63">
-        </div>
-
-        <div class="page" id="page-64">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 64</div>
-                <div class="page-meta">
-                    <span>📄 Page 64</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_064.jpg" alt="Page 64">
-        </div>
-
-        <div class="page" id="page-65">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 65</div>
-                <div class="page-meta">
-                    <span>📄 Page 65</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_065.jpg" alt="Page 65">
-        </div>
-
-        <div class="page" id="page-66">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 66</div>
-                <div class="page-meta">
-                    <span>📄 Page 66</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_066.jpg" alt="Page 66">
-        </div>
-
-        <div class="page" id="page-67">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 67</div>
-                <div class="page-meta">
-                    <span>📄 Page 67</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_067.jpg" alt="Page 67">
-        </div>
-
-        <div class="page" id="page-68">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 68</div>
-                <div class="page-meta">
-                    <span>📄 Page 68</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_068.jpg" alt="Page 68">
-        </div>
-
-        <div class="page" id="page-69">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 69</div>
-                <div class="page-meta">
-                    <span>📄 Page 69</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_069.jpg" alt="Page 69">
-        </div>
-
-        <div class="page" id="page-70">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 70</div>
-                <div class="page-meta">
-                    <span>📄 Page 70</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_070.jpg" alt="Page 70">
-        </div>
-
-        <div class="page" id="page-71">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 71</div>
-                <div class="page-meta">
-                    <span>📄 Page 71</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_071.jpg" alt="Page 71">
-        </div>
-
-        <div class="page" id="page-72">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 72</div>
-                <div class="page-meta">
-                    <span>📄 Page 72</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_072.jpg" alt="Page 72">
-        </div>
-
-        <div class="page" id="page-73">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 73</div>
-                <div class="page-meta">
-                    <span>📄 Page 73</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_073.jpg" alt="Page 73">
-        </div>
-
-        <div class="page" id="page-74">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 74</div>
-                <div class="page-meta">
-                    <span>📄 Page 74</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_074.jpg" alt="Page 74">
-        </div>
-
-        <div class="page" id="page-75">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 75</div>
-                <div class="page-meta">
-                    <span>📄 Page 75</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_075.jpg" alt="Page 75">
-        </div>
-
-        <div class="page" id="page-76">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 76</div>
-                <div class="page-meta">
-                    <span>📄 Page 76</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_076.jpg" alt="Page 76">
-        </div>
-
-        <div class="page" id="page-77">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 77</div>
-                <div class="page-meta">
-                    <span>📄 Page 77</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_077.jpg" alt="Page 77">
-        </div>
-
-        <div class="page" id="page-78">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 78</div>
-                <div class="page-meta">
-                    <span>📄 Page 78</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_078.jpg" alt="Page 78">
-        </div>
-
-        <div class="page" id="page-79">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 79</div>
-                <div class="page-meta">
-                    <span>📄 Page 79</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_079.jpg" alt="Page 79">
-        </div>
-
-        <div class="page" id="page-80">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 80</div>
-                <div class="page-meta">
-                    <span>📄 Page 80</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_080.jpg" alt="Page 80">
-        </div>
-
-        <div class="page" id="page-81">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 81</div>
-                <div class="page-meta">
-                    <span>📄 Page 81</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_081.jpg" alt="Page 81">
-        </div>
-
-        <div class="page" id="page-82">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 82</div>
-                <div class="page-meta">
-                    <span>📄 Page 82</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_082.jpg" alt="Page 82">
-        </div>
-
-        <div class="page" id="page-83">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 83</div>
-                <div class="page-meta">
-                    <span>📄 Page 83</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_083.jpg" alt="Page 83">
-        </div>
-
-        <div class="page" id="page-84">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 84</div>
-                <div class="page-meta">
-                    <span>📄 Page 84</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_084.jpg" alt="Page 84">
-        </div>
-
-        <div class="page" id="page-85">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 85</div>
-                <div class="page-meta">
-                    <span>📄 Page 85</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_085.jpg" alt="Page 85">
-        </div>
-
-        <div class="page" id="page-86">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 86</div>
-                <div class="page-meta">
-                    <span>📄 Page 86</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_086.jpg" alt="Page 86">
-        </div>
-    </div>
+    <header>
+        <h1>📚 Paul Westwood</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> method | 
+            <strong>Style :</strong> various | 
+            <strong>Images :</strong> 86
+        </div>
+    </header>
+    
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">267</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">30</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">86</div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>🎵 Morceaux (0)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (267)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 343</strong></td>
+                        <td>1</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 344</strong></td>
+                        <td>1</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 345</strong></td>
+                        <td>1</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 346</strong></td>
+                        <td>1</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 347</strong></td>
+                        <td>1</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 348</strong></td>
+                        <td>1</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Cha Cha 1 - Exercice 349</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Cha Cha 2 - Exercice 350</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Cha Cha 3 - Exercice 351</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Cha Cha 4 - Exercice 352</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Cha Cha 5 - Exercice 353</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Cha Cha 6 - Exercice 354</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Tango 1 - Exercice 355</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Tango 2 - Exercice 356</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Tango 3 - Exercice 357</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Tango 4 - Exercice 358</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Tango 5 - Exercice 359</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Montuno 1 - Exercice 360</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Montuno 2 - Exercice 361</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Montuno 3 - Exercice 362</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Merengue 1 - Exercice 363</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Merengue 2 - Exercice 364</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Merengue 3 - Exercice 365</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Rumba 1 - Exercice 366</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Rumba 2 - Exercice 367</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Rumba 3 - Exercice 368</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Calypso 1 - Exercice 369</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Calypso 2 - Exercice 370</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Calypso 3 - Exercice 371</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Calypso 4 - Exercice 372</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Calypso 5 - Exercice 373</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Bajon 1 - Exercice 374</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Bajon 2 - Exercice 375</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Mambo 1 - Exercice 376</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Mambo 2 - Exercice 377</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Mambo 3 - Exercice 378</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Mambo 4 - Exercice 379</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Samba 1 - Exercice 380</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Samba 2 - Exercice 381</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Samba 3 - Exercice 382</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Bossa Nova 1 - Exercice 383</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Bossa Nova 2 - Exercice 384</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Guajira 1 - Exercice 385</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Guajira 2 - Exercice 386</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Guajira 3 - Exercice 387</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Guaracha - Exercice 388</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Valse Creole - Exercice 389</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Bolero - Exercice 390</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - La Balumpa - Exercice 391</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Pachanga - Exercice 392</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Biguine - Exercice 393</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - La Cumbia - Exercice 394</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - La Carioca - Exercice 395</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Afro Pop - Exercice 396</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Lambada - Exercice 397</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Salsa - Exercice 398</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins - Nanigo - Exercice 399</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 400</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 401</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 402</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 403</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 404</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 405</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 406</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 407</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 408</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 409</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 410</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 411</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 412</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 413</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 414</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Exercice 415</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 416</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 417</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 418</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 419</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 420</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 421</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 422</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 423</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 424</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 425</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 426</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé - Exercice 427</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 428</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 429</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 430</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 431</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 432</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 433</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 434</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 435</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 436</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 437</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 438</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 439</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 440</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 441</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 442</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 443</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 444</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 445</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 446</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 447</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins - Salsa - Exercice 448</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>latin</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 449</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 450</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 451</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 452</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 453</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 454</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 455</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 456</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 457</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 458</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 459</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol - Exercice 460</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>flamenco</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 461</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 462</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 463</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 464</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 465</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 466</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 467</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 468</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 469</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 470</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 471</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 472</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 473</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 474</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 475</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain - Exercice 476</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>mariachi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 477</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 478</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 479</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 480</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 481</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 482</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 483</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 484</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 485</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 486</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 487</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 488</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 489</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 490</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 491</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 492</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 493</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 494</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 495</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 496</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 497</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 498</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 499</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 500</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 501</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 502</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 503</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 504</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 505</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 506</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain - Exercice 507</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>mambo</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 508</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 509</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 510</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 511</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 512</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 513</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 514</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 515</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 516</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 517</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 518</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 519</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 520</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 521</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 522</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 523</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 524</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 525</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 526</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 527</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 528</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 529</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 530</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 531</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 532</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 533</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 534</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 535</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain - Exercice 536</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>rock cubain</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain - Exercice 537</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain - Exercices 538-541</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain - Exercices 542-550</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain - Exercices 551-560</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain - Exercices 561-568</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain - Exercices 569-576</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rythme régulier sans temps fort - Exercices 573-576</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>even rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae - Exercices 577-585</strong></td>
+                        <td>26</td>
+                        <td>intermédiaire</td>
+                        <td>reggae rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rythme de shuffle - Exercices 586-595</strong></td>
+                        <td>27</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rythme de shuffle sans temps fort - Exercices 596-604</strong></td>
+                        <td>28</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Colombie - Exercices 605-613</strong></td>
+                        <td>29</td>
+                        <td>intermédiaire</td>
+                        <td>colombian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Samba brésilienne - Exercices 614-622</strong></td>
+                        <td>30</td>
+                        <td>intermédiaire</td>
+                        <td>samba rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Samba brésilienne - Exercices 623-633</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>samba rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pérou, Équateur, Chili, Bolivie - Exercices 634-643</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>south american rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pérou, Équateur, Chili, Bolivie - Exercices 644-646</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>south american rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs africains - Exercices 647-651</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>african riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs africains - Exercices 652-660</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>african riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs africains - Exercices 661-669</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>african riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs africains - Exercices 670-680</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>african riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs africains - Exercices 681-689</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>african riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs africains - Exercices 690-698</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>african riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Afrique du Nord et Moyen-Orient - Exercices 699-704</strong></td>
+                        <td>40</td>
+                        <td>intermédiaire</td>
+                        <td>north african rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Somalie - Exercices 705-713</strong></td>
+                        <td>41</td>
+                        <td>intermédiaire</td>
+                        <td>somalian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Somalie - Exercices 714-717</strong></td>
+                        <td>42</td>
+                        <td>intermédiaire</td>
+                        <td>somalian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mali - Exercices 718-721</strong></td>
+                        <td>42</td>
+                        <td>intermédiaire</td>
+                        <td>malian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mali - Exercices 722-727</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>malian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mali - Exercices 728-732</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>malian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mali - Exercices 733-741</strong></td>
+                        <td>44</td>
+                        <td>intermédiaire</td>
+                        <td>malian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Guinée - Exercices 742-745</strong></td>
+                        <td>45</td>
+                        <td>intermédiaire</td>
+                        <td>guinean rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Guinée - Exercices 746-751</strong></td>
+                        <td>45</td>
+                        <td>intermédiaire</td>
+                        <td>guinean rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Guinée - Exercices 752-760</strong></td>
+                        <td>46</td>
+                        <td>intermédiaire</td>
+                        <td>guinean rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Guinée - Exercices 761-762</strong></td>
+                        <td>47</td>
+                        <td>intermédiaire</td>
+                        <td>guinean rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Cameroun - Exercices 763-767</strong></td>
+                        <td>47</td>
+                        <td>intermédiaire</td>
+                        <td>cameroonian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Cameroun - Exercices 768-775</strong></td>
+                        <td>48</td>
+                        <td>intermédiaire</td>
+                        <td>cameroonian rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Zaïre - Exercices 776-784</strong></td>
+                        <td>49</td>
+                        <td>intermédiaire</td>
+                        <td>congolese rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Zaïre - Exercices 785-794</strong></td>
+                        <td>50</td>
+                        <td>intermédiaire</td>
+                        <td>congolese rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Zimbabwe - Exercices 795-799</strong></td>
+                        <td>51</td>
+                        <td>intermédiaire</td>
+                        <td>zimbabwean rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Zimbabwe - Exercices 800-807</strong></td>
+                        <td>52</td>
+                        <td>intermédiaire</td>
+                        <td>zimbabwean rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Afrique du Sud et Soweto - Exercices 808-815</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>south african rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Afrique du Sud et Soweto - Exercices 816-826</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>south african rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Afrique du Sud et Soweto - Exercices 827-837</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>south african rhythm</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Lignes de boogie - Exercices 838-846</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>boogie lines</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Lignes de boogie - Exercices 847-850</strong></td>
+                        <td>58</td>
+                        <td>intermédiaire</td>
+                        <td>boogie lines</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Slap (obstinato) - Exercices 851-862</strong></td>
+                        <td>59</td>
+                        <td>intermédiaire</td>
+                        <td>slap</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Slap (boogie) Larry Graham - Exercices 863-872</strong></td>
+                        <td>60</td>
+                        <td>avancé</td>
+                        <td>slap</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Slap (boogie) Larry Graham - Exercices 873-884</strong></td>
+                        <td>61</td>
+                        <td>avancé</td>
+                        <td>slap</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Slap (boogie) Larry Graham - Exercices 885-886</strong></td>
+                        <td>62</td>
+                        <td>avancé</td>
+                        <td>slap</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Slap (popping) Mark King - Exercices 887-891</strong></td>
+                        <td>62</td>
+                        <td>avancé</td>
+                        <td>slap</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Slap (popping) Mark King - Exercices 892-901</strong></td>
+                        <td>63</td>
+                        <td>avancé</td>
+                        <td>slap</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs - Exercices 902-906</strong></td>
+                        <td>64</td>
+                        <td>avancé</td>
+                        <td>riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs - Exercices 907-916</strong></td>
+                        <td>65</td>
+                        <td>avancé</td>
+                        <td>riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs - Exercices 917-922</strong></td>
+                        <td>66</td>
+                        <td>avancé</td>
+                        <td>riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Solos de fretless - Exercice 922</strong></td>
+                        <td>66</td>
+                        <td>avancé</td>
+                        <td>fretless</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Solos de fretless - Exercice 923</strong></td>
+                        <td>67</td>
+                        <td>avancé</td>
+                        <td>fretless</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Solos de fretless - Exercices 924-925</strong></td>
+                        <td>68</td>
+                        <td>avancé</td>
+                        <td>fretless</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Progressions d'accords en arpèges avec harmoniques - Exercices 926-930</strong></td>
+                        <td>70</td>
+                        <td>avancé</td>
+                        <td>harmonics</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Basse synthé - Exercices 931-939</strong></td>
+                        <td>71</td>
+                        <td>intermédiaire</td>
+                        <td>synth bass</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Basse synthé - Exercices 940-951</strong></td>
+                        <td>72</td>
+                        <td>intermédiaire</td>
+                        <td>synth bass</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Basse synthé - Exercices 952-954</strong></td>
+                        <td>73</td>
+                        <td>intermédiaire</td>
+                        <td>synth bass</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs modernes - Exercices 955-962</strong></td>
+                        <td>74</td>
+                        <td>avancé</td>
+                        <td>modern riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs modernes - Exercices 963-971</strong></td>
+                        <td>75</td>
+                        <td>avancé</td>
+                        <td>modern riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs modernes - Exercices 972-982</strong></td>
+                        <td>76</td>
+                        <td>avancé</td>
+                        <td>modern riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs modernes - Exercices 983-993</strong></td>
+                        <td>77</td>
+                        <td>avancé</td>
+                        <td>modern riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs modernes - Exercices 994-995</strong></td>
+                        <td>78</td>
+                        <td>avancé</td>
+                        <td>modern riffs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 996</strong></td>
+                        <td>78</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 997</strong></td>
+                        <td>79</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 998</strong></td>
+                        <td>80</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 999</strong></td>
+                        <td>81</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 1000</strong></td>
+                        <td>82</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 1001</strong></td>
+                        <td>83</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 1002</strong></td>
+                        <td>84</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercices 1003-1004</strong></td>
+                        <td>85</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz et lignes progressives - Exercice 1005</strong></td>
+                        <td>86</td>
+                        <td>avancé</td>
+                        <td>jazz</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (30)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>LIVRE TROIS - Musique latine</strong></td>
+                        <td>1</td>
+                        <td>Introduction au Livre Trois qui couvre les musiques latines, styles latins, riffs latins, flamenco espagnol, mariachi mexicain, mambo cubain, rock cubain, reggae jamaïcain, colombie, samba brésilienne, et musiques du Pérou, Equateur, Chili et Bolivie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Musique latine</strong></td>
+                        <td>2</td>
+                        <td>Histoire et géographie de la musique latine, incluant les influences africaines, européennes et indigènes. Carte géographique de l'Amérique Latine montrant les différents pays et leurs traditions musicales</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Styles latins</strong></td>
+                        <td>3</td>
+                        <td>Présentation des différents styles latins avec leurs caractéristiques rythmiques: Cha Cha, Tango, Montuno, Merengue, Rumba, Calypso</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins</strong></td>
+                        <td>7</td>
+                        <td>Introduction aux riffs latins et leurs applications dans différents contextes musicaux latins</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs latins sur tempo redoublé</strong></td>
+                        <td>9</td>
+                        <td>Techniques pour jouer des riffs latins avec un tempo doublé, augmentant la complexité rythmique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Flamenco espagnol</strong></td>
+                        <td>12</td>
+                        <td>Caractéristiques du flamenco espagnol et son influence sur la musique latine, avec les grands artistes comme Manitas de Plata et Paco de Lucía</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mariachi mexicain</strong></td>
+                        <td>13</td>
+                        <td>Histoire et caractéristiques du mariachi mexicain, instrument essentiel de la musique mexicaine avec ses guitares, violons et trompettes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mambo cubain</strong></td>
+                        <td>15</td>
+                        <td>Le mambo comme genre musical afro-cubain populaire à Cuba, caractérisé par ses rythmes syncopés et son influence du jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock cubain</strong></td>
+                        <td>18</td>
+                        <td>Fusion du rock avec les rythmes cubains, créant un style unique qui combine éléments occidentaux et traditions cubaines</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Reggae jamaïcain</strong></td>
+                        <td>21</td>
+                        <td>Le reggae combine une abondance de rythmes et styles musicaux, inspiré par les grands artistes comme Bob Marley, Lee Perry et bien d'autres. Les lignes de basse sont variées et souvent élaborées, utilisant des modes mineurs et des techniques hypnotiques avec des riffs en ostinato.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rythme régulier sans temps fort</strong></td>
+                        <td>25</td>
+                        <td>Introduction aux rythmes réguliers sans accentuation marquée, caractéristiques de certains styles musicaux.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rythme de shuffle</strong></td>
+                        <td>27</td>
+                        <td>Technique de jeu avec rythme ternaire swing caractéristique du blues et du jazz.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Colombie</strong></td>
+                        <td>29</td>
+                        <td>La Colombie combine une abondance de rythmes et styles musicaux, incluant le cumbia, le vallenato, la salsa et autres styles avec des rythmes asymétriques caractéristiques.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Samba brésilienne</strong></td>
+                        <td>30</td>
+                        <td>La samba est une danse rapide en 2/4. La basse joue des rythmes syncopés souvent structurés autour de la basse sur les 1er et 3e temps. Le rythme se divise en 16 temps avec une forte tendance vers les percussions harmonieusement complexes.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pérou, Équateur, Chili, Bolivie</strong></td>
+                        <td>32</td>
+                        <td>La musique de ces pays découle des traditions folkloriques. Les rythmes sont construits autour de la guitare, la harpe et autres instruments qui créent des fondations très spécifiques.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Musique africaine</strong></td>
+                        <td>34</td>
+                        <td>L'Afrique a contribué à une multitude de genres musicaux. Les riffs sont fondés sur des rythmes répétitifs et des motifs modaux. La musique africaine se caractérise par l'utilisation de divers styles: gnawa, zouk, highlife, juju, mbalax, soukous et bien d'autres.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Afrique du Nord et Moyen-Orient</strong></td>
+                        <td>39</td>
+                        <td>Cette partie n'est pas aussi particulière que la musique de l'Afrique noire, qui est dominée par des rythmes puissants. Elle se caractérise par des percussions complexes et des figures qui font les interprétations riches et variées.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Somalie</strong></td>
+                        <td>41</td>
+                        <td>Cette nation d'Afrique orientale fait largement partie de la culture de ses voisins, l'Éthiopie et le Kenya, avec des percussions comme le dhol et des instruments luth. L'expression musicale va de la récitation coranique ou classique, aux chansons populaires et aux chants de pêcheurs. Les paroles des chansons sont émouvantes et allusives, beaucoup sont évocatrices et aident les musiciens à jouer avec expressivité.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Mali</strong></td>
+                        <td>42</td>
+                        <td>Le Mali compte parmi les chanteurs maliens les plus célèbres au monde de la musique africaine, avec des artistes comme Ali Farka Touré et Salif Keïta. Les instruments traditionnels (guitare et cordes) contribuent grandement à créer la sonorité traditionnelle. La musique a subi l'influence des griots et leur rôle est d'être chanteur et de gérer l'histoire orale du Mali. La chanson Kuly Magni est un grand symbole du patrimoine malien, représentant l'art des griots de sociétés sociales, humoristes et politiques contemporaines.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Guinée</strong></td>
+                        <td>45</td>
+                        <td>Depuis les années 70, grâce à la révolution politique et au soutien précédent, la musique guinéenne est désormais mondialement reconnue. Les musiciens tels les Bembeya Jazz, le groupe populaire et le folkloore afro à travers l'Afrique occidentale, participent activement à cet évolution émotionnel dans leur quête de musiques nouvelles. Les séquencers d'accords rythment un jazz profond à l'abondance orchestrale, les narrations sont composées de programmes d'accents pleins où se mêle souvent une forme rythmique et une progression d'accords.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Cameroun</strong></td>
+                        <td>47</td>
+                        <td>Le Cameroun est l'un des groupes camerounais les plus connus. Ils jouent une musique qui mélange le rythme primitif local des terres de l'Afrique occidentale et sont une référence à la culture africaine. Créez et tapez en cerceau avec des rythmes libres, comme les rythmes variés portés de manière.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Zaïre</strong></td>
+                        <td>49</td>
+                        <td>Le Zaïre combine une multitude de musiques variées. Koffi Olomide, par exemple, est très contemporain dans son approche du N'doli et sa variété de style ballade. Mbilia Bel incarne une fusion entre le N'doli, Sam Mangwana, Empire Bakuba, à Louba et Franco Luambo. Le rythme se multiplie et se repose de manière unique. Les lignes mélodiques exécutées par des cuivres, et l'expression générale qui les produit, forment un ensemble.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Zimbabwe</strong></td>
+                        <td>51</td>
+                        <td>Le Zimbabwe a produit un style unique reconnaissable et la personne de John Chibadura. La musique se base traditionnellement dans la liberté infinie en musique, de l'intensité, d'amour, de fierté avec de fortes lignes de basse. Le genre est très populaire pour une rythmique et technique de demande et des jeunes musicaux qui répandent le jus d'une guitare, leurs qualités et systèmes suivent et accentuent les intervalles claires qui reflètent la vibrance et l'intensité du Zimbabwe. Lors d'être extrêmement, se style qui reflète le profond. C'est un cocktail étonnant relatif vers la musique de danse longtemps à un chant visuel.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Afrique du Sud et Soweto</strong></td>
+                        <td>53</td>
+                        <td>Mbaqanga est un des musiques ethniques les plus célèbres de Soweto, une banlieue de Johannesburg. Son style vocal s'appelle musique township. Ces styles évoluent influencés par d'autres groupes et des prêts d'autres musiques, lorsque certains instruments utilisés en Inde influencent les niveaux townships. Les paroles sont généralement en anglais, mais également en anglais pour jouets et le public rend le tempo immédiate accompagnent efficacement les chansons souvent sudafritas. Il est recommandable de marquer le temps-d'artistes comme Mbaqanda Black Mambazo, la Malagazi Tushie Band, Amaswarzi Emvelo, Isayoni Mbhuku, Dhkha, Jjivi, Mábirora, et Abafana.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Lignes de boogie</strong></td>
+                        <td>57</td>
+                        <td>Les lignes de boogie évoluèrent jusqu'à nos jours où ont reçu comment cette sorte de basse de la main gauche. Le boogie est fondé sur une ligne de basse walking en 4/4, mais joué de marotte double rapide chaque temps de la mesure. Lorsque le boogie était arrangé à la guitare, les notes ou l'échelle étaient permis, entre eux et les périodes de boogie apparaît plus étirement bien souvent harmoniquement et jouant nécessaire les notes-lui étant plus régulier et contrastant en jouant about des lots le même nom. Les possières de boogie doublait et contribuent à un swing en 4/4 et constituent à un swing et les lignes subtiles.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Larry Graham et Mark King - Le slap</strong></td>
+                        <td>58</td>
+                        <td>La technique consistant à frapper claquer les cordes d'une contrebasse fut d'abord popularisé par des artistes comme Chubby Jackson. Le plus gros popularise étant de la basse précoce s'est de l'enseignement à cause de techniques davant figurant d'une basse et plus tard de la vélocité infini et le savoir taper révélé à la boucle, en donnant non seulement utilise et mieux utilisée, pour commencer à explorer ce style. Les bassistes recommencent à explorer ce style. Il ne pourrait pas encore comment faire sa basse à la musique moderne. Le style de basse, bien sûr importante et réellement qui est le suivant à lorsque Larry Graham la popularise ainsi, d'après Sly and the Family Stone.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jaco Pastorius - La basse fretless</strong></td>
+                        <td>64</td>
+                        <td>Depuis la venue de Jaco Pastorius, la basse à toucher lisse était sous-développée, et pratiquement inconnue. La popularité de Weather Report la fit connaître instantanément à un vaste public. Un album solo salutaire Pastorius au firmament des bassistes, plaçant les précisions de bien des musiciens et de jazz et favorisant. Par rapport au son plat de jazz influencent et stimulent que pouvait offrir une folk basse, les lignes qu'il développait se seraient élévées et chorals. L'exemple le meilleur est Bon Come, la possibilité de portée offre un grand d'espace. Pendant de cette technique, c'est grossi assurément.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Harmoniques naturelles</strong></td>
+                        <td>69</td>
+                        <td>Toutes les cordes sont capables de produire des harmoniques naturelles. Par exemple, si l'on baise la corde à la 12e frette, puis on touche doucement un doigt de la main gauche dessus, et en pinçant ainsi une note octave au-dessus de la corde en pleine longueur. Il en produit d'autres harmoniques à d'autres intervalles, par exemple aux 5e, 7e et 9e cases. Il est plutôt de pratique qu'il existe environ 4 positions de pratiques differentes, et qui peuvent se combiner de plusieurs façons et une harmonique. Naturellement, la combinaison de plusieurs accords fournit un son multiple et est multiples possibles.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Basse synthé</strong></td>
+                        <td>71</td>
+                        <td>Les progrès en électronique ont révolutionné la ligne de basse. Grâce au synthétiseur, il est possible de programmer une figure rythmique et de la répéter chaque fois que la technique. Tandis que le bassiste, pour éviter la monotonie, changeant délicatement l'intensité des notes qu'il joue mais produisant quand même des phares rythmiques identiques. Ces figures étalent pour plus rapidement et précisément que ne pourraient le faire la plupart des musiciens physiquement, quand même cette forme générale de deviennent très populaires.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Riffs modernes - Jazz et lignes progressives</strong></td>
+                        <td>73</td>
+                        <td>Depuis son apparition, il y a plus de quarante-cinq années, la grande basse a connu de nombreux développements stylistiques qui continuent à s'accélérer. Nutrition, la bassiste oblige marginalement jouer dans un style défini en particulier, souvent en swing, déjà 60. KX axial une la rythmie de la norme, ce la fonda timing. Une formation de blues, par exemple, suivit ainsi de franchir une sa bassiste de jazz ou un joueur de style. Mais un bassiste de jazz peut, aujourd'hui, se permet un style assez variés porter à une acheter lutrin.</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>

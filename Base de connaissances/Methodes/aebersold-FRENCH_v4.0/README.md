@@ -1,91 +1,78 @@
-# aebersold French - Conversion V4.0
+# aebersold-FRENCH
 
-## 🎯 Méthode OCR par Zones
+## 📋 Informations générales
 
-Cette conversion utilise la **technologie V4.0** avec analyse intelligente par zones pour maximiser la précision.
+- **Catégorie** : method
+- **Style musical** : jazz
+- **Nombre de pages** : 55
+- **Date de traitement** : 16/11/2025
 
-## 📊 Statistiques
+## 📊 Statistiques du contenu
 
-- **Pages converties :** 55
-- **MP3 détectés :** 0
-- **Tonalités extraites :** 0
-- **Techniques détectées :** 0
-- **Format images :** PNG
-- **Erreurs OCR :** 55
+- **Morceaux identifiés** : 0
+- **Exercices techniques** : 27
+- **Concepts théoriques** : 57
+- **Total d'éléments** : 84
 
-## 🎯 Analyse par Zones V4.0
+## 🎵 Morceaux principaux
 
-### Zone Titre (0-20%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 55
-- **Réussites :** 0 (0%)
-- **Extraction :** Titre, compositeur, tonalité
 
-### Zone Partition (20-90%)
-- **OCR :** 🎼 Désactivé (image conservée)
-- **Pages traitées :** 0
-- **Conservation :** 100% des partitions gardées en image PNG
 
-### Zone Footer (90-100%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 0
-- **Réussites :** 0 (NaN%)
-- **Extraction :** Numéro de page, track number
 
-## 📁 Structure (Format V4.0)
+## 💪 Exercices
 
-```
-📦 Archive
-├── 📄 index.html          # Navigation visuelle locale
-├── 📄 songs_index.json    # Format V4.0 avec métadonnées zones
-├── 📄 README.md           # Ce fichier
-└── 📁 assets/
-    └── 📁 pages/          # Images des pages
-        ├── page_001.png
-        ├── page_002.png
-        └── ...
-```
+- **Exercices préparatoires - Clef de Fa** (page 20) - débutant
+- **Exercice sur la gamme Blues** (page 20) - débutant
+- **Exercices préparatoires - Clef de Fa (continuation)** (page 21) - débutant
+- **Les 12 Gammes Majeures (Ioniennes) Jusqu'à la 9ème - Clef de Sol** (page 22) - intermédiaire
+- **Les 12 Gammes Majeures (Mixolydiennes) Jusqu'à la 9ème - Clef de Sol** (page 22) - intermédiaire
+- **Les 12 Gammes Mineures (Doriennes) Jusqu'à la 9ème - Clef de Sol** (page 22) - intermédiaire
+- **Gammes Par Tons (Augmentée)** (page 22) - avancé
+- **Les 12 Gammes Majeures (Ioniennes) Jusqu'à la 9ème - Clef de Fa** (page 23) - intermédiaire
+- **Les 12 Gammes Majeures (Mixolydiennes) Jusqu'à la 9ème - Clef de Fa** (page 23) - intermédiaire
+- **Les 12 Gammes Mineures (Doriennes) Jusqu'à la 9ème - Clef de Fa** (page 23) - intermédiaire
 
-## 🚀 Intégration avec le Mega Moteur
+... et 17 autres exercices
 
-### Étape 1 : Décompresser
-```bash
-unzip aebersold-FRENCH_v4.0.zip
-```
+## 📖 Concepts théoriques
 
-### Étape 2 : Déplacer dans Methodes/
-```bash
-mv extracted_folder Methodes/
-```
+- **Introduction générale au Jazz** (page 3)
+- **Information utile de Jazz** (page 4)
+- **Aide à la pratique** (page 5)
+- **Solos par Jamey Aebersold** (page 6)
+- **Jazz: La musique naturelle** (page 7)
+- **Écoute suggérée d'artistes de jazz** (page 10)
+- **Enregistrement d'importance historique** (page 11)
+- **Conseils pour apprendre un nouveau morceau** (page 12)
+- **Procédure pratique pour la mémorisation** (page 12)
+- **Procédure pratique de mémorisation pour les gammes et accords d'un morceau** (page 13)
 
-### Étape 3 : Lancer la fusion
-```bash
-python3 fusion-ultimate-v4.py
-```
+... et 47 autres concepts
 
-Le fichier `songs_index.json` est au format V4.0 compatible avec :
-- ✅ `fusion-ultimate-v4.py`
-- ✅ Structure `metadata` + `songs[]` + `zones`
-- ✅ Métadonnées enrichies par zone
-- ✅ Statistiques de précision par zone
-- ✅ Gestion d'erreurs robuste avec logs détaillés
+## 📦 Fichiers générés
 
-## 🔧 Version V4.0 - OCR par Zones
+- `aebersold-FRENCH.json` - Données complètes au format JSON
+- `aebersold-FRENCH_index.html` - Index HTML interactif
+- `aebersold-FRENCH_README.md` - Ce fichier
 
-### Nouveautés V4.0 :
-- 🎯 **Analyse ciblée** : OCR sur 30% de la page (zones texte seulement)
-- 🎼 **Protection partition** : Zone musicale conservée en image (pas d'OCR)
-- ⚡ **Performance** : 60% plus rapide que V3.2
-- ✅ **Précision** : 90-95% sur zones texte (vs 60-70% en full page)
-- 📊 **Statistiques détaillées** : Précision par zone dans metadata
+## 🚀 Utilisation
 
-### Avantages :
-- ✅ Élimine les erreurs OCR sur les portées musicales
-- ✅ Extrait précisément titres, compositeurs et tracks
-- ✅ Conserve l'image complète pour référence visuelle
-- ✅ Optimise le temps de traitement
-- ✅ Métadonnées enrichies pour analyse
+Les données sont disponibles au format JSON pour faciliter :
+- L'intégration dans des applications web
+- La recherche et le filtrage de contenu
+- L'export vers d'autres formats
+- L'analyse et les statistiques
+
+## 🛠️ Traitement
+
+Traité avec **OCR Batch Converter v2.2** (Ultimate Edition)
+- Traitement par lots de 20 images
+- OCR via Claude (Anthropic)
+- Validation manuelle avec prévisualisation
+- Navigation libre entre les lots
+- Auto-correction des erreurs
+- Export progressif
 
 ---
 
-Généré le 10/11/2025 10:31:11 avec **Convertisseur OCR V4.0 - Zones Optimisées**
+*Généré le 16/11/2025 à 16:58:26*

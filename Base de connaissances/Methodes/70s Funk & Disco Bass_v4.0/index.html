@@ -3,605 +3,835 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>70 funk & Disco bass - Index V4.0</title>
+    <title>70s Funk & Disco Bass - Index</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
             background: #f5f5f5;
-            padding: 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .v4-badge {
-            display: inline-block;
-            background: #9c27b0;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 30px;
+            border-radius: 12px;
             margin-bottom: 30px;
         }
-        .page {
-            margin-bottom: 40px;
-            padding: 20px;
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
             background: #f8f9fa;
+            padding: 20px;
             border-radius: 8px;
+            text-align: center;
             border-left: 4px solid #667eea;
         }
-        .page-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
         }
-        .page-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        .page-meta {
-            display: flex;
-            gap: 10px;
+        .stat-label {
+            color: #666;
             font-size: 14px;
-            color: #666;
-            flex-wrap: wrap;
-        }
-        .page-composer {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .page img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .technique-badge {
-            background: #e0e0e0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        .error-badge {
-            background: #ffebee;
-            color: #c62828;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .zone-info {
-            background: #f3e5f5;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            color: #7b1fa2;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎸 70 funk & Disco bass</h1>
-        <p class="subtitle">
-            29 pages | 0 MP3 disponibles
-        </p>
-        <div class="v4-badge">🎯 Converti avec V4.0 - OCR par zones</div>
-        
-        <div class="page" id="page-1">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 1</div>
-                <div class="page-meta">
-                    <span>📄 Page 1</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: [object Event]</div>
-            
-            
-            <img src="./assets/pages/page_001.png" alt="Page 1">
+    <header>
+        <h1>📚 70s Funk & Disco Bass</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> method | 
+            <strong>Style :</strong> funk | 
+            <strong>Images :</strong> 29
         </div>
-
-        <div class="page" id="page-2">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 2</div>
-                <div class="page-meta">
-                    <span>📄 Page 2</span>
-                    
-                    
-                    
-                </div>
+    </header>
+    
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">0</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_002.png" alt="Page 2">
-        </div>
-
-        <div class="page" id="page-3">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 3</div>
-                <div class="page-meta">
-                    <span>📄 Page 3</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">95</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_003.png" alt="Page 3">
-        </div>
-
-        <div class="page" id="page-4">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 4</div>
-                <div class="page-meta">
-                    <span>📄 Page 4</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">1</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_004.png" alt="Page 4">
-        </div>
-
-        <div class="page" id="page-5">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 5</div>
-                <div class="page-meta">
-                    <span>📄 Page 5</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">29</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_005.png" alt="Page 5">
         </div>
-
-        <div class="page" id="page-6">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 6</div>
-                <div class="page-meta">
-                    <span>📄 Page 6</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_006.png" alt="Page 6">
-        </div>
-
-        <div class="page" id="page-7">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 7</div>
-                <div class="page-meta">
-                    <span>📄 Page 7</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_007.png" alt="Page 7">
-        </div>
-
-        <div class="page" id="page-8">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 8</div>
-                <div class="page-meta">
-                    <span>📄 Page 8</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_008.png" alt="Page 8">
-        </div>
-
-        <div class="page" id="page-9">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 9</div>
-                <div class="page-meta">
-                    <span>📄 Page 9</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_009.png" alt="Page 9">
-        </div>
-
-        <div class="page" id="page-10">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 10</div>
-                <div class="page-meta">
-                    <span>📄 Page 10</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_010.png" alt="Page 10">
-        </div>
-
-        <div class="page" id="page-11">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 11</div>
-                <div class="page-meta">
-                    <span>📄 Page 11</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_011.png" alt="Page 11">
-        </div>
-
-        <div class="page" id="page-12">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 12</div>
-                <div class="page-meta">
-                    <span>📄 Page 12</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_012.png" alt="Page 12">
-        </div>
-
-        <div class="page" id="page-13">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 13</div>
-                <div class="page-meta">
-                    <span>📄 Page 13</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_013.png" alt="Page 13">
-        </div>
-
-        <div class="page" id="page-14">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 14</div>
-                <div class="page-meta">
-                    <span>📄 Page 14</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_014.png" alt="Page 14">
-        </div>
-
-        <div class="page" id="page-15">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 15</div>
-                <div class="page-meta">
-                    <span>📄 Page 15</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_015.png" alt="Page 15">
-        </div>
-
-        <div class="page" id="page-16">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 16</div>
-                <div class="page-meta">
-                    <span>📄 Page 16</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_016.png" alt="Page 16">
-        </div>
-
-        <div class="page" id="page-17">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 17</div>
-                <div class="page-meta">
-                    <span>📄 Page 17</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_017.png" alt="Page 17">
-        </div>
-
-        <div class="page" id="page-18">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 18</div>
-                <div class="page-meta">
-                    <span>📄 Page 18</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_018.png" alt="Page 18">
-        </div>
-
-        <div class="page" id="page-19">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 19</div>
-                <div class="page-meta">
-                    <span>📄 Page 19</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_019.png" alt="Page 19">
-        </div>
-
-        <div class="page" id="page-20">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 20</div>
-                <div class="page-meta">
-                    <span>📄 Page 20</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_020.png" alt="Page 20">
-        </div>
-
-        <div class="page" id="page-21">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 21</div>
-                <div class="page-meta">
-                    <span>📄 Page 21</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_021.png" alt="Page 21">
-        </div>
-
-        <div class="page" id="page-22">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 22</div>
-                <div class="page-meta">
-                    <span>📄 Page 22</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_022.png" alt="Page 22">
-        </div>
-
-        <div class="page" id="page-23">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 23</div>
-                <div class="page-meta">
-                    <span>📄 Page 23</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_023.png" alt="Page 23">
-        </div>
-
-        <div class="page" id="page-24">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 24</div>
-                <div class="page-meta">
-                    <span>📄 Page 24</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_024.png" alt="Page 24">
-        </div>
-
-        <div class="page" id="page-25">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 25</div>
-                <div class="page-meta">
-                    <span>📄 Page 25</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_025.png" alt="Page 25">
-        </div>
-
-        <div class="page" id="page-26">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 26</div>
-                <div class="page-meta">
-                    <span>📄 Page 26</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_026.png" alt="Page 26">
-        </div>
-
-        <div class="page" id="page-27">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 27</div>
-                <div class="page-meta">
-                    <span>📄 Page 27</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_027.png" alt="Page 27">
-        </div>
-
-        <div class="page" id="page-28">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 28</div>
-                <div class="page-meta">
-                    <span>📄 Page 28</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_028.png" alt="Page 28">
-        </div>
-
-        <div class="page" id="page-29">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 29</div>
-                <div class="page-meta">
-                    <span>📄 Page 29</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_029.png" alt="Page 29">
-        </div>
-    </div>
+    </section>
+    
+    <section>
+        <h2>🎵 Morceaux (0)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (95)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Pattern 1</strong></td>
+                        <td>2</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 2</strong></td>
+                        <td>2</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 3</strong></td>
+                        <td>2</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 4</strong></td>
+                        <td>2</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 5</strong></td>
+                        <td>3</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 6</strong></td>
+                        <td>3</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 7</strong></td>
+                        <td>3</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 8</strong></td>
+                        <td>3</td>
+                        <td>intermédiaire</td>
+                        <td>swing feel funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 9</strong></td>
+                        <td>4</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 10</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 11</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 12</strong></td>
+                        <td>4</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 13</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 14</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 15</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 16</strong></td>
+                        <td>5</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 17</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 18</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 19</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 20</strong></td>
+                        <td>6</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 21</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 22</strong></td>
+                        <td>7</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 23</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 24</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 25</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 26</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 27</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 28</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 29</strong></td>
+                        <td>9</td>
+                        <td>débutant</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 30</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 31</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 32</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 33</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 34</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 35</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 36</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 37</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 38</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 39</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 40</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 41</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 42</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 43</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 44</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 45</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 46</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 47</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 48</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 49</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 50</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 51</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 52</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 53</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 54</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 55</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 56</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 57</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 58</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 59</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 60</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 61</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 62</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 63</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 64</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 65</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 66</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 67</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 68</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 69</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 70</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 71</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 72</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 73</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 74</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 75</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 76</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 77</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 78</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 79</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 80</strong></td>
+                        <td>25</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 81</strong></td>
+                        <td>26</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 82</strong></td>
+                        <td>26</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 83</strong></td>
+                        <td>26</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 84</strong></td>
+                        <td>26</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 85</strong></td>
+                        <td>27</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 86</strong></td>
+                        <td>27</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 87</strong></td>
+                        <td>27</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 88</strong></td>
+                        <td>27</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 89</strong></td>
+                        <td>28</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 90</strong></td>
+                        <td>28</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 91</strong></td>
+                        <td>28</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 92</strong></td>
+                        <td>28</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 99</strong></td>
+                        <td>29</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 100</strong></td>
+                        <td>29</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pattern 101</strong></td>
+                        <td>29</td>
+                        <td>intermédiaire</td>
+                        <td>funk groove</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (1)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>70s Funk & Disco Bass Patterns</strong></td>
+                        <td>1</td>
+                        <td>Collection de 101 patterns de basse funk et disco des années 70, incluant 99 pistes de démonstration sur CD</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>

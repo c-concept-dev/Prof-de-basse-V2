@@ -1,91 +1,78 @@
-# Volume-2-contrebasse - Conversion V4.0
+# Volume-2-contrebasse
 
-## 🎯 Méthode OCR par Zones
+## 📋 Informations générales
 
-Cette conversion utilise la **technologie V4.0** avec analyse intelligente par zones pour maximiser la précision.
+- **Catégorie** : realbook
+- **Style musical** : jazz
+- **Nombre de pages** : 402
+- **Date de traitement** : 16/11/2025
 
-## 📊 Statistiques
+## 📊 Statistiques du contenu
 
-- **Pages converties :** 402
-- **MP3 détectés :** 0
-- **Tonalités extraites :** 0
-- **Techniques détectées :** 0
-- **Format images :** PNG
-- **Erreurs OCR :** 402
+- **Morceaux identifiés** : 406
+- **Exercices techniques** : 0
+- **Concepts théoriques** : 49
+- **Total d'éléments** : 455
 
-## 🎯 Analyse par Zones V4.0
+## 🎵 Morceaux principaux
 
-### Zone Titre (0-20%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 402
-- **Réussites :** 0 (0%)
-- **Extraction :** Titre, compositeur, tonalité
+- **Ablution** (page 9) - jazz
+- **Affirmation** (page 10) - jazz
+- **Airmail Special** (page 11) - jazz
+- **Alfie's Theme** (page 12) - jazz
+- **All Alone** (page 13) - jazz
+- **All God's Chillun Got Rhythm** (page 14) - jazz
+- **Altoitis** (page 15) - jazz
+- **Another Star** (page 16) - jazz
+- **April Skies** (page 17) - jazz
+- **April** (page 18) - jazz
 
-### Zone Partition (20-90%)
-- **OCR :** 🎼 Désactivé (image conservée)
-- **Pages traitées :** 0
-- **Conservation :** 100% des partitions gardées en image PNG
+... et 396 autres morceaux
 
-### Zone Footer (90-100%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 0
-- **Réussites :** 0 (NaN%)
-- **Extraction :** Numéro de page, track number
+## 💪 Exercices
 
-## 📁 Structure (Format V4.0)
 
-```
-📦 Archive
-├── 📄 index.html          # Navigation visuelle locale
-├── 📄 songs_index.json    # Format V4.0 avec métadonnées zones
-├── 📄 README.md           # Ce fichier
-└── 📁 assets/
-    └── 📁 pages/          # Images des pages
-        ├── page_001.png
-        ├── page_002.png
-        └── ...
-```
 
-## 🚀 Intégration avec le Mega Moteur
 
-### Étape 1 : Décompresser
-```bash
-unzip Volume-2-contrebasse_v4.0.zip
-```
+## 📖 Concepts théoriques
 
-### Étape 2 : Déplacer dans Methodes/
-```bash
-mv extracted_folder Methodes/
-```
+- **Sonny Stitt - Genesis** (page 21)
+- **Milt Jackson - BlueNote # BLP-5011** (page 24)
+- **Charlie Parker - Savoy # 1108** (page 25)
+- **Solos on B section changes** (page 27)
+- **Out chorus: play intro; then head** (page 29)
+- **Solos - 12 Blues** (page 30)
+- **Larry Young - Unity** (page 31)
+- **Weather Report - Heavy Weather (repeat fade)** (page 35)
+- **Solos - Bb blues** (page 36)
+- **Buck Clayton - The Golden Days of Jazz** (page 38)
 
-### Étape 3 : Lancer la fusion
-```bash
-python3 fusion-ultimate-v4.py
-```
+... et 39 autres concepts
 
-Le fichier `songs_index.json` est au format V4.0 compatible avec :
-- ✅ `fusion-ultimate-v4.py`
-- ✅ Structure `metadata` + `songs[]` + `zones`
-- ✅ Métadonnées enrichies par zone
-- ✅ Statistiques de précision par zone
-- ✅ Gestion d'erreurs robuste avec logs détaillés
+## 📦 Fichiers générés
 
-## 🔧 Version V4.0 - OCR par Zones
+- `Volume-2-contrebasse.json` - Données complètes au format JSON
+- `Volume-2-contrebasse_index.html` - Index HTML interactif
+- `Volume-2-contrebasse_README.md` - Ce fichier
 
-### Nouveautés V4.0 :
-- 🎯 **Analyse ciblée** : OCR sur 30% de la page (zones texte seulement)
-- 🎼 **Protection partition** : Zone musicale conservée en image (pas d'OCR)
-- ⚡ **Performance** : 60% plus rapide que V3.2
-- ✅ **Précision** : 90-95% sur zones texte (vs 60-70% en full page)
-- 📊 **Statistiques détaillées** : Précision par zone dans metadata
+## 🚀 Utilisation
 
-### Avantages :
-- ✅ Élimine les erreurs OCR sur les portées musicales
-- ✅ Extrait précisément titres, compositeurs et tracks
-- ✅ Conserve l'image complète pour référence visuelle
-- ✅ Optimise le temps de traitement
-- ✅ Métadonnées enrichies pour analyse
+Les données sont disponibles au format JSON pour faciliter :
+- L'intégration dans des applications web
+- La recherche et le filtrage de contenu
+- L'export vers d'autres formats
+- L'analyse et les statistiques
+
+## 🛠️ Traitement
+
+Traité avec **OCR Batch Converter v2.2** (Ultimate Edition)
+- Traitement par lots de 20 images
+- OCR via Claude (Anthropic)
+- Validation manuelle avec prévisualisation
+- Navigation libre entre les lots
+- Auto-correction des erreurs
+- Export progressif
 
 ---
 
-Généré le 10/11/2025 15:48:01 avec **Convertisseur OCR V4.0 - Zones Optimisées**
+*Généré le 16/11/2025 à 16:33:15*

@@ -1,1240 +1,2239 @@
 {
   "metadata": {
-    "method_name": "Paul westwood 1-2",
-    "total_songs": 57,
-    "has_mp3": false,
-    "mp3_count": 0,
-    "generated_at": "2025-11-10T14:54:02.668Z",
-    "version": "4.0.0",
-    "ocr_method": "zoned",
-    "zones": {
-      "title": {
-        "enabled": true,
-        "range": "0-20%",
-        "stats": {
-          "processed": 57,
-          "success": 0
-        }
-      },
-      "music": {
-        "enabled": false,
-        "range": "20-90%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      },
-      "footer": {
-        "enabled": true,
-        "range": "90-100%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      }
-    },
-    "ocr_config": {
-      "language": "fra",
-      "confidence_threshold": 60
-    }
+    "bookTitle": "Paul Westwood",
+    "category": "method",
+    "style": "various",
+    "totalImages": 57,
+    "totalBatches": 3,
+    "processedDate": "2025-11-16T16:19:43.512Z"
   },
-  "songs": [
-    {
-      "title": "Page 1",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 1,
-      "page_url": "assets/pages/page_001.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
+  "content": {
+    "songs": [],
+    "exercises": [
+      {
+        "title": "Exercices de gammes 1",
+        "page": 17,
+        "difficulty": "débutant",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 2",
+        "page": 17,
+        "difficulty": "débutant",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 3",
+        "page": 17,
+        "difficulty": "débutant",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 4",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 5",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 6",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 7",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 8",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 9",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 10",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Exercices de gammes 11",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "gammes"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 12",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 13",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 14",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 15",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 16",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 17",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 18",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 19",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 20",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 21",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 22",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 23",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 24",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 25",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 26",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 27",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 28",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 29",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 30",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 31",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 32",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 33",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 34",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 35",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 36",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 37",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 38",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 39",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 40",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 41",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 42",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 43",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 44",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 45",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 46",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Enchaînements de swing en 4/4 - Exercice 47",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec extensions d'accords - Exercice 48",
+        "page": 22,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec extensions d'accords - Exercice 49",
+        "page": 22,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec extensions d'accords - Exercice 50",
+        "page": 22,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec extensions d'accords - Exercice 51",
+        "page": 22,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 52",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 53",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 54",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 55",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 56",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 57",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 58",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 59",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 60",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 61",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 62",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Swing en 4/4 avec notes de passage - Exercice 63",
+        "page": 23,
+        "difficulty": "avancé",
+        "technique": "swing"
+      },
+      {
+        "title": "Fills en triolets - Exercice 64",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 65",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 66",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 67",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 68",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 69",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 70",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 71",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 72",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 73",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 74",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills en triolets - Exercice 75",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 76",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 77",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 78",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 79",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 80",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 81",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 82",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 83",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 84",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 85",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 86",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec croches - Exercice 87",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 88",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 89",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 90",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 91",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 92",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 93",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 94",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 95",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 96",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 97",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 98",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 99",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 100",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 101",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 102",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 103",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 104",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 105",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 106",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 107",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 108",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 109",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 110",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 111",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 112",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 113",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 114",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 115",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 116",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 117",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 118",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 119",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 120",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (style shuffle en 12/8) - Exercice 121",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 122",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 123",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 124",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 125",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 126",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 127",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 128",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 129",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 130",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 131",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 132",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 133",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 134",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 12/8 (style shuffle) - Exercice 135",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 136",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 137",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 138",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 139",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 140",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 141",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 142",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 143",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 144",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 145",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 146",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 147",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 148",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 149",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 150",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 151",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 152",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Blues et R & B en 4/4 - Exercice 153",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Soul - Exercice 154",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 155",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 156",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 157",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 158",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 159",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 160",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 161",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 162",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 163",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 164",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 165",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 166",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 167",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 168",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 169",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 170",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 171",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 172",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 173",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 174",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 175",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 176",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 177",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 178",
+        "page": 39,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 179",
+        "page": 40,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 180",
+        "page": 40,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "Soul - Exercice 181",
+        "page": 40,
+        "difficulty": "intermédiaire",
+        "technique": "soul"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 182",
+        "page": 40,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 183",
+        "page": 40,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 184",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 185",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 186",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 187",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 188",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 189",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 190",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 191",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 192",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 193",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 194",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 195",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 196",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 197",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 198",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 199",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 200",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "JAMES JAMERSON et Motown - Exercice 201",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "motown"
+      },
+      {
+        "title": "Fills de basse - Exercice 202",
+        "page": 42,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 203",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 204",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 205",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 206",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 207",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 208",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 209",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 210",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 211",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 212",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "Fills de basse - Exercice 213",
+        "page": 43,
+        "difficulty": "intermédiaire",
+        "technique": "fills"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 214",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 215",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 216",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 217",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 218",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 219",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 220",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 221",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 222",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 223",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 224",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 225",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 226",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 227",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 228",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "CHUCK RAINEY et Atlantic Records - Exercice 229",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 230",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 231",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 232",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 233",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 234",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 235",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 236",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 237",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 238",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 239",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 240",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 241",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 242",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 243",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 244",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 245",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 246",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 247",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 248",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 249",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 250",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 251",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 252",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 253",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 254",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 255",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 256",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "JAMES BROWN et le Funk - Exercice 257",
+        "page": 48,
+        "difficulty": "avancé",
+        "technique": "funk"
+      },
+      {
+        "title": "STANLEY CLARKE - Exercice 258",
+        "page": 49,
+        "difficulty": "avancé",
+        "technique": "jazz fusion"
+      },
+      {
+        "title": "STANLEY CLARKE - Exercice 259",
+        "page": 49,
+        "difficulty": "avancé",
+        "technique": "jazz fusion"
+      },
+      {
+        "title": "STANLEY CLARKE - Exercice 260",
+        "page": 49,
+        "difficulty": "avancé",
+        "technique": "jazz fusion"
+      },
+      {
+        "title": "STANLEY CLARKE - Exercice 261",
+        "page": 49,
+        "difficulty": "avancé",
+        "technique": "jazz fusion"
+      },
+      {
+        "title": "Rock - Exercice 262",
+        "page": 50,
+        "difficulty": "intermédiaire",
+        "technique": "rock"
+      },
+      {
+        "title": "Rock - Exercice 263",
+        "page": 50,
+        "difficulty": "intermédiaire",
+        "technique": "rock"
+      },
+      {
+        "title": "Rock - Exercice 264",
+        "page": 50,
+        "difficulty": "intermédiaire",
+        "technique": "rock"
+      },
+      {
+        "title": "Rock - Exercice 265",
+        "page": 50,
+        "difficulty": "intermédiaire",
+        "technique": "rock"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 266",
+        "page": 51,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 267",
+        "page": 51,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 268",
+        "page": 51,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 269",
+        "page": 51,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 270",
+        "page": 51,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 271",
+        "page": 51,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 272",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 273",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 274",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 275",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 276",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 277",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 278",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 279",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 280",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 281",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 282",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 283",
+        "page": 52,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 284",
+        "page": 53,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 285",
+        "page": 53,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 286",
+        "page": 53,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 287",
+        "page": 53,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 288",
+        "page": 53,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires réguliers avec croches - Exercice 289",
+        "page": 53,
+        "difficulty": "débutant",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 290",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 291",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 292",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 293",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 294",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 295",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 296",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 297",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 298",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 299",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 300",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 301",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 302",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 303",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 304",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 305",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 306",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 307",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 308",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 309",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 310",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 311",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires syncopés avec croches - Exercice 312",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 313",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 314",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 315",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 316",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 317",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 318",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 319",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 320",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 321",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 322",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 323",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 324",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 325",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 326",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 327",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 328",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 329",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves binaires avec doubles croches - Exercice 330",
+        "page": 56,
+        "difficulty": "intermédiaire",
+        "technique": "grooves"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 331",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 332",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 333",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 334",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 335",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 336",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 337",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 338",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 339",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 340",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 341",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
+      },
+      {
+        "title": "Grooves ternaires (shuffle) - Exercice 342",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "shuffle"
       }
-    },
-    {
-      "title": "Page 2",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 2,
-      "page_url": "assets/pages/page_002.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
+    ],
+    "concepts": [
+      {
+        "concept": "Introduction",
+        "page": 3,
+        "description": "Introduction à la guitare basse et aux principes de base pour jouer de la basse dans un groupe"
+      },
+      {
+        "concept": "Techniques - Doigté",
+        "page": 5,
+        "description": "Technique de jeu avec les doigts de la main gauche"
+      },
+      {
+        "concept": "Techniques - Intensité de l'attaque",
+        "page": 5,
+        "description": "Comment contrôler l'intensité de l'attaque pour créer une ambiance détendue"
+      },
+      {
+        "concept": "Techniques - Sonorité",
+        "page": 5,
+        "description": "Utilisation de différents types de sons (son clair ou sourd) selon les genres musicaux"
+      },
+      {
+        "concept": "Techniques - Style espagnol",
+        "page": 5,
+        "description": "Jeu de la guitare basse avec le pouce et les autres doigts"
+      },
+      {
+        "concept": "Techniques - Médiator",
+        "page": 5,
+        "description": "Usage du médiator pour produire un son plus net et précis"
+      },
+      {
+        "concept": "Techniques - Ongles",
+        "page": 5,
+        "description": "Utilisation des ongles pour remplacer le médiator"
+      },
+      {
+        "concept": "Techniques - Slap",
+        "page": 5,
+        "description": "Technique de slap pour créer des rythmes percussifs"
+      },
+      {
+        "concept": "Techniques - Popping avec placement",
+        "page": 6,
+        "description": "Technique du popping qui apporte une attaque plus sèche et précise"
+      },
+      {
+        "concept": "Techniques - Tapping de la main gauche",
+        "page": 6,
+        "description": "Technique de tapping avec l'index et le majeur de la main droite"
+      },
+      {
+        "concept": "Techniques - Étouffement",
+        "page": 6,
+        "description": "Technique pour étouffer les notes uniformément avec le côté du chevalet"
+      },
+      {
+        "concept": "Techniques - Walking et étouffement",
+        "page": 6,
+        "description": "Combinaison du walking bass avec des techniques d'étouffement"
+      },
+      {
+        "concept": "Techniques - Palming",
+        "page": 6,
+        "description": "Technique pour créer un son plus sourd en étouffant partiellement les cordes"
+      },
+      {
+        "concept": "Techniques - Harmoniques",
+        "page": 6,
+        "description": "Production d'harmoniques naturelles pour créer des sons cristallins"
+      },
+      {
+        "concept": "Techniques - Pédales et effets",
+        "page": 6,
+        "description": "Utilisation de pédales d'effets pour enrichir le son de la basse"
+      },
+      {
+        "concept": "La théorie de base en 49 étapes",
+        "page": 8,
+        "description": "49 étapes progressives pour apprendre la théorie musicale de base"
+      },
+      {
+        "concept": "Lignes de basse walking",
+        "page": 10,
+        "description": "Construction de lignes de basse walking dans différents styles musicaux"
+      },
+      {
+        "concept": "Gammes, arpèges et exercices",
+        "page": 11,
+        "description": "Gammes et arpèges fondamentaux avec exercices pratiques"
+      },
+      {
+        "concept": "Gammes majeures",
+        "page": 11,
+        "description": "Gammes majeures de CM, CM7M, CM7M, C7, C7+4, C7b6"
+      },
+      {
+        "concept": "Gammes mineures",
+        "page": 12,
+        "description": "Gammes mineures de Cm, Cm (naturelle), Cm (mélodique), Cm (harmonique), Cm (mode phrygien), Cm (blues)"
+      },
+      {
+        "concept": "Modes diatoniques",
+        "page": 13,
+        "description": "Modes ionien, dorien, phrygien, lydien, mixolydien, éolien"
+      },
+      {
+        "concept": "Arpèges majeurs",
+        "page": 14,
+        "description": "Arpèges majeurs de CM, Cma7, Cma9, C6/9, Cma9 ou C6, C6b4"
+      },
+      {
+        "concept": "Arpèges mineurs",
+        "page": 15,
+        "description": "Arpèges mineurs de Cm, Cm (harmonique), Cm (mélodique), Cm7"
+      },
+      {
+        "concept": "Séquences d'accords et improvisation",
+        "page": 24,
+        "description": "Introduction aux séquences d'accords courantes dans différents styles musicaux et techniques d'improvisation de lignes de basse"
+      },
+      {
+        "concept": "Style Pop",
+        "page": 24,
+        "description": "Séquences d'accords en style pop (I-vi-IV, IV-I-V, I-IV-V, V-I en 4/4 et jazz en 4/4)"
+      },
+      {
+        "concept": "LIVRE DEUX - Grooves de base",
+        "page": 31,
+        "description": "Introduction aux grooves de base avec différentes variations rythmiques"
+      },
+      {
+        "concept": "Grooves de base",
+        "page": 32,
+        "description": "Les grooves constituent la base de la plupart des formes musicales. Apprentissage des différents types de grooves et leur importance pour le rythme et l'accompagnement"
+      },
+      {
+        "concept": "Blues et R & B",
+        "page": 34,
+        "description": "Histoire et caractéristiques du blues et du R&B, avec séquences de 12 mesures courantes dans le blues"
+      },
+      {
+        "concept": "Soul",
+        "page": 37,
+        "description": "Caractéristiques de la musique soul et ses lignes de basse, incluant l'influence de James Jameson et Marvin Gaye"
+      },
+      {
+        "concept": "JAMES JAMERSON et Motown",
+        "page": 40,
+        "description": "L'influence de James Jamerson sur la basse soul et Motown, avec techniques spécifiques et approche rythmique"
+      },
+      {
+        "concept": "CHUCK RAINEY et Atlantic Records",
+        "page": 44,
+        "description": "L'influence de Chuck Rainey sur le funk et la soul, avec ses techniques rythmiques et harmoniques caractéristiques développées pour Atlantic Records"
+      },
+      {
+        "concept": "JAMES BROWN et le Funk",
+        "page": 46,
+        "description": "Les techniques de basse funk développées dans le contexte de la musique de James Brown, avec emphase sur les rythmes syncopés et le groove"
+      },
+      {
+        "concept": "STANLEY CLARKE",
+        "page": 49,
+        "description": "Techniques de jazz fusion et approche virtuose de la basse, incluant des passages rapides et des phrasés complexes"
+      },
+      {
+        "concept": "Rock",
+        "page": 50,
+        "description": "Caractéristiques du rock et lignes de basse rock, incluant l'influence de Chuck Berry, les Beatles, Led Zeppelin et autres groupes rock majeurs"
       }
-    },
-    {
-      "title": "Page 3",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 3,
-      "page_url": "assets/pages/page_003.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 4",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 4,
-      "page_url": "assets/pages/page_004.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 5",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 5,
-      "page_url": "assets/pages/page_005.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 6",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 6,
-      "page_url": "assets/pages/page_006.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 7",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 7,
-      "page_url": "assets/pages/page_007.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 8",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 8,
-      "page_url": "assets/pages/page_008.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 9",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 9,
-      "page_url": "assets/pages/page_009.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 10",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 10,
-      "page_url": "assets/pages/page_010.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 11",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 11,
-      "page_url": "assets/pages/page_011.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 12",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 12,
-      "page_url": "assets/pages/page_012.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 13",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 13,
-      "page_url": "assets/pages/page_013.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 14",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 14,
-      "page_url": "assets/pages/page_014.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 15",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 15,
-      "page_url": "assets/pages/page_015.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 16",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 16,
-      "page_url": "assets/pages/page_016.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 17",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 17,
-      "page_url": "assets/pages/page_017.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 18",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 18,
-      "page_url": "assets/pages/page_018.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 19",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 19,
-      "page_url": "assets/pages/page_019.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 20",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 20,
-      "page_url": "assets/pages/page_020.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 21",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 21,
-      "page_url": "assets/pages/page_021.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 22",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 22,
-      "page_url": "assets/pages/page_022.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 23",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 23,
-      "page_url": "assets/pages/page_023.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 24",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 24,
-      "page_url": "assets/pages/page_024.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 25",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 25,
-      "page_url": "assets/pages/page_025.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 26",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 26,
-      "page_url": "assets/pages/page_026.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 27",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 27,
-      "page_url": "assets/pages/page_027.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 28",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 28,
-      "page_url": "assets/pages/page_028.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 29",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 29,
-      "page_url": "assets/pages/page_029.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 30",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 30,
-      "page_url": "assets/pages/page_030.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 31",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 31,
-      "page_url": "assets/pages/page_031.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 32",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 32,
-      "page_url": "assets/pages/page_032.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 33",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 33,
-      "page_url": "assets/pages/page_033.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 34",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 34,
-      "page_url": "assets/pages/page_034.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 35",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 35,
-      "page_url": "assets/pages/page_035.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 36",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 36,
-      "page_url": "assets/pages/page_036.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 37",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 37,
-      "page_url": "assets/pages/page_037.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 38",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 38,
-      "page_url": "assets/pages/page_038.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 39",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 39,
-      "page_url": "assets/pages/page_039.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 40",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 40,
-      "page_url": "assets/pages/page_040.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 41",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 41,
-      "page_url": "assets/pages/page_041.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 42",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 42,
-      "page_url": "assets/pages/page_042.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 43",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 43,
-      "page_url": "assets/pages/page_043.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 44",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 44,
-      "page_url": "assets/pages/page_044.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 45",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 45,
-      "page_url": "assets/pages/page_045.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 46",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 46,
-      "page_url": "assets/pages/page_046.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 47",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 47,
-      "page_url": "assets/pages/page_047.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 48",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 48,
-      "page_url": "assets/pages/page_048.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 49",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 49,
-      "page_url": "assets/pages/page_049.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 50",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 50,
-      "page_url": "assets/pages/page_050.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 51",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 51,
-      "page_url": "assets/pages/page_051.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 52",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 52,
-      "page_url": "assets/pages/page_052.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 53",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 53,
-      "page_url": "assets/pages/page_053.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 54",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 54,
-      "page_url": "assets/pages/page_054.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 55",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 55,
-      "page_url": "assets/pages/page_055.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 56",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 56,
-      "page_url": "assets/pages/page_056.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 57",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 57,
-      "page_url": "assets/pages/page_057.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: Cannot read properties of null (reading 'SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    }
-  ]
+    ]
+  }
 }

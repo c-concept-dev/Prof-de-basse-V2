@@ -1,1198 +1,464 @@
 {
   "metadata": {
-    "method_name": "aebersold French",
-    "total_songs": 55,
-    "has_mp3": false,
-    "mp3_count": 0,
-    "generated_at": "2025-11-10T09:31:11.154Z",
-    "version": "4.0.0",
-    "ocr_method": "zoned",
-    "zones": {
-      "title": {
-        "enabled": true,
-        "range": "0-20%",
-        "stats": {
-          "processed": 55,
-          "success": 0
-        }
-      },
-      "music": {
-        "enabled": false,
-        "range": "20-90%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      },
-      "footer": {
-        "enabled": true,
-        "range": "90-100%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      }
-    },
-    "ocr_config": {
-      "language": "eng+fra",
-      "confidence_threshold": 60
-    }
+    "bookTitle": "aebersold-FRENCH",
+    "category": "method",
+    "style": "jazz",
+    "totalImages": 55,
+    "totalBatches": 3,
+    "processedDate": "2025-11-16T15:58:24.161Z"
   },
-  "songs": [
-    {
-      "title": "Page 1",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 1,
-      "page_url": "assets/pages/page_001.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
+  "content": {
+    "songs": [],
+    "exercises": [
+      {
+        "title": "Exercices préparatoires - Clef de Fa",
+        "page": 20,
+        "difficulty": "débutant",
+        "technique": "lecture, gammes"
+      },
+      {
+        "title": "Exercice sur la gamme Blues",
+        "page": 20,
+        "difficulty": "débutant",
+        "technique": "blues"
+      },
+      {
+        "title": "Exercices préparatoires - Clef de Fa (continuation)",
+        "page": 21,
+        "difficulty": "débutant",
+        "technique": "lecture, gammes majeures, 7ème dominante, mineure"
+      },
+      {
+        "title": "Les 12 Gammes Majeures (Ioniennes) Jusqu'à la 9ème - Clef de Sol",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "gammes, construction TTDTTDT"
+      },
+      {
+        "title": "Les 12 Gammes Majeures (Mixolydiennes) Jusqu'à la 9ème - Clef de Sol",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "gammes, 7ème de dominante"
+      },
+      {
+        "title": "Les 12 Gammes Mineures (Doriennes) Jusqu'à la 9ème - Clef de Sol",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "gammes mineures"
+      },
+      {
+        "title": "Gammes Par Tons (Augmentée)",
+        "page": 22,
+        "difficulty": "avancé",
+        "technique": "gammes par tons, construction TTTTTT"
+      },
+      {
+        "title": "Les 12 Gammes Majeures (Ioniennes) Jusqu'à la 9ème - Clef de Fa",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "gammes, construction TTDTTDT"
+      },
+      {
+        "title": "Les 12 Gammes Majeures (Mixolydiennes) Jusqu'à la 9ème - Clef de Fa",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "gammes, 7ème de dominante"
+      },
+      {
+        "title": "Les 12 Gammes Mineures (Doriennes) Jusqu'à la 9ème - Clef de Fa",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "gammes mineures"
+      },
+      {
+        "title": "Exercices d'articulation - Piqué sur les temps forts",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "articulation"
+      },
+      {
+        "title": "Exercices d'articulation - Piqué sur la 4e notes",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "articulation"
+      },
+      {
+        "title": "Exercices d'articulation - Chromatique sur les temps forts",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "articulation, chromatisme"
+      },
+      {
+        "title": "Exercices d'articulation - Piqué aléatoire / Aléatoire",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "articulation"
+      },
+      {
+        "title": "Exercices d'articulation - Notes de l'accord",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "articulation, arpèges"
+      },
+      {
+        "title": "Pratique des gammes - G majeur, G7 Dominant, G-7 Mineur Dorian, etc.",
+        "page": 31,
+        "difficulty": "intermédiaire",
+        "technique": "gammes, articulation"
+      },
+      {
+        "title": "Sessions théorique-1: Écrire les notes des gammes suivantes",
+        "page": 42,
+        "difficulty": "débutant",
+        "technique": "gammes"
+      },
+      {
+        "title": "Sessions théorique-2: Écrire les notes qui compose les accords suivants",
+        "page": 43,
+        "difficulty": "débutant",
+        "technique": "accords"
+      },
+      {
+        "title": "Sessions théorique-3: Identification des notes dans les gammes",
+        "page": 44,
+        "difficulty": "débutant",
+        "technique": "gammes"
+      },
+      {
+        "title": "Sessions théorique-4: II V7 I - Séquences dans les modes Majeures et mineures",
+        "page": 45,
+        "difficulty": "intermédiaire",
+        "technique": "progressions II-V-I"
+      },
+      {
+        "title": "Sessions théorique-5: Questions théoriques",
+        "page": 46,
+        "difficulty": "intermédiaire",
+        "technique": "théorie"
+      },
+      {
+        "title": "II/V7/I - Progression avec l'accent sur la 7e résolus à la 3e",
+        "page": 47,
+        "difficulty": "intermédiaire",
+        "technique": "progressions II-V-I"
+      },
+      {
+        "title": "Blues - 7 variations",
+        "page": 48,
+        "difficulty": "intermédiaire",
+        "technique": "blues"
+      },
+      {
+        "title": "Majeur et 7e de dominante - Cycle complet 3e et 7e",
+        "page": 49,
+        "difficulty": "intermédiaire",
+        "technique": "cycles"
+      },
+      {
+        "title": "II-V7-I / II-V7-I / Majeur, 7e Dom., II-V7-I",
+        "page": 50,
+        "difficulty": "avancé",
+        "technique": "progressions II-V-I"
+      },
+      {
+        "title": "Piano Voicing - II/V7/I - Tonalités Majeures",
+        "page": 51,
+        "difficulty": "intermédiaire",
+        "technique": "voicings piano"
+      },
+      {
+        "title": "Piano Voicing - Ø-V7+9-I Toutes les tonalitées mineures",
+        "page": 52,
+        "difficulty": "intermédiaire",
+        "technique": "voicings piano"
       }
-    },
-    {
-      "title": "Page 2",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 2,
-      "page_url": "assets/pages/page_002.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
+    ],
+    "concepts": [
+      {
+        "concept": "Introduction générale au Jazz",
+        "page": 3,
+        "description": "Bases pour apprendre l'improvisation dans la musique jazz, importance des gammes, accords, modes, plans et morceaux standards"
+      },
+      {
+        "concept": "Information utile de Jazz",
+        "page": 4,
+        "description": "Ingrédients de base en musique: gammes, accords, mélodie, rythme, harmonie. Objectif d'enseignement du jazz et conseils pratiques"
+      },
+      {
+        "concept": "Aide à la pratique",
+        "page": 5,
+        "description": "11 conseils pour la pratique: jouer avec bon son/ton, phrases naturelles, chanter mentalement, ralentir exercices difficiles, être patient, utiliser articulations jazz, improviser quotidiennement, pratiquer dans 12 tonalités, apprendre Blues, mémoriser"
+      },
+      {
+        "concept": "Solos par Jamey Aebersold",
+        "page": 6,
+        "description": "7 principes pour improviser: restez en mesure, jouez les bonnes notes, répétition et phrases, tonalités des accords, sonorité, écoute, capacité d'improviser. Recommandation des volumes Play-A-Long 1, 24, 3, 21, 116, 84, 54, 70, 47 et 120"
+      },
+      {
+        "concept": "Jazz: La musique naturelle",
+        "page": 7,
+        "description": "Histoire et évolution du jazz, importance de l'écoute, méthode de pratique, section rythmique. Liste d'ingrédients pour bien improviser: désir, écoute sérieuse, méthode de pratique, section rythmique, utilisation de soi"
+      },
+      {
+        "concept": "Écoute suggérée d'artistes de jazz",
+        "page": 10,
+        "description": "Liste extensive d'artistes de jazz par instrument: Trompette, Sax Soprano, Sax Alto, Sax Ténor, Sax Baryton, Trombone, Flûte, Clarinette, Piano, Guitare, Basse, Batterie, Vibraphone, Chanteur Scat, Violon, Harmonica, Violoncelle"
+      },
+      {
+        "concept": "Enregistrement d'importance historique",
+        "page": 11,
+        "description": "Liste de plus de 100 albums de jazz historiques essentiels à écouter des années 40, 50 et 60, avec artistes et titres d'albums"
+      },
+      {
+        "concept": "Conseils pour apprendre un nouveau morceau",
+        "page": 12,
+        "description": "13 étapes pour mémoriser et jouer un morceau: écouter, mémoriser mélodie, écouter ligne de basse et harmonie, jouer mélodie de mémoire, jouer avec enregistrement, apprendre gammes/accords, improviser dans harmonie, insister sur tierces et septièmes, mémoriser mélodie et gammes/accords, improviser mélodies originales, écouter enregistrements originaux, apprendre paroles, aimer les mélodies"
+      },
+      {
+        "concept": "Procédure pratique pour la mémorisation",
+        "page": 12,
+        "description": "Méthode en 12 étapes pour mémoriser gammes et accords de n'importe quel morceau, incluant progression des exercices de la fondamentale aux accords complets"
+      },
+      {
+        "concept": "Procédure pratique de mémorisation pour les gammes et accords d'un morceau",
+        "page": 13,
+        "description": "8 exercices énumérés avec notation musicale illustrant progressions d'accords en différentes tonalités (Bb, C, F, etc.) avec gammes de Triades, 7th Chords, et Entire Scale"
+      },
+      {
+        "concept": "Liste de Standards pour débutant",
+        "page": 14,
+        "description": "Liste de morceaux standards pour débutants et intermédiaires avec indication des tonalités et volumes Play-a-long. Standards pour débutants incluent Blues en Bb et F, Footprints, Satin Doll, Doxy, Autumn Leaves, etc. Standards intermédiaires incluent Four, Perdido, All Blues, Groovin High, etc."
+      },
+      {
+        "concept": "Standards pour les plus avancés",
+        "page": 14,
+        "description": "Liste de standards avancés: Stella by Starlight, Star Eyes, Invitation, Have You Met Miss Jones, I Got Rhythm, Giant Steps, All The Things You Are, Most ballads, Wayne Shorter tunes, Horace Silver tunes, John Coltrane tunes, Benny Golson tunes"
+      },
+      {
+        "concept": "Les gammes",
+        "page": 15,
+        "description": "Définitions des gammes fondamentales: Majeure (1 2 3 4 5 6 7 8), Dom. 7ème (1 2 3 4 5 6 b7 8), mineure (1 2 b3 4 5 6 b7 8). Ce sont les trois gammes et accords les plus utilisés"
+      },
+      {
+        "concept": "Gammes avancées",
+        "page": 15,
+        "description": "Demi-dim (BØ = CA): 1 b2b3 4b5b6 b7 8. Gamme de Blues: 1 b3 4 #4 5 b7 8. Majeure pentatonique: 1 2 3 5 6 8. Mineure pentatonique: 1 b3 4 5 b7 8. Mineure pent. (J. Coltrane): 1 2b3 5 6 8. Tableau des accords avec triades et accords 7ème"
+      },
+      {
+        "concept": "Introduction aux répertoires des gammes",
+        "page": 16,
+        "description": "Explication du système de notation des gammes en DO. Répertoire conçu pour donner à l'improvisateur un choix varié de gammes pour différents accords (majeur, mineur, 7ème Dominante, semi-diminué, diminué). Organisation en catégories selon tension et dissonance. Référence au Volume 26 'Scale Syllabus'"
+      },
+      {
+        "concept": "Tableau des gammes d'accord (ou modes)",
+        "page": 17,
+        "description": "Tableau détaillé classant les gammes par catégories: Cinq+1 catégories de base (Majeure, Dominante 7ème, Mineure, Demi-diminuée, Diminuée, Dominante 7ème sus 4). Pour chaque gamme: nom usuel, construction en tons et demi-tons, gamme en C, et symbole usuel d'accord"
+      },
+      {
+        "concept": "Nomenclature des gammes",
+        "page": 18,
+        "description": "Légende complète des symboles d'accords utilisés en jazz. Explication des notations: + ou # = monter d'un demi-ton, - ou b = descendre d'un demi-ton, D = demi-ton, T = ton. Liste exhaustive des symboles et leurs significations pour accords Majeur, 7ème DE DOMINANTE, 7ème MINEURE, DEMI-DIMINUE, DIMINUE, LYDIEN, GAMME PAR TONS, etc."
+      },
+      {
+        "concept": "La 7e de dominante dans le choix des gammes",
+        "page": 19,
+        "description": "Importance des 3ce et 7e dans toutes les gammes/accords. Ces notes guident le mouvement harmonique. La 3ce indique majeur/mineur, la 7e indique stabilité ou résolution. 8 gammes présentées: 7ᵉ de Dom. (C7), BEPBOP (C7), LYDIAN DOM. (C7#4), TONIQUE (C7+), DIMINUEE (C7b9), DIM. Tons entiers (C7+9), Espagnol/Gamme juive (C7(b9)), Gamme Chromatique"
+      },
+      {
+        "concept": "Gammes en Clef de Sol - Les 12 tonalités Majeures, 7ème Dominante et Mineures",
+        "page": 22,
+        "description": "Présentation des 12 gammes majeures (Ioniennes) construction TTDTTDT, 12 gammes Mixolydiennes (7ème de dominante), 12 gammes mineures (Doriennes) jusqu'à la 9ème note. Inclut gammes par tons (augmentée) TTTTTT, gammes diminuées par tons, et gammes à demi-diminuées"
+      },
+      {
+        "concept": "Gammes en Clef de Fa - Les 12 tonalités Majeures, 7ème Dominante et Mineures",
+        "page": 23,
+        "description": "Présentation des 12 gammes majeures (Ioniennes) construction TTDTTDT, 12 gammes Mixolydiennes (7ème de dominante), 12 gammes mineures (Doriennes) jusqu'à la 9ème note en clef de Fa. Inclut gammes diminuées par tons et gammes à demi-diminuées"
+      },
+      {
+        "concept": "Entraînement de l'oreille",
+        "page": 24,
+        "description": "Importance de développer la capacité à entendre la tonique, la qualité de l'accord et identifier les intervalles. Discussion sur les différents niveaux d'audience et l'importance de l'ear training pour l'improvisation. Recommandation du volume 21 'Gettin' It Together' et référence à 'Listening to Jazz' de Jerry Coker"
+      },
+      {
+        "concept": "Tableau d'intervalle",
+        "page": 25,
+        "description": "Guide pour identifier correctement les intervalles joués en utilisant des chansons connues. Tableau classant les intervalles ascendants et descendants (-2, M2, -3, M3, P4, #4/b5, P5, #5/b6, M6, b7, M7, 8va) avec des exemples de morceaux pour chaque intervalle"
+      },
+      {
+        "concept": "Clavier Basic et Gamme Chromatique",
+        "page": 26,
+        "description": "Explication du clavier, construction des intervalles: Notes Ascendantes, Notes Descendantes, Intervalle (distance en deux notes), Demi-ton et Ton. Présentation de la gamme chromatique ascendante et descendante en clef de Sol et clef de Fa. Exemple: gamme de C Majeur = W, W, H, W, W, W, H et G7+9 (Diminué d'un ton) = H,W,H,W,W,W,W"
+      },
+      {
+        "concept": "Le cycles des quartes",
+        "page": 27,
+        "description": "Cercle de Quartes (ou cycle des quintes). Explication du mouvement de la tonique dans une progression. Montée de C vers F = quarte (5 demi-tons), descente de C vers F = quinte (7 demi-tons). Standards de jazz comme 'All The Things You Are' utilisent la progression en cycle sur les cinq premières mesures. Exercices pour s'entourer au crayon les cycles dans diverses progressions"
+      },
+      {
+        "concept": "Gamme/Mode basée sur la gamme majeure",
+        "page": 27,
+        "description": "Schéma énumérant les sept échelles (parfois appelées modes) qui se combinent pour former la gamme majeure. Noms dérivés du moyen âge: Dorian, Lydien, Myxolydien. Les gammes les plus souvent utilisées dans le jazz: La majeur, la Mineure (Dorian), la 7e de dominante (Myxolydien), la Lydien et la Demi-Diminuée (Locrien)"
+      },
+      {
+        "concept": "Comment pratiquer l'improvisation",
+        "page": 28,
+        "description": "Par Jerry Coker: Exemple de pratique journalière basé sur une période de 60-75 minutes. Liste des thèmes avec temps en minutes: 1) Un morceaux lent (5'), 2) Gammes et motifs (15'), 3) Applications de motifs (10'), 4) Exercices d'improvisation (5'), 5) Transcription de solo (15'), 6) Disciplines spéciales (10'), 7) Apprendre une tonalité (15'). Total 75 minutes"
+      },
+      {
+        "concept": "Comment pratiquer",
+        "page": 28,
+        "description": "Par David Liebman: Importance de ne pas digérer facilement qu'un ou deux points importants en même temps pour que cela soit efficace. Exemple: Les notes prolongées au saxophone sont pour la respiration et la régularité, le vibrato, etc. Les gammes sont pour travailler la vitesse et le doigter. Livres recommandés de David Liebman disponibles chez Jamey Aebersold Jazz"
+      },
+      {
+        "concept": "Les choses qui créer l'intérêt dans les solos",
+        "page": 29,
+        "description": "Liste d'éléments pour créer de l'intérêt dans les solos: Les répétitions, Les séquences, La dynamique (Fort et doux), Les gammes (Tessiture - Haut, Bas, Registre Moyen), Les silences, Les notes tenues, Les Repos/silences, Les variations de Rythmique, La variété mais Pas Trop. Utiliser les gammes de Blues, tensions et relâchements, Les motifs, Savoir où est placées les tonalités 1, 2, 5 et 7, gammes et accords de passage, Les trilles, glissandos, piqués, vibratos, staccatos, Souligner les belles notes 7°, 9° et #4e"
+      },
+      {
+        "concept": "Départ d'une phrase ou mélodie",
+        "page": 29,
+        "description": "10 questions pour démarrer une phrase: 1) Par quel registre de votre instrument allez-vous commencer? 2) Comment voulez-vous commencer? (Lentement, notes tenues, espace/silence, rapidement, avec beaucoup d'attention, mouvement, visibilité, modérément) 3) Par quelle note de la gamme ou de l'accord voulez-vous commencer? 4) Voulez monter, descendre ou rester dans un même domaine, le registre? 5) Utiliser des pick-ups? 6) Combien de temps êtes-vous prêt à maintenir la continuité? 7) Quel rythme allez vous aborder? 8) Les notes 1, 3, 5, 7 de l'accord sont de bonnes notes pour commencer. 9) Est-ce votre idée initiale vient de votre esprit ou doigts? 10) Instrumentiste à vents: être sûr que vous prenez une bonne respiration"
+      },
+      {
+        "concept": "Articulations",
+        "page": 30,
+        "description": "Comment mieux partager son expérience. Particularité de la musique de jazz: l'articulation que les différents acteurs utilisent pour s'exprimer à travers leur musique. Certains joueurs utilisent articulations du style standard (époque du Swing et Be-bop), d'autres s'appuient sur legato ou courtes phrases, certains utilisent staccato pour ajouter de l'intérêt et de l'excitation. But final: arriver à un style d'articulation approprié. Liste de musiciens ayant apporté une contribution importante dans le flux de l'articulation du jazz: Cannonball Adderley, Sonny Rollins, Phil Woods, Freddie Hubbard, Clifford Brown, Miles Davis, John Coltrane, Dave Liebman, Wes Montgomery, Herbie Hancock, Lee Morgan, Ron Carter, Art Farmer, Lee Konitz, Charlie Parker, Clark Terry, JJ Johnson, Slide Hampton, Woody Shaw, Kenny Dorham, McCoy Tyner, Ornette Coleman, Horace Silver, Joe Henderson"
+      },
+      {
+        "concept": "La gamme de Blues et son utilisation",
+        "page": 32,
+        "description": "La gamme de Blues constituée: tonique, 3teb, 4te, 4te#, 5te et 7° b. Exemple: Gamme de Blues en F = F, Ab, Bb, B, C, Eb, F. Utilisation sur des accords mineurs lorsque l'accord mineur est joué dans les mesures 9 à 16 ou plus. Utilisation pour transmettre un son ou un sens 'Funky', 'Down-Home', 'Earty' ou 'Bluesy'. Présentation des DOUZE GAMMES DE BLUES (Clef de Sol et clef de Fa) dans toutes les tonalités"
+      },
+      {
+        "concept": "Les Progressions Blues",
+        "page": 33,
+        "description": "Extrait du volume 21 'Gettin' It Together' de la série d'Aebersold 'Play-A-Long'. Présentation de progressions Blues en C et en Bb (Blues en F concert / Blues en G concert). La gamme de Blues en C doit être jouée à tout moment dans un Blues en F. La gamme de Blues en F peut être jouée à tout moment dans un Blues en C"
+      },
+      {
+        "concept": "L'Improvisation: Jouer le Blues",
+        "page": 34,
+        "description": "Le blues est une forme musicale que les musiciens de jazz ont toujours embrassée. Discussion approfondie sur l'improvisation blues, variations infinies sur progressions d'accords. Exemples de progressions: ||F7 |F7 | F7 |F7 |Bb7 |Bb7| F7 |F7 | C7 |Bb7 | F7 |C7 ||. Variations à l'infini sur les progressions d'accords. Recommandation du livre de Dan Haerle 'Jazz-Rock Voicing for the Contemporary Keyboard Player'. Importance de commencer par jouer la tonique, puis les cinq premières notes de chaque gamme, puis la triade (tonique, 3ce et 5te)"
+      },
+      {
+        "concept": "Studio - Improvisation par Jamey Aebersold - Variation du Blues",
+        "page": 36,
+        "description": "Article sur le Blues (12 mesures) avec variations sur les progressions de blues. Terme de 'morceau à trois accords' fait généralement référence à la plus simple des progressions de Blues. 17 progressions de blues différentes trouvées dans le livre de Dan Haerle 'Jazz / Rock Voicings for the Contemporary Keyboard Player'. Tableau de progressions Blues (en clef de F) par Dan Haerle avec 17 progressions de 1 à 17 mesures, incluant variations d'accords (F7, Bb7, C7, Cm7/F7, Em7/A7, Gb-7/C7, etc.)"
+      },
+      {
+        "concept": "Concepts",
+        "page": 37,
+        "description": "Repris de JIM PIERCE'S dans 'Big Golden Trumpet Encyclopedia' publié par Charles Hansen Music & Books. Liste de concepts inspirants: LE PRINCIPAL HANDICAP --- L'OREILLE, LE MEILLEUR JOUR --- AUJOURD'HUI, LA MEILLEURE CHOSE A FAIRE ---TROUVÉ À REDIRE, LE PLUS INUTILES --- LA FIERTE, LA PLUS GRANDE ERREUR --- RENONCÉ, LE PRINCIPAL ECEUIL --- L'EGOISME, LE PLUS GRAND RECONFORT --- LE TRAVAIL BIEN FAIT, LA PERSONNE LA PLUS DESAGREABLE --- LA RALEUSE, LA PIRE FAILLITE --- LA PERTE D'ENTHOUSIASME, LE MEILLEUR PROFESSEUR --- CELUI QUI FAIT, QUE VOUS VOULEZ APPRENDRE, LE PLUS DEMUNIS --- LE BON SENS, LE DERNIER DES SENTIMENT ---LE REGRET D'AUTRE SUCCÈS, PLUS BEAU CADEAU --- LE PARDON, MEILLEURES CONNAISSANCES --- DIEU, LA PLUS GRANDE CHOSE AU MONDE --- L'AMOUR. Citation de Platon sur la formation musicale"
+      },
+      {
+        "concept": "Bill Evans - pianiste",
+        "page": 37,
+        "description": "Citation de Bill Evans sur l'approche du piano jazz: '... (La musique) doit enrichir l'âme, elle devrait enseigner la spiritualité en montrant à une personne la partie d'elle même qu'elle ne parviendrait pas à découvrir autrement. Il est facile de redécouvrir une partie de vous-même, mais à travers l'art, vous pouvez montrer une partie de vous dont vous ignoriez l'existence. C'est la véritable mission de l'art. L'artiste doit trouver quelque chose en lui qui est universel et qu'il peut mettre en d'autres termes être transmissibles à d'autres personnes. La magie, c'est que l'art peut à son insu, communiquer à une personne... l'enrichissement, c'est là la fontaine de la musique.'"
+      },
+      {
+        "concept": "Les caractéristiques du BE-BOP",
+        "page": 38,
+        "description": "Compilé par Davis Baker. 28 caractéristiques du Be-Bop: 1) Des idées harmoniques complexes, 2) Des phrases mélodiques plus longues utilisant des intervalles construits sur l'extension de l'accord (9ths, 11ths, 13ths), 3) L'harmonie avec pied d'égalité avec le rythme et la mélodie (influence occidentale), 4) Une bonne technique instrumentale était obligatoire, 5) Une bonne oreille et un esprit vif étaient indispensables, 6) Croches et doubles croches devenues les unités de base temps, 7) Les cuivres pour le nettoyage, le piano pour l'exécution, 8) Les joueurs ont suivi la tendance vers le vibrato moins prononcé, 9) Metrait davantage l'accent sur le contenu que sur le son, 10) L'accord complexe fourni de plus large soliste base harmonique, 11) L'accord sert de référentielle à l'improvisation plutôt que la mélodie, 12) L'improvisation chaude (rapide, intense, passionnée) était la règle, 13) L'improvisation collective était exclusivement entre le soliste et la section rythmique, 14) Le be-bop était avant tout une musique de petit ensemble mais a trouvé une expression dans quelques 'big bands' privilégiés, 15) Un concept élargi de substitution d'accords a vu le jour, 16) La musique c'est rapproché de la musique européenne occidentale, 17) L'intégralité du langage du jazz c'est interrogé, 18) La polyrythmie est devenu un facteur important, 19) Le be-bop a eu tendance à codifier tous ce qui l'avait précédé - période charnière dans le jazz, 20) L'énoncé à l'unisson de la mélodie était la règle de base, 21) la pause, un dispositif de structure, 22) les joueurs de be-bop faisaient une utilisation libérale des 'citations' ou des interpolations dans d'autres tonalités, 23) Le be-bop réduit la mélodie à l'essentiel - backgrounds, quelques brèves introductions et terminaisons, et quelques intermèdes à l'unisson, 24) Les lignes mélodiques sont plutôt scalaires que chordals, 25) Des gammes plus sophistiquées ont été introduites dans le langage - exemple: gamme réduite (1 2b 3b 4# 5 6 7b 8), 26) Plus d'efforts pour rendre les lignes de solo cohérentes au lieu de les relier avec des 'Turn-Backs', 27) Le piano devenu le centre de la nouvelle expression, 28) La construction de solo asymétrique devient un fait"
+      },
+      {
+        "concept": "Une courte liste des interprètes du BE-BOP",
+        "page": 39,
+        "description": "Liste des principaux interprètes du Be-Bop par instrument: Charlie Parker (alto sax), Dizzy Gillespie (trumpet), Bud Powell (piano), Charlie Mingus (bass), Max Roach (drums), Thelonius Monk (piano), Sonny Stitt (alto/tenor sax), Clifford Brown (trumpet), Wardell Gray (tenor sax), Al Haig (piano), Howard McGhee (trumpet), Fats Navarro (trumpet), Red Rodney (trumpet), J.J.Johnson (trombone), Sonny Rollins (tenor sax), Jackie McLean (alto sax), Dexter Gordon (tenor sax), Mitt Jackson (vibes), Wynton Kelly (piano), Horace Silver (piano), Art Blakey (drums), Jimmy Raney (guitar), Wes Montgomery (guitar), Charles Mc Pherson (alto sax), James Moody (tenor/alto sax, flute), Phil Woods (alto sax), Cannonball Adderley (alto sax), Miles Davis (trumpet), Lee Konitz (alto sax), Gerry Mulligan (bari sax), Ray Brown (bass)"
+      },
+      {
+        "concept": "Gammes du BE-BOP",
+        "page": 39,
+        "description": "La gamme 'Be-bop' peut être utilisée sur toute la qualité ... majeure, mineur, dom.7th ou demi-dim. Elle est probablement utilisée le plus souvent avec Dom.7th et Dorian mineur gamme/accord. Gamme Be-bop C7= C D E F G A Bb B C - (est aussi appelé 7° gamme.). Ne laissez pas le B tomber sur un temps fort. Les bonnes notes de début ou de départ pour une ascension d'une ligne de huit notes sont: 1, 3, 5, b7. Pour descendre une ligne de croche: les mêmes que l'ascendante: 1, b7, 5, 3. Ce sont toutes les notes de l'accord. Attention de bien utiliser l'articulation jazz correcte. Emprunter des livres de JOE RIPOSO sur les gammes BE-BOP: BEBOP SCALES AND PATTERNS (Code de commande: BE-BOP (Clef G) ou BE-BOP-BC (Clef F)), TARGET AND APPROACH TONES (Code de commande: TAT)"
+      },
+      {
+        "concept": "Transpositions",
+        "page": 40,
+        "description": "Explication des transpositions: Les instruments en C sont non-transposés. Ils lisent leur musique qui joue. Les instruments en Bb doivent jouer leurs notes un ton entier au dessus. C'est ce qu'on appelle la transposition d'un ton. Les instruments Eb doivent jouer leurs notes trois demi-tons en dessous (tierce mineure). C'est ce qu'on appelle la transposition d'une tierce mineure"
+      },
+      {
+        "concept": "Deux intéressantes petites histoires",
+        "page": 40,
+        "description": "Histoires sur Charlie Parker et commentaires de Jamey Aebersold. Charlie Parker: 'J'avais appris à jouer deux morceaux dans une certaine tonalité, en D pour le saxophone (sax alto), donc en F non transposé. S'étaient les huit premières mesures de 'Lazy River' et l'air complet 'Honeysuckle Rose'. Je n'ai jamais pensé à l'existence d'autre tonalité ou quelque chose comme ça. J'ai donc pris mon sax et je suis parti dans une ville où il y avait un kiosque à musique, il y avait plein de gens qui venaient écouter. C'est la première chose qu'ils ont commencé à jouer et bien sûr et Soul qui, un long moment, vous connaissez. Puis, je me suis mis à jouer mon 'Honeysuckle Rose' et il n'y a pas aucune forme de structure, vous savez, je m'en font ri au nez sur scène ... Mais, en tout cas ... J'avais entre 16 ou 17 ans à l'époque. Je n'ai jamais pensé qu'il y avait d'autres tonalités supplémentaires.' Jamey Aebersold commente qu'il est évident que Charlie Parker n'en savait pas trop quand il a commencé à jouer, mais qu'il a passé beaucoup de temps à pratiquer les bons exercices, à écouté les bonnes personnes et à collecté autant de connaissances que possible sur la musique. Recommande la lecture du livre 'Bird Lives' de Roos Russell (disponible sur www.jazzbooks.com)"
+      },
+      {
+        "concept": "John Welch - Anecdote personnelle sur Charlie Parker",
+        "page": 41,
+        "description": "Histoire de John Welch, tromboniste, racontant son expérience d'avoir joué dix-huit ans sans vraiment savoir jouer, étudiant l'arrangement avec Bill Russo à New York, jouant pour le dimanche après-midi dans un club de jazz avec des musiciens comme Bud Powell, Max Roach, Charles Mingus, Miles Davis et Charlie Parker. Anecdote sur George Wallington et une session où il a tenté de jouer le Blues en F. Commentaires de Jamey Aebersold sur l'importance de ne pas se pencher et aider les débutants, la diffusion des informations précieuses aux quatre coins du monde musical."
+      },
+      {
+        "concept": "Les Play-A-Long de Jamey Aebersold sur Charlie Parker",
+        "page": 41,
+        "description": "Présentation de deux volumes Play-A-Long: VOL. 6 - CHARLIE PARKER - 'ALL BIRD' (Code: V06DS) incluant Now's The Time, Donna Lee, Billie's Bounce, Dewey Square, Yardbird Suite, Ornithology, Scrapple From The Apple, Confirmation, Thriving From A Riff, My Little Suede Shoes. VOL. 69 - 'BIRD' GOES LATIN (Code: V69DS) incluant Barbados, Marmaduke, Buzzy, Dewey Square, Yardbird Suite, Ornithology, Laird Baird, Moose The Mooche, My Little Suede Shoes, Bird Gets The Worm, Scrapple From The Apple, Donna Lee, Confirmation"
+      },
+      {
+        "concept": "Sessions théorique - A vos stylos",
+        "page": 42,
+        "description": "Introduction aux sessions théoriques avec tableau de construction des gammes: D = Demi-ton, T=Ton entier, -3=3Demi-tons (Tierce mineure). Présentation des constructions: Majeure (TTDTTTT), Dominante 7° (TTDTTDT), Mineure (TDTTTDT), Demi-Diminuée (DTTDTTT), Demi-Diminuée#2 (TDTDTTT), Lydienne (TTTDTTD), Ton entier (6notes) (TTTTTT), Diminuée (TDTDTDTD), Diminuée (cum. par T) (DTDTDTDT), Ton Entier Diminuée (DTDTTTT), Blues (-3TDD-3T), Lydienne Dominante (TTTDTDT). Note: [f# et = monte d'un demi-ton, b et - diminue d'un demi ton -3 signifie 3 demi-tons]. Recommandation du livre de Dan Haerle 'Jazz Language'"
+      },
+      {
+        "concept": "Sessions théorique-2: Écrire les notes qui compose les accords suivants",
+        "page": 43,
+        "description": "Liste de 20 accords pour lesquels il faut écrire les notes composant chaque accord et également le nom de la gamme: A7#4, B-Δ, C7+9, BbΔ#4, DØ, AbΔ#4, CØ#2, FΔ#4,#5, Bb-Δ, E7#4, F7+5, Eb7#4,#5, AΔ#4, Db7b9, B7b9, G-Δ, C7b9, GØ, D-Δ, A7#9"
+      },
+      {
+        "concept": "Sessions théorique-3: Identification des notes dans les gammes",
+        "page": 44,
+        "description": "39 questions demandant d'identifier des notes spécifiques dans différentes gammes. Exemples: 1. La 3ce de la gamme majeur Eb est, 2. La 4te de la gamme A- est, 3. La 6te de la gamme Bb7 est, 4. La 5te de la gamme Ab-7 est, etc. Couvre différentes gammes: majeures, mineures, dominantes, 7èmes, avec altérations (#, b)"
+      },
+      {
+        "concept": "Sessions théorique-4: II V7 I - Séquences dans les modes",
+        "page": 45,
+        "description": "Présentation des progressions II - V7 - I dans les modes Majeures et mineures. Tableaux montrant les séquences d'accords en Mode Majeur (20 lignes) et Mode mineur (20 lignes). Exemple en Mode Majeur: I (D-), V7 (A7), II (Ab). En mode mineur: I (DØ), V7 (A7+9), II. Explication que l'intervalle entre la tonique de l'accord II et la tonique de l'accord V7 est une 4° parfaite (5 demi-tons). L'intervalle entre la tonique de l'accord V7 et la tonique de l'accord I est une 4° parfaite aussi. Instruction d'essayer de mémoriser des séquences complètes II/V7/I. Exemple: II V7 I = D- G7 C aucune altérations à la clé = C majeur"
+      },
+      {
+        "concept": "Sessions théorique-5: Questions de révision",
+        "page": 46,
+        "description": "20 questions pour tester les connaissances: 1. Le +9 du B7+9 B7 est, 2. La gamme diminuée a combien de tonalités différentes?, 3. Combien il y a de notes dans une gamme tonique?, 4. Quand vous voyez le symbole de l'accord C7+5, la 4te est également montée?, 5. Combien de demi-tons dans une 4te parfaite?, 6. Ecrire le début du cycle de quarte avec D, G, C, 7. Quand un accord V7 est il utilisé pour résoudre?, 8. Peut-on dire qu'un accord II peut être de 7 e dominante plutôt que mineur? Oui - Non, 9. Ecrire une progression de blues en Bb. Utiliser un II/V7/I dans les quatre dernières mesures, etc. Questions couvrant: accords, gammes, blues, tonalités, diapason chromatique, intervalles"
+      },
+      {
+        "concept": "II/V7/I - Progression avec l'accent sur la 7e résolus à la 3e",
+        "page": 47,
+        "description": "Notation musicale montrant des progressions II-V7-I avec résolution de la 7ème vers la 3ce. Exemples en différentes tonalités: D-7 G7 C (clef de sol et clef de fa), E-7 A7 D (Bb), B-7 E7 A (Bb et Eb). Six variations pour chaque progression montrant différentes approches de résolution mélodique avec chiffres 7 et 3 indiqués"
+      },
+      {
+        "concept": "Blues - 7 variations avec tonique de la main gauche",
+        "page": 48,
+        "description": "Présentation de 7 variations de Blues: 1) Blues en F - 2 notes, 2) Blues en F - 2 notes, 3) Blues en F - 3 notes, 4) Blues en Bb - 2 notes, 5) Blues en Bb - 2 notes, 6) Blues en Bb - 3 notes, 7) Blues en Bb - 4 notes. Instruction: Jouer la tonique de la main gauche pour vous aider à obtenir le son du Blues. Vous finirez par jouer ces notes de la main gauche afin improviser de la main droite en pratiquant les gammes, les chorus, les schémas, etc. Notation musicale complète montrant les progressions d'accords pour chaque variation"
+      },
+      {
+        "concept": "Majeur et 7e de dominante - Cycles",
+        "page": 49,
+        "description": "Présentation de cycles complets 3e et 7e pour: MAJEUR - Cycle complet -3e et 7e (CA FA BbA EbA AbA DbA GbA BA EA AA DA GA CA), MAJEUR - Montée chromatique -3e et 7e (CA DbA DA EbA EA FA F#A GA AbA AA BbA BA CA), 7e dominante - Cycle complet -3e et 7e (C7 F7 Bb7 Eb7 Ab7 Db7 Gb7 B7 E7 A7 D7 G7 C7), 7e dominante - Cycle complet -3 notes voicing avec notation musicale complète"
+      },
+      {
+        "concept": "Progressions II-V7-I combinées",
+        "page": 50,
+        "description": "Trois exercices notés musicalement montrant des combinaisons de progressions: 1) II-V7-I (C-7 F7 BbA Bb6 B-7 E7 etc.), 2) II-V7-I (C-7 F7 BbA Bb-7 Eb7 AbA etc.), 3) Majeur, 7e Dom., II-V7-I (CA C7 C-7 F7 BbA Bb7 Bb-7 Eb7 AbA Ab7 etc.). Progressions chromatiques descendantes avec résolutions enchaînées"
+      },
+      {
+        "concept": "Piano Voicing - II/V7/I - Tonalités Majeures",
+        "page": 51,
+        "description": "Présentation de voicings piano pour progressions II/V7/I en tonalités majeures. Deux sections: II/V7/I - Tonalités Majeures (notation II V7 I avec D-7 G7 CA, puis différentes positions) et II/V7/I - Tonalités Majeures (Renversée) avec positions inversées. Note explicative: La plupart des standards et blues utilisent la progression harmonique appelé II/V7/I. Cette page et la suivante montre les plus courantes utilisées et jouées par les professionnels. Mémorisez ces dernières et vous trouverez rapidement que tout sort la viande de les pommes de terre de la musique populaire américaine. (Voicing tiré du livre vol.3 'II/V7/I' Aebersold Play-A-Long)"
+      },
+      {
+        "concept": "Piano Voicing - Ø-V7+9-I Toutes les tonalitées mineures",
+        "page": 52,
+        "description": "Présentation de voicings piano pour progressions Ø-V7+9-I en tonalités mineures. Deux sections: Ø-V7+9-I Toutes les tonalitées mineures (positions normales) et Ø-V7+9-I Toutes les tonalitées mineures (renversée) avec positions inversées. Note avec indication +9, -9 marquées sur certains accords. Référence: Pour de plus amples détails sur II/V7/I se rapporter au 'Stylistic II/V7/I Voicing for Jazz Piano' de Luke Gillespies"
+      },
+      {
+        "concept": "Points à retenir de Jamey Aebersold",
+        "page": 53,
+        "description": "Liste exhaustive de points importants tirés du séminaire 'N'importe qui peut improviser': Les deux facteurs qui empêchent les gens d'improviser sont la peur de se perdre et la peur de jouer une fausse note. Enregistrez votre propre jeu et écoutez. L'humour est une partie importante de la créativité. La TV tue l'imagination. L'ignorance tue, comme le tabac. Pouvez-vous pratiquer pendant une heure sans interruption? Si vous ne pensez pas avant de jouer une phrase, ce n'est pas de l'improvisation, juste un exercice. Chantez! Chantez! Chantez! Il est plus facile de chanter ce que vous entendez dans votre tête que de jouer sur votre instrument. Pensez à chaque note avant de les jouer. Le Blues est le plus souvent joué dans les clés de F (Fa) et B (Si) bémol. Ne vous cantonnez pas à une seule idée, innover. Les gammes sont vraiment importantes! La plupart des musiques blues sont regroupées dans 2, 4 et 8 mesures. Les batteurs chantent la mélodie dans leur tête pour rester en place. La gamme chromatique est votre alphabet musical. Il n'y a que deux gammes par tons entiers, et seulement trois gammes réduites. Les joueurs de jazz jouent habituellement des croches lorsqu'ils jouent des gammes ou des exercices. Utilisez l'articulation Jazz lors de la lecture des accords et des gammes. En pratiquant l'articulation pendant 4 à 6 semaines, vous pouvez transformer votre personnalité musicale. Jouer un solo avec un disque est un excellent exercice d'articulation, imitez les grands du jazz. Inspirez vous de leurs esprits pour enrichir votre esprit. Écoutez et notez les phrases des disques. Écoutez! Tant et plus! Toutes les réponses à vos questions sont sur les enregistrements. Écoutez du jazz tous les jours. Si vous êtes bien équipés techniquement, vous pouvez prendre votre chance. Ne pas utiliser simplement le CD 'Play-a-long' pour gagner du temps. Dans le CD il y a une interaction entre les musiciens. Les meilleures choses dans la vie sont gratuites et ce manuel free jazz est l'un d'entre eux. Il est idéal de jouer avec des musiciens qui sont un peu ou beaucoup mieux que vous. Personne n'est un acteur né. De bons instruments et enseignants sont importants, mais c'est le joueur qui le réalise. Vous ne pouvez pas imaginer combien de temps, d'énergie et de pensée les musiciens de jazz ont mis dans leur métier. Construisez votre propre harmonie. Assied-toi à un clavier et expliquez. Jouez un arpège et le retenir dans votre tête (mentalement). Jouer le blues d'un demi-ton au dessus et le redescendre, est un exercice simple. Charlie Parker pratiquait 11 à 15 heures par jour pendant trois à quatre ans. L'entraînement de l'oreille - Une fois que vous pouvez entendre ce que vous essayez de jouer. Beaucoup plus faciles. Apprendre les intervalles entre les notes. Les gammes sont basées sur des intervalles de demi-ton et de ton. Quand vous chantez, visualisez un clavier. Si vous ne savez pas sur quelle touche vous vous trouvez, il suffit de penser au C. Lorsque vous voyez un symbole d'accord, être conscient que cela implique une gamme horizontale (1, 2, 3, 4, 5, 6, 7, 8). Plus de 40 points au total"
+      },
+      {
+        "concept": "Points à retenir (suite)",
+        "page": 54,
+        "description": "Suite de la liste de points importants: Un clavier est très important pour l'apprentissage d'harmonie et une audition des accords de qualité. Jouez 'Au clair de la lune', 'Joyeux anniversaire' ou 'Frères Jacques' dans les douze tonalités. Si vous commencez ou terminez une phrase sur un ton de l'accord (tonal, 3e ou 5e) vous ne pouvez pas vous trompez. Pratiquez des gammes pendant deux minutes intensivement, rapidement, de notes, jusqu'à ce qu'elles deviennent automatiques. Les yeux fermés c'est mieux. J'ai l'idée que les gens apprennent l'instrument comme un exercice de patience. Déplacement d'un demi-ton est facile à faire avec votre voix, mais plus difficile sur votre instrument. Moi, Jamey, en sait beaucoup, et je peux faire beaucoup, mais je ne fais pas tout. Si vous réfléchissez à ce que vous faites, vous vous en souviendrez. Pour bien apprendre une mélodie, mémorisez les changements mesure par mesure. Jouer les gammes de chaque accord. Si vous avez un doute sur quoi que ce soit en musique, trouvez un piano et jouez. Si vous pensez mettre un 4te dans un accord majeur, vous devez penser à (F#/C) de Lydien. Peut-être que la gamme majeur devraiet être construite de cette façon: CDEF#GABC Lydien. Apprenez les deux notes des 'voicings' de la main droite (3e et 7e donnent la couleur de l'accord). Si vous n'êtes pas un joueur de clavier, jouez tout simplement la tonique avec votre main gauche. Mémorisez les toniques des morceaux. III-VI-II-VI (Turnaround): Les 'turnarounds' vous aident à revenir au début de la mélodie. Le piano (lorsque vous jouez pour la section rythmique) devrait écrire dans le registre d'une octave, à une octave et demi au-dessus du C 'serrurée'. L'histoire du jazz a une règle d'or: ne pas exagérer. Regardez l'indépendante de la main gauche d'un joueur de piano lorsqu'il exécute son solo avec la main droite. En utilisant différents 'voicings', vous pouvez jouer des accords avec deux notes. Pratiquez les gammes et les exercices tout le temps et sans arrêt n'est pas une fin en soi. L'important, après tout, est de savoir également jouons la musique. Lorsque vous jouez un accord avec une guitare ou un clavier, vous n'avez pas à jouer beaucoup de notes l'essentiel est d'avoir un bon son. Dans la gamme à demi diminuée: BCDEFGAB. Le C naturel qui est toujours la meilleur note de passage sur le un temps fort - Vous pouvez le jouer à tout moment monté de deux dièses (C #). Les demi-dièses sont les moyens de répéter un accord, une gamme d'accord ou une phrase mélodique dans une tonalité différente. Essayez de passer 15 à 30 minutes par jour avec un clavier, même si vous ne jouez pas notes sur le clavier. Le Jazz utilise un certain nombre de règle encore et encore. Il y a seulement que douze tonalités. Nous jouons principalement dans six d'entre elles (C, Bb, Eb, Ab, F et G). La tonalité d'armure est pour la mélodie (convention de notation). Cela n'a rien avoir à voir tonalité en harmonie (Clé). Regardez le dernier accord du morceau. Cet est mon enseignement collégial. 'Pitch Pipe' (Diapason Chromatique de poche). Un diapason chromatique vous donne de l'indépendance. Utilisez un diapason chromatique permet d'apprendre tous les intervalles à l'intérieur. Pointez sur le 'clavier papier' et chantez les notes que vous pointez sur les différentes touches. Ne pas juste chanter une gamme, mais visualisez là sur le clavier ou votre instrument. Écrire une chanson! Il n'est pas difficile d'écrire une chanson. Steve Allen en a écrit 450 chansons avec des paroles en une seule séance, en un jour. La musique écrite est une béquille! A la place mémorisez là. Les pièces transposées sont des béquilles! Dans l'ancien temps il n'y avait pas de 'Fake Books'. Un bon musicien à un vaste répertoire dans sa tête. La musique ne se soucie pas de qui la joue. 'Jouez ce qui est là, nous n'avons pas besoin de vous entendre mentir' - Art Blakey. Lorsque vous jouez enfin ce qui est dans votre tête, vous allez vous rencontrer pour la première fois. Il faut beaucoup de temps pour jouer comme soi-même - Miles. Vous pouvez répondre à toutes vos questions sur le jazz en écoutant: Écoute! Écoute! Écoute!"
+      },
+      {
+        "concept": "Points à retenir (fin)",
+        "page": 55,
+        "description": "Fin de la liste de points importants: Lorsque vous faites un solo, utilisez la répétition et la séquence, ne pas radoter. L'intervalle entre B bémol et E contient trois tons (5th, C, D, E) d'où le nom de triton. Les adultes, ne prennent pas le temps nécessaire pour apprendre à jouer (même simplement de l'écouter!). Si vous souhaitez conserver l'harmonie du morceau, jouez la tonique de l'accord sur des temps un et trois. La tierce, la quinte et la septième donnent un aperçu de l'harmonie. Une caractéristique des solos en Be-bop est qu'ils utilisent explicitement une harmonie. Avez-vous mémorisés une douzaine de morceaux? Savoir la mélodie, être en mesure d'écrire les progressions d'accords (Jamey a mémorisés 1000 morceaux!). Apprenez quelques airs, et les écouter toute la journée pour les garder dans votre tête. Mettez votre répertoire sur un ordinateur portable afin que vous puissiez l'examiner. En guise d'exercice que vos solos ressemblent à ce que vous entendez dans votre tête, écouter un CD 'Play-a-long' et jouez quatre mesures, puis chantez quatre mesure, puis jouez quatre mesure ... puis chantez, etc. Pour vous votre objectif? Pensez-le, dite le, faite le! Tout le monde peut apprendre à jouer en rythme. Cela ne vient pas naturellement. Vous pouvez utiliser un métronome. Dans le jazz le rythme est très important, l'utilisation d'un métronome est utile pour la pratique. Commencez à improviser au début de votre formation musicale. Je suis fasciné de voir des gens jouer de la musique durant toute leur vie. Pourquoi n'improviser pas chaque jour quel est l'intérêt de pratiquer des gammes et des accords? La musique est censée être amusante - Amusez-vous quand vous pratiquez. Le jazz ne demande à quelques musiciens combien de temps ils consacrent, par jours, à la pensée musicale, ils ont répondu 24 heures sur 24! Lorsque vous faites un solo, cherchez des notes communes entre les changements, anticipez, pensez à l'avance. Pensez à la suite des accords pendant que vous improvisez sur l'actuel. Ce n'est pas dur, faite le vite pour vous en rendre compte par vous-même. C'est ce qu'on appelle 'joué à travers les mesures.' La mélodie d'une chanson est appelée 'Head' (la tête). Les rebondissent se présentent. Utiliser les, comme les pierres pour passer un gué. Ne pas repousser votre pratique si vous apprenez une foule de renseignements et d'attendre d'avoir acquis une grande compétence pour jouer, commencer à jouer dès maintenant! ! ! Si vous jouez plusieurs notes en même temps (par exemple à l'octave) vous devriez être en mesure et à la finir par le sur une octave (Cela se produit à partir du registre médium ou en gras.) Si vous avec commencer avec commencé le (la plupart de nos gammes ont sept notes et ne finir pas en octave de cette façon.) L'utilisation efficace de la gamme Be-bop sépare souvent ceux qui peuvent jouer de ceux qui essaient de jouer. N'oubliez pas qu'un symbole d'accord implique une gamme (horizontale) et un accord (verticale). Vous ne pouvez pas écouter des disques très souvent, pourtant cela est tellement important! Si vous n'avez pas un bon son, qui va se soucier de ce que vous avez à dire même si vous avez de grandes phrases. Pour trouver une septième diminué, descendre simplement d'un ton la tonique. Pour trouver une neuvième augmenté, aller jusqu'à une tierce mineure de la tonique. La 3e et 7e sont les notes les plus importantes qui décrivent la couleur de l'accord. La tonale est toujours supposée. Imprégnez vous et écoutez vous de façon objective. N'ayez pas peur de vous écouter car cela est très important. En 4 / 4 temps, si vous voulez donner de la stabilité harmoniques, jouer les notes de l'accord (1, 3, 5, 7) sur des temps fort un et trois. Dave Brubeck dans 'Take Five' (en 5 / 4) joue vraiment en 3 / 4 suivis de 2 / 4. «1, 2, 3, 1, 2, 1, 2, 3, 1, 2, 1, 2, 3, 1, 2,». Le mode Lydien est un substitut de prédilection pour les gammes majeures (en particulier dans les terminaisons tonales). Les nouveaux de 'Chuck Sher' sont excellents. Les airs de jazz que les joueurs aiment et qui sont difficiles ont souvent de jolis accords dans la mélodie originale. Les notes belles peuvent être la 7e majeure, 9e ou 4te en PRINCIPAL; b7, 9 et 4 en si mineur. Efforcez-vous sur un solo d'un morceau, sans jouer la mélodie et sans section rythmique, de jouer de telle manière qu'un auditeur pourrait trouver le nom du morceau (ce qui signifie que vous faites un bon travail d'harmonie). La musique est entre vos oreilles...."
       }
-    },
-    {
-      "title": "Page 3",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 3,
-      "page_url": "assets/pages/page_003.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 4",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 4,
-      "page_url": "assets/pages/page_004.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 5",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 5,
-      "page_url": "assets/pages/page_005.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 6",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 6,
-      "page_url": "assets/pages/page_006.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 7",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 7,
-      "page_url": "assets/pages/page_007.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 8",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 8,
-      "page_url": "assets/pages/page_008.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 9",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 9,
-      "page_url": "assets/pages/page_009.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 10",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 10,
-      "page_url": "assets/pages/page_010.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 11",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 11,
-      "page_url": "assets/pages/page_011.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 12",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 12,
-      "page_url": "assets/pages/page_012.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 13",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 13,
-      "page_url": "assets/pages/page_013.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 14",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 14,
-      "page_url": "assets/pages/page_014.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 15",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 15,
-      "page_url": "assets/pages/page_015.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 16",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 16,
-      "page_url": "assets/pages/page_016.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 17",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 17,
-      "page_url": "assets/pages/page_017.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 18",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 18,
-      "page_url": "assets/pages/page_018.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 19",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 19,
-      "page_url": "assets/pages/page_019.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 20",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 20,
-      "page_url": "assets/pages/page_020.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 21",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 21,
-      "page_url": "assets/pages/page_021.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 22",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 22,
-      "page_url": "assets/pages/page_022.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 23",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 23,
-      "page_url": "assets/pages/page_023.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 24",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 24,
-      "page_url": "assets/pages/page_024.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 25",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 25,
-      "page_url": "assets/pages/page_025.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 26",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 26,
-      "page_url": "assets/pages/page_026.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 27",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 27,
-      "page_url": "assets/pages/page_027.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 28",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 28,
-      "page_url": "assets/pages/page_028.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 29",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 29,
-      "page_url": "assets/pages/page_029.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 30",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 30,
-      "page_url": "assets/pages/page_030.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 31",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 31,
-      "page_url": "assets/pages/page_031.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 32",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 32,
-      "page_url": "assets/pages/page_032.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 33",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 33,
-      "page_url": "assets/pages/page_033.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 34",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 34,
-      "page_url": "assets/pages/page_034.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 35",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 35,
-      "page_url": "assets/pages/page_035.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 36",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 36,
-      "page_url": "assets/pages/page_036.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 37",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 37,
-      "page_url": "assets/pages/page_037.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 38",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 38,
-      "page_url": "assets/pages/page_038.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 39",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 39,
-      "page_url": "assets/pages/page_039.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 40",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 40,
-      "page_url": "assets/pages/page_040.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 41",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 41,
-      "page_url": "assets/pages/page_041.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 42",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 42,
-      "page_url": "assets/pages/page_042.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 43",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 43,
-      "page_url": "assets/pages/page_043.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 44",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 44,
-      "page_url": "assets/pages/page_044.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 45",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 45,
-      "page_url": "assets/pages/page_045.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 46",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 46,
-      "page_url": "assets/pages/page_046.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 47",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 47,
-      "page_url": "assets/pages/page_047.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 48",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 48,
-      "page_url": "assets/pages/page_048.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 49",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 49,
-      "page_url": "assets/pages/page_049.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 50",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 50,
-      "page_url": "assets/pages/page_050.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 51",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 51,
-      "page_url": "assets/pages/page_051.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 52",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 52,
-      "page_url": "assets/pages/page_052.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 53",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 53,
-      "page_url": "assets/pages/page_053.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 54",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 54,
-      "page_url": "assets/pages/page_054.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 55",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 55,
-      "page_url": "assets/pages/page_055.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    }
-  ]
+    ]
+  }
 }

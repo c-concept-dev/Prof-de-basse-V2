@@ -1,2332 +1,870 @@
 {
   "metadata": {
-    "method_name": "Arpeges",
-    "total_songs": 109,
-    "has_mp3": false,
-    "mp3_count": 0,
-    "generated_at": "2025-11-10T09:26:40.754Z",
-    "version": "4.0.0",
-    "ocr_method": "zoned",
-    "zones": {
-      "title": {
-        "enabled": true,
-        "range": "0-20%",
-        "stats": {
-          "processed": 109,
-          "success": 0
-        }
-      },
-      "music": {
-        "enabled": false,
-        "range": "20-90%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      },
-      "footer": {
-        "enabled": true,
-        "range": "90-100%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      }
-    },
-    "ocr_config": {
-      "language": "eng+fra",
-      "confidence_threshold": 60
-    }
+    "bookTitle": "Arpèges",
+    "category": "theory",
+    "style": "jazz",
+    "totalImages": 109,
+    "totalBatches": 6,
+    "processedDate": "2025-11-16T18:11:54.081Z"
   },
-  "songs": [
-    {
-      "title": "Page 1",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 1,
-      "page_url": "assets/pages/page_001.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 2",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 2,
-      "page_url": "assets/pages/page_002.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 3",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 3,
-      "page_url": "assets/pages/page_003.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 4",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 4,
-      "page_url": "assets/pages/page_004.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 5",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 5,
-      "page_url": "assets/pages/page_005.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 6",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 6,
-      "page_url": "assets/pages/page_006.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 7",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 7,
-      "page_url": "assets/pages/page_007.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 8",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 8,
-      "page_url": "assets/pages/page_008.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 9",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 9,
-      "page_url": "assets/pages/page_009.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 10",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 10,
-      "page_url": "assets/pages/page_010.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 11",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 11,
-      "page_url": "assets/pages/page_011.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 12",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 12,
-      "page_url": "assets/pages/page_012.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 13",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 13,
-      "page_url": "assets/pages/page_013.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 14",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 14,
-      "page_url": "assets/pages/page_014.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 15",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 15,
-      "page_url": "assets/pages/page_015.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 16",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 16,
-      "page_url": "assets/pages/page_016.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 17",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 17,
-      "page_url": "assets/pages/page_017.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 18",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 18,
-      "page_url": "assets/pages/page_018.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 19",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 19,
-      "page_url": "assets/pages/page_019.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 20",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 20,
-      "page_url": "assets/pages/page_020.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 21",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 21,
-      "page_url": "assets/pages/page_021.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 22",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 22,
-      "page_url": "assets/pages/page_022.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 23",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 23,
-      "page_url": "assets/pages/page_023.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 24",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 24,
-      "page_url": "assets/pages/page_024.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 25",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 25,
-      "page_url": "assets/pages/page_025.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 26",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 26,
-      "page_url": "assets/pages/page_026.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 27",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 27,
-      "page_url": "assets/pages/page_027.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 28",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 28,
-      "page_url": "assets/pages/page_028.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 29",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 29,
-      "page_url": "assets/pages/page_029.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 30",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 30,
-      "page_url": "assets/pages/page_030.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 31",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 31,
-      "page_url": "assets/pages/page_031.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 32",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 32,
-      "page_url": "assets/pages/page_032.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 33",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 33,
-      "page_url": "assets/pages/page_033.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 34",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 34,
-      "page_url": "assets/pages/page_034.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 35",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 35,
-      "page_url": "assets/pages/page_035.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 36",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 36,
-      "page_url": "assets/pages/page_036.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 37",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 37,
-      "page_url": "assets/pages/page_037.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 38",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 38,
-      "page_url": "assets/pages/page_038.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 39",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 39,
-      "page_url": "assets/pages/page_039.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 40",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 40,
-      "page_url": "assets/pages/page_040.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 41",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 41,
-      "page_url": "assets/pages/page_041.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 42",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 42,
-      "page_url": "assets/pages/page_042.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 43",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 43,
-      "page_url": "assets/pages/page_043.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 44",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 44,
-      "page_url": "assets/pages/page_044.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 45",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 45,
-      "page_url": "assets/pages/page_045.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 46",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 46,
-      "page_url": "assets/pages/page_046.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 47",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 47,
-      "page_url": "assets/pages/page_047.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 48",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 48,
-      "page_url": "assets/pages/page_048.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 49",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 49,
-      "page_url": "assets/pages/page_049.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 50",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 50,
-      "page_url": "assets/pages/page_050.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 51",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 51,
-      "page_url": "assets/pages/page_051.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 52",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 52,
-      "page_url": "assets/pages/page_052.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 53",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 53,
-      "page_url": "assets/pages/page_053.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 54",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 54,
-      "page_url": "assets/pages/page_054.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 55",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 55,
-      "page_url": "assets/pages/page_055.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 56",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 56,
-      "page_url": "assets/pages/page_056.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 57",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 57,
-      "page_url": "assets/pages/page_057.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 58",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 58,
-      "page_url": "assets/pages/page_058.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 59",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 59,
-      "page_url": "assets/pages/page_059.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 60",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 60,
-      "page_url": "assets/pages/page_060.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 61",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 61,
-      "page_url": "assets/pages/page_061.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 62",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 62,
-      "page_url": "assets/pages/page_062.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 63",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 63,
-      "page_url": "assets/pages/page_063.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 64",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 64,
-      "page_url": "assets/pages/page_064.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 65",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 65,
-      "page_url": "assets/pages/page_065.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 66",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 66,
-      "page_url": "assets/pages/page_066.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 67",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 67,
-      "page_url": "assets/pages/page_067.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 68",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 68,
-      "page_url": "assets/pages/page_068.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 69",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 69,
-      "page_url": "assets/pages/page_069.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 70",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 70,
-      "page_url": "assets/pages/page_070.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 71",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 71,
-      "page_url": "assets/pages/page_071.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 72",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 72,
-      "page_url": "assets/pages/page_072.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 73",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 73,
-      "page_url": "assets/pages/page_073.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 74",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 74,
-      "page_url": "assets/pages/page_074.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 75",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 75,
-      "page_url": "assets/pages/page_075.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 76",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 76,
-      "page_url": "assets/pages/page_076.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 77",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 77,
-      "page_url": "assets/pages/page_077.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 78",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 78,
-      "page_url": "assets/pages/page_078.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 79",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 79,
-      "page_url": "assets/pages/page_079.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 80",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 80,
-      "page_url": "assets/pages/page_080.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 81",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 81,
-      "page_url": "assets/pages/page_081.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 82",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 82,
-      "page_url": "assets/pages/page_082.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 83",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 83,
-      "page_url": "assets/pages/page_083.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 84",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 84,
-      "page_url": "assets/pages/page_084.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 85",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 85,
-      "page_url": "assets/pages/page_085.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 86",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 86,
-      "page_url": "assets/pages/page_086.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 87",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 87,
-      "page_url": "assets/pages/page_087.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 88",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 88,
-      "page_url": "assets/pages/page_088.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 89",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 89,
-      "page_url": "assets/pages/page_089.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 90",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 90,
-      "page_url": "assets/pages/page_090.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 91",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 91,
-      "page_url": "assets/pages/page_091.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 92",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 92,
-      "page_url": "assets/pages/page_092.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 93",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 93,
-      "page_url": "assets/pages/page_093.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 94",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 94,
-      "page_url": "assets/pages/page_094.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 95",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 95,
-      "page_url": "assets/pages/page_095.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 96",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 96,
-      "page_url": "assets/pages/page_096.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 97",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 97,
-      "page_url": "assets/pages/page_097.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 98",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 98,
-      "page_url": "assets/pages/page_098.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 99",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 99,
-      "page_url": "assets/pages/page_099.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 100",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 100,
-      "page_url": "assets/pages/page_100.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 101",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 101,
-      "page_url": "assets/pages/page_101.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 102",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 102,
-      "page_url": "assets/pages/page_102.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 103",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 103,
-      "page_url": "assets/pages/page_103.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 104",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 104,
-      "page_url": "assets/pages/page_104.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 105",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 105,
-      "page_url": "assets/pages/page_105.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 106",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 106,
-      "page_url": "assets/pages/page_106.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 107",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 107,
-      "page_url": "assets/pages/page_107.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 108",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 108,
-      "page_url": "assets/pages/page_108.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 109",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 109,
-      "page_url": "assets/pages/page_109.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    }
-  ]
+  "content": {
+    "songs": [],
+    "exercises": [
+      {
+        "title": "L'arpège Mi / Sol# / Si / Mi",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "E"
+      },
+      {
+        "title": "L'arpège Fa / La / Do / Fa",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "F"
+      },
+      {
+        "title": "L'arpège Fa# / La# / Do# / Fa#",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "F#"
+      },
+      {
+        "title": "L'arpège Solb / Sib / Reb / Solb",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "Gb"
+      },
+      {
+        "title": "L'arpège Sol / Si / Re / Sol",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "G"
+      },
+      {
+        "title": "L'arpège Sol# / Si# / Re# / Sol#",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "G#"
+      },
+      {
+        "title": "L'arpège Lab / Do / Mib / Lab",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "Ab"
+      },
+      {
+        "title": "L'arpège La / Do# / Mi / La",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "A"
+      },
+      {
+        "title": "L'arpège La# / Do## / Mi# / La#",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "A#"
+      },
+      {
+        "title": "L'arpège Sib / Re / Fa / Sib",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "Bb"
+      },
+      {
+        "title": "L'arpège Si / Re# / Fa# / Si",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "B"
+      },
+      {
+        "title": "L'arpège Do / Mi / Sol / Do",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "C"
+      },
+      {
+        "title": "L'arpège Do# / Mi# / Sol# / Do#",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "C#"
+      },
+      {
+        "title": "L'arpège Reb / Fa / Lab / Reb",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "arpèges",
+        "key": "Db"
+      },
+      {
+        "title": "L'arpège Re / Fa# / La / Re",
+        "page": 21,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Re# / Fa## / La# / Re#",
+        "page": 22,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Mib / Sol / Sib / Mib",
+        "page": 23,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Mi / Sol / Si / Mi",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Fa / Lab / Do / Fa",
+        "page": 33,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Fa# / La / Do# / Fa#",
+        "page": 34,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Solb / Sibb / Reb / Solb",
+        "page": 36,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Sol / Sib / Re / Sol",
+        "page": 37,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Sol# / Si / Re# / Sol#",
+        "page": 38,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Lab / Dob / Mib / Lab",
+        "page": 39,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège La / Do / Mi / La",
+        "page": 40,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège La# / Do# / Mi# / La#",
+        "page": 41,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Sib / Reb / Fa / Sib",
+        "page": 42,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Si / Re / Fa# / Si",
+        "page": 43,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Do / Mib / Sol / Do",
+        "page": 44,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Do# / Mi / Sol# / Do#",
+        "page": 45,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Reb / Fab / Lab / Reb",
+        "page": 47,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Re / Fa / La / Re",
+        "page": 48,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Re# / Fa# / La# / Re#",
+        "page": 49,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      },
+      {
+        "title": "L'arpège Mib / Solb / Sib / Mib",
+        "page": 50,
+        "difficulty": "débutant",
+        "technique": "arpèges"
+      }
+    ],
+    "concepts": [
+      {
+        "concept": "Définition d'un arpège",
+        "page": 3,
+        "description": "Jouer un arpège signifie jouer les notes d'un accord les unes après les autres. Présentation de deux enchaînements de notes: premier enchaînement (F-3-5-F / Do-Mi-Sol-Do) et deuxième enchaînement avec renversement d'accord (F-3m-5-F / Do-Mib-Sol-Do)"
+      },
+      {
+        "concept": "Les arpèges majeurs joués en se servant des cordes à vide",
+        "page": 4,
+        "description": "Présentation des arpèges majeurs avec doigtés utilisant les cordes à vide pour les tonalités E, A, D et G, avec notation musicale et tablature"
+      },
+      {
+        "concept": "Les différentes possibilités pour jouer les arpèges majeurs sur chaque corde",
+        "page": 5,
+        "description": "Explication des différentes façons de jouer un arpège majeur selon la corde de départ: sur Mi (un seul enchaînement), sur La (2 enchaînements), sur Re (2 enchaînements), sur Sol (deuxième enchaînement uniquement)"
+      },
+      {
+        "concept": "Analyse des 17 tonalités étudiées dans ce dossier",
+        "page": 6,
+        "description": "Explication de la construction des 17 tonalités basées sur la gamme majeure de Do. Présentation du concept de dièses et de bémols, montrant comment les 7 notes de la gamme majeure de Do + 5 dièses + 5 bémols donnent 17 possibilités en tout"
+      },
+      {
+        "concept": "Autres possibilités d'arpèges",
+        "page": 24,
+        "description": "Différentes variations pour jouer les arpèges en changeant l'ordre des notes, en partant de cordes graves ou aiguës, et en ajoutant une 4ème note (l'octave juste)"
+      },
+      {
+        "concept": "Conclusion - Les arpèges, l'arpège majeur",
+        "page": 25,
+        "description": "Importance de connaître le nom et le doigté de chaque arpège sur la basse. Références vers d'autres méthodes sur les arpèges disponibles sur internet"
+      },
+      {
+        "concept": "Introduction - Les arpèges, l'arpège mineur",
+        "page": 27,
+        "description": "Introduction aux arpèges mineurs - regroupement de la fondamentale, tierce mineure et quinte juste. Conseils sur la pratique et l'organisation des exercices avec fichiers audio et dossiers compressés"
+      },
+      {
+        "concept": "Définition d'un arpège",
+        "page": 28,
+        "description": "Jouer un arpège signifie jouer les notes d'un accord les unes après les autres. Présentation de deux enchaînements de notes (premier et deuxième enchaînement)"
+      },
+      {
+        "concept": "Les arpèges mineurs joués en se servant des cordes à vide",
+        "page": 29,
+        "description": "Exemples d'arpèges mineurs utilisant les cordes à vide (Emin, Amin, Dmin, Gmin)"
+      },
+      {
+        "concept": "Les différentes possibilités pour jouer les arpèges mineurs sur chaque corde",
+        "page": 30,
+        "description": "Explication des différentes possibilités de jouer la première note d'un arpège mineur sur chaque corde (Mi, La, Re, Sol) avec les deux enchaînements possibles"
+      },
+      {
+        "concept": "Analyse des 17 tonalités étudiées dans ce dossier",
+        "page": 31,
+        "description": "Explication du système de notation des tonalités. Présentation de la gamme mineure de Do et des 17 possibilités (7 notes issues de la gamme mineure de Do + 5 dièses + 5 bémols)"
+      },
+      {
+        "concept": "Autres possibilités d'arpèges mineurs",
+        "page": 51,
+        "description": "Variations pour jouer les arpèges mineurs en changeant l'ordre des notes, en partant de cordes graves ou aiguës, et en ajoutant une 4ème note (l'octave juste)"
+      },
+      {
+        "concept": "Conclusion - Les arpèges mineurs",
+        "page": 52,
+        "description": "Importance de connaître le nom et le doigté de chaque arpège mineur sur la basse. Références vers d'autres méthodes sur les arpèges disponibles sur internet"
+      },
+      {
+        "concept": "Introduction - La bible des arpèges à 3 notes pour les bassistes",
+        "page": 54,
+        "description": "Introduction à une méthode complète sur les accords à 3 notes les plus connus, avec visualisation graphique des arpèges sur le manche et système de couleurs pour chaque type d'intervalle. Fichiers audio inclus pour chaque arpège"
+      },
+      {
+        "concept": "Liste des arpèges à 3 notes existants",
+        "page": 55,
+        "description": "Tableau récapitulatif des 14 types d'arpèges à 3 notes avec leurs intervalles constitutifs (arpège majeur, mineur, M5b, m5b, sus2, sus4, sus4#5, majeur plus, mineur plus, 4/6, 7omit3, m7omit5, power chord, add9omit3)"
+      },
+      {
+        "concept": "Les arpèges à 3 notes que l'on peut jouer sur 2 cordes",
+        "page": 56,
+        "description": "Présentation détaillée des arpèges à 3 notes jouables sur 2 cordes avec représentations graphiques: arpège majeur (indispensable), arpège mineur (indispensable), arpège Mb5 (facultatif), arpège mb5 (indispensable), arpège sus2 (indispensable)"
+      },
+      {
+        "concept": "Les arpèges à 3 notes que l'on peut jouer sur 3 cordes",
+        "page": 57,
+        "description": "Présentation des arpèges à 3 notes sur 3 cordes: arpège sus4 (indispensable), arpège sus4#5 (facultatif), arpège majeur plus (indispensable), arpège mineur plus (facultatif)"
+      },
+      {
+        "concept": "Les arpèges à 3 notes sur 3 et 4 cordes",
+        "page": 58,
+        "description": "Présentation des arpèges joués sur 3-4 cordes: arpège quarte/sixte 4/6 (facultatif), arpège 7 sans la tierce 7omit3 (facultatif), arpège mineur 7 sans la quinte m7omit5 (facultatif), arpège power chord (indispensable)"
+      },
+      {
+        "concept": "Les arpèges à 3 notes que l'on peut jouer sur 4 cordes",
+        "page": 59,
+        "description": "Présentation de l'arpège de neuvième ajoutée sans la tierce add9omit3 (facultatif) avec deux doigtés possibles sur 4 cordes"
+      },
+      {
+        "concept": "Conclusion - La bible des arpèges à 3 notes",
+        "page": 60,
+        "description": "Importance de connaître le nom et le doigté de certains arpèges avant de s'attaquer à l'accompagnement ou à la composition. Références vers d'autres méthodes sur les arpèges disponibles sur internet"
+      },
+      {
+        "concept": "La bible des arpèges à 4 notes avec une septième",
+        "page": 61,
+        "description": "Table des matières présentant tous les arpèges à 4 notes contenant une septième, incluant majeurs, mineurs, dominants et diminués avec leurs variantes"
+      },
+      {
+        "concept": "Introduction aux arpèges à 4 notes avec septième",
+        "page": 62,
+        "description": "Explication du système de visualisation des arpèges sur le manche de la basse avec code couleur pour chaque intervalle. Introduction aux doigtés indispensables et facultatifs"
+      },
+      {
+        "concept": "Liste des arpèges à 4 notes avec une septième existants",
+        "page": 63,
+        "description": "Tableau récapitulatif montrant tous les arpèges à 4 notes avec septième et leurs intervalles constitutifs: maj7, maj7b5, maj7#5, min7, min7b5, min7#5, 7, 7b5, 7#5, 7sus4, 7sus4b5, 7sus4#5, 7sus2, minmaj7, minmaj7b5, dim7"
+      },
+      {
+        "concept": "L'arpège majeur 7 (maj7)",
+        "page": 64,
+        "description": "Arpège indispensable composé de la fondamentale, tierce majeure, quinte juste et septième majeure. Présentation avec diagramme du manche"
+      },
+      {
+        "concept": "L'arpège majeur 7 quinte diminuée (maj7b5)",
+        "page": 64,
+        "description": "Arpège facultatif composé de la fondamentale, tierce majeure, quinte diminuée et septième majeure"
+      },
+      {
+        "concept": "L'arpège majeur 7 quinte augmentée (maj7#5)",
+        "page": 64,
+        "description": "Arpège facultatif composé de la fondamentale, tierce majeure, quinte augmentée et septième majeure"
+      },
+      {
+        "concept": "L'arpège mineur 7 (m7)",
+        "page": 64,
+        "description": "Arpège indispensable composé de la fondamentale, tierce mineure, quinte juste et septième mineure"
+      },
+      {
+        "concept": "L'arpège mineur 7 quinte diminuée (m7b5)",
+        "page": 65,
+        "description": "Arpège indispensable composé de la fondamentale, tierce mineure, quinte diminuée et septième mineure"
+      },
+      {
+        "concept": "L'arpège mineur 7 quinte augmentée (m7#5)",
+        "page": 65,
+        "description": "Arpège facultatif composé de la fondamentale, tierce mineure, quinte augmentée et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 (7)",
+        "page": 65,
+        "description": "Arpège indispensable composé de la fondamentale, tierce majeure, quinte juste et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 quinte diminuée (7 b5)",
+        "page": 65,
+        "description": "Arpège facultatif composé de la fondamentale, tierce majeure, quinte diminuée et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 quinte augmentée (7#5)",
+        "page": 66,
+        "description": "Arpège facultatif composé de la fondamentale, tierce majeure, quinte augmentée et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 (7sus4)",
+        "page": 66,
+        "description": "Arpège indispensable composé de la fondamentale, quarte juste, quinte juste et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 b 5 (7sus4b5)",
+        "page": 66,
+        "description": "Arpège facultatif composé de la fondamentale, quarte juste, quinte diminuée et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 # 5 (7sus4#5)",
+        "page": 66,
+        "description": "Arpège facultatif composé de la fondamentale, quarte juste, quinte augmentée et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 2 (7sus2)",
+        "page": 67,
+        "description": "Arpège facultatif composé de la fondamentale, seconde majeure, quinte juste et septième mineure"
+      },
+      {
+        "concept": "L'arpège mineur Majeur 7 (minmaj7)",
+        "page": 67,
+        "description": "Arpège indispensable composé de la fondamentale, tierce mineure, quinte juste et septième majeure"
+      },
+      {
+        "concept": "L'arpège mineur majeur 7 quinte diminuée (minmaj7b5)",
+        "page": 67,
+        "description": "Arpège facultatif composé de la fondamentale, tierce mineure, quinte diminuée et septième majeure"
+      },
+      {
+        "concept": "L'arpège diminué 7 (dim7 ou º7)",
+        "page": 67,
+        "description": "Arpège indispensable composé de la fondamentale, tierce mineure, quinte diminuée et septième diminuée"
+      },
+      {
+        "concept": "Conclusion sur les arpèges à 4 notes avec septième",
+        "page": 68,
+        "description": "Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges"
+      },
+      {
+        "concept": "La bible des arpèges à 4 notes sans septième",
+        "page": 69,
+        "description": "Table des matières présentant les arpèges à 4 notes sans septième: add2, add4, mineur add2, mineur add4, sus2sus4, majeur6, mineur6, add9, mineur add9"
+      },
+      {
+        "concept": "Introduction aux arpèges à 4 notes sans septième",
+        "page": 70,
+        "description": "Présentation des accords à 4 notes ne contenant pas de septième, avec système de visualisation sur le manche et code couleur par intervalle"
+      },
+      {
+        "concept": "Liste des arpèges à 4 notes sans septième existants",
+        "page": 71,
+        "description": "Tableau récapitulatif des arpèges à 4 notes sans septième avec leurs intervalles: add2, add4, mineur add2, mineur add4, sus2sus4, majeur6, min6, add9, min add9"
+      },
+      {
+        "concept": "L'arpège add 2 (add2)",
+        "page": 72,
+        "description": "Arpège facultatif composé de la fondamentale, seconde majeure, tierce majeure et quinte juste"
+      },
+      {
+        "concept": "L'arpège add 4 (add4)",
+        "page": 72,
+        "description": "Arpège facultatif composé de la fondamentale, tierce majeure, quarte juste et quinte juste"
+      },
+      {
+        "concept": "L'arpège mineur add 2 (minadd2)",
+        "page": 72,
+        "description": "Arpège facultatif composé de la fondamentale, seconde majeure, tierce mineure et quinte juste"
+      },
+      {
+        "concept": "L'arpège mineur add 4 (minadd4)",
+        "page": 72,
+        "description": "Arpège facultatif composé de la fondamentale, tierce mineure, quarte juste et quinte juste"
+      },
+      {
+        "concept": "L'arpège sus 2 sus 4 (sus2sus4)",
+        "page": 72,
+        "description": "Arpège facultatif composé de la fondamentale, seconde majeure, quarte juste et quinte juste"
+      },
+      {
+        "concept": "L'arpège majeur 6 (maj6)",
+        "page": 73,
+        "description": "Arpège indispensable composé de la fondamentale, tierce majeure, quinte juste et sixte majeure"
+      },
+      {
+        "concept": "L'arpège mineur 6 (min6)",
+        "page": 73,
+        "description": "Arpège indispensable composé de la fondamentale, tierce mineure, quinte juste et sixte majeure"
+      },
+      {
+        "concept": "L'arpège add 9 (add9)",
+        "page": 74,
+        "description": "Arpège facultatif composé de la fondamentale, tierce majeure, quinte juste et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège mineur add 9 (minadd9)",
+        "page": 74,
+        "description": "Arpège facultatif composé de la fondamentale, tierce mineure, quinte juste et neuvième majeure"
+      },
+      {
+        "concept": "Conclusion sur les arpèges à 4 notes sans septième",
+        "page": 75,
+        "description": "Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques"
+      },
+      {
+        "concept": "La bible des arpèges à 5 notes avec une neuvième",
+        "page": 76,
+        "description": "Table des matières détaillée présentant tous les arpèges à 5 notes contenant une neuvième, avec nombreuses variantes de 7ème et 9ème"
+      },
+      {
+        "concept": "Introduction aux arpèges à 5 notes avec neuvième",
+        "page": 77,
+        "description": "Présentation des accords à 5 notes contenant une neuvième avec système de visualisation sur manche et code couleur. Explication des doigtés index, majeur, annulaire et auriculaire"
+      },
+      {
+        "concept": "Liste des arpèges à 5 notes avec une neuvième existants",
+        "page": 78,
+        "description": "Page introductive annonçant le tableau récapitulatif des arpèges à 5 notes avec neuvième"
+      },
+      {
+        "concept": "Tableau complet des arpèges à 5 notes avec neuvième",
+        "page": 79,
+        "description": "Tableau exhaustif montrant tous les arpèges à 5 notes avec neuvième et leurs intervalles: 6/9, min6/9, min9, min9b5, 9, 9b5, 9#5, maj9, 9sus4, 9sus4b5, 9sus4#5, 7sus4b9, 7sus4#9, 7sus4b5b9, 7sus4b5#9, 7sus4#5b9, 7sus4#5#9, 7b5b9, 7b5#9, 7#5b9, 7#5#9, 7b9, 7#9, maj7#9, minmaj9"
+      },
+      {
+        "concept": "L'arpège 6/9 (6/9)",
+        "page": 80,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte juste, sixte majeure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège mineur 6/9 (m6/9)",
+        "page": 80,
+        "description": "Arpège comprenant la fondamentale, tierce mineure, quinte juste, sixte majeure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège mineur 9 (m9)",
+        "page": 80,
+        "description": "Arpège comprenant la fondamentale, tierce mineure, quinte juste, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège mineur 9 b 5 (m9b5)",
+        "page": 80,
+        "description": "Arpège comprenant la fondamentale, tierce mineure, quinte diminuée, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 9 (9)",
+        "page": 81,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 9 b 5 (9b5)",
+        "page": 81,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte diminuée, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 9 # 5 (9#5)",
+        "page": 81,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte augmentée, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège majeur 9 (maj9)",
+        "page": 81,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième majeure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 9 suspendu 4 (9sus4)",
+        "page": 82,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte juste, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 9 suspendu 4 b 5 (9sus4b5)",
+        "page": 82,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte diminuée, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 9 suspendu 4 # 5 (9sus4#5)",
+        "page": 82,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte augmentée, septième mineure et neuvième majeure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 b 9 (7sus4b9)",
+        "page": 82,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte juste, septième mineure et neuvième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 # 9 (7sus4#9)",
+        "page": 83,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte juste, septième mineure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 b 5 b 9 (7sus4b5b9)",
+        "page": 83,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte diminuée, septième mineure et neuvième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 b 5 # 9 (7sus4b5#9)",
+        "page": 83,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte diminuée, septième mineure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 # 5 b 9 (7sus4#5b9)",
+        "page": 83,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte augmentée, septième mineure et neuvième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu 4 # 5 # 9 (7sus4#5#9)",
+        "page": 84,
+        "description": "Arpège comprenant la fondamentale, quarte juste, quinte augmentée, septième mineure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 b 5 b 9 (7b5b9)",
+        "page": 84,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte diminuée, septième mineure et neuvième mineure"
+      },
+      {
+        "concept": "L'arpège 7 b 5 # 9 (7b5#9)",
+        "page": 84,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte diminuée, septième mineure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 # 5 b 9 (7#5b9)",
+        "page": 84,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte augmentée, septième mineure et neuvième mineure"
+      },
+      {
+        "concept": "L'arpège 7 # 5 # 9 (7#5#9)",
+        "page": 85,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte augmentée, septième mineure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 b 9 (7b9)",
+        "page": 85,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième mineure et neuvième mineure"
+      },
+      {
+        "concept": "L'arpège 7 # 9 (7#9)",
+        "page": 85,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième mineure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège majeur 7 # 9 (maj7#9)",
+        "page": 85,
+        "description": "Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième majeure et neuvième augmentée"
+      },
+      {
+        "concept": "L'arpège mineur majeur 9 (minmaj9)",
+        "page": 86,
+        "description": "Arpège comprenant la fondamentale, tierce mineure, quinte juste, septième majeure et neuvième majeure"
+      },
+      {
+        "concept": "Conclusion sur les arpèges à 5 notes avec neuvième",
+        "page": 87,
+        "description": "Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges"
+      },
+      {
+        "concept": "La bible des arpèges à 5 notes sans neuvième",
+        "page": 88,
+        "description": "Table des matières présentant les arpèges à 5 notes sans neuvième: add2add4, minadd2add4, 7add4, min7add4, 7/6, maj7/6, min7/6, 7#11, maj7#11, 7sus4#11, 7sus4#5#11, 7#5#11, 7b13, 7b5b13, 7sus4b13, 7sus4b5b13"
+      },
+      {
+        "concept": "Introduction aux arpèges à 5 notes sans neuvième",
+        "page": 89,
+        "description": "Présentation des accords à 5 notes ne contenant pas de neuvième avec système de visualisation sur le manche et code couleur. Trois versions proposées pour jouer les arpèges sur basse 4 ou 5 cordes avec différentes configurations d'intervalles"
+      },
+      {
+        "concept": "Liste des arpèges à 5 notes sans neuvième existants",
+        "page": 90,
+        "description": "Tableau récapitulatif des arpèges à 5 notes sans neuvième avec leurs intervalles: add2add4, minadd2add4, 7add4, min7add4, 7/6, maj7/6, min7/6, 7#11, maj7#11, 7sus4#11, 7sus4#5#11, 7#5#11, 7b13, 7b5b13, 7sus4b13, 7sus4b5b13"
+      },
+      {
+        "concept": "L'arpège add 2 add 4 (add2add4)",
+        "page": 91,
+        "description": "Arpège composé de la fondamentale, seconde majeure, tierce majeure, quarte juste et quinte juste"
+      },
+      {
+        "concept": "L'arpège mineur add 2 add 4 (minadd2add4)",
+        "page": 91,
+        "description": "Arpège composé de la fondamentale, seconde majeure, tierce mineure, quarte juste et quinte juste"
+      },
+      {
+        "concept": "L'arpège 7 add 4 (7add4)",
+        "page": 91,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quarte juste, quinte juste et septième mineure"
+      },
+      {
+        "concept": "L'arpège mineur 7 add 4 (min7add4)",
+        "page": 91,
+        "description": "Arpège composé de la fondamentale, tierce mineure, quarte juste, quinte juste et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7/6 (7/6)",
+        "page": 92,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, sixte majeure et septième mineure"
+      },
+      {
+        "concept": "L'arpège majeur 7/6 (maj7/6)",
+        "page": 92,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, sixte majeure et septième majeure"
+      },
+      {
+        "concept": "L'arpège mineur 7/6 (min7/6)",
+        "page": 92,
+        "description": "Arpège composé de la fondamentale, tierce mineure, quinte juste, sixte majeure et septième mineure"
+      },
+      {
+        "concept": "L'arpège 7 # 11 (7#11)",
+        "page": 92,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège majeur 7 # 11 (maj7#11)",
+        "page": 93,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 sus 4 # 11 (7sus4#11)",
+        "page": 93,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 sus 4 # 5 # 11 (7sus4#5#11)",
+        "page": 93,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 # 5 # 11 (7#5#11) - Versions multiples",
+        "page": 94,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure et onzième augmentée. Trois versions présentées: version 1 sur basse 4 cordes, version 2 sur basse 5 cordes, version 3 avec intervalle le plus haut redescendu à l'octave inférieur"
+      },
+      {
+        "concept": "L'arpège 7 b 13 (7b13) - Versions multiples",
+        "page": 95,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations"
+      },
+      {
+        "concept": "L'arpège 7 b 5 b 13 (7b5b13) - Versions multiples",
+        "page": 96,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte diminuée, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations"
+      },
+      {
+        "concept": "L'arpège 7 sus 4 b 13 (7sus4b13) - Versions multiples",
+        "page": 97,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations"
+      },
+      {
+        "concept": "L'arpège 7 sus 4 b 5 b 13 (7sus4b5b13) - Versions multiples",
+        "page": 98,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte diminuée, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations"
+      },
+      {
+        "concept": "Conclusion sur les arpèges à 5 notes sans neuvième",
+        "page": 99,
+        "description": "Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges"
+      },
+      {
+        "concept": "La bible des arpèges à 6 notes avec une onzième",
+        "page": 100,
+        "description": "Table des matières présentant tous les arpèges à 6 notes contenant une onzième: 6/9#11, maj9#11, maj11, 7b9#11, 7#5b9#11, 7#5#9#11, 7#9#11, 7#11b13, 7suspendu b9#11, 7sus#5b9#11, 7sus#5#9#11, 7sus#11b13, 9#5#11, 9#11, 9sus#5#11, 9sus#11, 11, 11b9, min11, min11b5"
+      },
+      {
+        "concept": "Introduction aux arpèges à 6 notes avec une onzième",
+        "page": 101,
+        "description": "Présentation des accords à 6 notes contenant une onzième avec système de visualisation sur le manche et code couleur. Explication des doigtés index, majeur, annulaire et auriculaire. Référence aux quatre dossiers préalables sur les intervalles et arpèges"
+      },
+      {
+        "concept": "Liste des arpèges à 6 notes avec une onzième existants",
+        "page": 102,
+        "description": "Tableau récapitulatif exhaustif des arpèges à 6 notes avec onzième et leurs intervalles: 6/9#11, maj9#11, maj11, 7b9#11, 7#5b9#11, 7#5#9#11, 7#9#11, 7#11b13, 7susb9#11, 7sus#5b9#11, 7sus#5#9#11, 7sus#11b13, 9#5#11, 9#11, 9sus#5#11, 9sus#11, 11, 11b9, min11, min11b5, 7#5b9"
+      },
+      {
+        "concept": "L'arpège 6/9 #11 (6/9#11)",
+        "page": 103,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, sixte majeure, neuvième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège majeur 9 #11 (maj9#11)",
+        "page": 103,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure, neuvième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège majeur 11 (maj11)",
+        "page": 103,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure, neuvième majeure et onzième juste"
+      },
+      {
+        "concept": "L'arpège 7 b9 #11 (7b9#11)",
+        "page": 103,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième mineure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 #5 b9 #11 (7#5b9#11)",
+        "page": 104,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure, neuvième mineure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 #5 #9 #11 (7#5#9#11)",
+        "page": 104,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure, neuvième augmentée et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 #9 #11 (7#9#11)",
+        "page": 104,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième augmentée et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 #11 b13 (7#11b13)",
+        "page": 104,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, onzième augmentée et treizième mineure"
+      },
+      {
+        "concept": "L'arpège 7 suspendu b9 #11 (7susb9#11)",
+        "page": 105,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure, neuvième mineure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 suspendu #5 b9 #11 (7sus#5b9#11)",
+        "page": 105,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure, neuvième mineure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 suspendu #5 #9 #11 (7sus#5#9#11)",
+        "page": 105,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure, neuvième augmentée et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 7 suspendu #11 b13 (7sus#11b13)",
+        "page": 106,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure, onzième augmentée et treizième mineure"
+      },
+      {
+        "concept": "L'arpège 9 #5 #11 (9#5#11)",
+        "page": 106,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure, neuvième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 9 #11 (9#11)",
+        "page": 106,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 9 suspendu #5 #11 (9sus#5#11)",
+        "page": 106,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure, neuvième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 9 suspendu #11 (9sus#11)",
+        "page": 107,
+        "description": "Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure, neuvième majeure et onzième augmentée"
+      },
+      {
+        "concept": "L'arpège 11 (11)",
+        "page": 107,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième majeure et onzième juste"
+      },
+      {
+        "concept": "L'arpège 11 b9 (11b9)",
+        "page": 107,
+        "description": "Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième mineure et onzième juste"
+      },
+      {
+        "concept": "L'arpège mineur 11 (min11)",
+        "page": 107,
+        "description": "Arpège composé de la fondamentale, tierce mineure, quinte juste, septième mineure, neuvième majeure et onzième juste"
+      },
+      {
+        "concept": "L'arpège mineur 11 b5 (min11b5)",
+        "page": 108,
+        "description": "Arpège composé de la fondamentale, tierce mineure, quinte diminuée, septième mineure, neuvième majeure et onzième juste"
+      },
+      {
+        "concept": "Conclusion sur les arpèges à 6 notes avec onzième",
+        "page": 109,
+        "description": "Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges et informations de contact de l'auteur"
+      }
+    ]
+  }
 }

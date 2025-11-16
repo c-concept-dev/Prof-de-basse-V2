@@ -3,1965 +3,1164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arpeges - Index V4.0</title>
+    <title>Arpèges - Index</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
             background: #f5f5f5;
-            padding: 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .v4-badge {
-            display: inline-block;
-            background: #9c27b0;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 30px;
+            border-radius: 12px;
             margin-bottom: 30px;
         }
-        .page {
-            margin-bottom: 40px;
-            padding: 20px;
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
             background: #f8f9fa;
+            padding: 20px;
             border-radius: 8px;
+            text-align: center;
             border-left: 4px solid #667eea;
         }
-        .page-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
         }
-        .page-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        .page-meta {
-            display: flex;
-            gap: 10px;
+        .stat-label {
+            color: #666;
             font-size: 14px;
-            color: #666;
-            flex-wrap: wrap;
-        }
-        .page-composer {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .page img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .technique-badge {
-            background: #e0e0e0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        .error-badge {
-            background: #ffebee;
-            color: #c62828;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .zone-info {
-            background: #f3e5f5;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            color: #7b1fa2;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎸 Arpeges</h1>
-        <p class="subtitle">
-            109 pages | 0 MP3 disponibles
-        </p>
-        <div class="v4-badge">🎯 Converti avec V4.0 - OCR par zones</div>
-        
-        <div class="page" id="page-1">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 1</div>
-                <div class="page-meta">
-                    <span>📄 Page 1</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_001.png" alt="Page 1">
-        </div>
-
-        <div class="page" id="page-2">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 2</div>
-                <div class="page-meta">
-                    <span>📄 Page 2</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_002.png" alt="Page 2">
-        </div>
-
-        <div class="page" id="page-3">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 3</div>
-                <div class="page-meta">
-                    <span>📄 Page 3</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_003.png" alt="Page 3">
-        </div>
-
-        <div class="page" id="page-4">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 4</div>
-                <div class="page-meta">
-                    <span>📄 Page 4</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_004.png" alt="Page 4">
-        </div>
-
-        <div class="page" id="page-5">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 5</div>
-                <div class="page-meta">
-                    <span>📄 Page 5</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_005.png" alt="Page 5">
-        </div>
-
-        <div class="page" id="page-6">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 6</div>
-                <div class="page-meta">
-                    <span>📄 Page 6</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_006.png" alt="Page 6">
-        </div>
-
-        <div class="page" id="page-7">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 7</div>
-                <div class="page-meta">
-                    <span>📄 Page 7</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_007.png" alt="Page 7">
-        </div>
-
-        <div class="page" id="page-8">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 8</div>
-                <div class="page-meta">
-                    <span>📄 Page 8</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_008.png" alt="Page 8">
-        </div>
-
-        <div class="page" id="page-9">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 9</div>
-                <div class="page-meta">
-                    <span>📄 Page 9</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_009.png" alt="Page 9">
-        </div>
-
-        <div class="page" id="page-10">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 10</div>
-                <div class="page-meta">
-                    <span>📄 Page 10</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_010.png" alt="Page 10">
-        </div>
-
-        <div class="page" id="page-11">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 11</div>
-                <div class="page-meta">
-                    <span>📄 Page 11</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_011.png" alt="Page 11">
-        </div>
-
-        <div class="page" id="page-12">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 12</div>
-                <div class="page-meta">
-                    <span>📄 Page 12</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_012.png" alt="Page 12">
-        </div>
-
-        <div class="page" id="page-13">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 13</div>
-                <div class="page-meta">
-                    <span>📄 Page 13</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_013.png" alt="Page 13">
-        </div>
-
-        <div class="page" id="page-14">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 14</div>
-                <div class="page-meta">
-                    <span>📄 Page 14</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_014.png" alt="Page 14">
-        </div>
-
-        <div class="page" id="page-15">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 15</div>
-                <div class="page-meta">
-                    <span>📄 Page 15</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_015.png" alt="Page 15">
-        </div>
-
-        <div class="page" id="page-16">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 16</div>
-                <div class="page-meta">
-                    <span>📄 Page 16</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_016.png" alt="Page 16">
-        </div>
-
-        <div class="page" id="page-17">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 17</div>
-                <div class="page-meta">
-                    <span>📄 Page 17</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_017.png" alt="Page 17">
-        </div>
-
-        <div class="page" id="page-18">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 18</div>
-                <div class="page-meta">
-                    <span>📄 Page 18</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_018.png" alt="Page 18">
-        </div>
-
-        <div class="page" id="page-19">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 19</div>
-                <div class="page-meta">
-                    <span>📄 Page 19</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_019.png" alt="Page 19">
-        </div>
-
-        <div class="page" id="page-20">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 20</div>
-                <div class="page-meta">
-                    <span>📄 Page 20</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_020.png" alt="Page 20">
-        </div>
-
-        <div class="page" id="page-21">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 21</div>
-                <div class="page-meta">
-                    <span>📄 Page 21</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_021.png" alt="Page 21">
-        </div>
-
-        <div class="page" id="page-22">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 22</div>
-                <div class="page-meta">
-                    <span>📄 Page 22</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_022.png" alt="Page 22">
-        </div>
-
-        <div class="page" id="page-23">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 23</div>
-                <div class="page-meta">
-                    <span>📄 Page 23</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_023.png" alt="Page 23">
-        </div>
-
-        <div class="page" id="page-24">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 24</div>
-                <div class="page-meta">
-                    <span>📄 Page 24</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_024.png" alt="Page 24">
-        </div>
-
-        <div class="page" id="page-25">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 25</div>
-                <div class="page-meta">
-                    <span>📄 Page 25</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_025.png" alt="Page 25">
-        </div>
-
-        <div class="page" id="page-26">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 26</div>
-                <div class="page-meta">
-                    <span>📄 Page 26</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_026.png" alt="Page 26">
-        </div>
-
-        <div class="page" id="page-27">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 27</div>
-                <div class="page-meta">
-                    <span>📄 Page 27</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_027.png" alt="Page 27">
-        </div>
-
-        <div class="page" id="page-28">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 28</div>
-                <div class="page-meta">
-                    <span>📄 Page 28</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_028.png" alt="Page 28">
-        </div>
-
-        <div class="page" id="page-29">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 29</div>
-                <div class="page-meta">
-                    <span>📄 Page 29</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_029.png" alt="Page 29">
-        </div>
-
-        <div class="page" id="page-30">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 30</div>
-                <div class="page-meta">
-                    <span>📄 Page 30</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_030.png" alt="Page 30">
-        </div>
-
-        <div class="page" id="page-31">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 31</div>
-                <div class="page-meta">
-                    <span>📄 Page 31</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_031.png" alt="Page 31">
-        </div>
-
-        <div class="page" id="page-32">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 32</div>
-                <div class="page-meta">
-                    <span>📄 Page 32</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_032.png" alt="Page 32">
-        </div>
-
-        <div class="page" id="page-33">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 33</div>
-                <div class="page-meta">
-                    <span>📄 Page 33</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_033.png" alt="Page 33">
-        </div>
-
-        <div class="page" id="page-34">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 34</div>
-                <div class="page-meta">
-                    <span>📄 Page 34</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_034.png" alt="Page 34">
-        </div>
-
-        <div class="page" id="page-35">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 35</div>
-                <div class="page-meta">
-                    <span>📄 Page 35</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_035.png" alt="Page 35">
-        </div>
-
-        <div class="page" id="page-36">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 36</div>
-                <div class="page-meta">
-                    <span>📄 Page 36</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_036.png" alt="Page 36">
-        </div>
-
-        <div class="page" id="page-37">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 37</div>
-                <div class="page-meta">
-                    <span>📄 Page 37</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_037.png" alt="Page 37">
-        </div>
-
-        <div class="page" id="page-38">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 38</div>
-                <div class="page-meta">
-                    <span>📄 Page 38</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_038.png" alt="Page 38">
-        </div>
-
-        <div class="page" id="page-39">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 39</div>
-                <div class="page-meta">
-                    <span>📄 Page 39</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_039.png" alt="Page 39">
-        </div>
-
-        <div class="page" id="page-40">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 40</div>
-                <div class="page-meta">
-                    <span>📄 Page 40</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_040.png" alt="Page 40">
-        </div>
-
-        <div class="page" id="page-41">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 41</div>
-                <div class="page-meta">
-                    <span>📄 Page 41</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_041.png" alt="Page 41">
-        </div>
-
-        <div class="page" id="page-42">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 42</div>
-                <div class="page-meta">
-                    <span>📄 Page 42</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_042.png" alt="Page 42">
-        </div>
-
-        <div class="page" id="page-43">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 43</div>
-                <div class="page-meta">
-                    <span>📄 Page 43</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_043.png" alt="Page 43">
-        </div>
-
-        <div class="page" id="page-44">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 44</div>
-                <div class="page-meta">
-                    <span>📄 Page 44</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_044.png" alt="Page 44">
-        </div>
-
-        <div class="page" id="page-45">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 45</div>
-                <div class="page-meta">
-                    <span>📄 Page 45</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_045.png" alt="Page 45">
-        </div>
-
-        <div class="page" id="page-46">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 46</div>
-                <div class="page-meta">
-                    <span>📄 Page 46</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_046.png" alt="Page 46">
-        </div>
-
-        <div class="page" id="page-47">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 47</div>
-                <div class="page-meta">
-                    <span>📄 Page 47</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_047.png" alt="Page 47">
-        </div>
-
-        <div class="page" id="page-48">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 48</div>
-                <div class="page-meta">
-                    <span>📄 Page 48</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_048.png" alt="Page 48">
-        </div>
-
-        <div class="page" id="page-49">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 49</div>
-                <div class="page-meta">
-                    <span>📄 Page 49</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_049.png" alt="Page 49">
-        </div>
-
-        <div class="page" id="page-50">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 50</div>
-                <div class="page-meta">
-                    <span>📄 Page 50</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_050.png" alt="Page 50">
-        </div>
-
-        <div class="page" id="page-51">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 51</div>
-                <div class="page-meta">
-                    <span>📄 Page 51</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_051.png" alt="Page 51">
-        </div>
-
-        <div class="page" id="page-52">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 52</div>
-                <div class="page-meta">
-                    <span>📄 Page 52</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_052.png" alt="Page 52">
-        </div>
-
-        <div class="page" id="page-53">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 53</div>
-                <div class="page-meta">
-                    <span>📄 Page 53</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_053.png" alt="Page 53">
-        </div>
-
-        <div class="page" id="page-54">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 54</div>
-                <div class="page-meta">
-                    <span>📄 Page 54</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_054.png" alt="Page 54">
-        </div>
-
-        <div class="page" id="page-55">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 55</div>
-                <div class="page-meta">
-                    <span>📄 Page 55</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_055.png" alt="Page 55">
-        </div>
-
-        <div class="page" id="page-56">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 56</div>
-                <div class="page-meta">
-                    <span>📄 Page 56</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_056.png" alt="Page 56">
-        </div>
-
-        <div class="page" id="page-57">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 57</div>
-                <div class="page-meta">
-                    <span>📄 Page 57</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_057.png" alt="Page 57">
-        </div>
-
-        <div class="page" id="page-58">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 58</div>
-                <div class="page-meta">
-                    <span>📄 Page 58</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_058.png" alt="Page 58">
-        </div>
-
-        <div class="page" id="page-59">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 59</div>
-                <div class="page-meta">
-                    <span>📄 Page 59</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_059.png" alt="Page 59">
-        </div>
-
-        <div class="page" id="page-60">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 60</div>
-                <div class="page-meta">
-                    <span>📄 Page 60</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_060.png" alt="Page 60">
-        </div>
-
-        <div class="page" id="page-61">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 61</div>
-                <div class="page-meta">
-                    <span>📄 Page 61</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_061.png" alt="Page 61">
-        </div>
-
-        <div class="page" id="page-62">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 62</div>
-                <div class="page-meta">
-                    <span>📄 Page 62</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_062.png" alt="Page 62">
-        </div>
-
-        <div class="page" id="page-63">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 63</div>
-                <div class="page-meta">
-                    <span>📄 Page 63</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_063.png" alt="Page 63">
-        </div>
-
-        <div class="page" id="page-64">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 64</div>
-                <div class="page-meta">
-                    <span>📄 Page 64</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_064.png" alt="Page 64">
-        </div>
-
-        <div class="page" id="page-65">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 65</div>
-                <div class="page-meta">
-                    <span>📄 Page 65</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_065.png" alt="Page 65">
-        </div>
-
-        <div class="page" id="page-66">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 66</div>
-                <div class="page-meta">
-                    <span>📄 Page 66</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_066.png" alt="Page 66">
-        </div>
-
-        <div class="page" id="page-67">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 67</div>
-                <div class="page-meta">
-                    <span>📄 Page 67</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_067.png" alt="Page 67">
-        </div>
-
-        <div class="page" id="page-68">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 68</div>
-                <div class="page-meta">
-                    <span>📄 Page 68</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_068.png" alt="Page 68">
-        </div>
-
-        <div class="page" id="page-69">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 69</div>
-                <div class="page-meta">
-                    <span>📄 Page 69</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_069.png" alt="Page 69">
-        </div>
-
-        <div class="page" id="page-70">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 70</div>
-                <div class="page-meta">
-                    <span>📄 Page 70</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_070.png" alt="Page 70">
-        </div>
-
-        <div class="page" id="page-71">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 71</div>
-                <div class="page-meta">
-                    <span>📄 Page 71</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_071.png" alt="Page 71">
-        </div>
-
-        <div class="page" id="page-72">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 72</div>
-                <div class="page-meta">
-                    <span>📄 Page 72</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_072.png" alt="Page 72">
-        </div>
-
-        <div class="page" id="page-73">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 73</div>
-                <div class="page-meta">
-                    <span>📄 Page 73</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_073.png" alt="Page 73">
-        </div>
-
-        <div class="page" id="page-74">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 74</div>
-                <div class="page-meta">
-                    <span>📄 Page 74</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_074.png" alt="Page 74">
-        </div>
-
-        <div class="page" id="page-75">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 75</div>
-                <div class="page-meta">
-                    <span>📄 Page 75</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_075.png" alt="Page 75">
-        </div>
-
-        <div class="page" id="page-76">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 76</div>
-                <div class="page-meta">
-                    <span>📄 Page 76</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_076.png" alt="Page 76">
-        </div>
-
-        <div class="page" id="page-77">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 77</div>
-                <div class="page-meta">
-                    <span>📄 Page 77</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_077.png" alt="Page 77">
-        </div>
-
-        <div class="page" id="page-78">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 78</div>
-                <div class="page-meta">
-                    <span>📄 Page 78</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_078.png" alt="Page 78">
-        </div>
-
-        <div class="page" id="page-79">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 79</div>
-                <div class="page-meta">
-                    <span>📄 Page 79</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_079.png" alt="Page 79">
-        </div>
-
-        <div class="page" id="page-80">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 80</div>
-                <div class="page-meta">
-                    <span>📄 Page 80</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_080.png" alt="Page 80">
-        </div>
-
-        <div class="page" id="page-81">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 81</div>
-                <div class="page-meta">
-                    <span>📄 Page 81</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_081.png" alt="Page 81">
-        </div>
-
-        <div class="page" id="page-82">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 82</div>
-                <div class="page-meta">
-                    <span>📄 Page 82</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_082.png" alt="Page 82">
-        </div>
-
-        <div class="page" id="page-83">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 83</div>
-                <div class="page-meta">
-                    <span>📄 Page 83</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_083.png" alt="Page 83">
-        </div>
-
-        <div class="page" id="page-84">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 84</div>
-                <div class="page-meta">
-                    <span>📄 Page 84</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_084.png" alt="Page 84">
-        </div>
-
-        <div class="page" id="page-85">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 85</div>
-                <div class="page-meta">
-                    <span>📄 Page 85</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_085.png" alt="Page 85">
-        </div>
-
-        <div class="page" id="page-86">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 86</div>
-                <div class="page-meta">
-                    <span>📄 Page 86</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_086.png" alt="Page 86">
-        </div>
-
-        <div class="page" id="page-87">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 87</div>
-                <div class="page-meta">
-                    <span>📄 Page 87</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_087.png" alt="Page 87">
-        </div>
-
-        <div class="page" id="page-88">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 88</div>
-                <div class="page-meta">
-                    <span>📄 Page 88</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_088.png" alt="Page 88">
-        </div>
-
-        <div class="page" id="page-89">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 89</div>
-                <div class="page-meta">
-                    <span>📄 Page 89</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_089.png" alt="Page 89">
-        </div>
-
-        <div class="page" id="page-90">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 90</div>
-                <div class="page-meta">
-                    <span>📄 Page 90</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_090.png" alt="Page 90">
-        </div>
-
-        <div class="page" id="page-91">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 91</div>
-                <div class="page-meta">
-                    <span>📄 Page 91</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_091.png" alt="Page 91">
-        </div>
-
-        <div class="page" id="page-92">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 92</div>
-                <div class="page-meta">
-                    <span>📄 Page 92</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_092.png" alt="Page 92">
-        </div>
-
-        <div class="page" id="page-93">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 93</div>
-                <div class="page-meta">
-                    <span>📄 Page 93</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_093.png" alt="Page 93">
-        </div>
-
-        <div class="page" id="page-94">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 94</div>
-                <div class="page-meta">
-                    <span>📄 Page 94</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_094.png" alt="Page 94">
-        </div>
-
-        <div class="page" id="page-95">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 95</div>
-                <div class="page-meta">
-                    <span>📄 Page 95</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_095.png" alt="Page 95">
-        </div>
-
-        <div class="page" id="page-96">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 96</div>
-                <div class="page-meta">
-                    <span>📄 Page 96</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_096.png" alt="Page 96">
-        </div>
-
-        <div class="page" id="page-97">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 97</div>
-                <div class="page-meta">
-                    <span>📄 Page 97</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_097.png" alt="Page 97">
-        </div>
-
-        <div class="page" id="page-98">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 98</div>
-                <div class="page-meta">
-                    <span>📄 Page 98</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_098.png" alt="Page 98">
-        </div>
-
-        <div class="page" id="page-99">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 99</div>
-                <div class="page-meta">
-                    <span>📄 Page 99</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_099.png" alt="Page 99">
-        </div>
-
-        <div class="page" id="page-100">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 100</div>
-                <div class="page-meta">
-                    <span>📄 Page 100</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_100.png" alt="Page 100">
-        </div>
-
-        <div class="page" id="page-101">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 101</div>
-                <div class="page-meta">
-                    <span>📄 Page 101</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_101.png" alt="Page 101">
-        </div>
-
-        <div class="page" id="page-102">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 102</div>
-                <div class="page-meta">
-                    <span>📄 Page 102</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_102.png" alt="Page 102">
-        </div>
-
-        <div class="page" id="page-103">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 103</div>
-                <div class="page-meta">
-                    <span>📄 Page 103</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_103.png" alt="Page 103">
-        </div>
-
-        <div class="page" id="page-104">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 104</div>
-                <div class="page-meta">
-                    <span>📄 Page 104</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_104.png" alt="Page 104">
-        </div>
-
-        <div class="page" id="page-105">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 105</div>
-                <div class="page-meta">
-                    <span>📄 Page 105</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_105.png" alt="Page 105">
-        </div>
-
-        <div class="page" id="page-106">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 106</div>
-                <div class="page-meta">
-                    <span>📄 Page 106</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_106.png" alt="Page 106">
-        </div>
-
-        <div class="page" id="page-107">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 107</div>
-                <div class="page-meta">
-                    <span>📄 Page 107</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_107.png" alt="Page 107">
-        </div>
-
-        <div class="page" id="page-108">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 108</div>
-                <div class="page-meta">
-                    <span>📄 Page 108</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_108.png" alt="Page 108">
-        </div>
-
-        <div class="page" id="page-109">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 109</div>
-                <div class="page-meta">
-                    <span>📄 Page 109</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_109.png" alt="Page 109">
-        </div>
-    </div>
+    <header>
+        <h1>📚 Arpèges</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> theory | 
+            <strong>Style :</strong> jazz | 
+            <strong>Images :</strong> 109
+        </div>
+    </header>
+    
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">34</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">127</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">109</div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>🎵 Morceaux (0)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (34)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>L'arpège Mi / Sol# / Si / Mi</strong></td>
+                        <td>7</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Fa / La / Do / Fa</strong></td>
+                        <td>8</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Fa# / La# / Do# / Fa#</strong></td>
+                        <td>9</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Solb / Sib / Reb / Solb</strong></td>
+                        <td>10</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Sol / Si / Re / Sol</strong></td>
+                        <td>11</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Sol# / Si# / Re# / Sol#</strong></td>
+                        <td>12</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Lab / Do / Mib / Lab</strong></td>
+                        <td>13</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège La / Do# / Mi / La</strong></td>
+                        <td>14</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège La# / Do## / Mi# / La#</strong></td>
+                        <td>15</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Sib / Re / Fa / Sib</strong></td>
+                        <td>16</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Si / Re# / Fa# / Si</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Do / Mi / Sol / Do</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Do# / Mi# / Sol# / Do#</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Reb / Fa / Lab / Reb</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Re / Fa# / La / Re</strong></td>
+                        <td>21</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Re# / Fa## / La# / Re#</strong></td>
+                        <td>22</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Mib / Sol / Sib / Mib</strong></td>
+                        <td>23</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Mi / Sol / Si / Mi</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Fa / Lab / Do / Fa</strong></td>
+                        <td>33</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Fa# / La / Do# / Fa#</strong></td>
+                        <td>34</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Solb / Sibb / Reb / Solb</strong></td>
+                        <td>36</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Sol / Sib / Re / Sol</strong></td>
+                        <td>37</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Sol# / Si / Re# / Sol#</strong></td>
+                        <td>38</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Lab / Dob / Mib / Lab</strong></td>
+                        <td>39</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège La / Do / Mi / La</strong></td>
+                        <td>40</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège La# / Do# / Mi# / La#</strong></td>
+                        <td>41</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Sib / Reb / Fa / Sib</strong></td>
+                        <td>42</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Si / Re / Fa# / Si</strong></td>
+                        <td>43</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Do / Mib / Sol / Do</strong></td>
+                        <td>44</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Do# / Mi / Sol# / Do#</strong></td>
+                        <td>45</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Reb / Fab / Lab / Reb</strong></td>
+                        <td>47</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Re / Fa / La / Re</strong></td>
+                        <td>48</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Re# / Fa# / La# / Re#</strong></td>
+                        <td>49</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège Mib / Solb / Sib / Mib</strong></td>
+                        <td>50</td>
+                        <td>débutant</td>
+                        <td>arpèges</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (127)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Définition d'un arpège</strong></td>
+                        <td>3</td>
+                        <td>Jouer un arpège signifie jouer les notes d'un accord les unes après les autres. Présentation de deux enchaînements de notes: premier enchaînement (F-3-5-F / Do-Mi-Sol-Do) et deuxième enchaînement avec renversement d'accord (F-3m-5-F / Do-Mib-Sol-Do)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les arpèges majeurs joués en se servant des cordes à vide</strong></td>
+                        <td>4</td>
+                        <td>Présentation des arpèges majeurs avec doigtés utilisant les cordes à vide pour les tonalités E, A, D et G, avec notation musicale et tablature</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les différentes possibilités pour jouer les arpèges majeurs sur chaque corde</strong></td>
+                        <td>5</td>
+                        <td>Explication des différentes façons de jouer un arpège majeur selon la corde de départ: sur Mi (un seul enchaînement), sur La (2 enchaînements), sur Re (2 enchaînements), sur Sol (deuxième enchaînement uniquement)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Analyse des 17 tonalités étudiées dans ce dossier</strong></td>
+                        <td>6</td>
+                        <td>Explication de la construction des 17 tonalités basées sur la gamme majeure de Do. Présentation du concept de dièses et de bémols, montrant comment les 7 notes de la gamme majeure de Do + 5 dièses + 5 bémols donnent 17 possibilités en tout</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Autres possibilités d'arpèges</strong></td>
+                        <td>24</td>
+                        <td>Différentes variations pour jouer les arpèges en changeant l'ordre des notes, en partant de cordes graves ou aiguës, et en ajoutant une 4ème note (l'octave juste)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion - Les arpèges, l'arpège majeur</strong></td>
+                        <td>25</td>
+                        <td>Importance de connaître le nom et le doigté de chaque arpège sur la basse. Références vers d'autres méthodes sur les arpèges disponibles sur internet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction - Les arpèges, l'arpège mineur</strong></td>
+                        <td>27</td>
+                        <td>Introduction aux arpèges mineurs - regroupement de la fondamentale, tierce mineure et quinte juste. Conseils sur la pratique et l'organisation des exercices avec fichiers audio et dossiers compressés</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Définition d'un arpège</strong></td>
+                        <td>28</td>
+                        <td>Jouer un arpège signifie jouer les notes d'un accord les unes après les autres. Présentation de deux enchaînements de notes (premier et deuxième enchaînement)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les arpèges mineurs joués en se servant des cordes à vide</strong></td>
+                        <td>29</td>
+                        <td>Exemples d'arpèges mineurs utilisant les cordes à vide (Emin, Amin, Dmin, Gmin)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les différentes possibilités pour jouer les arpèges mineurs sur chaque corde</strong></td>
+                        <td>30</td>
+                        <td>Explication des différentes possibilités de jouer la première note d'un arpège mineur sur chaque corde (Mi, La, Re, Sol) avec les deux enchaînements possibles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Analyse des 17 tonalités étudiées dans ce dossier</strong></td>
+                        <td>31</td>
+                        <td>Explication du système de notation des tonalités. Présentation de la gamme mineure de Do et des 17 possibilités (7 notes issues de la gamme mineure de Do + 5 dièses + 5 bémols)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Autres possibilités d'arpèges mineurs</strong></td>
+                        <td>51</td>
+                        <td>Variations pour jouer les arpèges mineurs en changeant l'ordre des notes, en partant de cordes graves ou aiguës, et en ajoutant une 4ème note (l'octave juste)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion - Les arpèges mineurs</strong></td>
+                        <td>52</td>
+                        <td>Importance de connaître le nom et le doigté de chaque arpège mineur sur la basse. Références vers d'autres méthodes sur les arpèges disponibles sur internet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction - La bible des arpèges à 3 notes pour les bassistes</strong></td>
+                        <td>54</td>
+                        <td>Introduction à une méthode complète sur les accords à 3 notes les plus connus, avec visualisation graphique des arpèges sur le manche et système de couleurs pour chaque type d'intervalle. Fichiers audio inclus pour chaque arpège</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste des arpèges à 3 notes existants</strong></td>
+                        <td>55</td>
+                        <td>Tableau récapitulatif des 14 types d'arpèges à 3 notes avec leurs intervalles constitutifs (arpège majeur, mineur, M5b, m5b, sus2, sus4, sus4#5, majeur plus, mineur plus, 4/6, 7omit3, m7omit5, power chord, add9omit3)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les arpèges à 3 notes que l'on peut jouer sur 2 cordes</strong></td>
+                        <td>56</td>
+                        <td>Présentation détaillée des arpèges à 3 notes jouables sur 2 cordes avec représentations graphiques: arpège majeur (indispensable), arpège mineur (indispensable), arpège Mb5 (facultatif), arpège mb5 (indispensable), arpège sus2 (indispensable)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les arpèges à 3 notes que l'on peut jouer sur 3 cordes</strong></td>
+                        <td>57</td>
+                        <td>Présentation des arpèges à 3 notes sur 3 cordes: arpège sus4 (indispensable), arpège sus4#5 (facultatif), arpège majeur plus (indispensable), arpège mineur plus (facultatif)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les arpèges à 3 notes sur 3 et 4 cordes</strong></td>
+                        <td>58</td>
+                        <td>Présentation des arpèges joués sur 3-4 cordes: arpège quarte/sixte 4/6 (facultatif), arpège 7 sans la tierce 7omit3 (facultatif), arpège mineur 7 sans la quinte m7omit5 (facultatif), arpège power chord (indispensable)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les arpèges à 3 notes que l'on peut jouer sur 4 cordes</strong></td>
+                        <td>59</td>
+                        <td>Présentation de l'arpège de neuvième ajoutée sans la tierce add9omit3 (facultatif) avec deux doigtés possibles sur 4 cordes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion - La bible des arpèges à 3 notes</strong></td>
+                        <td>60</td>
+                        <td>Importance de connaître le nom et le doigté de certains arpèges avant de s'attaquer à l'accompagnement ou à la composition. Références vers d'autres méthodes sur les arpèges disponibles sur internet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La bible des arpèges à 4 notes avec une septième</strong></td>
+                        <td>61</td>
+                        <td>Table des matières présentant tous les arpèges à 4 notes contenant une septième, incluant majeurs, mineurs, dominants et diminués avec leurs variantes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction aux arpèges à 4 notes avec septième</strong></td>
+                        <td>62</td>
+                        <td>Explication du système de visualisation des arpèges sur le manche de la basse avec code couleur pour chaque intervalle. Introduction aux doigtés indispensables et facultatifs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste des arpèges à 4 notes avec une septième existants</strong></td>
+                        <td>63</td>
+                        <td>Tableau récapitulatif montrant tous les arpèges à 4 notes avec septième et leurs intervalles constitutifs: maj7, maj7b5, maj7#5, min7, min7b5, min7#5, 7, 7b5, 7#5, 7sus4, 7sus4b5, 7sus4#5, 7sus2, minmaj7, minmaj7b5, dim7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 7 (maj7)</strong></td>
+                        <td>64</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce majeure, quinte juste et septième majeure. Présentation avec diagramme du manche</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 7 quinte diminuée (maj7b5)</strong></td>
+                        <td>64</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce majeure, quinte diminuée et septième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 7 quinte augmentée (maj7#5)</strong></td>
+                        <td>64</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce majeure, quinte augmentée et septième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 7 (m7)</strong></td>
+                        <td>64</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce mineure, quinte juste et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 7 quinte diminuée (m7b5)</strong></td>
+                        <td>65</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce mineure, quinte diminuée et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 7 quinte augmentée (m7#5)</strong></td>
+                        <td>65</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce mineure, quinte augmentée et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 (7)</strong></td>
+                        <td>65</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce majeure, quinte juste et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 quinte diminuée (7 b5)</strong></td>
+                        <td>65</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce majeure, quinte diminuée et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 quinte augmentée (7#5)</strong></td>
+                        <td>66</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce majeure, quinte augmentée et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 (7sus4)</strong></td>
+                        <td>66</td>
+                        <td>Arpège indispensable composé de la fondamentale, quarte juste, quinte juste et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 b 5 (7sus4b5)</strong></td>
+                        <td>66</td>
+                        <td>Arpège facultatif composé de la fondamentale, quarte juste, quinte diminuée et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 # 5 (7sus4#5)</strong></td>
+                        <td>66</td>
+                        <td>Arpège facultatif composé de la fondamentale, quarte juste, quinte augmentée et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 2 (7sus2)</strong></td>
+                        <td>67</td>
+                        <td>Arpège facultatif composé de la fondamentale, seconde majeure, quinte juste et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur Majeur 7 (minmaj7)</strong></td>
+                        <td>67</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce mineure, quinte juste et septième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur majeur 7 quinte diminuée (minmaj7b5)</strong></td>
+                        <td>67</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce mineure, quinte diminuée et septième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège diminué 7 (dim7 ou º7)</strong></td>
+                        <td>67</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce mineure, quinte diminuée et septième diminuée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion sur les arpèges à 4 notes avec septième</strong></td>
+                        <td>68</td>
+                        <td>Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La bible des arpèges à 4 notes sans septième</strong></td>
+                        <td>69</td>
+                        <td>Table des matières présentant les arpèges à 4 notes sans septième: add2, add4, mineur add2, mineur add4, sus2sus4, majeur6, mineur6, add9, mineur add9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction aux arpèges à 4 notes sans septième</strong></td>
+                        <td>70</td>
+                        <td>Présentation des accords à 4 notes ne contenant pas de septième, avec système de visualisation sur le manche et code couleur par intervalle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste des arpèges à 4 notes sans septième existants</strong></td>
+                        <td>71</td>
+                        <td>Tableau récapitulatif des arpèges à 4 notes sans septième avec leurs intervalles: add2, add4, mineur add2, mineur add4, sus2sus4, majeur6, min6, add9, min add9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège add 2 (add2)</strong></td>
+                        <td>72</td>
+                        <td>Arpège facultatif composé de la fondamentale, seconde majeure, tierce majeure et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège add 4 (add4)</strong></td>
+                        <td>72</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce majeure, quarte juste et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur add 2 (minadd2)</strong></td>
+                        <td>72</td>
+                        <td>Arpège facultatif composé de la fondamentale, seconde majeure, tierce mineure et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur add 4 (minadd4)</strong></td>
+                        <td>72</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce mineure, quarte juste et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège sus 2 sus 4 (sus2sus4)</strong></td>
+                        <td>72</td>
+                        <td>Arpège facultatif composé de la fondamentale, seconde majeure, quarte juste et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 6 (maj6)</strong></td>
+                        <td>73</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce majeure, quinte juste et sixte majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 6 (min6)</strong></td>
+                        <td>73</td>
+                        <td>Arpège indispensable composé de la fondamentale, tierce mineure, quinte juste et sixte majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège add 9 (add9)</strong></td>
+                        <td>74</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce majeure, quinte juste et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur add 9 (minadd9)</strong></td>
+                        <td>74</td>
+                        <td>Arpège facultatif composé de la fondamentale, tierce mineure, quinte juste et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion sur les arpèges à 4 notes sans septième</strong></td>
+                        <td>75</td>
+                        <td>Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La bible des arpèges à 5 notes avec une neuvième</strong></td>
+                        <td>76</td>
+                        <td>Table des matières détaillée présentant tous les arpèges à 5 notes contenant une neuvième, avec nombreuses variantes de 7ème et 9ème</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction aux arpèges à 5 notes avec neuvième</strong></td>
+                        <td>77</td>
+                        <td>Présentation des accords à 5 notes contenant une neuvième avec système de visualisation sur manche et code couleur. Explication des doigtés index, majeur, annulaire et auriculaire</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste des arpèges à 5 notes avec une neuvième existants</strong></td>
+                        <td>78</td>
+                        <td>Page introductive annonçant le tableau récapitulatif des arpèges à 5 notes avec neuvième</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Tableau complet des arpèges à 5 notes avec neuvième</strong></td>
+                        <td>79</td>
+                        <td>Tableau exhaustif montrant tous les arpèges à 5 notes avec neuvième et leurs intervalles: 6/9, min6/9, min9, min9b5, 9, 9b5, 9#5, maj9, 9sus4, 9sus4b5, 9sus4#5, 7sus4b9, 7sus4#9, 7sus4b5b9, 7sus4b5#9, 7sus4#5b9, 7sus4#5#9, 7b5b9, 7b5#9, 7#5b9, 7#5#9, 7b9, 7#9, maj7#9, minmaj9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 6/9 (6/9)</strong></td>
+                        <td>80</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte juste, sixte majeure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 6/9 (m6/9)</strong></td>
+                        <td>80</td>
+                        <td>Arpège comprenant la fondamentale, tierce mineure, quinte juste, sixte majeure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 9 (m9)</strong></td>
+                        <td>80</td>
+                        <td>Arpège comprenant la fondamentale, tierce mineure, quinte juste, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 9 b 5 (m9b5)</strong></td>
+                        <td>80</td>
+                        <td>Arpège comprenant la fondamentale, tierce mineure, quinte diminuée, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 (9)</strong></td>
+                        <td>81</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 b 5 (9b5)</strong></td>
+                        <td>81</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte diminuée, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 # 5 (9#5)</strong></td>
+                        <td>81</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte augmentée, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 9 (maj9)</strong></td>
+                        <td>81</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième majeure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 suspendu 4 (9sus4)</strong></td>
+                        <td>82</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte juste, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 suspendu 4 b 5 (9sus4b5)</strong></td>
+                        <td>82</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte diminuée, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 suspendu 4 # 5 (9sus4#5)</strong></td>
+                        <td>82</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte augmentée, septième mineure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 b 9 (7sus4b9)</strong></td>
+                        <td>82</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte juste, septième mineure et neuvième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 # 9 (7sus4#9)</strong></td>
+                        <td>83</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte juste, septième mineure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 b 5 b 9 (7sus4b5b9)</strong></td>
+                        <td>83</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte diminuée, septième mineure et neuvième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 b 5 # 9 (7sus4b5#9)</strong></td>
+                        <td>83</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte diminuée, septième mineure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 # 5 b 9 (7sus4#5b9)</strong></td>
+                        <td>83</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte augmentée, septième mineure et neuvième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu 4 # 5 # 9 (7sus4#5#9)</strong></td>
+                        <td>84</td>
+                        <td>Arpège comprenant la fondamentale, quarte juste, quinte augmentée, septième mineure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 b 5 b 9 (7b5b9)</strong></td>
+                        <td>84</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte diminuée, septième mineure et neuvième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 b 5 # 9 (7b5#9)</strong></td>
+                        <td>84</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte diminuée, septième mineure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 # 5 b 9 (7#5b9)</strong></td>
+                        <td>84</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte augmentée, septième mineure et neuvième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 # 5 # 9 (7#5#9)</strong></td>
+                        <td>85</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte augmentée, septième mineure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 b 9 (7b9)</strong></td>
+                        <td>85</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième mineure et neuvième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 # 9 (7#9)</strong></td>
+                        <td>85</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième mineure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 7 # 9 (maj7#9)</strong></td>
+                        <td>85</td>
+                        <td>Arpège comprenant la fondamentale, tierce majeure, quinte juste, septième majeure et neuvième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur majeur 9 (minmaj9)</strong></td>
+                        <td>86</td>
+                        <td>Arpège comprenant la fondamentale, tierce mineure, quinte juste, septième majeure et neuvième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion sur les arpèges à 5 notes avec neuvième</strong></td>
+                        <td>87</td>
+                        <td>Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La bible des arpèges à 5 notes sans neuvième</strong></td>
+                        <td>88</td>
+                        <td>Table des matières présentant les arpèges à 5 notes sans neuvième: add2add4, minadd2add4, 7add4, min7add4, 7/6, maj7/6, min7/6, 7#11, maj7#11, 7sus4#11, 7sus4#5#11, 7#5#11, 7b13, 7b5b13, 7sus4b13, 7sus4b5b13</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction aux arpèges à 5 notes sans neuvième</strong></td>
+                        <td>89</td>
+                        <td>Présentation des accords à 5 notes ne contenant pas de neuvième avec système de visualisation sur le manche et code couleur. Trois versions proposées pour jouer les arpèges sur basse 4 ou 5 cordes avec différentes configurations d'intervalles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste des arpèges à 5 notes sans neuvième existants</strong></td>
+                        <td>90</td>
+                        <td>Tableau récapitulatif des arpèges à 5 notes sans neuvième avec leurs intervalles: add2add4, minadd2add4, 7add4, min7add4, 7/6, maj7/6, min7/6, 7#11, maj7#11, 7sus4#11, 7sus4#5#11, 7#5#11, 7b13, 7b5b13, 7sus4b13, 7sus4b5b13</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège add 2 add 4 (add2add4)</strong></td>
+                        <td>91</td>
+                        <td>Arpège composé de la fondamentale, seconde majeure, tierce majeure, quarte juste et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur add 2 add 4 (minadd2add4)</strong></td>
+                        <td>91</td>
+                        <td>Arpège composé de la fondamentale, seconde majeure, tierce mineure, quarte juste et quinte juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 add 4 (7add4)</strong></td>
+                        <td>91</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quarte juste, quinte juste et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 7 add 4 (min7add4)</strong></td>
+                        <td>91</td>
+                        <td>Arpège composé de la fondamentale, tierce mineure, quarte juste, quinte juste et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7/6 (7/6)</strong></td>
+                        <td>92</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, sixte majeure et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 7/6 (maj7/6)</strong></td>
+                        <td>92</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, sixte majeure et septième majeure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 7/6 (min7/6)</strong></td>
+                        <td>92</td>
+                        <td>Arpège composé de la fondamentale, tierce mineure, quinte juste, sixte majeure et septième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 # 11 (7#11)</strong></td>
+                        <td>92</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 7 # 11 (maj7#11)</strong></td>
+                        <td>93</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 sus 4 # 11 (7sus4#11)</strong></td>
+                        <td>93</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 sus 4 # 5 # 11 (7sus4#5#11)</strong></td>
+                        <td>93</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 # 5 # 11 (7#5#11) - Versions multiples</strong></td>
+                        <td>94</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure et onzième augmentée. Trois versions présentées: version 1 sur basse 4 cordes, version 2 sur basse 5 cordes, version 3 avec intervalle le plus haut redescendu à l'octave inférieur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 b 13 (7b13) - Versions multiples</strong></td>
+                        <td>95</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 b 5 b 13 (7b5b13) - Versions multiples</strong></td>
+                        <td>96</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte diminuée, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 sus 4 b 13 (7sus4b13) - Versions multiples</strong></td>
+                        <td>97</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 sus 4 b 5 b 13 (7sus4b5b13) - Versions multiples</strong></td>
+                        <td>98</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte diminuée, septième mineure et treizième mineure. Trois versions présentées pour basse 4 et 5 cordes avec différentes configurations</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion sur les arpèges à 5 notes sans neuvième</strong></td>
+                        <td>99</td>
+                        <td>Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La bible des arpèges à 6 notes avec une onzième</strong></td>
+                        <td>100</td>
+                        <td>Table des matières présentant tous les arpèges à 6 notes contenant une onzième: 6/9#11, maj9#11, maj11, 7b9#11, 7#5b9#11, 7#5#9#11, 7#9#11, 7#11b13, 7suspendu b9#11, 7sus#5b9#11, 7sus#5#9#11, 7sus#11b13, 9#5#11, 9#11, 9sus#5#11, 9sus#11, 11, 11b9, min11, min11b5</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction aux arpèges à 6 notes avec une onzième</strong></td>
+                        <td>101</td>
+                        <td>Présentation des accords à 6 notes contenant une onzième avec système de visualisation sur le manche et code couleur. Explication des doigtés index, majeur, annulaire et auriculaire. Référence aux quatre dossiers préalables sur les intervalles et arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste des arpèges à 6 notes avec une onzième existants</strong></td>
+                        <td>102</td>
+                        <td>Tableau récapitulatif exhaustif des arpèges à 6 notes avec onzième et leurs intervalles: 6/9#11, maj9#11, maj11, 7b9#11, 7#5b9#11, 7#5#9#11, 7#9#11, 7#11b13, 7susb9#11, 7sus#5b9#11, 7sus#5#9#11, 7sus#11b13, 9#5#11, 9#11, 9sus#5#11, 9sus#11, 11, 11b9, min11, min11b5, 7#5b9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 6/9 #11 (6/9#11)</strong></td>
+                        <td>103</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, sixte majeure, neuvième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 9 #11 (maj9#11)</strong></td>
+                        <td>103</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure, neuvième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège majeur 11 (maj11)</strong></td>
+                        <td>103</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième majeure, neuvième majeure et onzième juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 b9 #11 (7b9#11)</strong></td>
+                        <td>103</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième mineure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 #5 b9 #11 (7#5b9#11)</strong></td>
+                        <td>104</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure, neuvième mineure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 #5 #9 #11 (7#5#9#11)</strong></td>
+                        <td>104</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure, neuvième augmentée et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 #9 #11 (7#9#11)</strong></td>
+                        <td>104</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième augmentée et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 #11 b13 (7#11b13)</strong></td>
+                        <td>104</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, onzième augmentée et treizième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu b9 #11 (7susb9#11)</strong></td>
+                        <td>105</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure, neuvième mineure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu #5 b9 #11 (7sus#5b9#11)</strong></td>
+                        <td>105</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure, neuvième mineure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu #5 #9 #11 (7sus#5#9#11)</strong></td>
+                        <td>105</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure, neuvième augmentée et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 7 suspendu #11 b13 (7sus#11b13)</strong></td>
+                        <td>106</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure, onzième augmentée et treizième mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 #5 #11 (9#5#11)</strong></td>
+                        <td>106</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte augmentée, septième mineure, neuvième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 #11 (9#11)</strong></td>
+                        <td>106</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 suspendu #5 #11 (9sus#5#11)</strong></td>
+                        <td>106</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte augmentée, septième mineure, neuvième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 9 suspendu #11 (9sus#11)</strong></td>
+                        <td>107</td>
+                        <td>Arpège composé de la fondamentale, quarte juste, quinte juste, septième mineure, neuvième majeure et onzième augmentée</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 11 (11)</strong></td>
+                        <td>107</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième majeure et onzième juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège 11 b9 (11b9)</strong></td>
+                        <td>107</td>
+                        <td>Arpège composé de la fondamentale, tierce majeure, quinte juste, septième mineure, neuvième mineure et onzième juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 11 (min11)</strong></td>
+                        <td>107</td>
+                        <td>Arpège composé de la fondamentale, tierce mineure, quinte juste, septième mineure, neuvième majeure et onzième juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'arpège mineur 11 b5 (min11b5)</strong></td>
+                        <td>108</td>
+                        <td>Arpège composé de la fondamentale, tierce mineure, quinte diminuée, septième mineure, neuvième majeure et onzième juste</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conclusion sur les arpèges à 6 notes avec onzième</strong></td>
+                        <td>109</td>
+                        <td>Importance de connaître le nom et doigté des arpèges pour l'accompagnement et la composition. Références vers d'autres documents pédagogiques sur les arpèges et informations de contact de l'auteur</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>

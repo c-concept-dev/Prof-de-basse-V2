@@ -1,652 +1,592 @@
 {
   "metadata": {
-    "method_name": "70 funk & Disco bass",
-    "total_songs": 29,
-    "has_mp3": false,
-    "mp3_count": 0,
-    "generated_at": "2025-11-10T09:30:07.759Z",
-    "version": "4.0.0",
-    "ocr_method": "zoned",
-    "zones": {
-      "title": {
-        "enabled": true,
-        "range": "0-20%",
-        "stats": {
-          "processed": 29,
-          "success": 0
-        }
-      },
-      "music": {
-        "enabled": false,
-        "range": "20-90%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      },
-      "footer": {
-        "enabled": true,
-        "range": "90-100%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      }
-    },
-    "ocr_config": {
-      "language": "eng+fra",
-      "confidence_threshold": 60
-    }
+    "bookTitle": "70s Funk & Disco Bass",
+    "category": "method",
+    "style": "funk",
+    "totalImages": 29,
+    "totalBatches": 2,
+    "processedDate": "2025-11-16T15:43:17.922Z"
   },
-  "songs": [
-    {
-      "title": "Page 1",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 1,
-      "page_url": "assets/pages/page_001.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "[object Event]",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
+  "content": {
+    "songs": [],
+    "exercises": [
+      {
+        "title": "Pattern 1",
+        "page": 2,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 2",
+        "page": 2,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 3",
+        "page": 2,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 4",
+        "page": 2,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 5",
+        "page": 3,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 6",
+        "page": 3,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 7",
+        "page": 3,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 8",
+        "page": 3,
+        "difficulty": "intermédiaire",
+        "technique": "swing feel funk"
+      },
+      {
+        "title": "Pattern 9",
+        "page": 4,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 10",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 11",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 12",
+        "page": 4,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 13",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 14",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 15",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 16",
+        "page": 5,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 17",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 18",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 19",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 20",
+        "page": 6,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 21",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 22",
+        "page": 7,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 23",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 24",
+        "page": 7,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 25",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 26",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 27",
+        "page": 8,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 28",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 29",
+        "page": 9,
+        "difficulty": "débutant",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 30",
+        "page": 9,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 31",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 32",
+        "page": 10,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 33",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 34",
+        "page": 11,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 35",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 36",
+        "page": 12,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 37",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 38",
+        "page": 13,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 39",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 40",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 41",
+        "page": 14,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 42",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 43",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 44",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 45",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 46",
+        "page": 15,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 47",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 48",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 49",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 50",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 51",
+        "page": 16,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 52",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 53",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 54",
+        "page": 17,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 55",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 56",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 57",
+        "page": 18,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 58",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 59",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 60",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 61",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 62",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 63",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 64",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 65",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 66",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 67",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 68",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 69",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 70",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 71",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 72",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 73",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 74",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 75",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 76",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 77",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 78",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 79",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 80",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 81",
+        "page": 26,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 82",
+        "page": 26,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 83",
+        "page": 26,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 84",
+        "page": 26,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 85",
+        "page": 27,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 86",
+        "page": 27,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 87",
+        "page": 27,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 88",
+        "page": 27,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 89",
+        "page": 28,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 90",
+        "page": 28,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 91",
+        "page": 28,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 92",
+        "page": 28,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 99",
+        "page": 29,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 100",
+        "page": 29,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
+      },
+      {
+        "title": "Pattern 101",
+        "page": 29,
+        "difficulty": "intermédiaire",
+        "technique": "funk groove"
       }
-    },
-    {
-      "title": "Page 2",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 2,
-      "page_url": "assets/pages/page_002.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
+    ],
+    "concepts": [
+      {
+        "concept": "70s Funk & Disco Bass Patterns",
+        "page": 1,
+        "description": "Collection de 101 patterns de basse funk et disco des années 70, incluant 99 pistes de démonstration sur CD"
       }
-    },
-    {
-      "title": "Page 3",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 3,
-      "page_url": "assets/pages/page_003.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 4",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 4,
-      "page_url": "assets/pages/page_004.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 5",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 5,
-      "page_url": "assets/pages/page_005.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 6",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 6,
-      "page_url": "assets/pages/page_006.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 7",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 7,
-      "page_url": "assets/pages/page_007.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 8",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 8,
-      "page_url": "assets/pages/page_008.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 9",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 9,
-      "page_url": "assets/pages/page_009.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 10",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 10,
-      "page_url": "assets/pages/page_010.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 11",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 11,
-      "page_url": "assets/pages/page_011.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 12",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 12,
-      "page_url": "assets/pages/page_012.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 13",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 13,
-      "page_url": "assets/pages/page_013.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 14",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 14,
-      "page_url": "assets/pages/page_014.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 15",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 15,
-      "page_url": "assets/pages/page_015.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 16",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 16,
-      "page_url": "assets/pages/page_016.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 17",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 17,
-      "page_url": "assets/pages/page_017.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 18",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 18,
-      "page_url": "assets/pages/page_018.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 19",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 19,
-      "page_url": "assets/pages/page_019.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 20",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 20,
-      "page_url": "assets/pages/page_020.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 21",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 21,
-      "page_url": "assets/pages/page_021.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 22",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 22,
-      "page_url": "assets/pages/page_022.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 23",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 23,
-      "page_url": "assets/pages/page_023.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 24",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 24,
-      "page_url": "assets/pages/page_024.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 25",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 25,
-      "page_url": "assets/pages/page_025.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 26",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 26,
-      "page_url": "assets/pages/page_026.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 27",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 27,
-      "page_url": "assets/pages/page_027.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 28",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 28,
-      "page_url": "assets/pages/page_028.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 29",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 29,
-      "page_url": "assets/pages/page_029.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    }
-  ]
+    ]
+  }
 }

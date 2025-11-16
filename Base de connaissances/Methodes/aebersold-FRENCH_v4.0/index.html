@@ -3,1047 +3,695 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aebersold French - Index V4.0</title>
+    <title>aebersold-FRENCH - Index</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
             background: #f5f5f5;
-            padding: 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .v4-badge {
-            display: inline-block;
-            background: #9c27b0;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 30px;
+            border-radius: 12px;
             margin-bottom: 30px;
         }
-        .page {
-            margin-bottom: 40px;
-            padding: 20px;
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
             background: #f8f9fa;
+            padding: 20px;
             border-radius: 8px;
+            text-align: center;
             border-left: 4px solid #667eea;
         }
-        .page-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
         }
-        .page-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        .page-meta {
-            display: flex;
-            gap: 10px;
+        .stat-label {
+            color: #666;
             font-size: 14px;
-            color: #666;
-            flex-wrap: wrap;
-        }
-        .page-composer {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .page img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .technique-badge {
-            background: #e0e0e0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        .error-badge {
-            background: #ffebee;
-            color: #c62828;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .zone-info {
-            background: #f3e5f5;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            color: #7b1fa2;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎸 aebersold French</h1>
-        <p class="subtitle">
-            55 pages | 0 MP3 disponibles
-        </p>
-        <div class="v4-badge">🎯 Converti avec V4.0 - OCR par zones</div>
-        
-        <div class="page" id="page-1">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 1</div>
-                <div class="page-meta">
-                    <span>📄 Page 1</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_001.png" alt="Page 1">
+    <header>
+        <h1>📚 aebersold-FRENCH</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> method | 
+            <strong>Style :</strong> jazz | 
+            <strong>Images :</strong> 55
         </div>
-
-        <div class="page" id="page-2">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 2</div>
-                <div class="page-meta">
-                    <span>📄 Page 2</span>
-                    
-                    
-                    
-                </div>
+    </header>
+    
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">0</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_002.png" alt="Page 2">
-        </div>
-
-        <div class="page" id="page-3">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 3</div>
-                <div class="page-meta">
-                    <span>📄 Page 3</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">27</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_003.png" alt="Page 3">
-        </div>
-
-        <div class="page" id="page-4">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 4</div>
-                <div class="page-meta">
-                    <span>📄 Page 4</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">57</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_004.png" alt="Page 4">
-        </div>
-
-        <div class="page" id="page-5">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 5</div>
-                <div class="page-meta">
-                    <span>📄 Page 5</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">55</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_005.png" alt="Page 5">
         </div>
-
-        <div class="page" id="page-6">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 6</div>
-                <div class="page-meta">
-                    <span>📄 Page 6</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_006.png" alt="Page 6">
-        </div>
-
-        <div class="page" id="page-7">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 7</div>
-                <div class="page-meta">
-                    <span>📄 Page 7</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_007.png" alt="Page 7">
-        </div>
-
-        <div class="page" id="page-8">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 8</div>
-                <div class="page-meta">
-                    <span>📄 Page 8</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_008.png" alt="Page 8">
-        </div>
-
-        <div class="page" id="page-9">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 9</div>
-                <div class="page-meta">
-                    <span>📄 Page 9</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_009.png" alt="Page 9">
-        </div>
-
-        <div class="page" id="page-10">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 10</div>
-                <div class="page-meta">
-                    <span>📄 Page 10</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_010.png" alt="Page 10">
-        </div>
-
-        <div class="page" id="page-11">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 11</div>
-                <div class="page-meta">
-                    <span>📄 Page 11</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_011.png" alt="Page 11">
-        </div>
-
-        <div class="page" id="page-12">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 12</div>
-                <div class="page-meta">
-                    <span>📄 Page 12</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_012.png" alt="Page 12">
-        </div>
-
-        <div class="page" id="page-13">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 13</div>
-                <div class="page-meta">
-                    <span>📄 Page 13</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_013.png" alt="Page 13">
-        </div>
-
-        <div class="page" id="page-14">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 14</div>
-                <div class="page-meta">
-                    <span>📄 Page 14</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_014.png" alt="Page 14">
-        </div>
-
-        <div class="page" id="page-15">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 15</div>
-                <div class="page-meta">
-                    <span>📄 Page 15</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_015.png" alt="Page 15">
-        </div>
-
-        <div class="page" id="page-16">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 16</div>
-                <div class="page-meta">
-                    <span>📄 Page 16</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_016.png" alt="Page 16">
-        </div>
-
-        <div class="page" id="page-17">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 17</div>
-                <div class="page-meta">
-                    <span>📄 Page 17</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_017.png" alt="Page 17">
-        </div>
-
-        <div class="page" id="page-18">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 18</div>
-                <div class="page-meta">
-                    <span>📄 Page 18</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_018.png" alt="Page 18">
-        </div>
-
-        <div class="page" id="page-19">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 19</div>
-                <div class="page-meta">
-                    <span>📄 Page 19</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_019.png" alt="Page 19">
-        </div>
-
-        <div class="page" id="page-20">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 20</div>
-                <div class="page-meta">
-                    <span>📄 Page 20</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_020.png" alt="Page 20">
-        </div>
-
-        <div class="page" id="page-21">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 21</div>
-                <div class="page-meta">
-                    <span>📄 Page 21</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_021.png" alt="Page 21">
-        </div>
-
-        <div class="page" id="page-22">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 22</div>
-                <div class="page-meta">
-                    <span>📄 Page 22</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_022.png" alt="Page 22">
-        </div>
-
-        <div class="page" id="page-23">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 23</div>
-                <div class="page-meta">
-                    <span>📄 Page 23</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_023.png" alt="Page 23">
-        </div>
-
-        <div class="page" id="page-24">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 24</div>
-                <div class="page-meta">
-                    <span>📄 Page 24</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_024.png" alt="Page 24">
-        </div>
-
-        <div class="page" id="page-25">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 25</div>
-                <div class="page-meta">
-                    <span>📄 Page 25</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_025.png" alt="Page 25">
-        </div>
-
-        <div class="page" id="page-26">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 26</div>
-                <div class="page-meta">
-                    <span>📄 Page 26</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_026.png" alt="Page 26">
-        </div>
-
-        <div class="page" id="page-27">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 27</div>
-                <div class="page-meta">
-                    <span>📄 Page 27</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_027.png" alt="Page 27">
-        </div>
-
-        <div class="page" id="page-28">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 28</div>
-                <div class="page-meta">
-                    <span>📄 Page 28</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_028.png" alt="Page 28">
-        </div>
-
-        <div class="page" id="page-29">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 29</div>
-                <div class="page-meta">
-                    <span>📄 Page 29</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_029.png" alt="Page 29">
-        </div>
-
-        <div class="page" id="page-30">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 30</div>
-                <div class="page-meta">
-                    <span>📄 Page 30</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_030.png" alt="Page 30">
-        </div>
-
-        <div class="page" id="page-31">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 31</div>
-                <div class="page-meta">
-                    <span>📄 Page 31</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_031.png" alt="Page 31">
-        </div>
-
-        <div class="page" id="page-32">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 32</div>
-                <div class="page-meta">
-                    <span>📄 Page 32</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_032.png" alt="Page 32">
-        </div>
-
-        <div class="page" id="page-33">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 33</div>
-                <div class="page-meta">
-                    <span>📄 Page 33</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_033.png" alt="Page 33">
-        </div>
-
-        <div class="page" id="page-34">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 34</div>
-                <div class="page-meta">
-                    <span>📄 Page 34</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_034.png" alt="Page 34">
-        </div>
-
-        <div class="page" id="page-35">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 35</div>
-                <div class="page-meta">
-                    <span>📄 Page 35</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_035.png" alt="Page 35">
-        </div>
-
-        <div class="page" id="page-36">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 36</div>
-                <div class="page-meta">
-                    <span>📄 Page 36</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_036.png" alt="Page 36">
-        </div>
-
-        <div class="page" id="page-37">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 37</div>
-                <div class="page-meta">
-                    <span>📄 Page 37</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_037.png" alt="Page 37">
-        </div>
-
-        <div class="page" id="page-38">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 38</div>
-                <div class="page-meta">
-                    <span>📄 Page 38</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_038.png" alt="Page 38">
-        </div>
-
-        <div class="page" id="page-39">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 39</div>
-                <div class="page-meta">
-                    <span>📄 Page 39</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_039.png" alt="Page 39">
-        </div>
-
-        <div class="page" id="page-40">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 40</div>
-                <div class="page-meta">
-                    <span>📄 Page 40</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_040.png" alt="Page 40">
-        </div>
-
-        <div class="page" id="page-41">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 41</div>
-                <div class="page-meta">
-                    <span>📄 Page 41</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_041.png" alt="Page 41">
-        </div>
-
-        <div class="page" id="page-42">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 42</div>
-                <div class="page-meta">
-                    <span>📄 Page 42</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_042.png" alt="Page 42">
-        </div>
-
-        <div class="page" id="page-43">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 43</div>
-                <div class="page-meta">
-                    <span>📄 Page 43</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_043.png" alt="Page 43">
-        </div>
-
-        <div class="page" id="page-44">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 44</div>
-                <div class="page-meta">
-                    <span>📄 Page 44</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_044.png" alt="Page 44">
-        </div>
-
-        <div class="page" id="page-45">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 45</div>
-                <div class="page-meta">
-                    <span>📄 Page 45</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_045.png" alt="Page 45">
-        </div>
-
-        <div class="page" id="page-46">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 46</div>
-                <div class="page-meta">
-                    <span>📄 Page 46</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_046.png" alt="Page 46">
-        </div>
-
-        <div class="page" id="page-47">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 47</div>
-                <div class="page-meta">
-                    <span>📄 Page 47</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_047.png" alt="Page 47">
-        </div>
-
-        <div class="page" id="page-48">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 48</div>
-                <div class="page-meta">
-                    <span>📄 Page 48</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_048.png" alt="Page 48">
-        </div>
-
-        <div class="page" id="page-49">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 49</div>
-                <div class="page-meta">
-                    <span>📄 Page 49</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_049.png" alt="Page 49">
-        </div>
-
-        <div class="page" id="page-50">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 50</div>
-                <div class="page-meta">
-                    <span>📄 Page 50</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_050.png" alt="Page 50">
-        </div>
-
-        <div class="page" id="page-51">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 51</div>
-                <div class="page-meta">
-                    <span>📄 Page 51</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_051.png" alt="Page 51">
-        </div>
-
-        <div class="page" id="page-52">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 52</div>
-                <div class="page-meta">
-                    <span>📄 Page 52</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_052.png" alt="Page 52">
-        </div>
-
-        <div class="page" id="page-53">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 53</div>
-                <div class="page-meta">
-                    <span>📄 Page 53</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_053.png" alt="Page 53">
-        </div>
-
-        <div class="page" id="page-54">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 54</div>
-                <div class="page-meta">
-                    <span>📄 Page 54</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_054.png" alt="Page 54">
-        </div>
-
-        <div class="page" id="page-55">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 55</div>
-                <div class="page-meta">
-                    <span>📄 Page 55</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: null is not an object (evaluating 'e.SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_055.png" alt="Page 55">
-        </div>
-    </div>
+    </section>
+    
+    <section>
+        <h2>🎵 Morceaux (0)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (27)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Exercices préparatoires - Clef de Fa</strong></td>
+                        <td>20</td>
+                        <td>débutant</td>
+                        <td>lecture, gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercice sur la gamme Blues</strong></td>
+                        <td>20</td>
+                        <td>débutant</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices préparatoires - Clef de Fa (continuation)</strong></td>
+                        <td>21</td>
+                        <td>débutant</td>
+                        <td>lecture, gammes majeures, 7ème dominante, mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les 12 Gammes Majeures (Ioniennes) Jusqu'à la 9ème - Clef de Sol</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>gammes, construction TTDTTDT</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les 12 Gammes Majeures (Mixolydiennes) Jusqu'à la 9ème - Clef de Sol</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>gammes, 7ème de dominante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les 12 Gammes Mineures (Doriennes) Jusqu'à la 9ème - Clef de Sol</strong></td>
+                        <td>22</td>
+                        <td>intermédiaire</td>
+                        <td>gammes mineures</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes Par Tons (Augmentée)</strong></td>
+                        <td>22</td>
+                        <td>avancé</td>
+                        <td>gammes par tons, construction TTTTTT</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les 12 Gammes Majeures (Ioniennes) Jusqu'à la 9ème - Clef de Fa</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>gammes, construction TTDTTDT</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les 12 Gammes Majeures (Mixolydiennes) Jusqu'à la 9ème - Clef de Fa</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>gammes, 7ème de dominante</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les 12 Gammes Mineures (Doriennes) Jusqu'à la 9ème - Clef de Fa</strong></td>
+                        <td>23</td>
+                        <td>intermédiaire</td>
+                        <td>gammes mineures</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices d'articulation - Piqué sur les temps forts</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>articulation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices d'articulation - Piqué sur la 4e notes</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>articulation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices d'articulation - Chromatique sur les temps forts</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>articulation, chromatisme</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices d'articulation - Piqué aléatoire / Aléatoire</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>articulation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices d'articulation - Notes de l'accord</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>articulation, arpèges</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Pratique des gammes - G majeur, G7 Dominant, G-7 Mineur Dorian, etc.</strong></td>
+                        <td>31</td>
+                        <td>intermédiaire</td>
+                        <td>gammes, articulation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-1: Écrire les notes des gammes suivantes</strong></td>
+                        <td>42</td>
+                        <td>débutant</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-2: Écrire les notes qui compose les accords suivants</strong></td>
+                        <td>43</td>
+                        <td>débutant</td>
+                        <td>accords</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-3: Identification des notes dans les gammes</strong></td>
+                        <td>44</td>
+                        <td>débutant</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-4: II V7 I - Séquences dans les modes Majeures et mineures</strong></td>
+                        <td>45</td>
+                        <td>intermédiaire</td>
+                        <td>progressions II-V-I</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-5: Questions théoriques</strong></td>
+                        <td>46</td>
+                        <td>intermédiaire</td>
+                        <td>théorie</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>II/V7/I - Progression avec l'accent sur la 7e résolus à la 3e</strong></td>
+                        <td>47</td>
+                        <td>intermédiaire</td>
+                        <td>progressions II-V-I</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues - 7 variations</strong></td>
+                        <td>48</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Majeur et 7e de dominante - Cycle complet 3e et 7e</strong></td>
+                        <td>49</td>
+                        <td>intermédiaire</td>
+                        <td>cycles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>II-V7-I / II-V7-I / Majeur, 7e Dom., II-V7-I</strong></td>
+                        <td>50</td>
+                        <td>avancé</td>
+                        <td>progressions II-V-I</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Piano Voicing - II/V7/I - Tonalités Majeures</strong></td>
+                        <td>51</td>
+                        <td>intermédiaire</td>
+                        <td>voicings piano</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Piano Voicing - Ø-V7+9-I Toutes les tonalitées mineures</strong></td>
+                        <td>52</td>
+                        <td>intermédiaire</td>
+                        <td>voicings piano</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (57)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Introduction générale au Jazz</strong></td>
+                        <td>3</td>
+                        <td>Bases pour apprendre l'improvisation dans la musique jazz, importance des gammes, accords, modes, plans et morceaux standards</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Information utile de Jazz</strong></td>
+                        <td>4</td>
+                        <td>Ingrédients de base en musique: gammes, accords, mélodie, rythme, harmonie. Objectif d'enseignement du jazz et conseils pratiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Aide à la pratique</strong></td>
+                        <td>5</td>
+                        <td>11 conseils pour la pratique: jouer avec bon son/ton, phrases naturelles, chanter mentalement, ralentir exercices difficiles, être patient, utiliser articulations jazz, improviser quotidiennement, pratiquer dans 12 tonalités, apprendre Blues, mémoriser</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Solos par Jamey Aebersold</strong></td>
+                        <td>6</td>
+                        <td>7 principes pour improviser: restez en mesure, jouez les bonnes notes, répétition et phrases, tonalités des accords, sonorité, écoute, capacité d'improviser. Recommandation des volumes Play-A-Long 1, 24, 3, 21, 116, 84, 54, 70, 47 et 120</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Jazz: La musique naturelle</strong></td>
+                        <td>7</td>
+                        <td>Histoire et évolution du jazz, importance de l'écoute, méthode de pratique, section rythmique. Liste d'ingrédients pour bien improviser: désir, écoute sérieuse, méthode de pratique, section rythmique, utilisation de soi</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Écoute suggérée d'artistes de jazz</strong></td>
+                        <td>10</td>
+                        <td>Liste extensive d'artistes de jazz par instrument: Trompette, Sax Soprano, Sax Alto, Sax Ténor, Sax Baryton, Trombone, Flûte, Clarinette, Piano, Guitare, Basse, Batterie, Vibraphone, Chanteur Scat, Violon, Harmonica, Violoncelle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enregistrement d'importance historique</strong></td>
+                        <td>11</td>
+                        <td>Liste de plus de 100 albums de jazz historiques essentiels à écouter des années 40, 50 et 60, avec artistes et titres d'albums</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Conseils pour apprendre un nouveau morceau</strong></td>
+                        <td>12</td>
+                        <td>13 étapes pour mémoriser et jouer un morceau: écouter, mémoriser mélodie, écouter ligne de basse et harmonie, jouer mélodie de mémoire, jouer avec enregistrement, apprendre gammes/accords, improviser dans harmonie, insister sur tierces et septièmes, mémoriser mélodie et gammes/accords, improviser mélodies originales, écouter enregistrements originaux, apprendre paroles, aimer les mélodies</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Procédure pratique pour la mémorisation</strong></td>
+                        <td>12</td>
+                        <td>Méthode en 12 étapes pour mémoriser gammes et accords de n'importe quel morceau, incluant progression des exercices de la fondamentale aux accords complets</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Procédure pratique de mémorisation pour les gammes et accords d'un morceau</strong></td>
+                        <td>13</td>
+                        <td>8 exercices énumérés avec notation musicale illustrant progressions d'accords en différentes tonalités (Bb, C, F, etc.) avec gammes de Triades, 7th Chords, et Entire Scale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Liste de Standards pour débutant</strong></td>
+                        <td>14</td>
+                        <td>Liste de morceaux standards pour débutants et intermédiaires avec indication des tonalités et volumes Play-a-long. Standards pour débutants incluent Blues en Bb et F, Footprints, Satin Doll, Doxy, Autumn Leaves, etc. Standards intermédiaires incluent Four, Perdido, All Blues, Groovin High, etc.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Standards pour les plus avancés</strong></td>
+                        <td>14</td>
+                        <td>Liste de standards avancés: Stella by Starlight, Star Eyes, Invitation, Have You Met Miss Jones, I Got Rhythm, Giant Steps, All The Things You Are, Most ballads, Wayne Shorter tunes, Horace Silver tunes, John Coltrane tunes, Benny Golson tunes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les gammes</strong></td>
+                        <td>15</td>
+                        <td>Définitions des gammes fondamentales: Majeure (1 2 3 4 5 6 7 8), Dom. 7ème (1 2 3 4 5 6 b7 8), mineure (1 2 b3 4 5 6 b7 8). Ce sont les trois gammes et accords les plus utilisés</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes avancées</strong></td>
+                        <td>15</td>
+                        <td>Demi-dim (BØ = CA): 1 b2b3 4b5b6 b7 8. Gamme de Blues: 1 b3 4 #4 5 b7 8. Majeure pentatonique: 1 2 3 5 6 8. Mineure pentatonique: 1 b3 4 5 b7 8. Mineure pent. (J. Coltrane): 1 2b3 5 6 8. Tableau des accords avec triades et accords 7ème</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Introduction aux répertoires des gammes</strong></td>
+                        <td>16</td>
+                        <td>Explication du système de notation des gammes en DO. Répertoire conçu pour donner à l'improvisateur un choix varié de gammes pour différents accords (majeur, mineur, 7ème Dominante, semi-diminué, diminué). Organisation en catégories selon tension et dissonance. Référence au Volume 26 'Scale Syllabus'</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Tableau des gammes d'accord (ou modes)</strong></td>
+                        <td>17</td>
+                        <td>Tableau détaillé classant les gammes par catégories: Cinq+1 catégories de base (Majeure, Dominante 7ème, Mineure, Demi-diminuée, Diminuée, Dominante 7ème sus 4). Pour chaque gamme: nom usuel, construction en tons et demi-tons, gamme en C, et symbole usuel d'accord</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Nomenclature des gammes</strong></td>
+                        <td>18</td>
+                        <td>Légende complète des symboles d'accords utilisés en jazz. Explication des notations: + ou # = monter d'un demi-ton, - ou b = descendre d'un demi-ton, D = demi-ton, T = ton. Liste exhaustive des symboles et leurs significations pour accords Majeur, 7ème DE DOMINANTE, 7ème MINEURE, DEMI-DIMINUE, DIMINUE, LYDIEN, GAMME PAR TONS, etc.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La 7e de dominante dans le choix des gammes</strong></td>
+                        <td>19</td>
+                        <td>Importance des 3ce et 7e dans toutes les gammes/accords. Ces notes guident le mouvement harmonique. La 3ce indique majeur/mineur, la 7e indique stabilité ou résolution. 8 gammes présentées: 7ᵉ de Dom. (C7), BEPBOP (C7), LYDIAN DOM. (C7#4), TONIQUE (C7+), DIMINUEE (C7b9), DIM. Tons entiers (C7+9), Espagnol/Gamme juive (C7(b9)), Gamme Chromatique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes en Clef de Sol - Les 12 tonalités Majeures, 7ème Dominante et Mineures</strong></td>
+                        <td>22</td>
+                        <td>Présentation des 12 gammes majeures (Ioniennes) construction TTDTTDT, 12 gammes Mixolydiennes (7ème de dominante), 12 gammes mineures (Doriennes) jusqu'à la 9ème note. Inclut gammes par tons (augmentée) TTTTTT, gammes diminuées par tons, et gammes à demi-diminuées</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes en Clef de Fa - Les 12 tonalités Majeures, 7ème Dominante et Mineures</strong></td>
+                        <td>23</td>
+                        <td>Présentation des 12 gammes majeures (Ioniennes) construction TTDTTDT, 12 gammes Mixolydiennes (7ème de dominante), 12 gammes mineures (Doriennes) jusqu'à la 9ème note en clef de Fa. Inclut gammes diminuées par tons et gammes à demi-diminuées</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Entraînement de l'oreille</strong></td>
+                        <td>24</td>
+                        <td>Importance de développer la capacité à entendre la tonique, la qualité de l'accord et identifier les intervalles. Discussion sur les différents niveaux d'audience et l'importance de l'ear training pour l'improvisation. Recommandation du volume 21 'Gettin' It Together' et référence à 'Listening to Jazz' de Jerry Coker</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Tableau d'intervalle</strong></td>
+                        <td>25</td>
+                        <td>Guide pour identifier correctement les intervalles joués en utilisant des chansons connues. Tableau classant les intervalles ascendants et descendants (-2, M2, -3, M3, P4, #4/b5, P5, #5/b6, M6, b7, M7, 8va) avec des exemples de morceaux pour chaque intervalle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Clavier Basic et Gamme Chromatique</strong></td>
+                        <td>26</td>
+                        <td>Explication du clavier, construction des intervalles: Notes Ascendantes, Notes Descendantes, Intervalle (distance en deux notes), Demi-ton et Ton. Présentation de la gamme chromatique ascendante et descendante en clef de Sol et clef de Fa. Exemple: gamme de C Majeur = W, W, H, W, W, W, H et G7+9 (Diminué d'un ton) = H,W,H,W,W,W,W</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Le cycles des quartes</strong></td>
+                        <td>27</td>
+                        <td>Cercle de Quartes (ou cycle des quintes). Explication du mouvement de la tonique dans une progression. Montée de C vers F = quarte (5 demi-tons), descente de C vers F = quinte (7 demi-tons). Standards de jazz comme 'All The Things You Are' utilisent la progression en cycle sur les cinq premières mesures. Exercices pour s'entourer au crayon les cycles dans diverses progressions</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gamme/Mode basée sur la gamme majeure</strong></td>
+                        <td>27</td>
+                        <td>Schéma énumérant les sept échelles (parfois appelées modes) qui se combinent pour former la gamme majeure. Noms dérivés du moyen âge: Dorian, Lydien, Myxolydien. Les gammes les plus souvent utilisées dans le jazz: La majeur, la Mineure (Dorian), la 7e de dominante (Myxolydien), la Lydien et la Demi-Diminuée (Locrien)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Comment pratiquer l'improvisation</strong></td>
+                        <td>28</td>
+                        <td>Par Jerry Coker: Exemple de pratique journalière basé sur une période de 60-75 minutes. Liste des thèmes avec temps en minutes: 1) Un morceaux lent (5'), 2) Gammes et motifs (15'), 3) Applications de motifs (10'), 4) Exercices d'improvisation (5'), 5) Transcription de solo (15'), 6) Disciplines spéciales (10'), 7) Apprendre une tonalité (15'). Total 75 minutes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Comment pratiquer</strong></td>
+                        <td>28</td>
+                        <td>Par David Liebman: Importance de ne pas digérer facilement qu'un ou deux points importants en même temps pour que cela soit efficace. Exemple: Les notes prolongées au saxophone sont pour la respiration et la régularité, le vibrato, etc. Les gammes sont pour travailler la vitesse et le doigter. Livres recommandés de David Liebman disponibles chez Jamey Aebersold Jazz</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les choses qui créer l'intérêt dans les solos</strong></td>
+                        <td>29</td>
+                        <td>Liste d'éléments pour créer de l'intérêt dans les solos: Les répétitions, Les séquences, La dynamique (Fort et doux), Les gammes (Tessiture - Haut, Bas, Registre Moyen), Les silences, Les notes tenues, Les Repos/silences, Les variations de Rythmique, La variété mais Pas Trop. Utiliser les gammes de Blues, tensions et relâchements, Les motifs, Savoir où est placées les tonalités 1, 2, 5 et 7, gammes et accords de passage, Les trilles, glissandos, piqués, vibratos, staccatos, Souligner les belles notes 7°, 9° et #4e</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Départ d'une phrase ou mélodie</strong></td>
+                        <td>29</td>
+                        <td>10 questions pour démarrer une phrase: 1) Par quel registre de votre instrument allez-vous commencer? 2) Comment voulez-vous commencer? (Lentement, notes tenues, espace/silence, rapidement, avec beaucoup d'attention, mouvement, visibilité, modérément) 3) Par quelle note de la gamme ou de l'accord voulez-vous commencer? 4) Voulez monter, descendre ou rester dans un même domaine, le registre? 5) Utiliser des pick-ups? 6) Combien de temps êtes-vous prêt à maintenir la continuité? 7) Quel rythme allez vous aborder? 8) Les notes 1, 3, 5, 7 de l'accord sont de bonnes notes pour commencer. 9) Est-ce votre idée initiale vient de votre esprit ou doigts? 10) Instrumentiste à vents: être sûr que vous prenez une bonne respiration</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Articulations</strong></td>
+                        <td>30</td>
+                        <td>Comment mieux partager son expérience. Particularité de la musique de jazz: l'articulation que les différents acteurs utilisent pour s'exprimer à travers leur musique. Certains joueurs utilisent articulations du style standard (époque du Swing et Be-bop), d'autres s'appuient sur legato ou courtes phrases, certains utilisent staccato pour ajouter de l'intérêt et de l'excitation. But final: arriver à un style d'articulation approprié. Liste de musiciens ayant apporté une contribution importante dans le flux de l'articulation du jazz: Cannonball Adderley, Sonny Rollins, Phil Woods, Freddie Hubbard, Clifford Brown, Miles Davis, John Coltrane, Dave Liebman, Wes Montgomery, Herbie Hancock, Lee Morgan, Ron Carter, Art Farmer, Lee Konitz, Charlie Parker, Clark Terry, JJ Johnson, Slide Hampton, Woody Shaw, Kenny Dorham, McCoy Tyner, Ornette Coleman, Horace Silver, Joe Henderson</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La gamme de Blues et son utilisation</strong></td>
+                        <td>32</td>
+                        <td>La gamme de Blues constituée: tonique, 3teb, 4te, 4te#, 5te et 7° b. Exemple: Gamme de Blues en F = F, Ab, Bb, B, C, Eb, F. Utilisation sur des accords mineurs lorsque l'accord mineur est joué dans les mesures 9 à 16 ou plus. Utilisation pour transmettre un son ou un sens 'Funky', 'Down-Home', 'Earty' ou 'Bluesy'. Présentation des DOUZE GAMMES DE BLUES (Clef de Sol et clef de Fa) dans toutes les tonalités</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les Progressions Blues</strong></td>
+                        <td>33</td>
+                        <td>Extrait du volume 21 'Gettin' It Together' de la série d'Aebersold 'Play-A-Long'. Présentation de progressions Blues en C et en Bb (Blues en F concert / Blues en G concert). La gamme de Blues en C doit être jouée à tout moment dans un Blues en F. La gamme de Blues en F peut être jouée à tout moment dans un Blues en C</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>L'Improvisation: Jouer le Blues</strong></td>
+                        <td>34</td>
+                        <td>Le blues est une forme musicale que les musiciens de jazz ont toujours embrassée. Discussion approfondie sur l'improvisation blues, variations infinies sur progressions d'accords. Exemples de progressions: ||F7 |F7 | F7 |F7 |Bb7 |Bb7| F7 |F7 | C7 |Bb7 | F7 |C7 ||. Variations à l'infini sur les progressions d'accords. Recommandation du livre de Dan Haerle 'Jazz-Rock Voicing for the Contemporary Keyboard Player'. Importance de commencer par jouer la tonique, puis les cinq premières notes de chaque gamme, puis la triade (tonique, 3ce et 5te)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Studio - Improvisation par Jamey Aebersold - Variation du Blues</strong></td>
+                        <td>36</td>
+                        <td>Article sur le Blues (12 mesures) avec variations sur les progressions de blues. Terme de 'morceau à trois accords' fait généralement référence à la plus simple des progressions de Blues. 17 progressions de blues différentes trouvées dans le livre de Dan Haerle 'Jazz / Rock Voicings for the Contemporary Keyboard Player'. Tableau de progressions Blues (en clef de F) par Dan Haerle avec 17 progressions de 1 à 17 mesures, incluant variations d'accords (F7, Bb7, C7, Cm7/F7, Em7/A7, Gb-7/C7, etc.)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Concepts</strong></td>
+                        <td>37</td>
+                        <td>Repris de JIM PIERCE'S dans 'Big Golden Trumpet Encyclopedia' publié par Charles Hansen Music & Books. Liste de concepts inspirants: LE PRINCIPAL HANDICAP --- L'OREILLE, LE MEILLEUR JOUR --- AUJOURD'HUI, LA MEILLEURE CHOSE A FAIRE ---TROUVÉ À REDIRE, LE PLUS INUTILES --- LA FIERTE, LA PLUS GRANDE ERREUR --- RENONCÉ, LE PRINCIPAL ECEUIL --- L'EGOISME, LE PLUS GRAND RECONFORT --- LE TRAVAIL BIEN FAIT, LA PERSONNE LA PLUS DESAGREABLE --- LA RALEUSE, LA PIRE FAILLITE --- LA PERTE D'ENTHOUSIASME, LE MEILLEUR PROFESSEUR --- CELUI QUI FAIT, QUE VOUS VOULEZ APPRENDRE, LE PLUS DEMUNIS --- LE BON SENS, LE DERNIER DES SENTIMENT ---LE REGRET D'AUTRE SUCCÈS, PLUS BEAU CADEAU --- LE PARDON, MEILLEURES CONNAISSANCES --- DIEU, LA PLUS GRANDE CHOSE AU MONDE --- L'AMOUR. Citation de Platon sur la formation musicale</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Bill Evans - pianiste</strong></td>
+                        <td>37</td>
+                        <td>Citation de Bill Evans sur l'approche du piano jazz: '... (La musique) doit enrichir l'âme, elle devrait enseigner la spiritualité en montrant à une personne la partie d'elle même qu'elle ne parviendrait pas à découvrir autrement. Il est facile de redécouvrir une partie de vous-même, mais à travers l'art, vous pouvez montrer une partie de vous dont vous ignoriez l'existence. C'est la véritable mission de l'art. L'artiste doit trouver quelque chose en lui qui est universel et qu'il peut mettre en d'autres termes être transmissibles à d'autres personnes. La magie, c'est que l'art peut à son insu, communiquer à une personne... l'enrichissement, c'est là la fontaine de la musique.'</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les caractéristiques du BE-BOP</strong></td>
+                        <td>38</td>
+                        <td>Compilé par Davis Baker. 28 caractéristiques du Be-Bop: 1) Des idées harmoniques complexes, 2) Des phrases mélodiques plus longues utilisant des intervalles construits sur l'extension de l'accord (9ths, 11ths, 13ths), 3) L'harmonie avec pied d'égalité avec le rythme et la mélodie (influence occidentale), 4) Une bonne technique instrumentale était obligatoire, 5) Une bonne oreille et un esprit vif étaient indispensables, 6) Croches et doubles croches devenues les unités de base temps, 7) Les cuivres pour le nettoyage, le piano pour l'exécution, 8) Les joueurs ont suivi la tendance vers le vibrato moins prononcé, 9) Metrait davantage l'accent sur le contenu que sur le son, 10) L'accord complexe fourni de plus large soliste base harmonique, 11) L'accord sert de référentielle à l'improvisation plutôt que la mélodie, 12) L'improvisation chaude (rapide, intense, passionnée) était la règle, 13) L'improvisation collective était exclusivement entre le soliste et la section rythmique, 14) Le be-bop était avant tout une musique de petit ensemble mais a trouvé une expression dans quelques 'big bands' privilégiés, 15) Un concept élargi de substitution d'accords a vu le jour, 16) La musique c'est rapproché de la musique européenne occidentale, 17) L'intégralité du langage du jazz c'est interrogé, 18) La polyrythmie est devenu un facteur important, 19) Le be-bop a eu tendance à codifier tous ce qui l'avait précédé - période charnière dans le jazz, 20) L'énoncé à l'unisson de la mélodie était la règle de base, 21) la pause, un dispositif de structure, 22) les joueurs de be-bop faisaient une utilisation libérale des 'citations' ou des interpolations dans d'autres tonalités, 23) Le be-bop réduit la mélodie à l'essentiel - backgrounds, quelques brèves introductions et terminaisons, et quelques intermèdes à l'unisson, 24) Les lignes mélodiques sont plutôt scalaires que chordals, 25) Des gammes plus sophistiquées ont été introduites dans le langage - exemple: gamme réduite (1 2b 3b 4# 5 6 7b 8), 26) Plus d'efforts pour rendre les lignes de solo cohérentes au lieu de les relier avec des 'Turn-Backs', 27) Le piano devenu le centre de la nouvelle expression, 28) La construction de solo asymétrique devient un fait</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Une courte liste des interprètes du BE-BOP</strong></td>
+                        <td>39</td>
+                        <td>Liste des principaux interprètes du Be-Bop par instrument: Charlie Parker (alto sax), Dizzy Gillespie (trumpet), Bud Powell (piano), Charlie Mingus (bass), Max Roach (drums), Thelonius Monk (piano), Sonny Stitt (alto/tenor sax), Clifford Brown (trumpet), Wardell Gray (tenor sax), Al Haig (piano), Howard McGhee (trumpet), Fats Navarro (trumpet), Red Rodney (trumpet), J.J.Johnson (trombone), Sonny Rollins (tenor sax), Jackie McLean (alto sax), Dexter Gordon (tenor sax), Mitt Jackson (vibes), Wynton Kelly (piano), Horace Silver (piano), Art Blakey (drums), Jimmy Raney (guitar), Wes Montgomery (guitar), Charles Mc Pherson (alto sax), James Moody (tenor/alto sax, flute), Phil Woods (alto sax), Cannonball Adderley (alto sax), Miles Davis (trumpet), Lee Konitz (alto sax), Gerry Mulligan (bari sax), Ray Brown (bass)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes du BE-BOP</strong></td>
+                        <td>39</td>
+                        <td>La gamme 'Be-bop' peut être utilisée sur toute la qualité ... majeure, mineur, dom.7th ou demi-dim. Elle est probablement utilisée le plus souvent avec Dom.7th et Dorian mineur gamme/accord. Gamme Be-bop C7= C D E F G A Bb B C - (est aussi appelé 7° gamme.). Ne laissez pas le B tomber sur un temps fort. Les bonnes notes de début ou de départ pour une ascension d'une ligne de huit notes sont: 1, 3, 5, b7. Pour descendre une ligne de croche: les mêmes que l'ascendante: 1, b7, 5, 3. Ce sont toutes les notes de l'accord. Attention de bien utiliser l'articulation jazz correcte. Emprunter des livres de JOE RIPOSO sur les gammes BE-BOP: BEBOP SCALES AND PATTERNS (Code de commande: BE-BOP (Clef G) ou BE-BOP-BC (Clef F)), TARGET AND APPROACH TONES (Code de commande: TAT)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Transpositions</strong></td>
+                        <td>40</td>
+                        <td>Explication des transpositions: Les instruments en C sont non-transposés. Ils lisent leur musique qui joue. Les instruments en Bb doivent jouer leurs notes un ton entier au dessus. C'est ce qu'on appelle la transposition d'un ton. Les instruments Eb doivent jouer leurs notes trois demi-tons en dessous (tierce mineure). C'est ce qu'on appelle la transposition d'une tierce mineure</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Deux intéressantes petites histoires</strong></td>
+                        <td>40</td>
+                        <td>Histoires sur Charlie Parker et commentaires de Jamey Aebersold. Charlie Parker: 'J'avais appris à jouer deux morceaux dans une certaine tonalité, en D pour le saxophone (sax alto), donc en F non transposé. S'étaient les huit premières mesures de 'Lazy River' et l'air complet 'Honeysuckle Rose'. Je n'ai jamais pensé à l'existence d'autre tonalité ou quelque chose comme ça. J'ai donc pris mon sax et je suis parti dans une ville où il y avait un kiosque à musique, il y avait plein de gens qui venaient écouter. C'est la première chose qu'ils ont commencé à jouer et bien sûr et Soul qui, un long moment, vous connaissez. Puis, je me suis mis à jouer mon 'Honeysuckle Rose' et il n'y a pas aucune forme de structure, vous savez, je m'en font ri au nez sur scène ... Mais, en tout cas ... J'avais entre 16 ou 17 ans à l'époque. Je n'ai jamais pensé qu'il y avait d'autres tonalités supplémentaires.' Jamey Aebersold commente qu'il est évident que Charlie Parker n'en savait pas trop quand il a commencé à jouer, mais qu'il a passé beaucoup de temps à pratiquer les bons exercices, à écouté les bonnes personnes et à collecté autant de connaissances que possible sur la musique. Recommande la lecture du livre 'Bird Lives' de Roos Russell (disponible sur www.jazzbooks.com)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>John Welch - Anecdote personnelle sur Charlie Parker</strong></td>
+                        <td>41</td>
+                        <td>Histoire de John Welch, tromboniste, racontant son expérience d'avoir joué dix-huit ans sans vraiment savoir jouer, étudiant l'arrangement avec Bill Russo à New York, jouant pour le dimanche après-midi dans un club de jazz avec des musiciens comme Bud Powell, Max Roach, Charles Mingus, Miles Davis et Charlie Parker. Anecdote sur George Wallington et une session où il a tenté de jouer le Blues en F. Commentaires de Jamey Aebersold sur l'importance de ne pas se pencher et aider les débutants, la diffusion des informations précieuses aux quatre coins du monde musical.</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Les Play-A-Long de Jamey Aebersold sur Charlie Parker</strong></td>
+                        <td>41</td>
+                        <td>Présentation de deux volumes Play-A-Long: VOL. 6 - CHARLIE PARKER - 'ALL BIRD' (Code: V06DS) incluant Now's The Time, Donna Lee, Billie's Bounce, Dewey Square, Yardbird Suite, Ornithology, Scrapple From The Apple, Confirmation, Thriving From A Riff, My Little Suede Shoes. VOL. 69 - 'BIRD' GOES LATIN (Code: V69DS) incluant Barbados, Marmaduke, Buzzy, Dewey Square, Yardbird Suite, Ornithology, Laird Baird, Moose The Mooche, My Little Suede Shoes, Bird Gets The Worm, Scrapple From The Apple, Donna Lee, Confirmation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique - A vos stylos</strong></td>
+                        <td>42</td>
+                        <td>Introduction aux sessions théoriques avec tableau de construction des gammes: D = Demi-ton, T=Ton entier, -3=3Demi-tons (Tierce mineure). Présentation des constructions: Majeure (TTDTTTT), Dominante 7° (TTDTTDT), Mineure (TDTTTDT), Demi-Diminuée (DTTDTTT), Demi-Diminuée#2 (TDTDTTT), Lydienne (TTTDTTD), Ton entier (6notes) (TTTTTT), Diminuée (TDTDTDTD), Diminuée (cum. par T) (DTDTDTDT), Ton Entier Diminuée (DTDTTTT), Blues (-3TDD-3T), Lydienne Dominante (TTTDTDT). Note: [f# et = monte d'un demi-ton, b et - diminue d'un demi ton -3 signifie 3 demi-tons]. Recommandation du livre de Dan Haerle 'Jazz Language'</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-2: Écrire les notes qui compose les accords suivants</strong></td>
+                        <td>43</td>
+                        <td>Liste de 20 accords pour lesquels il faut écrire les notes composant chaque accord et également le nom de la gamme: A7#4, B-Δ, C7+9, BbΔ#4, DØ, AbΔ#4, CØ#2, FΔ#4,#5, Bb-Δ, E7#4, F7+5, Eb7#4,#5, AΔ#4, Db7b9, B7b9, G-Δ, C7b9, GØ, D-Δ, A7#9</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-3: Identification des notes dans les gammes</strong></td>
+                        <td>44</td>
+                        <td>39 questions demandant d'identifier des notes spécifiques dans différentes gammes. Exemples: 1. La 3ce de la gamme majeur Eb est, 2. La 4te de la gamme A- est, 3. La 6te de la gamme Bb7 est, 4. La 5te de la gamme Ab-7 est, etc. Couvre différentes gammes: majeures, mineures, dominantes, 7èmes, avec altérations (#, b)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-4: II V7 I - Séquences dans les modes</strong></td>
+                        <td>45</td>
+                        <td>Présentation des progressions II - V7 - I dans les modes Majeures et mineures. Tableaux montrant les séquences d'accords en Mode Majeur (20 lignes) et Mode mineur (20 lignes). Exemple en Mode Majeur: I (D-), V7 (A7), II (Ab). En mode mineur: I (DØ), V7 (A7+9), II. Explication que l'intervalle entre la tonique de l'accord II et la tonique de l'accord V7 est une 4° parfaite (5 demi-tons). L'intervalle entre la tonique de l'accord V7 et la tonique de l'accord I est une 4° parfaite aussi. Instruction d'essayer de mémoriser des séquences complètes II/V7/I. Exemple: II V7 I = D- G7 C aucune altérations à la clé = C majeur</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Sessions théorique-5: Questions de révision</strong></td>
+                        <td>46</td>
+                        <td>20 questions pour tester les connaissances: 1. Le +9 du B7+9 B7 est, 2. La gamme diminuée a combien de tonalités différentes?, 3. Combien il y a de notes dans une gamme tonique?, 4. Quand vous voyez le symbole de l'accord C7+5, la 4te est également montée?, 5. Combien de demi-tons dans une 4te parfaite?, 6. Ecrire le début du cycle de quarte avec D, G, C, 7. Quand un accord V7 est il utilisé pour résoudre?, 8. Peut-on dire qu'un accord II peut être de 7 e dominante plutôt que mineur? Oui - Non, 9. Ecrire une progression de blues en Bb. Utiliser un II/V7/I dans les quatre dernières mesures, etc. Questions couvrant: accords, gammes, blues, tonalités, diapason chromatique, intervalles</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>II/V7/I - Progression avec l'accent sur la 7e résolus à la 3e</strong></td>
+                        <td>47</td>
+                        <td>Notation musicale montrant des progressions II-V7-I avec résolution de la 7ème vers la 3ce. Exemples en différentes tonalités: D-7 G7 C (clef de sol et clef de fa), E-7 A7 D (Bb), B-7 E7 A (Bb et Eb). Six variations pour chaque progression montrant différentes approches de résolution mélodique avec chiffres 7 et 3 indiqués</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues - 7 variations avec tonique de la main gauche</strong></td>
+                        <td>48</td>
+                        <td>Présentation de 7 variations de Blues: 1) Blues en F - 2 notes, 2) Blues en F - 2 notes, 3) Blues en F - 3 notes, 4) Blues en Bb - 2 notes, 5) Blues en Bb - 2 notes, 6) Blues en Bb - 3 notes, 7) Blues en Bb - 4 notes. Instruction: Jouer la tonique de la main gauche pour vous aider à obtenir le son du Blues. Vous finirez par jouer ces notes de la main gauche afin improviser de la main droite en pratiquant les gammes, les chorus, les schémas, etc. Notation musicale complète montrant les progressions d'accords pour chaque variation</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Majeur et 7e de dominante - Cycles</strong></td>
+                        <td>49</td>
+                        <td>Présentation de cycles complets 3e et 7e pour: MAJEUR - Cycle complet -3e et 7e (CA FA BbA EbA AbA DbA GbA BA EA AA DA GA CA), MAJEUR - Montée chromatique -3e et 7e (CA DbA DA EbA EA FA F#A GA AbA AA BbA BA CA), 7e dominante - Cycle complet -3e et 7e (C7 F7 Bb7 Eb7 Ab7 Db7 Gb7 B7 E7 A7 D7 G7 C7), 7e dominante - Cycle complet -3 notes voicing avec notation musicale complète</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Progressions II-V7-I combinées</strong></td>
+                        <td>50</td>
+                        <td>Trois exercices notés musicalement montrant des combinaisons de progressions: 1) II-V7-I (C-7 F7 BbA Bb6 B-7 E7 etc.), 2) II-V7-I (C-7 F7 BbA Bb-7 Eb7 AbA etc.), 3) Majeur, 7e Dom., II-V7-I (CA C7 C-7 F7 BbA Bb7 Bb-7 Eb7 AbA Ab7 etc.). Progressions chromatiques descendantes avec résolutions enchaînées</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Piano Voicing - II/V7/I - Tonalités Majeures</strong></td>
+                        <td>51</td>
+                        <td>Présentation de voicings piano pour progressions II/V7/I en tonalités majeures. Deux sections: II/V7/I - Tonalités Majeures (notation II V7 I avec D-7 G7 CA, puis différentes positions) et II/V7/I - Tonalités Majeures (Renversée) avec positions inversées. Note explicative: La plupart des standards et blues utilisent la progression harmonique appelé II/V7/I. Cette page et la suivante montre les plus courantes utilisées et jouées par les professionnels. Mémorisez ces dernières et vous trouverez rapidement que tout sort la viande de les pommes de terre de la musique populaire américaine. (Voicing tiré du livre vol.3 'II/V7/I' Aebersold Play-A-Long)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Piano Voicing - Ø-V7+9-I Toutes les tonalitées mineures</strong></td>
+                        <td>52</td>
+                        <td>Présentation de voicings piano pour progressions Ø-V7+9-I en tonalités mineures. Deux sections: Ø-V7+9-I Toutes les tonalitées mineures (positions normales) et Ø-V7+9-I Toutes les tonalitées mineures (renversée) avec positions inversées. Note avec indication +9, -9 marquées sur certains accords. Référence: Pour de plus amples détails sur II/V7/I se rapporter au 'Stylistic II/V7/I Voicing for Jazz Piano' de Luke Gillespies</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Points à retenir de Jamey Aebersold</strong></td>
+                        <td>53</td>
+                        <td>Liste exhaustive de points importants tirés du séminaire 'N'importe qui peut improviser': Les deux facteurs qui empêchent les gens d'improviser sont la peur de se perdre et la peur de jouer une fausse note. Enregistrez votre propre jeu et écoutez. L'humour est une partie importante de la créativité. La TV tue l'imagination. L'ignorance tue, comme le tabac. Pouvez-vous pratiquer pendant une heure sans interruption? Si vous ne pensez pas avant de jouer une phrase, ce n'est pas de l'improvisation, juste un exercice. Chantez! Chantez! Chantez! Il est plus facile de chanter ce que vous entendez dans votre tête que de jouer sur votre instrument. Pensez à chaque note avant de les jouer. Le Blues est le plus souvent joué dans les clés de F (Fa) et B (Si) bémol. Ne vous cantonnez pas à une seule idée, innover. Les gammes sont vraiment importantes! La plupart des musiques blues sont regroupées dans 2, 4 et 8 mesures. Les batteurs chantent la mélodie dans leur tête pour rester en place. La gamme chromatique est votre alphabet musical. Il n'y a que deux gammes par tons entiers, et seulement trois gammes réduites. Les joueurs de jazz jouent habituellement des croches lorsqu'ils jouent des gammes ou des exercices. Utilisez l'articulation Jazz lors de la lecture des accords et des gammes. En pratiquant l'articulation pendant 4 à 6 semaines, vous pouvez transformer votre personnalité musicale. Jouer un solo avec un disque est un excellent exercice d'articulation, imitez les grands du jazz. Inspirez vous de leurs esprits pour enrichir votre esprit. Écoutez et notez les phrases des disques. Écoutez! Tant et plus! Toutes les réponses à vos questions sont sur les enregistrements. Écoutez du jazz tous les jours. Si vous êtes bien équipés techniquement, vous pouvez prendre votre chance. Ne pas utiliser simplement le CD 'Play-a-long' pour gagner du temps. Dans le CD il y a une interaction entre les musiciens. Les meilleures choses dans la vie sont gratuites et ce manuel free jazz est l'un d'entre eux. Il est idéal de jouer avec des musiciens qui sont un peu ou beaucoup mieux que vous. Personne n'est un acteur né. De bons instruments et enseignants sont importants, mais c'est le joueur qui le réalise. Vous ne pouvez pas imaginer combien de temps, d'énergie et de pensée les musiciens de jazz ont mis dans leur métier. Construisez votre propre harmonie. Assied-toi à un clavier et expliquez. Jouez un arpège et le retenir dans votre tête (mentalement). Jouer le blues d'un demi-ton au dessus et le redescendre, est un exercice simple. Charlie Parker pratiquait 11 à 15 heures par jour pendant trois à quatre ans. L'entraînement de l'oreille - Une fois que vous pouvez entendre ce que vous essayez de jouer. Beaucoup plus faciles. Apprendre les intervalles entre les notes. Les gammes sont basées sur des intervalles de demi-ton et de ton. Quand vous chantez, visualisez un clavier. Si vous ne savez pas sur quelle touche vous vous trouvez, il suffit de penser au C. Lorsque vous voyez un symbole d'accord, être conscient que cela implique une gamme horizontale (1, 2, 3, 4, 5, 6, 7, 8). Plus de 40 points au total</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Points à retenir (suite)</strong></td>
+                        <td>54</td>
+                        <td>Suite de la liste de points importants: Un clavier est très important pour l'apprentissage d'harmonie et une audition des accords de qualité. Jouez 'Au clair de la lune', 'Joyeux anniversaire' ou 'Frères Jacques' dans les douze tonalités. Si vous commencez ou terminez une phrase sur un ton de l'accord (tonal, 3e ou 5e) vous ne pouvez pas vous trompez. Pratiquez des gammes pendant deux minutes intensivement, rapidement, de notes, jusqu'à ce qu'elles deviennent automatiques. Les yeux fermés c'est mieux. J'ai l'idée que les gens apprennent l'instrument comme un exercice de patience. Déplacement d'un demi-ton est facile à faire avec votre voix, mais plus difficile sur votre instrument. Moi, Jamey, en sait beaucoup, et je peux faire beaucoup, mais je ne fais pas tout. Si vous réfléchissez à ce que vous faites, vous vous en souviendrez. Pour bien apprendre une mélodie, mémorisez les changements mesure par mesure. Jouer les gammes de chaque accord. Si vous avez un doute sur quoi que ce soit en musique, trouvez un piano et jouez. Si vous pensez mettre un 4te dans un accord majeur, vous devez penser à (F#/C) de Lydien. Peut-être que la gamme majeur devraiet être construite de cette façon: CDEF#GABC Lydien. Apprenez les deux notes des 'voicings' de la main droite (3e et 7e donnent la couleur de l'accord). Si vous n'êtes pas un joueur de clavier, jouez tout simplement la tonique avec votre main gauche. Mémorisez les toniques des morceaux. III-VI-II-VI (Turnaround): Les 'turnarounds' vous aident à revenir au début de la mélodie. Le piano (lorsque vous jouez pour la section rythmique) devrait écrire dans le registre d'une octave, à une octave et demi au-dessus du C 'serrurée'. L'histoire du jazz a une règle d'or: ne pas exagérer. Regardez l'indépendante de la main gauche d'un joueur de piano lorsqu'il exécute son solo avec la main droite. En utilisant différents 'voicings', vous pouvez jouer des accords avec deux notes. Pratiquez les gammes et les exercices tout le temps et sans arrêt n'est pas une fin en soi. L'important, après tout, est de savoir également jouons la musique. Lorsque vous jouez un accord avec une guitare ou un clavier, vous n'avez pas à jouer beaucoup de notes l'essentiel est d'avoir un bon son. Dans la gamme à demi diminuée: BCDEFGAB. Le C naturel qui est toujours la meilleur note de passage sur le un temps fort - Vous pouvez le jouer à tout moment monté de deux dièses (C #). Les demi-dièses sont les moyens de répéter un accord, une gamme d'accord ou une phrase mélodique dans une tonalité différente. Essayez de passer 15 à 30 minutes par jour avec un clavier, même si vous ne jouez pas notes sur le clavier. Le Jazz utilise un certain nombre de règle encore et encore. Il y a seulement que douze tonalités. Nous jouons principalement dans six d'entre elles (C, Bb, Eb, Ab, F et G). La tonalité d'armure est pour la mélodie (convention de notation). Cela n'a rien avoir à voir tonalité en harmonie (Clé). Regardez le dernier accord du morceau. Cet est mon enseignement collégial. 'Pitch Pipe' (Diapason Chromatique de poche). Un diapason chromatique vous donne de l'indépendance. Utilisez un diapason chromatique permet d'apprendre tous les intervalles à l'intérieur. Pointez sur le 'clavier papier' et chantez les notes que vous pointez sur les différentes touches. Ne pas juste chanter une gamme, mais visualisez là sur le clavier ou votre instrument. Écrire une chanson! Il n'est pas difficile d'écrire une chanson. Steve Allen en a écrit 450 chansons avec des paroles en une seule séance, en un jour. La musique écrite est une béquille! A la place mémorisez là. Les pièces transposées sont des béquilles! Dans l'ancien temps il n'y avait pas de 'Fake Books'. Un bon musicien à un vaste répertoire dans sa tête. La musique ne se soucie pas de qui la joue. 'Jouez ce qui est là, nous n'avons pas besoin de vous entendre mentir' - Art Blakey. Lorsque vous jouez enfin ce qui est dans votre tête, vous allez vous rencontrer pour la première fois. Il faut beaucoup de temps pour jouer comme soi-même - Miles. Vous pouvez répondre à toutes vos questions sur le jazz en écoutant: Écoute! Écoute! Écoute!</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Points à retenir (fin)</strong></td>
+                        <td>55</td>
+                        <td>Fin de la liste de points importants: Lorsque vous faites un solo, utilisez la répétition et la séquence, ne pas radoter. L'intervalle entre B bémol et E contient trois tons (5th, C, D, E) d'où le nom de triton. Les adultes, ne prennent pas le temps nécessaire pour apprendre à jouer (même simplement de l'écouter!). Si vous souhaitez conserver l'harmonie du morceau, jouez la tonique de l'accord sur des temps un et trois. La tierce, la quinte et la septième donnent un aperçu de l'harmonie. Une caractéristique des solos en Be-bop est qu'ils utilisent explicitement une harmonie. Avez-vous mémorisés une douzaine de morceaux? Savoir la mélodie, être en mesure d'écrire les progressions d'accords (Jamey a mémorisés 1000 morceaux!). Apprenez quelques airs, et les écouter toute la journée pour les garder dans votre tête. Mettez votre répertoire sur un ordinateur portable afin que vous puissiez l'examiner. En guise d'exercice que vos solos ressemblent à ce que vous entendez dans votre tête, écouter un CD 'Play-a-long' et jouez quatre mesures, puis chantez quatre mesure, puis jouez quatre mesure ... puis chantez, etc. Pour vous votre objectif? Pensez-le, dite le, faite le! Tout le monde peut apprendre à jouer en rythme. Cela ne vient pas naturellement. Vous pouvez utiliser un métronome. Dans le jazz le rythme est très important, l'utilisation d'un métronome est utile pour la pratique. Commencez à improviser au début de votre formation musicale. Je suis fasciné de voir des gens jouer de la musique durant toute leur vie. Pourquoi n'improviser pas chaque jour quel est l'intérêt de pratiquer des gammes et des accords? La musique est censée être amusante - Amusez-vous quand vous pratiquez. Le jazz ne demande à quelques musiciens combien de temps ils consacrent, par jours, à la pensée musicale, ils ont répondu 24 heures sur 24! Lorsque vous faites un solo, cherchez des notes communes entre les changements, anticipez, pensez à l'avance. Pensez à la suite des accords pendant que vous improvisez sur l'actuel. Ce n'est pas dur, faite le vite pour vous en rendre compte par vous-même. C'est ce qu'on appelle 'joué à travers les mesures.' La mélodie d'une chanson est appelée 'Head' (la tête). Les rebondissent se présentent. Utiliser les, comme les pierres pour passer un gué. Ne pas repousser votre pratique si vous apprenez une foule de renseignements et d'attendre d'avoir acquis une grande compétence pour jouer, commencer à jouer dès maintenant! ! ! Si vous jouez plusieurs notes en même temps (par exemple à l'octave) vous devriez être en mesure et à la finir par le sur une octave (Cela se produit à partir du registre médium ou en gras.) Si vous avec commencer avec commencé le (la plupart de nos gammes ont sept notes et ne finir pas en octave de cette façon.) L'utilisation efficace de la gamme Be-bop sépare souvent ceux qui peuvent jouer de ceux qui essaient de jouer. N'oubliez pas qu'un symbole d'accord implique une gamme (horizontale) et un accord (verticale). Vous ne pouvez pas écouter des disques très souvent, pourtant cela est tellement important! Si vous n'avez pas un bon son, qui va se soucier de ce que vous avez à dire même si vous avez de grandes phrases. Pour trouver une septième diminué, descendre simplement d'un ton la tonique. Pour trouver une neuvième augmenté, aller jusqu'à une tierce mineure de la tonique. La 3e et 7e sont les notes les plus importantes qui décrivent la couleur de l'accord. La tonale est toujours supposée. Imprégnez vous et écoutez vous de façon objective. N'ayez pas peur de vous écouter car cela est très important. En 4 / 4 temps, si vous voulez donner de la stabilité harmoniques, jouer les notes de l'accord (1, 3, 5, 7) sur des temps fort un et trois. Dave Brubeck dans 'Take Five' (en 5 / 4) joue vraiment en 3 / 4 suivis de 2 / 4. «1, 2, 3, 1, 2, 1, 2, 3, 1, 2, 1, 2, 3, 1, 2,». Le mode Lydien est un substitut de prédilection pour les gammes majeures (en particulier dans les terminaisons tonales). Les nouveaux de 'Chuck Sher' sont excellents. Les airs de jazz que les joueurs aiment et qui sont difficiles ont souvent de jolis accords dans la mélodie originale. Les notes belles peuvent être la 7e majeure, 9e ou 4te en PRINCIPAL; b7, 9 et 4 en si mineur. Efforcez-vous sur un solo d'un morceau, sans jouer la mélodie et sans section rythmique, de jouer de telle manière qu'un auditeur pourrait trouver le nom du morceau (ce qui signifie que vous faites un bon travail d'harmonie). La musique est entre vos oreilles....</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>

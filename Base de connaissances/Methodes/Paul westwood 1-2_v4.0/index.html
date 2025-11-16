@@ -3,1081 +3,2762 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul westwood 1-2 - Index V4.0</title>
+    <title>Paul Westwood - Index</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
             background: #f5f5f5;
-            padding: 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 10px;
-        }
-        .v4-badge {
-            display: inline-block;
-            background: #9c27b0;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
+            padding: 30px;
+            border-radius: 12px;
             margin-bottom: 30px;
         }
-        .page {
-            margin-bottom: 40px;
-            padding: 20px;
+        h1 { margin: 0 0 10px 0; }
+        .metadata { opacity: 0.9; font-size: 14px; }
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid #e0e0e0; 
+            text-align: left; 
+        }
+        th { 
+            background: #667eea; 
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        tr:hover { background: #e3f2fd; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-box {
             background: #f8f9fa;
+            padding: 20px;
             border-radius: 8px;
+            text-align: center;
             border-left: 4px solid #667eea;
         }
-        .page-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 10px 0;
         }
-        .page-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-        }
-        .page-meta {
-            display: flex;
-            gap: 10px;
+        .stat-label {
+            color: #666;
             font-size: 14px;
-            color: #666;
-            flex-wrap: wrap;
-        }
-        .page-composer {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .page img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .technique-badge {
-            background: #e0e0e0;
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-right: 5px;
-            display: inline-block;
-            margin-bottom: 5px;
-        }
-        .error-badge {
-            background: #ffebee;
-            color: #c62828;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .zone-info {
-            background: #f3e5f5;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 10px;
-            font-size: 12px;
-            color: #7b1fa2;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎸 Paul westwood 1-2</h1>
-        <p class="subtitle">
-            57 pages | 0 MP3 disponibles
-        </p>
-        <div class="v4-badge">🎯 Converti avec V4.0 - OCR par zones</div>
-        
-        <div class="page" id="page-1">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 1</div>
-                <div class="page-meta">
-                    <span>📄 Page 1</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_001.png" alt="Page 1">
+    <header>
+        <h1>📚 Paul Westwood</h1>
+        <div class="metadata">
+            <strong>Catégorie :</strong> method | 
+            <strong>Style :</strong> various | 
+            <strong>Images :</strong> 57
         </div>
-
-        <div class="page" id="page-2">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 2</div>
-                <div class="page-meta">
-                    <span>📄 Page 2</span>
-                    
-                    
-                    
-                </div>
+    </header>
+    
+    <section>
+        <h2>📊 Statistiques</h2>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Morceaux</div>
+                <div class="stat-value">0</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_002.png" alt="Page 2">
-        </div>
-
-        <div class="page" id="page-3">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 3</div>
-                <div class="page-meta">
-                    <span>📄 Page 3</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Exercices</div>
+                <div class="stat-value">342</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_003.png" alt="Page 3">
-        </div>
-
-        <div class="page" id="page-4">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 4</div>
-                <div class="page-meta">
-                    <span>📄 Page 4</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Concepts</div>
+                <div class="stat-value">34</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_004.png" alt="Page 4">
-        </div>
-
-        <div class="page" id="page-5">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 5</div>
-                <div class="page-meta">
-                    <span>📄 Page 5</span>
-                    
-                    
-                    
-                </div>
+            <div class="stat-box">
+                <div class="stat-label">Total pages</div>
+                <div class="stat-value">57</div>
             </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_005.png" alt="Page 5">
         </div>
-
-        <div class="page" id="page-6">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 6</div>
-                <div class="page-meta">
-                    <span>📄 Page 6</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_006.png" alt="Page 6">
-        </div>
-
-        <div class="page" id="page-7">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 7</div>
-                <div class="page-meta">
-                    <span>📄 Page 7</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_007.png" alt="Page 7">
-        </div>
-
-        <div class="page" id="page-8">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 8</div>
-                <div class="page-meta">
-                    <span>📄 Page 8</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_008.png" alt="Page 8">
-        </div>
-
-        <div class="page" id="page-9">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 9</div>
-                <div class="page-meta">
-                    <span>📄 Page 9</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_009.png" alt="Page 9">
-        </div>
-
-        <div class="page" id="page-10">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 10</div>
-                <div class="page-meta">
-                    <span>📄 Page 10</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_010.png" alt="Page 10">
-        </div>
-
-        <div class="page" id="page-11">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 11</div>
-                <div class="page-meta">
-                    <span>📄 Page 11</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_011.png" alt="Page 11">
-        </div>
-
-        <div class="page" id="page-12">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 12</div>
-                <div class="page-meta">
-                    <span>📄 Page 12</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_012.png" alt="Page 12">
-        </div>
-
-        <div class="page" id="page-13">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 13</div>
-                <div class="page-meta">
-                    <span>📄 Page 13</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_013.png" alt="Page 13">
-        </div>
-
-        <div class="page" id="page-14">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 14</div>
-                <div class="page-meta">
-                    <span>📄 Page 14</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_014.png" alt="Page 14">
-        </div>
-
-        <div class="page" id="page-15">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 15</div>
-                <div class="page-meta">
-                    <span>📄 Page 15</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_015.png" alt="Page 15">
-        </div>
-
-        <div class="page" id="page-16">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 16</div>
-                <div class="page-meta">
-                    <span>📄 Page 16</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_016.png" alt="Page 16">
-        </div>
-
-        <div class="page" id="page-17">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 17</div>
-                <div class="page-meta">
-                    <span>📄 Page 17</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_017.png" alt="Page 17">
-        </div>
-
-        <div class="page" id="page-18">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 18</div>
-                <div class="page-meta">
-                    <span>📄 Page 18</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_018.png" alt="Page 18">
-        </div>
-
-        <div class="page" id="page-19">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 19</div>
-                <div class="page-meta">
-                    <span>📄 Page 19</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_019.png" alt="Page 19">
-        </div>
-
-        <div class="page" id="page-20">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 20</div>
-                <div class="page-meta">
-                    <span>📄 Page 20</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_020.png" alt="Page 20">
-        </div>
-
-        <div class="page" id="page-21">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 21</div>
-                <div class="page-meta">
-                    <span>📄 Page 21</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_021.png" alt="Page 21">
-        </div>
-
-        <div class="page" id="page-22">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 22</div>
-                <div class="page-meta">
-                    <span>📄 Page 22</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_022.png" alt="Page 22">
-        </div>
-
-        <div class="page" id="page-23">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 23</div>
-                <div class="page-meta">
-                    <span>📄 Page 23</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_023.png" alt="Page 23">
-        </div>
-
-        <div class="page" id="page-24">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 24</div>
-                <div class="page-meta">
-                    <span>📄 Page 24</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_024.png" alt="Page 24">
-        </div>
-
-        <div class="page" id="page-25">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 25</div>
-                <div class="page-meta">
-                    <span>📄 Page 25</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_025.png" alt="Page 25">
-        </div>
-
-        <div class="page" id="page-26">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 26</div>
-                <div class="page-meta">
-                    <span>📄 Page 26</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_026.png" alt="Page 26">
-        </div>
-
-        <div class="page" id="page-27">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 27</div>
-                <div class="page-meta">
-                    <span>📄 Page 27</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_027.png" alt="Page 27">
-        </div>
-
-        <div class="page" id="page-28">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 28</div>
-                <div class="page-meta">
-                    <span>📄 Page 28</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_028.png" alt="Page 28">
-        </div>
-
-        <div class="page" id="page-29">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 29</div>
-                <div class="page-meta">
-                    <span>📄 Page 29</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_029.png" alt="Page 29">
-        </div>
-
-        <div class="page" id="page-30">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 30</div>
-                <div class="page-meta">
-                    <span>📄 Page 30</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_030.png" alt="Page 30">
-        </div>
-
-        <div class="page" id="page-31">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 31</div>
-                <div class="page-meta">
-                    <span>📄 Page 31</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_031.png" alt="Page 31">
-        </div>
-
-        <div class="page" id="page-32">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 32</div>
-                <div class="page-meta">
-                    <span>📄 Page 32</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_032.png" alt="Page 32">
-        </div>
-
-        <div class="page" id="page-33">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 33</div>
-                <div class="page-meta">
-                    <span>📄 Page 33</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_033.png" alt="Page 33">
-        </div>
-
-        <div class="page" id="page-34">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 34</div>
-                <div class="page-meta">
-                    <span>📄 Page 34</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_034.png" alt="Page 34">
-        </div>
-
-        <div class="page" id="page-35">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 35</div>
-                <div class="page-meta">
-                    <span>📄 Page 35</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_035.png" alt="Page 35">
-        </div>
-
-        <div class="page" id="page-36">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 36</div>
-                <div class="page-meta">
-                    <span>📄 Page 36</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_036.png" alt="Page 36">
-        </div>
-
-        <div class="page" id="page-37">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 37</div>
-                <div class="page-meta">
-                    <span>📄 Page 37</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_037.png" alt="Page 37">
-        </div>
-
-        <div class="page" id="page-38">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 38</div>
-                <div class="page-meta">
-                    <span>📄 Page 38</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_038.png" alt="Page 38">
-        </div>
-
-        <div class="page" id="page-39">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 39</div>
-                <div class="page-meta">
-                    <span>📄 Page 39</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_039.png" alt="Page 39">
-        </div>
-
-        <div class="page" id="page-40">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 40</div>
-                <div class="page-meta">
-                    <span>📄 Page 40</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_040.png" alt="Page 40">
-        </div>
-
-        <div class="page" id="page-41">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 41</div>
-                <div class="page-meta">
-                    <span>📄 Page 41</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_041.png" alt="Page 41">
-        </div>
-
-        <div class="page" id="page-42">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 42</div>
-                <div class="page-meta">
-                    <span>📄 Page 42</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_042.png" alt="Page 42">
-        </div>
-
-        <div class="page" id="page-43">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 43</div>
-                <div class="page-meta">
-                    <span>📄 Page 43</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_043.png" alt="Page 43">
-        </div>
-
-        <div class="page" id="page-44">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 44</div>
-                <div class="page-meta">
-                    <span>📄 Page 44</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_044.png" alt="Page 44">
-        </div>
-
-        <div class="page" id="page-45">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 45</div>
-                <div class="page-meta">
-                    <span>📄 Page 45</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_045.png" alt="Page 45">
-        </div>
-
-        <div class="page" id="page-46">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 46</div>
-                <div class="page-meta">
-                    <span>📄 Page 46</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_046.png" alt="Page 46">
-        </div>
-
-        <div class="page" id="page-47">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 47</div>
-                <div class="page-meta">
-                    <span>📄 Page 47</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_047.png" alt="Page 47">
-        </div>
-
-        <div class="page" id="page-48">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 48</div>
-                <div class="page-meta">
-                    <span>📄 Page 48</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_048.png" alt="Page 48">
-        </div>
-
-        <div class="page" id="page-49">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 49</div>
-                <div class="page-meta">
-                    <span>📄 Page 49</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_049.png" alt="Page 49">
-        </div>
-
-        <div class="page" id="page-50">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 50</div>
-                <div class="page-meta">
-                    <span>📄 Page 50</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_050.png" alt="Page 50">
-        </div>
-
-        <div class="page" id="page-51">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 51</div>
-                <div class="page-meta">
-                    <span>📄 Page 51</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_051.png" alt="Page 51">
-        </div>
-
-        <div class="page" id="page-52">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 52</div>
-                <div class="page-meta">
-                    <span>📄 Page 52</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_052.png" alt="Page 52">
-        </div>
-
-        <div class="page" id="page-53">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 53</div>
-                <div class="page-meta">
-                    <span>📄 Page 53</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_053.png" alt="Page 53">
-        </div>
-
-        <div class="page" id="page-54">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 54</div>
-                <div class="page-meta">
-                    <span>📄 Page 54</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_054.png" alt="Page 54">
-        </div>
-
-        <div class="page" id="page-55">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 55</div>
-                <div class="page-meta">
-                    <span>📄 Page 55</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_055.png" alt="Page 55">
-        </div>
-
-        <div class="page" id="page-56">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 56</div>
-                <div class="page-meta">
-                    <span>📄 Page 56</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_056.png" alt="Page 56">
-        </div>
-
-        <div class="page" id="page-57">
-            <div class="page-header">
-                <div class="page-title">🎵 Page 57</div>
-                <div class="page-meta">
-                    <span>📄 Page 57</span>
-                    
-                    
-                    
-                </div>
-            </div>
-            
-            <div class="error-badge">⚠️ Erreur OCR: TypeError: Cannot read properties of null (reading 'SetImageFile')</div>
-            
-            
-            <img src="./assets/pages/page_057.png" alt="Page 57">
-        </div>
-    </div>
+    </section>
+    
+    <section>
+        <h2>🎵 Morceaux (0)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Style</th>
+                    <th>Compositeur</th>
+                    <th>Tonalité</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>💪 Exercices (342)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Page</th>
+                    <th>Difficulté</th>
+                    <th>Technique</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 1</strong></td>
+                        <td>17</td>
+                        <td>débutant</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 2</strong></td>
+                        <td>17</td>
+                        <td>débutant</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 3</strong></td>
+                        <td>17</td>
+                        <td>débutant</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 4</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 5</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 6</strong></td>
+                        <td>17</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 7</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 8</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 9</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 10</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Exercices de gammes 11</strong></td>
+                        <td>18</td>
+                        <td>intermédiaire</td>
+                        <td>gammes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 12</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 13</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 14</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 15</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 16</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 17</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 18</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 19</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 20</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 21</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 22</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 23</strong></td>
+                        <td>19</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 24</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 25</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 26</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 27</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 28</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 29</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 30</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 31</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 32</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 33</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 34</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 35</strong></td>
+                        <td>20</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 36</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 37</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 38</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 39</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 40</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 41</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 42</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 43</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 44</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 45</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 46</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Enchaînements de swing en 4/4 - Exercice 47</strong></td>
+                        <td>21</td>
+                        <td>intermédiaire</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec extensions d'accords - Exercice 48</strong></td>
+                        <td>22</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec extensions d'accords - Exercice 49</strong></td>
+                        <td>22</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec extensions d'accords - Exercice 50</strong></td>
+                        <td>22</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec extensions d'accords - Exercice 51</strong></td>
+                        <td>22</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 52</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 53</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 54</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 55</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 56</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 57</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 58</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 59</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 60</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 61</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 62</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Swing en 4/4 avec notes de passage - Exercice 63</strong></td>
+                        <td>23</td>
+                        <td>avancé</td>
+                        <td>swing</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 64</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 65</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 66</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 67</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 68</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 69</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 70</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 71</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 72</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 73</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 74</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills en triolets - Exercice 75</strong></td>
+                        <td>24</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 76</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 77</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 78</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 79</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 80</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 81</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 82</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 83</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 84</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 85</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 86</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec croches - Exercice 87</strong></td>
+                        <td>32</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 88</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 89</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 90</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 91</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 92</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 93</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 94</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 95</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 96</strong></td>
+                        <td>32</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 97</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 98</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 99</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 100</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 101</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 102</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 103</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 104</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 105</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 106</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 107</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 108</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 109</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 110</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 111</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 112</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 113</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 114</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 115</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 116</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 117</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 118</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 119</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 120</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (style shuffle en 12/8) - Exercice 121</strong></td>
+                        <td>33</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 122</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 123</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 124</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 125</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 126</strong></td>
+                        <td>34</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 127</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 128</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 129</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 130</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 131</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 132</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 133</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 134</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 12/8 (style shuffle) - Exercice 135</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 136</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 137</strong></td>
+                        <td>35</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 138</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 139</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 140</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 141</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 142</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 143</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 144</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 145</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 146</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 147</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 148</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 149</strong></td>
+                        <td>36</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 150</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 151</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 152</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B en 4/4 - Exercice 153</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 154</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 155</strong></td>
+                        <td>37</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 156</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 157</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 158</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 159</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 160</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 161</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 162</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 163</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 164</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 165</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 166</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 167</strong></td>
+                        <td>38</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 168</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 169</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 170</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 171</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 172</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 173</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 174</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 175</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 176</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 177</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 178</strong></td>
+                        <td>39</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 179</strong></td>
+                        <td>40</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 180</strong></td>
+                        <td>40</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul - Exercice 181</strong></td>
+                        <td>40</td>
+                        <td>intermédiaire</td>
+                        <td>soul</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 182</strong></td>
+                        <td>40</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 183</strong></td>
+                        <td>40</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 184</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 185</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 186</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 187</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 188</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 189</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 190</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 191</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 192</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 193</strong></td>
+                        <td>41</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 194</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 195</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 196</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 197</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 198</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 199</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 200</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown - Exercice 201</strong></td>
+                        <td>42</td>
+                        <td>avancé</td>
+                        <td>motown</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 202</strong></td>
+                        <td>42</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 203</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 204</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 205</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 206</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 207</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 208</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 209</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 210</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 211</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 212</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Fills de basse - Exercice 213</strong></td>
+                        <td>43</td>
+                        <td>intermédiaire</td>
+                        <td>fills</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 214</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 215</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 216</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 217</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 218</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 219</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 220</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 221</strong></td>
+                        <td>44</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 222</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 223</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 224</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 225</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 226</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 227</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 228</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records - Exercice 229</strong></td>
+                        <td>45</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 230</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 231</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 232</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 233</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 234</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 235</strong></td>
+                        <td>46</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 236</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 237</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 238</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 239</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 240</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 241</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 242</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 243</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 244</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 245</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 246</strong></td>
+                        <td>47</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 247</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 248</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 249</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 250</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 251</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 252</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 253</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 254</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 255</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 256</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk - Exercice 257</strong></td>
+                        <td>48</td>
+                        <td>avancé</td>
+                        <td>funk</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>STANLEY CLARKE - Exercice 258</strong></td>
+                        <td>49</td>
+                        <td>avancé</td>
+                        <td>jazz fusion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>STANLEY CLARKE - Exercice 259</strong></td>
+                        <td>49</td>
+                        <td>avancé</td>
+                        <td>jazz fusion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>STANLEY CLARKE - Exercice 260</strong></td>
+                        <td>49</td>
+                        <td>avancé</td>
+                        <td>jazz fusion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>STANLEY CLARKE - Exercice 261</strong></td>
+                        <td>49</td>
+                        <td>avancé</td>
+                        <td>jazz fusion</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock - Exercice 262</strong></td>
+                        <td>50</td>
+                        <td>intermédiaire</td>
+                        <td>rock</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock - Exercice 263</strong></td>
+                        <td>50</td>
+                        <td>intermédiaire</td>
+                        <td>rock</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock - Exercice 264</strong></td>
+                        <td>50</td>
+                        <td>intermédiaire</td>
+                        <td>rock</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock - Exercice 265</strong></td>
+                        <td>50</td>
+                        <td>intermédiaire</td>
+                        <td>rock</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 266</strong></td>
+                        <td>51</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 267</strong></td>
+                        <td>51</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 268</strong></td>
+                        <td>51</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 269</strong></td>
+                        <td>51</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 270</strong></td>
+                        <td>51</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 271</strong></td>
+                        <td>51</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 272</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 273</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 274</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 275</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 276</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 277</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 278</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 279</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 280</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 281</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 282</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 283</strong></td>
+                        <td>52</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 284</strong></td>
+                        <td>53</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 285</strong></td>
+                        <td>53</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 286</strong></td>
+                        <td>53</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 287</strong></td>
+                        <td>53</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 288</strong></td>
+                        <td>53</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires réguliers avec croches - Exercice 289</strong></td>
+                        <td>53</td>
+                        <td>débutant</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 290</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 291</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 292</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 293</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 294</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 295</strong></td>
+                        <td>53</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 296</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 297</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 298</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 299</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 300</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 301</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 302</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 303</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 304</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 305</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 306</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 307</strong></td>
+                        <td>54</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 308</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 309</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 310</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 311</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires syncopés avec croches - Exercice 312</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 313</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 314</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 315</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 316</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 317</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 318</strong></td>
+                        <td>55</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 319</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 320</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 321</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 322</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 323</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 324</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 325</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 326</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 327</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 328</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 329</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves binaires avec doubles croches - Exercice 330</strong></td>
+                        <td>56</td>
+                        <td>intermédiaire</td>
+                        <td>grooves</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 331</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 332</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 333</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 334</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 335</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 336</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 337</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 338</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 339</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 340</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 341</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves ternaires (shuffle) - Exercice 342</strong></td>
+                        <td>57</td>
+                        <td>intermédiaire</td>
+                        <td>shuffle</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <h2>📖 Concepts théoriques (34)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept</th>
+                    <th>Page</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><strong>Introduction</strong></td>
+                        <td>3</td>
+                        <td>Introduction à la guitare basse et aux principes de base pour jouer de la basse dans un groupe</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Doigté</strong></td>
+                        <td>5</td>
+                        <td>Technique de jeu avec les doigts de la main gauche</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Intensité de l'attaque</strong></td>
+                        <td>5</td>
+                        <td>Comment contrôler l'intensité de l'attaque pour créer une ambiance détendue</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Sonorité</strong></td>
+                        <td>5</td>
+                        <td>Utilisation de différents types de sons (son clair ou sourd) selon les genres musicaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Style espagnol</strong></td>
+                        <td>5</td>
+                        <td>Jeu de la guitare basse avec le pouce et les autres doigts</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Médiator</strong></td>
+                        <td>5</td>
+                        <td>Usage du médiator pour produire un son plus net et précis</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Ongles</strong></td>
+                        <td>5</td>
+                        <td>Utilisation des ongles pour remplacer le médiator</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Slap</strong></td>
+                        <td>5</td>
+                        <td>Technique de slap pour créer des rythmes percussifs</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Popping avec placement</strong></td>
+                        <td>6</td>
+                        <td>Technique du popping qui apporte une attaque plus sèche et précise</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Tapping de la main gauche</strong></td>
+                        <td>6</td>
+                        <td>Technique de tapping avec l'index et le majeur de la main droite</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Étouffement</strong></td>
+                        <td>6</td>
+                        <td>Technique pour étouffer les notes uniformément avec le côté du chevalet</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Walking et étouffement</strong></td>
+                        <td>6</td>
+                        <td>Combinaison du walking bass avec des techniques d'étouffement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Palming</strong></td>
+                        <td>6</td>
+                        <td>Technique pour créer un son plus sourd en étouffant partiellement les cordes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Harmoniques</strong></td>
+                        <td>6</td>
+                        <td>Production d'harmoniques naturelles pour créer des sons cristallins</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Techniques - Pédales et effets</strong></td>
+                        <td>6</td>
+                        <td>Utilisation de pédales d'effets pour enrichir le son de la basse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>La théorie de base en 49 étapes</strong></td>
+                        <td>8</td>
+                        <td>49 étapes progressives pour apprendre la théorie musicale de base</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Lignes de basse walking</strong></td>
+                        <td>10</td>
+                        <td>Construction de lignes de basse walking dans différents styles musicaux</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes, arpèges et exercices</strong></td>
+                        <td>11</td>
+                        <td>Gammes et arpèges fondamentaux avec exercices pratiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes majeures</strong></td>
+                        <td>11</td>
+                        <td>Gammes majeures de CM, CM7M, CM7M, C7, C7+4, C7b6</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Gammes mineures</strong></td>
+                        <td>12</td>
+                        <td>Gammes mineures de Cm, Cm (naturelle), Cm (mélodique), Cm (harmonique), Cm (mode phrygien), Cm (blues)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Modes diatoniques</strong></td>
+                        <td>13</td>
+                        <td>Modes ionien, dorien, phrygien, lydien, mixolydien, éolien</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Arpèges majeurs</strong></td>
+                        <td>14</td>
+                        <td>Arpèges majeurs de CM, Cma7, Cma9, C6/9, Cma9 ou C6, C6b4</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Arpèges mineurs</strong></td>
+                        <td>15</td>
+                        <td>Arpèges mineurs de Cm, Cm (harmonique), Cm (mélodique), Cm7</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Séquences d'accords et improvisation</strong></td>
+                        <td>24</td>
+                        <td>Introduction aux séquences d'accords courantes dans différents styles musicaux et techniques d'improvisation de lignes de basse</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Style Pop</strong></td>
+                        <td>24</td>
+                        <td>Séquences d'accords en style pop (I-vi-IV, IV-I-V, I-IV-V, V-I en 4/4 et jazz en 4/4)</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>LIVRE DEUX - Grooves de base</strong></td>
+                        <td>31</td>
+                        <td>Introduction aux grooves de base avec différentes variations rythmiques</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Grooves de base</strong></td>
+                        <td>32</td>
+                        <td>Les grooves constituent la base de la plupart des formes musicales. Apprentissage des différents types de grooves et leur importance pour le rythme et l'accompagnement</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Blues et R & B</strong></td>
+                        <td>34</td>
+                        <td>Histoire et caractéristiques du blues et du R&B, avec séquences de 12 mesures courantes dans le blues</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Soul</strong></td>
+                        <td>37</td>
+                        <td>Caractéristiques de la musique soul et ses lignes de basse, incluant l'influence de James Jameson et Marvin Gaye</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES JAMERSON et Motown</strong></td>
+                        <td>40</td>
+                        <td>L'influence de James Jamerson sur la basse soul et Motown, avec techniques spécifiques et approche rythmique</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>CHUCK RAINEY et Atlantic Records</strong></td>
+                        <td>44</td>
+                        <td>L'influence de Chuck Rainey sur le funk et la soul, avec ses techniques rythmiques et harmoniques caractéristiques développées pour Atlantic Records</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>JAMES BROWN et le Funk</strong></td>
+                        <td>46</td>
+                        <td>Les techniques de basse funk développées dans le contexte de la musique de James Brown, avec emphase sur les rythmes syncopés et le groove</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>STANLEY CLARKE</strong></td>
+                        <td>49</td>
+                        <td>Techniques de jazz fusion et approche virtuose de la basse, incluant des passages rapides et des phrasés complexes</td>
+                    </tr>
+                
+                    <tr>
+                        <td><strong>Rock</strong></td>
+                        <td>50</td>
+                        <td>Caractéristiques du rock et lignes de basse rock, incluant l'influence de Chuck Berry, les Beatles, Led Zeppelin et autres groupes rock majeurs</td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+        <p>Généré le 16/11/2025 avec OCR Batch Converter v2.2</p>
+    </footer>
 </body>
 </html>

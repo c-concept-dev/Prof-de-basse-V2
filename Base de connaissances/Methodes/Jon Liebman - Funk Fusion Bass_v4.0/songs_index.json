@@ -1,2059 +1,1822 @@
 {
   "metadata": {
-    "method_name": "Jon Liebman - Funk Fusion Bass",
-    "total_songs": 96,
-    "has_mp3": false,
-    "mp3_count": 0,
-    "generated_at": "2025-11-10T09:31:56.624Z",
-    "version": "4.0.0",
-    "ocr_method": "zoned",
-    "zones": {
-      "title": {
-        "enabled": true,
-        "range": "0-20%",
-        "stats": {
-          "processed": 96,
-          "success": 0
-        }
-      },
-      "music": {
-        "enabled": false,
-        "range": "20-90%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      },
-      "footer": {
-        "enabled": true,
-        "range": "90-100%",
-        "stats": {
-          "processed": 0,
-          "success": 0
-        }
-      }
-    },
-    "ocr_config": {
-      "language": "eng+fra",
-      "confidence_threshold": 60
-    }
+    "bookTitle": "Jon Liebman",
+    "category": "method",
+    "style": "funk",
+    "totalImages": 96,
+    "totalBatches": 5,
+    "processedDate": "2025-11-16T16:10:14.454Z"
   },
-  "songs": [
-    {
-      "title": "Page 1",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 1,
-      "page_url": "assets/pages/page_001.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 2",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 2,
-      "page_url": "assets/pages/page_002.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 3",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 3,
-      "page_url": "assets/pages/page_003.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 4",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 4,
-      "page_url": "assets/pages/page_004.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 5",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 5,
-      "page_url": "assets/pages/page_005.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 6",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 6,
-      "page_url": "assets/pages/page_006.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 7",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 7,
-      "page_url": "assets/pages/page_007.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 8",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 8,
-      "page_url": "assets/pages/page_008.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 9",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 9,
-      "page_url": "assets/pages/page_009.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 10",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 10,
-      "page_url": "assets/pages/page_010.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 11",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 11,
-      "page_url": "assets/pages/page_011.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 12",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 12,
-      "page_url": "assets/pages/page_012.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 13",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 13,
-      "page_url": "assets/pages/page_013.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 14",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 14,
-      "page_url": "assets/pages/page_014.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 15",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 15,
-      "page_url": "assets/pages/page_015.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 16",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 16,
-      "page_url": "assets/pages/page_016.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 17",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 17,
-      "page_url": "assets/pages/page_017.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 18",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 18,
-      "page_url": "assets/pages/page_018.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 19",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 19,
-      "page_url": "assets/pages/page_019.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 20",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 20,
-      "page_url": "assets/pages/page_020.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 21",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 21,
-      "page_url": "assets/pages/page_021.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 22",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 22,
-      "page_url": "assets/pages/page_022.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 23",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 23,
-      "page_url": "assets/pages/page_023.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 24",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 24,
-      "page_url": "assets/pages/page_024.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 25",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 25,
-      "page_url": "assets/pages/page_025.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 26",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 26,
-      "page_url": "assets/pages/page_026.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 27",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 27,
-      "page_url": "assets/pages/page_027.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 28",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 28,
-      "page_url": "assets/pages/page_028.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 29",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 29,
-      "page_url": "assets/pages/page_029.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 30",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 30,
-      "page_url": "assets/pages/page_030.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 31",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 31,
-      "page_url": "assets/pages/page_031.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 32",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 32,
-      "page_url": "assets/pages/page_032.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 33",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 33,
-      "page_url": "assets/pages/page_033.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 34",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 34,
-      "page_url": "assets/pages/page_034.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 35",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 35,
-      "page_url": "assets/pages/page_035.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 36",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 36,
-      "page_url": "assets/pages/page_036.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 37",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 37,
-      "page_url": "assets/pages/page_037.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 38",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 38,
-      "page_url": "assets/pages/page_038.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 39",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 39,
-      "page_url": "assets/pages/page_039.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 40",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 40,
-      "page_url": "assets/pages/page_040.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 41",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 41,
-      "page_url": "assets/pages/page_041.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 42",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 42,
-      "page_url": "assets/pages/page_042.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 43",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 43,
-      "page_url": "assets/pages/page_043.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 44",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 44,
-      "page_url": "assets/pages/page_044.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 45",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 45,
-      "page_url": "assets/pages/page_045.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 46",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 46,
-      "page_url": "assets/pages/page_046.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 47",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 47,
-      "page_url": "assets/pages/page_047.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 48",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 48,
-      "page_url": "assets/pages/page_048.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 49",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 49,
-      "page_url": "assets/pages/page_049.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 50",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 50,
-      "page_url": "assets/pages/page_050.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 51",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 51,
-      "page_url": "assets/pages/page_051.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 52",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 52,
-      "page_url": "assets/pages/page_052.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 53",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 53,
-      "page_url": "assets/pages/page_053.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 54",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 54,
-      "page_url": "assets/pages/page_054.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 55",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 55,
-      "page_url": "assets/pages/page_055.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 56",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 56,
-      "page_url": "assets/pages/page_056.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 57",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 57,
-      "page_url": "assets/pages/page_057.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 58",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 58,
-      "page_url": "assets/pages/page_058.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 59",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 59,
-      "page_url": "assets/pages/page_059.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 60",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 60,
-      "page_url": "assets/pages/page_060.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 61",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 61,
-      "page_url": "assets/pages/page_061.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 62",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 62,
-      "page_url": "assets/pages/page_062.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 63",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 63,
-      "page_url": "assets/pages/page_063.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 64",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 64,
-      "page_url": "assets/pages/page_064.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 65",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 65,
-      "page_url": "assets/pages/page_065.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 66",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 66,
-      "page_url": "assets/pages/page_066.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 67",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 67,
-      "page_url": "assets/pages/page_067.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 68",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 68,
-      "page_url": "assets/pages/page_068.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 69",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 69,
-      "page_url": "assets/pages/page_069.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 70",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 70,
-      "page_url": "assets/pages/page_070.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 71",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 71,
-      "page_url": "assets/pages/page_071.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 72",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 72,
-      "page_url": "assets/pages/page_072.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 73",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 73,
-      "page_url": "assets/pages/page_073.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 74",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 74,
-      "page_url": "assets/pages/page_074.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 75",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 75,
-      "page_url": "assets/pages/page_075.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 76",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 76,
-      "page_url": "assets/pages/page_076.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 77",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 77,
-      "page_url": "assets/pages/page_077.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 78",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 78,
-      "page_url": "assets/pages/page_078.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 79",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 79,
-      "page_url": "assets/pages/page_079.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 80",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 80,
-      "page_url": "assets/pages/page_080.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 81",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 81,
-      "page_url": "assets/pages/page_081.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 82",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 82,
-      "page_url": "assets/pages/page_082.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 83",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 83,
-      "page_url": "assets/pages/page_083.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 84",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 84,
-      "page_url": "assets/pages/page_084.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 85",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 85,
-      "page_url": "assets/pages/page_085.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 86",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 86,
-      "page_url": "assets/pages/page_086.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 87",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 87,
-      "page_url": "assets/pages/page_087.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 88",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 88,
-      "page_url": "assets/pages/page_088.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 89",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 89,
-      "page_url": "assets/pages/page_089.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 90",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 90,
-      "page_url": "assets/pages/page_090.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 91",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 91,
-      "page_url": "assets/pages/page_091.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 92",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 92,
-      "page_url": "assets/pages/page_092.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 93",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 93,
-      "page_url": "assets/pages/page_093.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 94",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 94,
-      "page_url": "assets/pages/page_094.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 95",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 95,
-      "page_url": "assets/pages/page_095.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    },
-    {
-      "title": "Page 96",
-      "tonalite": null,
-      "track_number": null,
-      "page_number": 96,
-      "page_url": "assets/pages/page_096.png",
-      "mp3_url": null,
-      "techniques": [],
-      "composer": null,
-      "confidence": 0,
-      "ocr_raw": "",
-      "format": "png",
-      "error": "TypeError: null is not an object (evaluating 'e.SetImageFile')",
-      "zones": {
-        "title": null,
-        "music": {
-          "skipped": true
-        },
-        "footer": null
-      }
-    }
-  ]
+  "content": {
+    "songs": [
+      {
+        "title": "5.1",
+        "page": 63,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7#9"
+      },
+      {
+        "title": "5.2",
+        "page": 63,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Fm"
+      },
+      {
+        "title": "5.3",
+        "page": 64,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7#9"
+      },
+      {
+        "title": "5.4",
+        "page": 64,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G7"
+      },
+      {
+        "title": "5.5",
+        "page": 64,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Dm"
+      },
+      {
+        "title": "5.6",
+        "page": 64,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "A"
+      },
+      {
+        "title": "5.7",
+        "page": 65,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bbm"
+      },
+      {
+        "title": "5.8",
+        "page": 65,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Am"
+      },
+      {
+        "title": "5.9",
+        "page": 65,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m"
+      },
+      {
+        "title": "5.10",
+        "page": 66,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7"
+      },
+      {
+        "title": "5.11",
+        "page": 66,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7#9"
+      },
+      {
+        "title": "5.12",
+        "page": 66,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Db7"
+      },
+      {
+        "title": "5.13",
+        "page": 66,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Dm"
+      },
+      {
+        "title": "5.14",
+        "page": 66,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bbm"
+      },
+      {
+        "title": "5.15",
+        "page": 67,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb"
+      },
+      {
+        "title": "5.16",
+        "page": 67,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C7"
+      },
+      {
+        "title": "5.17",
+        "page": 67,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "A7"
+      },
+      {
+        "title": "5.18",
+        "page": 67,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb7"
+      },
+      {
+        "title": "5.19",
+        "page": 68,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "D7"
+      },
+      {
+        "title": "5.20",
+        "page": 68,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Fm7"
+      },
+      {
+        "title": "5.21",
+        "page": 68,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F"
+      },
+      {
+        "title": "5.22",
+        "page": 68,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Db7"
+      },
+      {
+        "title": "5.23",
+        "page": 68,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#7#9"
+      },
+      {
+        "title": "5.24",
+        "page": 69,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Ab7"
+      },
+      {
+        "title": "5.25",
+        "page": 69,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Cb7#9"
+      },
+      {
+        "title": "5.26",
+        "page": 69,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "A"
+      },
+      {
+        "title": "5.27",
+        "page": 70,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gb"
+      },
+      {
+        "title": "5.28",
+        "page": 70,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C#m"
+      },
+      {
+        "title": "5.29",
+        "page": 70,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Eb7#9"
+      },
+      {
+        "title": "5.30",
+        "page": 71,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C7#9"
+      },
+      {
+        "title": "5.31",
+        "page": 71,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G"
+      },
+      {
+        "title": "5.32",
+        "page": 71,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7"
+      },
+      {
+        "title": "5.33",
+        "page": 71,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Db7"
+      },
+      {
+        "title": "5.34",
+        "page": 72,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "B7"
+      },
+      {
+        "title": "5.35",
+        "page": 72,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "A7"
+      },
+      {
+        "title": "5.36",
+        "page": 72,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F7"
+      },
+      {
+        "title": "5.37",
+        "page": 73,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C"
+      },
+      {
+        "title": "5.38",
+        "page": 73,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7"
+      },
+      {
+        "title": "5.39",
+        "page": 73,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G7#9"
+      },
+      {
+        "title": "5.40",
+        "page": 73,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "A7"
+      },
+      {
+        "title": "5.41",
+        "page": 73,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "D7"
+      },
+      {
+        "title": "5.42",
+        "page": 73,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m7"
+      },
+      {
+        "title": "5.43",
+        "page": 74,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Eb7"
+      },
+      {
+        "title": "5.44",
+        "page": 74,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Ab"
+      },
+      {
+        "title": "5.45",
+        "page": 74,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gb5"
+      },
+      {
+        "title": "5.46",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gm"
+      },
+      {
+        "title": "5.47",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Em"
+      },
+      {
+        "title": "5.48",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb5"
+      },
+      {
+        "title": "5.49",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F5"
+      },
+      {
+        "title": "5.50",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Ab7"
+      },
+      {
+        "title": "5.51",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Dm"
+      },
+      {
+        "title": "5.52",
+        "page": 75,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb"
+      },
+      {
+        "title": "5.53",
+        "page": 76,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "D7"
+      },
+      {
+        "title": "5.54",
+        "page": 76,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Cb"
+      },
+      {
+        "title": "5.55",
+        "page": 76,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7"
+      },
+      {
+        "title": "5.56",
+        "page": 76,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "A7"
+      },
+      {
+        "title": "5.57",
+        "page": 76,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F7"
+      },
+      {
+        "title": "5.58",
+        "page": 77,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G"
+      },
+      {
+        "title": "5.59",
+        "page": 77,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Eb7"
+      },
+      {
+        "title": "5.60",
+        "page": 77,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gb7#9"
+      },
+      {
+        "title": "5.61",
+        "page": 77,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C7"
+      },
+      {
+        "title": "5.62",
+        "page": 77,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C7"
+      },
+      {
+        "title": "5.63",
+        "page": 78,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m"
+      },
+      {
+        "title": "5.64",
+        "page": 78,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Am"
+      },
+      {
+        "title": "5.65",
+        "page": 78,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m"
+      },
+      {
+        "title": "5.66",
+        "page": 78,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bbm"
+      },
+      {
+        "title": "5.67",
+        "page": 78,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Cm7"
+      },
+      {
+        "title": "5.68",
+        "page": 79,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F7#9"
+      },
+      {
+        "title": "5.69",
+        "page": 79,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Dm7"
+      },
+      {
+        "title": "5.70",
+        "page": 79,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gm7"
+      },
+      {
+        "title": "5.71",
+        "page": 79,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m7"
+      },
+      {
+        "title": "5.72",
+        "page": 79,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G#"
+      },
+      {
+        "title": "5.73",
+        "page": 80,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7#9"
+      },
+      {
+        "title": "5.74",
+        "page": 80,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Ab7"
+      },
+      {
+        "title": "5.75",
+        "page": 80,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb"
+      },
+      {
+        "title": "6.1",
+        "page": 81,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "E7"
+      },
+      {
+        "title": "6.2",
+        "page": 81,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C/G7"
+      },
+      {
+        "title": "6.3",
+        "page": 82,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G7"
+      },
+      {
+        "title": "6.4",
+        "page": 82,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Fm"
+      },
+      {
+        "title": "6.5",
+        "page": 82,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C7#9"
+      },
+      {
+        "title": "6.6",
+        "page": 82,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Fm"
+      },
+      {
+        "title": "6.7",
+        "page": 83,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "G7#9"
+      },
+      {
+        "title": "6.8",
+        "page": 83,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Eb7"
+      },
+      {
+        "title": "6.9",
+        "page": 83,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bbm"
+      },
+      {
+        "title": "6.10",
+        "page": 83,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gm7"
+      },
+      {
+        "title": "6.11",
+        "page": 84,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F7"
+      },
+      {
+        "title": "6.12",
+        "page": 84,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb"
+      },
+      {
+        "title": "6.13",
+        "page": 84,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m"
+      },
+      {
+        "title": "6.14",
+        "page": 84,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C#m"
+      },
+      {
+        "title": "6.15",
+        "page": 85,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bm"
+      },
+      {
+        "title": "6.16",
+        "page": 85,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Dm"
+      },
+      {
+        "title": "6.17",
+        "page": 85,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gb"
+      },
+      {
+        "title": "6.18",
+        "page": 85,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "F#m"
+      },
+      {
+        "title": "6.19",
+        "page": 85,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Em"
+      },
+      {
+        "title": "6.20",
+        "page": 86,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Gb7"
+      },
+      {
+        "title": "6.21",
+        "page": 86,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "D7#9"
+      },
+      {
+        "title": "6.22",
+        "page": 86,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Db7"
+      },
+      {
+        "title": "6.23",
+        "page": 86,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C#5"
+      },
+      {
+        "title": "6.24",
+        "page": 86,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "C9"
+      },
+      {
+        "title": "6.25",
+        "page": 86,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bb7"
+      },
+      {
+        "title": "6.26",
+        "page": 87,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bm"
+      },
+      {
+        "title": "6.27",
+        "page": 87,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Cm7"
+      },
+      {
+        "title": "6.28",
+        "page": 87,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Bbm"
+      },
+      {
+        "title": "6.29",
+        "page": 87,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Cb"
+      },
+      {
+        "title": "6.30",
+        "page": 87,
+        "style": "funk",
+        "composer": "Jon Liebman",
+        "key": "Eb5"
+      }
+    ],
+    "exercises": [
+      {
+        "title": "Exercise 2.1 - Chromatic alternating fingers",
+        "page": 15,
+        "difficulty": "débutant",
+        "technique": "two-finger technique"
+      },
+      {
+        "title": "Exercise 2.2 - Chromatic with string crossings",
+        "page": 17,
+        "difficulty": "débutant",
+        "technique": "two-finger technique"
+      },
+      {
+        "title": "Exercise 2.3 - Chromatic ascending",
+        "page": 18,
+        "difficulty": "débutant",
+        "technique": "two-finger technique"
+      },
+      {
+        "title": "Exercise 2.4 - Chromatic patterns",
+        "page": 19,
+        "difficulty": "intermédiaire",
+        "technique": "two-finger technique"
+      },
+      {
+        "title": "Exercise 2.5 - Chromatic endurance building",
+        "page": 20,
+        "difficulty": "intermédiaire",
+        "technique": "two-finger technique"
+      },
+      {
+        "title": "Exercise 2.6",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "chromatic patterns"
+      },
+      {
+        "title": "Exercise 2.7",
+        "page": 21,
+        "difficulty": "intermédiaire",
+        "technique": "chromatic patterns"
+      },
+      {
+        "title": "Exercise 2.8",
+        "page": 22,
+        "difficulty": "intermédiaire",
+        "technique": "chromatic patterns"
+      },
+      {
+        "title": "Exercise 2.9",
+        "page": 23,
+        "difficulty": "intermédiaire",
+        "technique": "chromatic patterns"
+      },
+      {
+        "title": "Exercise 2.10",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "left hand strength"
+      },
+      {
+        "title": "Exercise 2.11",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "left hand strength"
+      },
+      {
+        "title": "Exercise 2.12",
+        "page": 24,
+        "difficulty": "intermédiaire",
+        "technique": "left hand strength"
+      },
+      {
+        "title": "Exercise 2.13",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "left hand strength"
+      },
+      {
+        "title": "Exercise 2.14",
+        "page": 25,
+        "difficulty": "intermédiaire",
+        "technique": "left hand strength"
+      },
+      {
+        "title": "Exercise 2.15 - E major scale",
+        "page": 26,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 26,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.16 - F major scale",
+        "page": 26,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "F major arpeggio",
+        "page": 26,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.17 - F# major scale",
+        "page": 27,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "F# major arpeggio",
+        "page": 27,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.18 - Gb major scale",
+        "page": 27,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "Gb major arpeggio",
+        "page": 27,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.19 - G major scale",
+        "page": 27,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "G major arpeggio",
+        "page": 28,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.20 - Ab major scale",
+        "page": 28,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "Ab major arpeggio",
+        "page": 28,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.21 - A major scale",
+        "page": 28,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "A major arpeggio",
+        "page": 29,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.22 - Bb major scale",
+        "page": 29,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "Bb major arpeggio",
+        "page": 29,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.23 - B major scale",
+        "page": 29,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "B major arpeggio",
+        "page": 29,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.24 - Cb major scale",
+        "page": 30,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "Cb major arpeggio",
+        "page": 30,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.25 - C major scale",
+        "page": 30,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "C major arpeggio",
+        "page": 30,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.26 - C# major scale",
+        "page": 30,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "C# major arpeggio",
+        "page": 31,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.27 - Db major scale",
+        "page": 31,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "Db major arpeggio",
+        "page": 31,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.28 - D major scale",
+        "page": 31,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "D major arpeggio",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.29 - Eb major scale",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "scales"
+      },
+      {
+        "title": "Eb major arpeggio",
+        "page": 32,
+        "difficulty": "débutant",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.30 - E major scale in thirds",
+        "page": 32,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.31 - F major scale in thirds",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "F major arpeggio",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.32 - F# major scale in thirds",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "F# major arpeggio",
+        "page": 33,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.33 - Gb major scale in thirds",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "Gb major arpeggio",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.34 - G major scale in thirds",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "G major arpeggio",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.35 - Ab major scale in thirds",
+        "page": 34,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "Ab major arpeggio",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.36 - A major scale in thirds",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "A major arpeggio",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.37 - Bb major scale in thirds",
+        "page": 35,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "Bb major arpeggio",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.38 - B major scale in thirds",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "B major arpeggio",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.39 - Cb major scale in thirds",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "Cb major arpeggio",
+        "page": 36,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.40 - C major scale in thirds",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "C major arpeggio",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.41 - C# major scale in thirds",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "C# major arpeggio",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.42 - Db major scale in thirds",
+        "page": 37,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "Db major arpeggio",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.43 - D major scale in thirds",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "D major arpeggio",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.44 - Eb major scale in thirds",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "scales in intervals"
+      },
+      {
+        "title": "Eb major arpeggio",
+        "page": 38,
+        "difficulty": "intermédiaire",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.45 - E major variations",
+        "page": 39,
+        "difficulty": "avancé",
+        "technique": "scale variations"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 40,
+        "difficulty": "avancé",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.46 - E major variations",
+        "page": 40,
+        "difficulty": "avancé",
+        "technique": "scale variations"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.47 - E major",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.48 - F major",
+        "page": 41,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "F major arpeggio",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.49 - F# major",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "F# major arpeggio",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.50 - Gb major",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "Gb major arpeggio",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.51 - G major",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "G major arpeggio",
+        "page": 42,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.52 - Ab major",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "Ab major arpeggio",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.53 - A major",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "A major arpeggio",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.54 - Bb major",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "Bb major arpeggio",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.55 - B major",
+        "page": 43,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "B major arpeggio",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.56 - Cb major",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "Cb major arpeggio",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.57 - C major scale",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "C major arpeggio",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.58 - C# major",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "C# major arpeggio",
+        "page": 44,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.59 - Db major",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "Db major arpeggio",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.60 - D major",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "D major arpeggio",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.61 - Eb major",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "Eb major arpeggio",
+        "page": 45,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 2.62 - E major variations",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "triplets in thirds"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 46,
+        "difficulty": "avancé",
+        "technique": "arpeggios"
+      },
+      {
+        "title": "Exercise 2.63 - E major variations",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "triplets"
+      },
+      {
+        "title": "E major arpeggio",
+        "page": 47,
+        "difficulty": "avancé",
+        "technique": "arpeggios in triplets"
+      },
+      {
+        "title": "Exercise 3.1",
+        "page": 48,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing octaves"
+      },
+      {
+        "title": "Exercise 3.2",
+        "page": 49,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing octaves"
+      },
+      {
+        "title": "Exercise 3.3",
+        "page": 50,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 3.4",
+        "page": 51,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 3.5",
+        "page": 52,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 3.6",
+        "page": 53,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 3.7",
+        "page": 54,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 3.8",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 3.9",
+        "page": 55,
+        "difficulty": "intermédiaire",
+        "technique": "string crossing"
+      },
+      {
+        "title": "Exercise 4.1",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "hammer-on"
+      },
+      {
+        "title": "Exercise 4.2",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "hammer-on"
+      },
+      {
+        "title": "Exercise 4.3",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "hammer-on"
+      },
+      {
+        "title": "Exercise 4.4",
+        "page": 57,
+        "difficulty": "intermédiaire",
+        "technique": "hammer-on"
+      },
+      {
+        "title": "Exercise 4.5",
+        "page": 58,
+        "difficulty": "intermédiaire",
+        "technique": "hammer-on"
+      },
+      {
+        "title": "Exercise 4.6",
+        "page": 58,
+        "difficulty": "intermédiaire",
+        "technique": "pull-off"
+      },
+      {
+        "title": "Exercise 4.7",
+        "page": 58,
+        "difficulty": "intermédiaire",
+        "technique": "pull-off"
+      },
+      {
+        "title": "Exercise 4.8",
+        "page": 58,
+        "difficulty": "intermédiaire",
+        "technique": "pull-off"
+      },
+      {
+        "title": "Exercise 4.9",
+        "page": 59,
+        "difficulty": "intermédiaire",
+        "technique": "pull-off"
+      },
+      {
+        "title": "Exercise 4.10",
+        "page": 59,
+        "difficulty": "intermédiaire",
+        "technique": "pull-off"
+      },
+      {
+        "title": "Exercise 4.11",
+        "page": 59,
+        "difficulty": "intermédiaire",
+        "technique": "slide"
+      },
+      {
+        "title": "Exercise 4.12",
+        "page": 59,
+        "difficulty": "intermédiaire",
+        "technique": "slide"
+      },
+      {
+        "title": "Exercise 4.13",
+        "page": 59,
+        "difficulty": "intermédiaire",
+        "technique": "slide"
+      },
+      {
+        "title": "Exercise 4.14",
+        "page": 60,
+        "difficulty": "intermédiaire",
+        "technique": "trill"
+      },
+      {
+        "title": "Exercise 4.15",
+        "page": 60,
+        "difficulty": "intermédiaire",
+        "technique": "trill"
+      },
+      {
+        "title": "Exercise 4.16",
+        "page": 60,
+        "difficulty": "intermédiaire",
+        "technique": "trill"
+      },
+      {
+        "title": "Exercise 4.17",
+        "page": 60,
+        "difficulty": "intermédiaire",
+        "technique": "trill"
+      },
+      {
+        "title": "Exercise 4.18",
+        "page": 60,
+        "difficulty": "intermédiaire",
+        "technique": "trill"
+      },
+      {
+        "title": "Exercise 4.19",
+        "page": 61,
+        "difficulty": "intermédiaire",
+        "technique": "shake"
+      },
+      {
+        "title": "Exercise 4.20",
+        "page": 61,
+        "difficulty": "intermédiaire",
+        "technique": "shake"
+      },
+      {
+        "title": "Exercise 4.21",
+        "page": 61,
+        "difficulty": "intermédiaire",
+        "technique": "shake"
+      },
+      {
+        "title": "Exercise 4.22",
+        "page": 62,
+        "difficulty": "intermédiaire",
+        "technique": "bend"
+      },
+      {
+        "title": "Exercise 4.23",
+        "page": 62,
+        "difficulty": "intermédiaire",
+        "technique": "bend"
+      }
+    ],
+    "concepts": [
+      {
+        "concept": "Foreword by Verdine White",
+        "page": 4,
+        "description": "Verdine White of Earth, Wind & Fire recommends this book as a comprehensive source of instruction for beginners and experienced bass players, with a full range of exercises and a complete discography of dozens of bass players"
+      },
+      {
+        "concept": "Introduction - Purpose and approach",
+        "page": 5,
+        "description": "The book introduces the funk/fusion style of playing bass. Focuses on the role of the bass player, grooving, technique, reading, equipment, and what's expected on gigs and in recording studios. Emphasizes that no matter what equipment you have, your popularity as a bassist comes down to how well you groove"
+      },
+      {
+        "concept": "Chapter 1: A Word On Practicing",
+        "page": 7,
+        "description": "Practice doesn't make perfect. Perfect practice makes perfect (Vince Lombardi). Discussion of good vs bad practicing habits, including using metronomes, drum machines, tape recorders, maintaining a practice log, budgeting time, working with drummers, and keeping a music notebook. The most important job as a bass player is to groove with a great time feel"
+      },
+      {
+        "concept": "Chapter 2: Evolution of the Bass",
+        "page": 9,
+        "description": "Historical overview starting from the bass being invented to double the cello line an octave lower. Covers early versions including violone, double bass viol, viola da gamba. Discusses the bass's role in supporting the orchestra through classical and Romantic periods (Beethoven to Wagner, through Brahms and Tchaikovsky)"
+      },
+      {
+        "concept": "Solo repertoire for bass",
+        "page": 9,
+        "description": "Traditionally limited solo repertoire for bass compared to violin and piano. Mentions bass virtuosos including Domenico Dragonetti, Giovanni Botessini, Giovanni Cimador, Franz Keyper, Karl Ditters von Dittersdorf, Johann Baptiste Vanhal. By early 20th century, increasing composers wrote specifically for double bass including Serge Koussevitsky, Paul Hindemith, Reinhold Glière, Frank Proto, John Deak, François Rabbath, Gary Karr, Edgar Meyer, Barry Green, Thomas Martin, Klaus Trümpf"
+      },
+      {
+        "concept": "Jazz bass evolution",
+        "page": 10,
+        "description": "Around 1940, Jimmy Blanton with Duke Ellington orchestra revolutionized bass playing with sophisticated eighth and sixteenth-note horn-like runs and passages, making the bass sing as a melodic instrument. Other jazz giants included Ray Brown, Milt Hinton, Oscar Pettiford, Paul Chambers, Charles Mingus, Percy Heath. Scott La Faro (with pianist Bill Evans) catapulted bass to new heights with virtuoso pizzicato (fingers) technique"
+      },
+      {
+        "concept": "The Edison Influence, Part I - Electric bass",
+        "page": 10,
+        "description": "Leo Fender created the first electric bass guitar, the Fender Precision Bass in 1951. Though mixed reaction initially, the music world took to the electric bass quickly. By 1960s, electric bass became unstoppable with James Jamerson, Jack Bruce, Tim Bogert, Larry Graham and others. Music James Brown was recording was phenomenally influential, thanks to Bernard Odum, Charles 'Sweet Charles' Sherrell, Bootsy Collins and other JB bass men. The decade of funk was definitely the 1970s"
+      },
+      {
+        "concept": "The Funk Thang - 1970s funk groups",
+        "page": 10,
+        "description": "Notable funk groups and artists during the '70s: The Average White Band, The Brothers Johnson, Graham Central Station, George Clinton's Parliament Funkadelic, Kool & the Gang, Cameo, Con Funk Shun, Bohannon, Earth, Wind & Fire, Quincy Jones, Herbie Hancock, Tower of Power, The Gap Band, The Ohio Players, The O'Jays. A type of music combining rock and roll with complex harmonies and jazz/funk influences, referred to as jazz/rock fusion or simply fusion"
+      },
+      {
+        "concept": "Fusion bass players",
+        "page": 11,
+        "description": "Early fusion groups and bassists: Weather Report, Return to Forever, The Brecker Brothers, Billy Cobham, Jean-Luc Ponty, The Crusaders, Mahavishnu, Tom Scott, Dave Grusin. Bass heroes of the decade: Jerry Jemmott, Anthony Jackson, Chuck Rainey, Verdine White, Alphonso Johnson, Francis 'Rocco' Prestia, Jaco Pastorius, Will Lee, Neil Jason, Stanley Clarke, Louis Johnson, Randy Jackson"
+      },
+      {
+        "concept": "The Edison Influence, Part II - 1980s technology",
+        "page": 11,
+        "description": "During the 1980s, fusion movement continued to grow. With MIDI (Musical Instrument Digital Interface), technology became more accessible. Electronic music taken to new heights with computers and software-based applications. Guitars can sound like drums or pianos, keyboards like brass instruments, saxophones like violins. Popular funk/fusion groups: David Sanborn, Miles Davis, Spyro Gyra, The Yellowjackets, Lee Ritenour, Tribal Tech, The Rippingtons, The Chick Corea Elektric Band, Vital Information. This generation of great bass players included: Jeff Berlin, Marcus Miller, Abraham Laboriel, Bunny Brunel, Victor Bailey, Lincoln Goines, Jamaaladeen Tacuma, Vail Johnson, Gary King, Mark King, Jonas Hellborg, Nathan East, Darryl Jones, Jimmy 'Flim' Johnson, Tim Landers, John Patitucci, Gary Willis, Jeff Andrews, Gerald Veasley, Stuart Hamm, Brian Bromberg, Victor Wooten, Gary Grainger, Jimmy Haslip, Steve Bailey"
+      },
+      {
+        "concept": "What Next? - 1990s and beyond",
+        "page": 11,
+        "description": "In the '90s, nearly every player mentioned remains active. Same can be said for most of the groups and artists. Other funk and funk/fusion acts established in the '80s still going strong include Gerald Albright, Béla Fleck & the Flecktones, Brandon Fields. Many people incorporating rap and hip-hop. Some going for more acoustic sound. Others pushing limits of computers and electronics to new heights. With technology (not to mention tomorrow morning!), practice of collaborating via computers and modems thousands of miles apart is seemingly no big deal"
+      },
+      {
+        "concept": "Thumb position and six-string bass",
+        "page": 12,
+        "description": "Answer to why Bailey and Bromberg use left thumb as a 'fifth finger' in upper register on electric bass: This technique, known as 'thumb position,' is the proper way to play in the upper register on an upright bass. When four strings weren't enough, Anthony and John Patitucci expanded the bass to six strings. In listening to Anthony Jackson, he takes care of business on the bass like nobody else, wanting to have a bass with the lowest string tuned all the way down to an 'A' (a full octave lower than the 'A' string). For John Patitucci, his love and respect for saxophone players (Cannonball Adderley, John Coltrane, Michael Brecker) is the inspiration for him to 'blow' on the six string"
+      },
+      {
+        "concept": "Larry Graham and slapping technique origin",
+        "page": 12,
+        "description": "Larry Graham, founder of the slapping technique, developed the thumb slap/finger pop technique out of necessity because he was on a gig (in church with his mother) and they didn't have a drummer. Larry made himself into a bassist and drummer combined, laying down the kick drum sound by slapping the bass with his right thumb, and supplying the back beat of the snare by popping the upper strings with his index finger. Story probably became embellished over the years, but it's a pretty good story. For more information on the slapping technique, refer to Funk Bass book published by Hal Leonard Corporation"
+      },
+      {
+        "concept": "Mastering the Two-Finger Technique",
+        "page": 13,
+        "description": "Focus exclusively on the 'fingers' technique (as opposed to the 'thumb' technique). The thumb technique involves 'slapping' the bass with the thumb and 'popping' the strings with the index (or sometimes middle) finger, creating a percussive sound and feel. The fingers technique involves plucking the strings with the index and middle fingers, creating a sound that is generally more fluid and flowing. Once you get solid with this technique and concept, there is an unlimited number of variations waiting for you. Proper positioning: correct left hand position, correct sitting position, correct standing position. Wear bass strap as high as you can while remaining comfortable. Bass should hang at the same height on body regardless of sitting or standing"
+      },
+      {
+        "concept": "Approaching the Two-Finger Technique",
+        "page": 14,
+        "description": "Exercise starts with the second finger on the right hand and alternates 2-1-2-1. Each note must ring clearly. Notes should sound flowing and connected, rather than 'choked.' Fingers should not be totally straight nor too curled up, but rather, slightly rounded. Position left hand so that each finger 'hovers' over a different fret, always ready to press down on the string. Practice very slowly and deliberately, concentrating on precision"
+      },
+      {
+        "concept": "String Crossings",
+        "page": 14,
+        "description": "The challenge of maintaining the 2-1-2-1 alternating of the fingers when moving from one string to another. Especially challenging when moving from higher strings to lower, where there is often a tendency to 'drag' one finger across the strings. For building rock-solid technique, discipline yourself to adhere to the two-finger alternating technique firmly and rigorously. 'Raking' one finger across three or four strings can be very effective, but for solid two-finger technique, learn it right. Correct and incorrect right hand position fingering sequence shown in photos"
+      },
+      {
+        "concept": "Chromatic Exercises",
+        "page": 14,
+        "description": "The word 'chromatic' refers to playing all the notes, one fret at a time, without skipping any in between. Start slowly, playing each note four times. Set metronome at 60 beats per minute, or even slower if that's what it takes to get it perfect"
+      },
+      {
+        "concept": "Left hand strength development",
+        "page": 24,
+        "description": "Exercises to develop considerable strength in your left hand and improve string-crossing chops in your right hand. Always alternate right-hand fingers 2-1-2-1."
+      },
+      {
+        "concept": "Major scales and arpeggios",
+        "page": 25,
+        "description": "Comprehensive guide to developing technique and musicality through major scales and arpeggios in all keys. Includes key signatures and various fingering patterns."
+      },
+      {
+        "concept": "Reading notation",
+        "page": 26,
+        "description": "When notes are in extreme upper register, use 8va symbol and sometimes write notes out. Playing open strings is easy but may lack expression at slow tempos."
+      },
+      {
+        "concept": "Major scales in thirds",
+        "page": 32,
+        "description": "Playing scales in thirds improves chops dramatically and gives better understanding of music in mind and fingers. Requires strict adherence to 2-1-2-1 right-hand fingering."
+      },
+      {
+        "concept": "Variations of major scales",
+        "page": 39,
+        "description": "Practice variations to build tremendous facility in both hands and build technique, strength and endurance. Create logical fingerings that facilitate smooth shifts on the fingerboard."
+      },
+      {
+        "concept": "Additional variations of major scales",
+        "page": 40,
+        "description": "Practice variations in all twelve keys slowly at first, then gradually increase tempo. Play at different metronome speeds (60, 64, 68, 72) to learn to play fast while maintaining musicality. Focus on 2-1-2-1 technique and careful string crossing."
+      },
+      {
+        "concept": "Studies in Triplets",
+        "page": 41,
+        "description": "Variations of triplets with different string crossings. Triplets require extra concentration and effort but are fun once mastered. Different configurations of eighth and sixteenth notes, as well as different time signatures. Improves reading and technique."
+      },
+      {
+        "concept": "Major scales in triplets in thirds",
+        "page": 46,
+        "description": "Practicing major scales in triplets in thirds improves technique (both hands) and rhythmic sense. Forces you to feel the music differently. Very challenging to coordinate fingers adhering to 2-1-2-1 rule, particularly while crossing strings. Practice patterns in all keys slowly."
+      },
+      {
+        "concept": "Chapter 3 - Studies in String Crossings",
+        "page": 48,
+        "description": "Isolates musical passages requiring hands to jump from one string to another. Right hand usually requires most effort. Concentrate on keeping music flowing cleanly, efficiently and evenly. Avoid extraneous noise or string ring. Find comfortable hand position that enables dampening unwanted vibrating strings. Exercises involve variations of studies in octaves - building blocks of funk/fusion bass. Play music with good time feel (groove). Bass players provide supportive role to the rest of the band. 2-1-2-1 right-hand fingering applies for all exercises except 3.1 and 3.2 (use 1-2-1-2)."
+      },
+      {
+        "concept": "Scale variations and creativity",
+        "page": 47,
+        "description": "Exercises are invaluable for developing technique. Commit studies to memory and make up your own variations. Build solid foundation for technique rather than just memorizing notes. Major scale is not the only scale - also minors, modes, diminished, augmented, altered scales, whole tone scales, exotic scales. Try applying concepts to other scales. Play scales in thirds, fourths, fifths, other intervals. Try diminished whole-tone scale in sevenths or harmonic minor in octaves. Play arpeggio first, then scale on the way up and different one coming down. Be creative."
+      },
+      {
+        "concept": "Chapter 4 - Style Elements",
+        "page": 57,
+        "description": "Review of basic elements of style that make music sound more interesting and add personality to playing. Techniques include hammer-on, pull-off, slide, and trill."
+      },
+      {
+        "concept": "The Hammer-on",
+        "page": 57,
+        "description": "Produces a note by slamming a finger onto the fingerboard, as opposed to actually plucking the string. Previous note has been struck and is still ringing on the same string, adding extra momentum to the hammer-on. Also possible for note to be produced by hammer-on technique alone, requiring extra effort in left-hand finger. Provides variety in articulation and allows faster playing by relieving right hand of some work."
+      },
+      {
+        "concept": "The Pull-off",
+        "page": 58,
+        "description": "Close relative (cousin) of the hammer-on. Another variation in articulation that makes playing more interesting. More difficult than hammer-on. Executed by 'flicking' a left-hand finger off the string, in a downward motion. Before pulling, must make sure you have a note pressed down on another fret ready to 'take over'. Most common pair of left-hand fingers used in pull-off is the 'ring-to-index' combination, but any other pattern is possible."
+      },
+      {
+        "concept": "The Slide",
+        "page": 59,
+        "description": "Another way to get around from one note to another on the fingerboard is to slide your finger from one fret to another without lifting it up. You'll have to push down a little harder to get a smooth transition, but you ought to get the feel of it pretty quickly. Going for variety, style and personality."
+      },
+      {
+        "concept": "The Trill",
+        "page": 60,
+        "description": "Simply a hammer-on/pull-off combination that keeps repeating itself, usually fast. Might find yourself using first two fingers most often, but often third finger or even pinky might be more appropriate. Don't limit options. Practice exercises with as many variations as you can. Fingers will get stronger and you'll add one more element to your awesome arsenal of tricks."
+      },
+      {
+        "concept": "The Shake",
+        "page": 61,
+        "description": "Alternating of two notes on one string, usually fast. The shake produces both notes with the same finger, sliding back and forth, rather than two fingers hammering on and pulling off. The result is a completely different sound. Shakes are harder to play smoothly at first, requiring extra effort, but once mastered, the effort is worth it. This technique distinguishes someone who just plays the notes from someone who adds personality and makes the music more interesting to listen to, while keeping right on with taking care of business and grooving with that great time feel."
+      },
+      {
+        "concept": "The Bend",
+        "page": 62,
+        "description": "A way to alter the pitch of a note, without moving to another fret. Not the kind of bends you get when you go swimming too soon after lunch. Bending the string up or down will raise the pitch of the note. The amount the pitch is raised depends on how much you bend the string. Be careful with this technique - if you use it too much, it might sound corny. If you use it sparingly and tastefully, it can add a little 'spice' to your playing. Think of these techniques as garlic - a little bit goes a long way, but too much is like... well, you know."
+      },
+      {
+        "concept": "Chapter 5 - Establishing a Groove",
+        "page": 63,
+        "description": "The chapter focuses on establishing a groove - playing music over and over again with drum machine or real live drummer. Examples (not referred to as 'exercises') are intended to be played repeatedly. Concentrate on locking in and laying down a solid foundation for the rest of the band. When you chose to be a bass player, you committed your willingness to play repetitive figures over and over (and over) again, often with no paint or no variation. It's just part of the gig. But what a wonderful gig it is! Everyone else relies upon us, along with the drummer, to lay it down and establish the groove. Let the music breathe, keep it simple and groove. Tempos have been deliberately omitted. Use the recorded supplement as a guide, but feel free to experiment with different tempos. Bass is recorded on the right side and drums on the left for isolation and experimentation with different methods of practicing. Playing in all twelve keys."
+      },
+      {
+        "concept": "Chapter 6 - Building a Vocabulary for Funk/Fusion Soloing",
+        "page": 81,
+        "description": "This chapter focuses on building a vocabulary for funk/fusion soloing. The goal is to observe the style of music being performed and understand the musical concepts. The examples are bite-size chunks of musical ideas that can be developed into solos or inserted within solos. A good solo tells a story through motivic development, phrase linking, and thematic approach. Rather than giving a dissertation on funk/fusion bass improvisation, the chapter presents musical licks that will enhance playing and help highlight creativity and overall musical abilities in between laying down grooves. These licks get pretty intricate, so start slowly and practice diligently. The goal is to understand concepts and feels, rather than just memorizing notes. Once mastered, you'll be able to make up your own licks and make them fit into your own music. Solos should sound spontaneous, not memorized and rehearsed. The chapter places these bite-size chunks in the context of grooves. The examples are meant to whet your appetite and get you used to some things to think about. Naturally, the best way to understand the musical concepts is to observe this style of music being performed (go to concerts and clubs) and to hear it being played properly (listen to the recordings in the Discography). These bite-size chunks are placed in the context of GROOVES. Check out as much live music as you can, and keep working on your technique and play, play, play!"
+      },
+      {
+        "concept": "Discography",
+        "page": 88,
+        "description": "A comprehensive discography of funk/fusion bass recordings. The best way to get a grasp of a musical concept is to immerse yourself in it - listen to it as much as possible and try to imitate what you hear. Compare different bass players and their styles and start asking questions about what makes each unique. The selections were chosen because of the way they showcase the groove, as well as some awesome soloing. The suggested recordings cover quite a wide array of fingerstyle funk/fusion bass, from Bernard Odum/Bootsy Collins/Charles Sherrell idiom that helped polarize James Brown's soul style of funk, to the fretless-oriented inimitable style of Jaco Pastorius, to the rapid-fire machine-gun funk of Tower of Power, to the pop-oriented Earth, Wind & Fire. Other players like Gary Willis, Jimmy Haslip and Stuart Hamm have been included, primarily to highlight their soloing abilities. Naturally, this list couldn't include every great bass player on every great recording of funk/fusion music. All of the players listed below are important and worthwhile. Listen closely and enjoy."
+      },
+      {
+        "concept": "Acknowledgments",
+        "page": 92,
+        "description": "Thanks to everyone who helped get this project off the ground, including bass players who reviewed the manuscript: Verdine White, Steve Bailey, Nathan East, Abraham Laboriel, Francis 'Rocco' Prestia, and Victor Wooten. Thanks also to recording sessions, groove sessions, photo sessions contributors, proofreaders, vinyl junkies, computer geeks, friends, family and the first-rate publishing outfit."
+      },
+      {
+        "concept": "Notation Legend",
+        "page": 94,
+        "description": "Comprehensive guide to reading bass tablature notation including rhythm slashes, musical staff, tablature symbols, and various playing techniques such as half-step bend, whole-step bend, grace note bend, slight (microtone) bend, bend and release, pre-bend, vibrato, wide vibrato, hammer-on, pull-off, legato slide, shift slide, trill, tapping, natural harmonic, pinch harmonic, pick scrape, muffled strings, palm mute, rake, tremolo picking, and vibrato bar techniques."
+      },
+      {
+        "concept": "About the Author",
+        "page": 95,
+        "description": "Jon Liebman holds a Bachelor of Music degree in Jazz Studies and Contemporary Media from Wayne State University in Detroit and a Master of Music degree in Studio Music and Jazz from the University of Miami in Coral Gables, Florida. He has performed extensively throughout the world, playing electric and acoustic bass for everything from jazz gigs and club dates to national television shows and full-scale concerts at Madison Square Garden. He has played in pit orchestras of many Broadway shows. Jon has toured with jazz greats Cleo Laine and Buddy De Franco, and has played bass for The Fifth Dimension, The Coasters, The Drifters, The Platters, The Chiffons, Billy Eckstine, Eartha Kitt, José Feliciano, Julio Iglesias and many others. He has also recorded numerous commercial jingles, soundtracks, films, and industrial shows, including several projects for Ford, General Motors and the NBA. As a writer, Jon has been commissioned countless times to write arrangements for musical ensembles of all types and sizes. He has also worked as a music proofreader and copyist. In addition to Funk/Fusion Bass, Jon is the author of Funk Bass and Stuart Hamm: The Bass Book, both published by Hal Leonard Corporation. Currently, Jon is the Director of the Specs Howard School of Broadcast Arts, Inc., in Southfield, Michigan."
+      },
+      {
+        "concept": "Endorsements",
+        "page": 96,
+        "description": "Professional endorsements from renowned bassists including Verdine White (Earth, Wind & Fire), Steve Bailey (The Rippingtons, David Benoit, Larry Carlton), Francis 'Rocco' Prestia (Tower of Power), Nathan East (Fourplay, Phil Collins, Eric Clapton), Victor Wooten (Béla Fleck & the Flecktones), and Abraham Laboriel (L.A. studio legend). All endorsers praised the book for its comprehensive approach, emphasis on groove and foundation, and practical information for modern-day bassists."
+      }
+    ]
+  }
 }
