@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prof de Basse - Recherche Universelle</title>
+    <title>Prof de Basse V2 - Safe JSON</title>
     <style>
         * {
             margin: 0;
@@ -15,163 +15,101 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 20px;
         }
         
-        .container {
-            max-width: 1400px;
+        .app-container {
+            max-width: 1600px;
             margin: 0 auto;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         
-        header {
+        /* HEADER */
+        .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 40px;
+            padding: 20px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
         }
         
-        header h1 {
-            font-size: 42px;
+        .header h1 {
+            font-size: 36px;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         
-        .subtitle {
-            font-size: 18px;
-            opacity: 0.95;
-            margin: 10px 0;
-        }
-        
-        .stats {
+        .stats-bar {
             display: flex;
             justify-content: center;
-            gap: 30px;
-            margin-top: 20px;
+            gap: 20px;
+            margin: 15px 0;
             flex-wrap: wrap;
         }
         
-        .stat-item {
+        .stat {
             background: rgba(255,255,255,0.2);
-            padding: 15px 25px;
-            border-radius: 12px;
-        }
-        
-        .stat-number {
-            font-size: 32px;
-            font-weight: bold;
-        }
-        
-        .stat-label {
+            padding: 8px 16px;
+            border-radius: 20px;
             font-size: 14px;
-            opacity: 0.9;
         }
         
-        main {
-            padding: 40px;
+        /* DIAGNOSTIC PANEL */
+        .diagnostic {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
         }
         
-        .search-section {
-            background: #f8f9fa;
+        .diagnostic.success {
+            background: #e8f5e9;
+            border-left-color: #4caf50;
+        }
+        
+        .diagnostic.error {
+            background: #ffebee;
+            border-left-color: #f44336;
+        }
+        
+        /* SEARCH */
+        .search-container {
             padding: 30px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            background: white;
         }
         
-        .search-bar {
-            display: flex;
-            gap: 15px;
+        .search-box {
+            position: relative;
             margin-bottom: 20px;
         }
         
         #searchInput {
-            flex: 1;
-            padding: 15px 20px;
-            font-size: 16px;
-            border: 2px solid #667eea;
-            border-radius: 10px;
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            font-size: 18px;
+            border: 3px solid #667eea;
+            border-radius: 15px;
             outline: none;
         }
         
-        #searchInput:focus {
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: #667eea;
         }
         
-        .search-btn {
-            padding: 15px 35px;
-            background: #667eea;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        
-        .search-btn:hover {
-            background: #764ba2;
-        }
-        
-        .filters {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        
-        .filter-chip {
-            padding: 8px 16px;
-            background: white;
-            border: 2px solid #e0e0e0;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-        
-        .filter-chip:hover {
-            border-color: #667eea;
-        }
-        
-        .filter-chip.active {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
-        }
-        
-        .search-info {
-            margin-top: 15px;
-            padding: 15px;
-            background: white;
-            border-radius: 8px;
-            font-size: 14px;
-            color: #666;
-        }
-        
-        .results-section {
-            margin-top: 30px;
-        }
-        
-        .results-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        
-        .results-header h2 {
-            color: #333;
-            font-size: 24px;
-        }
-        
-        .results-count {
-            color: #666;
-            font-size: 14px;
+        /* RESULTS */
+        .results-container {
+            flex: 1;
+            padding: 0 30px 30px;
         }
         
         .results-grid {
@@ -182,492 +120,430 @@
         
         .resource-card {
             background: white;
-            border: 2px solid #e0e0e0;
+            border: 1px solid #e9ecef;
             border-radius: 12px;
-            padding: 20px;
+            overflow: hidden;
             transition: all 0.3s;
-            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         
         .resource-card:hover {
-            border-color: #667eea;
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
-            transform: translateY(-2px);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
         
         .card-header {
-            display: flex;
-            align-items: flex-start;
-            gap: 12px;
-            margin-bottom: 15px;
-        }
-        
-        .card-icon {
-            font-size: 32px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
         }
         
         .card-title {
-            flex: 1;
             font-size: 16px;
             font-weight: 600;
             color: #333;
-            line-height: 1.4;
-        }
-        
-        .card-type {
-            background: #667eea;
-            color: white;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
+            margin-bottom: 5px;
         }
         
         .card-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-bottom: 15px;
-        }
-        
-        .meta-tag {
-            background: #f0f0f0;
-            padding: 4px 10px;
-            border-radius: 12px;
             font-size: 12px;
             color: #666;
         }
         
-        .card-actions {
-            display: flex;
-            gap: 10px;
+        .card-body {
+            padding: 15px;
         }
         
-        .action-btn {
-            flex: 1;
-            padding: 10px;
-            border: none;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 600;
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
             cursor: pointer;
-            transition: all 0.2s;
         }
         
-        .action-btn.primary {
-            background: #667eea;
-            color: white;
+        /* LIGHTBOX */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
         }
         
-        .action-btn.primary:hover {
-            background: #764ba2;
+        .lightbox.active {
+            display: flex;
         }
         
-        .action-btn.secondary {
-            background: #f0f0f0;
-            color: #333;
+        .lightbox img {
+            max-width: 95%;
+            max-height: 95%;
+            border-radius: 8px;
         }
         
-        .action-btn.secondary:hover {
-            background: #e0e0e0;
-        }
-        
-        .no-results {
-            text-align: center;
-            padding: 60px 20px;
-            color: #666;
-        }
-        
-        .no-results-icon {
-            font-size: 64px;
-            margin-bottom: 20px;
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
         }
         
         .loading {
             text-align: center;
-            padding: 40px;
-            color: #666;
+            padding: 50px;
             font-size: 18px;
-        }
-        
-        .error {
-            background: #ffebee;
-            border: 2px solid #ef5350;
-            color: #c62828;
-            padding: 20px;
-            border-radius: 12px;
-            margin: 20px 0;
-        }
-        
-        footer {
-            background: #f8f9fa;
-            padding: 30px;
-            text-align: center;
             color: #666;
-            font-size: 14px;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+        }
+        
+        .debug-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
         }
     </style>
-
-<!-- Mis à jour automatiquement le 2025-11-13 07:57:33 par update-site.py -->
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🎸 Prof de Basse</h1>
-            <div class="subtitle">Moteur de recherche universel - Toutes vos ressources en un seul endroit</div>
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-number" id="statTotal">3429</div>
-                    <div class="stat-label">Ressources totales</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="statImages">3294</div>
-                    <div class="stat-label">Images OCR</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="statMethods">16</div>
-                    <div class="stat-label">Méthodes</div>
-                </div>
+    <div class="app-container">
+        <header class="header">
+            <h1>🎸 Prof de Basse V2 - Safe Mode</h1>
+            <div class="stats-bar">
+                <div class="stat">📚 <span id="totalResources">...</span> ressources</div>
+                <div class="stat">🔧 <span id="loadStatus">Chargement...</span></div>
+                <div class="stat">📖 Real Book F : <span id="realBookF">...</span></div>
             </div>
         </header>
         
-        <main>
-            <div class="search-section">
-                <div class="search-bar">
-                    <input 
-                        type="text" 
-                        id="searchInput" 
-                        placeholder="🔍 Rechercher une partition, un morceau, une technique..."
-                        autocomplete="off"
-                    >
-                    <button class="search-btn" onclick="performSearch()">Rechercher</button>
-                </div>
-                
-                <div class="filters">
-                    <div class="filter-chip active" data-type="all" onclick="filterByType('all')">
-                        Tout
-                    </div>
-                    <div class="filter-chip" data-type="image" onclick="filterByType('image')">
-                        📸 Images
-                    </div>
-                    <div class="filter-chip" data-type="mp3" onclick="filterByType('mp3')">
-                        🎵 MP3
-                    </div>
-                    <div class="filter-chip" data-type="pdf" onclick="filterByType('pdf')">
-                        📄 PDF
-                    </div>
-                </div>
-                
-                <div class="search-info" id="searchInfo">
-                    💡 Astuce : Recherchez par titre, compositeur, tonalité, ou technique (ex: "So What", "Miles Davis", "Dm", "modal")
-                </div>
-            </div>
-            
-            <div class="results-section">
-                <div class="results-header">
-                    <h2>Résultats</h2>
-                    <div class="results-count" id="resultsCount">0 résultats</div>
-                </div>
-                
-                <div id="resultsContainer">
-                    <div class="loading">⏳ Chargement des ressources...</div>
-                </div>
-            </div>
-        </main>
+        <div id="diagnosticPanel" class="diagnostic">
+            <h3>🔍 Diagnostic de chargement JSON...</h3>
+            <div id="diagnosticContent">Analyse en cours...</div>
+        </div>
         
-        <footer>
-            <p><strong>Prof de Basse V3.0</strong> - Système de recherche universel</p>
-            <p style="margin-top: 10px;">🎯 <strong id="footerTotal">0</strong> ressources indexées et prêtes à l'emploi</p>
-        </footer>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Rechercher..." onkeyup="performSearch()">
+                <div class="search-icon">🔍</div>
+            </div>
+        </div>
+        
+        <div class="results-container">
+            <div id="resultsGrid" class="results-grid">
+                <div class="loading">🎸 Chargement et diagnostic...</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <button class="lightbox-close" onclick="closeLightbox()">✕ Fermer</button>
+        <img id="lightboxImg" src="" alt="">
     </div>
     
     <script>
-        // ==========================================
-        // VARIABLES GLOBALES
-        // ==========================================
-        
-        let allResources = [];
-        let filteredResources = [];
-        let activeFilter = 'all';
-        const BASE_URL = 'https://11drumboy11.github.io/Prof-de-basse-V2/';
-        
-        // ==========================================
-        // INITIALISATION
-        // ==========================================
-        
-        async function init() {
-            console.log('🎸 Initialisation du système de recherche...');
+        class SafeJSONLoader {
+            constructor() {
+                this.allResources = [];
+                this.initialized = false;
+                this.diagnosticInfo = [];
+            }
             
-            try {
-                // Charger les ressources
-                const response = await fetch('megasearch.json');
+            log(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString();
+                this.diagnosticInfo.push(`[${timestamp}] ${type.toUpperCase()}: ${message}`);
+                console.log(`${type.toUpperCase()}: ${message}`);
+                this.updateDiagnostic();
+            }
+            
+            updateDiagnostic() {
+                const panel = document.getElementById('diagnosticPanel');
+                const content = document.getElementById('diagnosticContent');
                 
-                if (!response.ok) {
-                    throw new Error(`Erreur HTTP: ${response.status}`);
+                const lastEntries = this.diagnosticInfo.slice(-10).join('\n');
+                content.innerHTML = `<div class="debug-info">${lastEntries}</div>`;
+                
+                // Déterminer le style du panel
+                const hasError = this.diagnosticInfo.some(entry => entry.includes('ERROR'));
+                const hasSuccess = this.diagnosticInfo.some(entry => entry.includes('Données chargées'));
+                
+                if (hasError) {
+                    panel.className = 'diagnostic error';
+                } else if (hasSuccess) {
+                    panel.className = 'diagnostic success';
+                } else {
+                    panel.className = 'diagnostic';
+                }
+            }
+            
+            async tryLoadJSON(url) {
+                try {
+                    this.log(`Tentative de chargement: ${url}`);
+                    
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    
+                    // Lire comme texte d'abord pour diagnostiquer
+                    const text = await response.text();
+                    this.log(`Fichier chargé: ${text.length} caractères`);
+                    
+                    // Vérifications de base
+                    if (!text.trim().startsWith('{')) {
+                        throw new Error('Le fichier ne commence pas par {');
+                    }
+                    
+                    if (!text.trim().endsWith('}')) {
+                        throw new Error('Le fichier ne finit pas par }');
+                    }
+                    
+                    // Essayer de parser le JSON
+                    let data;
+                    try {
+                        data = JSON.parse(text);
+                        this.log(`JSON parsé avec succès`);
+                    } catch (parseError) {
+                        this.log(`Erreur de parsing JSON: ${parseError.message}`, 'error');
+                        
+                        // Tentative de nettoyage
+                        this.log('Tentative de nettoyage du JSON...', 'warning');
+                        const cleanedText = this.cleanJSON(text);
+                        data = JSON.parse(cleanedText);
+                        this.log(`JSON nettoyé et parsé avec succès`);
+                    }
+                    
+                    // Extraire les ressources
+                    let resources = [];
+                    if (data.resources && Array.isArray(data.resources)) {
+                        resources = data.resources;
+                    } else if (data.all_resources && Array.isArray(data.all_resources)) {
+                        resources = data.all_resources;
+                    } else if (Array.isArray(data)) {
+                        resources = data;
+                    } else {
+                        this.log(`Structure JSON inconnue. Clés trouvées: ${Object.keys(data).join(', ')}`, 'warning');
+                        return null;
+                    }
+                    
+                    this.log(`Ressources extraites: ${resources.length}`);
+                    return resources;
+                    
+                } catch (error) {
+                    this.log(`Erreur lors du chargement ${url}: ${error.message}`, 'error');
+                    return null;
+                }
+            }
+            
+            cleanJSON(text) {
+                // Supprimer les caractères non-printables
+                let cleaned = text.replace(/[\x00-\x1F\x7F-\x9F]/g, '');
+                
+                // Supprimer les virgules avant } ou ]
+                cleaned = cleaned.replace(/,(\s*[}\]])/g, '$1');
+                
+                // Supprimer les doubles virgules
+                cleaned = cleaned.replace(/,,+/g, ',');
+                
+                return cleaned;
+            }
+            
+            async init() {
+                this.log('🚀 Initialisation Safe JSON Loader');
+                
+                // Essayer plusieurs sources dans l'ordre
+                const sources = [
+                    'megasearch.json',
+                    'mega-search-index.json'
+                ];
+                
+                for (const source of sources) {
+                    const resources = await this.tryLoadJSON(source);
+                    if (resources && resources.length > 0) {
+                        this.allResources = resources;
+                        this.initialized = true;
+                        this.log(`✅ Données chargées depuis ${source}: ${resources.length} ressources`);
+                        break;
+                    }
                 }
                 
-                const data = await response.json();
-                console.log('📦 Données brutes:', data);
+                if (!this.initialized) {
+                    this.log('❌ Aucune source JSON valide trouvée', 'error');
+                    return false;
+                }
                 
-                // Traiter les ressources
-                allResources = processResources(data);
-                filteredResources = allResources;
-                
-                console.log(`✅ ${allResources.length} ressources chargées`);
-                
-                // Mettre à jour les stats
-                updateStats();
-                
-                // Afficher toutes les ressources
-                displayResults(allResources);
-                
-            } catch (error) {
-                console.error('❌ Erreur chargement:', error);
-                showError('Erreur lors du chargement des ressources. Vérifiez que megasearch.json existe.');
+                // Analyser les données
+                this.analyzeData();
+                return true;
             }
-        }
-        
-        // ==========================================
-        // TRAITEMENT DES RESSOURCES
-        // ==========================================
-        
-        function processResources(data) {
-            const resources = data.resources || [];
             
-            return resources.map(resource => {
-                // Construire l'URL complète
-                const path = resource.path || resource.filename || '';
-                const url = resource.url || '';
+            analyzeData() {
+                this.log('📊 Analyse des données...');
                 
-                // Créer le texte de recherche
-                const searchText = [
-                    resource.title || '',
-                    resource.metadata?.ocr_text || '',
-                    resource.metadata?.composer || '',
-                    resource.metadata?.key || '',
-                    resource.metadata?.techniques?.join(' ') || ''
-                ].join(' ').toLowerCase();
+                // Analyser Real Book F
+                const realBookF = this.allResources.filter(r => {
+                    const searchIn = [
+                        r.metadata?.method || '',
+                        r.path || '',
+                        r.url || ''
+                    ].join(' ').toLowerCase();
+                    
+                    return searchIn.includes('realbook bass f') || 
+                           searchIn.includes('realbook%20bass%20f');
+                });
+                
+                this.log(`📖 Real Book F trouvé: ${realBookF.length} entrées`);
+                
+                // Analyser les types
+                const types = {};
+                this.allResources.forEach(r => {
+                    types[r.type] = (types[r.type] || 0) + 1;
+                });
+                
+                this.log(`📋 Types: ${Object.entries(types).map(([k,v]) => `${k}:${v}`).join(', ')}`);
                 
                 return {
-                    ...resource,
-                    url: url,
-                    searchText: searchText
+                    total: this.allResources.length,
+                    realBookF: realBookF.length,
+                    types
                 };
-            });
+            }
+            
+            search(query) {
+                if (!this.initialized) return [];
+                
+                if (!query || !query.trim()) {
+                    return this.allResources.slice(0, 50); // Limite par défaut
+                }
+                
+                const searchTerms = query.toLowerCase().trim().split(/\s+/);
+                
+                const results = this.allResources.filter(resource => {
+                    const searchText = [
+                        resource.title || '',
+                        resource.search_text || '',
+                        resource.metadata?.method || '',
+                        resource.path || '',
+                        resource.filename || ''
+                    ].join(' ').toLowerCase();
+                    
+                    return searchTerms.every(term => searchText.includes(term));
+                });
+                
+                return results.slice(0, 100); // Limite résultats
+            }
         }
         
-        // ==========================================
-        // RECHERCHE
-        // ==========================================
+        // Variables globales
+        let searchEngine = null;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('🚀 Safe Mode - Prof de Basse V2');
+            
+            searchEngine = new SafeJSONLoader();
+            const loaded = await searchEngine.init();
+            
+            if (loaded) {
+                const stats = searchEngine.analyzeData();
+                document.getElementById('totalResources').textContent = stats.total;
+                document.getElementById('loadStatus').textContent = 'OK';
+                document.getElementById('realBookF').textContent = stats.realBookF;
+                
+                // Afficher quelques résultats par défaut
+                performSearch();
+                
+            } else {
+                document.getElementById('loadStatus').textContent = 'ERREUR';
+                document.getElementById('resultsGrid').innerHTML = `
+                    <div class="no-results">
+                        <h3>❌ Impossible de charger les données</h3>
+                        <p>Consultez le diagnostic ci-dessus pour plus d'informations.</p>
+                    </div>
+                `;
+            }
+        });
         
         function performSearch() {
-            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            if (!searchEngine || !searchEngine.initialized) return;
             
-            if (query === '') {
-                filteredResources = allResources;
-            } else {
-                filteredResources = allResources.filter(resource => {
-                    return resource.searchText.includes(query);
-                });
-            }
-            
-            // Appliquer le filtre actif
-            if (activeFilter !== 'all') {
-                filteredResources = filteredResources.filter(r => r.type === activeFilter);
-            }
-            
-            displayResults(filteredResources);
-            updateResultsCount(query, filteredResources.length);
+            const query = document.getElementById('searchInput').value;
+            const results = searchEngine.search(query);
+            displayResults(results);
         }
-        
-        function filterByType(type) {
-            activeFilter = type;
-            
-            // Mettre à jour l'UI
-            document.querySelectorAll('.filter-chip').forEach(chip => {
-                chip.classList.remove('active');
-            });
-            document.querySelector(`[data-type="${type}"]`).classList.add('active');
-            
-            performSearch();
-        }
-        
-        // ==========================================
-        // AFFICHAGE
-        // ==========================================
         
         function displayResults(results) {
-            const container = document.getElementById('resultsContainer');
+            const grid = document.getElementById('resultsGrid');
             
             if (results.length === 0) {
-                container.innerHTML = `
+                grid.innerHTML = `
                     <div class="no-results">
-                        <div class="no-results-icon">🔍</div>
-                        <h2>Aucun résultat trouvé</h2>
-                        <p>Essayez avec d'autres mots-clés</p>
+                        <h3>🔍 Aucun résultat</h3>
+                        <p>Essayez d'autres mots-clés</p>
                     </div>
                 `;
                 return;
             }
             
-            const html = `
-                <div class="results-grid">
-                    ${results.map(r => createResourceCard(r)).join('')}
-                </div>
-            `;
-            
-            container.innerHTML = html;
+            grid.innerHTML = results.map(resource => createResourceCard(resource)).join('');
         }
         
         function createResourceCard(resource) {
-            const icon = getTypeIcon(resource.type);
-            const tags = getMetaTags(resource);
-            const url = resource.url || '';
+            const title = resource.title || 'Sans titre';
+            const method = resource.metadata?.method || 'Méthode inconnue';
+            const page = resource.metadata?.page || '';
+            const imageUrl = resource.type === 'image' ? resource.url : null;
             
             return `
                 <div class="resource-card">
                     <div class="card-header">
-                        <div class="card-icon">${icon}</div>
-                        <div class="card-title">${resource.title || 'Sans titre'}</div>
-                        <div class="card-type">${resource.type || 'unknown'}</div>
-                    </div>
-                    
-                    ${tags.length > 0 ? `
+                        <div class="card-title">${title}</div>
                         <div class="card-meta">
-                            ${tags.map(tag => `<span class="meta-tag">${tag}</span>`).join('')}
+                            ${method} ${page ? `• Page ${page}` : ''}
                         </div>
-                    ` : ''}
-                    
-                    <div class="card-actions">
-                        <button class="action-btn primary" onclick="openResource('${url}')">
-                            🔗 Ouvrir
-                        </button>
-                        <button class="action-btn secondary" onclick="copyUrl('${url}')">
-                            📋 Copier
-                        </button>
+                    </div>
+                    <div class="card-body">
+                        ${imageUrl ? `
+                            <img src="${imageUrl}" 
+                                 alt="${title}" 
+                                 class="card-image" 
+                                 onclick="openLightbox('${imageUrl}')"
+                                 loading="lazy"
+                                 onerror="this.style.display='none'">
+                        ` : '<div style="height:200px;background:#f8f9fa;display:flex;align-items:center;justify-content:center;">📄 Ressource</div>'}
                     </div>
                 </div>
             `;
         }
         
-        function getTypeIcon(type) {
-            const icons = {
-                'image': '🖼️',
-                'mp3': '🎵',
-                'pdf': '📄',
-                'html': '📝',
-                'json': '📊'
-            };
-            return icons[type] || '📁';
+        function openLightbox(src) {
+            document.getElementById('lightboxImg').src = src;
+            document.getElementById('lightbox').classList.add('active');
         }
         
-        function getMetaTags(resource) {
-            const tags = [];
-            const metadata = resource.metadata || {};
-            
-            if (metadata.composer) tags.push(`🎹 ${metadata.composer}`);
-            if (metadata.key) tags.push(`🎼 ${metadata.key}`);
-            if (metadata.page) tags.push(`📄 p.${metadata.page}`);
-            if (metadata.track) tags.push(`#${metadata.track}`);
-            if (metadata.techniques && metadata.techniques.length > 0) {
-                tags.push(...metadata.techniques.slice(0, 2).map(t => `⚡ ${t}`));
-            }
-            
-            return tags.slice(0, 5);
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
         }
         
-        // ==========================================
-        // ACTIONS
-        // ==========================================
-        
-        function openResource(url) {
-            if (url && url.trim() !== '') {
-                window.open(url, '_blank');
-            } else {
-                alert('⚠️ URL non disponible pour cette ressource');
-            }
-        }
-        
-        function copyUrl(url) {
-            if (url && url.trim() !== '') {
-                navigator.clipboard.writeText(url).then(() => {
-                    alert('✅ URL copiée dans le presse-papiers !');
-                }).catch(err => {
-                    console.error('Erreur copie:', err);
-                    alert('❌ Erreur lors de la copie');
-                });
-            } else {
-                alert('⚠️ URL non disponible pour cette ressource');
-            }
-        }
-        
-        // ==========================================
-        // STATS
-        // ==========================================
-        
-        function updateStats() {
-            const total = allResources.length;
-            const images = allResources.filter(r => r.type === 'image').length;
-            
-            // Compter les méthodes uniques
-            const methods = new Set();
-            allResources.forEach(r => {
-                const path = r.path || '';
-                if (path.includes('Methodes/')) {
-                    const methodMatch = path.match(/Methodes\/([^\/]+)/);
-                    if (methodMatch) methods.add(methodMatch[1]);
-                }
-            });
-            
-            document.getElementById('statTotal').textContent = total;
-            document.getElementById('statImages').textContent = images;
-            document.getElementById('statMethods').textContent = methods.size;
-            document.getElementById('footerTotal').textContent = total;
-        }
-        
-        function updateResultsCount(query, count) {
-            const countEl = document.getElementById('resultsCount');
-            const infoEl = document.getElementById('searchInfo');
-            
-            if (query) {
-                countEl.textContent = `${count} résultat${count > 1 ? 's' : ''} pour "${query}"`;
-                infoEl.innerHTML = `🎯 <strong>${count}</strong> ressource${count > 1 ? 's trouvées' : ' trouvée'}`;
-            } else {
-                countEl.textContent = `${count} ressources disponibles`;
-                infoEl.innerHTML = '💡 Astuce : Recherchez par titre, compositeur, tonalité, ou technique';
-            }
-        }
-        
-        function showError(message) {
-            document.getElementById('resultsContainer').innerHTML = `
-                <div class="error">
-                    <h3>❌ Erreur</h3>
-                    <p>${message}</p>
-                </div>
-            `;
-        }
-        
-        // ==========================================
-        // EVENT LISTENERS
-        // ==========================================
-        
-        document.addEventListener('DOMContentLoaded', () => {
-            const searchInput = document.getElementById('searchInput');
-            
-            searchInput.addEventListener('input', performSearch);
-            searchInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') performSearch();
-            });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
         });
-        
-        // ==========================================
-        // DÉMARRAGE
-        // ==========================================
-        
-        init();
-        
-        console.log('%c🎸 Prof de Basse V3.0', 'font-size: 20px; color: #667eea; font-weight: bold;');
     </script>
 </body>
 </html>
