@@ -111,16 +111,79 @@ class MP3MatcherV2:
     # ÉTAPE 3 : MATCHING
     # ==========================================
     
+    def create_automatic_mapping(self) -> Dict[str, str]:
+        """Crée mapping automatique MP3 folders → Method names"""
+        mapping = {}
+        
+        # Fonction de normalisation
+        def normalize(name: str) -> str:
+            """Normalise un nom pour comparaison"""
+            import re
+            # Enlever version, MP3, v4.0, etc.
+            name = re.sub(r'_v\d+\.\d+', '', name)
+            name = re.sub(r'\s+MP3', '', name, flags=re.IGNORECASE)
+            name = re.sub(r'[_-]', ' ', name)
+            name = name.lower().strip()
+            return name
+        
+        # Pour chaque dossier MP3
+        for mp3_folder in self.mp3_index['methods'].keys():
+            mp3_normalized = normalize(mp3_folder)
+            
+            best_match = None
+            best_score = 0
+            
+            # Chercher meilleure correspondance
+            for method_name in self.exercises.keys():
+                method_normalized = normalize(method_name)
+                
+                # Calcul similarité simple
+                score = 0
+                mp3_words = set(mp3_normalized.split())
+                method_words = set(method_normalized.split())
+                
+                # Mots en commun
+                common = mp3_words & method_words
+                score = len(common) * 20
+                
+                # Bonus si contient "funk", "paul", "liebman", etc.
+                key_words = ['funk', 'disco', 'paul', 'westwood', 'liebman', 'jon', 'john']
+                for word in key_words:
+                    if word in mp3_normalized and word in method_normalized:
+                        score += 15
+                
+                # Correspondance exacte partielle
+                if '70' in mp3_normalized and '70' in method_normalized:
+                    score += 30
+                if 'funk' in mp3_normalized and 'funk' in method_normalized:
+                    score += 20
+                if 'westwood' in mp3_normalized and 'westwood' in method_normalized:
+                    score += 30
+                if ('liebman' in mp3_normalized or 'jon' in mp3_normalized or 'john' in mp3_normalized) and \
+                   ('liebman' in method_normalized or 'jon' in method_normalized):
+                    score += 30
+                
+                if score > best_score:
+                    best_score = score
+                    best_match = method_name
+            
+            # Accepter si score > 40
+            if best_score >= 40 and best_match:
+                mapping[mp3_folder] = best_match
+        
+        return mapping
+    
     def match_by_method(self):
         """Match MP3 ↔ Exercices par méthode"""
         print("🔗 ÉTAPE 3 : Matching MP3 ↔ Exercices...\n")
         
-        # Mapper noms de dossiers MP3 → Méthodes
-        method_mapping = {
-            '70 Funk & Disco bass MP3': '70s Funk & Disco Bass_v4.0',
-            'Paul westwood MP3': 'Paul westwood 1-2_v4.0',
-            'John Liebman Funk Fusion Mp3': 'Jon Liebman - Funk Fusion Bass_v4.0'
-        }
+        # Créer mapping automatique intelligent
+        method_mapping = self.create_automatic_mapping()
+        
+        print("📋 Mappings détectés :")
+        for mp3_folder, method_name in method_mapping.items():
+            print(f"   {mp3_folder} → {method_name}")
+        print()
         
         for mp3_folder, method_name in method_mapping.items():
             if mp3_folder not in self.mp3_index['methods']:
