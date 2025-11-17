@@ -1,91 +1,81 @@
-# Pratique - Conversion V4.0
+# Pratique
 
-## 🎯 Méthode OCR par Zones
+## 📋 Informations générales
 
-Cette conversion utilise la **technologie V4.0** avec analyse intelligente par zones pour maximiser la précision.
+- **Catégorie** : theory
+- **Style musical** : general
+- **Nombre de pages** : 414
+- **Date de traitement** : 17/11/2025
 
-## 📊 Statistiques
+## 📊 Statistiques du contenu
 
-- **Pages converties :** 414
-- **MP3 détectés :** 0
-- **Tonalités extraites :** 0
-- **Techniques détectées :** 0
-- **Format images :** PNG
-- **Erreurs OCR :** 414
+- **Morceaux identifiés** : 1
+- **Exercices techniques** : 355
+- **Concepts théoriques** : 70
+- **Total d'éléments** : 426
 
-## 🎯 Analyse par Zones V4.0
+## 🎵 Morceaux principaux
 
-### Zone Titre (0-20%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 414
-- **Réussites :** 0 (0%)
-- **Extraction :** Titre, compositeur, tonalité
+- **Morceau dans le style Hip Hop** (page 270) - Emmanuel Somenzi
 
-### Zone Partition (20-90%)
-- **OCR :** 🎼 Désactivé (image conservée)
-- **Pages traitées :** 0
-- **Conservation :** 100% des partitions gardées en image PNG
 
-### Zone Footer (90-100%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 0
-- **Réussites :** 0 (NaN%)
-- **Extraction :** Numéro de page, track number
 
-## 📁 Structure (Format V4.0)
+## 💪 Exercices
 
-```
-📦 Archive
-├── 📄 index.html          # Navigation visuelle locale
-├── 📄 songs_index.json    # Format V4.0 avec métadonnées zones
-├── 📄 README.md           # Ce fichier
-└── 📁 assets/
-    └── 📁 pages/          # Images des pages
-        ├── page_001.png
-        ├── page_002.png
-        └── ...
-```
+- **Exercice numéro 01 - Unisson basse/batterie** (page 3) - débutant
+- **Exercice numéro 02 - Batterie mesures paires, basse mesures impaires** (page 4) - débutant
+- **Exercice numéro 03 - Basse mesures paires, batterie mesures impaires** (page 5) - débutant
+- **Exercice numéro 04 - Batterie temps 1-2, basse temps 3-4** (page 6) - intermédiaire
+- **Exercice numéro 05 - Basse temps 1-2, batterie temps 3-4** (page 7) - intermédiaire
+- **Exercice numéro 06 - Batterie temps 1-2-3, basse temps 4** (page 8) - intermédiaire
+- **Exercice numéro 07 - Batterie temps 1-2-4, basse temps 3** (page 9) - intermédiaire
+- **Exercice numéro 08 - Batterie temps 1-3-4, basse temps 2** (page 10) - intermédiaire
+- **Exercice numéro 09 - Basse temps 1, batterie temps 2-3-4** (page 11) - intermédiaire
+- **Exercice numéro 10 - Batterie temps 1-3, basse temps 2-4** (page 12) - intermédiaire
 
-## 🚀 Intégration avec le Mega Moteur
 
-### Étape 1 : Décompresser
-```bash
-unzip Pratique_v4.0.zip
-```
+... et 345 autres exercices
 
-### Étape 2 : Déplacer dans Methodes/
-```bash
-mv extracted_folder Methodes/
-```
 
-### Étape 3 : Lancer la fusion
-```bash
-python3 fusion-ultimate-v4.py
-```
+## 📖 Concepts théoriques
 
-Le fichier `songs_index.json` est au format V4.0 compatible avec :
-- ✅ `fusion-ultimate-v4.py`
-- ✅ Structure `metadata` + `songs[]` + `zones`
-- ✅ Métadonnées enrichies par zone
-- ✅ Statistiques de précision par zone
-- ✅ Gestion d'erreurs robuste avec logs détaillés
+- **Alternance basse/batterie** (page 2)
+- **Progression de l'alternance basse/batterie** (page 20)
+- **Alternance basse/batterie en croches** (page 22)
+- **Progression de l'alternance basse/batterie en croches** (page 46)
+- **Comptage des triolets de croches** (page 48)
+- **Progression de l'alternance basse/batterie en triolets** (page 66)
+- **Ballade funk - Construction de lignes de basse** (page 68)
+- **Ligne de basse ballade funk version 3** (page 71)
+- **Ligne de basse ballade funk version 4** (page 72)
+- **Style bossa-nova à la basse** (page 75)
 
-## 🔧 Version V4.0 - OCR par Zones
 
-### Nouveautés V4.0 :
-- 🎯 **Analyse ciblée** : OCR sur 30% de la page (zones texte seulement)
-- 🎼 **Protection partition** : Zone musicale conservée en image (pas d'OCR)
-- ⚡ **Performance** : 60% plus rapide que V3.2
-- ✅ **Précision** : 90-95% sur zones texte (vs 60-70% en full page)
-- 📊 **Statistiques détaillées** : Précision par zone dans metadata
+... et 60 autres concepts
 
-### Avantages :
-- ✅ Élimine les erreurs OCR sur les portées musicales
-- ✅ Extrait précisément titres, compositeurs et tracks
-- ✅ Conserve l'image complète pour référence visuelle
-- ✅ Optimise le temps de traitement
-- ✅ Métadonnées enrichies pour analyse
+
+## 📦 Fichiers générés
+
+- `Pratique.json` - Données complètes au format JSON
+- `Pratique_index.html` - Index HTML interactif
+- `Pratique_README.md` - Ce fichier
+
+## 🚀 Utilisation
+
+Les données sont disponibles au format JSON pour faciliter :
+- L'intégration dans des applications web
+- La recherche et le filtrage de contenu
+- L'export vers d'autres formats
+- L'analyse et les statistiques
+
+## 🛠️ Traitement
+
+Traité avec **OCR Genius v4.4 BATCH**
+- Traitement par lots de 10 pages
+- OCR via Tesseract.js + enrichissement Claude
+- Classification automatique (songs/exercises/concepts)
+- Export multi-format
 
 ---
 
-Généré le 10/11/2025 15:50:17 avec **Convertisseur OCR V4.0 - Zones Optimisées**
+*Généré le 17/11/2025 à 08:03:57*

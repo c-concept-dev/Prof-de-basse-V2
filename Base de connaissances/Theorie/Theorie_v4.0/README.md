@@ -1,91 +1,92 @@
-# Theorie - Conversion V4.0
+# Theorie
 
-## 🎯 Méthode OCR par Zones
+## 📋 Informations générales
 
-Cette conversion utilise la **technologie V4.0** avec analyse intelligente par zones pour maximiser la précision.
+- **Catégorie** : theory
+- **Style musical** : general
+- **Nombre de pages** : 418
+- **Date de traitement** : 17/11/2025
 
-## 📊 Statistiques
+## 📊 Statistiques du contenu
 
-- **Pages converties :** 418
-- **MP3 détectés :** 0
-- **Tonalités extraites :** 0
-- **Techniques détectées :** 0
-- **Format images :** PNG
-- **Erreurs OCR :** 418
+- **Morceaux identifiés** : 14
+- **Exercices techniques** : 376
+- **Concepts théoriques** : 163
+- **Total d'éléments** : 553
 
-## 🎯 Analyse par Zones V4.0
+## 🎵 Morceaux principaux
 
-### Zone Titre (0-20%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 418
-- **Réussites :** 0 (0%)
-- **Extraction :** Titre, compositeur, tonalité
+- **Take The A Train** (page 50)
+- **The Boy From Ipanema** (page 50)
+- **Somenight My Princess Will Come** (page 50)
+- **Fill - Green In Blue** (page 50)
+- **Monna Lee** (page 50)
+- **Feeling Grace** (page 50)
+- **Whale's Dance** (page 50)
+- **Artificial Selection** (page 50)
+- **Stella by Starlight** (page 50)
+- **So What** (page 50)
 
-### Zone Partition (20-90%)
-- **OCR :** 🎼 Désactivé (image conservée)
-- **Pages traitées :** 0
-- **Conservation :** 100% des partitions gardées en image PNG
 
-### Zone Footer (90-100%)
-- **OCR :** ✅ Activé
-- **Pages traitées :** 0
-- **Réussites :** 0 (NaN%)
-- **Extraction :** Numéro de page, track number
+... et 4 autres morceaux
 
-## 📁 Structure (Format V4.0)
 
-```
-📦 Archive
-├── 📄 index.html          # Navigation visuelle locale
-├── 📄 songs_index.json    # Format V4.0 avec métadonnées zones
-├── 📄 README.md           # Ce fichier
-└── 📁 assets/
-    └── 📁 pages/          # Images des pages
-        ├── page_001.png
-        ├── page_002.png
-        └── ...
-```
+## 💪 Exercices
 
-## 🚀 Intégration avec le Mega Moteur
+- **Ecrire les gammes suivant le nom indiqué** (page 49) - intermédiaire
+- **Ecrire le nom des gammes suivant les notes indiquées** (page 49) - intermédiaire
+- **Ecrire le nom et la gamme en fonction de l'accord proposé** (page 49) - intermédiaire
+- **Trouver le degré harmonique puis écrire les notes et le nom des gammes** (page 49) - avancé
+- **Adaptation d'une phrase en fonction des gammes choisies** (page 50) - avancé
+- **Enchaînement des gammes de manière conjointe sur cadence II V I majeure** (page 50) - avancé
+- **Enchaînement des gammes de manière conjointe sur cadence II V I mineure** (page 50) - avancé
+- **Transposition diatonique d'un motif par degrés conjoints** (page 50) - avancé
+- **Transformation harmonique d'un motif** (page 50) - avancé
+- **Transformation harmonique d'une citation** (page 50) - avancé
 
-### Étape 1 : Décompresser
-```bash
-unzip Theorie_v4.0.zip
-```
 
-### Étape 2 : Déplacer dans Methodes/
-```bash
-mv extracted_folder Methodes/
-```
+... et 366 autres exercices
 
-### Étape 3 : Lancer la fusion
-```bash
-python3 fusion-ultimate-v4.py
-```
 
-Le fichier `songs_index.json` est au format V4.0 compatible avec :
-- ✅ `fusion-ultimate-v4.py`
-- ✅ Structure `metadata` + `songs[]` + `zones`
-- ✅ Métadonnées enrichies par zone
-- ✅ Statistiques de précision par zone
-- ✅ Gestion d'erreurs robuste avec logs détaillés
+## 📖 Concepts théoriques
 
-## 🔧 Version V4.0 - OCR par Zones
+- **Définition d'un intervalle** (page 4)
+- **Qualification des intervalles** (page 5)
+- **Liste des intervalles existants** (page 6)
+- **Seconde mineure (2m)** (page 7)
+- **Seconde majeure (2M)** (page 7)
+- **Seconde augmentée (2#)** (page 7)
+- **Tierce diminuée (3°)** (page 7)
+- **Tierce mineure (3m) - deux doigtés** (page 8)
+- **Tierce majeure (3M)** (page 8)
+- **Tierce augmentée (3#)** (page 8)
 
-### Nouveautés V4.0 :
-- 🎯 **Analyse ciblée** : OCR sur 30% de la page (zones texte seulement)
-- 🎼 **Protection partition** : Zone musicale conservée en image (pas d'OCR)
-- ⚡ **Performance** : 60% plus rapide que V3.2
-- ✅ **Précision** : 90-95% sur zones texte (vs 60-70% en full page)
-- 📊 **Statistiques détaillées** : Précision par zone dans metadata
 
-### Avantages :
-- ✅ Élimine les erreurs OCR sur les portées musicales
-- ✅ Extrait précisément titres, compositeurs et tracks
-- ✅ Conserve l'image complète pour référence visuelle
-- ✅ Optimise le temps de traitement
-- ✅ Métadonnées enrichies pour analyse
+... et 153 autres concepts
+
+
+## 📦 Fichiers générés
+
+- `Theorie.json` - Données complètes au format JSON
+- `Theorie_index.html` - Index HTML interactif
+- `Theorie_README.md` - Ce fichier
+
+## 🚀 Utilisation
+
+Les données sont disponibles au format JSON pour faciliter :
+- L'intégration dans des applications web
+- La recherche et le filtrage de contenu
+- L'export vers d'autres formats
+- L'analyse et les statistiques
+
+## 🛠️ Traitement
+
+Traité avec **OCR Genius v4.4 BATCH**
+- Traitement par lots de 10 pages
+- OCR via Tesseract.js + enrichissement Claude
+- Classification automatique (songs/exercises/concepts)
+- Export multi-format
 
 ---
 
-Généré le 10/11/2025 15:51:52 avec **Convertisseur OCR V4.0 - Zones Optimisées**
+*Généré le 17/11/2025 à 09:04:41*
