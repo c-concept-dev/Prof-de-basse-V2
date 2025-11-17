@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof de Basse V2 - Recherche avec MP3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 25px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .search-section {
+            padding: 40px;
+            background: #f8f9fa;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .search-box {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 20px 60px 20px 20px;
+            font-size: 18px;
+            border: 3px solid #667eea;
+            border-radius: 15px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        #searchInput:focus {
+            border-color: #764ba2;
+            box-shadow: 0 0 0 4px rgba(118, 75, 162, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #667eea;
+        }
+
+        .filters {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .filter-btn.mp3-filter {
+            border-color: #4caf50;
+            color: #4caf50;
+        }
+
+        .filter-btn.mp3-filter:hover,
+        .filter-btn.mp3-filter.active {
+            background: #4caf50;
+            color: white;
+        }
+
+        .results-section {
+            padding: 40px;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .results-count {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .sort-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .sort-label {
+            font-size: 14px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        #sortSelect {
+            padding: 8px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .card.has-mp3 {
+            border-left: 4px solid #4caf50;
+        }
+
+        .card-header {
+            position: relative;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: white;
+        }
+
+        .card-badges {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .badge-mp3 {
+            background: #4caf50;
+            color: white;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .card-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: #f5f5f5;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+
+        .card-image:hover {
+            opacity: 0.9;
+        }
+
+        .card-info {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info-icon {
+            width: 20px;
+            text-align: center;
+        }
+
+        .mp3-player {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 3px solid #4caf50;
+        }
+
+        .mp3-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #4caf50;
+        }
+
+        .mp3-icon {
+            font-size: 20px;
+        }
+
+        audio {
+            width: 100%;
+            height: 40px;
+            outline: none;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .confidence-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 10px;
+            background: rgba(76, 175, 80, 0.1);
+            border-radius: 8px;
+            font-size: 12px;
+            color: #4caf50;
+            font-weight: 600;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .no-results-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .no-results-text {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #667eea;
+            font-size: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎸 Prof de Basse V2</h1>
+            <p style="font-size: 18px; margin-top: 10px; opacity: 0.95;">
+                Plateforme d'apprentissage de la basse avec MP3 intégrés
+            </p>
+            
+            <div class="stats" id="statsContainer">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalResources">0</div>
+                    <div class="stat-label">Ressources totales</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalMP3">0</div>
+                    <div class="stat-label">🎵 Avec MP3</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalMethods">0</div>
+                    <div class="stat-label">Méthodes</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Rechercher un exercice, un morceau, une technique..."
+                    autocomplete="off"
+                >
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn mp3-filter" data-filter="mp3">🎵 Avec MP3 (0)</button>
+                <button class="filter-btn" data-filter="funk">Funk</button>
+                <button class="filter-btn" data-filter="jazz">Jazz</button>
+                <button class="filter-btn" data-filter="blues">Blues</button>
+                <button class="filter-btn" data-filter="rock">Rock</button>
+                <button class="filter-btn" data-filter="beginner">Débutant</button>
+                <button class="filter-btn" data-filter="intermediate">Intermédiaire</button>
+                <button class="filter-btn" data-filter="advanced">Avancé</button>
+            </div>
+        </div>
+
+        <div class="results-section">
+            <div class="results-header">
+                <div class="results-count" id="resultsCount">Chargement...</div>
+                <div class="sort-controls">
+                    <span class="sort-label">Trier par :</span>
+                    <select id="sortSelect">
+                        <option value="relevance">Pertinence</option>
+                        <option value="title">Titre (A-Z)</option>
+                        <option value="method">Méthode</option>
+                        <option value="difficulty">Niveau</option>
+                        <option value="mp3">MP3 d'abord</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="loadingIndicator" class="loading">
+                <div class="spinner"></div>
+                <p>Chargement des ressources...</p>
+            </div>
+
+            <div class="cards-grid" id="cardsContainer"></div>
+
+            <div id="noResults" class="no-results" style="display: none;">
+                <div class="no-results-icon">🎸</div>
+                <div class="no-results-text">Aucun résultat trouvé</div>
+                <p>Essayez avec d'autres mots-clés ou filtres</p>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Prof de Basse V2</strong> - Système d'apprentissage complet</p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                🎵 237 ressources avec MP3 intégrés | Mise à jour : Novembre 2025
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // État global
+        let allResources = [];
+        let filteredResources = [];
+        let currentFilter = 'all';
+        let currentSort = 'relevance';
+        let searchQuery = '';
+
+        // Charger les données
+        async function loadData() {
+            try {
+                const response = await fetch('megasearch.json');
+                const data = await response.json();
+                
+                allResources = data.resources || [];
+                
+                // Mettre à jour les stats
+                updateStats(data.metadata);
+                
+                // Afficher toutes les ressources initialement
+                filteredResources = [...allResources];
+                renderCards();
+                
+                // Cacher le loading
+                document.getElementById('loadingIndicator').style.display = 'none';
+                
+            } catch (error) {
+                console.error('Erreur de chargement:', error);
+                document.getElementById('loadingIndicator').innerHTML = 
+                    '<p style="color: #e74c3c;">❌ Erreur de chargement des données</p>';
+            }
+        }
+
+        // Mettre à jour les statistiques
+        function updateStats(metadata) {
+            document.getElementById('totalResources').textContent = metadata.totalResources || allResources.length;
+            document.getElementById('totalMP3').textContent = metadata.mp3_resources_count || 0;
+            document.getElementById('totalMethods').textContent = metadata.totalMethods || 5;
+            
+            // Mettre à jour le bouton filtre MP3
+            const mp3Count = metadata.mp3_resources_count || 0;
+            const mp3Button = document.querySelector('[data-filter="mp3"]');
+            if (mp3Button) {
+                mp3Button.textContent = `🎵 Avec MP3 (${mp3Count})`;
+            }
+        }
+
+        // Recherche
+        function search() {
+            const query = searchQuery.toLowerCase().trim();
+            
+            if (!query) {
+                filteredResources = [...allResources];
+            } else {
+                filteredResources = allResources.filter(resource => {
+                    const searchableText = [
+                        resource.title,
+                        resource.method,
+                        resource.style,
+                        resource.difficulty,
+                        resource.technique,
+                        resource.metadata?.tags?.join(' ')
+                    ].filter(Boolean).join(' ').toLowerCase();
+                    
+                    return searchableText.includes(query);
+                });
+            }
+            
+            applyFilters();
+        }
+
+        // Appliquer les filtres
+        function applyFilters() {
+            let filtered = [...filteredResources];
+            
+            // Filtre MP3
+            if (currentFilter === 'mp3') {
+                filtered = filtered.filter(r => r.metadata?.has_mp3);
+            }
+            // Filtre par style
+            else if (['funk', 'jazz', 'blues', 'rock'].includes(currentFilter)) {
+                filtered = filtered.filter(r => 
+                    r.style?.toLowerCase().includes(currentFilter) ||
+                    r.technique?.toLowerCase().includes(currentFilter)
+                );
+            }
+            // Filtre par niveau
+            else if (['beginner', 'intermediate', 'advanced'].includes(currentFilter)) {
+                const levelMap = {
+                    'beginner': 'débutant',
+                    'intermediate': 'intermédiaire',
+                    'advanced': 'avancé'
+                };
+                filtered = filtered.filter(r => 
+                    r.difficulty?.toLowerCase() === levelMap[currentFilter]
+                );
+            }
+            
+            filteredResources = filtered;
+            applySort();
+        }
+
+        // Appliquer le tri
+        function applySort() {
+            switch(currentSort) {
+                case 'title':
+                    filteredResources.sort((a, b) => 
+                        (a.title || '').localeCompare(b.title || '')
+                    );
+                    break;
+                case 'method':
+                    filteredResources.sort((a, b) => 
+                        (a.method || '').localeCompare(b.method || '')
+                    );
+                    break;
+                case 'difficulty':
+                    const levelOrder = { 'débutant': 1, 'intermédiaire': 2, 'avancé': 3 };
+                    filteredResources.sort((a, b) => 
+                        (levelOrder[a.difficulty] || 99) - (levelOrder[b.difficulty] || 99)
+                    );
+                    break;
+                case 'mp3':
+                    filteredResources.sort((a, b) => {
+                        const aHasMP3 = a.metadata?.has_mp3 ? 1 : 0;
+                        const bHasMP3 = b.metadata?.has_mp3 ? 1 : 0;
+                        return bHasMP3 - aHasMP3;
+                    });
+                    break;
+            }
+            
+            renderCards();
+        }
+
+        // Afficher les cartes
+        function renderCards() {
+            const container = document.getElementById('cardsContainer');
+            const noResults = document.getElementById('noResults');
+            const resultsCount = document.getElementById('resultsCount');
+            
+            // Mettre à jour le compteur
+            resultsCount.textContent = `${filteredResources.length} résultat${filteredResources.length > 1 ? 's' : ''}`;
+            
+            if (filteredResources.length === 0) {
+                container.innerHTML = '';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            noResults.style.display = 'none';
+            
+            container.innerHTML = filteredResources.map(resource => createCard(resource)).join('');
+        }
+
+        // Créer une carte
+        function createCard(resource) {
+            const hasMP3 = resource.metadata?.has_mp3;
+            const mp3URL = resource.metadata?.mp3_url;
+            const confidence = resource.metadata?.mp3_match_confidence;
+            
+            // Badge niveau
+            const difficultyColor = {
+                'débutant': '#4caf50',
+                'intermédiaire': '#ff9800',
+                'avancé': '#f44336'
+            };
+            
+            return `
+                <div class="card ${hasMP3 ? 'has-mp3' : ''}">
+                    <div class="card-header">
+                        <div class="card-badges">
+                            ${hasMP3 ? '<span class="badge badge-mp3">🎵 MP3</span>' : ''}
+                            ${resource.difficulty ? `<span class="badge" style="background: ${difficultyColor[resource.difficulty] || '#999'}">${resource.difficulty}</span>` : ''}
+                            ${resource.style ? `<span class="badge">${resource.style}</span>` : ''}
+                        </div>
+                        <div class="card-title">${resource.title || 'Sans titre'}</div>
+                        <div class="card-meta">
+                            <span>📚 ${resource.method || 'N/A'}</span>
+                            ${resource.page ? `<span>📄 Page ${resource.page}</span>` : ''}
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        ${resource.imageUrl ? `
+                            <img 
+                                src="${resource.imageUrl}" 
+                                alt="${resource.title}"
+                                class="card-image"
+                                onclick="window.open('${resource.imageUrl}', '_blank')"
+                                loading="lazy"
+                            >
+                        ` : ''}
+                        
+                        <div class="card-info">
+                            ${resource.technique ? `
+                                <div class="info-row">
+                                    <span class="info-icon">🎸</span>
+                                    <span>${resource.technique}</span>
+                                </div>
+                            ` : ''}
+                        </div>
+                        
+                        ${hasMP3 ? `
+                            <div class="mp3-player">
+                                <div class="mp3-header">
+                                    <span class="mp3-icon">🎵</span>
+                                    <span>Accompagnement MP3</span>
+                                    ${confidence ? `<span class="confidence-badge">✓ ${Math.round(confidence * 100)}%</span>` : ''}
+                                </div>
+                                <audio controls preload="none">
+                                    <source src="${mp3URL}" type="audio/mpeg">
+                                    Votre navigateur ne supporte pas l'audio HTML5.
+                                </audio>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            search();
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Retirer active de tous
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                
+                // Ajouter active au bouton cliqué
+                btn.classList.add('active');
+                
+                currentFilter = btn.dataset.filter;
+                search();
+            });
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            currentSort = e.target.value;
+            applySort();
+        });
+
+        // Charger au démarrage
+        loadData();
+    </script>
+</body>
+</html>
