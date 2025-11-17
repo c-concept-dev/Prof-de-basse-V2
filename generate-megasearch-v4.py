@@ -219,29 +219,39 @@ class MegaSearchGenerator:
         }
     
     def scan_songs_index_files(self):
-        """Scanne tous les fichiers songs_index*.json"""
-        print("🔍 Scan des fichiers songs_index...")
+        """Scanne récursivement tous les fichiers songs_index.json dans Base de connaissances/"""
+        print("🔍 Scan récursif des fichiers songs_index.json...")
         
-        # Chercher dans le répertoire courant et uploads
-        current_dir = Path('.')
-        uploads_dir = Path('/mnt/user-data/uploads')
+        base_knowledge_dir = Path('Base de connaissances')
         
-        songs_files = []
-        
-        # Chercher dans le répertoire courant
-        songs_files.extend(list(current_dir.glob('songs_index*.json')))
-        
-        # Chercher dans uploads
-        if uploads_dir.exists():
-            songs_files.extend(list(uploads_dir.glob('songs_index*.json')))
-        
-        if not songs_files:
-            print("   ⚠️ Aucun fichier songs_index*.json trouvé")
+        if not base_knowledge_dir.exists():
+            print("   ❌ Dossier 'Base de connaissances' introuvable")
+            print(f"   📍 Répertoire courant: {Path.cwd()}")
             return
         
-        print(f"   📁 Trouvé {len(songs_files)} fichiers songs_index")
+        # Chercher récursivement tous les songs_index.json
+        songs_files = list(base_knowledge_dir.rglob('songs_index.json'))
+        
+        if not songs_files:
+            print("   ⚠️ Aucun fichier songs_index.json trouvé dans Base de connaissances/")
+            print("   🔍 Structure trouvée:")
+            for subdir in base_knowledge_dir.iterdir():
+                if subdir.is_dir():
+                    print(f"      📁 {subdir.name}")
+                    # Chercher un niveau plus profond
+                    for subsubdir in subdir.iterdir():
+                        if subsubdir.is_dir():
+                            print(f"         📁 {subsubdir.name}")
+                            # Vérifier s'il y a un songs_index.json
+                            if (subsubdir / 'songs_index.json').exists():
+                                print(f"            ✅ songs_index.json trouvé !")
+            return
+        
+        print(f"   📁 Trouvé {len(songs_files)} fichiers songs_index.json")
         
         for songs_file in sorted(songs_files):
+            relative_path = songs_file.relative_to(base_knowledge_dir)
+            print(f"   📂 {relative_path}")
             self.process_songs_index(songs_file)
     
     def deduplicate_resources(self):
