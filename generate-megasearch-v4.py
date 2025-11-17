@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-🎸 Generate MegaSearch.json V4.0 - Prof de Basse
-Fusion COMPLÈTE de tous les songs_index_X.json + megasearch existant
+🎸 Generate MegaSearch.json V4.0 FINAL - Prof de Basse
+Fusion COMPLÈTE de tous les songs_index.json dans Base de connaissances/
 Création d'un index unifié avec URLs directes et recherche optimisée
 """
 
@@ -40,26 +40,18 @@ class MegaSearchGenerator:
     
     def build_url(self, category, book_title, page):
         """Construit une URL complète vers une page"""
-        # Nettoyer le titre du livre (enlever _v4.0 suffix)
-        clean_title = re.sub(r'_v\d+\.\d+$', '_v4.0', book_title)
-        
         # Construire le chemin
-        path = f"Base de connaissances/{category}/{clean_title}/assets/page_{page:03d}.png"
+        path = f"Base de connaissances/{category}/{book_title}/assets/page_{page:03d}.png"
         
         # Encoder pour URL
         encoded_path = urllib.parse.quote(path, safe='/:.-_')
         
         return f"{self.BASE_URL}{encoded_path}"
     
-    def extract_method_from_title(self, book_title):
-        """Extrait le nom de la méthode du titre"""
-        # Enlever suffixes de version
-        clean_title = re.sub(r'_v\d+\.\d+$', '', book_title)
-        return clean_title
-    
     def process_songs_index(self, file_path):
-        """Traite un fichier songs_index_X.json"""
-        print(f"   📄 {file_path.name}")
+        """Traite un fichier songs_index.json"""
+        relative_path = file_path.relative_to(Path('Base de connaissances'))
+        print(f"   📄 {relative_path}")
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -68,21 +60,23 @@ class MegaSearchGenerator:
             metadata = data.get('metadata', {})
             content = data.get('content', {})
             
-            book_title = metadata.get('bookTitle', file_path.stem)
+            book_title = metadata.get('bookTitle', file_path.parent.name)
             category = metadata.get('category', 'unknown')
             style = metadata.get('style', 'various')
             
-            # Mapper la catégorie aux dossiers
-            category_mapping = {
-                'method': 'Methodes',
-                'songbook': 'Partitions', 
-                'theory': 'Theorie',
-                'realbook': 'Partitions'
-            }
-            folder_category = category_mapping.get(category, 'Partitions')
+            # Déduire la catégorie du chemin si pas dans metadata
+            path_parts = file_path.parts
+            if 'Methodes' in path_parts:
+                folder_category = 'Methodes'
+            elif 'Partitions' in path_parts:
+                folder_category = 'Partitions'
+            elif 'Theorie' in path_parts:
+                folder_category = 'Theorie'
+            else:
+                folder_category = 'Partitions'  # par défaut
             
             # Ajouter aux stats
-            self.stats['source_files'].append(file_path.name)
+            self.stats['source_files'].append(str(relative_path))
             self.stats['unique_methods'].add(book_title)
             self.stats['by_category'][category] = self.stats['by_category'].get(category, 0)
             self.stats['by_style'][style] = self.stats['by_style'].get(style, 0)
@@ -220,58 +214,25 @@ class MegaSearchGenerator:
     
     def scan_songs_index_files(self):
         """Scanne récursivement tous les fichiers songs_index.json dans Base de connaissances/"""
-        print("🔍 Scan récursif des fichiers songs_index.json...")
-        print(f"📍 Répertoire courant: {Path.cwd()}")
+        print("🔍 Scan récursif de Base de connaissances/...")
         
         base_knowledge_dir = Path('Base de connaissances')
         
         if not base_knowledge_dir.exists():
             print("   ❌ Dossier 'Base de connaissances' introuvable")
-            print("   📂 Contenu du répertoire courant:")
-            for item in Path('.').iterdir():
-                if item.is_dir():
-                    print(f"      📁 {item.name}")
-                else:
-                    print(f"      📄 {item.name}")
-            return
-        
-        print(f"   ✅ Dossier 'Base de connaissances' trouvé")
-        
-        # Debug: afficher la structure complète
-        print("   🔍 Structure de Base de connaissances:")
-        for subdir in base_knowledge_dir.iterdir():
-            if subdir.is_dir():
-                print(f"      📁 {subdir.name}/")
-                # Chercher un niveau plus profond
-                for subsubdir in subdir.iterdir():
-                    if subsubdir.is_dir():
-                        print(f"         📁 {subsubdir.name}/")
-                        # Lister les fichiers dans ce dossier
-                        for file in subsubdir.iterdir():
-                            if file.is_file():
-                                print(f"            📄 {file.name}")
-                    elif subsubdir.is_file():
-                        print(f"         📄 {subsubdir.name}")
+            print(f"   📍 Répertoire courant: {Path.cwd()}")
+            return []
         
         # Chercher récursivement tous les songs_index.json
         songs_files = list(base_knowledge_dir.rglob('songs_index.json'))
         
-        print(f"\n   🔍 Recherche récursive de songs_index.json...")
-        print(f"   📁 Trouvé {len(songs_files)} fichier(s)")
+        print(f"   📁 Trouvé {len(songs_files)} fichiers songs_index.json")
         
         if not songs_files:
             print("   ⚠️ Aucun fichier songs_index.json trouvé")
-            # Chercher d'autres patterns
-            all_json = list(base_knowledge_dir.rglob('*.json'))
-            print(f"   📄 Fichiers JSON trouvés: {len(all_json)}")
-            for json_file in all_json[:10]:  # Limiter à 10
-                print(f"      📄 {json_file.relative_to(base_knowledge_dir)}")
-            return
+            return []
         
-        for songs_file in sorted(songs_files):
-            relative_path = songs_file.relative_to(base_knowledge_dir)
-            print(f"   📂 Traitement: {relative_path}")
-            self.process_songs_index(songs_file)
+        return sorted(songs_files)
     
     def deduplicate_resources(self):
         """Supprime les doublons basés sur l'URL"""
@@ -301,10 +262,18 @@ class MegaSearchGenerator:
         print("=" * 60)
         
         # Scanner tous les fichiers
-        self.scan_songs_index_files()
+        songs_files = self.scan_songs_index_files()
+        
+        if not songs_files:
+            print("❌ Aucun fichier songs_index.json trouvé !")
+            return False
+        
+        # Traiter chaque fichier
+        for songs_file in songs_files:
+            self.process_songs_index(songs_file)
         
         if not self.resources:
-            print("❌ Aucune ressource trouvée !")
+            print("❌ Aucune ressource extraite !")
             return False
         
         # Supprimer doublons
@@ -355,7 +324,8 @@ class MegaSearchGenerator:
         
         print(f"\n📈 Par catégorie:")
         for cat, count in sorted(self.stats['by_category'].items()):
-            print(f"   {cat}: {count}")
+            if count > 0:
+                print(f"   {cat}: {count}")
         
         print(f"\n🎶 Par style:")
         for style, count in sorted(self.stats['by_style'].items()):
