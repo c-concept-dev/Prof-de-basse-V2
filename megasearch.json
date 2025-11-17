@@ -4,7 +4,9 @@
     "generated_at": "2025-11-17T09:48:12.083442",
     "description": "Prof de Basse - Index complet avec URLs CORRIGÉES (pages/)",
     "total_resources": 4913,
-    "base_url": "https://11drumboy11.github.io/Prof-de-basse-V2/"
+    "base_url": "https://11drumboy11.github.io/Prof-de-basse-V2/",
+    "has_mp3_integration": true,
+    "mp3_resources_count": 0
   },
   "resources": [
     {
