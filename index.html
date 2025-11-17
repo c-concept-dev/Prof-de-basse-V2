@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎸 Prof de Basse - Plateforme Complète v2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #667eea;
+            --primary-dark: #5568d3;
+            --secondary: #764ba2;
+            --success: #4caf50;
+            --success-dark: #45a049;
+            --warning: #ff9800;
+            --text: #333;
+            --text-light: #666;
+            --border: #e9ecef;
+            --bg-light: #f8f9fa;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 40px rgba(0,0,0,0.1);
+        }
+        
+        /* ============================================= */
+        /* HEADER STICKY */
+        /* ============================================= */
+        
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 25px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .header-title h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .header-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 13px;
+            opacity: 0.95;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        /* ============================================= */
+        /* SEARCH SECTION STICKY */
+        /* ============================================= */
+        
+        .search-section {
+            padding: 20px 40px;
+            background: white;
+            border-bottom: 3px solid var(--border);
+            position: sticky;
+            top: 90px;
+            z-index: 999;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .search-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        #searchInput {
+            width: 100%;
+            padding: 16px 60px 16px 20px;
+            font-size: 16px;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            transition: all 0.3s;
+            background: var(--bg-light);
+        }
+        
+        #searchInput:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: white;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+        }
+        
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: var(--primary);
+        }
+        
+        .filters-bar {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filter-btn {
+            padding: 10px 18px;
+            border: 2px solid var(--border);
+            background: white;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.25s;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .filter-btn:hover {
+            background: var(--bg-light);
+            border-color: var(--primary);
+            transform: translateY(-1px);
+        }
+        
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        
+        .filter-divider {
+            width: 1px;
+            height: 30px;
+            background: var(--border);
+            margin: 0 5px;
+        }
+        
+        /* Dropdown pour méthodes */
+        .method-select {
+            padding: 10px 35px 10px 15px;
+            border: 2px solid var(--border);
+            border-radius: 25px;
+            font-size: 14px;
+            cursor: pointer;
+            background: white;
+            font-weight: 600;
+            color: var(--text);
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            transition: all 0.25s;
+        }
+        
+        .method-select:hover {
+            border-color: var(--primary);
+        }
+        
+        /* ============================================= */
+        /* RESULTS INFO */
+        /* ============================================= */
+        
+        .results-section {
+            padding: 20px 40px 40px;
+        }
+        
+        .results-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 18px 25px;
+            background: var(--bg-light);
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .results-count {
+            font-size: 16px;
+            color: var(--text);
+            font-weight: 600;
+        }
+        
+        .results-count strong {
+            color: var(--primary);
+            font-size: 18px;
+        }
+        
+        .results-controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 35px 10px 15px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            background: white;
+            font-weight: 600;
+            color: var(--text);
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+        }
+        
+        /* ============================================= */
+        /* CARDS GRID */
+        /* ============================================= */
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 25px;
+        }
+        
+        .mega-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            border: 1px solid var(--border);
+        }
+        
+        .mega-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+            border-color: var(--primary);
+        }
+        
+        /* MP3 BADGE */
+        .mp3-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--success);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            z-index: 10;
+            box-shadow: 0 3px 10px rgba(76, 175, 80, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .mp3-badge i {
+            animation: pulse-icon 2s infinite;
+        }
+        
+        @keyframes pulse-icon {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+        
+        /* CARD HEADER */
+        .card-header {
+            padding: 18px 20px;
+            background: linear-gradient(to bottom, var(--bg-light), white);
+        }
+        
+        .card-type {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .type-song { 
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            color: #1976d2; 
+        }
+        .type-exercise { 
+            background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+            color: #c2185b; 
+        }
+        .type-concept { 
+            background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+            color: #7b1fa2; 
+        }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 10px;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: 44px;
+        }
+        
+        .card-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 13px;
+            color: var(--text-light);
+            flex-wrap: wrap;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .meta-item i {
+            color: var(--primary);
+            font-size: 12px;
+        }
+        
+        /* CARD IMAGE */
+        .card-image {
+            position: relative;
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            background: var(--bg-light);
+            cursor: pointer;
+        }
+        
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-image:hover img {
+            transform: scale(1.1);
+        }
+        
+        .zoom-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6));
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .card-image:hover .zoom-overlay {
+            opacity: 1;
+        }
+        
+        .zoom-text {
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* CARD ACTIONS */
+        .card-actions {
+            padding: 15px 20px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn-action {
+            flex: 1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.25s;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .btn-view {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-view:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-mp3 {
+            background: linear-gradient(135deg, var(--success), var(--success-dark));
+            color: white;
+            box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+        }
+        
+        .btn-mp3:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+        }
+        
+        .btn-disabled {
+            background: var(--bg-light);
+            color: #aaa;
+            cursor: not-allowed;
+            border: 2px solid var(--border);
+        }
+        
+        /* MP3 PLAYER INLINE */
+        .mp3-player {
+            padding: 15px 20px;
+            background: linear-gradient(to bottom, var(--bg-light), #f0f0f0);
+            border-top: 2px solid var(--border);
+        }
+        
+        .mp3-player-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--success);
+        }
+        
+        .mp3-player audio {
+            width: 100%;
+            height: 42px;
+        }
+        
+        /* ============================================= */
+        /* LIGHTBOX */
+        /* ============================================= */
+        
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.96);
+            z-index: 99999;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            animation: fadeIn 0.3s;
+        }
+        
+        .lightbox.active {
+            display: flex;
+        }
+        
+        .lightbox img {
+            max-width: 95%;
+            max-height: 95%;
+            border-radius: 12px;
+            box-shadow: 0 0 60px rgba(255,255,255,0.2);
+        }
+        
+        .lightbox-close {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            color: white;
+            font-size: 42px;
+            cursor: pointer;
+            background: rgba(0,0,0,0.6);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+        }
+        
+        .lightbox-close:hover {
+            background: rgba(0,0,0,0.9);
+            transform: rotate(90deg) scale(1.1);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* ============================================= */
+        /* LOAD MORE */
+        /* ============================================= */
+        
+        .load-more {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .btn-load-more {
+            padding: 16px 50px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .btn-load-more:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-load-more:active {
+            transform: translateY(-1px);
+        }
+        
+        /* ============================================= */
+        /* LOADING */
+        /* ============================================= */
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--primary);
+        }
+        
+        .spinner {
+            border: 5px solid var(--border);
+            border-top: 5px solid var(--primary);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* ============================================= */
+        /* EMPTY STATE */
+        /* ============================================= */
+        
+        .empty-state {
+            grid-column: 1/-1;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .empty-icon {
+            font-size: 64px;
+            color: #ddd;
+            margin-bottom: 20px;
+        }
+        
+        .empty-state h3 {
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+        
+        .empty-state p {
+            color: #999;
+        }
+        
+        /* ============================================= */
+        /* RESPONSIVE */
+        /* ============================================= */
+        
+        @media (max-width: 1200px) {
+            .cards-grid {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            }
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 20px;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .header-title h1 {
+                font-size: 24px;
+            }
+            
+            .search-section {
+                padding: 15px 20px;
+                top: 110px;
+            }
+            
+            .results-section {
+                padding: 15px 20px 30px;
+            }
+            
+            .cards-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .results-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ============================================= -->
+        <!-- HEADER -->
+        <!-- ============================================= -->
+        <header>
+            <div class="header-content">
+                <div class="header-title">
+                    <h1>
+                        <i class="fas fa-guitar"></i>
+                        Prof de Basse v2.0
+                    </h1>
+                    <div class="header-stats">
+                        <span class="stat-item">
+                            <i class="fas fa-database"></i>
+                            <span id="totalStat">4,913 ressources</span>
+                        </span>
+                        <span>•</span>
+                        <span class="stat-item">
+                            <i class="fas fa-music"></i>
+                            <span id="mp3Stat">427 MP3</span>
+                        </span>
+                        <span>•</span>
+                        <span class="stat-item">
+                            <i class="fas fa-eye"></i>
+                            <span id="displayedStat">50 affichées</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- ============================================= -->
+        <!-- SEARCH SECTION -->
+        <!-- ============================================= -->
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" 
+                       id="searchInput" 
+                       placeholder="🔍 Recherche par titre, compositeur, tonalité, technique..."
+                       autocomplete="off">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            
+            <div class="filters-bar">
+                <button class="filter-btn active" onclick="filterByType('all')">
+                    <i class="fas fa-th"></i> Tout
+                </button>
+                <button class="filter-btn" onclick="filterByType('song')">
+                    <i class="fas fa-music"></i> Morceaux
+                </button>
+                <button class="filter-btn" onclick="filterByType('exercise')">
+                    <i class="fas fa-dumbbell"></i> Exercices
+                </button>
+                <button class="filter-btn" onclick="filterByMp3()">
+                    <i class="fas fa-volume-up"></i> Avec MP3
+                </button>
+                
+                <div class="filter-divider"></div>
+                
+                <select class="method-select" id="methodFilter" onchange="filterByMethod()">
+                    <option value="all">📚 Toutes les méthodes</option>
+                </select>
+            </div>
+        </div>
+        
+        <!-- ============================================= -->
+        <!-- RESULTS SECTION -->
+        <!-- ============================================= -->
+        <div class="results-section">
+            <div class="results-info">
+                <div class="results-count" id="resultsCount">
+                    <strong>50</strong> / 4,913 ressources
+                </div>
+                <div class="results-controls">
+                    <select id="sortBy" onchange="sortAndRender()">
+                        <option value="relevance">Pertinence</option>
+                        <option value="title">Titre A-Z</option>
+                        <option value="page">Numéro de page</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="cards-grid" id="resultsContainer">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Chargement des ressources...</p>
+                </div>
+            </div>
+            
+            <div class="load-more" id="loadMoreContainer" style="display: none;">
+                <button class="btn-load-more" onclick="loadMore()">
+                    <i class="fas fa-arrow-down"></i>
+                    Charger plus de résultats
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ============================================= -->
+    <!-- LIGHTBOX -->
+    <!-- ============================================= -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <div class="lightbox-close">×</div>
+        <img id="lightboxImg" src="" alt="Partition">
+    </div>
+    
+    <script>
+        // =============================================
+        // CONFIGURATION - OPTIMISÉ POUR PERFORMANCE
+        // =============================================
+        
+        const ITEMS_PER_PAGE = 50; // Réduit de 100 à 50 pour meilleure performance
+        
+        // =============================================
+        // STATE
+        // =============================================
+        
+        let allResources = [];
+        let filteredResources = [];
+        let displayedCount = 0;
+        let currentFilter = 'all';
+        let currentMethod = 'all';
+        let searchQuery = '';
+        let allMethods = new Set();
+        
+        // =============================================
+        // INIT
+        // =============================================
+        
+        async function loadData() {
+            try {
+                const startTime = performance.now();
+                const response = await fetch('megasearch.json');
+                const data = await response.json();
+                const loadTime = performance.now() - startTime;
+                
+                allResources = data.resources || [];
+                filteredResources = allResources;
+                
+                console.log(`✅ ${allResources.length} ressources chargées en ${loadTime.toFixed(0)}ms`);
+                
+                // Extraire toutes les méthodes uniques
+                allResources.forEach(r => {
+                    const book = r.metadata?.book;
+                    if (book) allMethods.add(book);
+                });
+                
+                // Populate method dropdown
+                const methodSelect = document.getElementById('methodFilter');
+                Array.from(allMethods).sort().forEach(method => {
+                    const option = document.createElement('option');
+                    option.value = method;
+                    option.textContent = method;
+                    methodSelect.appendChild(option);
+                });
+                
+                // Update global stats
+                const mp3Count = allResources.filter(r => r.metadata?.has_mp3).length;
+                document.getElementById('totalStat').textContent = `${allResources.length.toLocaleString()} ressources`;
+                document.getElementById('mp3Stat').textContent = `${mp3Count} MP3`;
+                
+                // Render first batch
+                displayedCount = 0;
+                renderBatch();
+                
+            } catch (error) {
+                console.error('Erreur chargement:', error);
+                document.getElementById('resultsContainer').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <h3>Erreur de chargement</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // =============================================
+        // RENDER BATCH - OPTIMISÉ
+        // =============================================
+        
+        function renderBatch() {
+            const container = document.getElementById('resultsContainer');
+            
+            // First batch
+            if (displayedCount === 0) {
+                container.innerHTML = '';
+            }
+            
+            // Empty state
+            if (filteredResources.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon"><i class="fas fa-search"></i></div>
+                        <h3>Aucun résultat</h3>
+                        <p>Essayez avec d'autres mots-clés ou filtres</p>
+                    </div>
+                `;
+                document.getElementById('loadMoreContainer').style.display = 'none';
+                updateResultsCount();
+                return;
+            }
+            
+            // Get batch
+            const start = displayedCount;
+            const end = Math.min(start + ITEMS_PER_PAGE, filteredResources.length);
+            const batch = filteredResources.slice(start, end);
+            
+            // Render avec DocumentFragment pour performance
+            const fragment = document.createDocumentFragment();
+            batch.forEach(resource => {
+                const card = createCardElement(resource);
+                fragment.appendChild(card);
+            });
+            container.appendChild(fragment);
+            
+            displayedCount = end;
+            updateResultsCount();
+            
+            // Show/hide load more
+            if (displayedCount < filteredResources.length) {
+                document.getElementById('loadMoreContainer').style.display = 'block';
+            } else {
+                document.getElementById('loadMoreContainer').style.display = 'none';
+            }
+        }
+        
+        function loadMore() {
+            renderBatch();
+        }
+        
+        function updateResultsCount() {
+            const total = filteredResources.length;
+            const displayed = displayedCount;
+            
+            document.getElementById('resultsCount').innerHTML = 
+                `<strong>${displayed.toLocaleString()}</strong> / ${total.toLocaleString()} ressources`;
+            
+            document.getElementById('displayedStat').textContent = 
+                `${displayed} affichées`;
+        }
+        
+        // =============================================
+        // CREATE CARD - AVEC MP3 INLINE
+        // =============================================
+        
+        function createCardElement(resource) {
+            const card = document.createElement('div');
+            card.className = 'mega-card';
+            
+            const hasMp3 = resource.metadata?.has_mp3 || false;
+            const mp3Url = resource.metadata?.mp3_url || '';
+            const mp3Filename = resource.metadata?.mp3_filename || 'audio.mp3';
+            
+            let typeIcon = 'music';
+            if (resource.type === 'exercise') typeIcon = 'dumbbell';
+            if (resource.type === 'concept') typeIcon = 'brain';
+            
+            card.innerHTML = `
+                ${hasMp3 ? '<div class="mp3-badge"><i class="fas fa-volume-up"></i> MP3</div>' : ''}
+                
+                <div class="card-header">
+                    <div class="card-type type-${resource.type}">
+                        <i class="fas fa-${typeIcon}"></i> ${resource.type}
+                    </div>
+                    <div class="card-title">${resource.title}</div>
+                    <div class="card-meta">
+                        <span class="meta-item">
+                            <i class="fas fa-book"></i>
+                            ${resource.metadata?.book || 'N/A'}
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-file"></i>
+                            Page ${resource.page}
+                        </span>
+                        ${resource.metadata?.key ? `
+                            <span class="meta-item">
+                                <i class="fas fa-key"></i>
+                                ${resource.metadata.key}
+                            </span>
+                        ` : ''}
+                    </div>
+                </div>
+                
+                <div class="card-image" onclick="openLightbox('${resource.url}')">
+                    <img src="${resource.url}" alt="${resource.title}" loading="lazy">
+                    <div class="zoom-overlay">
+                        <div class="zoom-text">
+                            <i class="fas fa-search-plus"></i>
+                            Cliquer pour agrandir
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-actions">
+                    <a href="${resource.url}" 
+                       target="_blank" 
+                       class="btn-action btn-view">
+                        <i class="fas fa-eye"></i> Voir partition
+                    </a>
+                    ${hasMp3 ? `
+                        <a href="${mp3Url}" 
+                           target="_blank"
+                           download="${mp3Filename}"
+                           class="btn-action btn-mp3">
+                            <i class="fas fa-download"></i> MP3
+                        </a>
+                    ` : `
+                        <button class="btn-action btn-disabled">
+                            <i class="fas fa-volume-mute"></i> Pas de MP3
+                        </button>
+                    `}
+                </div>
+                
+                ${hasMp3 ? `
+                    <div class="mp3-player">
+                        <div class="mp3-player-header">
+                            <i class="fas fa-headphones"></i>
+                            Écouter maintenant
+                        </div>
+                        <audio controls preload="metadata">
+                            <source src="${mp3Url}" type="audio/mpeg">
+                            Votre navigateur ne supporte pas l'audio HTML5.
+                        </audio>
+                    </div>
+                ` : ''}
+            `;
+            
+            return card;
+        }
+        
+        // =============================================
+        // SEARCH
+        // =============================================
+        
+        function search() {
+            searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
+            
+            if (!searchQuery) {
+                filteredResources = allResources;
+            } else {
+                filteredResources = allResources.filter(r => {
+                    const searchText = (r.searchText || '').toLowerCase();
+                    return searchText.includes(searchQuery);
+                });
+            }
+            
+            applyCurrentFilters();
+            displayedCount = 0;
+            renderBatch();
+        }
+        
+        let searchTimeout;
+        document.getElementById('searchInput').addEventListener('input', () => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(search, 300);
+        });
+        
+        // =============================================
+        // FILTERS
+        // =============================================
+        
+        function filterByType(type) {
+            currentFilter = type;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            search();
+        }
+        
+        function filterByMp3() {
+            currentFilter = 'mp3';
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            search();
+        }
+        
+        function filterByMethod() {
+            currentMethod = document.getElementById('methodFilter').value;
+            search();
+        }
+        
+        function applyCurrentFilters() {
+            // Filter by type
+            if (currentFilter === 'mp3') {
+                filteredResources = filteredResources.filter(r => r.metadata?.has_mp3);
+            } else if (currentFilter !== 'all') {
+                filteredResources = filteredResources.filter(r => r.type === currentFilter);
+            }
+            
+            // Filter by method
+            if (currentMethod !== 'all') {
+                filteredResources = filteredResources.filter(r => r.metadata?.book === currentMethod);
+            }
+        }
+        
+        // =============================================
+        // SORT
+        // =============================================
+        
+        function sortAndRender() {
+            const sortBy = document.getElementById('sortBy').value;
+            
+            if (sortBy === 'title') {
+                filteredResources.sort((a, b) => a.title.localeCompare(b.title));
+            } else if (sortBy === 'page') {
+                filteredResources.sort((a, b) => a.page - b.page);
+            }
+            
+            displayedCount = 0;
+            renderBatch();
+        }
+        
+        // =============================================
+        // LIGHTBOX
+        // =============================================
+        
+        function openLightbox(src) {
+            document.getElementById('lightboxImg').src = src;
+            document.getElementById('lightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+        
+        // =============================================
+        // INIT ON LOAD
+        // =============================================
+        
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
