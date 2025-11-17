@@ -3,108 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎸 Prof de Basse - MEGA Search Engine</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Prof de Basse V2 - Recherche avec MP3</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            padding: 20px;
         }
-        
-        .mega-container {
-            max-width: 1800px;
+
+        .container {
+            max-width: 1400px;
             margin: 0 auto;
             background: white;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
         }
-        
-        /* MEGA HEADER */
-        .mega-header {
+
+        header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 30px;
+            padding: 40px;
             text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
         }
-        
-        .mega-title {
+
+        header h1 {
             font-size: 48px;
-            font-weight: bold;
-            margin-bottom: 15px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 10px;
         }
-        
-        .mega-subtitle {
-            font-size: 18px;
-            opacity: 0.9;
-            margin-bottom: 20px;
-        }
-        
-        .mega-stats {
+
+        .stats {
             display: flex;
             justify-content: center;
             gap: 30px;
-            flex-wrap: wrap;
             margin-top: 20px;
+            flex-wrap: wrap;
         }
-        
-        .mega-stat {
-            background: rgba(255,255,255,0.15);
-            padding: 12px 24px;
-            border-radius: 25px;
-            font-size: 16px;
-            font-weight: 600;
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 25px;
+            border-radius: 10px;
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
         }
-        
-        /* MEGA SEARCH */
-        .mega-search {
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .search-section {
             padding: 40px;
-            background: linear-gradient(145deg, #f8f9ff 0%, #fff 100%);
-            border-bottom: 3px solid #eef1ff;
+            background: #f8f9fa;
+            border-bottom: 3px solid #667eea;
         }
-        
-        .search-container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
+
         .search-box {
             position: relative;
-            margin-bottom: 25px;
+            max-width: 800px;
+            margin: 0 auto 30px;
         }
-        
+
         #searchInput {
             width: 100%;
-            padding: 20px 60px 20px 25px;
-            font-size: 20px;
+            padding: 20px 60px 20px 20px;
+            font-size: 18px;
             border: 3px solid #667eea;
-            border-radius: 20px;
+            border-radius: 15px;
             outline: none;
-            background: white;
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.15);
-            transition: all 0.3s ease;
+            transition: all 0.3s;
         }
-        
+
         #searchInput:focus {
             border-color: #764ba2;
-            transform: translateY(-2px);
-            box-shadow: 0 12px 35px rgba(102, 126, 234, 0.25);
+            box-shadow: 0 0 0 4px rgba(118, 75, 162, 0.1);
         }
-        
+
         .search-icon {
             position: absolute;
             right: 20px;
@@ -113,826 +99,637 @@
             font-size: 24px;
             color: #667eea;
         }
-        
-        /* FILTERS BAR */
-        .filters-bar {
+
+        .filters {
             display: flex;
             gap: 15px;
             flex-wrap: wrap;
             justify-content: center;
-            margin-bottom: 20px;
+            margin-top: 20px;
         }
-        
+
         .filter-btn {
             padding: 10px 20px;
-            border: 2px solid #e9ecef;
+            border: 2px solid #667eea;
             background: white;
+            color: #667eea;
             border-radius: 25px;
             cursor: pointer;
             font-size: 14px;
             font-weight: 600;
-            transition: all 0.3s ease;
-            color: #666;
+            transition: all 0.3s;
         }
-        
-        .filter-btn:hover,
+
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
         .filter-btn.active {
             background: #667eea;
             color: white;
-            border-color: #667eea;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
         }
-        
-        /* QUICK SUGGESTIONS */
-        .quick-suggestions {
-            text-align: center;
-            margin-top: 15px;
+
+        .filter-btn.mp3-filter {
+            border-color: #4caf50;
+            color: #4caf50;
         }
-        
-        .quick-title {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 10px;
-        }
-        
-        .suggestion-tags {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .suggestion-tag {
-            background: rgba(102, 126, 234, 0.1);
-            color: #667eea;
-            padding: 6px 12px;
-            border-radius: 15px;
-            cursor: pointer;
-            font-size: 12px;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(102, 126, 234, 0.2);
-        }
-        
-        .suggestion-tag:hover {
-            background: #667eea;
+
+        .filter-btn.mp3-filter:hover,
+        .filter-btn.mp3-filter.active {
+            background: #4caf50;
             color: white;
-            transform: scale(1.05);
         }
-        
-        /* RESULTS SECTION */
+
         .results-section {
-            flex: 1;
-            padding: 0 40px 40px;
+            padding: 40px;
         }
-        
+
         .results-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             flex-wrap: wrap;
             gap: 15px;
         }
-        
+
         .results-count {
             font-size: 18px;
-            color: #333;
-            font-weight: 600;
+            color: #666;
         }
-        
-        .sort-options {
+
+        .sort-controls {
             display: flex;
             gap: 10px;
+            align-items: center;
         }
-        
-        .sort-btn {
-            padding: 8px 16px;
-            border: 1px solid #ddd;
-            background: white;
-            border-radius: 20px;
+
+        .sort-label {
+            font-size: 14px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        #sortSelect {
+            padding: 8px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
             cursor: pointer;
-            font-size: 13px;
-            transition: all 0.3s ease;
+            outline: none;
         }
-        
-        .sort-btn.active,
-        .sort-btn:hover {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
-        }
-        
-        /* RESULTS GRID */
-        .results-grid {
+
+        .cards-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 25px;
         }
-        
-        .mega-card {
+
+        .card {
             background: white;
-            border: 1px solid #e9ecef;
             border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            position: relative;
+            transition: all 0.3s;
+            border: 2px solid transparent;
         }
-        
-        .mega-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
             border-color: #667eea;
         }
-        
-        .card-header {
-            padding: 20px;
-            background: linear-gradient(145deg, #f8f9ff 0%, #fff 100%);
-            border-bottom: 1px solid #eef1ff;
+
+        .card.has-mp3 {
+            border-left: 4px solid #4caf50;
         }
-        
-        .card-type {
+
+        .card-header {
+            position: relative;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: white;
+        }
+
+        .card-badges {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
             display: inline-block;
             padding: 4px 12px;
             border-radius: 12px;
             font-size: 11px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 10px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
         }
-        
-        .type-song {
-            background: #e3f2fd;
-            color: #1976d2;
+
+        .badge-mp3 {
+            background: #4caf50;
+            color: white;
+            animation: pulse 2s infinite;
         }
-        
-        .type-exercise {
-            background: #f3e5f5;
-            color: #7b1fa2;
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
         }
-        
-        .type-concept {
-            background: #e8f5e8;
-            color: #388e3c;
-        }
-        
+
         .card-title {
             font-size: 18px;
-            font-weight: 700;
-            color: #333;
+            font-weight: 600;
             margin-bottom: 8px;
             line-height: 1.3;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
         }
-        
+
         .card-meta {
-            font-size: 13px;
-            color: #666;
             display: flex;
             gap: 15px;
-            flex-wrap: wrap;
-            align-items: center;
+            font-size: 13px;
+            opacity: 0.9;
         }
-        
-        .meta-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        
+
         .card-body {
             padding: 20px;
         }
-        
+
         .card-image {
             width: 100%;
-            height: 220px;
+            height: 200px;
             object-fit: cover;
+            background: #f5f5f5;
             cursor: pointer;
-            transition: transform 0.3s ease;
-            border-radius: 8px;
+            transition: opacity 0.3s;
         }
-        
+
         .card-image:hover {
-            transform: scale(1.02);
+            opacity: 0.9;
         }
-        
-        .card-actions {
-            display: flex;
-            gap: 10px;
+
+        .card-info {
             margin-top: 15px;
-        }
-        
-        .action-btn {
-            flex: 1;
-            padding: 10px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
             font-size: 14px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 5px;
-        }
-        
-        .btn-primary {
-            background: #667eea;
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            background: #564fd7;
-            transform: translateY(-2px);
-        }
-        
-        .btn-secondary {
-            background: #f8f9fa;
-            color: #667eea;
-            border: 1px solid #e9ecef;
-        }
-        
-        .btn-secondary:hover {
-            background: #e9ecef;
-        }
-        
-        /* LIGHTBOX AMÉLIORÉ */
-        .mega-lightbox {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.95);
-            z-index: 3000;
-            justify-content: center;
-            align-items: center;
-            backdrop-filter: blur(5px);
-        }
-        
-        .mega-lightbox.active {
-            display: flex;
-        }
-        
-        .lightbox-content {
-            position: relative;
-            max-width: 95%;
-            max-height: 95%;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 25px 75px rgba(0,0,0,0.5);
-        }
-        
-        .lightbox-image {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        
-        .lightbox-close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: rgba(255,255,255,0.9);
-            border: none;
-            padding: 12px;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 20px;
-            color: #333;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-        }
-        
-        .lightbox-close:hover {
-            background: white;
-            transform: scale(1.1);
-        }
-        
-        /* LOADING & NO RESULTS */
-        .loading {
-            text-align: center;
-            padding: 80px 40px;
-            font-size: 20px;
             color: #666;
         }
-        
-        .loading i {
-            font-size: 48px;
-            margin-bottom: 20px;
-            animation: spin 2s linear infinite;
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
-        
+
+        .info-icon {
+            width: 20px;
+            text-align: center;
+        }
+
+        .mp3-player {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 3px solid #4caf50;
+        }
+
+        .mp3-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #4caf50;
+        }
+
+        .mp3-icon {
+            font-size: 20px;
+        }
+
+        audio {
+            width: 100%;
+            height: 40px;
+            outline: none;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .confidence-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 10px;
+            background: rgba(76, 175, 80, 0.1);
+            border-radius: 8px;
+            font-size: 12px;
+            color: #4caf50;
+            font-weight: 600;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .no-results-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .no-results-text {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #667eea;
+            font-size: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
-        
-        .no-results {
+
+        footer {
+            background: #333;
+            color: white;
             text-align: center;
-            padding: 80px 40px;
-            color: #666;
+            padding: 30px;
+            font-size: 14px;
         }
-        
-        .no-results i {
-            font-size: 64px;
-            margin-bottom: 20px;
-            color: #ddd;
-        }
-        
-        .no-results h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        
-        /* RESPONSIVE */
+
         @media (max-width: 768px) {
-            .mega-title {
-                font-size: 36px;
+            header h1 {
+                font-size: 32px;
             }
-            
-            .mega-search {
-                padding: 20px;
-            }
-            
-            .results-section {
-                padding: 0 20px 20px;
-            }
-            
-            .results-grid {
+
+            .cards-grid {
                 grid-template-columns: 1fr;
             }
-            
-            .mega-stats {
-                gap: 15px;
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
             }
-            
-            .filters-bar {
-                gap: 8px;
+
+            .filter-btn {
+                width: 100%;
             }
-        }
-        
-        /* SPECIAL FEATURES */
-        .highlight {
-            background: #fff3cd;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-weight: 600;
-        }
-        
-        .performance-badge {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: #28a745;
-            color: white;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 10px;
-            font-weight: 700;
         }
     </style>
 </head>
 <body>
-    <div class="mega-container">
-        <header class="mega-header">
-            <h1 class="mega-title">🎸 Prof de Basse</h1>
-            <div class="mega-subtitle">Moteur de Recherche Musical Universel</div>
+    <div class="container">
+        <header>
+            <h1>🎸 Prof de Basse V2</h1>
+            <p style="font-size: 18px; margin-top: 10px; opacity: 0.95;">
+                Plateforme d'apprentissage de la basse avec MP3 intégrés
+            </p>
             
-            <div class="mega-stats">
-                <div class="mega-stat">
-                    <i class="fas fa-music"></i> <span id="totalSongs">0</span> Songs
+            <div class="stats" id="statsContainer">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalResources">0</div>
+                    <div class="stat-label">Ressources totales</div>
                 </div>
-                <div class="mega-stat">
-                    <i class="fas fa-dumbbell"></i> <span id="totalExercises">0</span> Exercises
+                <div class="stat-card">
+                    <div class="stat-number" id="totalMP3">0</div>
+                    <div class="stat-label">🎵 Avec MP3</div>
                 </div>
-                <div class="mega-stat">
-                    <i class="fas fa-brain"></i> <span id="totalConcepts">0</span> Concepts
-                </div>
-                <div class="mega-stat">
-                    <i class="fas fa-database"></i> <span id="totalResources">0</span> Total
+                <div class="stat-card">
+                    <div class="stat-number" id="totalMethods">0</div>
+                    <div class="stat-label">Méthodes</div>
                 </div>
             </div>
         </header>
-        
-        <section class="mega-search">
-            <div class="search-container">
-                <div class="search-box">
-                    <input type="text" 
-                           id="searchInput" 
-                           placeholder="Rechercher : So What, funk, gamme mineure, Stevie Wonder..."
-                           onkeyup="performSearch()"
-                           autocomplete="off">
-                    <i class="fas fa-search search-icon"></i>
-                </div>
-                
-                <div class="filters-bar">
-                    <div class="filter-btn active" onclick="filterByType('all')">
-                        <i class="fas fa-globe"></i> Tous
-                    </div>
-                    <div class="filter-btn" onclick="filterByType('song')">
-                        <i class="fas fa-music"></i> Songs
-                    </div>
-                    <div class="filter-btn" onclick="filterByType('exercise')">
-                        <i class="fas fa-dumbbell"></i> Exercises
-                    </div>
-                    <div class="filter-btn" onclick="filterByType('concept')">
-                        <i class="fas fa-brain"></i> Concepts
-                    </div>
-                    <div class="filter-btn" onclick="filterByCategory('Methodes')">
-                        <i class="fas fa-book"></i> Méthodes
-                    </div>
-                    <div class="filter-btn" onclick="filterByCategory('Partitions')">
-                        <i class="fas fa-file-music"></i> Partitions
-                    </div>
-                    <div class="filter-btn" onclick="filterByCategory('Theorie')">
-                        <i class="fas fa-graduation-cap"></i> Théorie
-                    </div>
-                </div>
-                
-                <div class="quick-suggestions">
-                    <div class="quick-title">💡 Suggestions populaires :</div>
-                    <div class="suggestion-tags">
-                        <span class="suggestion-tag" onclick="quickSearch('So What')">So What</span>
-                        <span class="suggestion-tag" onclick="quickSearch('funk')">Funk</span>
-                        <span class="suggestion-tag" onclick="quickSearch('Stevie Wonder')">Stevie Wonder</span>
-                        <span class="suggestion-tag" onclick="quickSearch('gamme mineure')">Gamme Mineure</span>
-                        <span class="suggestion-tag" onclick="quickSearch('walking bass')">Walking Bass</span>
-                        <span class="suggestion-tag" onclick="quickSearch('real book')">Real Book</span>
-                        <span class="suggestion-tag" onclick="quickSearch('slap')">Slap</span>
-                        <span class="suggestion-tag" onclick="quickSearch('jazz')">Jazz</span>
-                    </div>
-                </div>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Rechercher un exercice, un morceau, une technique..."
+                    autocomplete="off"
+                >
+                <span class="search-icon">🔍</span>
             </div>
-        </section>
-        
-        <section class="results-section">
-            <div class="results-header">
-                <div class="results-count" id="resultsCount">Chargement des ressources...</div>
-                <div class="sort-options">
-                    <div class="sort-btn active" onclick="sortResults('relevance')">Pertinence</div>
-                    <div class="sort-btn" onclick="sortResults('title')">Titre</div>
-                    <div class="sort-btn" onclick="sortResults('category')">Catégorie</div>
-                </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn mp3-filter" data-filter="mp3">🎵 Avec MP3 (0)</button>
+                <button class="filter-btn" data-filter="funk">Funk</button>
+                <button class="filter-btn" data-filter="jazz">Jazz</button>
+                <button class="filter-btn" data-filter="blues">Blues</button>
+                <button class="filter-btn" data-filter="rock">Rock</button>
+                <button class="filter-btn" data-filter="beginner">Débutant</button>
+                <button class="filter-btn" data-filter="intermediate">Intermédiaire</button>
+                <button class="filter-btn" data-filter="advanced">Avancé</button>
             </div>
-            
-            <div class="results-grid" id="resultsGrid">
-                <div class="loading">
-                    <i class="fas fa-spinner"></i>
-                    <div>Chargement de vos 4913 ressources...</div>
-                </div>
-            </div>
-        </section>
-    </div>
-    
-    <!-- MEGA LIGHTBOX -->
-    <div class="mega-lightbox" id="megaLightbox" onclick="closeLightbox()">
-        <div class="lightbox-content" onclick="event.stopPropagation()">
-            <img class="lightbox-image" id="lightboxImage" alt="Resource">
-            <button class="lightbox-close" onclick="closeLightbox()">
-                <i class="fas fa-times"></i>
-            </button>
         </div>
+
+        <div class="results-section">
+            <div class="results-header">
+                <div class="results-count" id="resultsCount">Chargement...</div>
+                <div class="sort-controls">
+                    <span class="sort-label">Trier par :</span>
+                    <select id="sortSelect">
+                        <option value="relevance">Pertinence</option>
+                        <option value="title">Titre (A-Z)</option>
+                        <option value="method">Méthode</option>
+                        <option value="difficulty">Niveau</option>
+                        <option value="mp3">MP3 d'abord</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="loadingIndicator" class="loading">
+                <div class="spinner"></div>
+                <p>Chargement des ressources...</p>
+            </div>
+
+            <div class="cards-grid" id="cardsContainer"></div>
+
+            <div id="noResults" class="no-results" style="display: none;">
+                <div class="no-results-icon">🎸</div>
+                <div class="no-results-text">Aucun résultat trouvé</div>
+                <p>Essayez avec d'autres mots-clés ou filtres</p>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Prof de Basse V2</strong> - Système d'apprentissage complet</p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                🎵 237 ressources avec MP3 intégrés | Mise à jour : Novembre 2025
+            </p>
+        </footer>
     </div>
 
     <script>
-        class MegaSearchEngine {
-            constructor() {
-                this.allResources = [];
-                this.filteredResources = [];
-                this.currentFilter = 'all';
-                this.currentSort = 'relevance';
-                this.initialized = false;
+        // État global
+        let allResources = [];
+        let filteredResources = [];
+        let currentFilter = 'all';
+        let currentSort = 'relevance';
+        let searchQuery = '';
+
+        // Charger les données
+        async function loadData() {
+            try {
+                const response = await fetch('megasearch.json');
+                const data = await response.json();
+                
+                allResources = data.resources || [];
+                
+                // Mettre à jour les stats
+                updateStats(data.metadata);
+                
+                // Afficher toutes les ressources initialement
+                filteredResources = [...allResources];
+                renderCards();
+                
+                // Cacher le loading
+                document.getElementById('loadingIndicator').style.display = 'none';
+                
+            } catch (error) {
+                console.error('Erreur de chargement:', error);
+                document.getElementById('loadingIndicator').innerHTML = 
+                    '<p style="color: #e74c3c;">❌ Erreur de chargement des données</p>';
             }
+        }
+
+        // Mettre à jour les statistiques
+        function updateStats(metadata) {
+            document.getElementById('totalResources').textContent = metadata.totalResources || allResources.length;
+            document.getElementById('totalMP3').textContent = metadata.mp3_resources_count || 0;
+            document.getElementById('totalMethods').textContent = metadata.totalMethods || 5;
             
-            async init() {
-                console.log('🚀 Initialisation Mega Search Engine');
-                
-                try {
-                    // Charger megasearch.json
-                    const response = await fetch('megasearch.json');
-                    if (!response.ok) throw new Error('Impossible de charger megasearch.json');
-                    
-                    const data = await response.json();
-                    this.allResources = data.resources || [];
-                    this.filteredResources = [...this.allResources];
-                    this.initialized = true;
-                    
-                    console.log(`✅ ${this.allResources.length} ressources chargées`);
-                    
-                    this.updateStats();
-                    this.displayResults();
-                    
-                    return true;
-                } catch (error) {
-                    console.error('❌ Erreur de chargement:', error);
-                    this.showError();
-                    return false;
-                }
+            // Mettre à jour le bouton filtre MP3
+            const mp3Count = metadata.mp3_resources_count || 0;
+            const mp3Button = document.querySelector('[data-filter="mp3"]');
+            if (mp3Button) {
+                mp3Button.textContent = `🎵 Avec MP3 (${mp3Count})`;
             }
+        }
+
+        // Recherche
+        function search() {
+            const query = searchQuery.toLowerCase().trim();
             
-            updateStats() {
-                const stats = {
-                    songs: this.allResources.filter(r => r.type === 'song').length,
-                    exercises: this.allResources.filter(r => r.type === 'exercise').length,
-                    concepts: this.allResources.filter(r => r.type === 'concept').length,
-                    total: this.allResources.length
-                };
-                
-                document.getElementById('totalSongs').textContent = stats.songs;
-                document.getElementById('totalExercises').textContent = stats.exercises;
-                document.getElementById('totalConcepts').textContent = stats.concepts;
-                document.getElementById('totalResources').textContent = stats.total;
-            }
-            
-            search(query) {
-                if (!this.initialized) return [];
-                
-                if (!query || !query.trim()) {
-                    return this.allResources.slice(0, 100);
-                }
-                
-                const searchTerms = query.toLowerCase().trim().split(/\s+/);
-                
-                return this.allResources.filter(resource => {
-                    const searchText = this.buildSearchText(resource);
-                    return searchTerms.every(term => searchText.includes(term));
+            if (!query) {
+                filteredResources = [...allResources];
+            } else {
+                filteredResources = allResources.filter(resource => {
+                    const searchableText = [
+                        resource.title,
+                        resource.method,
+                        resource.style,
+                        resource.difficulty,
+                        resource.technique,
+                        resource.metadata?.tags?.join(' ')
+                    ].filter(Boolean).join(' ').toLowerCase();
+                    
+                    return searchableText.includes(query);
                 });
             }
             
-            buildSearchText(resource) {
-                return [
-                    resource.title || '',
-                    resource.searchText || '',
-                    resource.metadata?.book || '',
-                    resource.metadata?.composer || '',
-                    resource.metadata?.key || '',
-                    resource.metadata?.difficulty || '',
-                    resource.metadata?.technique || '',
-                    resource.metadata?.category || '',
-                    resource.metadata?.description || ''
-                ].join(' ').toLowerCase();
+            applyFilters();
+        }
+
+        // Appliquer les filtres
+        function applyFilters() {
+            let filtered = [...filteredResources];
+            
+            // Filtre MP3
+            if (currentFilter === 'mp3') {
+                filtered = filtered.filter(r => r.metadata?.has_mp3);
+            }
+            // Filtre par style
+            else if (['funk', 'jazz', 'blues', 'rock'].includes(currentFilter)) {
+                filtered = filtered.filter(r => 
+                    r.style?.toLowerCase().includes(currentFilter) ||
+                    r.technique?.toLowerCase().includes(currentFilter)
+                );
+            }
+            // Filtre par niveau
+            else if (['beginner', 'intermediate', 'advanced'].includes(currentFilter)) {
+                const levelMap = {
+                    'beginner': 'débutant',
+                    'intermediate': 'intermédiaire',
+                    'advanced': 'avancé'
+                };
+                filtered = filtered.filter(r => 
+                    r.difficulty?.toLowerCase() === levelMap[currentFilter]
+                );
             }
             
-            filterByType(type) {
-                this.currentFilter = type;
-                this.applyFilters();
+            filteredResources = filtered;
+            applySort();
+        }
+
+        // Appliquer le tri
+        function applySort() {
+            switch(currentSort) {
+                case 'title':
+                    filteredResources.sort((a, b) => 
+                        (a.title || '').localeCompare(b.title || '')
+                    );
+                    break;
+                case 'method':
+                    filteredResources.sort((a, b) => 
+                        (a.method || '').localeCompare(b.method || '')
+                    );
+                    break;
+                case 'difficulty':
+                    const levelOrder = { 'débutant': 1, 'intermédiaire': 2, 'avancé': 3 };
+                    filteredResources.sort((a, b) => 
+                        (levelOrder[a.difficulty] || 99) - (levelOrder[b.difficulty] || 99)
+                    );
+                    break;
+                case 'mp3':
+                    filteredResources.sort((a, b) => {
+                        const aHasMP3 = a.metadata?.has_mp3 ? 1 : 0;
+                        const bHasMP3 = b.metadata?.has_mp3 ? 1 : 0;
+                        return bHasMP3 - aHasMP3;
+                    });
+                    break;
             }
             
-            filterByCategory(category) {
-                this.currentFilter = category;
-                this.applyFilters();
+            renderCards();
+        }
+
+        // Afficher les cartes
+        function renderCards() {
+            const container = document.getElementById('cardsContainer');
+            const noResults = document.getElementById('noResults');
+            const resultsCount = document.getElementById('resultsCount');
+            
+            // Mettre à jour le compteur
+            resultsCount.textContent = `${filteredResources.length} résultat${filteredResources.length > 1 ? 's' : ''}`;
+            
+            if (filteredResources.length === 0) {
+                container.innerHTML = '';
+                noResults.style.display = 'block';
+                return;
             }
             
-            applyFilters() {
-                const query = document.getElementById('searchInput').value;
-                let results = this.search(query);
-                
-                if (this.currentFilter !== 'all') {
-                    if (['song', 'exercise', 'concept'].includes(this.currentFilter)) {
-                        results = results.filter(r => r.type === this.currentFilter);
-                    } else {
-                        results = results.filter(r => r.metadata?.category === this.currentFilter);
-                    }
-                }
-                
-                this.filteredResources = results;
-                this.sortResults(this.currentSort);
-            }
+            noResults.style.display = 'none';
             
-            sortResults(sortType) {
-                this.currentSort = sortType;
-                
-                switch (sortType) {
-                    case 'title':
-                        this.filteredResources.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
-                        break;
-                    case 'category':
-                        this.filteredResources.sort((a, b) => (a.metadata?.category || '').localeCompare(b.metadata?.category || ''));
-                        break;
-                    case 'relevance':
-                    default:
-                        // Tri par pertinence (déjà fait par la recherche)
-                        break;
-                }
-                
-                this.displayResults();
-            }
+            container.innerHTML = filteredResources.map(resource => createCard(resource)).join('');
+        }
+
+        // Créer une carte
+        function createCard(resource) {
+            const hasMP3 = resource.metadata?.has_mp3;
+            const mp3URL = resource.metadata?.mp3_url;
+            const confidence = resource.metadata?.mp3_match_confidence;
             
-            displayResults() {
-                const grid = document.getElementById('resultsGrid');
-                const count = document.getElementById('resultsCount');
-                
-                const results = this.filteredResources.slice(0, 200); // Limite affichage
-                
-                count.textContent = `${results.length} résultat${results.length > 1 ? 's' : ''} trouvé${results.length > 1 ? 's' : ''}`;
-                
-                if (results.length === 0) {
-                    grid.innerHTML = `
-                        <div class="no-results">
-                            <i class="fas fa-search"></i>
-                            <h3>Aucun résultat trouvé</h3>
-                            <p>Essayez d'autres mots-clés ou supprimez les filtres</p>
+            // Badge niveau
+            const difficultyColor = {
+                'débutant': '#4caf50',
+                'intermédiaire': '#ff9800',
+                'avancé': '#f44336'
+            };
+            
+            return `
+                <div class="card ${hasMP3 ? 'has-mp3' : ''}">
+                    <div class="card-header">
+                        <div class="card-badges">
+                            ${hasMP3 ? '<span class="badge badge-mp3">🎵 MP3</span>' : ''}
+                            ${resource.difficulty ? `<span class="badge" style="background: ${difficultyColor[resource.difficulty] || '#999'}">${resource.difficulty}</span>` : ''}
+                            ${resource.style ? `<span class="badge">${resource.style}</span>` : ''}
                         </div>
-                    `;
-                    return;
-                }
-                
-                grid.innerHTML = results.map(resource => this.createCard(resource)).join('');
-            }
-            
-            createCard(resource) {
-                const title = resource.title || 'Sans titre';
-                const book = resource.metadata?.book || 'Méthode inconnue';
-                const category = resource.metadata?.category || 'unknown';
-                const composer = resource.metadata?.composer || '';
-                const key = resource.metadata?.key || '';
-                const difficulty = resource.metadata?.difficulty || '';
-                const page = resource.page || '';
-                
-                const typeClass = `type-${resource.type}`;
-                const typeIcon = {
-                    song: 'fa-music',
-                    exercise: 'fa-dumbbell', 
-                    concept: 'fa-brain'
-                }[resource.type] || 'fa-file';
-                
-                return `
-                    <div class="mega-card">
-                        <div class="performance-badge">HD</div>
-                        <div class="card-header">
-                            <div class="card-type ${typeClass}">
-                                <i class="fas ${typeIcon}"></i> ${resource.type}
-                            </div>
-                            <div class="card-title">${title}</div>
-                            <div class="card-meta">
-                                <div class="meta-item">
-                                    <i class="fas fa-book"></i> ${book}
+                        <div class="card-title">${resource.title || 'Sans titre'}</div>
+                        <div class="card-meta">
+                            <span>📚 ${resource.method || 'N/A'}</span>
+                            ${resource.page ? `<span>📄 Page ${resource.page}</span>` : ''}
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        ${resource.imageUrl ? `
+                            <img 
+                                src="${resource.imageUrl}" 
+                                alt="${resource.title}"
+                                class="card-image"
+                                onclick="window.open('${resource.imageUrl}', '_blank')"
+                                loading="lazy"
+                            >
+                        ` : ''}
+                        
+                        <div class="card-info">
+                            ${resource.technique ? `
+                                <div class="info-row">
+                                    <span class="info-icon">🎸</span>
+                                    <span>${resource.technique}</span>
                                 </div>
-                                ${page ? `<div class="meta-item"><i class="fas fa-page"></i> Page ${page}</div>` : ''}
-                                ${composer ? `<div class="meta-item"><i class="fas fa-user"></i> ${composer}</div>` : ''}
-                                ${key ? `<div class="meta-item"><i class="fas fa-key"></i> ${key}</div>` : ''}
-                                ${difficulty ? `<div class="meta-item"><i class="fas fa-signal"></i> ${difficulty}</div>` : ''}
-                            </div>
+                            ` : ''}
                         </div>
-                        <div class="card-body">
-                            <img src="${resource.url}" 
-                                 alt="${title}" 
-                                 class="card-image" 
-                                 onclick="openLightbox('${resource.url}', '${title.replace(/'/g, "\\'")}')"
-                                 loading="lazy"
-                                 onerror="this.style.display='none'">
-                            <div class="card-actions">
-                                <button class="action-btn btn-primary" onclick="openLightbox('${resource.url}', '${title.replace(/'/g, "\\'")}')">
-                                    <i class="fas fa-eye"></i> Voir
-                                </button>
-                                <button class="action-btn btn-secondary" onclick="openInNewTab('${resource.url}')">
-                                    <i class="fas fa-external-link-alt"></i> Ouvrir
-                                </button>
-                                <button class="action-btn btn-secondary" onclick="copyUrl('${resource.url}')">
-                                    <i class="fas fa-copy"></i> URL
-                                </button>
+                        
+                        ${hasMP3 ? `
+                            <div class="mp3-player">
+                                <div class="mp3-header">
+                                    <span class="mp3-icon">🎵</span>
+                                    <span>Accompagnement MP3</span>
+                                    ${confidence ? `<span class="confidence-badge">✓ ${Math.round(confidence * 100)}%</span>` : ''}
+                                </div>
+                                <audio controls preload="none">
+                                    <source src="${mp3URL}" type="audio/mpeg">
+                                    Votre navigateur ne supporte pas l'audio HTML5.
+                                </audio>
                             </div>
-                        </div>
+                        ` : ''}
                     </div>
-                `;
-            }
-            
-            showError() {
-                document.getElementById('resultsGrid').innerHTML = `
-                    <div class="no-results">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        <h3>Erreur de chargement</h3>
-                        <p>Impossible de charger les données. Vérifiez que megasearch.json existe.</p>
-                    </div>
-                `;
-            }
+                </div>
+            `;
         }
-        
-        // Variables globales
-        let megaEngine = null;
-        
-        // Initialisation
-        document.addEventListener('DOMContentLoaded', async () => {
-            console.log('🎸 Mega Search Engine - Prof de Basse');
-            
-            megaEngine = new MegaSearchEngine();
-            await megaEngine.init();
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            search();
         });
-        
-        // Fonctions de recherche
-        function performSearch() {
-            if (!megaEngine || !megaEngine.initialized) return;
-            megaEngine.applyFilters();
-        }
-        
-        function quickSearch(query) {
-            document.getElementById('searchInput').value = query;
-            performSearch();
-        }
-        
-        function filterByType(type) {
-            // Mettre à jour les boutons actifs
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            if (megaEngine) megaEngine.filterByType(type);
-        }
-        
-        function filterByCategory(category) {
-            // Mettre à jour les boutons actifs
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            if (megaEngine) megaEngine.filterByCategory(category);
-        }
-        
-        function sortResults(sortType) {
-            // Mettre à jour les boutons actifs
-            document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-            
-            if (megaEngine) megaEngine.sortResults(sortType);
-        }
-        
-        // Fonctions utilitaires
-        function openLightbox(url, title) {
-            document.getElementById('lightboxImage').src = url;
-            document.getElementById('lightboxImage').alt = title;
-            document.getElementById('megaLightbox').classList.add('active');
-        }
-        
-        function closeLightbox() {
-            document.getElementById('megaLightbox').classList.remove('active');
-        }
-        
-        function openInNewTab(url) {
-            window.open(url, '_blank');
-        }
-        
-        function copyUrl(url) {
-            navigator.clipboard.writeText(url).then(() => {
-                // Feedback visuel
-                const btn = event.target.closest('.action-btn');
-                const originalText = btn.innerHTML;
-                btn.innerHTML = '<i class="fas fa-check"></i> Copié!';
-                btn.style.background = '#28a745';
-                setTimeout(() => {
-                    btn.innerHTML = originalText;
-                    btn.style.background = '';
-                }, 2000);
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Retirer active de tous
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                
+                // Ajouter active au bouton cliqué
+                btn.classList.add('active');
+                
+                currentFilter = btn.dataset.filter;
+                search();
             });
-        }
-        
-        // API pour GPT personnalisé
-        window.ProfDeBasse = {
-            search: (query) => megaEngine ? megaEngine.search(query) : [],
-            getResourceByTitle: (title) => {
-                if (!megaEngine) return null;
-                return megaEngine.allResources.find(r => r.title.toLowerCase().includes(title.toLowerCase()));
-            },
-            getResourcesByComposer: (composer) => {
-                if (!megaEngine) return [];
-                return megaEngine.allResources.filter(r => 
-                    (r.metadata?.composer || '').toLowerCase().includes(composer.toLowerCase())
-                );
-            },
-            getResourcesByKey: (key) => {
-                if (!megaEngine) return [];
-                return megaEngine.allResources.filter(r => 
-                    (r.metadata?.key || '').toLowerCase().includes(key.toLowerCase())
-                );
-            },
-            getAllSongs: () => megaEngine ? megaEngine.allResources.filter(r => r.type === 'song') : [],
-            getAllExercises: () => megaEngine ? megaEngine.allResources.filter(r => r.type === 'exercise') : [],
-            getAllConcepts: () => megaEngine ? megaEngine.allResources.filter(r => r.type === 'concept') : [],
-            getStats: () => megaEngine ? {
-                total: megaEngine.allResources.length,
-                songs: megaEngine.allResources.filter(r => r.type === 'song').length,
-                exercises: megaEngine.allResources.filter(r => r.type === 'exercise').length,
-                concepts: megaEngine.allResources.filter(r => r.type === 'concept').length
-            } : {}
-        };
-        
-        // Raccourcis clavier
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeLightbox();
-            if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
-                e.preventDefault();
-                document.getElementById('searchInput').focus();
-            }
         });
-        
-        console.log('🎸 Mega Search Engine initialisé !');
-        console.log('API disponible via window.ProfDeBasse');
+
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            currentSort = e.target.value;
+            applySort();
+        });
+
+        // Charger au démarrage
+        loadData();
     </script>
 </body>
 </html>
