@@ -1,18 +1,1399 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "generated_at": "2025-11-17T11:40:56.756745",
+    "version": "2.0.0",
+    "generated_at": "2025-11-17T11:52:06.094148",
     "total_mp3": 363,
-    "total_resources": 0,
-    "matched": 0,
-    "match_rate": "0.0%"
+    "total_exercises": 875,
+    "matched": 138,
+    "match_rate": "38.0%"
   },
   "stats": {
     "total_mp3": 363,
-    "total_resources": 0,
-    "matched": 0,
-    "unmatched_mp3": 363,
-    "unmatched_resources": 0
+    "total_exercises": 875,
+    "matched": 138,
+    "unmatched_mp3": 225,
+    "unmatched_exercises": 0
   },
-  "mappings": []
+  "mappings": [
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_045",
+      "exercise_title": "Pattern 45",
+      "exercise_page": 15,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 45.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2045.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_051",
+      "exercise_title": "Pattern 51",
+      "exercise_page": 16,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 51.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2051.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_079",
+      "exercise_title": "Pattern 79",
+      "exercise_page": 25,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 79.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2079.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_086",
+      "exercise_title": "Pattern 86",
+      "exercise_page": 27,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 86.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2086.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_092",
+      "exercise_title": "Pattern 92",
+      "exercise_page": 28,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 92.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2092.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_087",
+      "exercise_title": "Pattern 87",
+      "exercise_page": 27,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 87.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2087.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_078",
+      "exercise_title": "Pattern 78",
+      "exercise_page": 25,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 78.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2078.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_050",
+      "exercise_title": "Pattern 50",
+      "exercise_page": 16,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 50.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2050.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_044",
+      "exercise_title": "Pattern 44",
+      "exercise_page": 15,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 44.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2044.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_052",
+      "exercise_title": "Pattern 52",
+      "exercise_page": 17,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 52.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2052.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_046",
+      "exercise_title": "Pattern 46",
+      "exercise_page": 15,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 46.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2046.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_091",
+      "exercise_title": "Pattern 91",
+      "exercise_page": 28,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 91.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2091.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_085",
+      "exercise_title": "Pattern 85",
+      "exercise_page": 27,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 85.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2085.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_084",
+      "exercise_title": "Pattern 84",
+      "exercise_page": 26,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 84.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2084.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_090",
+      "exercise_title": "Pattern 90",
+      "exercise_page": 28,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 90.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2090.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_047",
+      "exercise_title": "Pattern 47",
+      "exercise_page": 16,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 47.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2047.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_053",
+      "exercise_title": "Pattern 53",
+      "exercise_page": 17,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 53.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2053.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_057",
+      "exercise_title": "Pattern 57",
+      "exercise_page": 18,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 57.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2057.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_043",
+      "exercise_title": "Pattern 43",
+      "exercise_page": 15,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 43.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2043.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_080",
+      "exercise_title": "Pattern 80",
+      "exercise_page": 25,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 80.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2080.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_081",
+      "exercise_title": "Pattern 81",
+      "exercise_page": 26,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 81.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2081.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_042",
+      "exercise_title": "Pattern 42",
+      "exercise_page": 15,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 42.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2042.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_056",
+      "exercise_title": "Pattern 56",
+      "exercise_page": 18,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 56.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2056.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_068",
+      "exercise_title": "Pattern 68",
+      "exercise_page": 22,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 68.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2068.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_040",
+      "exercise_title": "Pattern 40",
+      "exercise_page": 14,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 40.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2040.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_054",
+      "exercise_title": "Pattern 54",
+      "exercise_page": 17,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 54.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2054.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_083",
+      "exercise_title": "Pattern 83",
+      "exercise_page": 26,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 83.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2083.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_082",
+      "exercise_title": "Pattern 82",
+      "exercise_page": 26,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 82.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2082.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_055",
+      "exercise_title": "Pattern 55",
+      "exercise_page": 18,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 55.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2055.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_041",
+      "exercise_title": "Pattern 41",
+      "exercise_page": 14,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 41.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2041.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_069",
+      "exercise_title": "Pattern 69",
+      "exercise_page": 22,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 69.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2069.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_026",
+      "exercise_title": "Pattern 26",
+      "exercise_page": 8,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 26.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2026.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_032",
+      "exercise_title": "Pattern 32",
+      "exercise_page": 10,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 32.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2032.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_033",
+      "exercise_title": "Pattern 33",
+      "exercise_page": 11,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 33.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2033.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_027",
+      "exercise_title": "Pattern 27",
+      "exercise_page": 8,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 27.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2027.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_031",
+      "exercise_title": "Pattern 31",
+      "exercise_page": 10,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 31.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2031.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_025",
+      "exercise_title": "Pattern 25",
+      "exercise_page": 8,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 25.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2025.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_019",
+      "exercise_title": "Pattern 19",
+      "exercise_page": 6,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 19.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2019.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_018",
+      "exercise_title": "Pattern 18",
+      "exercise_page": 6,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 18.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2018.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_024",
+      "exercise_title": "Pattern 24",
+      "exercise_page": 7,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 24.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2024.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_030",
+      "exercise_title": "Pattern 30",
+      "exercise_page": 9,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 30.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2030.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_008",
+      "exercise_title": "Pattern 8",
+      "exercise_page": 3,
+      "exercise_technique": "swing feel funk",
+      "mp3_filename": "Track 08.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2008.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_034",
+      "exercise_title": "Pattern 34",
+      "exercise_page": 11,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 34.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2034.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_020",
+      "exercise_title": "Pattern 20",
+      "exercise_page": 6,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 20.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2020.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_021",
+      "exercise_title": "Pattern 21",
+      "exercise_page": 7,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 21.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2021.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_035",
+      "exercise_title": "Pattern 35",
+      "exercise_page": 12,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 35.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2035.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_009",
+      "exercise_title": "Pattern 9",
+      "exercise_page": 4,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 09.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2009.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_023",
+      "exercise_title": "Pattern 23",
+      "exercise_page": 7,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 23.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2023.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_037",
+      "exercise_title": "Pattern 37",
+      "exercise_page": 13,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 37.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2037.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_036",
+      "exercise_title": "Pattern 36",
+      "exercise_page": 12,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 36.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2036.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_022",
+      "exercise_title": "Pattern 22",
+      "exercise_page": 7,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 22.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2022.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_007",
+      "exercise_title": "Pattern 7",
+      "exercise_page": 3,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 07.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2007.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_013",
+      "exercise_title": "Pattern 13",
+      "exercise_page": 5,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 13.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2013.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_012",
+      "exercise_title": "Pattern 12",
+      "exercise_page": 4,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 12.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2012.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_006",
+      "exercise_title": "Pattern 6",
+      "exercise_page": 3,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 06.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2006.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_010",
+      "exercise_title": "Pattern 10",
+      "exercise_page": 4,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 10.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2010.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_004",
+      "exercise_title": "Pattern 4",
+      "exercise_page": 2,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 04.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2004.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_038",
+      "exercise_title": "Pattern 38",
+      "exercise_page": 13,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 38.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2038.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_039",
+      "exercise_title": "Pattern 39",
+      "exercise_page": 14,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 39.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2039.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_005",
+      "exercise_title": "Pattern 5",
+      "exercise_page": 3,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 05.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2005.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_011",
+      "exercise_title": "Pattern 11",
+      "exercise_page": 4,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 11.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2011.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_029",
+      "exercise_title": "Pattern 29",
+      "exercise_page": 9,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 29.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2029.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_015",
+      "exercise_title": "Pattern 15",
+      "exercise_page": 5,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 15.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2015.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_001",
+      "exercise_title": "Pattern 1",
+      "exercise_page": 2,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 01.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2001.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_014",
+      "exercise_title": "Pattern 14",
+      "exercise_page": 5,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 14.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2014.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_028",
+      "exercise_title": "Pattern 28",
+      "exercise_page": 9,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 28.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2028.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_002",
+      "exercise_title": "Pattern 2",
+      "exercise_page": 2,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 02.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2002.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_016",
+      "exercise_title": "Pattern 16",
+      "exercise_page": 5,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 16.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2016.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_017",
+      "exercise_title": "Pattern 17",
+      "exercise_page": 6,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 17.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2017.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_003",
+      "exercise_title": "Pattern 3",
+      "exercise_page": 2,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 03.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2003.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_064",
+      "exercise_title": "Pattern 64",
+      "exercise_page": 21,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 64.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2064.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_070",
+      "exercise_title": "Pattern 70",
+      "exercise_page": 22,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 70.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2070.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_058",
+      "exercise_title": "Pattern 58",
+      "exercise_page": 19,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 58.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2058.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_059",
+      "exercise_title": "Pattern 59",
+      "exercise_page": 19,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 59.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2059.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_071",
+      "exercise_title": "Pattern 71",
+      "exercise_page": 23,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 71.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2071.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_065",
+      "exercise_title": "Pattern 65",
+      "exercise_page": 21,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 65.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2065.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_073",
+      "exercise_title": "Pattern 73",
+      "exercise_page": 23,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 73.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2073.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_067",
+      "exercise_title": "Pattern 67",
+      "exercise_page": 22,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 67.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2067.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_093",
+      "exercise_title": "Pattern 99",
+      "exercise_page": 29,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 99.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2099.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_066",
+      "exercise_title": "Pattern 66",
+      "exercise_page": 21,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 66.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2066.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_072",
+      "exercise_title": "Pattern 72",
+      "exercise_page": 23,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 72.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2072.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_076",
+      "exercise_title": "Pattern 76",
+      "exercise_page": 24,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 76.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2076.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_062",
+      "exercise_title": "Pattern 62",
+      "exercise_page": 20,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 62.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2062.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_089",
+      "exercise_title": "Pattern 89",
+      "exercise_page": 28,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 89.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2089.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_088",
+      "exercise_title": "Pattern 88",
+      "exercise_page": 27,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 88.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2088.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_063",
+      "exercise_title": "Pattern 63",
+      "exercise_page": 20,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 63.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2063.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_077",
+      "exercise_title": "Pattern 77",
+      "exercise_page": 24,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 77.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2077.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_049",
+      "exercise_title": "Pattern 49",
+      "exercise_page": 16,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 49.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2049.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_061",
+      "exercise_title": "Pattern 61",
+      "exercise_page": 20,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 61.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2061.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_075",
+      "exercise_title": "Pattern 75",
+      "exercise_page": 24,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 75.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2075.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_074",
+      "exercise_title": "Pattern 74",
+      "exercise_page": 23,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 74.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2074.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_060",
+      "exercise_title": "Pattern 60",
+      "exercise_page": 19,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 60.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2060.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "70s Funk & Disco Bass_v4.0_048",
+      "exercise_title": "Pattern 48",
+      "exercise_page": 16,
+      "exercise_technique": "funk groove",
+      "mp3_filename": "Track 48.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2048.mp3",
+      "method": "70s Funk & Disco Bass_v4.0",
+      "confidence": 0.8
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_156",
+      "exercise_title": "Soul - Exercice 156",
+      "exercise_page": 38,
+      "exercise_technique": "soul",
+      "mp3_filename": "1-10 Soul - 156 Pg.74.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-10%20Soul%20-%20156%20Pg.74.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_299",
+      "exercise_title": "Grooves binaires syncopés avec croches - Exercice 299",
+      "exercise_page": 54,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-34 Rock - 299 Pg.106.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-34%20Rock%20-%20299%20Pg.106.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_237",
+      "exercise_title": "JAMES BROWN et le Funk - Exercice 237",
+      "exercise_page": 47,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-22 James Brown _ Funk - 237 Pg.92.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-22%20James%20Brown%20_%20Funk%20-%20237%20Pg.92.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_292",
+      "exercise_title": "Grooves binaires syncopés avec croches - Exercice 292",
+      "exercise_page": 53,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-33 Rock - 292 Pg.105.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-33%20Rock%20-%20292%20Pg.105.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_194",
+      "exercise_title": "JAMES JAMERSON et Motown - Exercice 194",
+      "exercise_page": 42,
+      "exercise_technique": "motown",
+      "mp3_filename": "1-15 James Jamerson _ Motown - 194 Pg.82.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-15%20James%20Jamerson%20_%20Motown%20-%20194%20Pg.82.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_133",
+      "exercise_title": "Blues et R & B en 12/8 (style shuffle) - Exercice 133",
+      "exercise_page": 35,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-04 12_8 Blues And R&B - 133 Pg.69.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-04%2012_8%20Blues%20And%20R%26B%20-%20133%20Pg.69.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_283",
+      "exercise_title": "Grooves binaires réguliers avec croches - Exercice 283",
+      "exercise_page": 52,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-31 Rock - 283 Pg.103.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-31%20Rock%20-%20283%20Pg.103.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_262",
+      "exercise_title": "Rock - Exercice 262",
+      "exercise_page": 50,
+      "exercise_technique": "rock",
+      "mp3_filename": "1-27 Stanley Clarke - 262 Pg.98.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-27%20Stanley%20Clarke%20-%20262%20Pg.98.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_198",
+      "exercise_title": "JAMES JAMERSON et Motown - Exercice 198",
+      "exercise_page": 42,
+      "exercise_technique": "motown",
+      "mp3_filename": "1-16 James Jamerson _ Motown - 198 Pg.82.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-16%20James%20Jamerson%20_%20Motown%20-%20198%20Pg.82.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_255",
+      "exercise_title": "JAMES BROWN et le Funk - Exercice 255",
+      "exercise_page": 48,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-24 James Brown _ Funk - 255 Pg.95.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-24%20James%20Brown%20_%20Funk%20-%20255%20Pg.95.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_320",
+      "exercise_title": "Grooves binaires avec doubles croches - Exercice 320",
+      "exercise_page": 56,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-36 Rock - 320 Pg.110.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-36%20Rock%20-%20320%20Pg.110.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_260",
+      "exercise_title": "STANLEY CLARKE - Exercice 260",
+      "exercise_page": 49,
+      "exercise_technique": "jazz fusion",
+      "mp3_filename": "1-26 Stanley Clarke - 260 Pg.97.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-26%20Stanley%20Clarke%20-%20260%20Pg.97.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_227",
+      "exercise_title": "CHUCK RAINEY et Atlantic Records - Exercice 227",
+      "exercise_page": 45,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-20 Chuck Rainey _ Atlantic - 227 Pg.88.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-20%20Chuck%20Rainey%20_%20Atlantic%20-%20227%20Pg.88.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_123",
+      "exercise_title": "Blues et R & B en 12/8 (style shuffle) - Exercice 123",
+      "exercise_page": 34,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-01 12_8 Blues And R&B - 123 Pg.67.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-01%2012_8%20Blues%20And%20R%26B%20-%20123%20Pg.67.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_160",
+      "exercise_title": "Soul - Exercice 160",
+      "exercise_page": 38,
+      "exercise_technique": "soul",
+      "mp3_filename": "1-11 Soul - 160 Pg.74.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-11%20Soul%20-%20160%20Pg.74.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_251",
+      "exercise_title": "JAMES BROWN et le Funk - Exercice 251",
+      "exercise_page": 48,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-23 James Brown _ Funk - 251 Pg.94.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-23%20James%20Brown%20_%20Funk%20-%20251%20Pg.94.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_274",
+      "exercise_title": "Grooves binaires réguliers avec croches - Exercice 274",
+      "exercise_page": 52,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-30 Rock - 274 Pg.102.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-30%20Rock%20-%20274%20Pg.102.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_130",
+      "exercise_title": "Blues et R & B en 12/8 (style shuffle) - Exercice 130",
+      "exercise_page": 35,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-03 12_8 Blues And R&B - 130 Pg.68.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-03%2012_8%20Blues%20And%20R%26B%20-%20130%20Pg.68.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_266",
+      "exercise_title": "Grooves binaires réguliers avec croches - Exercice 266",
+      "exercise_page": 51,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-29 Rock - 266 Pg.101.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-29%20Rock%20-%20266%20Pg.101.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_168",
+      "exercise_title": "Soul - Exercice 168",
+      "exercise_page": 39,
+      "exercise_technique": "soul",
+      "mp3_filename": "1-12 Soul - 168 Pg.76.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-12%20Soul%20-%20168%20Pg.76.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_183",
+      "exercise_title": "JAMES JAMERSON et Motown - Exercice 183",
+      "exercise_page": 40,
+      "exercise_technique": "motown",
+      "mp3_filename": "1-13 James Jamerson _ Motown - 183 Pg.79.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-13%20James%20Jamerson%20_%20Motown%20-%20183%20Pg.79.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_258",
+      "exercise_title": "STANLEY CLARKE - Exercice 258",
+      "exercise_page": 49,
+      "exercise_technique": "jazz fusion",
+      "mp3_filename": "1-25 Stanley Clarke - 258 Pg.96.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-25%20Stanley%20Clarke%20-%20258%20Pg.96.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_126",
+      "exercise_title": "Blues et R & B en 12/8 (style shuffle) - Exercice 126",
+      "exercise_page": 34,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-02 12_8 Blues And R&B - 126 Pg.67.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-02%2012_8%20Blues%20And%20R%26B%20-%20126%20Pg.67.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_264",
+      "exercise_title": "Rock - Exercice 264",
+      "exercise_page": 50,
+      "exercise_technique": "rock",
+      "mp3_filename": "1-28 Stanley Clarke - 264 Pg.98.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-28%20Stanley%20Clarke%20-%20264%20Pg.98.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_230",
+      "exercise_title": "JAMES BROWN et le Funk - Exercice 230",
+      "exercise_page": 46,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-21 James Brown _ Funk - 230 Pg.91.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-21%20James%20Brown%20_%20Funk%20-%20230%20Pg.91.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_342",
+      "exercise_title": "Grooves ternaires (shuffle) - Exercice 342",
+      "exercise_page": 57,
+      "exercise_technique": "shuffle",
+      "mp3_filename": "1-39 Rock - 342 Pg.113.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-39%20Rock%20-%20342%20Pg.113.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_136",
+      "exercise_title": "Blues et R & B en 4/4 - Exercice 136",
+      "exercise_page": 35,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-05 4_4 Blues And R&B - 136 Pg.69.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-05%204_4%20Blues%20And%20R%26B%20-%20136%20Pg.69.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_220",
+      "exercise_title": "CHUCK RAINEY et Atlantic Records - Exercice 220",
+      "exercise_page": 44,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-18 Chuck Rainey _ Atlantic - 220 Pg.87.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-18%20Chuck%20Rainey%20_%20Atlantic%20-%20220%20Pg.87.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_145",
+      "exercise_title": "Blues et R & B en 4/4 - Exercice 145",
+      "exercise_page": 36,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-07 4_4 Blues And R&B - 145 Pg.71.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-07%204_4%20Blues%20And%20R%26B%20-%20145%20Pg.71.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_154",
+      "exercise_title": "Soul - Exercice 154",
+      "exercise_page": 37,
+      "exercise_technique": "soul",
+      "mp3_filename": "1-09 Soul - 154 Pg.73.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-09%20Soul%20-%20154%20Pg.73.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_331",
+      "exercise_title": "Grooves ternaires (shuffle) - Exercice 331",
+      "exercise_page": 57,
+      "exercise_technique": "shuffle",
+      "mp3_filename": "1-37 Rock - 331 Pg.112.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-37%20Rock%20-%20331%20Pg.112.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_191",
+      "exercise_title": "JAMES JAMERSON et Motown - Exercice 191",
+      "exercise_page": 41,
+      "exercise_technique": "motown",
+      "mp3_filename": "1-14 James Jamerson _ Motown - 191 Pg.81.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-14%20James%20Jamerson%20_%20Motown%20-%20191%20Pg.81.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_215",
+      "exercise_title": "CHUCK RAINEY et Atlantic Records - Exercice 215",
+      "exercise_page": 44,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-17 Chuck Rainey _ Atlantic - 215 Pg.86.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-17%20Chuck%20Rainey%20_%20Atlantic%20-%20215%20Pg.86.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_337",
+      "exercise_title": "Grooves ternaires (shuffle) - Exercice 337",
+      "exercise_page": 57,
+      "exercise_technique": "shuffle",
+      "mp3_filename": "1-38 Rock - 337 Pg.113.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-38%20Rock%20-%20337%20Pg.113.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_138",
+      "exercise_title": "Blues et R & B en 4/4 - Exercice 138",
+      "exercise_page": 36,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-06 4_4 Blues And R&B - 138 Pg.70.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-06%204_4%20Blues%20And%20R%26B%20-%20138%20Pg.70.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_223",
+      "exercise_title": "CHUCK RAINEY et Atlantic Records - Exercice 223",
+      "exercise_page": 45,
+      "exercise_technique": "funk",
+      "mp3_filename": "1-19 Chuck Rainey _ Atlantic - 223 Pg.88.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-19%20Chuck%20Rainey%20_%20Atlantic%20-%20223%20Pg.88.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_148",
+      "exercise_title": "Blues et R & B en 4/4 - Exercice 148",
+      "exercise_page": 36,
+      "exercise_technique": "blues",
+      "mp3_filename": "1-08 4_4 Blues And R&B - 148 Pg.71.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-08%204_4%20Blues%20And%20R%26B%20-%20148%20Pg.71.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_314",
+      "exercise_title": "Grooves binaires avec doubles croches - Exercice 314",
+      "exercise_page": 55,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-35 Rock - 314 Pg.109.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-35%20Rock%20-%20314%20Pg.109.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_290",
+      "exercise_title": "Grooves binaires syncopés avec croches - Exercice 290",
+      "exercise_page": 53,
+      "exercise_technique": "grooves",
+      "mp3_filename": "1-32 Rock - 290 Pg.105.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-32%20Rock%20-%20290%20Pg.105.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_258",
+      "exercise_title": "STANLEY CLARKE - Exercice 258",
+      "exercise_page": 49,
+      "exercise_technique": "jazz fusion",
+      "mp3_filename": "2-73 Jazz And Progressive - 1005 Pg.284.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-73%20Jazz%20And%20Progressive%20-%201005%20Pg.284.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_003",
+      "exercise_title": "Exercices de gammes 3",
+      "exercise_page": 17,
+      "exercise_technique": "gammes",
+      "mp3_filename": "2-71 Jazz And Progressive - 1003 Pg.282.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-71%20Jazz%20And%20Progressive%20-%201003%20Pg.282.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_260",
+      "exercise_title": "STANLEY CLARKE - Exercice 260",
+      "exercise_page": 49,
+      "exercise_technique": "jazz fusion",
+      "mp3_filename": "2-68 Jazz And Progressive - 1000 Pg.276.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-68%20Jazz%20And%20Progressive%20-%201000%20Pg.276.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_004",
+      "exercise_title": "Exercices de gammes 4",
+      "exercise_page": 17,
+      "exercise_technique": "gammes",
+      "mp3_filename": "2-72 Jazz And Progressive - 1004 Pg.283.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-72%20Jazz%20And%20Progressive%20-%201004%20Pg.283.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.5
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_258",
+      "exercise_title": "STANLEY CLARKE - Exercice 258",
+      "exercise_page": 49,
+      "exercise_technique": "jazz fusion",
+      "mp3_filename": "2-70 Jazz And Progressive - 1002 Pg.280.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-70%20Jazz%20And%20Progressive%20-%201002%20Pg.280.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    },
+    {
+      "exercise_id": "Paul westwood 1-2_v4.0_261",
+      "exercise_title": "STANLEY CLARKE - Exercice 261",
+      "exercise_page": 49,
+      "exercise_technique": "jazz fusion",
+      "mp3_filename": "2-69 Jazz And Progressive - 1001 Pg.278.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-69%20Jazz%20And%20Progressive%20-%201001%20Pg.278.mp3",
+      "method": "Paul westwood 1-2_v4.0",
+      "confidence": 0.7
+    }
+  ]
 }

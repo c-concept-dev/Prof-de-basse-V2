@@ -1,0 +1,2377 @@
+{
+  "metadata": {
+    "method_name": "Paul westwood MP3",
+    "total_mp3": 165,
+    "generated_at": "2025-11-17T11:51:43.345112"
+  },
+  "mp3_files": [
+    {
+      "id": "mp3_001",
+      "filename": "1-54 Cuban Mambo - 488 Pg.144.mp3",
+      "stem": "1-54 Cuban Mambo - 488 Pg.144",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-54 Cuban Mambo - 488 Pg.144.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-54%20Cuban%20Mambo%20-%20488%20Pg.144.mp3",
+      "size_bytes": 782232,
+      "patterns": {
+        "page": 144,
+        "exercise": 488,
+        "disc": 1,
+        "disc_track": 54
+      }
+    },
+    {
+      "id": "mp3_002",
+      "filename": "1-88 North Africa _ Middle East - 703 Pg.192.mp3",
+      "stem": "1-88 North Africa _ Middle East - 703 Pg.192",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-88 North Africa _ Middle East - 703 Pg.192.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-88%20North%20Africa%20_%20Middle%20East%20-%20703%20Pg.192.mp3",
+      "size_bytes": 906381,
+      "patterns": {
+        "page": 192,
+        "exercise": 703,
+        "disc": 1,
+        "disc_track": 88
+      }
+    },
+    {
+      "id": "mp3_003",
+      "filename": "1-89 Somalia - 706 Pg.194.mp3",
+      "stem": "1-89 Somalia - 706 Pg.194",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-89 Somalia - 706 Pg.194.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-89%20Somalia%20-%20706%20Pg.194.mp3",
+      "size_bytes": 989745,
+      "patterns": {
+        "page": 194,
+        "exercise": 706,
+        "disc": 1,
+        "disc_track": 89
+      }
+    },
+    {
+      "id": "mp3_004",
+      "filename": "1-84 African Riffs - 686 Pg.189.mp3",
+      "stem": "1-84 African Riffs - 686 Pg.189",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-84 African Riffs - 686 Pg.189.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-84%20African%20Riffs%20-%20686%20Pg.189.mp3",
+      "size_bytes": 1039906,
+      "patterns": {
+        "page": 189,
+        "exercise": 686,
+        "disc": 1,
+        "disc_track": 84
+      }
+    },
+    {
+      "id": "mp3_005",
+      "filename": "1-10 Soul - 156 Pg.74.mp3",
+      "stem": "1-10 Soul - 156 Pg.74",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-10 Soul - 156 Pg.74.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-10%20Soul%20-%20156%20Pg.74.mp3",
+      "size_bytes": 711380,
+      "patterns": {
+        "page": 74,
+        "exercise": 156,
+        "disc": 1,
+        "disc_track": 10
+      }
+    },
+    {
+      "id": "mp3_006",
+      "filename": "1-34 Rock - 299 Pg.106.mp3",
+      "stem": "1-34 Rock - 299 Pg.106",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-34 Rock - 299 Pg.106.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-34%20Rock%20-%20299%20Pg.106.mp3",
+      "size_bytes": 965291,
+      "patterns": {
+        "page": 106,
+        "exercise": 299,
+        "disc": 1,
+        "disc_track": 34,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_007",
+      "filename": "1-22 James Brown _ Funk - 237 Pg.92.mp3",
+      "stem": "1-22 James Brown _ Funk - 237 Pg.92",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-22 James Brown _ Funk - 237 Pg.92.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-22%20James%20Brown%20_%20Funk%20-%20237%20Pg.92.mp3",
+      "size_bytes": 893833,
+      "patterns": {
+        "page": 92,
+        "exercise": 237,
+        "disc": 1,
+        "disc_track": 22,
+        "style": "funk"
+      }
+    },
+    {
+      "id": "mp3_008",
+      "filename": "1-92 Somalia - 715 Pg.196.mp3",
+      "stem": "1-92 Somalia - 715 Pg.196",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-92 Somalia - 715 Pg.196.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-92%20Somalia%20-%20715%20Pg.196.mp3",
+      "size_bytes": 948994,
+      "patterns": {
+        "page": 196,
+        "exercise": 715,
+        "disc": 1,
+        "disc_track": 92
+      }
+    },
+    {
+      "id": "mp3_009",
+      "filename": "1-61 Jamaican Reggae - 538 Pg.155.mp3",
+      "stem": "1-61 Jamaican Reggae - 538 Pg.155",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-61 Jamaican Reggae - 538 Pg.155.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-61%20Jamaican%20Reggae%20-%20538%20Pg.155.mp3",
+      "size_bytes": 1164042,
+      "patterns": {
+        "page": 155,
+        "exercise": 538,
+        "disc": 1,
+        "disc_track": 61
+      }
+    },
+    {
+      "id": "mp3_010",
+      "filename": "1-60 Cuban Rock - 533 Pg.153.mp3",
+      "stem": "1-60 Cuban Rock - 533 Pg.153",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-60 Cuban Rock - 533 Pg.153.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-60%20Cuban%20Rock%20-%20533%20Pg.153.mp3",
+      "size_bytes": 1164037,
+      "patterns": {
+        "page": 153,
+        "exercise": 533,
+        "disc": 1,
+        "disc_track": 60,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_011",
+      "filename": "1-33 Rock - 292 Pg.105.mp3",
+      "stem": "1-33 Rock - 292 Pg.105",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-33 Rock - 292 Pg.105.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-33%20Rock%20-%20292%20Pg.105.mp3",
+      "size_bytes": 874385,
+      "patterns": {
+        "page": 105,
+        "exercise": 292,
+        "disc": 1,
+        "disc_track": 33,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_012",
+      "filename": "1-15 James Jamerson _ Motown - 194 Pg.82.mp3",
+      "stem": "1-15 James Jamerson _ Motown - 194 Pg.82",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-15 James Jamerson _ Motown - 194 Pg.82.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-15%20James%20Jamerson%20_%20Motown%20-%20194%20Pg.82.mp3",
+      "size_bytes": 1145868,
+      "patterns": {
+        "page": 82,
+        "exercise": 194,
+        "disc": 1,
+        "disc_track": 15
+      }
+    },
+    {
+      "id": "mp3_013",
+      "filename": "1-73 Jamaican Reggae - 596 Pg.168.mp3",
+      "stem": "1-73 Jamaican Reggae - 596 Pg.168",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-73 Jamaican Reggae - 596 Pg.168.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-73%20Jamaican%20Reggae%20-%20596%20Pg.168.mp3",
+      "size_bytes": 1238648,
+      "patterns": {
+        "page": 168,
+        "exercise": 596,
+        "disc": 1,
+        "disc_track": 73
+      }
+    },
+    {
+      "id": "mp3_014",
+      "filename": "1-42 Latin Riffs - 402 Pg.127.mp3",
+      "stem": "1-42 Latin Riffs - 402 Pg.127",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-42 Latin Riffs - 402 Pg.127.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-42%20Latin%20Riffs%20-%20402%20Pg.127.mp3",
+      "size_bytes": 707627,
+      "patterns": {
+        "page": 127,
+        "exercise": 402,
+        "disc": 1,
+        "disc_track": 42,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_015",
+      "filename": "1-57 Cuban Rock - 512 Pg.149.mp3",
+      "stem": "1-57 Cuban Rock - 512 Pg.149",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-57 Cuban Rock - 512 Pg.149.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-57%20Cuban%20Rock%20-%20512%20Pg.149.mp3",
+      "size_bytes": 731449,
+      "patterns": {
+        "page": 149,
+        "exercise": 512,
+        "disc": 1,
+        "disc_track": 57,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_016",
+      "filename": "1-04 12_8 Blues And R&B - 133 Pg.69.mp3",
+      "stem": "1-04 12_8 Blues And R&B - 133 Pg.69",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-04 12_8 Blues And R&B - 133 Pg.69.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-04%2012_8%20Blues%20And%20R%26B%20-%20133%20Pg.69.mp3",
+      "size_bytes": 735217,
+      "patterns": {
+        "page": 69,
+        "exercise": 133,
+        "disc": 1,
+        "disc_track": 4,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_017",
+      "filename": "1-31 Rock - 283 Pg.103.mp3",
+      "stem": "1-31 Rock - 283 Pg.103",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-31 Rock - 283 Pg.103.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-31%20Rock%20-%20283%20Pg.103.mp3",
+      "size_bytes": 826738,
+      "patterns": {
+        "page": 103,
+        "exercise": 283,
+        "disc": 1,
+        "disc_track": 31,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_018",
+      "filename": "1-48 Latin Riffs - 425 Pg.131.mp3",
+      "stem": "1-48 Latin Riffs - 425 Pg.131",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-48 Latin Riffs - 425 Pg.131.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-48%20Latin%20Riffs%20-%20425%20Pg.131.mp3",
+      "size_bytes": 820476,
+      "patterns": {
+        "page": 131,
+        "exercise": 425,
+        "disc": 1,
+        "disc_track": 48,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_019",
+      "filename": "1-78 Brazilian Samba - 624 Pg.174.mp3",
+      "stem": "1-78 Brazilian Samba - 624 Pg.174",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-78 Brazilian Samba - 624 Pg.174.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-78%20Brazilian%20Samba%20-%20624%20Pg.174.mp3",
+      "size_bytes": 732081,
+      "patterns": {
+        "page": 174,
+        "exercise": 624,
+        "disc": 1,
+        "disc_track": 78
+      }
+    },
+    {
+      "id": "mp3_020",
+      "filename": "1-80 Brazilian Samba - 629 Pg.175.mp3",
+      "stem": "1-80 Brazilian Samba - 629 Pg.175",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-80 Brazilian Samba - 629 Pg.175.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-80%20Brazilian%20Samba%20-%20629%20Pg.175.mp3",
+      "size_bytes": 754024,
+      "patterns": {
+        "page": 175,
+        "exercise": 629,
+        "disc": 1,
+        "disc_track": 80
+      }
+    },
+    {
+      "id": "mp3_021",
+      "filename": "1-68 Jamaican Reggae - 584 Pg.165.mp3",
+      "stem": "1-68 Jamaican Reggae - 584 Pg.165",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-68 Jamaican Reggae - 584 Pg.165.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-68%20Jamaican%20Reggae%20-%20584%20Pg.165.mp3",
+      "size_bytes": 943986,
+      "patterns": {
+        "page": 165,
+        "exercise": 584,
+        "disc": 1,
+        "disc_track": 68
+      }
+    },
+    {
+      "id": "mp3_022",
+      "filename": "1-50 Latin Riffs - 436 Pg.133.mp3",
+      "stem": "1-50 Latin Riffs - 436 Pg.133",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-50 Latin Riffs - 436 Pg.133.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-50%20Latin%20Riffs%20-%20436%20Pg.133.mp3",
+      "size_bytes": 836149,
+      "patterns": {
+        "page": 133,
+        "exercise": 436,
+        "disc": 1,
+        "disc_track": 50,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_023",
+      "filename": "1-67 Jamaican Reggae - 581 Pg.164.mp3",
+      "stem": "1-67 Jamaican Reggae - 581 Pg.164",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-67 Jamaican Reggae - 581 Pg.164.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-67%20Jamaican%20Reggae%20-%20581%20Pg.164.mp3",
+      "size_bytes": 816718,
+      "patterns": {
+        "page": 164,
+        "exercise": 581,
+        "disc": 1,
+        "disc_track": 67
+      }
+    },
+    {
+      "id": "mp3_024",
+      "filename": "1-70 Jamaican Reggae - 589 Pg.166.mp3",
+      "stem": "1-70 Jamaican Reggae - 589 Pg.166",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-70 Jamaican Reggae - 589 Pg.166.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-70%20Jamaican%20Reggae%20-%20589%20Pg.166.mp3",
+      "size_bytes": 1135830,
+      "patterns": {
+        "page": 166,
+        "exercise": 589,
+        "disc": 1,
+        "disc_track": 70
+      }
+    },
+    {
+      "id": "mp3_025",
+      "filename": "1-85 North Africa _ Middle East - 697 Pg.191.mp3",
+      "stem": "1-85 North Africa _ Middle East - 697 Pg.191",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-85 North Africa _ Middle East - 697 Pg.191.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-85%20North%20Africa%20_%20Middle%20East%20-%20697%20Pg.191.mp3",
+      "size_bytes": 813594,
+      "patterns": {
+        "page": 191,
+        "exercise": 697,
+        "disc": 1,
+        "disc_track": 85
+      }
+    },
+    {
+      "id": "mp3_026",
+      "filename": "1-47 Latin Riffs - 421 Pg.130.mp3",
+      "stem": "1-47 Latin Riffs - 421 Pg.130",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-47 Latin Riffs - 421 Pg.130.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-47%20Latin%20Riffs%20-%20421%20Pg.130.mp3",
+      "size_bytes": 826118,
+      "patterns": {
+        "page": 130,
+        "exercise": 421,
+        "disc": 1,
+        "disc_track": 47,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_027",
+      "filename": "1-27 Stanley Clarke - 262 Pg.98.mp3",
+      "stem": "1-27 Stanley Clarke - 262 Pg.98",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-27 Stanley Clarke - 262 Pg.98.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-27%20Stanley%20Clarke%20-%20262%20Pg.98.mp3",
+      "size_bytes": 1004171,
+      "patterns": {
+        "page": 98,
+        "exercise": 262,
+        "disc": 1,
+        "disc_track": 27
+      }
+    },
+    {
+      "id": "mp3_028",
+      "filename": "1-49 Latin Riffs - 430 Pg.132.mp3",
+      "stem": "1-49 Latin Riffs - 430 Pg.132",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-49 Latin Riffs - 430 Pg.132.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-49%20Latin%20Riffs%20-%20430%20Pg.132.mp3",
+      "size_bytes": 804802,
+      "patterns": {
+        "page": 132,
+        "exercise": 430,
+        "disc": 1,
+        "disc_track": 49,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_029",
+      "filename": "1-72 Jamaican Reggae - 593 Pg.167.mp3",
+      "stem": "1-72 Jamaican Reggae - 593 Pg.167",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-72 Jamaican Reggae - 593 Pg.167.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-72%20Jamaican%20Reggae%20-%20593%20Pg.167.mp3",
+      "size_bytes": 1139591,
+      "patterns": {
+        "page": 167,
+        "exercise": 593,
+        "disc": 1,
+        "disc_track": 72
+      }
+    },
+    {
+      "id": "mp3_030",
+      "filename": "1-16 James Jamerson _ Motown - 198 Pg.82.mp3",
+      "stem": "1-16 James Jamerson _ Motown - 198 Pg.82",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-16 James Jamerson _ Motown - 198 Pg.82.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-16%20James%20Jamerson%20_%20Motown%20-%20198%20Pg.82.mp3",
+      "size_bytes": 720803,
+      "patterns": {
+        "page": 82,
+        "exercise": 198,
+        "disc": 1,
+        "disc_track": 16
+      }
+    },
+    {
+      "id": "mp3_031",
+      "filename": "1-41 Latin Riffs - 400 Pg.127.mp3",
+      "stem": "1-41 Latin Riffs - 400 Pg.127",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-41 Latin Riffs - 400 Pg.127.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-41%20Latin%20Riffs%20-%20400%20Pg.127.mp3",
+      "size_bytes": 824864,
+      "patterns": {
+        "page": 127,
+        "exercise": 400,
+        "disc": 1,
+        "disc_track": 41,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_032",
+      "filename": "1-24 James Brown _ Funk - 255 Pg.95.mp3",
+      "stem": "1-24 James Brown _ Funk - 255 Pg.95",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-24 James Brown _ Funk - 255 Pg.95.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-24%20James%20Brown%20_%20Funk%20-%20255%20Pg.95.mp3",
+      "size_bytes": 651208,
+      "patterns": {
+        "page": 95,
+        "exercise": 255,
+        "disc": 1,
+        "disc_track": 24,
+        "style": "funk"
+      }
+    },
+    {
+      "id": "mp3_033",
+      "filename": "1-43 Latin Riffs - 405 Pg.128.mp3",
+      "stem": "1-43 Latin Riffs - 405 Pg.128",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-43 Latin Riffs - 405 Pg.128.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-43%20Latin%20Riffs%20-%20405%20Pg.128.mp3",
+      "size_bytes": 654964,
+      "patterns": {
+        "page": 128,
+        "exercise": 405,
+        "disc": 1,
+        "disc_track": 43,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_034",
+      "filename": "1-36 Rock - 320 Pg.110.mp3",
+      "stem": "1-36 Rock - 320 Pg.110",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-36 Rock - 320 Pg.110.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-36%20Rock%20-%20320%20Pg.110.mp3",
+      "size_bytes": 721412,
+      "patterns": {
+        "page": 110,
+        "exercise": 320,
+        "disc": 1,
+        "disc_track": 36,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_035",
+      "filename": "1-56 Cuban Mambo - 505 Pg.147.mp3",
+      "stem": "1-56 Cuban Mambo - 505 Pg.147",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-56 Cuban Mambo - 505 Pg.147.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-56%20Cuban%20Mambo%20-%20505%20Pg.147.mp3",
+      "size_bytes": 852449,
+      "patterns": {
+        "page": 147,
+        "exercise": 505,
+        "disc": 1,
+        "disc_track": 56
+      }
+    },
+    {
+      "id": "mp3_036",
+      "filename": "1-76 Jamaican Reggae - 603 Pg.169.mp3",
+      "stem": "1-76 Jamaican Reggae - 603 Pg.169",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-76 Jamaican Reggae - 603 Pg.169.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-76%20Jamaican%20Reggae%20-%20603%20Pg.169.mp3",
+      "size_bytes": 824241,
+      "patterns": {
+        "page": 169,
+        "exercise": 603,
+        "disc": 1,
+        "disc_track": 76
+      }
+    },
+    {
+      "id": "mp3_037",
+      "filename": "1-71 Jamaican Reggae - 591 Pg.167.mp3",
+      "stem": "1-71 Jamaican Reggae - 591 Pg.167",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-71 Jamaican Reggae - 591 Pg.167.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-71%20Jamaican%20Reggae%20-%20591%20Pg.167.mp3",
+      "size_bytes": 816718,
+      "patterns": {
+        "page": 167,
+        "exercise": 591,
+        "disc": 1,
+        "disc_track": 71
+      }
+    },
+    {
+      "id": "mp3_038",
+      "filename": "1-91 Somalia - 713 Pg.195.mp3",
+      "stem": "1-91 Somalia - 713 Pg.195",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-91 Somalia - 713 Pg.195.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-91%20Somalia%20-%20713%20Pg.195.mp3",
+      "size_bytes": 1231116,
+      "patterns": {
+        "page": 195,
+        "exercise": 713,
+        "disc": 1,
+        "disc_track": 91
+      }
+    },
+    {
+      "id": "mp3_039",
+      "filename": "1-26 Stanley Clarke - 260 Pg.97.mp3",
+      "stem": "1-26 Stanley Clarke - 260 Pg.97",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-26 Stanley Clarke - 260 Pg.97.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-26%20Stanley%20Clarke%20-%20260%20Pg.97.mp3",
+      "size_bytes": 1419831,
+      "patterns": {
+        "page": 97,
+        "exercise": 260,
+        "disc": 1,
+        "disc_track": 26
+      }
+    },
+    {
+      "id": "mp3_040",
+      "filename": "1-44 Latin Riffs - 409 Pg.128.mp3",
+      "stem": "1-44 Latin Riffs - 409 Pg.128",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-44 Latin Riffs - 409 Pg.128.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-44%20Latin%20Riffs%20-%20409%20Pg.128.mp3",
+      "size_bytes": 846180,
+      "patterns": {
+        "page": 128,
+        "exercise": 409,
+        "disc": 1,
+        "disc_track": 44,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_041",
+      "filename": "1-20 Chuck Rainey _ Atlantic - 227 Pg.88.mp3",
+      "stem": "1-20 Chuck Rainey _ Atlantic - 227 Pg.88",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-20 Chuck Rainey _ Atlantic - 227 Pg.88.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-20%20Chuck%20Rainey%20_%20Atlantic%20-%20227%20Pg.88.mp3",
+      "size_bytes": 1303229,
+      "patterns": {
+        "page": 88,
+        "exercise": 227,
+        "disc": 1,
+        "disc_track": 20
+      }
+    },
+    {
+      "id": "mp3_042",
+      "filename": "1-87 North Africa _ Middle East - 701 Pg.192.mp3",
+      "stem": "1-87 North Africa _ Middle East - 701 Pg.192",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-87 North Africa _ Middle East - 701 Pg.192.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-87%20North%20Africa%20_%20Middle%20East%20-%20701%20Pg.192.mp3",
+      "size_bytes": 1005437,
+      "patterns": {
+        "page": 192,
+        "exercise": 701,
+        "disc": 1,
+        "disc_track": 87
+      }
+    },
+    {
+      "id": "mp3_043",
+      "filename": "1-66 Jamaican Reggae - 577 Pg.164.mp3",
+      "stem": "1-66 Jamaican Reggae - 577 Pg.164",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-66 Jamaican Reggae - 577 Pg.164.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-66%20Jamaican%20Reggae%20-%20577%20Pg.164.mp3",
+      "size_bytes": 764682,
+      "patterns": {
+        "page": 164,
+        "exercise": 577,
+        "disc": 1,
+        "disc_track": 66
+      }
+    },
+    {
+      "id": "mp3_044",
+      "filename": "1-01 12_8 Blues And R&B - 123 Pg.67.mp3",
+      "stem": "1-01 12_8 Blues And R&B - 123 Pg.67",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-01 12_8 Blues And R&B - 123 Pg.67.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-01%2012_8%20Blues%20And%20R%26B%20-%20123%20Pg.67.mp3",
+      "size_bytes": 886936,
+      "patterns": {
+        "page": 67,
+        "exercise": 123,
+        "disc": 1,
+        "disc_track": 1,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_045",
+      "filename": "1-11 Soul - 160 Pg.74.mp3",
+      "stem": "1-11 Soul - 160 Pg.74",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-11 Soul - 160 Pg.74.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-11%20Soul%20-%20160%20Pg.74.mp3",
+      "size_bytes": 685676,
+      "patterns": {
+        "page": 74,
+        "exercise": 160,
+        "disc": 1,
+        "disc_track": 11
+      }
+    },
+    {
+      "id": "mp3_046",
+      "filename": "1-23 James Brown _ Funk - 251 Pg.94.mp3",
+      "stem": "1-23 James Brown _ Funk - 251 Pg.94",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-23 James Brown _ Funk - 251 Pg.94.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-23%20James%20Brown%20_%20Funk%20-%20251%20Pg.94.mp3",
+      "size_bytes": 903237,
+      "patterns": {
+        "page": 94,
+        "exercise": 251,
+        "disc": 1,
+        "disc_track": 23,
+        "style": "funk"
+      }
+    },
+    {
+      "id": "mp3_047",
+      "filename": "1-30 Rock - 274 Pg.102.mp3",
+      "stem": "1-30 Rock - 274 Pg.102",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-30 Rock - 274 Pg.102.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-30%20Rock%20-%20274%20Pg.102.mp3",
+      "size_bytes": 753386,
+      "patterns": {
+        "page": 102,
+        "exercise": 274,
+        "disc": 1,
+        "disc_track": 30,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_048",
+      "filename": "1-59 Cuban Rock - 520 Pg.150.mp3",
+      "stem": "1-59 Cuban Rock - 520 Pg.150",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-59 Cuban Rock - 520 Pg.150.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-59%20Cuban%20Rock%20-%20520%20Pg.150.mp3",
+      "size_bytes": 989121,
+      "patterns": {
+        "page": 150,
+        "exercise": 520,
+        "disc": 1,
+        "disc_track": 59,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_049",
+      "filename": "1-03 12_8 Blues And R&B - 130 Pg.68.mp3",
+      "stem": "1-03 12_8 Blues And R&B - 130 Pg.68",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-03 12_8 Blues And R&B - 130 Pg.68.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-03%2012_8%20Blues%20And%20R%26B%20-%20130%20Pg.68.mp3",
+      "size_bytes": 912014,
+      "patterns": {
+        "page": 68,
+        "exercise": 130,
+        "disc": 1,
+        "disc_track": 3,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_050",
+      "filename": "1-29 Rock - 266 Pg.101.mp3",
+      "stem": "1-29 Rock - 266 Pg.101",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-29 Rock - 266 Pg.101.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-29%20Rock%20-%20266%20Pg.101.mp3",
+      "size_bytes": 700096,
+      "patterns": {
+        "page": 101,
+        "exercise": 266,
+        "disc": 1,
+        "disc_track": 29,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_051",
+      "filename": "1-45 Latin Riffs - 416 Pg.130.mp3",
+      "stem": "1-45 Latin Riffs - 416 Pg.130",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-45 Latin Riffs - 416 Pg.130.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-45%20Latin%20Riffs%20-%20416%20Pg.130.mp3",
+      "size_bytes": 840538,
+      "patterns": {
+        "page": 130,
+        "exercise": 416,
+        "disc": 1,
+        "disc_track": 45,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_052",
+      "filename": "1-12 Soul - 168 Pg.76.mp3",
+      "stem": "1-12 Soul - 168 Pg.76",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-12 Soul - 168 Pg.76.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-12%20Soul%20-%20168%20Pg.76.mp3",
+      "size_bytes": 623609,
+      "patterns": {
+        "page": 76,
+        "exercise": 168,
+        "disc": 1,
+        "disc_track": 12
+      }
+    },
+    {
+      "id": "mp3_053",
+      "filename": "1-13 James Jamerson _ Motown - 183 Pg.79.mp3",
+      "stem": "1-13 James Jamerson _ Motown - 183 Pg.79",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-13 James Jamerson _ Motown - 183 Pg.79.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-13%20James%20Jamerson%20_%20Motown%20-%20183%20Pg.79.mp3",
+      "size_bytes": 969698,
+      "patterns": {
+        "page": 79,
+        "exercise": 183,
+        "disc": 1,
+        "disc_track": 13
+      }
+    },
+    {
+      "id": "mp3_054",
+      "filename": "1-81 African Riffs - 647 Pg.181.mp3",
+      "stem": "1-81 African Riffs - 647 Pg.181",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-81 African Riffs - 647 Pg.181.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-81%20African%20Riffs%20-%20647%20Pg.181.mp3",
+      "size_bytes": 1143978,
+      "patterns": {
+        "page": 181,
+        "exercise": 647,
+        "disc": 1,
+        "disc_track": 81
+      }
+    },
+    {
+      "id": "mp3_055",
+      "filename": "1-40 Rock - 346 Pg.114.mp3",
+      "stem": "1-40 Rock - 346 Pg.114",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-40 Rock - 346 Pg.114.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-40%20Rock%20-%20346%20Pg.114.mp3",
+      "size_bytes": 678780,
+      "patterns": {
+        "page": 114,
+        "exercise": 346,
+        "disc": 1,
+        "disc_track": 40,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_056",
+      "filename": "1-25 Stanley Clarke - 258 Pg.96.mp3",
+      "stem": "1-25 Stanley Clarke - 258 Pg.96",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-25 Stanley Clarke - 258 Pg.96.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-25%20Stanley%20Clarke%20-%20258%20Pg.96.mp3",
+      "size_bytes": 1197268,
+      "patterns": {
+        "page": 96,
+        "exercise": 258,
+        "disc": 1,
+        "disc_track": 25
+      }
+    },
+    {
+      "id": "mp3_057",
+      "filename": "1-02 12_8 Blues And R&B - 126 Pg.67.mp3",
+      "stem": "1-02 12_8 Blues And R&B - 126 Pg.67",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-02 12_8 Blues And R&B - 126 Pg.67.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-02%2012_8%20Blues%20And%20R%26B%20-%20126%20Pg.67.mp3",
+      "size_bytes": 1224856,
+      "patterns": {
+        "page": 67,
+        "exercise": 126,
+        "disc": 1,
+        "disc_track": 2,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_058",
+      "filename": "1-82 African Riffs - 655 Pg.182.mp3",
+      "stem": "1-82 African Riffs - 655 Pg.182",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-82 African Riffs - 655 Pg.182.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-82%20African%20Riffs%20-%20655%20Pg.182.mp3",
+      "size_bytes": 1106989,
+      "patterns": {
+        "page": 182,
+        "exercise": 655,
+        "disc": 1,
+        "disc_track": 82
+      }
+    },
+    {
+      "id": "mp3_059",
+      "filename": "1-52 Latin Riffs - 445 Pg.134.mp3",
+      "stem": "1-52 Latin Riffs - 445 Pg.134",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-52 Latin Riffs - 445 Pg.134.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-52%20Latin%20Riffs%20-%20445%20Pg.134.mp3",
+      "size_bytes": 849315,
+      "patterns": {
+        "page": 134,
+        "exercise": 445,
+        "disc": 1,
+        "disc_track": 52,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_060",
+      "filename": "1-74 Jamaican Reggae - 598 Pg.168.mp3",
+      "stem": "1-74 Jamaican Reggae - 598 Pg.168",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-74 Jamaican Reggae - 598 Pg.168.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-74%20Jamaican%20Reggae%20-%20598%20Pg.168.mp3",
+      "size_bytes": 762174,
+      "patterns": {
+        "page": 168,
+        "exercise": 598,
+        "disc": 1,
+        "disc_track": 74
+      }
+    },
+    {
+      "id": "mp3_061",
+      "filename": "1-28 Stanley Clarke - 264 Pg.98.mp3",
+      "stem": "1-28 Stanley Clarke - 264 Pg.98",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-28 Stanley Clarke - 264 Pg.98.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-28%20Stanley%20Clarke%20-%20264%20Pg.98.mp3",
+      "size_bytes": 1234884,
+      "patterns": {
+        "page": 98,
+        "exercise": 264,
+        "disc": 1,
+        "disc_track": 28
+      }
+    },
+    {
+      "id": "mp3_062",
+      "filename": "1-65 Jamaican Reggae - 573 Pg.163.mp3",
+      "stem": "1-65 Jamaican Reggae - 573 Pg.163",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-65 Jamaican Reggae - 573 Pg.163.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-65%20Jamaican%20Reggae%20-%20573%20Pg.163.mp3",
+      "size_bytes": 1269368,
+      "patterns": {
+        "page": 163,
+        "exercise": 573,
+        "disc": 1,
+        "disc_track": 65
+      }
+    },
+    {
+      "id": "mp3_063",
+      "filename": "1-21 James Brown _ Funk - 230 Pg.91.mp3",
+      "stem": "1-21 James Brown _ Funk - 230 Pg.91",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-21 James Brown _ Funk - 230 Pg.91.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-21%20James%20Brown%20_%20Funk%20-%20230%20Pg.91.mp3",
+      "size_bytes": 706379,
+      "patterns": {
+        "page": 91,
+        "exercise": 230,
+        "disc": 1,
+        "disc_track": 21,
+        "style": "funk"
+      }
+    },
+    {
+      "id": "mp3_064",
+      "filename": "1-62 Jamaican Reggae - 545 Pg.156.mp3",
+      "stem": "1-62 Jamaican Reggae - 545 Pg.156",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-62 Jamaican Reggae - 545 Pg.156.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-62%20Jamaican%20Reggae%20-%20545%20Pg.156.mp3",
+      "size_bytes": 1164042,
+      "patterns": {
+        "page": 156,
+        "exercise": 545,
+        "disc": 1,
+        "disc_track": 62
+      }
+    },
+    {
+      "id": "mp3_065",
+      "filename": "1-39 Rock - 342 Pg.113.mp3",
+      "stem": "1-39 Rock - 342 Pg.113",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-39 Rock - 342 Pg.113.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-39%20Rock%20-%20342%20Pg.113.mp3",
+      "size_bytes": 703231,
+      "patterns": {
+        "page": 113,
+        "exercise": 342,
+        "disc": 1,
+        "disc_track": 39,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_066",
+      "filename": "1-05 4_4 Blues And R&B - 136 Pg.69.mp3",
+      "stem": "1-05 4_4 Blues And R&B - 136 Pg.69",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-05 4_4 Blues And R&B - 136 Pg.69.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-05%204_4%20Blues%20And%20R%26B%20-%20136%20Pg.69.mp3",
+      "size_bytes": 868127,
+      "patterns": {
+        "page": 69,
+        "exercise": 136,
+        "disc": 1,
+        "disc_track": 5,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_067",
+      "filename": "1-18 Chuck Rainey _ Atlantic - 220 Pg.87.mp3",
+      "stem": "1-18 Chuck Rainey _ Atlantic - 220 Pg.87",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-18 Chuck Rainey _ Atlantic - 220 Pg.87.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-18%20Chuck%20Rainey%20_%20Atlantic%20-%20220%20Pg.87.mp3",
+      "size_bytes": 932709,
+      "patterns": {
+        "page": 87,
+        "exercise": 220,
+        "disc": 1,
+        "disc_track": 18
+      }
+    },
+    {
+      "id": "mp3_068",
+      "filename": "1-79 Brazilian Samba - 626 Pg.174.mp3",
+      "stem": "1-79 Brazilian Samba - 626 Pg.174",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-79 Brazilian Samba - 626 Pg.174.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-79%20Brazilian%20Samba%20-%20626%20Pg.174.mp3",
+      "size_bytes": 745247,
+      "patterns": {
+        "page": 174,
+        "exercise": 626,
+        "disc": 1,
+        "disc_track": 79
+      }
+    },
+    {
+      "id": "mp3_069",
+      "filename": "1-77 Brazilian Samba - 620 Pg.173.mp3",
+      "stem": "1-77 Brazilian Samba - 620 Pg.173",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-77 Brazilian Samba - 620 Pg.173.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-77%20Brazilian%20Samba%20-%20620%20Pg.173.mp3",
+      "size_bytes": 750889,
+      "patterns": {
+        "page": 173,
+        "exercise": 620,
+        "disc": 1,
+        "disc_track": 77
+      }
+    },
+    {
+      "id": "mp3_070",
+      "filename": "1-53 Cuban Mambo - 482 Pg.143.mp3",
+      "stem": "1-53 Cuban Mambo - 482 Pg.143",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-53 Cuban Mambo - 482 Pg.143.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-53%20Cuban%20Mambo%20-%20482%20Pg.143.mp3",
+      "size_bytes": 800414,
+      "patterns": {
+        "page": 143,
+        "exercise": 482,
+        "disc": 1,
+        "disc_track": 53
+      }
+    },
+    {
+      "id": "mp3_071",
+      "filename": "1-07 4_4 Blues And R&B - 145 Pg.71.mp3",
+      "stem": "1-07 4_4 Blues And R&B - 145 Pg.71",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-07 4_4 Blues And R&B - 145 Pg.71.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-07%204_4%20Blues%20And%20R%26B%20-%20145%20Pg.71.mp3",
+      "size_bytes": 747128,
+      "patterns": {
+        "page": 71,
+        "exercise": 145,
+        "disc": 1,
+        "disc_track": 7,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_072",
+      "filename": "1-63 Jamaican Reggae - 551 Pg.158.mp3",
+      "stem": "1-63 Jamaican Reggae - 551 Pg.158",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-63 Jamaican Reggae - 551 Pg.158.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-63%20Jamaican%20Reggae%20-%20551%20Pg.158.mp3",
+      "size_bytes": 778475,
+      "patterns": {
+        "page": 158,
+        "exercise": 551,
+        "disc": 1,
+        "disc_track": 63
+      }
+    },
+    {
+      "id": "mp3_073",
+      "filename": "1-86 North Africa _ Middle East - 699 Pg.192.mp3",
+      "stem": "1-86 North Africa _ Middle East - 699 Pg.192",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-86 North Africa _ Middle East - 699 Pg.192.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-86%20North%20Africa%20_%20Middle%20East%20-%20699%20Pg.192.mp3",
+      "size_bytes": 1357777,
+      "patterns": {
+        "page": 192,
+        "exercise": 699,
+        "disc": 1,
+        "disc_track": 86
+      }
+    },
+    {
+      "id": "mp3_074",
+      "filename": "1-64 Jamaican Reggae - 564 Pg.160.mp3",
+      "stem": "1-64 Jamaican Reggae - 564 Pg.160",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-64 Jamaican Reggae - 564 Pg.160.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-64%20Jamaican%20Reggae%20-%20564%20Pg.160.mp3",
+      "size_bytes": 1141472,
+      "patterns": {
+        "page": 160,
+        "exercise": 564,
+        "disc": 1,
+        "disc_track": 64
+      }
+    },
+    {
+      "id": "mp3_075",
+      "filename": "1-09 Soul - 154 Pg.73.mp3",
+      "stem": "1-09 Soul - 154 Pg.73",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-09 Soul - 154 Pg.73.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-09%20Soul%20-%20154%20Pg.73.mp3",
+      "size_bytes": 668120,
+      "patterns": {
+        "page": 73,
+        "exercise": 154,
+        "disc": 1,
+        "disc_track": 9
+      }
+    },
+    {
+      "id": "mp3_076",
+      "filename": "1-37 Rock - 331 Pg.112.mp3",
+      "stem": "1-37 Rock - 331 Pg.112",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-37 Rock - 331 Pg.112.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-37%20Rock%20-%20331%20Pg.112.mp3",
+      "size_bytes": 829246,
+      "patterns": {
+        "page": 112,
+        "exercise": 331,
+        "disc": 1,
+        "disc_track": 37,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_077",
+      "filename": "1-14 James Jamerson _ Motown - 191 Pg.81.mp3",
+      "stem": "1-14 James Jamerson _ Motown - 191 Pg.81",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-14 James Jamerson _ Motown - 191 Pg.81.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-14%20James%20Jamerson%20_%20Motown%20-%20191%20Pg.81.mp3",
+      "size_bytes": 953398,
+      "patterns": {
+        "page": 81,
+        "exercise": 191,
+        "disc": 1,
+        "disc_track": 14
+      }
+    },
+    {
+      "id": "mp3_078",
+      "filename": "1-69 Jamaican Reggae - 586 Pg.166.mp3",
+      "stem": "1-69 Jamaican Reggae - 586 Pg.166",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-69 Jamaican Reggae - 586 Pg.166.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-69%20Jamaican%20Reggae%20-%20586%20Pg.166.mp3",
+      "size_bytes": 960914,
+      "patterns": {
+        "page": 166,
+        "exercise": 586,
+        "disc": 1,
+        "disc_track": 69
+      }
+    },
+    {
+      "id": "mp3_079",
+      "filename": "1-17 Chuck Rainey _ Atlantic - 215 Pg.86.mp3",
+      "stem": "1-17 Chuck Rainey _ Atlantic - 215 Pg.86",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-17 Chuck Rainey _ Atlantic - 215 Pg.86.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-17%20Chuck%20Rainey%20_%20Atlantic%20-%20215%20Pg.86.mp3",
+      "size_bytes": 701995,
+      "patterns": {
+        "page": 86,
+        "exercise": 215,
+        "disc": 1,
+        "disc_track": 17
+      }
+    },
+    {
+      "id": "mp3_080",
+      "filename": "1-58 Cuban Rock - 517 Pg.150.mp3",
+      "stem": "1-58 Cuban Rock - 517 Pg.150",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-58 Cuban Rock - 517 Pg.150.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-58%20Cuban%20Rock%20-%20517%20Pg.150.mp3",
+      "size_bytes": 705118,
+      "patterns": {
+        "page": 150,
+        "exercise": 517,
+        "disc": 1,
+        "disc_track": 58,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_081",
+      "filename": "1-55 Cuban Mambo - 491 Pg.145.mp3",
+      "stem": "1-55 Cuban Mambo - 491 Pg.145",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-55 Cuban Mambo - 491 Pg.145.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-55%20Cuban%20Mambo%20-%20491%20Pg.145.mp3",
+      "size_bytes": 819849,
+      "patterns": {
+        "page": 145,
+        "exercise": 491,
+        "disc": 1,
+        "disc_track": 55
+      }
+    },
+    {
+      "id": "mp3_082",
+      "filename": "1-90 Somalia - 709 Pg.195.mp3",
+      "stem": "1-90 Somalia - 709 Pg.195",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-90 Somalia - 709 Pg.195.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-90%20Somalia%20-%20709%20Pg.195.mp3",
+      "size_bytes": 865611,
+      "patterns": {
+        "page": 195,
+        "exercise": 709,
+        "disc": 1,
+        "disc_track": 90
+      }
+    },
+    {
+      "id": "mp3_083",
+      "filename": "1-38 Rock - 337 Pg.113.mp3",
+      "stem": "1-38 Rock - 337 Pg.113",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-38 Rock - 337 Pg.113.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-38%20Rock%20-%20337%20Pg.113.mp3",
+      "size_bytes": 673765,
+      "patterns": {
+        "page": 113,
+        "exercise": 337,
+        "disc": 1,
+        "disc_track": 38,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_084",
+      "filename": "1-51 Latin Riffs - 442 Pg.134.mp3",
+      "stem": "1-51 Latin Riffs - 442 Pg.134",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-51 Latin Riffs - 442 Pg.134.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-51%20Latin%20Riffs%20-%20442%20Pg.134.mp3",
+      "size_bytes": 802294,
+      "patterns": {
+        "page": 134,
+        "exercise": 442,
+        "disc": 1,
+        "disc_track": 51,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_085",
+      "filename": "1-06 4_4 Blues And R&B - 138 Pg.70.mp3",
+      "stem": "1-06 4_4 Blues And R&B - 138 Pg.70",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-06 4_4 Blues And R&B - 138 Pg.70.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-06%204_4%20Blues%20And%20R%26B%20-%20138%20Pg.70.mp3",
+      "size_bytes": 909505,
+      "patterns": {
+        "page": 70,
+        "exercise": 138,
+        "disc": 1,
+        "disc_track": 6,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_086",
+      "filename": "1-75 Jamaican Reggae - 600 Pg.168.mp3",
+      "stem": "1-75 Jamaican Reggae - 600 Pg.168",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-75 Jamaican Reggae - 600 Pg.168.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-75%20Jamaican%20Reggae%20-%20600%20Pg.168.mp3",
+      "size_bytes": 747128,
+      "patterns": {
+        "page": 168,
+        "exercise": 600,
+        "disc": 1,
+        "disc_track": 75
+      }
+    },
+    {
+      "id": "mp3_087",
+      "filename": "1-19 Chuck Rainey _ Atlantic - 223 Pg.88.mp3",
+      "stem": "1-19 Chuck Rainey _ Atlantic - 223 Pg.88",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-19 Chuck Rainey _ Atlantic - 223 Pg.88.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-19%20Chuck%20Rainey%20_%20Atlantic%20-%20223%20Pg.88.mp3",
+      "size_bytes": 678798,
+      "patterns": {
+        "page": 88,
+        "exercise": 223,
+        "disc": 1,
+        "disc_track": 19
+      }
+    },
+    {
+      "id": "mp3_088",
+      "filename": "1-08 4_4 Blues And R&B - 148 Pg.71.mp3",
+      "stem": "1-08 4_4 Blues And R&B - 148 Pg.71",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-08 4_4 Blues And R&B - 148 Pg.71.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-08%204_4%20Blues%20And%20R%26B%20-%20148%20Pg.71.mp3",
+      "size_bytes": 739604,
+      "patterns": {
+        "page": 71,
+        "exercise": 148,
+        "disc": 1,
+        "disc_track": 8,
+        "style": "blues"
+      }
+    },
+    {
+      "id": "mp3_089",
+      "filename": "1-35 Rock - 314 Pg.109.mp3",
+      "stem": "1-35 Rock - 314 Pg.109",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-35 Rock - 314 Pg.109.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-35%20Rock%20-%20314%20Pg.109.mp3",
+      "size_bytes": 754013,
+      "patterns": {
+        "page": 109,
+        "exercise": 314,
+        "disc": 1,
+        "disc_track": 35,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_090",
+      "filename": "1-83 African Riffs - 667 Pg.185.mp3",
+      "stem": "1-83 African Riffs - 667 Pg.185",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-83 African Riffs - 667 Pg.185.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-83%20African%20Riffs%20-%20667%20Pg.185.mp3",
+      "size_bytes": 1365287,
+      "patterns": {
+        "page": 185,
+        "exercise": 667,
+        "disc": 1,
+        "disc_track": 83
+      }
+    },
+    {
+      "id": "mp3_091",
+      "filename": "1-46 Latin Riffs - 419 Pg.130.mp3",
+      "stem": "1-46 Latin Riffs - 419 Pg.130",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-46 Latin Riffs - 419 Pg.130.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-46%20Latin%20Riffs%20-%20419%20Pg.130.mp3",
+      "size_bytes": 836776,
+      "patterns": {
+        "page": 130,
+        "exercise": 419,
+        "disc": 1,
+        "disc_track": 46,
+        "style": "latin"
+      }
+    },
+    {
+      "id": "mp3_092",
+      "filename": "1-32 Rock - 290 Pg.105.mp3",
+      "stem": "1-32 Rock - 290 Pg.105",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 1/1-32 Rock - 290 Pg.105.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%201/1-32%20Rock%20-%20290%20Pg.105.mp3",
+      "size_bytes": 876893,
+      "patterns": {
+        "page": 105,
+        "exercise": 290,
+        "disc": 1,
+        "disc_track": 32,
+        "style": "rock"
+      }
+    },
+    {
+      "id": "mp3_093",
+      "filename": "2-42 Fretless Solo - 923 Pg.246.mp3",
+      "stem": "2-42 Fretless Solo - 923 Pg.246",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-42 Fretless Solo - 923 Pg.246.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-42%20Fretless%20Solo%20-%20923%20Pg.246.mp3",
+      "size_bytes": 3112492,
+      "patterns": {
+        "page": 246,
+        "exercise": 923,
+        "disc": 2,
+        "disc_track": 42
+      }
+    },
+    {
+      "id": "mp3_094",
+      "filename": "2-12 Cameroun - 771 Pg.208.mp3",
+      "stem": "2-12 Cameroun - 771 Pg.208",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-12 Cameroun - 771 Pg.208.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-12%20Cameroun%20-%20771%20Pg.208.mp3",
+      "size_bytes": 1042335,
+      "patterns": {
+        "page": 208,
+        "exercise": 771,
+        "disc": 2,
+        "disc_track": 12
+      }
+    },
+    {
+      "id": "mp3_095",
+      "filename": "2-22 South Africa_Soweto - 824 Pg.221.mp3",
+      "stem": "2-22 South Africa_Soweto - 824 Pg.221",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-22 South Africa_Soweto - 824 Pg.221.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-22%20South%20Africa_Soweto%20-%20824%20Pg.221.mp3",
+      "size_bytes": 924481,
+      "patterns": {
+        "page": 221,
+        "exercise": 824,
+        "disc": 2,
+        "disc_track": 22
+      }
+    },
+    {
+      "id": "mp3_096",
+      "filename": "2-38 Jaco Pastorius _ Fretless - 916 Pg.243.mp3",
+      "stem": "2-38 Jaco Pastorius _ Fretless - 916 Pg.243",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-38 Jaco Pastorius _ Fretless - 916 Pg.243.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-38%20Jaco%20Pastorius%20_%20Fretless%20-%20916%20Pg.243.mp3",
+      "size_bytes": 1139527,
+      "patterns": {
+        "page": 243,
+        "exercise": 916,
+        "disc": 2,
+        "disc_track": 38
+      }
+    },
+    {
+      "id": "mp3_097",
+      "filename": "2-66 Jazz And Progressive - 998 Pg.272.mp3",
+      "stem": "2-66 Jazz And Progressive - 998 Pg.272",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-66 Jazz And Progressive - 998 Pg.272.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-66%20Jazz%20And%20Progressive%20-%20998%20Pg.272.mp3",
+      "size_bytes": 2186510,
+      "patterns": {
+        "page": 272,
+        "exercise": 998,
+        "disc": 2,
+        "disc_track": 66,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_098",
+      "filename": "2-32 Mark King _ Slap Popping - 892 Pg.238.mp3",
+      "stem": "2-32 Mark King _ Slap Popping - 892 Pg.238",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-32 Mark King _ Slap Popping - 892 Pg.238.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-32%20Mark%20King%20_%20Slap%20Popping%20-%20892%20Pg.238.mp3",
+      "size_bytes": 1089998,
+      "patterns": {
+        "page": 238,
+        "exercise": 892,
+        "disc": 2,
+        "disc_track": 32,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_099",
+      "filename": "2-64 Jazz And Progressive - 996 Pg.268.mp3",
+      "stem": "2-64 Jazz And Progressive - 996 Pg.268",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-64 Jazz And Progressive - 996 Pg.268.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-64%20Jazz%20And%20Progressive%20-%20996%20Pg.268.mp3",
+      "size_bytes": 2253593,
+      "patterns": {
+        "page": 268,
+        "exercise": 996,
+        "disc": 2,
+        "disc_track": 64,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_100",
+      "filename": "2-59 Modern Riff - 987 Pg.266.mp3",
+      "stem": "2-59 Modern Riff - 987 Pg.266",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-59 Modern Riff - 987 Pg.266.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-59%20Modern%20Riff%20-%20987%20Pg.266.mp3",
+      "size_bytes": 942028,
+      "patterns": {
+        "page": 266,
+        "exercise": 987,
+        "disc": 2,
+        "disc_track": 59
+      }
+    },
+    {
+      "id": "mp3_101",
+      "filename": "2-24 South Africa_Soweto - 830 Pg.222.mp3",
+      "stem": "2-24 South Africa_Soweto - 830 Pg.222",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-24 South Africa_Soweto - 830 Pg.222.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-24%20South%20Africa_Soweto%20-%20830%20Pg.222.mp3",
+      "size_bytes": 1615995,
+      "patterns": {
+        "page": 222,
+        "exercise": 830,
+        "disc": 2,
+        "disc_track": 24
+      }
+    },
+    {
+      "id": "mp3_102",
+      "filename": "2-03 Mali - 732 Pg.199.mp3",
+      "stem": "2-03 Mali - 732 Pg.199",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-03 Mali - 732 Pg.199.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-03%20Mali%20-%20732%20Pg.199.mp3",
+      "size_bytes": 1401566,
+      "patterns": {
+        "page": 199,
+        "exercise": 732,
+        "disc": 2,
+        "disc_track": 3
+      }
+    },
+    {
+      "id": "mp3_103",
+      "filename": "2-20 Zimbabwe - 805 Pg.217.mp3",
+      "stem": "2-20 Zimbabwe - 805 Pg.217",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-20 Zimbabwe - 805 Pg.217.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-20%20Zimbabwe%20-%20805%20Pg.217.mp3",
+      "size_bytes": 987791,
+      "patterns": {
+        "page": 217,
+        "exercise": 805,
+        "disc": 2,
+        "disc_track": 20
+      }
+    },
+    {
+      "id": "mp3_104",
+      "filename": "2-73 Jazz And Progressive - 1005 Pg.284.mp3",
+      "stem": "2-73 Jazz And Progressive - 1005 Pg.284",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-73 Jazz And Progressive - 1005 Pg.284.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-73%20Jazz%20And%20Progressive%20-%201005%20Pg.284.mp3",
+      "size_bytes": 1511925,
+      "patterns": {
+        "page": 284,
+        "exercise": 5,
+        "disc": 2,
+        "disc_track": 73,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_105",
+      "filename": "2-11 Cameroun - 769 Pg.208.mp3",
+      "stem": "2-11 Cameroun - 769 Pg.208",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-11 Cameroun - 769 Pg.208.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-11%20Cameroun%20-%20769%20Pg.208.mp3",
+      "size_bytes": 805979,
+      "patterns": {
+        "page": 208,
+        "exercise": 769,
+        "disc": 2,
+        "disc_track": 11
+      }
+    },
+    {
+      "id": "mp3_106",
+      "filename": "2-17 Zimbabwe - 795 Pg.214.mp3",
+      "stem": "2-17 Zimbabwe - 795 Pg.214",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-17 Zimbabwe - 795 Pg.214.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-17%20Zimbabwe%20-%20795%20Pg.214.mp3",
+      "size_bytes": 1090609,
+      "patterns": {
+        "page": 214,
+        "exercise": 795,
+        "disc": 2,
+        "disc_track": 17
+      }
+    },
+    {
+      "id": "mp3_107",
+      "filename": "2-08 Guinea - 757 Pg.205.mp3",
+      "stem": "2-08 Guinea - 757 Pg.205",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-08 Guinea - 757 Pg.205.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-08%20Guinea%20-%20757%20Pg.205.mp3",
+      "size_bytes": 1133238,
+      "patterns": {
+        "page": 205,
+        "exercise": 757,
+        "disc": 2,
+        "disc_track": 8
+      }
+    },
+    {
+      "id": "mp3_108",
+      "filename": "2-48 Synth Bass - 932 Pg.254.mp3",
+      "stem": "2-48 Synth Bass - 932 Pg.254",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-48 Synth Bass - 932 Pg.254.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-48%20Synth%20Bass%20-%20932%20Pg.254.mp3",
+      "size_bytes": 642977,
+      "patterns": {
+        "page": 254,
+        "exercise": 932,
+        "disc": 2,
+        "disc_track": 48
+      }
+    },
+    {
+      "id": "mp3_109",
+      "filename": "2-71 Jazz And Progressive - 1003 Pg.282.mp3",
+      "stem": "2-71 Jazz And Progressive - 1003 Pg.282",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-71 Jazz And Progressive - 1003 Pg.282.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-71%20Jazz%20And%20Progressive%20-%201003%20Pg.282.mp3",
+      "size_bytes": 1526345,
+      "patterns": {
+        "page": 282,
+        "exercise": 3,
+        "disc": 2,
+        "disc_track": 71,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_110",
+      "filename": "2-52 Modern Riff - 972 Pg.264.mp3",
+      "stem": "2-52 Modern Riff - 972 Pg.264",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-52 Modern Riff - 972 Pg.264.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-52%20Modern%20Riff%20-%20972%20Pg.264.mp3",
+      "size_bytes": 1095628,
+      "patterns": {
+        "page": 264,
+        "exercise": 972,
+        "disc": 2,
+        "disc_track": 52
+      }
+    },
+    {
+      "id": "mp3_111",
+      "filename": "2-44 Fretless Solo - 925 Pg.249.mp3",
+      "stem": "2-44 Fretless Solo - 925 Pg.249",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-44 Fretless Solo - 925 Pg.249.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-44%20Fretless%20Solo%20-%20925%20Pg.249.mp3",
+      "size_bytes": 1632916,
+      "patterns": {
+        "page": 249,
+        "exercise": 925,
+        "disc": 2,
+        "disc_track": 44
+      }
+    },
+    {
+      "id": "mp3_112",
+      "filename": "2-37 Jaco Pastorius _ Fretless - 912 Pg.243.mp3",
+      "stem": "2-37 Jaco Pastorius _ Fretless - 912 Pg.243",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-37 Jaco Pastorius _ Fretless - 912 Pg.243.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-37%20Jaco%20Pastorius%20_%20Fretless%20-%20912%20Pg.243.mp3",
+      "size_bytes": 1127616,
+      "patterns": {
+        "page": 243,
+        "exercise": 912,
+        "disc": 2,
+        "disc_track": 37
+      }
+    },
+    {
+      "id": "mp3_113",
+      "filename": "2-56 Modern Riff - 981 Pg.265.mp3",
+      "stem": "2-56 Modern Riff - 981 Pg.265",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-56 Modern Riff - 981 Pg.265.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-56%20Modern%20Riff%20-%20981%20Pg.265.mp3",
+      "size_bytes": 918204,
+      "patterns": {
+        "page": 265,
+        "exercise": 981,
+        "disc": 2,
+        "disc_track": 56
+      }
+    },
+    {
+      "id": "mp3_114",
+      "filename": "2-65 Jazz And Progressive - 997 Pg.270.mp3",
+      "stem": "2-65 Jazz And Progressive - 997 Pg.270",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-65 Jazz And Progressive - 997 Pg.270.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-65%20Jazz%20And%20Progressive%20-%20997%20Pg.270.mp3",
+      "size_bytes": 1463023,
+      "patterns": {
+        "page": 270,
+        "exercise": 997,
+        "disc": 2,
+        "disc_track": 65,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_115",
+      "filename": "2-40 Jaco Pastorius _ Fretless - 920 Pg.244.mp3",
+      "stem": "2-40 Jaco Pastorius _ Fretless - 920 Pg.244",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-40 Jaco Pastorius _ Fretless - 920 Pg.244.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-40%20Jaco%20Pastorius%20_%20Fretless%20-%20920%20Pg.244.mp3",
+      "size_bytes": 1414127,
+      "patterns": {
+        "page": 244,
+        "exercise": 920,
+        "disc": 2,
+        "disc_track": 40
+      }
+    },
+    {
+      "id": "mp3_116",
+      "filename": "2-27 Larry Graham _ Slap Boogie - 863 Pg.232.mp3",
+      "stem": "2-27 Larry Graham _ Slap Boogie - 863 Pg.232",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-27 Larry Graham _ Slap Boogie - 863 Pg.232.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-27%20Larry%20Graham%20_%20Slap%20Boogie%20-%20863%20Pg.232.mp3",
+      "size_bytes": 871826,
+      "patterns": {
+        "page": 232,
+        "exercise": 863,
+        "disc": 2,
+        "disc_track": 27,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_117",
+      "filename": "2-01 Mali - 718 Pg.197.mp3",
+      "stem": "2-01 Mali - 718 Pg.197",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-01 Mali - 718 Pg.197.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-01%20Mali%20-%20718%20Pg.197.mp3",
+      "size_bytes": 999071,
+      "patterns": {
+        "page": 197,
+        "exercise": 718,
+        "disc": 2,
+        "disc_track": 1
+      }
+    },
+    {
+      "id": "mp3_118",
+      "filename": "2-63 Modern Riff - 995 Pg.268.mp3",
+      "stem": "2-63 Modern Riff - 995 Pg.268",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-63 Modern Riff - 995 Pg.268.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-63%20Modern%20Riff%20-%20995%20Pg.268.mp3",
+      "size_bytes": 471197,
+      "patterns": {
+        "page": 268,
+        "exercise": 995,
+        "disc": 2,
+        "disc_track": 63
+      }
+    },
+    {
+      "id": "mp3_119",
+      "filename": "2-13 Zaïre - 779 Pg.210.mp3",
+      "stem": "2-13 Zaïre - 779 Pg.210",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-13 Zaïre - 779 Pg.210.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-13%20Zaïre%20-%20779%20Pg.210.mp3",
+      "size_bytes": 928250,
+      "patterns": {
+        "page": 210,
+        "exercise": 779,
+        "disc": 2,
+        "disc_track": 13
+      }
+    },
+    {
+      "id": "mp3_120",
+      "filename": "2-18 Zimbabwe - 797 Pg.215.mp3",
+      "stem": "2-18 Zimbabwe - 797 Pg.215",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-18 Zimbabwe - 797 Pg.215.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-18%20Zimbabwe%20-%20797%20Pg.215.mp3",
+      "size_bytes": 1102521,
+      "patterns": {
+        "page": 215,
+        "exercise": 797,
+        "disc": 2,
+        "disc_track": 18
+      }
+    },
+    {
+      "id": "mp3_121",
+      "filename": "2-06 Guinea - 748 Pg.203.mp3",
+      "stem": "2-06 Guinea - 748 Pg.203",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-06 Guinea - 748 Pg.203.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-06%20Guinea%20-%20748%20Pg.203.mp3",
+      "size_bytes": 868043,
+      "patterns": {
+        "page": 203,
+        "exercise": 748,
+        "disc": 2,
+        "disc_track": 6
+      }
+    },
+    {
+      "id": "mp3_122",
+      "filename": "2-68 Jazz And Progressive - 1000 Pg.276.mp3",
+      "stem": "2-68 Jazz And Progressive - 1000 Pg.276",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-68 Jazz And Progressive - 1000 Pg.276.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-68%20Jazz%20And%20Progressive%20-%201000%20Pg.276.mp3",
+      "size_bytes": 1382776,
+      "patterns": {
+        "page": 276,
+        "exercise": 0,
+        "disc": 2,
+        "disc_track": 68,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_123",
+      "filename": "2-72 Jazz And Progressive - 1004 Pg.283.mp3",
+      "stem": "2-72 Jazz And Progressive - 1004 Pg.283",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-72 Jazz And Progressive - 1004 Pg.283.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-72%20Jazz%20And%20Progressive%20-%201004%20Pg.283.mp3",
+      "size_bytes": 1170243,
+      "patterns": {
+        "page": 283,
+        "exercise": 4,
+        "disc": 2,
+        "disc_track": 72,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_124",
+      "filename": "2-02 Mali - 728 Pg.199.mp3",
+      "stem": "2-02 Mali - 728 Pg.199",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-02 Mali - 728 Pg.199.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-02%20Mali%20-%20728%20Pg.199.mp3",
+      "size_bytes": 972740,
+      "patterns": {
+        "page": 199,
+        "exercise": 728,
+        "disc": 2,
+        "disc_track": 2
+      }
+    },
+    {
+      "id": "mp3_125",
+      "filename": "2-04 Mali - 736 Pg.200.mp3",
+      "stem": "2-04 Mali - 736 Pg.200",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-04 Mali - 736 Pg.200.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-04%20Mali%20-%20736%20Pg.200.mp3",
+      "size_bytes": 957693,
+      "patterns": {
+        "page": 200,
+        "exercise": 736,
+        "disc": 2,
+        "disc_track": 4
+      }
+    },
+    {
+      "id": "mp3_126",
+      "filename": "2-54 Modern Riff - 977 Pg.265.mp3",
+      "stem": "2-54 Modern Riff - 977 Pg.265",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-54 Modern Riff - 977 Pg.265.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-54%20Modern%20Riff%20-%20977%20Pg.265.mp3",
+      "size_bytes": 893753,
+      "patterns": {
+        "page": 265,
+        "exercise": 977,
+        "disc": 2,
+        "disc_track": 54
+      }
+    },
+    {
+      "id": "mp3_127",
+      "filename": "2-51 Synth Bass - 946 Pg.257.mp3",
+      "stem": "2-51 Synth Bass - 946 Pg.257",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-51 Synth Bass - 946 Pg.257.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-51%20Synth%20Bass%20-%20946%20Pg.257.mp3",
+      "size_bytes": 731375,
+      "patterns": {
+        "page": 257,
+        "exercise": 946,
+        "disc": 2,
+        "disc_track": 51
+      }
+    },
+    {
+      "id": "mp3_128",
+      "filename": "2-41 Fretless Solo - 922 Pg.245.mp3",
+      "stem": "2-41 Fretless Solo - 922 Pg.245",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-41 Fretless Solo - 922 Pg.245.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-41%20Fretless%20Solo%20-%20922%20Pg.245.mp3",
+      "size_bytes": 1208479,
+      "patterns": {
+        "page": 245,
+        "exercise": 922,
+        "disc": 2,
+        "disc_track": 41
+      }
+    },
+    {
+      "id": "mp3_129",
+      "filename": "2-29 Larry Graham _ Slap Boogie - 876 Pg.234.mp3",
+      "stem": "2-29 Larry Graham _ Slap Boogie - 876 Pg.234",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-29 Larry Graham _ Slap Boogie - 876 Pg.234.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-29%20Larry%20Graham%20_%20Slap%20Boogie%20-%20876%20Pg.234.mp3",
+      "size_bytes": 958970,
+      "patterns": {
+        "page": 234,
+        "exercise": 876,
+        "disc": 2,
+        "disc_track": 29,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_130",
+      "filename": "2-55 Modern Riff - 979 Pg.265.mp3",
+      "stem": "2-55 Modern Riff - 979 Pg.265",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-55 Modern Riff - 979 Pg.265.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-55%20Modern%20Riff%20-%20979%20Pg.265.mp3",
+      "size_bytes": 917577,
+      "patterns": {
+        "page": 265,
+        "exercise": 979,
+        "disc": 2,
+        "disc_track": 55
+      }
+    },
+    {
+      "id": "mp3_131",
+      "filename": "2-70 Jazz And Progressive - 1002 Pg.280.mp3",
+      "stem": "2-70 Jazz And Progressive - 1002 Pg.280",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-70 Jazz And Progressive - 1002 Pg.280.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-70%20Jazz%20And%20Progressive%20-%201002%20Pg.280.mp3",
+      "size_bytes": 1720069,
+      "patterns": {
+        "page": 280,
+        "exercise": 2,
+        "disc": 2,
+        "disc_track": 70,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_132",
+      "filename": "2-10 Cameroun - 765 Pg.207.mp3",
+      "stem": "2-10 Cameroun - 765 Pg.207",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-10 Cameroun - 765 Pg.207.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-10%20Cameroun%20-%20765%20Pg.207.mp3",
+      "size_bytes": 934501,
+      "patterns": {
+        "page": 207,
+        "exercise": 765,
+        "disc": 2,
+        "disc_track": 10
+      }
+    },
+    {
+      "id": "mp3_133",
+      "filename": "2-62 Modern Riff - 993 Pg.267.mp3",
+      "stem": "2-62 Modern Riff - 993 Pg.267",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-62 Modern Riff - 993 Pg.267.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-62%20Modern%20Riff%20-%20993%20Pg.267.mp3",
+      "size_bytes": 798459,
+      "patterns": {
+        "page": 267,
+        "exercise": 993,
+        "disc": 2,
+        "disc_track": 62
+      }
+    },
+    {
+      "id": "mp3_134",
+      "filename": "2-23 South Africa_Soweto - 828 Pg.222.mp3",
+      "stem": "2-23 South Africa_Soweto - 828 Pg.222",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-23 South Africa_Soweto - 828 Pg.222.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-23%20South%20Africa_Soweto%20-%20828%20Pg.222.mp3",
+      "size_bytes": 1039838,
+      "patterns": {
+        "page": 222,
+        "exercise": 828,
+        "disc": 2,
+        "disc_track": 23
+      }
+    },
+    {
+      "id": "mp3_135",
+      "filename": "2-46 Natural Harmonics - 927 Pg.253.mp3",
+      "stem": "2-46 Natural Harmonics - 927 Pg.253",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-46 Natural Harmonics - 927 Pg.253.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-46%20Natural%20Harmonics%20-%20927%20Pg.253.mp3",
+      "size_bytes": 927614,
+      "patterns": {
+        "page": 253,
+        "exercise": 927,
+        "disc": 2,
+        "disc_track": 46
+      }
+    },
+    {
+      "id": "mp3_136",
+      "filename": "2-21 South Africa_Soweto - 814 Pg.219.mp3",
+      "stem": "2-21 South Africa_Soweto - 814 Pg.219",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-21 South Africa_Soweto - 814 Pg.219.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-21%20South%20Africa_Soweto%20-%20814%20Pg.219.mp3",
+      "size_bytes": 1004103,
+      "patterns": {
+        "page": 219,
+        "exercise": 814,
+        "disc": 2,
+        "disc_track": 21
+      }
+    },
+    {
+      "id": "mp3_137",
+      "filename": "2-60 Modern Riff - 989 Pg.267.mp3",
+      "stem": "2-60 Modern Riff - 989 Pg.267",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-60 Modern Riff - 989 Pg.267.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-60%20Modern%20Riff%20-%20989%20Pg.267.mp3",
+      "size_bytes": 874318,
+      "patterns": {
+        "page": 267,
+        "exercise": 989,
+        "disc": 2,
+        "disc_track": 60
+      }
+    },
+    {
+      "id": "mp3_138",
+      "filename": "2-57 Modern Riff - 983 Pg.266.mp3",
+      "stem": "2-57 Modern Riff - 983 Pg.266",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-57 Modern Riff - 983 Pg.266.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-57%20Modern%20Riff%20-%20983%20Pg.266.mp3",
+      "size_bytes": 941401,
+      "patterns": {
+        "page": 266,
+        "exercise": 983,
+        "disc": 2,
+        "disc_track": 57
+      }
+    },
+    {
+      "id": "mp3_139",
+      "filename": "2-67 Jazz And Progressive - 999 Pg.274.mp3",
+      "stem": "2-67 Jazz And Progressive - 999 Pg.274",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-67 Jazz And Progressive - 999 Pg.274.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-67%20Jazz%20And%20Progressive%20-%20999%20Pg.274.mp3",
+      "size_bytes": 1800316,
+      "patterns": {
+        "page": 274,
+        "exercise": 999,
+        "disc": 2,
+        "disc_track": 67,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_140",
+      "filename": "2-30 Larry Graham _ Slap Boogie - 879 Pg.235.mp3",
+      "stem": "2-30 Larry Graham _ Slap Boogie - 879 Pg.235",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-30 Larry Graham _ Slap Boogie - 879 Pg.235.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-30%20Larry%20Graham%20_%20Slap%20Boogie%20-%20879%20Pg.235.mp3",
+      "size_bytes": 1059907,
+      "patterns": {
+        "page": 235,
+        "exercise": 879,
+        "disc": 2,
+        "disc_track": 30,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_141",
+      "filename": "2-28 Larry Graham _ Slap Boogie - 871 Pg.233.mp3",
+      "stem": "2-28 Larry Graham _ Slap Boogie - 871 Pg.233",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-28 Larry Graham _ Slap Boogie - 871 Pg.233.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-28%20Larry%20Graham%20_%20Slap%20Boogie%20-%20871%20Pg.233.mp3",
+      "size_bytes": 942670,
+      "patterns": {
+        "page": 233,
+        "exercise": 871,
+        "disc": 2,
+        "disc_track": 28,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_142",
+      "filename": "2-14 Zaïre - 782 Pg.211.mp3",
+      "stem": "2-14 Zaïre - 782 Pg.211",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-14 Zaïre - 782 Pg.211.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-14%20Zaïre%20-%20782%20Pg.211.mp3",
+      "size_bytes": 967120,
+      "patterns": {
+        "page": 211,
+        "exercise": 782,
+        "disc": 2,
+        "disc_track": 14
+      }
+    },
+    {
+      "id": "mp3_143",
+      "filename": "2-47 Natural Harmonics - 928 Pg.253.mp3",
+      "stem": "2-47 Natural Harmonics - 928 Pg.253",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-47 Natural Harmonics - 928 Pg.253.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-47%20Natural%20Harmonics%20-%20928%20Pg.253.mp3",
+      "size_bytes": 1941374,
+      "patterns": {
+        "page": 253,
+        "exercise": 928,
+        "disc": 2,
+        "disc_track": 47
+      }
+    },
+    {
+      "id": "mp3_144",
+      "filename": "2-39 Jaco Pastorius _ Fretless - 918 Pg.244.mp3",
+      "stem": "2-39 Jaco Pastorius _ Fretless - 918 Pg.244",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-39 Jaco Pastorius _ Fretless - 918 Pg.244.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-39%20Jaco%20Pastorius%20_%20Fretless%20-%20918%20Pg.244.mp3",
+      "size_bytes": 1031067,
+      "patterns": {
+        "page": 244,
+        "exercise": 918,
+        "disc": 2,
+        "disc_track": 39
+      }
+    },
+    {
+      "id": "mp3_145",
+      "filename": "2-53 Modern Riff - 975 Pg.264.mp3",
+      "stem": "2-53 Modern Riff - 975 Pg.264",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-53 Modern Riff - 975 Pg.264.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-53%20Modern%20Riff%20-%20975%20Pg.264.mp3",
+      "size_bytes": 1296248,
+      "patterns": {
+        "page": 264,
+        "exercise": 975,
+        "disc": 2,
+        "disc_track": 53
+      }
+    },
+    {
+      "id": "mp3_146",
+      "filename": "2-50 Synth Bass - 942 Pg.256.mp3",
+      "stem": "2-50 Synth Bass - 942 Pg.256",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-50 Synth Bass - 942 Pg.256.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-50%20Synth%20Bass%20-%20942%20Pg.256.mp3",
+      "size_bytes": 643604,
+      "patterns": {
+        "page": 256,
+        "exercise": 942,
+        "disc": 2,
+        "disc_track": 50
+      }
+    },
+    {
+      "id": "mp3_147",
+      "filename": "2-35 Jaco Pastorius _ Fretless - 902 Pg.241.mp3",
+      "stem": "2-35 Jaco Pastorius _ Fretless - 902 Pg.241",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-35 Jaco Pastorius _ Fretless - 902 Pg.241.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-35%20Jaco%20Pastorius%20_%20Fretless%20-%20902%20Pg.241.mp3",
+      "size_bytes": 1075580,
+      "patterns": {
+        "page": 241,
+        "exercise": 902,
+        "disc": 2,
+        "disc_track": 35
+      }
+    },
+    {
+      "id": "mp3_148",
+      "filename": "2-19 Zimbabwe - 803 Pg.216.mp3",
+      "stem": "2-19 Zimbabwe - 803 Pg.216",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-19 Zimbabwe - 803 Pg.216.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-19%20Zimbabwe%20-%20803%20Pg.216.mp3",
+      "size_bytes": 1055501,
+      "patterns": {
+        "page": 216,
+        "exercise": 803,
+        "disc": 2,
+        "disc_track": 19
+      }
+    },
+    {
+      "id": "mp3_149",
+      "filename": "2-34 Mark King _ Slap Popping - 896 Pg.238.mp3",
+      "stem": "2-34 Mark King _ Slap Popping - 896 Pg.238",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-34 Mark King _ Slap Popping - 896 Pg.238.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-34%20Mark%20King%20_%20Slap%20Popping%20-%20896%20Pg.238.mp3",
+      "size_bytes": 958968,
+      "patterns": {
+        "page": 238,
+        "exercise": 896,
+        "disc": 2,
+        "disc_track": 34,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_150",
+      "filename": "2-58 Modern Riff - 985 Pg.266.mp3",
+      "stem": "2-58 Modern Riff - 985 Pg.266",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-58 Modern Riff - 985 Pg.266.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-58%20Modern%20Riff%20-%20985%20Pg.266.mp3",
+      "size_bytes": 958955,
+      "patterns": {
+        "page": 266,
+        "exercise": 985,
+        "disc": 2,
+        "disc_track": 58
+      }
+    },
+    {
+      "id": "mp3_151",
+      "filename": "2-07 Guinea - 754 Pg.204.mp3",
+      "stem": "2-07 Guinea - 754 Pg.204",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-07 Guinea - 754 Pg.204.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-07%20Guinea%20-%20754%20Pg.204.mp3",
+      "size_bytes": 967099,
+      "patterns": {
+        "page": 204,
+        "exercise": 754,
+        "disc": 2,
+        "disc_track": 7
+      }
+    },
+    {
+      "id": "mp3_152",
+      "filename": "2-15 Zaïre - 790 Pg.213.mp3",
+      "stem": "2-15 Zaïre - 790 Pg.213",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-15 Zaïre - 790 Pg.213.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-15%20Zaïre%20-%20790%20Pg.213.mp3",
+      "size_bytes": 1046115,
+      "patterns": {
+        "page": 213,
+        "exercise": 790,
+        "disc": 2,
+        "disc_track": 15
+      }
+    },
+    {
+      "id": "mp3_153",
+      "filename": "2-09 Cameroun - 763 Pg.207.mp3",
+      "stem": "2-09 Cameroun - 763 Pg.207",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-09 Cameroun - 763 Pg.207.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-09%20Cameroun%20-%20763%20Pg.207.mp3",
+      "size_bytes": 831056,
+      "patterns": {
+        "page": 207,
+        "exercise": 763,
+        "disc": 2,
+        "disc_track": 9
+      }
+    },
+    {
+      "id": "mp3_154",
+      "filename": "2-33 Mark King _ Slap Popping - 894 Pg.238.mp3",
+      "stem": "2-33 Mark King _ Slap Popping - 894 Pg.238",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-33 Mark King _ Slap Popping - 894 Pg.238.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-33%20Mark%20King%20_%20Slap%20Popping%20-%20894%20Pg.238.mp3",
+      "size_bytes": 1043605,
+      "patterns": {
+        "page": 238,
+        "exercise": 894,
+        "disc": 2,
+        "disc_track": 33,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_155",
+      "filename": "2-43 Fretless Solo - 924 Pg.248.mp3",
+      "stem": "2-43 Fretless Solo - 924 Pg.248",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-43 Fretless Solo - 924 Pg.248.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-43%20Fretless%20Solo%20-%20924%20Pg.248.mp3",
+      "size_bytes": 2282425,
+      "patterns": {
+        "page": 248,
+        "exercise": 924,
+        "disc": 2,
+        "disc_track": 43
+      }
+    },
+    {
+      "id": "mp3_156",
+      "filename": "2-49 Synth Bass - 936 Pg.255.mp3",
+      "stem": "2-49 Synth Bass - 936 Pg.255",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-49 Synth Bass - 936 Pg.255.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-49%20Synth%20Bass%20-%20936%20Pg.255.mp3",
+      "size_bytes": 642977,
+      "patterns": {
+        "page": 255,
+        "exercise": 936,
+        "disc": 2,
+        "disc_track": 49
+      }
+    },
+    {
+      "id": "mp3_157",
+      "filename": "2-69 Jazz And Progressive - 1001 Pg.278.mp3",
+      "stem": "2-69 Jazz And Progressive - 1001 Pg.278",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-69 Jazz And Progressive - 1001 Pg.278.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-69%20Jazz%20And%20Progressive%20-%201001%20Pg.278.mp3",
+      "size_bytes": 1311932,
+      "patterns": {
+        "page": 278,
+        "exercise": 1,
+        "disc": 2,
+        "disc_track": 69,
+        "style": "jazz"
+      }
+    },
+    {
+      "id": "mp3_158",
+      "filename": "2-31 Mark King _ Slap Popping - 887 Pg.237.mp3",
+      "stem": "2-31 Mark King _ Slap Popping - 887 Pg.237",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-31 Mark King _ Slap Popping - 887 Pg.237.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-31%20Mark%20King%20_%20Slap%20Popping%20-%20887%20Pg.237.mp3",
+      "size_bytes": 875585,
+      "patterns": {
+        "page": 237,
+        "exercise": 887,
+        "disc": 2,
+        "disc_track": 31,
+        "style": "slap"
+      }
+    },
+    {
+      "id": "mp3_159",
+      "filename": "2-05 Guinea - 743 Pg.202.mp3",
+      "stem": "2-05 Guinea - 743 Pg.202",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-05 Guinea - 743 Pg.202.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-05%20Guinea%20-%20743%20Pg.202.mp3",
+      "size_bytes": 947037,
+      "patterns": {
+        "page": 202,
+        "exercise": 743,
+        "disc": 2,
+        "disc_track": 5
+      }
+    },
+    {
+      "id": "mp3_160",
+      "filename": "2-45 Natural Harmonics - 926 Pg.252.mp3",
+      "stem": "2-45 Natural Harmonics - 926 Pg.252",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-45 Natural Harmonics - 926 Pg.252.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-45%20Natural%20Harmonics%20-%20926%20Pg.252.mp3",
+      "size_bytes": 614772,
+      "patterns": {
+        "page": 252,
+        "exercise": 926,
+        "disc": 2,
+        "disc_track": 45
+      }
+    },
+    {
+      "id": "mp3_161",
+      "filename": "2-26 Boogie - 846 Pg.227.mp3",
+      "stem": "2-26 Boogie - 846 Pg.227",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-26 Boogie - 846 Pg.227.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-26%20Boogie%20-%20846%20Pg.227.mp3",
+      "size_bytes": 915691,
+      "patterns": {
+        "page": 227,
+        "exercise": 846,
+        "disc": 2,
+        "disc_track": 26
+      }
+    },
+    {
+      "id": "mp3_162",
+      "filename": "2-36 Jaco Pastorius _ Fretless - 907 Pg.242.mp3",
+      "stem": "2-36 Jaco Pastorius _ Fretless - 907 Pg.242",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-36 Jaco Pastorius _ Fretless - 907 Pg.242.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-36%20Jaco%20Pastorius%20_%20Fretless%20-%20907%20Pg.242.mp3",
+      "size_bytes": 1558949,
+      "patterns": {
+        "page": 242,
+        "exercise": 907,
+        "disc": 2,
+        "disc_track": 36
+      }
+    },
+    {
+      "id": "mp3_163",
+      "filename": "2-25 Boogie - 841 Pg.227.mp3",
+      "stem": "2-25 Boogie - 841 Pg.227",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-25 Boogie - 841 Pg.227.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-25%20Boogie%20-%20841%20Pg.227.mp3",
+      "size_bytes": 885598,
+      "patterns": {
+        "page": 227,
+        "exercise": 841,
+        "disc": 2,
+        "disc_track": 25
+      }
+    },
+    {
+      "id": "mp3_164",
+      "filename": "2-16 Zaïre - 792 Pg.213.mp3",
+      "stem": "2-16 Zaïre - 792 Pg.213",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-16 Zaïre - 792 Pg.213.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-16%20Zaïre%20-%20792%20Pg.213.mp3",
+      "size_bytes": 924488,
+      "patterns": {
+        "page": 213,
+        "exercise": 792,
+        "disc": 2,
+        "disc_track": 16
+      }
+    },
+    {
+      "id": "mp3_165",
+      "filename": "2-61 Modern Riff - 991 Pg.267.mp3",
+      "stem": "2-61 Modern Riff - 991 Pg.267",
+      "path": "Base de connaissances/MP3/Paul westwood MP3/Bass Bible Vol 2/2-61 Modern Riff - 991 Pg.267.mp3",
+      "url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Paul%20westwood%20MP3/Bass%20Bible%20Vol%202/2-61%20Modern%20Riff%20-%20991%20Pg.267.mp3",
+      "size_bytes": 978390,
+      "patterns": {
+        "page": 267,
+        "exercise": 991,
+        "disc": 2,
+        "disc_track": 61
+      }
+    }
+  ]
+}
