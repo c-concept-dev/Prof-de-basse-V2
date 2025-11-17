@@ -1,16 +1,24 @@
 #!/usr/bin/env python3
 """
-🎵 MP3 Matching System v2 - Prof de Basse
+🎵 MP3 Matching System v2.0 FINAL - Prof de Basse
 Système intelligent de liaison automatique MP3 ↔ Exercices
 
-CORRIGÉ pour :
-- Format songs_index.json avec content.exercises
-- Structure mp3_index.json générée
+FEATURES:
+- Format songs_index.json avec content.exercises ✅
+- Structure mp3_index.json générée ✅
+- Mapping automatique intelligent des noms ✅
+- Matching séquentiel pour Jon Liebman ✅
+- Matching par pattern pour 70s Funk & Paul Westwood ✅
+
+USAGE:
+    python3 mp3-matching-system-v2-FINAL.py
 """
 
 import json
+import re
 from pathlib import Path
 from typing import Dict, List, Optional
+from datetime import datetime
 
 class MP3MatcherV2:
     def __init__(self, repo_root: Path = Path('.')):
@@ -108,7 +116,7 @@ class MP3MatcherV2:
         print(f"✅ {len(self.exercises)} méthodes\n")
     
     # ==========================================
-    # ÉTAPE 3 : MATCHING
+    # ÉTAPE 3 : MATCHING INTELLIGENT
     # ==========================================
     
     def create_automatic_mapping(self) -> Dict[str, str]:
@@ -118,10 +126,10 @@ class MP3MatcherV2:
         # Fonction de normalisation
         def normalize(name: str) -> str:
             """Normalise un nom pour comparaison"""
-            import re
             # Enlever version, MP3, v4.0, etc.
             name = re.sub(r'_v\d+\.\d+', '', name)
             name = re.sub(r'\s+MP3', '', name, flags=re.IGNORECASE)
+            name = re.sub(r'\s+Mp3', '', name, flags=re.IGNORECASE)
             name = re.sub(r'[_-]', ' ', name)
             name = name.lower().strip()
             return name
@@ -137,7 +145,7 @@ class MP3MatcherV2:
             for method_name in self.exercises.keys():
                 method_normalized = normalize(method_name)
                 
-                # Calcul similarité simple
+                # Calcul similarité
                 score = 0
                 mp3_words = set(mp3_normalized.split())
                 method_words = set(method_normalized.split())
@@ -146,7 +154,7 @@ class MP3MatcherV2:
                 common = mp3_words & method_words
                 score = len(common) * 20
                 
-                # Bonus si contient "funk", "paul", "liebman", etc.
+                # Bonus mots-clés
                 key_words = ['funk', 'disco', 'paul', 'westwood', 'liebman', 'jon', 'john']
                 for word in key_words:
                     if word in mp3_normalized and word in method_normalized:
@@ -211,6 +219,32 @@ class MP3MatcherV2:
         """Match les ressources d'une méthode"""
         matched = 0
         
+        # CAS SPÉCIAL : Jon Liebman - Matching séquentiel
+        if 'liebman' in method_name.lower() or 'jon' in method_name.lower():
+            print(f"   ℹ️  Mode séquentiel activé pour Jon Liebman")
+            
+            # Trier les MP3 par numéro de track
+            sorted_mp3 = sorted(mp3_files, key=lambda x: x['patterns'].get('track', 999))
+            
+            # Matcher séquentiellement
+            for i, mp3 in enumerate(sorted_mp3):
+                if i < len(exercises):
+                    exercise = exercises[i]
+                    match_info = {
+                        'mp3': mp3,
+                        'exercise': exercise,
+                        'method': method_name,
+                        'confidence': 0.95  # Haute confiance pour matching séquentiel
+                    }
+                    self.matches.append(match_info)
+                    matched += 1
+                    self.stats['matched'] += 1
+                else:
+                    self.stats['unmatched_mp3'] += 1
+            
+            return matched
+        
+        # CAS GÉNÉRAL : Matching par score (70s Funk, Paul Westwood)
         for mp3 in mp3_files:
             best_match = None
             best_score = 0
@@ -289,8 +323,6 @@ class MP3MatcherV2:
         """Génère mp3_mapping.json"""
         print("💾 ÉTAPE 4 : Génération mp3_mapping.json...\n")
         
-        from datetime import datetime
-        
         mapping = {
             'metadata': {
                 'version': '2.0.0',
@@ -330,7 +362,7 @@ class MP3MatcherV2:
         megasearch_file = self.repo_root / 'megasearch.json'
         
         if not megasearch_file.exists():
-            print("⚠️ megasearch.json introuvable (pas grave)")
+            print("⚠️  megasearch.json introuvable (ignoré)")
             return
         
         with open(megasearch_file, 'r', encoding='utf-8') as f:
@@ -376,7 +408,7 @@ class MP3MatcherV2:
         print(f"✅ megasearch.json mis à jour ({updated_count} ressources avec MP3)")
     
     def print_summary(self):
-        """Affiche résumé"""
+        """Affiche résumé détaillé"""
         print("\n" + "="*60)
         print("🎵 RÉSUMÉ FINAL")
         print("="*60)
@@ -417,7 +449,6 @@ class MP3MatcherV2:
 
 if __name__ == '__main__':
     import sys
-    import re
     
     repo_root = Path.cwd()
     if len(sys.argv) > 1:
@@ -429,3 +460,6 @@ if __name__ == '__main__':
     matcher.run()
     
     print("\n✅ TERMINÉ !")
+    print("\n📁 Fichiers générés :")
+    print("  - mp3_mapping.json (mappings détaillés)")
+    print("  - megasearch.json (mis à jour avec MP3)")
