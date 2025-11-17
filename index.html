@@ -496,10 +496,24 @@
         // Charger les données
         async function loadData() {
             try {
+                console.log('🔄 Chargement de megasearch.json...');
                 const response = await fetch('megasearch.json');
-                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const text = await response.text();
+                console.log(`📦 Fichier chargé: ${Math.round(text.length / 1024)} KB`);
+                
+                const data = JSON.parse(text);
+                console.log(`✅ JSON parsé: ${data.resources?.length || 0} ressources`);
                 
                 allResources = data.resources || [];
+                
+                if (allResources.length === 0) {
+                    throw new Error('Aucune ressource trouvée dans le fichier');
+                }
                 
                 // Mettre à jour les stats
                 updateStats(data.metadata);
@@ -511,10 +525,16 @@
                 // Cacher le loading
                 document.getElementById('loadingIndicator').style.display = 'none';
                 
+                console.log('✅ Chargement terminé avec succès');
+                
             } catch (error) {
-                console.error('Erreur de chargement:', error);
+                console.error('❌ Erreur de chargement:', error);
                 document.getElementById('loadingIndicator').innerHTML = 
-                    '<p style="color: #e74c3c;">❌ Erreur de chargement des données</p>';
+                    `<p style="color: #e74c3c;">❌ Erreur: ${error.message}</p>
+                     <p style="margin-top: 10px; font-size: 14px;">
+                        Vérifiez que megasearch.json existe et est valide.<br>
+                        Ouvrez la console (F12) pour plus de détails.
+                     </p>`;
             }
         }
 
