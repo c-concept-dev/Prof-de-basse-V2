@@ -1,17 +1,17 @@
 {
   "metadata": {
     "version": "2.0.0",
-    "generated_at": "2025-11-17T12:03:00.385307",
+    "generated_at": "2025-11-17T12:16:32.811219",
     "total_mp3": 363,
     "total_exercises": 875,
-    "matched": 138,
-    "match_rate": "38.0%"
+    "matched": 237,
+    "match_rate": "65.3%"
   },
   "stats": {
     "total_mp3": 363,
     "total_exercises": 875,
-    "matched": 138,
-    "unmatched_mp3": 225,
+    "matched": 237,
+    "unmatched_mp3": 126,
     "unmatched_exercises": 0
   },
   "mappings": [
@@ -944,6 +944,996 @@
       "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/70%20Funk%20%26%20Disco%20bass%20MP3/Track%2048.mp3",
       "method": "70s Funk & Disco Bass_v4.0",
       "confidence": 0.8
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_001",
+      "exercise_title": "Exercise 2.1 - Chromatic alternating fingers",
+      "exercise_page": 15,
+      "exercise_technique": "two-finger technique",
+      "mp3_filename": "01 - Track 1.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/01%20-%20Track%201.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_002",
+      "exercise_title": "Exercise 2.2 - Chromatic with string crossings",
+      "exercise_page": 17,
+      "exercise_technique": "two-finger technique",
+      "mp3_filename": "02 - Track 2.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/02%20-%20Track%202.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_003",
+      "exercise_title": "Exercise 2.3 - Chromatic ascending",
+      "exercise_page": 18,
+      "exercise_technique": "two-finger technique",
+      "mp3_filename": "03 - Track 3.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/03%20-%20Track%203.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_004",
+      "exercise_title": "Exercise 2.4 - Chromatic patterns",
+      "exercise_page": 19,
+      "exercise_technique": "two-finger technique",
+      "mp3_filename": "04 - Track 4.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/04%20-%20Track%204.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_005",
+      "exercise_title": "Exercise 2.5 - Chromatic endurance building",
+      "exercise_page": 20,
+      "exercise_technique": "two-finger technique",
+      "mp3_filename": "05 - Track 5.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/05%20-%20Track%205.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_006",
+      "exercise_title": "Exercise 2.6",
+      "exercise_page": 21,
+      "exercise_technique": "chromatic patterns",
+      "mp3_filename": "06 - Track 6.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/06%20-%20Track%206.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_007",
+      "exercise_title": "Exercise 2.7",
+      "exercise_page": 21,
+      "exercise_technique": "chromatic patterns",
+      "mp3_filename": "07 - Track 7.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/07%20-%20Track%207.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_008",
+      "exercise_title": "Exercise 2.8",
+      "exercise_page": 22,
+      "exercise_technique": "chromatic patterns",
+      "mp3_filename": "08 - Track 8.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/08%20-%20Track%208.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_009",
+      "exercise_title": "Exercise 2.9",
+      "exercise_page": 23,
+      "exercise_technique": "chromatic patterns",
+      "mp3_filename": "09 - Track 9.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/09%20-%20Track%209.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_010",
+      "exercise_title": "Exercise 2.10",
+      "exercise_page": 24,
+      "exercise_technique": "left hand strength",
+      "mp3_filename": "10 - Track 10.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/10%20-%20Track%2010.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_011",
+      "exercise_title": "Exercise 2.11",
+      "exercise_page": 24,
+      "exercise_technique": "left hand strength",
+      "mp3_filename": "11 - Track 11.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/11%20-%20Track%2011.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_012",
+      "exercise_title": "Exercise 2.12",
+      "exercise_page": 24,
+      "exercise_technique": "left hand strength",
+      "mp3_filename": "12 - Track 12.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/12%20-%20Track%2012.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_013",
+      "exercise_title": "Exercise 2.13",
+      "exercise_page": 25,
+      "exercise_technique": "left hand strength",
+      "mp3_filename": "13 - Track 13.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/13%20-%20Track%2013.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_014",
+      "exercise_title": "Exercise 2.14",
+      "exercise_page": 25,
+      "exercise_technique": "left hand strength",
+      "mp3_filename": "14 - Track 14.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/14%20-%20Track%2014.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_015",
+      "exercise_title": "Exercise 2.15 - E major scale",
+      "exercise_page": 26,
+      "exercise_technique": "scales",
+      "mp3_filename": "15 - Track 15.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/15%20-%20Track%2015.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_016",
+      "exercise_title": "E major arpeggio",
+      "exercise_page": 26,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "16 - Track 16.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/16%20-%20Track%2016.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_017",
+      "exercise_title": "Exercise 2.16 - F major scale",
+      "exercise_page": 26,
+      "exercise_technique": "scales",
+      "mp3_filename": "17 - Track 17.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/17%20-%20Track%2017.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_018",
+      "exercise_title": "F major arpeggio",
+      "exercise_page": 26,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "18 - Track 18.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/18%20-%20Track%2018.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_019",
+      "exercise_title": "Exercise 2.17 - F# major scale",
+      "exercise_page": 27,
+      "exercise_technique": "scales",
+      "mp3_filename": "19 - Track 19.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/19%20-%20Track%2019.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_020",
+      "exercise_title": "F# major arpeggio",
+      "exercise_page": 27,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "20 - Track 20.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/20%20-%20Track%2020.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_021",
+      "exercise_title": "Exercise 2.18 - Gb major scale",
+      "exercise_page": 27,
+      "exercise_technique": "scales",
+      "mp3_filename": "21 - Track 21.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/21%20-%20Track%2021.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_022",
+      "exercise_title": "Gb major arpeggio",
+      "exercise_page": 27,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "22 - Track 22.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/22%20-%20Track%2022.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_023",
+      "exercise_title": "Exercise 2.19 - G major scale",
+      "exercise_page": 27,
+      "exercise_technique": "scales",
+      "mp3_filename": "23 - Track 23.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/23%20-%20Track%2023.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_024",
+      "exercise_title": "G major arpeggio",
+      "exercise_page": 28,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "24 - Track 24.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/24%20-%20Track%2024.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_025",
+      "exercise_title": "Exercise 2.20 - Ab major scale",
+      "exercise_page": 28,
+      "exercise_technique": "scales",
+      "mp3_filename": "25 - Track 25.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/25%20-%20Track%2025.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_026",
+      "exercise_title": "Ab major arpeggio",
+      "exercise_page": 28,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "26 - Track 26.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/26%20-%20Track%2026.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_027",
+      "exercise_title": "Exercise 2.21 - A major scale",
+      "exercise_page": 28,
+      "exercise_technique": "scales",
+      "mp3_filename": "27 - Track 27.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/27%20-%20Track%2027.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_028",
+      "exercise_title": "A major arpeggio",
+      "exercise_page": 29,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "28 - Track 28.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/28%20-%20Track%2028.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_029",
+      "exercise_title": "Exercise 2.22 - Bb major scale",
+      "exercise_page": 29,
+      "exercise_technique": "scales",
+      "mp3_filename": "29 - Track 29.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/29%20-%20Track%2029.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_030",
+      "exercise_title": "Bb major arpeggio",
+      "exercise_page": 29,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "30 - Track 30.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/30%20-%20Track%2030.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_031",
+      "exercise_title": "Exercise 2.23 - B major scale",
+      "exercise_page": 29,
+      "exercise_technique": "scales",
+      "mp3_filename": "31 - Track 31.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/31%20-%20Track%2031.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_032",
+      "exercise_title": "B major arpeggio",
+      "exercise_page": 29,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "32 - Track 32.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/32%20-%20Track%2032.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_033",
+      "exercise_title": "Exercise 2.24 - Cb major scale",
+      "exercise_page": 30,
+      "exercise_technique": "scales",
+      "mp3_filename": "33 - Track 33.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/33%20-%20Track%2033.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_034",
+      "exercise_title": "Cb major arpeggio",
+      "exercise_page": 30,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "34 - Track 34.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/34%20-%20Track%2034.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_035",
+      "exercise_title": "Exercise 2.25 - C major scale",
+      "exercise_page": 30,
+      "exercise_technique": "scales",
+      "mp3_filename": "35 - Track 35.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/35%20-%20Track%2035.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_036",
+      "exercise_title": "C major arpeggio",
+      "exercise_page": 30,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "36 - Track 36.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/36%20-%20Track%2036.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_037",
+      "exercise_title": "Exercise 2.26 - C# major scale",
+      "exercise_page": 30,
+      "exercise_technique": "scales",
+      "mp3_filename": "37 - Track 37.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/37%20-%20Track%2037.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_038",
+      "exercise_title": "C# major arpeggio",
+      "exercise_page": 31,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "38 - Track 38.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/38%20-%20Track%2038.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_039",
+      "exercise_title": "Exercise 2.27 - Db major scale",
+      "exercise_page": 31,
+      "exercise_technique": "scales",
+      "mp3_filename": "39 - Track 39.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/39%20-%20Track%2039.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_040",
+      "exercise_title": "Db major arpeggio",
+      "exercise_page": 31,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "40 - Track 40.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/40%20-%20Track%2040.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_041",
+      "exercise_title": "Exercise 2.28 - D major scale",
+      "exercise_page": 31,
+      "exercise_technique": "scales",
+      "mp3_filename": "41 - Track 41.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/41%20-%20Track%2041.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_042",
+      "exercise_title": "D major arpeggio",
+      "exercise_page": 32,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "42 - Track 42.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/42%20-%20Track%2042.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_043",
+      "exercise_title": "Exercise 2.29 - Eb major scale",
+      "exercise_page": 32,
+      "exercise_technique": "scales",
+      "mp3_filename": "43 - Track 43.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/43%20-%20Track%2043.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_044",
+      "exercise_title": "Eb major arpeggio",
+      "exercise_page": 32,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "44 - Track 44.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/44%20-%20Track%2044.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_045",
+      "exercise_title": "Exercise 2.30 - E major scale in thirds",
+      "exercise_page": 32,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "45 - Track 45.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/45%20-%20Track%2045.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_046",
+      "exercise_title": "E major arpeggio",
+      "exercise_page": 33,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "46 - Track 46.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/46%20-%20Track%2046.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_047",
+      "exercise_title": "Exercise 2.31 - F major scale in thirds",
+      "exercise_page": 33,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "47 - Track 47.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/47%20-%20Track%2047.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_048",
+      "exercise_title": "F major arpeggio",
+      "exercise_page": 33,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "48 - Track 48.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/48%20-%20Track%2048.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_049",
+      "exercise_title": "Exercise 2.32 - F# major scale in thirds",
+      "exercise_page": 33,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "49 - Track 49.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/49%20-%20Track%2049.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_050",
+      "exercise_title": "F# major arpeggio",
+      "exercise_page": 33,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "50 - Track 50.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/50%20-%20Track%2050.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_051",
+      "exercise_title": "Exercise 2.33 - Gb major scale in thirds",
+      "exercise_page": 34,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "51 - Track 51.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/51%20-%20Track%2051.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_052",
+      "exercise_title": "Gb major arpeggio",
+      "exercise_page": 34,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "52 - Track 52.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/52%20-%20Track%2052.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_053",
+      "exercise_title": "Exercise 2.34 - G major scale in thirds",
+      "exercise_page": 34,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "53 - Track 53.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/53%20-%20Track%2053.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_054",
+      "exercise_title": "G major arpeggio",
+      "exercise_page": 34,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "54 - Track 54.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/54%20-%20Track%2054.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_055",
+      "exercise_title": "Exercise 2.35 - Ab major scale in thirds",
+      "exercise_page": 34,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "55 - Track 55.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/55%20-%20Track%2055.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_056",
+      "exercise_title": "Ab major arpeggio",
+      "exercise_page": 35,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "56 - Track 56.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/56%20-%20Track%2056.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_057",
+      "exercise_title": "Exercise 2.36 - A major scale in thirds",
+      "exercise_page": 35,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "57 - Track 57.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/57%20-%20Track%2057.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_058",
+      "exercise_title": "A major arpeggio",
+      "exercise_page": 35,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "58 - Track 58.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/58%20-%20Track%2058.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_059",
+      "exercise_title": "Exercise 2.37 - Bb major scale in thirds",
+      "exercise_page": 35,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "59 - Track 59.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/59%20-%20Track%2059.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_060",
+      "exercise_title": "Bb major arpeggio",
+      "exercise_page": 36,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "60 - Track 60.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/60%20-%20Track%2060.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_061",
+      "exercise_title": "Exercise 2.38 - B major scale in thirds",
+      "exercise_page": 36,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "61 - Track 61.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/61%20-%20Track%2061.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_062",
+      "exercise_title": "B major arpeggio",
+      "exercise_page": 36,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "62 - Track 62.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/62%20-%20Track%2062.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_063",
+      "exercise_title": "Exercise 2.39 - Cb major scale in thirds",
+      "exercise_page": 36,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "63 - Track 63.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/63%20-%20Track%2063.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_064",
+      "exercise_title": "Cb major arpeggio",
+      "exercise_page": 36,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "64 - Track 64.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/64%20-%20Track%2064.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_065",
+      "exercise_title": "Exercise 2.40 - C major scale in thirds",
+      "exercise_page": 37,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "65 - Track 65.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/65%20-%20Track%2065.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_066",
+      "exercise_title": "C major arpeggio",
+      "exercise_page": 37,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "66 - Track 66.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/66%20-%20Track%2066.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_067",
+      "exercise_title": "Exercise 2.41 - C# major scale in thirds",
+      "exercise_page": 37,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "67 - Track 67.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/67%20-%20Track%2067.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_068",
+      "exercise_title": "C# major arpeggio",
+      "exercise_page": 37,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "68 - Track 68.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/68%20-%20Track%2068.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_069",
+      "exercise_title": "Exercise 2.42 - Db major scale in thirds",
+      "exercise_page": 37,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "69 - Track 69.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/69%20-%20Track%2069.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_070",
+      "exercise_title": "Db major arpeggio",
+      "exercise_page": 38,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "70 - Track 70.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/70%20-%20Track%2070.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_071",
+      "exercise_title": "Exercise 2.43 - D major scale in thirds",
+      "exercise_page": 38,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "71 - Track 71.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/71%20-%20Track%2071.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_072",
+      "exercise_title": "D major arpeggio",
+      "exercise_page": 38,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "72 - Track 72.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/72%20-%20Track%2072.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_073",
+      "exercise_title": "Exercise 2.44 - Eb major scale in thirds",
+      "exercise_page": 38,
+      "exercise_technique": "scales in intervals",
+      "mp3_filename": "73 - Track 73.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/73%20-%20Track%2073.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_074",
+      "exercise_title": "Eb major arpeggio",
+      "exercise_page": 38,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "74 - Track 74.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/74%20-%20Track%2074.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_075",
+      "exercise_title": "Exercise 2.45 - E major variations",
+      "exercise_page": 39,
+      "exercise_technique": "scale variations",
+      "mp3_filename": "75 - Track 75.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/75%20-%20Track%2075.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_076",
+      "exercise_title": "E major arpeggio",
+      "exercise_page": 40,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "76 - Track 76.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/76%20-%20Track%2076.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_077",
+      "exercise_title": "Exercise 2.46 - E major variations",
+      "exercise_page": 40,
+      "exercise_technique": "scale variations",
+      "mp3_filename": "77 - Track 77.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/77%20-%20Track%2077.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_078",
+      "exercise_title": "E major arpeggio",
+      "exercise_page": 41,
+      "exercise_technique": "arpeggios",
+      "mp3_filename": "78 - Track 78.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/78%20-%20Track%2078.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_079",
+      "exercise_title": "Exercise 2.47 - E major",
+      "exercise_page": 41,
+      "exercise_technique": "triplets",
+      "mp3_filename": "79 - Track 79.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/79%20-%20Track%2079.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_080",
+      "exercise_title": "E major arpeggio",
+      "exercise_page": 41,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "80 - Track 80.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/80%20-%20Track%2080.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_081",
+      "exercise_title": "Exercise 2.48 - F major",
+      "exercise_page": 41,
+      "exercise_technique": "triplets",
+      "mp3_filename": "81 - Track 81.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/81%20-%20Track%2081.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_082",
+      "exercise_title": "F major arpeggio",
+      "exercise_page": 42,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "82 - Track 82.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/82%20-%20Track%2082.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_083",
+      "exercise_title": "Exercise 2.49 - F# major",
+      "exercise_page": 42,
+      "exercise_technique": "triplets",
+      "mp3_filename": "83 - Track 83.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/83%20-%20Track%2083.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_084",
+      "exercise_title": "F# major arpeggio",
+      "exercise_page": 42,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "84 - Track 84.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/84%20-%20Track%2084.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_085",
+      "exercise_title": "Exercise 2.50 - Gb major",
+      "exercise_page": 42,
+      "exercise_technique": "triplets",
+      "mp3_filename": "85 - Track 85.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/85%20-%20Track%2085.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_086",
+      "exercise_title": "Gb major arpeggio",
+      "exercise_page": 42,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "86 - Track 86.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/86%20-%20Track%2086.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_087",
+      "exercise_title": "Exercise 2.51 - G major",
+      "exercise_page": 42,
+      "exercise_technique": "triplets",
+      "mp3_filename": "87 - Track 87.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/87%20-%20Track%2087.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_088",
+      "exercise_title": "G major arpeggio",
+      "exercise_page": 42,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "88 - Track 88.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/88%20-%20Track%2088.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_089",
+      "exercise_title": "Exercise 2.52 - Ab major",
+      "exercise_page": 43,
+      "exercise_technique": "triplets",
+      "mp3_filename": "89 - Track 89.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/89%20-%20Track%2089.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_090",
+      "exercise_title": "Ab major arpeggio",
+      "exercise_page": 43,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "90 - Track 90.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/90%20-%20Track%2090.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_091",
+      "exercise_title": "Exercise 2.53 - A major",
+      "exercise_page": 43,
+      "exercise_technique": "triplets",
+      "mp3_filename": "91 - Track 91.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/91%20-%20Track%2091.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_092",
+      "exercise_title": "A major arpeggio",
+      "exercise_page": 43,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "92 - Track 92.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/92%20-%20Track%2092.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_093",
+      "exercise_title": "Exercise 2.54 - Bb major",
+      "exercise_page": 43,
+      "exercise_technique": "triplets",
+      "mp3_filename": "93 - Track 93.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/93%20-%20Track%2093.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_094",
+      "exercise_title": "Bb major arpeggio",
+      "exercise_page": 43,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "94 - Track 94.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/94%20-%20Track%2094.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_095",
+      "exercise_title": "Exercise 2.55 - B major",
+      "exercise_page": 43,
+      "exercise_technique": "triplets",
+      "mp3_filename": "95 - Track 95.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/95%20-%20Track%2095.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_096",
+      "exercise_title": "B major arpeggio",
+      "exercise_page": 44,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "96 - Track 96.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/96%20-%20Track%2096.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_097",
+      "exercise_title": "Exercise 2.56 - Cb major",
+      "exercise_page": 44,
+      "exercise_technique": "triplets",
+      "mp3_filename": "97 - Track 97.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/97%20-%20Track%2097.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_098",
+      "exercise_title": "Cb major arpeggio",
+      "exercise_page": 44,
+      "exercise_technique": "arpeggios in triplets",
+      "mp3_filename": "98 - Track 98.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/98%20-%20Track%2098.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
+    },
+    {
+      "exercise_id": "Jon Liebman - Funk Fusion Bass_v4.0_099",
+      "exercise_title": "Exercise 2.57 - C major scale",
+      "exercise_page": 44,
+      "exercise_technique": "triplets",
+      "mp3_filename": "99 - Track 99.mp3",
+      "mp3_url": "https://11drumboy11.github.io/Prof-de-basse-V2/Base%20de%20connaissances/MP3/Jon%20Liebman%20Funk%20Fusion%20Mp3/99%20-%20Track%2099.mp3",
+      "method": "Jon Liebman - Funk Fusion Bass_v4.0",
+      "confidence": 0.95
     },
     {
       "exercise_id": "Paul westwood 1-2_v4.0_156",
