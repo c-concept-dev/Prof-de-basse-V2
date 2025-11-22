@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traducteur de Prompts - Constrained Prompting</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .panel {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.7em;
+            font-weight: bold;
+        }
+
+        .badge-input {
+            background: #ffd93d;
+            color: #333;
+        }
+
+        .badge-output {
+            background: #6bcf7f;
+            color: white;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 400px;
+            padding: 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            resize: vertical;
+            transition: all 0.3s ease;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        #inputPrompt {
+            background: #fffef7;
+        }
+
+        #outputPrompt {
+            background: #f0f9ff;
+        }
+
+        .button-container {
+            grid-column: 1 / -1;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-translate {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-translate:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-copy {
+            background: #6bcf7f;
+            color: white;
+        }
+
+        .btn-copy:hover {
+            background: #5ab86d;
+            transform: translateY(-2px);
+        }
+
+        .btn-clear {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .btn-clear:hover {
+            background: #ee5a52;
+            transform: translateY(-2px);
+        }
+
+        .stats {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .info-box {
+            grid-column: 1 / -1;
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .info-box h3 {
+            color: #1976D2;
+            margin-bottom: 10px;
+        }
+
+        .info-box ul {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        .info-box li {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .button-container {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        .tooltip {
+            position: fixed;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1000;
+        }
+
+        .tooltip.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Traducteur de Prompts</h1>
+            <p>Transformez vos prompts basiques en instructions ultra-cadrées pour ChatGPT</p>
+        </div>
+
+        <div class="main-content">
+            <div class="info-box">
+                <h3>📌 Comment ça marche ?</h3>
+                <ul>
+                    <li>Collez votre prompt normal dans la zone de gauche</li>
+                    <li>Cliquez sur "Traduire le Prompt"</li>
+                    <li>Récupérez votre prompt optimisé à droite, prêt à coller dans ChatGPT</li>
+                    <li>Le prompt traduit inclut : rôle, objectif, contraintes, format, interdictions et validation</li>
+                </ul>
+            </div>
+
+            <div class="panel">
+                <h2>
+                    <span class="badge badge-input">ENTRÉE</span>
+                    Prompt Normal
+                </h2>
+                <textarea 
+                    id="inputPrompt" 
+                    placeholder="Collez votre prompt normal ici...&#10;&#10;Exemple :&#10;Écris-moi un article sur la basse électrique"
+                ></textarea>
+            </div>
+
+            <div class="panel">
+                <h2>
+                    <span class="badge badge-output">SORTIE</span>
+                    Prompt Optimisé
+                </h2>
+                <textarea 
+                    id="outputPrompt" 
+                    readonly
+                    placeholder="Votre prompt optimisé apparaîtra ici..."
+                ></textarea>
+            </div>
+
+            <div class="button-container">
+                <button class="btn-translate" onclick="translatePrompt()">
+                    ⚡ Traduire le Prompt
+                </button>
+                <button class="btn-copy" onclick="copyToClipboard()">
+                    📋 Copier le Résultat
+                </button>
+                <button class="btn-clear" onclick="clearAll()">
+                    🗑️ Effacer Tout
+                </button>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="inputWords">0</div>
+                    <div class="stat-label">Mots (entrée)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="outputWords">0</div>
+                    <div class="stat-label">Mots (sortie)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="compressionRatio">0%</div>
+                    <div class="stat-label">Expansion</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        // Fonction pour compter les mots
+        function countWords(text) {
+            return text.trim().split(/\s+/).filter(word => word.length > 0).length;
+        }
+
+        // Mise à jour des statistiques
+        function updateStats() {
+            const input = document.getElementById('inputPrompt').value;
+            const output = document.getElementById('outputPrompt').value;
+            
+            const inputCount = countWords(input);
+            const outputCount = countWords(output);
+            
+            document.getElementById('inputWords').textContent = inputCount;
+            document.getElementById('outputWords').textContent = outputCount;
+            
+            if (inputCount > 0) {
+                const ratio = Math.round((outputCount / inputCount) * 100);
+                document.getElementById('compressionRatio').textContent = ratio + '%';
+            } else {
+                document.getElementById('compressionRatio').textContent = '0%';
+            }
+        }
+
+        // Fonction principale de traduction
+        function translatePrompt() {
+            const input = document.getElementById('inputPrompt').value.trim();
+            
+            if (!input) {
+                alert('⚠️ Veuillez entrer un prompt à traduire !');
+                return;
+            }
+
+            // Analyse du prompt pour détecter le type de tâche
+            const taskType = detectTaskType(input);
+            const constraints = generateConstraints(input, taskType);
+            
+            const translatedPrompt = `# RÔLE
+${constraints.role}
+
+# OBJECTIF
+${constraints.objective}
+
+# CONTRAINTES OBLIGATOIRES
+${constraints.constraints}
+
+# FORMAT DE SORTIE IMPOSÉ
+${constraints.format}
+
+# INTERDICTIONS ABSOLUES
+${constraints.prohibitions}
+
+# VALIDATION AVANT ENVOI
+Avant de répondre, vérifie :
+${constraints.validation}
+
+# RÈGLE ANTI-PROCRASTINATION
+Tu NE DOIS PAS :
+- Demander des précisions supplémentaires
+- Proposer plusieurs versions
+- Suggérer des alternatives
+- Expliquer ta démarche
+
+Tu DOIS :
+- Produire directement le contenu demandé
+- Respecter TOUTES les contraintes
+- Livrer un résultat final et complet
+
+---
+
+PROMPT ORIGINAL À EXÉCUTER :
+${input}`;
+
+            document.getElementById('outputPrompt').value = translatedPrompt;
+            updateStats();
+            
+            // Animation de succès
+            const outputArea = document.getElementById('outputPrompt');
+            outputArea.style.borderColor = '#6bcf7f';
+            setTimeout(() => {
+                outputArea.style.borderColor = '#e0e0e0';
+            }, 1000);
+        }
+
+        // Détection du type de tâche
+        function detectTaskType(prompt) {
+            const lower = prompt.toLowerCase();
+            
+            if (lower.includes('écris') || lower.includes('rédige') || lower.includes('article') || lower.includes('texte')) {
+                return 'writing';
+            } else if (lower.includes('analyse') || lower.includes('étudie') || lower.includes('examine')) {
+                return 'analysis';
+            } else if (lower.includes('crée') || lower.includes('génère') || lower.includes('conçois')) {
+                return 'creation';
+            } else if (lower.includes('explique') || lower.includes('décris') || lower.includes('présente')) {
+                return 'explanation';
+            } else if (lower.includes('liste') || lower.includes('énumère') || lower.includes('donne')) {
+                return 'listing';
+            } else if (lower.includes('traduis') || lower.includes('convertis') || lower.includes('transforme')) {
+                return 'transformation';
+            } else if (lower.includes('résume') || lower.includes('synthétise')) {
+                return 'summary';
+            } else if (lower.includes('code') || lower.includes('programme') || lower.includes('script')) {
+                return 'coding';
+            }
+            
+            return 'general';
+        }
+
+        // Génération des contraintes selon le type
+        function generateConstraints(prompt, taskType) {
+            const constraints = {
+                role: '',
+                objective: '',
+                constraints: '',
+                format: '',
+                prohibitions: '',
+                validation: ''
+            };
+
+            switch(taskType) {
+                case 'writing':
+                    constraints.role = "Tu es un rédacteur expert spécialisé dans la création de contenu de qualité.";
+                    constraints.objective = "Produire un texte complet et structuré répondant exactement à la demande.";
+                    constraints.constraints = `- Longueur : Minimum 500 mots (sauf indication contraire)
+- Ton : Professionnel et engageant
+- Structure : Introduction, développement, conclusion
+- Public cible : Grand public informé
+- Style : Clair, fluide, sans jargon excessif`;
+                    constraints.format = `1. Introduction captivante (15% du texte)
+2. Développement structuré en sections logiques (70% du texte)
+3. Conclusion avec ouverture (15% du texte)
+
+Chaque section DOIT contenir :
+- Un sous-titre explicite
+- Des exemples concrets
+- Des transitions fluides`;
+                    constraints.prohibitions = `❌ Ne pas utiliser de phrases génériques ou clichés
+❌ Ne pas répéter les mêmes idées
+❌ Ne pas donner d'opinions sans les justifier
+❌ Ne pas faire de fautes d'orthographe
+❌ Ne pas proposer de plan sans le développer`;
+                    constraints.validation = `- [ ] Le texte fait au moins 500 mots
+- [ ] La structure est respectée
+- [ ] Chaque section a des exemples
+- [ ] Le ton est cohérent du début à la fin
+- [ ] Aucune phrase générique type "en conclusion..."`;
+                    break;
+
+                case 'analysis':
+                    constraints.role = "Tu es un analyste expert capable de décomposer et examiner en profondeur tout sujet.";
+                    constraints.objective = "Fournir une analyse complète, structurée et factuelle.";
+                    constraints.constraints = `- Profondeur : Analyse détaillée avec au moins 3 niveaux de profondeur
+- Approche : Objective et factuelle
+- Sources : Mentionner les aspects analysés
+- Clarté : Utiliser des exemples concrets`;
+                    constraints.format = `1. CONTEXTE (10% de l'analyse)
+2. ANALYSE PRINCIPALE (60% de l'analyse)
+   - Aspect 1 : [détails]
+   - Aspect 2 : [détails]
+   - Aspect 3 : [détails]
+3. SYNTHÈSE (20% de l'analyse)
+4. IMPLICATIONS (10% de l'analyse)`;
+                    constraints.prohibitions = `❌ Ne pas rester en surface
+❌ Ne pas donner d'opinions non étayées
+❌ Ne pas ignorer les nuances
+❌ Ne pas utiliser de formules vagues
+❌ Ne pas proposer d'analyse sans exemples`;
+                    constraints.validation = `- [ ] Au moins 3 aspects différents sont analysés
+- [ ] Chaque point est détaillé et documenté
+- [ ] Des exemples concrets sont fournis
+- [ ] La synthèse reprend les points clés
+- [ ] Les implications sont claires`;
+                    break;
+
+                case 'creation':
+                    constraints.role = "Tu es un créateur expert capable de concevoir des solutions originales et fonctionnelles.";
+                    constraints.objective = "Créer un élément complet et utilisable immédiatement.";
+                    constraints.constraints = `- Originalité : Solution unique et créative
+- Fonctionnalité : Directement utilisable
+- Qualité : Professionnel et soigné
+- Détails : Tous les éléments nécessaires inclus`;
+                    constraints.format = `Livrer la création finale avec :
+1. Le résultat principal (prêt à l'emploi)
+2. Les spécifications techniques si applicable
+3. Les instructions d'utilisation si nécessaire
+4. Les variantes possibles (optionnel)`;
+                    constraints.prohibitions = `❌ Ne pas livrer de brouillon ou d'ébauche
+❌ Ne pas demander des clarifications inutiles
+❌ Ne pas proposer sans produire
+❌ Ne pas oublier d'éléments essentiels`;
+                    constraints.validation = `- [ ] La création est complète et finale
+- [ ] Elle est directement utilisable
+- [ ] Tous les détails sont présents
+- [ ] La qualité est professionnelle`;
+                    break;
+
+                case 'explanation':
+                    constraints.role = "Tu es un pédagogue expert capable d'expliquer clairement des concepts complexes.";
+                    constraints.objective = "Expliquer de manière claire, progressive et complète.";
+                    constraints.constraints = `- Clarté : Langage accessible sans simplification excessive
+- Progression : Du simple au complexe
+- Exemples : Au moins 2 exemples concrets par concept
+- Pédagogie : Analogies et métaphores pertinentes`;
+                    constraints.format = `1. INTRODUCTION : Présentation du concept (10%)
+2. EXPLICATION DE BASE : Fondamentaux (30%)
+3. APPROFONDISSEMENT : Détails et nuances (40%)
+4. EXEMPLES PRATIQUES : Applications concrètes (20%)`;
+                    constraints.prohibitions = `❌ Ne pas utiliser de jargon sans l'expliquer
+❌ Ne pas sauter des étapes logiques
+❌ Ne pas donner d'exemples trop complexes
+❌ Ne pas rester abstrait`;
+                    constraints.validation = `- [ ] Le concept est défini clairement
+- [ ] La progression est logique
+- [ ] Au moins 2 exemples concrets sont donnés
+- [ ] Les termes techniques sont expliqués`;
+                    break;
+
+                case 'listing':
+                    constraints.role = "Tu es un expert en organisation et catégorisation d'informations.";
+                    constraints.objective = "Fournir une liste complète, structurée et exploitable.";
+                    constraints.constraints = `- Exhaustivité : Couvrir tous les aspects pertinents
+- Organisation : Ordre logique (priorité, catégorie, alphabétique)
+- Détails : Chaque élément doit être décrit
+- Minimum : Au moins 8-10 éléments sauf indication contraire`;
+                    constraints.format = `Pour chaque élément de la liste :
+- Titre/Nom clair
+- Description courte (1-2 phrases)
+- Caractéristique distinctive
+- Utilité/Application si pertinent`;
+                    constraints.prohibitions = `❌ Ne pas donner une liste sans descriptions
+❌ Ne pas lister moins de 5 éléments sans raison
+❌ Ne pas mélanger différents types d'éléments
+❌ Ne pas oublier les éléments évidents`;
+                    constraints.validation = `- [ ] Au moins 8 éléments sont listés
+- [ ] Chaque élément a une description
+- [ ] L'ordre est logique
+- [ ] La liste est exploitable directement`;
+                    break;
+
+                case 'transformation':
+                    constraints.role = "Tu es un expert en transformation et conversion de contenus.";
+                    constraints.objective = "Transformer le contenu source en respectant strictement le format cible.";
+                    constraints.constraints = `- Fidélité : Conserver le sens original
+- Format : Respecter scrupuleusement le format demandé
+- Qualité : Résultat professionnel et soigné
+- Complétude : Ne rien omettre du contenu source`;
+                    constraints.format = `Livrer uniquement le résultat transformé, sans :
+- Explications préliminaires
+- Commentaires sur le processus
+- Notes ou remarques additionnelles
+- Propositions d'alternatives`;
+                    constraints.prohibitions = `❌ Ne pas ajouter d'éléments non demandés
+❌ Ne pas omettre des parties du contenu source
+❌ Ne pas dévier du format cible
+❌ Ne pas expliquer la transformation`;
+                    constraints.validation = `- [ ] Le format cible est strictement respecté
+- [ ] Aucune information source n'est omise
+- [ ] Le sens original est préservé
+- [ ] Aucun élément superflu n'est ajouté`;
+                    break;
+
+                case 'summary':
+                    constraints.role = "Tu es un expert en synthèse et condensation d'informations.";
+                    constraints.objective = "Produire un résumé fidèle, concis et structuré.";
+                    constraints.constraints = `- Longueur : Maximum 30% du texte original
+- Fidélité : Conserver toutes les idées principales
+- Structure : Hiérarchiser les informations
+- Clarté : Reformulation claire sans perte de sens`;
+                    constraints.format = `1. Idée principale (1 phrase)
+2. Points clés (3-5 bullets maximum)
+3. Conclusion/Implication (1 phrase)
+
+Total : Maximum 150 mots pour un texte source de 500 mots`;
+                    constraints.prohibitions = `❌ Ne pas dépasser 30% de la longueur originale
+❌ Ne pas ajouter d'interprétations personnelles
+❌ Ne pas omettre des points importants
+❌ Ne pas paraphraser inutilement`;
+                    constraints.validation = `- [ ] Le résumé fait moins de 30% de l'original
+- [ ] Toutes les idées principales sont présentes
+- [ ] La structure est claire
+- [ ] Aucune information erronée n'est ajoutée`;
+                    break;
+
+                case 'coding':
+                    constraints.role = "Tu es un développeur expert maîtrisant les meilleures pratiques de programmation.";
+                    constraints.objective = "Produire du code fonctionnel, propre et documenté.";
+                    constraints.constraints = `- Fonctionnalité : Le code doit fonctionner immédiatement
+- Qualité : Code propre, lisible, commenté
+- Bonnes pratiques : Conventions du langage respectées
+- Sécurité : Pas de failles évidentes`;
+                    constraints.format = `1. Code complet et fonctionnel
+2. Commentaires explicatifs pour les parties complexes
+3. Exemple d'utilisation si pertinent
+4. Dépendances nécessaires (si applicable)`;
+                    constraints.prohibitions = `❌ Ne pas livrer de code incomplet ou avec des TODO
+❌ Ne pas ignorer les cas d'erreur évidents
+❌ Ne pas utiliser de mauvaises pratiques
+❌ Ne pas oublier les imports/dépendances`;
+                    constraints.validation = `- [ ] Le code est complet et exécutable
+- [ ] Les commentaires sont présents
+- [ ] Les bonnes pratiques sont respectées
+- [ ] Les cas d'erreur sont gérés`;
+                    break;
+
+                default:
+                    constraints.role = "Tu es un assistant expert dans la tâche demandée.";
+                    constraints.objective = "Accomplir la tâche demandée de manière complète et professionnelle.";
+                    constraints.constraints = `- Qualité : Résultat professionnel et soigné
+- Complétude : Répondre à tous les aspects de la demande
+- Clarté : Communication claire et structurée
+- Précision : Informations exactes et vérifiables`;
+                    constraints.format = `Structurer la réponse de manière logique avec :
+1. Réponse directe à la demande
+2. Développement et détails
+3. Exemples ou illustrations si pertinent`;
+                    constraints.prohibitions = `❌ Ne pas rester vague ou générique
+❌ Ne pas ignorer des aspects de la demande
+❌ Ne pas donner d'informations non vérifiées
+❌ Ne pas proposer sans exécuter`;
+                    constraints.validation = `- [ ] La demande est entièrement traitée
+- [ ] La réponse est structurée
+- [ ] Les informations sont précises
+- [ ] Le résultat est exploitable`;
+            }
+
+            return constraints;
+        }
+
+        // Copier dans le presse-papier
+        function copyToClipboard() {
+            const output = document.getElementById('outputPrompt');
+            
+            if (!output.value) {
+                alert('⚠️ Aucun texte à copier ! Traduisez d\'abord un prompt.');
+                return;
+            }
+            
+            output.select();
+            document.execCommand('copy');
+            
+            // Animation de confirmation
+            const btn = event.target;
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '✅ Copié !';
+            btn.style.background = '#4caf50';
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.style.background = '#6bcf7f';
+            }, 2000);
+        }
+
+        // Effacer tout
+        function clearAll() {
+            if (confirm('Êtes-vous sûr de vouloir tout effacer ?')) {
+                document.getElementById('inputPrompt').value = '';
+                document.getElementById('outputPrompt').value = '';
+                updateStats();
+            }
+        }
+
+        // Mise à jour automatique des stats
+        document.getElementById('inputPrompt').addEventListener('input', updateStats);
+        document.getElementById('outputPrompt').addEventListener('input', updateStats);
+
+        // Raccourci clavier : Ctrl+Enter pour traduire
+        document.getElementById('inputPrompt').addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                translatePrompt();
+            }
+        });
+
+        // Initialisation
+        updateStats();
+    </script>
+</body>
+</html>
